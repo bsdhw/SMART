@@ -1,0 +1,194 @@
+smartctl 7.1 2019-12-30 r5022 [i386-unknown-openbsd6.7] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     HTC426060G9AT00
+Serial Number:    --
+Firmware Version: 00P3A0B5
+User Capacity:    60,011,642,880 bytes [60.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        Not in smartctl database [for details use: -P showall]
+ATA Version is:   ATA/ATAPI-6 T13/1410D revision 3a
+Local Time is:    Mon May 25 17:03:27 2020 MSK
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+See vendor-specific Attribute list for marginal Attributes.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (  73)	The previous self-test completed having
+					a test element that failed and the test
+					element that failed is not known.
+Total time to complete Offline 
+data collection: 		( 3260) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  55) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000d   100   100   050    Pre-fail  Offline      -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0007   100   100   050    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   094   094   000    Old_age   Always       -       6029
+  5 Reallocated_Sector_Ct   0x0033   001   001   010    Pre-fail  Always   FAILING_NOW 2020
+  7 Seek_Error_Rate         0x000f   100   100   050    Pre-fail  Always       -       524
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   064   064   000    Old_age   Always       -       1090804
+ 10 Spin_Retry_Count        0x0013   100   100   050    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   096   096   000    Old_age   Always       -       4562
+191 G-Sense_Error_Rate      0x000a   100   078   000    Old_age   Always       -       4294967295
+192 Power-Off_Retract_Count 0x0032   099   099   000    Old_age   Always       -       725
+193 Load_Cycle_Count        0x0032   080   080   000    Old_age   Always       -       2031016336312
+194 Temperature_Celsius     0x0022   100   062   000    Old_age   Always       -       39 (Min/Max 11/59)
+195 Hardware_ECC_Recovered  0x001a   100   001   000    Old_age   Always       -       19206
+196 Reallocated_Event_Count 0x0032   001   001   000    Old_age   Always       -       2020
+197 Current_Pending_Sector  0x0032   075   001   000    Old_age   Always       -       25
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0013   100   100   050    Pre-fail  Always       -       0
+201 Soft_Read_Error_Rate    0x0012   087   087   000    Old_age   Always       -       136
+223 Load_Retry_Count        0x0012   100   100   000    Old_age   Always       -       0
+230 Head_Amplitude          0x0032   067   067   000    Old_age   Always       -       1001351
+250 Read_Error_Retry_Rate   0x000a   100   001   000    Old_age   Always       -       995
+
+SMART Error Log Version: 1
+ATA Error Count: 35803 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 35803 occurred at disk power-on lifetime: 18159 hours (756 days + 15 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 04 d4 c0 83 e0  Error: UNC 4 sectors at LBA = 0x0083c0d4 = 8634580
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 d0 c0 83 e0 00      01:33:44.630  READ DMA
+  e5 00 00 00 00 00 00 00      01:33:44.630  CHECK POWER MODE
+  ca 00 08 70 81 17 e4 00      01:33:44.620  WRITE DMA
+  ca 00 08 00 80 0f e4 00      01:33:44.610  WRITE DMA
+  ca 00 08 18 02 90 e3 00      01:33:44.600  WRITE DMA
+
+Error 35802 occurred at disk power-on lifetime: 18159 hours (756 days + 15 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 04 d4 c0 83 e0  Error: UNC 4 sectors at LBA = 0x0083c0d4 = 8634580
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 d0 c0 83 e0 00      01:33:41.730  READ DMA
+  c8 00 08 c8 c0 83 e0 00      01:33:41.730  READ DMA
+  c8 00 08 c0 c0 83 e0 00      01:33:41.730  READ DMA
+  c8 00 08 b8 c0 83 e0 00      01:33:41.730  READ DMA
+  c8 00 08 b0 c0 83 e0 00      01:33:41.730  READ DMA
+
+Error 35801 occurred at disk power-on lifetime: 18159 hours (756 days + 15 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 f8 41 62 e0  Error: UNC 8 sectors at LBA = 0x006241f8 = 6439416
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 f8 41 62 e0 00      01:33:30.980  READ DMA
+  e5 00 00 00 00 00 00 00      01:33:30.980  CHECK POWER MODE
+  f8 00 00 00 00 00 e0 00      01:33:30.980  READ NATIVE MAX ADDRESS [OBS-ACS-3]
+  ec 00 00 00 00 00 a0 00      01:33:30.980  IDENTIFY DEVICE
+  ef 03 45 00 00 00 a0 00      01:33:30.980  SET FEATURES [Set transfer mode]
+
+Error 35800 occurred at disk power-on lifetime: 18159 hours (756 days + 15 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 f8 41 62 e0  Error: UNC 8 sectors at LBA = 0x006241f8 = 6439416
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 f8 41 62 e0 00      01:33:28.230  READ DMA
+  c8 00 08 f0 41 62 e0 00      01:33:28.230  READ DMA
+  c8 00 08 e8 41 62 e0 00      01:33:28.230  READ DMA
+  c8 00 08 e0 41 62 e0 00      01:33:28.230  READ DMA
+  c8 00 08 d8 41 62 e0 00      01:33:28.230  READ DMA
+
+Error 35799 occurred at disk power-on lifetime: 18159 hours (756 days + 15 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 03 75 32 62 e0  Error: UNC 3 sectors at LBA = 0x00623275 = 6435445
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 70 32 62 e0 00      01:33:23.960  READ DMA
+  c8 00 08 68 32 62 e0 00      01:33:23.960  READ DMA
+  c8 00 08 60 32 62 e0 00      01:33:23.950  READ DMA
+  c8 00 08 58 32 62 e0 00      01:33:23.950  READ DMA
+  c8 00 08 50 32 62 e0 00      01:33:23.950  READ DMA
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed: unknown failure    90%     17415         0
+# 2  Short offline       Completed: unknown failure    90%     17147         0
+# 3  Short offline       Completed: unknown failure    90%     17147         0
+# 4  Extended offline    Completed: unknown failure    90%     17147         0
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

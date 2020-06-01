@@ -1,0 +1,198 @@
+smartctl 7.1 2019-12-30 r5022 [i386-unknown-openbsd6.7] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Hitachi Deskstar 7K1000.C
+Device Model:     HDS721010CLA332
+Serial Number:    --
+LU WWN Device Id: 5 000cca ...
+Firmware Version: JP4OA3MA
+User Capacity:    1,000,204,886,016 bytes [1.00 TB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    7200 rpm
+Form Factor:      3.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA8-ACS T13/1699-D revision 4
+SATA Version is:  SATA 2.6, 3.0 Gb/s
+Local Time is:    Mon May 25 16:25:48 2020 MSK
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x80)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(10517) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 ( 175) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   094   094   016    Pre-fail  Always       -       786448
+  2 Throughput_Performance  0x0005   135   135   054    Pre-fail  Offline      -       97
+  3 Spin_Up_Time            0x0007   120   120   024    Pre-fail  Always       -       315 (Average 315)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       395
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       106
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   140   140   020    Pre-fail  Offline      -       30
+  9 Power_On_Hours          0x0012   095   095   000    Old_age   Always       -       36284
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       388
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       395
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       395
+194 Temperature_Celsius     0x0002   222   222   000    Old_age   Always       -       27 (Min/Max 19/59)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       109
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+ATA Error Count: 2327 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 2327 occurred at disk power-on lifetime: 35833 hours (1493 days + 1 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 01 03 68 44 00  Error: UNC 1 sectors at LBA = 0x00446803 = 4483075
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 01 03 68 44 e0 08  15d+21:37:03.784  READ DMA
+  c8 00 01 02 68 44 e0 08  15d+21:37:03.740  READ DMA
+  c8 00 01 01 68 44 e0 08  15d+21:37:03.738  READ DMA
+  c8 00 01 00 68 44 e0 08  15d+21:37:03.643  READ DMA
+  27 00 00 00 00 00 e0 08  15d+21:37:03.641  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 2326 occurred at disk power-on lifetime: 35833 hours (1493 days + 1 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 fd 03 68 44 00  Error: UNC 253 sectors at LBA = 0x00446803 = 4483075
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 00 00 68 44 e0 08  15d+21:36:45.378  READ DMA EXT
+  25 00 00 00 66 44 e0 08  15d+21:36:45.368  READ DMA EXT
+  25 00 00 00 64 44 e0 08  15d+21:36:45.350  READ DMA EXT
+  25 00 00 00 62 44 e0 08  15d+21:36:45.340  READ DMA EXT
+  25 00 00 00 60 44 e0 08  15d+21:36:45.331  READ DMA EXT
+
+Error 2325 occurred at disk power-on lifetime: 35833 hours (1493 days + 1 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 01 ce c9 42 00  Error: UNC 1 sectors at LBA = 0x0042c9ce = 4377038
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 01 ce c9 42 e0 08  15d+21:34:12.207  READ DMA
+  c8 00 01 cd c9 42 e0 08  15d+21:34:12.206  READ DMA
+  c8 00 01 cc c9 42 e0 08  15d+21:34:12.205  READ DMA
+  c8 00 01 cb c9 42 e0 08  15d+21:34:12.204  READ DMA
+  c8 00 01 ca c9 42 e0 08  15d+21:34:12.203  READ DMA
+
+Error 2324 occurred at disk power-on lifetime: 35833 hours (1493 days + 1 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 32 ce c9 42 00  Error: UNC 50 sectors at LBA = 0x0042c9ce = 4377038
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 00 00 c8 42 e0 08  15d+21:33:53.508  READ DMA EXT
+  25 00 00 00 c6 42 e0 08  15d+21:33:53.491  READ DMA EXT
+  25 00 00 00 c4 42 e0 08  15d+21:33:53.481  READ DMA EXT
+  25 00 00 00 c2 42 e0 08  15d+21:33:53.472  READ DMA EXT
+  25 00 00 00 c0 42 e0 08  15d+21:33:53.309  READ DMA EXT
+
+Error 2323 occurred at disk power-on lifetime: 35833 hours (1493 days + 1 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 01 03 68 44 00  Error: UNC 1 sectors at LBA = 0x00446803 = 4483075
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 01 03 68 44 e0 08  15d+20:19:15.685  READ DMA
+  c8 00 01 02 68 44 e0 08  15d+20:19:15.641  READ DMA
+  c8 00 01 01 68 44 e0 08  15d+20:19:15.639  READ DMA
+  c8 00 01 00 68 44 e0 08  15d+20:19:15.542  READ DMA
+  27 00 00 00 00 00 e0 08  15d+20:19:15.539  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Extended offline    Completed without error       00%     36120         -
+# 2  Extended offline    Completed without error       00%     35999         -
+# 3  Extended offline    Completed without error       00%     35945         -
+# 4  Short offline       Completed without error       00%     35919         -
+# 5  Extended offline    Completed without error       00%     35860         -
+# 6  Extended offline    Interrupted (host reset)      90%     35857         -
+# 7  Short offline       Completed without error       00%     35841         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

@@ -1,0 +1,145 @@
+smartctl 5.40 2010-10-16 r3189 [FreeBSD 7.4-RELEASE amd64] (local build)
+Copyright (C) 2002-10 by Bruce Allen, http://smartmontools.sourceforge.net
+
+=== START OF INFORMATION SECTION ===
+Device Model:     OCZ-AGILITY3
+Serial Number:    --
+Firmware Version: 2.25
+User Capacity:    120,034,123,776 bytes
+Device is:        Not in smartctl database [for details use: -P showall]
+ATA Version is:   8
+ATA Standard is:  Not recognized. Minor revision code: 0x0110
+Local Time is:    Thu May 14 20:23:07 2020 CET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		 (   0) seconds.
+Offline data collection
+capabilities: 			 (0x7b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  48) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   2) minutes.
+SCT capabilities: 	       (0x0021)	SCT Status supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   120   120   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   003    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   042   042   000    Old_age   Always       -       210058260563646
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       676
+171 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       0
+172 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       0
+174 Unknown_Attribute       0x0030   000   000   000    Old_age   Offline      -       143
+177 Wear_Leveling_Count     0x0000   000   000   000    Old_age   Offline      -       0
+181 Program_Fail_Cnt_Total  0x0032   000   000   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   000   000   000    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   128   129   000    Old_age   Always       -       128 (Min/Max 127/129)
+195 Hardware_ECC_Recovered  0x001c   100   100   000    Old_age   Offline      -       0
+196 Reallocated_Event_Count 0x0033   100   100   003    Pre-fail  Always       -       0
+201 Soft_Read_Error_Rate    0x001c   100   100   000    Old_age   Offline      -       0
+204 Soft_ECC_Correction     0x001c   100   100   000    Old_age   Offline      -       0
+230 Head_Amplitude          0x0013   100   100   000    Pre-fail  Always       -       100
+231 Temperature_Celsius     0x0013   100   100   010    Pre-fail  Always       -       0
+233 Media_Wearout_Indicator 0x0000   000   000   000    Old_age   Offline      -       987
+234 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       1249
+241 Total_LBAs_Written      0x0032   000   000   000    Old_age   Always       -       1249
+242 Total_LBAs_Read         0x0032   000   000   000    Old_age   Always       -       1383
+
+General Purpose Logging (GPL) feature set supported
+ATA_READ_LOG_EXT (addr=0x00:0x00, page=0, n=1) failed: 48-bit ATA commands not supported
+Read GP Log Directory failed.
+
+SMART Log Directory Version 1 [multi-sector log support]
+SMART Log at address 0x00 has    1 sectors [Log Directory]
+SMART Log at address 0x09 has    1 sectors [Selective self-test log]
+SMART Log at address 0x11 has    1 sectors [SATA Phy Event Counters]
+SMART Log at address 0x80 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x81 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x82 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x83 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x84 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x85 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x86 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x87 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x88 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x89 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x8a has   16 sectors [Host vendor specific log]
+SMART Log at address 0x8b has   16 sectors [Host vendor specific log]
+SMART Log at address 0x8c has   16 sectors [Host vendor specific log]
+SMART Log at address 0x8d has   16 sectors [Host vendor specific log]
+SMART Log at address 0x8e has   16 sectors [Host vendor specific log]
+SMART Log at address 0x8f has   16 sectors [Host vendor specific log]
+SMART Log at address 0x90 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x91 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x92 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x93 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x94 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x95 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x96 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x97 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x98 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x99 has   16 sectors [Host vendor specific log]
+SMART Log at address 0x9a has   16 sectors [Host vendor specific log]
+SMART Log at address 0x9b has   16 sectors [Host vendor specific log]
+SMART Log at address 0x9c has   16 sectors [Host vendor specific log]
+SMART Log at address 0x9d has   16 sectors [Host vendor specific log]
+SMART Log at address 0x9e has   16 sectors [Host vendor specific log]
+SMART Log at address 0x9f has   16 sectors [Host vendor specific log]
+SMART Log at address 0xb7 has   16 sectors [Device vendor specific log]
+SMART Log at address 0xe0 has    1 sectors [SCT Command/Status]
+SMART Log at address 0xe1 has    1 sectors [SCT Data Transfer]
+
+SMART Extended Comprehensive Error Log (GP Log 0x03) not supported
+SMART Error Log Version: 0
+No Errors Logged
+
+SMART Extended Self-test Log (GP Log 0x07) not supported
+SMART Self-test log structure revision number 0
+Warning: ATA Specification requires self-test log structure revision number = 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+Error unknown SCT Temperature History Format Version (10), should be 2.
+Warning: device does not support SCT Error Recovery Control command
+SATA Phy Event Counters (GP Log 0x11) not supported
+

@@ -1,0 +1,92 @@
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.7] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     WD Blue and Green SSDs
+Device Model:     WDC  WDS100T2B0A-00SM50
+Serial Number:    --
+LU WWN Device Id: 5 001b44 ...
+Firmware Version: 401000WD
+User Capacity:    1,000,204,886,016 bytes [1.00 TB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
+SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Mon May 25 08:54:21 2020 PDT
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x11) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+
+SMART Attributes Data Structure revision number: 4
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0032   100   100   ---    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   ---    Old_age   Always       -       2952
+ 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       160
+165 Block_Erase_Count       0x0032   100   100   ---    Old_age   Always       -       1179656
+166 Minimum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       0
+167 Max_Bad_Blocks_per_Die  0x0032   100   100   ---    Old_age   Always       -       24
+168 Maximum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       1
+169 Total_Bad_Blocks        0x0032   100   100   ---    Old_age   Always       -       416
+170 Grown_Bad_Blocks        0x0032   100   100   ---    Old_age   Always       -       0
+171 Program_Fail_Count      0x0032   100   100   ---    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   ---    Old_age   Always       -       0
+173 Average_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       0
+174 Unexpected_Power_Loss   0x0032   100   100   ---    Old_age   Always       -       2
+184 End-to-End_Error        0x0032   100   100   ---    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   ---    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   070   037   ---    Old_age   Always       -       30 (Min/Max 11/37)
+199 UDMA_CRC_Error_Count    0x0032   100   100   ---    Old_age   Always       -       0
+230 Media_Wearout_Indicator 0x0032   001   001   ---    Old_age   Always       -       0x000100000001
+232 Available_Reservd_Space 0x0033   100   100   004    Pre-fail  Always       -       100
+233 NAND_GB_Written_TLC     0x0032   100   100   ---    Old_age   Always       -       175
+234 NAND_GB_Written_SLC     0x0032   100   100   ---    Old_age   Always       -       201
+241 Host_Writes_GiB         0x0030   253   253   ---    Old_age   Offline      -       196
+242 Host_Reads_GiB          0x0030   253   253   ---    Old_age   Offline      -       36
+244 Temp_Throttle_Status    0x0032   000   100   ---    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+
+
+
