@@ -18,3 +18,4 @@ MTBF   — avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | ADATA     | SU750              | 256 GB | 1       | 36    | 0     | 0.10   |
+| ADATA     | SU650              | 120 GB | 1       | 779   | 212   | 0.01   |

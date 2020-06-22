@@ -18,4 +18,6 @@ MTBF   — avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | Samsung   | MZVPV256HDGL-000L7 | 256 GB | 1       | 915   | 0     | 2.51   |
+| Samsung   | SSD 960 EVO        | 250 GB | 1       | 653   | 0     | 1.79   |
+| Samsung   | MZVLB512HBJQ-000L7 | 512 GB | 1       | 123   | 0     | 0.34   |
 | Samsung   | SSD 960 EVO        | 1 TB   | 1       | 154   | 3     | 0.11   |

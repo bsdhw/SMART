@@ -17,4 +17,5 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
-| Corsair   | Force LS SSD       | 64 GB  | 1       | 39    | 0     | 0.11   |
+| Corsair   | Force 3 SSD        | 180 GB | 1       | 2530  | 2     | 2.31   |
+| Corsair   | Force LS SSD       | 64 GB  | 2       | 217   | 0     | 0.60   |

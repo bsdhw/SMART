@@ -18,4 +18,6 @@ MTBF   — avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | Transcend | TS240GMTS420S      | 240 GB | 1       | 145   | 0     | 0.40   |
+| Transcend | TS32GMSA370        | 32 GB  | 1       | 20    | 0     | 0.06   |
 | Transcend | TS128GMTS430S      | 128 GB | 1       | 8     | 0     | 0.02   |
+| Transcend | TS120GMTS420S      | 120 GB | 1       | 2     | 0     | 0.01   |

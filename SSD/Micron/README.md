@@ -26,6 +26,7 @@ MTBF   — avg. MTBF in years per sample.
 | Micron    | 5100_MTFDDAK240TCB | 240 GB | 4       | 778   | 0     | 2.13   |
 | Micron    | 1100_MTFDDAK256TBN | 256 GB | 1       | 115   | 0     | 0.32   |
 | Micron    | MTFDDAV256MBF-1... | 256 GB | 1       | 21    | 0     | 0.06   |
+| Micron    | MTFDDAT128MAM-1J2  | 128 GB | 1       | 28    | 1587  | 0.00   |
 
 SSD by Family
 -------------
@@ -41,4 +42,6 @@ MTBF   — avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
 | Micron    | 5100 Pro / 5200 SSDs   | 1      | 4       | 778   | 0     | 2.13   |
-| Micron    | BX/MX1/2/3/500, M5/... | 2      | 2       | 68    | 0     | 0.19   |
+| Micron    | BX/MX1/2/3/500, M5/... | 1      | 1       | 115   | 0     | 0.32   |
+| Micron    | BX/MX1/2/3/500, M5/... | 1      | 1       | 21    | 0     | 0.06   |
+| Micron    | Unknown                | 1      | 1       | 28    | 1587  | 0.00   |

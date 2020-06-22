@@ -23,10 +23,14 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
+| SanDisk   | SSD U100           | 16 GB  | 1       | 1440  | 0     | 3.95   |
 | SanDisk   | Ultra II           | 960 GB | 2       | 1202  | 0     | 3.29   |
+| SanDisk   | SDSSDA120G         | 120 GB | 1       | 1123  | 0     | 3.08   |
 | SanDisk   | Ultra II           | 480 GB | 1       | 676   | 0     | 1.85   |
 | SanDisk   | SD8SN8U128G1002    | 128 GB | 1       | 424   | 0     | 1.16   |
+| SanDisk   | SD9SN8W128G1002    | 128 GB | 1       | 278   | 0     | 0.76   |
 | SanDisk   | SD5SG2256G1052E    | 256 GB | 1       | 246   | 0     | 0.68   |
+| SanDisk   | SSD PLUS           | 240 GB | 1       | 1     | 0     | 0.01   |
 
 SSD by Family
 -------------
@@ -41,5 +45,7 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
-| SanDisk   | Marvell based SanDi... | 3      | 4       | 831   | 0     | 2.28   |
-| SanDisk   | Unknown                | 1      | 1       | 424   | 0     | 1.16   |
+| SanDisk   | SanDisk based SSDs     | 1      | 1       | 1440  | 0     | 3.95   |
+| SanDisk   | SandForce Driven SSDs  | 1      | 1       | 1123  | 0     | 3.08   |
+| SanDisk   | Marvell based SanDi... | 4      | 5       | 665   | 0     | 1.82   |
+| SanDisk   | Unknown                | 2      | 2       | 351   | 0     | 0.96   |

@@ -17,6 +17,6 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
-| SPCC      | SSD                | 64 GB  | 1       | 482   | 0     | 1.32   |
+| SPCC      | SSD                | 64 GB  | 2       | 424   | 0     | 1.16   |
 | SPCC      | SSD                | 120 GB | 1       | 228   | 0     | 0.63   |
 | SPCC      | SSD                | 256 GB | 1       | 71    | 0     | 0.19   |

@@ -28,9 +28,9 @@ MTBF   — avg. MTBF in years per sample.
 | Crucial   | CT1050MX300SSD1    | 1 TB   | 1       | 811   | 0     | 2.22   |
 | Crucial   | M4-CT064M4SSD2     | 64 GB  | 1       | 589   | 0     | 1.61   |
 | Crucial   | CT250MX200SSD1     | 250 GB | 2       | 517   | 0     | 1.42   |
+| Crucial   | CT500MX200SSD1     | 500 GB | 2       | 199   | 0     | 0.55   |
 | Crucial   | CT120BX300SSD1     | 120 GB | 1       | 108   | 0     | 0.30   |
 | Crucial   | CT525MX300SSD1     | 528 GB | 1       | 300   | 2     | 0.27   |
-| Crucial   | CT500MX200SSD1     | 500 GB | 1       | 54    | 0     | 0.15   |
 | Crucial   | CT120BX500SSD1     | 120 GB | 1       | 14    | 0     | 0.04   |
 
 SSD by Family
@@ -48,4 +48,4 @@ MTBF   — avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|--------|
 | Crucial   | Unknown                | 1      | 2       | 1042  | 0     | 2.86   |
 | Crucial   | RealSSD m4/C400/P400   | 1      | 1       | 589   | 0     | 1.61   |
-| Crucial   | BX/MX1/2/3/500, M5/... | 7      | 8       | 405   | 1     | 1.04   |
+| Crucial   | BX/MX1/2/3/500, M5/... | 7      | 9       | 398   | 1     | 1.03   |
