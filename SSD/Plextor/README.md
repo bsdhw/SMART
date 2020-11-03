@@ -25,6 +25,7 @@ MTBF   — avg. MTBF in years per sample.
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | Plextor   | PX-128M7VC         | 128 GB | 1       | 483   | 0     | 1.32   |
 | Plextor   | PX-256M8VG         | 256 GB | 1       | 230   | 0     | 0.63   |
+| Plextor   | PX-256M5S          | 256 GB | 2       | 64    | 0     | 0.18   |
 
 SSD by Family
 -------------
@@ -41,3 +42,4 @@ MTBF   — avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|--------|
 | Plextor   | M3/M5/M6/M7 Series ... | 1      | 1       | 483   | 0     | 1.32   |
 | Plextor   | Unknown                | 1      | 1       | 230   | 0     | 0.63   |
+| Plextor   | M3/M5/M6 Series SSDs   | 1      | 2       | 64    | 0     | 0.18   |

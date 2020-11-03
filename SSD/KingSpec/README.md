@@ -18,3 +18,4 @@ MTBF   — avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | KingSpec  | NT-128             | 128 GB | 1       | 140   | 0     | 0.38   |
+| KingSpec  | NT-512             | 512 GB | 1       | 12    | 0     | 0.04   |

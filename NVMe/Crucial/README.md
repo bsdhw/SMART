@@ -17,4 +17,4 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
-| Crucial   | CT1000P1SSD8       | 1 TB   | 1       | 138   | 0     | 0.38   |
+| Crucial   | CT1000P1SSD8       | 1 TB   | 5       | 111   | 0     | 0.30   |

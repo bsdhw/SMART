@@ -23,9 +23,11 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
-| Toshiba   | THNSNJ128GCSU      | 128 GB | 1       | 1009  | 0     | 2.77   |
-| Toshiba   | THNSFJ256GCSU      | 256 GB | 1       | 261   | 0     | 0.72   |
-| Toshiba   | TR200              | 240 GB | 1       | 77    | 0     | 0.21   |
+| Toshiba   | THNSNJ128GCSU      | 128 GB | 2       | 1189  | 0     | 3.26   |
+| Toshiba   | THNSNC128GBSJ      | 128 GB | 1       | 826   | 0     | 2.26   |
+| Toshiba   | THNSNJ128GCST      | 128 GB | 1       | 422   | 0     | 1.16   |
+| Toshiba   | THNSFJ256GCSU      | 256 GB | 2       | 308   | 0     | 0.85   |
+| Toshiba   | TR200              | 240 GB | 2       | 131   | 0     | 0.36   |
 
 SSD by Family
 -------------
@@ -40,5 +42,6 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
-| Toshiba   | HG6 Series SSD         | 2      | 2       | 635   | 0     | 1.74   |
-| Toshiba   | Unknown                | 1      | 1       | 77    | 0     | 0.21   |
+| Toshiba   | HG3 Series             | 1      | 1       | 826   | 0     | 2.26   |
+| Toshiba   | HG6 Series SSD         | 3      | 5       | 683   | 0     | 1.87   |
+| Toshiba   | Unknown                | 1      | 2       | 131   | 0     | 0.36   |

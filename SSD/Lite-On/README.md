@@ -17,4 +17,7 @@ MTBF   — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
+| Lite-On   | CV8-8E256-11 SATA  | 256 GB | 1       | 143   | 0     | 0.39   |
+| Lite-On   | LCS-128M6S-HP      | 128 GB | 1       | 123   | 0     | 0.34   |
+| Lite-On   | LCH-256V2S         | 256 GB | 1       | 12    | 0     | 0.03   |
 | Lite-On   | LCH-128V2S         | 128 GB | 1       | 1     | 0     | 0.00   |
