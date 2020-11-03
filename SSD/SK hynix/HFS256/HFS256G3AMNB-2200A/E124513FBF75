@@ -1,0 +1,186 @@
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     HFS256G3AMNB-2200A
+Serial Number:    --
+Firmware Version: 10105L00
+User Capacity:    256,060,514,304 bytes [256 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Device is:        Not in smartctl database [for details use: -P showall]
+ATA Version is:   ATA8-ACS (minor revision not indicated)
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Wed Oct 21 11:53:31 2020 BST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x19) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  60) minutes.
+
+SMART Attributes Data Structure revision number: 0
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   166   166   006    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0032   253   253   036    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       37011
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       48
+100 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       3688015
+171 Unknown_Attribute       0x0032   253   253   000    Old_age   Always       -       0
+172 Unknown_Attribute       0x0032   253   100   000    Old_age   Always       -       0
+174 Unknown_Attribute       0x0030   100   100   000    Old_age   Offline      -       15
+175 Program_Fail_Count_Chip 0x0032   253   253   000    Old_age   Always       -       0
+176 Erase_Fail_Count_Chip   0x0032   253   253   000    Old_age   Always       -       0
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       2654784
+178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   000    Old_age   Always       -       33
+179 Used_Rsvd_Blk_Cnt_Tot   0x0032   100   100   000    Old_age   Always       -       48
+180 Unused_Rsvd_Blk_Cnt_Tot 0x0032   100   100   000    Old_age   Always       -       5264
+181 Program_Fail_Cnt_Total  0x0032   253   253   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   253   100   000    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   253   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0002   038   000   000    Old_age   Always       -       38 (Min/Max 16/54)
+195 Hardware_ECC_Recovered  0x0032   253   100   000    Old_age   Always       -       0
+201 Unknown_SSD_Attribute   0x000e   100   100   000    Old_age   Always       -       0
+204 Soft_ECC_Correction     0x000e   095   095   000    Old_age   Always       -       28592
+231 Temperature_Celsius     0x0033   253   253   010    Pre-fail  Always       -       0
+234 Unknown_Attribute       0x0032   100   100   ---    Old_age   Always       -       10597
+241 Total_LBAs_Written      0x0032   100   100   ---    Old_age   Always       -       1668
+242 Total_LBAs_Read         0x0032   100   100   ---    Old_age   Always       -       2925
+250 Read_Error_Retry_Rate   0x0032   100   100   ---    Old_age   Always       -       80100
+
+SMART Error Log Version: 1
+ATA Error Count: 2434 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 2434 occurred at disk power-on lifetime: 36972 hours (1540 days + 12 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 00 00 00 00 00 00   at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 f0 c7 2c 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 20 20 c5 2c 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 20 80 4f 2c 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 0c 20 6f 2d 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 20 60 4f 2c 40 40  18d+02:14:31.952  READ DMA EXT
+
+Error 2433 occurred at disk power-on lifetime: 36972 hours (1540 days + 12 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 00 00 00 00 00 00   at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 f0 c7 2c 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 20 20 c5 2c 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 20 80 4f 2c 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 0c 20 6f 2d 40 40  18d+02:14:31.952  READ DMA EXT
+  25 00 20 60 4f 2c 40 40  18d+02:14:31.952  READ DMA EXT
+
+Error 2432 occurred at disk power-on lifetime: 36972 hours (1540 days + 12 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  04 51 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  b1 c1 00 00 00 00 00 00  18d+02:14:26.502  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
+  f5 00 00 00 00 00 00 00  18d+02:14:26.502  SECURITY FREEZE LOCK
+  ec 00 00 00 00 00 00 00  18d+02:14:21.342  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00  18d+02:14:21.342  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00  18d+02:14:21.312  IDENTIFY DEVICE
+
+Error 2431 occurred at disk power-on lifetime: 36972 hours (1540 days + 12 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 00 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  e7 08 98 80 c5 bd 00 00  18d+02:14:18.752  FLUSH CACHE
+  61 04 90 10 04 00 40 40  18d+02:14:18.752  WRITE FPDMA QUEUED
+  61 04 88 c0 1d 00 40 40  18d+02:14:18.752  WRITE FPDMA QUEUED
+  61 04 80 10 04 00 40 40  18d+02:14:18.742  WRITE FPDMA QUEUED
+  61 04 78 c0 1d 00 40 40  18d+02:14:18.742  WRITE FPDMA QUEUED
+
+Error 2430 occurred at disk power-on lifetime: 36972 hours (1540 days + 12 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 00 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  e7 08 98 80 c5 bd 00 00  18d+02:14:18.752  FLUSH CACHE
+  61 04 90 10 04 00 40 40  18d+02:14:18.752  WRITE FPDMA QUEUED
+  61 04 88 c0 1d 00 40 40  18d+02:14:18.752  WRITE FPDMA QUEUED
+  61 04 80 10 04 00 40 40  18d+02:14:18.742  WRITE FPDMA QUEUED
+  61 04 78 c0 1d 00 40 40  18d+02:14:18.742  WRITE FPDMA QUEUED
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+

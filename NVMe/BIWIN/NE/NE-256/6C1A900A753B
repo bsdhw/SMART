@@ -1,0 +1,73 @@
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p2 amd64] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       NE-256
+Serial Number:                      --
+Firmware Version:                   R0629A0
+PCI Vendor ID:                      0x1dee
+PCI Vendor Subsystem ID:            0x126f
+IEEE OUI Identifier:                0x000000
+Controller ID:                      1
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
+Namespace 1 Formatted LBA Size:     512
+Namespace 1 IEEE EUI-64:            010000 ...
+Local Time is:                      Fri Oct 30 07:09:33 2020 AEDT
+Firmware Updates (0x06):            3 Slots
+Optional Admin Commands (0x0006):   Format Frmw_DL
+Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
+Maximum Data Transfer Size:         64 Pages
+Warning  Comp. Temp. Threshold:     70 Celsius
+Critical Comp. Temp. Threshold:     80 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     9.00W       -        -    0  0  0  0        0       0
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        36 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    0%
+Data Units Read:                    31,808 [16.2 GB]
+Data Units Written:                 26,191 [13.4 GB]
+Host Read Commands:                 2,127,641
+Host Write Commands:                311,980
+Controller Busy Time:               34
+Power Cycles:                       13
+Power On Hours:                     0
+Unsafe Shutdowns:                   9
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      0
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+Error Information (NVMe Log 0x01, max 256 entries)
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
+  0 281475018785081   584  0x0435  0x000e  0x000  34359738368  4336  0x1e
+  1 8761733283848   255  0x0282  0x0000  0x001  60211397184     0     -
+  2         14     0  0x0000  0x0d10  0x000 281475018785186 77398232  0x0e
+  3 315254585256116224    14  0x0100  0x0000  0x000 14912126451720 42074546     -
+  4 180708249308236176     0  0x0001  0x02c0  0x43f           14     8  0xe8
+  5 34359738368 31392  0x0001  0x2f54  0x121 310185664853311511    19     -
+  6 72057684299350632   256  0x0000  0x0008  0x000 180708683099933880 65536  0x18
+  7 281479313752611   680  0x04ed  0x001a  0x000  34359738368  3192  0x8f
+  8 14259291422720   415  0x0282  0x0000  0x001  60203008568     0  0x08
+  9         18     8  0x0000  0x0718  0x000 281475018784995 81527320  0x0e
+ 10 295268624959078400    14  0x0000  0x0000  0x000 34531537059848 42075117  0x01
+ 11 81398301798267544    23  0x0000  0x0040  0x44f           19     8  0xe8
+ 13 60197044352     0  0x0000  0x0008  0x000 180711234310512456     1  0xf8
+ 14 90211101385    72  0x0450  0x0012  0x000            0  3432  0xad
+ 15 14602888806408   425  0x0282  0x0000  0x001  60199404008     0  0x08
+ 16         18     8  0x0000  0x0678  0x000 281475018784975 81461776  0x0e
+... (66 entries not shown)
+

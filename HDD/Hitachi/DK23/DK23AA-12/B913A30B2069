@@ -1,0 +1,73 @@
+smartctl 7.1 2019-12-30 r5022 [i386-unknown-openbsd6.8] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     HITACHI Travelstar DK23XX/DK23XXB
+Device Model:     DK23AA-12
+Serial Number:    --
+Firmware Version: 00XDA0A2
+User Capacity:    12,072,517,632 bytes [12.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA/ATAPI-5 T13/1321D revision 1
+Local Time is:    Mon Oct 19 15:32:40 2020 +10
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		( 1110) seconds.
+Offline data collection
+capabilities: 			 (0x1b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  19) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000d   100   100   050    Pre-fail  Offline      -       0
+  4 Start_Stop_Count        0x0032   099   099   050    Old_age   Always       -       1240
+  5 Reallocated_Sector_Ct   0x0033   099   099   010    Pre-fail  Always       -       16
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       54
+  9 Power_On_Minutes        0x0032   097   097   060    Old_age   Always       -       103h+51m
+ 10 Spin_Retry_Count        0x0013   100   100   050    Pre-fail  Always       -       0
+196 Reallocated_Event_Count 0x0032   099   099   001    Old_age   Always       -       15
+197 Current_Pending_Sector  0x0032   100   100   001    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   001    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+221 G-Sense_Error_Rate      0x000a   100   100   050    Old_age   Always       -       1
+223 Load_Retry_Count        0x0012   100   100   050    Old_age   Always       -       7
+225 Load_Cycle_Count        0x0032   096   096   050    Old_age   Always       -       480247837287
+250 Read_Error_Retry_Rate   0x000a   100   095   050    Old_age   Always       -       182
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+

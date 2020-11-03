@@ -1,0 +1,69 @@
+smartctl 7.1 2019-12-30 r5022 [i386-unknown-openbsd6.8] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     IBM Travelstar 6GN
+Device Model:     IBM-DBCA-204860
+Serial Number:    --
+Firmware Version: BC3UA82F
+User Capacity:    4,308,595,200 bytes [4.30 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA/ATAPI-4 T13/1153D revision 17
+Local Time is:    Mon Oct 19 16:58:22 2020 +10
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Total time to complete Offline 
+data collection: 		(  750) seconds.
+Offline data collection
+capabilities: 			 (0x05) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Abort Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					No Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x00)	Error logging NOT supported.
+					No General Purpose Logging support.
+
+SMART Attributes Data Structure revision number: 5
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   062    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   040    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0007   115   115   033    Pre-fail  Always       -       1
+  4 Start_Stop_Count        0x0012   099   099   000    Old_age   Always       -       2876
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   040    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0012   072   072   000    Old_age   Always       -       12541
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       1826
+199 UDMA_CRC_Error_Count    0x000a   200   253   000    Old_age   Always       -       0
+220 Disk_Shift              0x0026   099   099   000    Old_age   Always       -       200423
+221 G-Sense_Error_Rate      0x000a   100   100   000    Old_age   Always       -       0
+222 Loaded_Hours            0x0012   095   095   000    Old_age   Always       -       2431
+223 Load_Retry_Count        0x000b   100   100   050    Pre-fail  Always       -       0
+225 Load_Cycle_Count        0x0012   070   070   050    Old_age   Always       -       307513
+226 Load-in_Time            0x0007   116   116   040    Pre-fail  Always       -       584124334083
+227 Torq-amp_Count          0x0032   100   100   000    Old_age   Always       -       0
+228 Power-off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       61
+
+SMART Error Log not supported
+
+SMART Self-test Log not supported
+
+Selective Self-tests/Logging not supported
+

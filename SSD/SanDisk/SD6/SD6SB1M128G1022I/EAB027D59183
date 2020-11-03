@@ -1,0 +1,87 @@
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Marvell based SanDisk SSDs
+Device Model:     SanDisk SD6SB1M128G1022I
+Serial Number:    --
+LU WWN Device Id: 5 001b44 ...
+Firmware Version: X231600
+User Capacity:    128,035,676,160 bytes [128 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      Unknown (0x000a)
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA8-ACS T13/1699-D revision 6
+SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
+Local Time is:    Mon Oct 19 11:09:56 2020 BST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x11) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+
+SMART Attributes Data Structure revision number: 4
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0032   100   100   ---    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   253   100   ---    Old_age   Always       -       3359
+ 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       1742
+166 Min_W/E_Cycle           0x0032   100   100   ---    Old_age   Always       -       1
+167 Min_Bad_Block/Die       0x0032   100   100   ---    Old_age   Always       -       31
+168 Maximum_Erase_Cycle     0x0032   100   100   ---    Old_age   Always       -       148
+169 Total_Bad_Block         0x0032   100   100   ---    Old_age   Always       -       220
+171 Program_Fail_Count      0x0032   100   100   ---    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   ---    Old_age   Always       -       0
+173 Avg_Write/Erase_Count   0x0032   100   100   ---    Old_age   Always       -       58
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   ---    Old_age   Always       -       74
+187 Reported_Uncorrect      0x0032   100   100   ---    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   075   039   ---    Old_age   Always       -       25 (Min/Max 6/39)
+212 SATA_PHY_Error          0x0032   100   100   ---    Old_age   Always       -       1
+230 Perc_Write/Erase_Count  0x0032   100   100   ---    Old_age   Always       -       0 0 349
+232 Perc_Avail_Resrvd_Space 0x0033   100   100   004    Pre-fail  Always       -       100
+233 Total_NAND_Writes_GiB   0x0032   100   100   ---    Old_age   Always       -       7608
+241 Total_Writes_GiB        0x0030   253   253   ---    Old_age   Offline      -       3518
+242 Total_Reads_GiB         0x0030   253   253   ---    Old_age   Offline      -       3796
+243 Unknown_Attribute       0x0032   100   100   ---    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+
+
+
