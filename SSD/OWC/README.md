@@ -17,14 +17,17 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | OWC       | Mercury Extreme... | 240 GB | 1       | 657   | 0     | 1.80   |
+| OWC       | Mercury Electra... | 240 GB | 2       | 649   | 0     | 1.78   |
+| OWC       | Mercury Electra... | 1 TB   | 5       | 252   | 0     | 0.69   |
 | OWC       | Aura               | 960 GB | 1       | 3     | 0     | 0.01   |
+| OWC       | Mercury EXTREME... | 1.9 TB | 1       | 1     | 0     | 0.00   |
 
 SSD by Family
 -------------
@@ -33,11 +36,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
-| OWC       | SandForce Driven SSDs  | 1      | 1       | 657   | 0     | 1.80   |
+| OWC       | SandForce Driven SSDs  | 4      | 9       | 357   | 0     | 0.98   |
 | OWC       | Unknown                | 1      | 1       | 3     | 0     | 0.01   |

@@ -1,0 +1,122 @@
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.9] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Crucial/Micron BX/MX1/2/3/500, M5/600, 1100 SSDs
+Device Model:     CT960BX500SSD1
+Serial Number:    --
+LU WWN Device Id: 0 000000 ...
+Firmware Version: M6CR022
+User Capacity:    960,197,124,096 bytes [960 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 T13/2161-D revision 4
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sun Mar 21 22:39:28 2021 -03
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  120) seconds.
+Offline data collection
+capabilities: 			 (0x11) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   000   100   000    Pre-fail  Always       -       0
+  5 Reallocate_NAND_Blk_Cnt 0x0032   100   100   010    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       4391
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       490
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   000   000   000    Old_age   Always       -       0
+173 Ave_Block-Erase_Count   0x0032   002   002   000    Old_age   Always       -       46
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       154
+180 Unused_Reserve_NAND_Blk 0x0033   100   100   000    Pre-fail  Always       -       224
+183 SATA_Interfac_Downshift 0x0032   100   100   000    Old_age   Always       -       1
+184 Error_Correction_Count  0x0032   100   100   000    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   046   019   000    Old_age   Always       -       54 (Min/Max 12/81)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       1
+202 Percent_Lifetime_Remain 0x0030   098   098   001    Old_age   Offline      -       2
+206 Write_Error_Rate        0x000e   000   000   000    Old_age   Always       -       0
+210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
+246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       23820535856
+247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       744391745
+248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       551743488
+
+SMART Error Log Version: 1
+Warning: ATA error count 0 inconsistent with error log pointer 1
+
+ATA Error Count: 0
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error -4 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 00 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  b0 d0 01 00 4f c2 00 00      00:00:00.000  SMART READ DATA
+  b0 d1 01 01 4f c2 00 00      00:00:00.000  SMART READ ATTRIBUTE THRESHOLDS [OBS-4]
+  b0 da 00 00 4f c2 00 00      00:00:00.000  SMART RETURN STATUS
+  ec 00 01 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  ec 00 01 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+
+
+

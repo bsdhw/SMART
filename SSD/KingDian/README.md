@@ -17,15 +17,16 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
+| KingDian  | S280               | 240 GB | 1       | 378   | 0     | 1.04   |
 | KingDian  | S400               | 120 GB | 1       | 303   | 0     | 0.83   |
 | KingDian  | S280-240GB         | 240 GB | 1       | 177   | 0     | 0.49   |
-| KingDian  | S200               | 64 GB  | 2       | 80    | 0     | 0.22   |
+| KingDian  | S200               | 64 GB  | 3       | 58    | 337   | 0.15   |
 | KingDian  | S280               | 120 GB | 1       | 49    | 0     | 0.14   |
 
 SSD by Family
@@ -35,11 +36,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
 | KingDian  | Unknown                | 1      | 1       | 177   | 0     | 0.49   |
-| KingDian  | Silicon Motion base... | 3      | 4       | 128   | 0     | 0.35   |
+| KingDian  | Silicon Motion base... | 4      | 6       | 151   | 169   | 0.41   |

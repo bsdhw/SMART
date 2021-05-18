@@ -1,0 +1,158 @@
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Crucial/Micron RealSSD m4/C400/P400
+Device Model:     M4-CT064M4SSD2
+Serial Number:    --
+LU WWN Device Id: 5 00a075 ...
+Firmware Version: 070H
+User Capacity:    64,023,257,088 bytes [64.0 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
+SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Wed May  5 02:34:36 2021 CEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  295) seconds.
+Offline data collection
+capabilities: 			 (0x7b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (   4) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   3) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   001    Old_age   Always       -       18179
+ 12 Power_Cycle_Count       0x0032   100   100   001    Old_age   Always       -       3881
+170 Grown_Failing_Block_Ct  0x0033   100   100   010    Pre-fail  Always       -       0
+171 Program_Fail_Count      0x0032   100   100   001    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   001    Old_age   Always       -       0
+173 Wear_Leveling_Count     0x0033   097   097   010    Pre-fail  Always       -       104
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   001    Old_age   Always       -       1456
+181 Non4k_Aligned_Access    0x0022   100   100   001    Old_age   Always       -       936 217 719
+183 SATA_Iface_Downshift    0x0032   100   100   001    Old_age   Always       -       0
+184 End-to-End_Error        0x0033   100   100   050    Pre-fail  Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   001    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   001    Old_age   Always       -       0
+189 Factory_Bad_Block_Ct    0x000e   100   100   001    Old_age   Always       -       50
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       0
+195 Hardware_ECC_Recovered  0x003a   100   100   001    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   001    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   001    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   001    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   001    Old_age   Always       -       1
+202 Perc_Rated_Life_Used    0x0018   097   097   001    Old_age   Offline      -       3
+206 Write_Error_Rate        0x000e   100   100   001    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+Warning: ATA error count 0 inconsistent with error log pointer 1
+
+ATA Error Count: 0
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 0 occurred at disk power-on lifetime: 14336 hours (597 days + 8 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 50 00 28 5a 89 40   at LBA = 0x00895a28 = 9001512
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  61 00 00 28 a0 8a 40 00      19:32:32.448  WRITE FPDMA QUEUED
+  61 00 00 28 9a 89 40 00      19:32:32.448  WRITE FPDMA QUEUED
+  61 00 00 28 90 89 40 00      19:32:32.448  WRITE FPDMA QUEUED
+  61 00 00 28 8a 89 40 00      19:32:32.448  WRITE FPDMA QUEUED
+  61 00 00 28 80 89 40 00      19:32:32.448  WRITE FPDMA QUEUED
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Aborted by host               00%      6871         -
+# 2  Short offline       Aborted by host               00%      6871         -
+# 3  Short offline       Aborted by host               00%      6868         -
+# 4  Short offline       Aborted by host               00%      6854         -
+# 5  Short offline       Aborted by host               00%      6843         -
+# 6  Short offline       Aborted by host               00%      6833         -
+# 7  Short offline       Aborted by host               00%      6823         -
+# 8  Short offline       Aborted by host               00%      6823         -
+# 9  Short offline       Aborted by host               00%      6823         -
+#10  Short offline       Aborted by host               00%      6823         -
+#11  Short offline       Aborted by host               00%      6823         -
+#12  Short offline       Aborted by host               00%      6822         -
+#13  Short offline       Aborted by host               00%      6822         -
+#14  Short offline       Aborted by host               00%      6822         -
+#15  Short offline       Aborted by host               00%      6808         -
+#16  Short offline       Aborted by host               00%      6783         -
+#17  Short offline       Aborted by host               00%      6782         -
+#18  Short offline       Aborted by host               00%      6781         -
+#19  Short offline       Aborted by host               00%      6781         -
+#20  Short offline       Aborted by host               00%      6758         -
+#21  Short offline       Aborted by host               00%      6757         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

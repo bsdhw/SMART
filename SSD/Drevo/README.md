@@ -1,0 +1,21 @@
+Drevo Solid State Drives
+========================
+
+This is a list of all tested Drevo solid state drive models and their MTBFs. See
+more info on reliability test in the [README](https://github.com/bsdhw/SMART).
+
+SSD by Model
+------------
+
+Please take all columns into account when reading the table. Pay attention on the
+number of tested samples and power-on days. Simultaneous high values of both MTBF
+and errors are possible if only rare drives in the subset encounter errors.
+
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
+
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
+|-----------|--------------------|--------|---------|-------|-------|--------|
+| Drevo     | X1 SSD             | 64 GB  | 1       | 66    | 0     | 0.18   |
+| Drevo     | X1 pro 64G         | 64 GB  | 2       | 66    | 0     | 0.18   |

@@ -17,17 +17,22 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
-| SK hynix  | HFS256G3AMNB-2200A | 256 GB | 1       | 1542  | 0     | 4.22   |
+| SK hynix  | HFS256G3AMNB-2200A | 256 GB | 2       | 1071  | 163   | 2.12   |
+| SK hynix  | SC300 M.2 2280     | 128 GB | 1       | 425   | 0     | 1.17   |
 | SK hynix  | HFS128G32MND-2200A | 128 GB | 1       | 798   | 2     | 0.73   |
-| SK hynix  | HFS128G39TND-N210A | 128 GB | 1       | 232   | 0     | 0.64   |
+| SK hynix  | HFS128G39TND-N210A | 128 GB | 2       | 247   | 0     | 0.68   |
+| SK hynix  | SC311 SATA         | 256 GB | 1       | 168   | 0     | 0.46   |
 | SK hynix  | SC311 SATA         | 512 GB | 1       | 153   | 0     | 0.42   |
-| SK hynix  | SC210 mSATA        | 256 GB | 1       | 391   | 139   | 0.01   |
+| SK hynix  | SHGS31-250GS-2     | 250 GB | 1       | 106   | 0     | 0.29   |
+| SK hynix  | SHGS31-500GS-2     | 500 GB | 1       | 69    | 0     | 0.19   |
+| SK hynix  | HFS128G39TNF-N3A0A | 128 GB | 1       | 8     | 0     | 0.02   |
+| SK hynix  | SC210 mSATA        | 256 GB | 2       | 248   | 75    | 0.02   |
 
 SSD by Family
 -------------
@@ -36,11 +41,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
-| SK hynix  | Unknown                | 1      | 1       | 1542  | 0     | 4.22   |
-| SK hynix  | SATA SSDs              | 4      | 4       | 393   | 36    | 0.45   |
+| SK hynix  | Unknown                | 4      | 5       | 465   | 65    | 0.95   |
+| SK hynix  | SATA SSDs              | 6      | 8       | 317   | 19    | 0.52   |

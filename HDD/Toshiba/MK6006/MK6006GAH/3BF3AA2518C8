@@ -1,0 +1,190 @@
+smartctl 7.1 2019-12-30 r5022 [i386-unknown-openbsd6.8] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Toshiba 1.8" HDD
+Device Model:     TOSHIBA MK6006GAH
+Serial Number:    --
+Firmware Version: BZ003K
+User Capacity:    60,011,642,880 bytes [60.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA/ATAPI-6 (minor revision not indicated)
+Local Time is:    Sun Dec  6 19:23:06 2020 CST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  387) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  76) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       1781
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       2418
+  5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   075   075   000    Old_age   Always       -       10243
+ 10 Spin_Retry_Count        0x0033   148   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2384
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       1360
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       229
+193 Load_Cycle_Count        0x0032   082   082   000    Old_age   Always       -       181904
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       38 (Min/Max 5/64)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       81
+222 Loaded_Hours            0x0032   077   077   000    Old_age   Always       -       9233
+223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       297
+240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
+
+SMART Error Log Version: 1
+ATA Error Count: 167 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 167 occurred at disk power-on lifetime: 4982 hours (207 days + 14 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 05 ea 3b bf e1  Error: UNC 5 sectors at LBA = 0x01bf3bea = 29309930
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 e7 3b bf e1 00      11:17:31.783  READ DMA
+  c8 00 01 00 00 00 e0 00      11:17:31.768  READ DMA
+  c8 00 08 ff db 3a e3 00      11:17:31.763  READ DMA
+  c8 00 08 ff a4 38 e3 00      11:17:31.748  READ DMA
+  c8 00 08 e7 0a 38 e3 00      11:17:31.743  READ DMA
+
+Error 166 occurred at disk power-on lifetime: 4982 hours (207 days + 14 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 05 ea 3b bf e1  Error: UNC 5 sectors at LBA = 0x01bf3bea = 29309930
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 e7 3b bf e1 00      11:17:23.150  READ DMA
+  c8 00 07 07 7f 05 e0 00      11:17:23.140  READ DMA
+  c8 00 01 00 00 00 e0 00      11:17:23.119  READ DMA
+  c8 00 08 df 0a 38 e3 00      11:17:23.107  READ DMA
+  c8 00 08 57 a3 36 e3 00      11:17:23.101  READ DMA
+
+Error 165 occurred at disk power-on lifetime: 4982 hours (207 days + 14 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 05 ea 3b bf e1  Error: UNC 5 sectors at LBA = 0x01bf3bea = 29309930
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 e7 3b bf e1 00      11:17:14.570  READ DMA
+  ca 00 18 67 70 ad e0 00      11:17:14.569  WRITE DMA
+  ca 00 01 27 40 09 e0 00      11:17:14.569  WRITE DMA
+  ec 00 00 00 00 00 a0 00      11:17:14.528  IDENTIFY DEVICE
+  c8 03 08 67 ac 38 e3 00      11:17:14.519  READ DMA
+
+Error 164 occurred at disk power-on lifetime: 4982 hours (207 days + 14 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 28 ea 3b bf e1  Error: UNC at LBA = 0x01bf3bea = 29309930
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c4 03 38 e7 3b bf e1 00      11:17:06.020  READ MULTIPLE
+  c8 03 38 67 3b bf e1 00      11:17:06.001  READ DMA
+  ef 03 45 01 00 00 a0 02      11:17:06.000  SET FEATURES [Set transfer mode]
+  ef 03 0c 01 00 00 a0 02      11:17:06.000  SET FEATURES [Set transfer mode]
+  c6 00 10 01 00 00 a0 02      11:17:06.000  SET MULTIPLE MODE
+
+Error 163 occurred at disk power-on lifetime: 4960 hours (206 days + 16 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 05 ea 3b bf e1  Error: UNC 5 sectors at LBA = 0x01bf3bea = 29309930
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 e7 3b bf e1 00      04:02:34.183  READ DMA
+  ca 00 80 b7 86 a6 e1 00      04:02:34.182  WRITE DMA
+  ca 00 08 27 dd 00 e0 00      04:02:34.182  WRITE DMA
+  c8 00 08 c0 d4 95 e3 00      04:02:34.164  READ DMA
+  c8 00 08 87 26 37 e3 00      04:02:34.156  READ DMA
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

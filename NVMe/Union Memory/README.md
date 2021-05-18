@@ -11,11 +11,12 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
+| Union ... | UMIS LENSE40256... | 256 GB | 2       | 47    | 0     | 0.13   |
 | Union ... | UMIS LENSE40512... | 512 GB | 1       | 6     | 0     | 0.02   |
 | Union ... | RPFTJ128PDD2EWX    | 128 GB | 1       | 1     | 0     | 0.00   |

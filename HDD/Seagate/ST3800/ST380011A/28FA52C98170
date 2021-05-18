@@ -1,0 +1,183 @@
+smartctl 7.1 2019-12-30 r5022 [NetBSD 9.0_STABLE amd64] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Barracuda 7200.7 and 7200.7 Plus
+Device Model:     ST380011A
+Serial Number:    --
+Firmware Version: 3.06
+User Capacity:    80,026,361,856 bytes [80.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA/ATAPI-6 T13/1410D revision 2
+Local Time is:    Tue Dec 22 06:41:38 2020 CET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  430) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  58) minutes.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   062   056   006    Pre-fail  Always       -       116717452
+  3 Spin_Up_Time            0x0003   098   097   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       751
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   083   060   030    Pre-fail  Always       -       218416364
+  9 Power_On_Hours          0x0032   065   065   000    Old_age   Always       -       31399
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   094   094   020    Old_age   Always       -       6609
+194 Temperature_Celsius     0x0022   033   060   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x001a   062   056   000    Old_age   Always       -       116717452
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   196   000    Old_age   Always       -       52
+200 Multi_Zone_Error_Rate   0x0000   100   253   000    Old_age   Offline      -       0
+202 Data_Address_Mark_Errs  0x0032   100   253   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+ATA Error Count: 56 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 56 occurred at disk power-on lifetime: 1895 hours (78 days + 23 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 01 07 00 00 e0  Error: ICRC, ABRT 1 sectors at LBA = 0x00000007 = 7
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 00 00 00 e0 00      00:00:35.290  READ DMA EXT
+  25 00 08 00 00 00 e0 00      00:00:33.964  READ DMA EXT
+  10 00 3f 00 00 00 e0 00      00:00:33.964  RECALIBRATE [OBS-4]
+  25 00 08 00 00 00 e0 00      00:00:33.110  READ DMA EXT
+  25 00 08 00 00 00 e0 00      00:00:29.803  READ DMA EXT
+
+Error 55 occurred at disk power-on lifetime: 1895 hours (78 days + 23 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 01 07 00 00 e0  Error: ICRC, ABRT 1 sectors at LBA = 0x00000007 = 7
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 00 00 00 e0 00      00:00:35.290  READ DMA EXT
+  10 00 3f 00 00 00 e0 00      00:00:33.964  RECALIBRATE [OBS-4]
+  25 00 08 00 00 00 e0 00      00:00:33.964  READ DMA EXT
+  25 00 08 00 00 00 e0 00      00:00:33.110  READ DMA EXT
+  ef 02 00 00 00 00 e0 00      00:00:29.803  SET FEATURES [Enable write cache]
+
+Error 54 occurred at disk power-on lifetime: 1895 hours (78 days + 23 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 01 07 00 00 e0  Error: ICRC, ABRT 1 sectors at LBA = 0x00000007 = 7
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 00 00 00 e0 00      00:00:35.290  READ DMA EXT
+  25 00 08 00 00 00 e0 00      00:00:33.964  READ DMA EXT
+  ef 02 00 00 00 00 e0 00      00:00:33.964  SET FEATURES [Enable write cache]
+  37 00 00 af f8 50 e0 00      00:00:33.110  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 00 00 00 00 e0 00      00:00:29.803  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 53 occurred at disk power-on lifetime: 1895 hours (78 days + 23 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 01 07 00 00 e0  Error: ICRC, ABRT 1 sectors at LBA = 0x00000007 = 7
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 00 00 00 e0 00      00:00:35.290  READ DMA EXT
+  ef 02 00 00 00 00 e0 00      00:00:33.964  SET FEATURES [Enable write cache]
+  37 00 00 af f8 50 e0 00      00:00:33.964  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 00 00 00 00 e0 00      00:00:33.110  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  c6 00 10 00 00 00 e0 00      00:00:29.803  SET MULTIPLE MODE
+
+Error 52 occurred at disk power-on lifetime: 1892 hours (78 days + 20 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 01 07 00 00 e0  Error: ICRC, ABRT 1 sectors at LBA = 0x00000007 = 7
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 00 00 00 e0 00      00:00:35.348  READ DMA EXT
+  25 00 08 00 00 00 e0 00      00:00:34.015  READ DMA EXT
+  10 00 3f 00 00 00 e0 00      00:00:34.015  RECALIBRATE [OBS-4]
+  25 00 08 00 00 00 e0 00      00:00:33.160  READ DMA EXT
+  25 00 08 00 00 00 e0 00      00:00:29.854  READ DMA EXT
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

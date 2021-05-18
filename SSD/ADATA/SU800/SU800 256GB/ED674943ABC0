@@ -1,0 +1,109 @@
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU800
+Serial Number:    --
+LU WWN Device Id: 5 707c18 ...
+Firmware Version: P0801A
+User Capacity:    256,060,514,304 bytes [256 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 (minor revision not indicated)
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Tue Nov  3 15:48:41 2020 EST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x71) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   2) minutes.
+SCT capabilities: 	       (0x0035)	SCT Status supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0000   100   100   000    Old_age   Offline      -       0
+  5 Reallocated_Sector_Ct   0x0000   100   100   000    Old_age   Offline      -       0
+  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       1068
+ 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       425
+160 Uncorrectable_Error_Cnt 0x0000   100   100   000    Old_age   Offline      -       0
+161 Valid_Spare_Block_Cnt   0x0000   100   100   000    Old_age   Offline      -       43
+163 Initial_Bad_Block_Count 0x0000   100   100   000    Old_age   Offline      -       25
+164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       70437
+165 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       161
+166 Min_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       94
+167 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       144
+148 Total_SLC_Erase_Ct      0x0000   100   100   000    Old_age   Offline      -       85145
+149 Max_SLC_Erase_Ct        0x0000   100   100   000    Old_age   Offline      -       2953
+150 Min_SLC_Erase_Ct        0x0000   100   100   000    Old_age   Offline      -       2845
+151 Average_SLC_Erase_Ct    0x0000   100   100   000    Old_age   Offline      -       2936
+169 Remaining_Lifetime_Perc 0x0000   100   100   000    Old_age   Offline      -       100
+177 Wear_Leveling_Count     0x0000   100   100   050    Old_age   Offline      -       33
+181 Program_Fail_Cnt_Total  0x0000   100   100   000    Old_age   Offline      -       0
+182 Erase_Fail_Count_Total  0x0000   100   100   000    Old_age   Offline      -       0
+192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       144
+194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       46
+196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0000   100   100   050    Old_age   Offline      -       7
+232 Available_Reservd_Space 0x0000   100   100   000    Old_age   Offline      -       100
+241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       556106
+242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       1324915
+245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       1126992
+
+SMART Error Log Version: 1
+No Errors Logged
+
+Warning! SMART Self-Test Log Structure error: invalid SMART checksum.
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+    6        0    65535  Read_scanning was never started
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

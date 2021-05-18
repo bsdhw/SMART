@@ -17,26 +17,41 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
-| Samsung   | HD753LJ            | 752 GB | 1       | 3468  | 0     | 9.50   |
 | Samsung   | HD103SJ            | 1 TB   | 3       | 2850  | 1     | 6.29   |
-| Samsung   | HD204UI            | 2 TB   | 3       | 1849  | 0     | 5.07   |
-| Samsung   | HD501LJ            | 500 GB | 5       | 3372  | 2     | 4.87   |
-| Samsung   | HD502HJ            | 500 GB | 1       | 1380  | 0     | 3.78   |
+| Samsung   | HD204UI            | 2 TB   | 14      | 2533  | 8     | 5.22   |
+| Samsung   | HD501LJ            | 500 GB | 6       | 3070  | 2     | 4.77   |
+| Samsung   | HD502HJ            | 500 GB | 3       | 2221  | 1     | 4.53   |
+| Samsung   | HD502HI            | 500 GB | 2       | 1266  | 0     | 3.47   |
+| Samsung   | HD322HJ            | 320 GB | 2       | 1257  | 0     | 3.44   |
+| Samsung   | HM500JI            | 500 GB | 3       | 1578  | 70    | 3.37   |
+| Samsung   | HD753LJ            | 752 GB | 3       | 1770  | 48    | 3.19   |
 | Samsung   | SP2504C            | 250 GB | 1       | 1158  | 0     | 3.17   |
-| Samsung   | HD103UJ            | 1 TB   | 5       | 1844  | 33    | 2.48   |
-| Samsung   | HD154UI            | 1.5 TB | 2       | 2245  | 75    | 2.21   |
+| Samsung   | HD103UJ            | 1 TB   | 8       | 1833  | 30    | 3.01   |
+| Samsung   | HD321HJ            | 320 GB | 1       | 914   | 0     | 2.51   |
+| Samsung   | HD154UI            | 1.5 TB | 4       | 1849  | 38    | 2.38   |
+| Samsung   | HD103SI            | 1 TB   | 4       | 900   | 757   | 2.03   |
 | Samsung   | HD160JJ-P          | 160 GB | 1       | 547   | 0     | 1.50   |
+| Samsung   | HD161HJ            | 160 GB | 3       | 498   | 0     | 1.37   |
 | Samsung   | HM160HI            | 160 GB | 1       | 989   | 2     | 0.90   |
-| Samsung   | HD502HI            | 500 GB | 1       | 204   | 0     | 0.56   |
-| Samsung   | HM320JI            | 320 GB | 1       | 258   | 9     | 0.07   |
+| Samsung   | HM250HI            | 250 GB | 1       | 291   | 0     | 0.80   |
+| Samsung   | HD403LJ            | 400 GB | 1       | 254   | 0     | 0.70   |
+| Samsung   | SP2514N            | 250 GB | 1       | 2529  | 10    | 0.63   |
+| Samsung   | HM320II            | 320 GB | 1       | 152   | 0     | 0.42   |
+| Samsung   | HN-M101MBB         | 1 TB   | 1       | 108   | 0     | 0.30   |
+| Samsung   | HN-M500MBB         | 500 GB | 1       | 97    | 0     | 0.27   |
+| Samsung   | HM320JI            | 320 GB | 2       | 297   | 8     | 0.09   |
 | Samsung   | HM080HI            | 80 GB  | 1       | 627   | 56    | 0.03   |
-| Samsung   | HM500JI            | 500 GB | 1       | 1050  | 210   | 0.01   |
+| Samsung   | HM321HI            | 320 GB | 2       | 100   | 433   | 0.02   |
+| Samsung   | HD642JJ            | 640 GB | 1       | 662   | 1161  | 0.00   |
+| Samsung   | HM500LI            | 500 GB | 1       | 1476  | 3036  | 0.00   |
+| Samsung   | HM121HI            | 120 GB | 1       | 501   | 3029  | 0.00   |
+| Samsung   | HD252HJ            | 250 GB | 1       | 173   | 1520  | 0.00   |
 | Samsung   | HM250JI            | 250 GB | 1       | 16    | 1010  | 0.00   |
 
 HDD by Family
@@ -46,20 +61,23 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days   — avg. days per sample,
-Err    — avg. errors per sample,
-MTBF   — avg. MTBF in years per sample.
+Days — avg. days per sample,
+Err  — avg. errors per sample,
+MTBF — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
-| Samsung   | SpinPoint F3           | 2      | 4       | 2482  | 1     | 5.67   |
-| Samsung   | SpinPoint F4 EG (AF)   | 1      | 3       | 1849  | 0     | 5.07   |
-| Samsung   | SpinPoint T166         | 1      | 5       | 3372  | 2     | 4.87   |
-| Samsung   | SpinPoint F1 DT        | 2      | 6       | 2114  | 27    | 3.65   |
-| Samsung   | SpinPoint P120         | 1      | 1       | 1158  | 0     | 3.17   |
-| Samsung   | SpinPoint F2 EG        | 2      | 3       | 1565  | 50    | 1.66   |
+| Samsung   | SpinPoint F3           | 2      | 6       | 2535  | 1     | 5.41   |
+| Samsung   | SpinPoint F4 EG (AF)   | 1      | 14      | 2533  | 8     | 5.22   |
+| Samsung   | SpinPoint T166         | 2      | 7       | 2668  | 2     | 4.19   |
+| Samsung   | SpinPoint F1 DT        | 6      | 16      | 1515  | 192   | 2.69   |
+| Samsung   | SpinPoint F2 EG        | 3      | 10      | 1353  | 318   | 2.46   |
+| Samsung   | SpinPoint M7           | 3      | 5       | 1035  | 42    | 2.27   |
+| Samsung   | SpinPoint P120         | 2      | 2       | 1844  | 5     | 1.90   |
 | Samsung   | SpinPoint P80 SD       | 1      | 1       | 547   | 0     | 1.50   |
-| Samsung   | SpinPoint M5           | 2      | 2       | 502   | 506   | 0.45   |
-| Samsung   | SpinPoint M6           | 1      | 1       | 258   | 9     | 0.07   |
+| Samsung   | SpinPoint S166         | 1      | 3       | 498   | 0     | 1.37   |
+| Samsung   | SpinPoint M5           | 3      | 3       | 502   | 1347  | 0.30   |
+| Samsung   | SpinPoint M8 (AF)      | 2      | 2       | 103   | 0     | 0.28   |
+| Samsung   | SpinPoint M6           | 2      | 3       | 690   | 1018  | 0.06   |
 | Samsung   | SpinPoint M40/60/80    | 1      | 1       | 627   | 56    | 0.03   |
-| Samsung   | SpinPoint M7           | 1      | 1       | 1050  | 210   | 0.01   |
+| Samsung   | SpinPoint M7E (AF)     | 1      | 2       | 100   | 433   | 0.02   |
