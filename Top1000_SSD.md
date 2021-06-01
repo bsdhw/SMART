@@ -34,15 +34,15 @@ MTBF — avg. MTBF in years per sample.
 | Samsung   | SSD PB22-JS3 TM    | 64 GB  | 1       | 1801  | 0     | 4.94   |
 | OCZ       | AGILITY3           | 120 GB | 4       | 1857  | 302   | 4.92   |
 | Intel     | SSDSC2BB240G6      | 240 GB | 2       | 1787  | 0     | 4.90   |
-| Samsung   | SSD 840 PRO Series | 128 GB | 8       | 1791  | 3     | 4.62   |
 | Micron    | M600_MTFDDAK256MBF | 256 GB | 1       | 1656  | 0     | 4.54   |
-| Samsung   | SSD 840 EVO        | 120 GB | 11      | 1758  | 32    | 4.50   |
 | Intel     | SSDMCEAC030B3      | 32 GB  | 2       | 1641  | 0     | 4.50   |
 | Intel     | SSDSA2CW120G3      | 120 GB | 3       | 1632  | 0     | 4.47   |
 | Intel     | SSDSA2CT040G3      | 40 GB  | 8       | 1632  | 0     | 4.47   |
+| Samsung   | SSD 840 EVO        | 120 GB | 12      | 1932  | 30    | 4.42   |
 | Samsung   | MZMTE512HMHP-000MV | 512 GB | 2       | 1593  | 0     | 4.36   |
 | Transcend | TS8GSSD500         | 8 GB   | 1       | 1520  | 0     | 4.17   |
 | Crucial   | M4-CT128M4SSD2     | 128 GB | 3       | 1515  | 0     | 4.15   |
+| Samsung   | SSD 840 PRO Series | 128 GB | 10      | 1584  | 2     | 4.11   |
 | ADATA     | SP310              | 128 GB | 1       | 1488  | 0     | 4.08   |
 | Samsung   | MZMTD128HAFV-000L1 | 128 GB | 1       | 1487  | 0     | 4.08   |
 | Samsung   | MZ-5EA2000-0D3     | 200 GB | 4       | 1475  | 0     | 4.04   |
@@ -57,8 +57,8 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SSD U100           | 8 GB   | 1       | 1365  | 0     | 3.74   |
 | Samsung   | SSD 840 Series     | 120 GB | 5       | 1364  | 0     | 3.74   |
 | Plextor   | PX-512M5Pro        | 512 GB | 1       | 1361  | 0     | 3.73   |
+| AMD       | R3SL120G           | 120 GB | 2       | 1341  | 0     | 3.68   |
 | Samsung   | SSD 840 Series     | 250 GB | 2       | 1328  | 0     | 3.64   |
-| Samsung   | SSD 830 Series     | 128 GB | 4       | 1312  | 0     | 3.60   |
 | SuperM... | SSD                | 128 GB | 1       | 1295  | 0     | 3.55   |
 | Samsung   | MZ7LM240HCGR-0E003 | 240 GB | 2       | 1295  | 0     | 3.55   |
 | Samsung   | MZ7LN256HMJP-000H1 | 256 GB | 1       | 1283  | 0     | 3.52   |
@@ -80,9 +80,11 @@ MTBF — avg. MTBF in years per sample.
 | Dell      | SSDSCKJB120G7R     | 120 GB | 2       | 1173  | 0     | 3.22   |
 | SanDisk   | SD6SB2M128G1022I   | 128 GB | 2       | 1154  | 0     | 3.16   |
 | Intel     | SSDSC2BX400G4      | 400 GB | 1       | 1145  | 0     | 3.14   |
+| Samsung   | SSD 830 Series     | 128 GB | 5       | 1144  | 0     | 3.13   |
 | Kingston  | SMS200S360G        | 64 GB  | 5       | 1297  | 1     | 3.13   |
 | Samsung   | SSD 840 EVO 250... | 250 GB | 1       | 1131  | 0     | 3.10   |
 | Samsung   | MZ7LN256HMJP-00000 | 256 GB | 2       | 1117  | 0     | 3.06   |
+| ADATA     | SP600              | 32 GB  | 2       | 1097  | 0     | 3.01   |
 | HP        | VK0480GECQP        | 480 GB | 1       | 1083  | 0     | 2.97   |
 | OCZ       | VERTEX3            | 240 GB | 1       | 1081  | 0     | 2.96   |
 | OCZ       | VERTEX3            | 64 GB  | 4       | 1591  | 8     | 2.96   |
@@ -98,6 +100,7 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SDSSDX480GG25      | 480 GB | 1       | 1012  | 0     | 2.77   |
 | ADATA     | SX930              | 240 GB | 1       | 1001  | 0     | 2.74   |
 | Samsung   | SSD 840 EVO        | 500 GB | 4       | 1138  | 209   | 2.74   |
+| Kingston  | SVP200S37A60G      | 64 GB  | 2       | 999   | 0     | 2.74   |
 | Samsung   | SSD 850 EVO        | 120 GB | 5       | 997   | 0     | 2.73   |
 | Samsung   | SSD 850 EVO M.2    | 500 GB | 4       | 987   | 0     | 2.71   |
 | Intel     | SSDMCEAW080A4      | 80 GB  | 1       | 981   | 0     | 2.69   |
@@ -108,7 +111,6 @@ MTBF — avg. MTBF in years per sample.
 | Intel     | SSDSC2BB016T4      | 1.6 TB | 1       | 959   | 0     | 2.63   |
 | SanDisk   | X600 2.5 7MM SATA  | 256 GB | 1       | 947   | 0     | 2.59   |
 | Kingston  | SH103S3120G        | 120 GB | 5       | 940   | 0     | 2.58   |
-| SanDisk   | SDSA6MM-032G-1006  | 32 GB  | 2       | 930   | 0     | 2.55   |
 | Crucial   | CT240M500SSD3      | 240 GB | 1       | 917   | 0     | 2.51   |
 | OCZ       | ARC100             | 240 GB | 2       | 916   | 0     | 2.51   |
 | ADATA     | SP900              | 64 GB  | 1       | 895   | 0     | 2.45   |
@@ -127,7 +129,6 @@ MTBF — avg. MTBF in years per sample.
 | PNY       | CS1311 240GB SSD   | 240 GB | 3       | 833   | 0     | 2.28   |
 | Kingston  | SM2280S3120G       | 120 GB | 1       | 833   | 0     | 2.28   |
 | Kingston  | SS200S330G         | 32 GB  | 2       | 833   | 0     | 2.28   |
-| Samsung   | SSD 850 EVO M.2    | 120 GB | 1       | 831   | 0     | 2.28   |
 | Toshiba   | THNSNJ128GCSU      | 128 GB | 4       | 826   | 0     | 2.26   |
 | Toshiba   | THNSNC128GBSJ      | 128 GB | 1       | 826   | 0     | 2.26   |
 | Intel     | SSDSC2BB480G7      | 480 GB | 3       | 940   | 1     | 2.26   |
@@ -140,39 +141,39 @@ MTBF — avg. MTBF in years per sample.
 | ADATA     | SSD S599           | 40 GB  | 1       | 802   | 0     | 2.20   |
 | SanDisk   | X300 MSATA         | 256 GB | 1       | 800   | 0     | 2.19   |
 | Micron    | 1100_MTFDDAK512TBN | 512 GB | 2       | 798   | 0     | 2.19   |
+| SanDisk   | SDSA6MM-032G-1006  | 32 GB  | 4       | 795   | 0     | 2.18   |
+| Samsung   | SSD 850 EVO        | 250 GB | 53      | 792   | 0     | 2.17   |
 | Plextor   | PX-64G5Le          | 64 GB  | 1       | 791   | 0     | 2.17   |
 | Intel     | SSDSC2BW120A3      | 120 GB | 1       | 790   | 0     | 2.17   |
 | Crucial   | CT960M500SSD1      | 960 GB | 2       | 787   | 0     | 2.16   |
 | Samsung   | SSD 860 EVO mSATA  | 250 GB | 3       | 787   | 0     | 2.16   |
+| Samsung   | SSD 850 PRO        | 512 GB | 12      | 782   | 0     | 2.14   |
 | Samsung   | MZNLN128HCGR-000L1 | 128 GB | 1       | 781   | 0     | 2.14   |
 | Micron    | 5100_MTFDDAK240TCB | 240 GB | 4       | 778   | 0     | 2.13   |
 | SanDisk   | SDSA6MM-016G-1006  | 16 GB  | 6       | 775   | 0     | 2.12   |
-| Samsung   | SSD 850 EVO        | 250 GB | 51      | 773   | 0     | 2.12   |
 | SK hynix  | HFS256G3AMNB-2200A | 256 GB | 2       | 1071  | 163   | 2.12   |
 | Innodisk  | DEMSR- 16GB mSA... | 16 GB  | 1       | 768   | 0     | 2.11   |
 | Samsung   | MZNLN256HCHP-000L7 | 256 GB | 4       | 768   | 0     | 2.11   |
 | Intel     | SSDSC2BW180A3L     | 180 GB | 1       | 765   | 0     | 2.10   |
 | MyDigi... | SB2                | 128 GB | 1       | 763   | 0     | 2.09   |
+| Samsung   | SSD PM810 2.5" 7mm | 128 GB | 1       | 762   | 0     | 2.09   |
 | SanDisk   | Ultra II           | 480 GB | 3       | 762   | 0     | 2.09   |
 | Apple     | SSD TS256C         | 256 GB | 1       | 752   | 0     | 2.06   |
 | Samsung   | SSD CM871 2.5 7mm  | 128 GB | 1       | 750   | 0     | 2.06   |
 | SanDisk   | SSD U100           | 24 GB  | 2       | 745   | 0     | 2.04   |
+| Samsung   | SSD 840 PRO Series | 256 GB | 9       | 963   | 1     | 2.04   |
 | Samsung   | SSD 850 EVO        | 2 TB   | 1       | 742   | 0     | 2.03   |
 | Phison    | SATA SSD           | 120 GB | 4       | 741   | 0     | 2.03   |
 | Mushkin   | MKNSSDTR1TB-3DL    | 1 TB   | 1       | 734   | 0     | 2.01   |
 | Samsung   | SSD 830 Series     | 256 GB | 2       | 731   | 0     | 2.00   |
 | Samsung   | SSD 840 EVO        | 250 GB | 16      | 725   | 0     | 1.99   |
 | Intel     | SSDSC2BW240H6      | 240 GB | 2       | 723   | 0     | 1.98   |
-| Samsung   | SSD 850 PRO        | 512 GB | 11      | 721   | 0     | 1.98   |
 | Samsung   | MZMPC032HBCD-00000 | 32 GB  | 1       | 721   | 0     | 1.98   |
 | Kingston  | SV300S37A240G      | 240 GB | 2       | 720   | 0     | 1.97   |
 | Samsung   | SSD 850 EVO M.2    | 250 GB | 6       | 719   | 0     | 1.97   |
-| Samsung   | SSD 860 EVO        | 2 TB   | 2       | 717   | 0     | 1.97   |
 | Toshiba   | THNSNF128GMCS      | 128 GB | 1       | 709   | 0     | 1.94   |
 | Toshiba   | TL100              | 240 GB | 1       | 707   | 0     | 1.94   |
-| ADATA     | SP600              | 32 GB  | 1       | 700   | 0     | 1.92   |
 | Intel     | SSDSCKHW240A4      | 240 GB | 1       | 695   | 0     | 1.90   |
-| Kingston  | SV300S37A120G      | 120 GB | 18      | 904   | 1     | 1.90   |
 | Kingston  | SUV400S37240G      | 240 GB | 4       | 693   | 0     | 1.90   |
 | Toshiba   | THNSNF256GMCS      | 256 GB | 1       | 690   | 0     | 1.89   |
 | Kingston  | SHFS37A240G        | 240 GB | 3       | 689   | 0     | 1.89   |
@@ -183,11 +184,11 @@ MTBF — avg. MTBF in years per sample.
 | Samsung   | MZ7KM240HMHQ-00005 | 240 GB | 2       | 669   | 0     | 1.83   |
 | Apple     | SSD TS128C         | 121 GB | 2       | 667   | 0     | 1.83   |
 | Intel     | SSDSC2BB150G7      | 150 GB | 4       | 793   | 1     | 1.81   |
+| Kingston  | SV300S37A120G      | 120 GB | 19      | 866   | 2     | 1.81   |
 | SanDisk   | SDSSDA120G         | 120 GB | 11      | 659   | 0     | 1.81   |
 | OWC       | Mercury Extreme... | 240 GB | 1       | 657   | 0     | 1.80   |
 | SPCC      | SSD                | 64 GB  | 3       | 655   | 0     | 1.80   |
 | SanDisk   | SD6SB1M064G1022I   | 64 GB  | 3       | 653   | 0     | 1.79   |
-| Samsung   | SSD 840 PRO Series | 256 GB | 8       | 898   | 1     | 1.79   |
 | Kingston  | SMSM150S324G2      | 24 GB  | 1       | 650   | 0     | 1.78   |
 | Samsung   | SG9MSM6D024GPM00   | 22 GB  | 1       | 649   | 0     | 1.78   |
 | OWC       | Mercury Electra... | 240 GB | 2       | 649   | 0     | 1.78   |
@@ -213,16 +214,16 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WDS120G1G0A-00SS50 | 120 GB | 4       | 577   | 0     | 1.58   |
 | Kingston  | SUV400S37480G      | 480 GB | 1       | 566   | 0     | 1.55   |
 | Samsung   | MZNLN256HAJQ-000H1 | 256 GB | 1       | 558   | 0     | 1.53   |
-| Phison    | SATA SSD           | 16 GB  | 44      | 553   | 0     | 1.52   |
 | Crucial   | CT256MX100SSD1     | 256 GB | 6       | 551   | 0     | 1.51   |
 | SanDisk   | SSD U100           | 16 GB  | 3       | 548   | 0     | 1.50   |
 | Samsung   | MZ7TE256HMHP-000H1 | 256 GB | 1       | 544   | 0     | 1.49   |
+| Phison    | SATA SSD           | 16 GB  | 45      | 544   | 0     | 1.49   |
 | Samsung   | SSD 750 EVO        | 120 GB | 3       | 540   | 0     | 1.48   |
 | Toshiba   | Q300               | 480 GB | 1       | 540   | 0     | 1.48   |
 | SanDisk   | SDSSDA240G         | 240 GB | 10      | 531   | 0     | 1.46   |
-| Transcend | TS64GMTS400S       | 64 GB  | 1       | 527   | 0     | 1.45   |
 | Apple     | SSD SM0512F        | 500 GB | 1       | 527   | 0     | 1.44   |
 | Apple     | SSD SM256C         | 256 GB | 1       | 520   | 0     | 1.43   |
+| Phison    | SATA SSD           | 8 GB   | 1       | 508   | 0     | 1.39   |
 | Samsung   | MZ7KM960HMJP-00005 | 960 GB | 1       | 508   | 0     | 1.39   |
 | Samsung   | SSD PM830 2.5" 7mm | 128 GB | 1       | 505   | 0     | 1.38   |
 | Toshiba   | A100               | 240 GB | 1       | 503   | 0     | 1.38   |
@@ -230,8 +231,10 @@ MTBF — avg. MTBF in years per sample.
 | V-GeN     | V-GEN08AS19FS120IT | 120 GB | 1       | 500   | 0     | 1.37   |
 | PNY       | CS1311 120GB SSD   | 120 GB | 1       | 497   | 0     | 1.36   |
 | Micron    | 1100_MTFDDAK256TBN | 256 GB | 3       | 496   | 0     | 1.36   |
+| Samsung   | SSD 850 EVO M.2    | 120 GB | 2       | 487   | 0     | 1.34   |
 | Plextor   | PX-128M7VC         | 128 GB | 1       | 483   | 0     | 1.32   |
 | Samsung   | MZ7LN512HMJP-000L7 | 512 GB | 1       | 483   | 0     | 1.32   |
+| Samsung   | SSD 860 EVO        | 2 TB   | 3       | 480   | 0     | 1.32   |
 | Intel     | SSDMCEAW120A4      | 120 GB | 3       | 476   | 0     | 1.30   |
 | Samsung   | SSD 750 EVO        | 500 GB | 2       | 471   | 0     | 1.29   |
 | KingSpec  | KSD-SA25.7-016MJ   | 16 GB  | 1       | 471   | 0     | 1.29   |
@@ -239,7 +242,10 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SD7SB3Q-128G-1006  | 128 GB | 2       | 470   | 0     | 1.29   |
 | Intel     | SSDSC2BA400G4      | 400 GB | 1       | 465   | 0     | 1.28   |
 | CWDISK    | SSD                | 32 GB  | 1       | 455   | 0     | 1.25   |
+| Intel     | SSDSC2CW060A3      | 64 GB  | 5       | 1692  | 610   | 1.24   |
+| Samsung   | MZ7LN128HCHP-000L1 | 128 GB | 1       | 451   | 0     | 1.24   |
 | Micron    | 1100_MTFDDAV256TBN | 256 GB | 3       | 495   | 5     | 1.23   |
+| SanDisk   | SDSSDH3 1T02       | 1 TB   | 1       | 449   | 0     | 1.23   |
 | SanDisk   | SDSSDHII120G       | 120 GB | 3       | 448   | 0     | 1.23   |
 | Micron    | 5200_MTFDDAK1T9TDN | 1.9 TB | 2       | 446   | 0     | 1.22   |
 | Samsung   | SSD 860 EVO mSATA  | 1 TB   | 3       | 446   | 0     | 1.22   |
@@ -274,7 +280,6 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SD9SB8W128G1122    | 128 GB | 1       | 381   | 0     | 1.05   |
 | OCZ       | VECTOR150          | 120 GB | 1       | 758   | 1     | 1.04   |
 | KingDian  | S280               | 240 GB | 1       | 378   | 0     | 1.04   |
-| Kingston  | SVP200S37A60G      | 64 GB  | 1       | 377   | 0     | 1.03   |
 | Hoodisk   | SSD                | 16 GB  | 9       | 375   | 0     | 1.03   |
 | SanDisk   | SDSSDHII240G       | 240 GB | 1       | 374   | 0     | 1.03   |
 | OCZ       | TRION150           | 480 GB | 1       | 373   | 0     | 1.02   |
@@ -291,11 +296,9 @@ MTBF — avg. MTBF in years per sample.
 | Kingston  | SVP100S2512G       | 512 GB | 1       | 353   | 0     | 0.97   |
 | Kingston  | RBUSNS8180S3128GI  | 128 GB | 1       | 351   | 0     | 0.96   |
 | SanDisk   | SD5SG2256G1052E    | 256 GB | 2       | 351   | 0     | 0.96   |
-| Phison    | SATA SSD           | 32 GB  | 6       | 351   | 0     | 0.96   |
 | Samsung   | MZ7TY256HDHP-000L7 | 256 GB | 2       | 350   | 0     | 0.96   |
 | SanDisk   | SDSSDP256G         | 256 GB | 2       | 349   | 0     | 0.96   |
 | Toshiba   | THNSNF128GCSS      | 128 GB | 1       | 349   | 0     | 0.96   |
-| Apacer    | 32GB SATA Flash... | 32 GB  | 2       | 1152  | 5     | 0.95   |
 | Intenso   | SSD Sata III       | 120 GB | 5       | 341   | 0     | 0.94   |
 | Crucial   | CT525MX300SSD1     | 528 GB | 9       | 522   | 2     | 0.93   |
 | Samsung   | MZ7LF192HCGS-000L1 | 192 GB | 1       | 335   | 0     | 0.92   |
@@ -304,18 +307,18 @@ MTBF — avg. MTBF in years per sample.
 | Mushkin   | MKNSSDAT120GB-V    | 120 GB | 1       | 332   | 0     | 0.91   |
 | SanDisk   | SD6SB1M-032G-1006  | 32 GB  | 1       | 331   | 0     | 0.91   |
 | Smartbuy  | SSD                | 64 GB  | 1       | 327   | 0     | 0.90   |
-| Apacer    | 16GB SATA Flash... | 16 GB  | 4       | 325   | 0     | 0.89   |
 | Kingston  | SMS200S3120G       | 120 GB | 6       | 819   | 3     | 0.89   |
 | Kingston  | SUV500M8120G       | 120 GB | 1       | 320   | 0     | 0.88   |
-| Samsung   | SSD 860 EVO        | 500 GB | 29      | 317   | 0     | 0.87   |
 | WDC       | WDS500G2B0A-00SM50 | 500 GB | 6       | 316   | 0     | 0.87   |
 | OCZ       | AGILITY3           | 240 GB | 1       | 1553  | 4     | 0.85   |
 | Toshiba   | THNSFJ256GCSU      | 256 GB | 2       | 308   | 0     | 0.85   |
+| Samsung   | SSD 860 EVO        | 500 GB | 31      | 306   | 0     | 0.84   |
 | Samsung   | MZ7TD128HAFV-000L1 | 128 GB | 1       | 306   | 0     | 0.84   |
 | Hyundai   | 120GB SSD          | 120 GB | 1       | 306   | 0     | 0.84   |
 | Samsung   | MZ7TE128HMGR-00004 | 128 GB | 1       | 303   | 0     | 0.83   |
 | KingDian  | S400               | 120 GB | 1       | 303   | 0     | 0.83   |
 | Transcend | 3E128-TS2-550B01   | 100 GB | 4       | 404   | 257   | 0.83   |
+| Phison    | SATA SSD           | 32 GB  | 7       | 301   | 0     | 0.83   |
 | SanDisk   | SDSSDP064G         | 64 GB  | 2       | 300   | 0     | 0.82   |
 | Crucial   | CT500MX500SSD4     | 500 GB | 3       | 297   | 0     | 0.81   |
 | OCZ       | VERTEX4            | 128 GB | 1       | 1188  | 3     | 0.81   |
@@ -330,9 +333,11 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SSD U100           | 128 GB | 1       | 282   | 0     | 0.77   |
 | SMART     | SSD XceedValue2... | 32 GB  | 1       | 280   | 0     | 0.77   |
 | HP        | SSD S700 Pro       | 512 GB | 2       | 280   | 0     | 0.77   |
+| PNY       | CS900 120GB SSD    | 120 GB | 10      | 279   | 0     | 0.76   |
 | Intel     | SSDSC2BB120G4      | 120 GB | 3       | 279   | 0     | 0.76   |
 | SanDisk   | SD9SN8W128G1002    | 128 GB | 1       | 278   | 0     | 0.76   |
-| PNY       | CS900 120GB SSD    | 120 GB | 9       | 277   | 0     | 0.76   |
+| Transcend | TS64GMTS400S       | 64 GB  | 2       | 271   | 0     | 0.74   |
+| Apacer    | 16GB SATA Flash... | 16 GB  | 5       | 412   | 3     | 0.74   |
 | WDC       | WDS120G2G0B-00EPW0 | 120 GB | 7       | 268   | 0     | 0.74   |
 | SanDisk   | SD6SB2M512G1022I   | 512 GB | 1       | 536   | 1     | 0.74   |
 | SK hynix  | HFS128G32MND-2200A | 128 GB | 1       | 798   | 2     | 0.73   |
@@ -346,18 +351,19 @@ MTBF — avg. MTBF in years per sample.
 | Apple     | SSD SM1024G        | 1 TB   | 1       | 251   | 0     | 0.69   |
 | Samsung   | MZ7LN256HCHP-000L7 | 256 GB | 3       | 250   | 0     | 0.69   |
 | BIWIN     | SSD                | 256 GB | 1       | 249   | 0     | 0.68   |
+| Apacer    | 32GB SATA Flash... | 32 GB  | 3       | 784   | 4     | 0.68   |
 | SK hynix  | HFS128G39TND-N210A | 128 GB | 2       | 247   | 0     | 0.68   |
 | SPCC      | SSD                | 512 GB | 4       | 247   | 0     | 0.68   |
-| Hoodisk   | SSD                | 128 GB | 17      | 246   | 0     | 0.68   |
 | Intel     | SSDSA2BW120G3H     | 120 GB | 1       | 245   | 0     | 0.67   |
 | Patriot   | Burst              | 240 GB | 4       | 245   | 0     | 0.67   |
-| Hoodisk   | SSD                | 64 GB  | 23      | 244   | 0     | 0.67   |
 | Indilinx  | IND-S3MP-256G      | 256 GB | 1       | 243   | 0     | 0.67   |
 | Plextor   | PX-128M5S          | 128 GB | 1       | 1216  | 4     | 0.67   |
-| Kingston  | SUV500MS120G       | 120 GB | 30      | 241   | 0     | 0.66   |
 | Samsung   | MZ7LN128HAHQ-000H1 | 128 GB | 1       | 239   | 0     | 0.66   |
 | Samsung   | SSD 840 Series     | 500 GB | 1       | 238   | 0     | 0.65   |
+| Hoodisk   | SSD                | 128 GB | 18      | 238   | 0     | 0.65   |
+| Kingston  | SUV500MS120G       | 120 GB | 32      | 238   | 0     | 0.65   |
 | Samsung   | MZ7LN256HMJP-000L7 | 256 GB | 1       | 234   | 0     | 0.64   |
+| Hoodisk   | SSD                | 64 GB  | 24      | 234   | 0     | 0.64   |
 | Transcend | TS64GSSD340        | 64 GB  | 1       | 230   | 0     | 0.63   |
 | Plextor   | PX-256M8VG         | 256 GB | 1       | 230   | 0     | 0.63   |
 | Faspeed   | K5M-32G            | 32 GB  | 1       | 230   | 0     | 0.63   |
@@ -365,29 +371,31 @@ MTBF — avg. MTBF in years per sample.
 | Intel     | SSDSC2BP480G4      | 480 GB | 1       | 224   | 0     | 0.62   |
 | Samsung   | MZHPV512HDGL-000L1 | 512 GB | 1       | 222   | 0     | 0.61   |
 | Corsair   | CSSD-V64GB2        | 64 GB  | 1       | 221   | 0     | 0.61   |
+| Kingston  | SA400S37240G       | 240 GB | 43      | 219   | 0     | 0.60   |
 | Samsung   | MZ7TY128HDHP-00000 | 128 GB | 1       | 218   | 0     | 0.60   |
 | Corsair   | Force LS SSD       | 64 GB  | 2       | 217   | 0     | 0.60   |
+| Transcend | TS16GMTS400        | 16 GB  | 1       | 217   | 0     | 0.60   |
 | Intel     | SSDSA2M120G2GC     | 120 GB | 1       | 1086  | 4     | 0.60   |
 | Samsung   | SSD 860 EVO        | 250 GB | 23      | 217   | 0     | 0.59   |
 | China     | SSD                | 64 GB  | 2       | 214   | 0     | 0.59   |
 | Kingston  | SA400S37120G       | 120 GB | 33      | 214   | 0     | 0.59   |
 | Crucial   | CT275MX300SSD4     | 275 GB | 1       | 213   | 0     | 0.59   |
 | Transcend | TS512GSSD370       | 512 GB | 2       | 212   | 0     | 0.58   |
+| Samsung   | SSD 860 EVO        | 1 TB   | 13      | 211   | 0     | 0.58   |
 | PNY       | CS900 240GB SSD    | 240 GB | 9       | 209   | 0     | 0.58   |
 | HP        | SSD S700 Pro       | 256 GB | 1       | 207   | 0     | 0.57   |
 | Apple     | SSD SD0128F        | 121 GB | 2       | 370   | 1     | 0.57   |
 | SanDisk   | SD7TB6S256G1001    | 256 GB | 1       | 207   | 0     | 0.57   |
 | OCZ       | VERTEX4            | 64 GB  | 1       | 206   | 0     | 0.57   |
-| Kingston  | SA400S37240G       | 240 GB | 41      | 206   | 0     | 0.57   |
 | Kingston  | SUV500240G         | 240 GB | 3       | 205   | 0     | 0.56   |
 | SanDisk   | SD8TN8U512G1001    | 512 GB | 1       | 204   | 0     | 0.56   |
 | SanDisk   | X400 M.2 2280      | 512 GB | 1       | 204   | 0     | 0.56   |
 | Samsung   | SSD 860 EVO mSATA  | 500 GB | 6       | 203   | 0     | 0.56   |
 | Intel     | SSDSC2BF180A4L     | 180 GB | 5       | 300   | 2     | 0.56   |
-| Samsung   | SSD 860 EVO        | 1 TB   | 12      | 202   | 0     | 0.55   |
 | WDC       | WDS100T1R0A-68A4W0 | 1 TB   | 1       | 202   | 0     | 0.55   |
 | Micron    | 5200_MTFDDAK480TDC | 480 GB | 1       | 200   | 0     | 0.55   |
 | HP        | SSD S700           | 1 TB   | 1       | 198   | 0     | 0.54   |
+| SPCC      | SPCCSolidStateDisk | 256 GB | 2       | 197   | 0     | 0.54   |
 | WDC       | WDS500G1B0A-00H9H0 | 500 GB | 1       | 196   | 0     | 0.54   |
 | Micron    | 1100_MTFDDAK2T0TBN | 2 TB   | 1       | 196   | 0     | 0.54   |
 | Transcend | TS32GSSD340K       | 32 GB  | 1       | 196   | 0     | 0.54   |
@@ -402,6 +410,7 @@ MTBF — avg. MTBF in years per sample.
 | Apacer    | 128GB SATA Flas... | 128 GB | 1       | 187   | 0     | 0.51   |
 | Innodisk  | Corp. DRPS-16GJ... | 16 GB  | 1       | 187   | 0     | 0.51   |
 | MyDigi... | SC2 M2 SSD         | 120 GB | 1       | 186   | 0     | 0.51   |
+| Goodram   | SSD                | 120 GB | 2       | 186   | 0     | 0.51   |
 | Toshiba   | Q300               | 240 GB | 2       | 186   | 0     | 0.51   |
 | Samsung   | SSD 860 PRO        | 512 GB | 2       | 185   | 0     | 0.51   |
 | Samsung   | SSD 860 PRO        | 256 GB | 10      | 185   | 0     | 0.51   |
@@ -417,19 +426,18 @@ MTBF — avg. MTBF in years per sample.
 | KingDian  | S280-240GB         | 240 GB | 1       | 177   | 0     | 0.49   |
 | SanDisk   | X400 M.2 2280      | 256 GB | 1       | 176   | 0     | 0.48   |
 | Goodram   | IRP_SSDPR_S25B_480 | 480 GB | 1       | 174   | 0     | 0.48   |
-| Goodram   | SSD                | 120 GB | 1       | 172   | 0     | 0.47   |
 | Patriot   | FLARE              | 64 GB  | 1       | 172   | 0     | 0.47   |
 | Apple     | SSD SM0512G        | 500 GB | 1       | 170   | 0     | 0.47   |
 | WDC       | WDS240G2G0B-00EPW0 | 240 GB | 4       | 169   | 0     | 0.46   |
 | SK hynix  | SC311 SATA         | 256 GB | 1       | 168   | 0     | 0.46   |
 | Transcend | TS120GMTS420S      | 120 GB | 4       | 167   | 0     | 0.46   |
 | SanDisk   | SD6SB1M128G1001    | 128 GB | 1       | 166   | 0     | 0.46   |
+| SanDisk   | SD5SE2256G1002E    | 256 GB | 1       | 164   | 0     | 0.45   |
 | Kston     | SSD                | 32 GB  | 1       | 163   | 0     | 0.45   |
 | Kingston  | RBUSNS8180DS3128GH | 128 GB | 1       | 163   | 0     | 0.45   |
 | Kingston  | SNV425S2128GB      | 128 GB | 1       | 1457  | 8     | 0.44   |
 | EMTEC     | X150               | 240 GB | 1       | 161   | 0     | 0.44   |
 | Vaseky    | 128GV800           | 128 GB | 1       | 161   | 0     | 0.44   |
-| ADATA     | SU650              | 120 GB | 7       | 270   | 31    | 0.44   |
 | Samsung   | SSD PM871b M.2 ... | 256 GB | 1       | 158   | 0     | 0.43   |
 | Crucial   | CT480BX500SSD1     | 480 GB | 1       | 157   | 0     | 0.43   |
 | Lite-On   | CV3-CE128-HP       | 128 GB | 1       | 157   | 0     | 0.43   |
@@ -441,6 +449,7 @@ MTBF — avg. MTBF in years per sample.
 | PNY       | CS1311 480GB SSD   | 480 GB | 1       | 152   | 0     | 0.42   |
 | Transcend | TS256GSSD230S      | 256 GB | 1       | 147   | 0     | 0.40   |
 | Patriot   | Burst              | 120 GB | 4       | 146   | 0     | 0.40   |
+| Crucial   | CT1000MX500SSD1    | 1 TB   | 11      | 145   | 0     | 0.40   |
 | Samsung   | SSD 860 EVO M.2    | 500 GB | 1       | 144   | 0     | 0.40   |
 | WDC       | WDS120G2G0A-00JH30 | 120 GB | 10      | 144   | 0     | 0.40   |
 | Lite-On   | CV8-8E256-11 SATA  | 256 GB | 1       | 143   | 0     | 0.39   |
@@ -459,18 +468,18 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SD7SN3Q128G1002    | 128 GB | 1       | 131   | 0     | 0.36   |
 | Intel     | SSDSC2BF240A5L     | 240 GB | 1       | 130   | 0     | 0.36   |
 | Lite-On   | CV8-8E256          | 256 GB | 1       | 130   | 0     | 0.36   |
-| Crucial   | CT1000MX500SSD1    | 1 TB   | 10      | 129   | 0     | 0.35   |
-| Crucial   | CT240BX500SSD1     | 240 GB | 18      | 127   | 0     | 0.35   |
+| ADATA     | SU650              | 120 GB | 9       | 213   | 24    | 0.35   |
+| Crucial   | CT250MX500SSD1     | 250 GB | 25      | 126   | 0     | 0.35   |
 | WDC       | WDS500G2B0A        | 500 GB | 2       | 125   | 0     | 0.34   |
 | Crucial   | CT275MX300SSD1     | 275 GB | 2       | 191   | 6     | 0.34   |
 | Apacer    | AS450              | 240 GB | 1       | 123   | 0     | 0.34   |
+| Crucial   | CT240BX500SSD1     | 240 GB | 19      | 123   | 0     | 0.34   |
 | SanDisk   | SD8SB8U128G1001    | 128 GB | 1       | 123   | 0     | 0.34   |
 | Lite-On   | LCS-128M6S-HP      | 128 GB | 1       | 123   | 0     | 0.34   |
 | HPE       | MK000480GWUGF      | 480 GB | 1       | 369   | 2     | 0.34   |
 | Toshiba   | KSG60ZMV256G M.... | 256 GB | 2       | 122   | 0     | 0.34   |
 | China     | SH00M120GB         | 120 GB | 2       | 122   | 0     | 0.34   |
 | ADATA     | SU650              | 240 GB | 6       | 120   | 0     | 0.33   |
-| Crucial   | CT250MX500SSD1     | 250 GB | 24      | 120   | 0     | 0.33   |
 | WDC       | WDS100T1B0A-00H9H0 | 1 TB   | 1       | 119   | 0     | 0.33   |
 | SanDisk   | SDSSDH3 1T00       | 1 TB   | 1       | 118   | 0     | 0.32   |
 | PNY       | CS900 500GB SSD    | 500 GB | 3       | 117   | 0     | 0.32   |
@@ -483,12 +492,10 @@ MTBF — avg. MTBF in years per sample.
 | Crucial   | CT120BX300SSD1     | 120 GB | 3       | 112   | 0     | 0.31   |
 | Crucial   | CT960BX500SSD1     | 960 GB | 2       | 112   | 0     | 0.31   |
 | Apacer    | AS330              | 240 GB | 1       | 1006  | 8     | 0.31   |
-| SanDisk   | SSD i100           | 32 GB  | 1       | 1411  | 12    | 0.30   |
 | KingFast  | SSD                | 256 GB | 1       | 108   | 0     | 0.30   |
 | China     | OSSD256GBTSS2      | 256 GB | 1       | 107   | 0     | 0.30   |
 | ADATA     | SU800              | 512 GB | 1       | 107   | 0     | 0.30   |
 | SK hynix  | SHGS31-250GS-2     | 250 GB | 1       | 106   | 0     | 0.29   |
-| Transcend | TS128GMSA230S      | 128 GB | 8       | 106   | 0     | 0.29   |
 | China     | BR                 | 64 GB  | 1       | 106   | 0     | 0.29   |
 | Samsung   | Portable SSD T5    | 500 GB | 1       | 105   | 0     | 0.29   |
 | Intel     | SSDSC2KG480G8R     | 480 GB | 2       | 105   | 0     | 0.29   |
@@ -510,6 +517,7 @@ MTBF — avg. MTBF in years per sample.
 | China     | SATA SSD           | 20 GB  | 1       | 96    | 0     | 0.26   |
 | BlueRay   | Ultra M8V          | 256 GB | 1       | 95    | 0     | 0.26   |
 | Phison    | SATA SSD           | 64 GB  | 3       | 95    | 0     | 0.26   |
+| Transcend | TS128GMSA230S      | 128 GB | 9       | 95    | 0     | 0.26   |
 | Samsung   | MZMTE128HMGR-000MV | 128 GB | 1       | 94    | 0     | 0.26   |
 | Lite-On   | L8H-256V2G         | 256 GB | 1       | 93    | 0     | 0.26   |
 | Kingston  | SA400S37480G       | 480 GB | 12      | 101   | 1     | 0.25   |
@@ -521,12 +529,12 @@ MTBF — avg. MTBF in years per sample.
 | OCZ       | AGILITY4           | 128 GB | 1       | 176   | 1     | 0.24   |
 | Crucial   | CT1000MX500SSD4    | 1 TB   | 1       | 87    | 0     | 0.24   |
 | China     | PATA SSD           | 8 GB   | 1       | 87    | 0     | 0.24   |
+| Kston     | SSD                | 128 GB | 3       | 165   | 1     | 0.23   |
 | ADATA     | IM2S3144-030GK     | 32 GB  | 1       | 85    | 0     | 0.23   |
 | China     | SSD                | 120 GB | 2       | 160   | 2     | 0.23   |
 | Dogfish   | SSD                | 256 GB | 4       | 84    | 0     | 0.23   |
 | Lite-On   | LMT-256L9M-11 M... | 256 GB | 1       | 84    | 0     | 0.23   |
 | ADATA     | SU800              | 1 TB   | 1       | 83    | 0     | 0.23   |
-| Dogfish   | SSD                | 64 GB  | 2       | 83    | 0     | 0.23   |
 | SPCC      | SSD                | 256 GB | 3       | 82    | 0     | 0.23   |
 | Transcend | TS32GSSD370        | 32 GB  | 5       | 82    | 0     | 0.23   |
 | UDinfo    | M2S                | 120 GB | 3       | 82    | 0     | 0.23   |
@@ -545,18 +553,16 @@ MTBF — avg. MTBF in years per sample.
 | Micron    | M500_MTFDDAK960MAV | 960 GB | 4       | 1695  | 270   | 0.19   |
 | Kingston  | SM2280S3240G       | 240 GB | 1       | 70    | 0     | 0.19   |
 | KingSpec  | NT-128             | 128 GB | 2       | 70    | 0     | 0.19   |
-| Intel     | SSDSC2CW060A3      | 64 GB  | 4       | 1619  | 763   | 0.19   |
 | Dogfish   | SSD                | 480 GB | 1       | 210   | 2     | 0.19   |
 | SK hynix  | SHGS31-500GS-2     | 500 GB | 1       | 69    | 0     | 0.19   |
 | Samsung   | SSD 860 EVO        | 4 TB   | 1       | 68    | 0     | 0.19   |
-| Kston     | SSD                | 128 GB | 2       | 68    | 0     | 0.19   |
 | Transcend | TS32GHSD370        | 32 GB  | 1       | 67    | 0     | 0.19   |
 | Intel     | SSDSCKGF256A5 SATA | 256 GB | 1       | 67    | 0     | 0.19   |
 | SanDisk   | WD easystore       | 240 GB | 2       | 66    | 0     | 0.18   |
 | Drevo     | X1 SSD             | 64 GB  | 1       | 66    | 0     | 0.18   |
 | Drevo     | X1 pro 64G         | 64 GB  | 2       | 66    | 0     | 0.18   |
-| Crucial   | CT1000BX500SSD1    | 1 TB   | 3       | 65    | 0     | 0.18   |
 | Apple     | SSD SM256E         | 256 GB | 2       | 467   | 61    | 0.18   |
+| Dogfish   | SSD                | 64 GB  | 3       | 65    | 0     | 0.18   |
 | ADATA     | SU800              | 256 GB | 2       | 65    | 0     | 0.18   |
 | Plextor   | PX-128M5M          | 128 GB | 1       | 64    | 0     | 0.18   |
 | Plextor   | PX-256M5S          | 256 GB | 2       | 64    | 0     | 0.18   |
@@ -564,6 +570,7 @@ MTBF — avg. MTBF in years per sample.
 | China     | mSATA-64GB SSD     | 64 GB  | 1       | 63    | 0     | 0.17   |
 | Micron    | MTFDDAT064MAM-1J2  | 64 GB  | 1       | 62    | 0     | 0.17   |
 | Kingston  | SUV500M8240G       | 240 GB | 2       | 62    | 0     | 0.17   |
+| Samsung   | MZNTE128HMGR-000SO | 128 GB | 1       | 367   | 5     | 0.17   |
 | Dogfish   | SSD                | 512 GB | 3       | 60    | 0     | 0.17   |
 | Samsung   | MZMTE1T0HMJH-00000 | 1 TB   | 1       | 59    | 0     | 0.16   |
 | Micron    | MTFDDAK128MAM-1J1  | 128 GB | 2       | 59    | 0     | 0.16   |
@@ -571,12 +578,14 @@ MTBF — avg. MTBF in years per sample.
 | Samsung   | SSD 870 QVO        | 2 TB   | 2       | 58    | 0     | 0.16   |
 | Intel     | SSDSA2SH032G1GN    | 32 GB  | 1       | 57    | 0     | 0.16   |
 | Intel     | SSDSC2MH120A2      | 120 GB | 2       | 57    | 0     | 0.16   |
+| SanDisk   | SSD i100           | 32 GB  | 2       | 708   | 6     | 0.16   |
 | SanDisk   | SSD U100           | 32 GB  | 1       | 57    | 0     | 0.16   |
 | Transcend | TS256GSSD320       | 256 GB | 2       | 170   | 3     | 0.16   |
 | Micron    | 5210_MTFDDAK7T6QDE | 7.6 TB | 4       | 55    | 0     | 0.15   |
 | WDC       | WDS100T2B0A-00SM50 | 1 TB   | 31      | 53    | 0     | 0.15   |
 | KingDian  | S200               | 64 GB  | 3       | 58    | 337   | 0.15   |
 | Transcend | TS256GMTS800       | 256 GB | 1       | 53    | 0     | 0.15   |
+| PNY       | SSD2SC240G1SA75... | 240 GB | 1       | 53    | 0     | 0.15   |
 | Samsung   | SSD 860 EVO M.2    | 1 TB   | 2       | 53    | 0     | 0.15   |
 | Lite-On   | LGT-128M6G         | 128 GB | 1       | 52    | 0     | 0.14   |
 | WDC       | WDS480G2G0A-00JH30 | 480 GB | 4       | 52    | 0     | 0.14   |
@@ -584,14 +593,15 @@ MTBF — avg. MTBF in years per sample.
 | Lenovo    | SSD SL700 120G     | 120 GB | 1       | 50    | 0     | 0.14   |
 | Lite-On   | L8H-256V2G-11 M... | 256 GB | 1       | 50    | 0     | 0.14   |
 | OCZ       | VERTEX2            | 55 GB  | 1       | 50    | 0     | 0.14   |
+| Crucial   | CT1000BX500SSD1    | 1 TB   | 4       | 49    | 0     | 0.14   |
 | KingDian  | S280               | 120 GB | 1       | 49    | 0     | 0.14   |
+| Samsung   | SSD 870 EVO        | 1 TB   | 2       | 49    | 0     | 0.13   |
 | ADATA     | SU630              | 480 GB | 1       | 48    | 0     | 0.13   |
 | Transcend | TS256GMSA230S      | 256 GB | 3       | 47    | 0     | 0.13   |
 | Toshiba   | THNSNJ256GCSY      | 256 GB | 1       | 45    | 0     | 0.12   |
 | Transcend | TS128GMTS550T      | 128 GB | 1       | 44    | 0     | 0.12   |
 | Intel     | SSDSC2KG480G8      | 480 GB | 5       | 44    | 0     | 0.12   |
 | SanDisk   | SD8SN8U-128G-1006  | 128 GB | 1       | 43    | 0     | 0.12   |
-| BIWIN     | SSD                | 128 GB | 6       | 43    | 0     | 0.12   |
 | Transcend | TS128GMTS430S      | 128 GB | 3       | 43    | 0     | 0.12   |
 | Transcend | TS64GMSA230S       | 64 GB  | 7       | 42    | 0     | 0.12   |
 | China     | QST8-512           | 512 GB | 1       | 42    | 0     | 0.12   |
@@ -600,9 +610,9 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | pSSD               | 64 GB  | 5       | 40    | 0     | 0.11   |
 | Dogfish   | SSD                | 120 GB | 1       | 121   | 2     | 0.11   |
 | KingSpec  | NT-256             | 256 GB | 3       | 39    | 0     | 0.11   |
-| Protectli | 120GB mSATA        | 120 GB | 4       | 39    | 0     | 0.11   |
 | Intel     | SSDSC2KW256G8L     | 256 GB | 1       | 39    | 0     | 0.11   |
 | Apacer    | AS350              | 256 GB | 2       | 38    | 0     | 0.11   |
+| BIWIN     | SSD                | 128 GB | 7       | 37    | 0     | 0.10   |
 | WDC       | WDS120G1G0B-00RC30 | 120 GB | 1       | 37    | 0     | 0.10   |
 | Samsung   | MZ7LN256HCHP-000F0 | 256 GB | 1       | 37    | 0     | 0.10   |
 | WDC       | WDS100T2B0B-00YS70 | 1 TB   | 1       | 37    | 0     | 0.10   |
@@ -610,6 +620,7 @@ MTBF — avg. MTBF in years per sample.
 | Kston     | SSD                | 64 GB  | 4       | 37    | 0     | 0.10   |
 | Samsung   | MZYTE256HMHP-000L2 | 256 GB | 1       | 36    | 0     | 0.10   |
 | Micron    | 1100 SATA          | 512 GB | 1       | 36    | 0     | 0.10   |
+| SK hynix  | SC308 SATA         | 256 GB | 1       | 182   | 4     | 0.10   |
 | FORESEE   | 128GB SSD          | 128 GB | 10      | 36    | 0     | 0.10   |
 | ADATA     | SU750              | 256 GB | 1       | 36    | 0     | 0.10   |
 | KingSpec  | P3-256             | 256 GB | 1       | 35    | 0     | 0.10   |
@@ -618,6 +629,7 @@ MTBF — avg. MTBF in years per sample.
 | ATP       | SATA III mSATA     | 120 GB | 2       | 34    | 0     | 0.10   |
 | SanDisk   | SSD PLUS           | 480 GB | 3       | 51    | 1     | 0.09   |
 | MidasF... | SSD                | 256 GB | 1       | 32    | 0     | 0.09   |
+| Protectli | 120GB mSATA        | 120 GB | 5       | 32    | 0     | 0.09   |
 | OCZ       | VERTEX-TURBO       | 32 GB  | 2       | 298   | 56    | 0.09   |
 | Kingston  | HyperX Fury 3D ... | 480 GB | 2       | 31    | 0     | 0.09   |
 | Intenso   | SSD Sata III       | 256 GB | 2       | 31    | 0     | 0.09   |
@@ -632,16 +644,17 @@ MTBF — avg. MTBF in years per sample.
 | China     | XJH-128GB          | 128 GB | 1       | 26    | 0     | 0.07   |
 | Zheino    | CHN mSATA01M 060   | 64 GB  | 1       | 26    | 0     | 0.07   |
 | Apacer    | AS340              | 120 GB | 1       | 25    | 0     | 0.07   |
-| Transcend | TS128GMSA370       | 128 GB | 6       | 25    | 0     | 0.07   |
 | SanDisk   | SD5SG2128G1052E    | 128 GB | 1       | 50    | 1     | 0.07   |
 | Transcend | TS128GSSD370       | 128 GB | 1       | 25    | 0     | 0.07   |
 | Kingston  | SHSS37A240G        | 240 GB | 1       | 25    | 0     | 0.07   |
 | OCZ       | AGILITY3           | 64 GB  | 1       | 24    | 0     | 0.07   |
+| Samsung   | SSD 870 QVO        | 1 TB   | 2       | 23    | 0     | 0.07   |
 | Dogfish   | SSD                | 128 GB | 4       | 23    | 0     | 0.07   |
 | China     | CS2246-M512        | 506 GB | 1       | 22    | 0     | 0.06   |
-| FORESEE   | 64GB SSD           | 64 GB  | 5       | 22    | 0     | 0.06   |
 | ATP       | SATA III M.2 2242  | 64 GB  | 1       | 22    | 0     | 0.06   |
 | Crucial   | CT512M550SSD1      | 512 GB | 1       | 379   | 16    | 0.06   |
+| FORESEE   | 64GB SSD           | 64 GB  | 6       | 22    | 0     | 0.06   |
+| Transcend | TS128GMSA370       | 128 GB | 7       | 22    | 0     | 0.06   |
 | Transcend | TS512GMSA370       | 512 GB | 1       | 21    | 0     | 0.06   |
 | SanDisk   | SSD G5 BICS4       | 1 TB   | 3       | 21    | 0     | 0.06   |
 | Micron    | MTFDDAV256MBF-1... | 256 GB | 1       | 21    | 0     | 0.06   |
@@ -662,6 +675,7 @@ MTBF — avg. MTBF in years per sample.
 | China     | SH00M240GB         | 240 GB | 1       | 13    | 0     | 0.04   |
 | Crucial   | CT128MX100SSD1     | 128 GB | 1       | 235   | 16    | 0.04   |
 | Intel     | SSDSC2BF180A5H REF | 180 GB | 1       | 13    | 0     | 0.04   |
+| Transcend | TS256GMTS430S      | 256 GB | 4       | 13    | 0     | 0.04   |
 | ADATA     | SP610              | 128 GB | 1       | 39    | 2     | 0.04   |
 | Samsung   | SSD 850 PRO        | 1 TB   | 1       | 13    | 0     | 0.04   |
 | Lite-On   | LMH-128V2M-11 M... | 128 GB | 1       | 13    | 0     | 0.04   |
@@ -669,16 +683,16 @@ MTBF — avg. MTBF in years per sample.
 | KingSpec  | NT-512             | 512 GB | 1       | 12    | 0     | 0.04   |
 | Lite-On   | CS1-SP32-11 M.2... | 32 GB  | 1       | 12    | 0     | 0.03   |
 | Hikvision | HS-SSD-C100 120G   | 120 GB | 1       | 12    | 0     | 0.03   |
+| Lite-On   | LCH-256V2S         | 256 GB | 2       | 12    | 0     | 0.03   |
 | KingFast  | SSD                | 512 GB | 2       | 12    | 0     | 0.03   |
 | NTC       | SSD                | 120 GB | 1       | 12    | 0     | 0.03   |
-| Lite-On   | LCH-256V2S         | 256 GB | 1       | 12    | 0     | 0.03   |
 | Micron    | 1100 SATA          | 256 GB | 5       | 15    | 1     | 0.03   |
+| Samsung   | SSD 870 EVO        | 250 GB | 6       | 11    | 0     | 0.03   |
 | Intel     | SSDSC2KB240G8      | 240 GB | 3       | 11    | 0     | 0.03   |
 | Protectli | 64GB mSATA         | 64 GB  | 2       | 11    | 0     | 0.03   |
 | Micron    | MTFDDAK256MBF-1... | 256 GB | 1       | 11    | 0     | 0.03   |
 | Intenso   | SSD Sata III       | 240 GB | 1       | 10    | 0     | 0.03   |
 | Hikvision | HS-SSD-C100 240G   | 240 GB | 1       | 10    | 0     | 0.03   |
-| Samsung   | SSD 870 EVO        | 250 GB | 5       | 10    | 0     | 0.03   |
 | Intel     | SSDSC2KB960G8      | 960 GB | 1       | 10    | 0     | 0.03   |
 | Seagate   | BarraCuda SSD Z... | 250 GB | 1       | 10    | 0     | 0.03   |
 | ZTC       | MS001-128G         | 128 GB | 1       | 9     | 0     | 0.03   |
@@ -690,13 +704,13 @@ MTBF — avg. MTBF in years per sample.
 | Lite-On   | LJH-64V2G-11 M.... | 64 GB  | 1       | 38    | 4     | 0.02   |
 | EMTEC     | X150               | 120 GB | 1       | 7     | 0     | 0.02   |
 | Intenso   | SSD Sata III       | 128 GB | 2       | 7     | 26    | 0.02   |
-| Kingston  | SA400M8120G        | 120 GB | 2       | 7     | 0     | 0.02   |
 | KingSpec  | Q-720              | 720 GB | 1       | 7     | 0     | 0.02   |
 | Lexar     | SSD                | 256 GB | 1       | 7     | 0     | 0.02   |
 | China     | SSD64G             | 64 GB  | 1       | 64    | 8     | 0.02   |
 | SanDisk   | SDSA6MM-008G-1006  | 8 GB   | 1       | 6     | 0     | 0.02   |
 | PNY       | SSD2SC120G1CS17... | 120 GB | 2       | 6     | 0     | 0.02   |
 | Lexar     | 256GB SSD          | 256 GB | 1       | 6     | 0     | 0.02   |
+| Kingston  | SA400M8120G        | 120 GB | 3       | 6     | 0     | 0.02   |
 | SK hynix  | SC210 mSATA        | 256 GB | 2       | 248   | 75    | 0.02   |
 | SMI       | SSD DISK           | 120 GB | 1       | 519   | 89    | 0.02   |
 | Transcend | TS120GMTS820S      | 120 GB | 1       | 5     | 0     | 0.02   |
@@ -738,9 +752,7 @@ MTBF — avg. MTBF in years per sample.
 | Samsung   | MZNLH512HALU-00000 | 512 GB | 1       | 1     | 0     | 0.01   |
 | Intel     | SSDSC2BW120H6      | 120 GB | 1       | 1     | 0     | 0.00   |
 | Intel     | SSDSC2CW120A3      | 120 GB | 4       | 1812  | 1018  | 0.00   |
-| Transcend | TS256GMTS952T2     | 256 GB | 3       | 1     | 0     | 0.00   |
 | KingFast  | SSD                | 16 GB  | 1       | 1     | 0     | 0.00   |
-| Transcend | TS256GMTS430S      | 256 GB | 3       | 1     | 0     | 0.00   |
 | Samsung   | SSD UM410 Serie... | 16 GB  | 1       | 38    | 24    | 0.00   |
 | ATP       | SATA III M.2 22... | 240 GB | 1       | 1     | 0     | 0.00   |
 | Lexar     | 128GB SSD          | 128 GB | 1       | 1     | 0     | 0.00   |
@@ -749,6 +761,8 @@ MTBF — avg. MTBF in years per sample.
 | Wintec    | 120GB SATA3 SF2... | 120 GB | 1       | 1431  | 1017  | 0.00   |
 | China     | MSATA 64GB SSD     | 64 GB  | 1       | 1     | 0     | 0.00   |
 | Seagate   | ST-MSATASSD128     | 128 GB | 1       | 1     | 0     | 0.00   |
+| Transcend | TS256GMTS952T2     | 256 GB | 4       | 1     | 0     | 0.00   |
+| KingSpec  | P3-512-TM          | 512 GB | 1       | 1     | 0     | 0.00   |
 | Protectli | 240GB mSATA        | 240 GB | 2       | 1     | 0     | 0.00   |
 | Kingston  | SA400S37960G       | 960 GB | 1       | 1     | 0     | 0.00   |
 | Toshiba   | THNSNK128GCS8 SATA | 128 GB | 1       | 118   | 100   | 0.00   |
@@ -766,16 +780,20 @@ MTBF — avg. MTBF in years per sample.
 | SuperM... | SSD                | 64 GB  | 1       | 0     | 0     | 0.00   |
 | Intel     | SSDSCKKF256G8H     | 256 GB | 2       | 81    | 94    | 0.00   |
 | Intel     | SSDSC1BG200G4R     | 200 GB | 2       | 922   | 1028  | 0.00   |
+| Intel     | SSDSCKKR128G8      | 128 GB | 1       | 0     | 0     | 0.00   |
 | SanDisk   | SDSSDH3 250G       | 250 GB | 1       | 0     | 0     | 0.00   |
 | SanDisk   | SD7UB3Q256G1001    | 256 GB | 1       | 84    | 100   | 0.00   |
 | Kingston  | RBUSNS8180S3512GJ  | 512 GB | 2       | 0     | 0     | 0.00   |
 | FORESEE   | 256GB SSD          | 256 GB | 1       | 0     | 0     | 0.00   |
+| Verbatim  | Vi550 S3 SSD       | 256 GB | 1       | 0     | 0     | 0.00   |
 | Kingston  | RBU-SNS4151S316GG2 | 16 GB  | 1       | 0     | 0     | 0.00   |
 | VisionTek | mSATA              | 120 GB | 2       | 777   | 1016  | 0.00   |
 | Toshiba   | THNSNK256GVN8 M... | 256 GB | 1       | 74    | 100   | 0.00   |
 | Crucial   | M4-CT128M4SSD1     | 128 GB | 1       | 704   | 1023  | 0.00   |
+| BAITITON  | BT58SSD07M         | 120 GB | 1       | 0     | 0     | 0.00   |
 | China     | GM128              | 128 GB | 1       | 0     | 0     | 0.00   |
 | Kingston  | OM8P0S3256B-A0     | 256 GB | 1       | 0     | 0     | 0.00   |
+| Transcend | TS128GMSA370S      | 128 GB | 1       | 0     | 0     | 0.00   |
 | Samsung   | SSD 860 EVO M.2    | 250 GB | 3       | 0     | 0     | 0.00   |
 | Goodram   | SSDPR-CX400-256-G2 | 256 GB | 1       | 0     | 0     | 0.00   |
 | Samsung   | MZMTE128HMGR-00007 | 128 GB | 1       | 0     | 0     | 0.00   |
@@ -784,6 +802,7 @@ MTBF — avg. MTBF in years per sample.
 | Kingston  | SNS4151S316G       | 16 GB  | 4       | 436   | 1022  | 0.00   |
 | Transcend | TS128GMTS600       | 128 GB | 1       | 0     | 0     | 0.00   |
 | Transcend | TSA                | 240 GB | 1       | 0     | 0     | 0.00   |
+| minisf... | SSD                | 256 GB | 1       | 0     | 0     | 0.00   |
 | ADATA     | ICFS332-016GW      | 16 GB  | 1       | 0     | 0     | 0.00   |
 | China     | SSD                | 256 GB | 1       | 0     | 0     | 0.00   |
 | Intel     | SSDSC2KB480G8      | 480 GB | 1       | 0     | 0     | 0.00   |
@@ -792,12 +811,13 @@ MTBF — avg. MTBF in years per sample.
 | Transcend | TS16GMSA370        | 16 GB  | 1       | 0     | 0     | 0.00   |
 | Kingston  | SNS4151S316GD      | 16 GB  | 1       | 259   | 1022  | 0.00   |
 | Transcend | TS32GMTS800        | 32 GB  | 1       | 0     | 0     | 0.00   |
-| ATP       | SATA III mSATA SSD | 240 GB | 2       | 0     | 0     | 0.00   |
+| ATP       | SATA III mSATA SSD | 240 GB | 3       | 0     | 0     | 0.00   |
 | Samsung   | SSD 860 PRO        | 2 TB   | 1       | 0     | 0     | 0.00   |
 | Zheino    | CHN-mSATAQ3-120    | 120 GB | 1       | 0     | 0     | 0.00   |
 | Lite-On   | CV8-8E128-HP       | 128 GB | 1       | 146   | 1007  | 0.00   |
 | Kingston  | RBU-SNS8350DES3... | 128 GB | 1       | 14    | 99    | 0.00   |
 | Intenso   | SSD SATAIII        | 120 GB | 2       | 0     | 1     | 0.00   |
+| HP Phison | PSSBN032GA27MC0    | 32 GB  | 1       | 105   | 1067  | 0.00   |
 | Intel     | SSDSC2KW120H6      | 120 GB | 1       | 2     | 29    | 0.00   |
 | Intenso   | JAJMS600M256G      | 256 GB | 1       | 0     | 0     | 0.00   |
 | KLLISRE   | SSD                | 240 GB | 1       | 0     | 0     | 0.00   |
@@ -813,3 +833,183 @@ MTBF — avg. MTBF in years per sample.
 | SMI       | SSD DISK           | 506 GB | 1       | 44    | 2329  | 0.00   |
 | Micron    | MTFDDAT128MAM-1J2  | 128 GB | 1       | 28    | 1587  | 0.00   |
 | ADATA     | SP550              | 480 GB | 1       | 4     | 1194  | 0.00   |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |
+|           |                    |        |         |       |       |        |

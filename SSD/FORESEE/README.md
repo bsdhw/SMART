@@ -18,6 +18,6 @@ MTBF — avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | FORESEE   | 128GB SSD          | 128 GB | 10      | 36    | 0     | 0.10   |
-| FORESEE   | 64GB SSD           | 64 GB  | 5       | 22    | 0     | 0.06   |
+| FORESEE   | 64GB SSD           | 64 GB  | 6       | 22    | 0     | 0.06   |
 | FORESEE   | 32GB SSD           | 32 GB  | 2       | 4     | 0     | 0.01   |
 | FORESEE   | 256GB SSD          | 256 GB | 1       | 0     | 0     | 0.00   |

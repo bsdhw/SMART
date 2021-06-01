@@ -64,7 +64,7 @@ MTBF — avg. MTBF in years per sample.
 | Micron    | 5100 Pro / 5200 SSDs   | 1      | 4       | 778   | 0     | 2.13   |
 | Micron    | BX/MX1/2/3/500, M5/... | 5      | 12      | 404   | 1     | 1.10   |
 | Micron    | 5100 Pro / 52x0 / 5... | 2      | 3       | 364   | 0     | 1.00   |
-| Micron    | BX/MX1/2/3/500, M5/... | 3      | 8       | 1036  | 137   | 0.57   |
-| Micron    | Client SSDs            | 3      | 3       | 166   | 0     | 0.46   |
+| Micron    | BX/MX1/2/3/500, M5/... | 2      | 7       | 1181  | 157   | 0.64   |
+| Micron    | Client SSDs            | 4      | 4       | 130   | 0     | 0.36   |
 | Micron    | Unknown                | 7      | 10      | 219   | 372   | 0.28   |
 | Micron    | RealSSD m4/C400/P400   | 3      | 5       | 107   | 202   | 0.27   |

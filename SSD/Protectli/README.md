@@ -17,7 +17,7 @@ MTBF — avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
 |-----------|--------------------|--------|---------|-------|-------|--------|
-| Protectli | 120GB mSATA        | 120 GB | 4       | 39    | 0     | 0.11   |
+| Protectli | 120GB mSATA        | 120 GB | 5       | 32    | 0     | 0.09   |
 | Protectli | 64GB mSATA         | 64 GB  | 2       | 11    | 0     | 0.03   |
 | Protectli | 480GB mSATA        | 480 GB | 1       | 2     | 0     | 0.01   |
 | Protectli | 240GB mSATA        | 240 GB | 2       | 1     | 0     | 0.00   |

@@ -32,6 +32,7 @@ MTBF — avg. MTBF in years per sample.
 | KingSpec  | NT-512             | 512 GB | 1       | 12    | 0     | 0.04   |
 | KingSpec  | Q-720              | 720 GB | 1       | 7     | 0     | 0.02   |
 | KingSpec  | KSD-SA25.7-008MJ   | 8 GB   | 1       | 4     | 0     | 0.01   |
+| KingSpec  | P3-512-TM          | 512 GB | 1       | 1     | 0     | 0.00   |
 
 SSD by Family
 -------------
@@ -46,5 +47,5 @@ MTBF — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
-| KingSpec  | Unknown                | 7      | 10      | 147   | 0     | 0.40   |
+| KingSpec  | Unknown                | 8      | 11      | 134   | 0     | 0.37   |
 | KingSpec  | JMicron/Maxiotek ba... | 2      | 5       | 52    | 0     | 0.14   |

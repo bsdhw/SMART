@@ -19,6 +19,6 @@ MTBF — avg. MTBF in years per sample.
 |-----------|--------------------|--------|---------|-------|-------|--------|
 | Hoodisk   | SSD                | 32 GB  | 20      | 397   | 0     | 1.09   |
 | Hoodisk   | SSD                | 16 GB  | 9       | 375   | 0     | 1.03   |
-| Hoodisk   | SSD                | 128 GB | 17      | 246   | 0     | 0.68   |
-| Hoodisk   | SSD                | 64 GB  | 23      | 244   | 0     | 0.67   |
+| Hoodisk   | SSD                | 128 GB | 18      | 238   | 0     | 0.65   |
+| Hoodisk   | SSD                | 64 GB  | 24      | 234   | 0     | 0.64   |
 | Hoodisk   | SSD                | 256 GB | 6       | 137   | 0     | 0.38   |

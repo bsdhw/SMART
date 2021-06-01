@@ -1,0 +1,60 @@
+smartctl 7.1 2019-12-30 r5022 [powerpc-unknown-openbsd6.9] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Toshiba 2.5" HDD (80 GB and above)
+Device Model:     TOSHIBA MK8025GAS
+Serial Number:    --
+Firmware Version: KA021B
+User Capacity:    80,026,361,856 bytes [80.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA/ATAPI-6 (minor revision not indicated)
+Local Time is:    Mon May 31 04:53:26 2021 PDT
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+Warning! SMART Attribute Data Structure error: invalid SMART checksum.
+Warning! SMART Attribute Thresholds Structure error: invalid SMART checksum.
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+See vendor-specific Attribute list for marginal Attributes.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x00) 	Offline data collection not supported.
+SMART capabilities:            (0x0000)	Automatic saving of SMART data					is not implemented.
+Error logging capability:        (0x00)	Error logging supported.
+					No General Purpose Logging support.
+
+SMART Attributes Data Structure revision number: 8227
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+108 Unknown_Attribute       0x6269   113   116   105    Pre-fail  Offline      -       115893072588895
+ 95 Unknown_Attribute       0x616c   045   112   108    Old_age   Offline  FAILING_NOW 126896628654444
+ 46 Unknown_Attribute       0x6f6c   032   045   108    Old_age   Offline  FAILING_NOW 108204925149472
+111 Unknown_Attribute       0x6c6f   032   111   111    Pre-fail  Always   FAILING_NOW 35684255885922
+105 Unknown_Attribute       0x656c   010   035   108    Old_age   Offline  FAILING_NOW 125779969394464
+116 Unknown_Attribute       0x6465   032   098   101    Pre-fail  Offline  FAILING_NOW 127966024310905
+111 Unknown_Attribute       0x206c   049   046   108    Old_age   Offline  FAILING_NOW 38526765903413
+112 Unknown_Attribute       0x6369   095   111   105    Pre-fail  Offline  FAILING_NOW 67570093091426
+ 46 Unknown_Attribute       0x696c   098   115   108    Old_age   Offline  FAILING_NOW 128030331202607
+112 Unknown_Attribute       0x756c   103   105   108    Old_age   Offline  FAILING_NOW 123340210331502
+ 97 Unknown_Attribute       0x6c79   105   115   121    Pre-fail  Offline  FAILING_NOW 120989890326132
+110 Unknown_Attribute       0x705f   105   099   095    Pre-fail  Always       -       109287227682655
+ 61 Unknown_Attribute       0x2727   010   000   039    Pre-fail  Always   FAILING_NOW 0
+
+SMART Error Log Version: 0
+No Errors Logged
+
+SMART Self-test log structure revision number 0
+Warning: ATA Specification requires self-test log structure revision number = 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+

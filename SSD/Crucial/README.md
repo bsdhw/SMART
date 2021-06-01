@@ -41,17 +41,17 @@ MTBF — avg. MTBF in years per sample.
 | Crucial   | CT500MX200SSD1     | 500 GB | 3       | 191   | 0     | 0.52   |
 | Crucial   | CT2000MX500SSD1    | 2 TB   | 4       | 181   | 0     | 0.50   |
 | Crucial   | CT480BX500SSD1     | 480 GB | 1       | 157   | 0     | 0.43   |
-| Crucial   | CT1000MX500SSD1    | 1 TB   | 10      | 129   | 0     | 0.35   |
-| Crucial   | CT240BX500SSD1     | 240 GB | 18      | 127   | 0     | 0.35   |
+| Crucial   | CT1000MX500SSD1    | 1 TB   | 11      | 145   | 0     | 0.40   |
+| Crucial   | CT250MX500SSD1     | 250 GB | 25      | 126   | 0     | 0.35   |
 | Crucial   | CT275MX300SSD1     | 275 GB | 2       | 191   | 6     | 0.34   |
-| Crucial   | CT250MX500SSD1     | 250 GB | 24      | 120   | 0     | 0.33   |
+| Crucial   | CT240BX500SSD1     | 240 GB | 19      | 123   | 0     | 0.34   |
 | Crucial   | CT120BX300SSD1     | 120 GB | 3       | 112   | 0     | 0.31   |
 | Crucial   | CT960BX500SSD1     | 960 GB | 2       | 112   | 0     | 0.31   |
 | Crucial   | CT128M550SSD3      | 128 GB | 1       | 1705  | 16    | 0.27   |
 | Crucial   | CT1000MX500SSD4    | 1 TB   | 1       | 87    | 0     | 0.24   |
 | Crucial   | CT240M500SSD1      | 240 GB | 3       | 224   | 7     | 0.22   |
 | Crucial   | CT500MX500SSD1     | 500 GB | 19      | 86    | 1     | 0.20   |
-| Crucial   | CT1000BX500SSD1    | 1 TB   | 3       | 65    | 0     | 0.18   |
+| Crucial   | CT1000BX500SSD1    | 1 TB   | 4       | 49    | 0     | 0.14   |
 | Crucial   | CT480M500SSD1      | 480 GB | 1       | 580   | 20    | 0.08   |
 | Crucial   | CT512M550SSD1      | 512 GB | 1       | 379   | 16    | 0.06   |
 | Crucial   | CT128MX100SSD1     | 128 GB | 1       | 235   | 16    | 0.04   |
@@ -75,5 +75,5 @@ MTBF — avg. MTBF in years per sample.
 | Crucial   | Unknown                | 1      | 2       | 1042  | 0     | 2.86   |
 | Crucial   | BX/MX1/2/3/500, M5/... | 10     | 34      | 540   | 1     | 1.32   |
 | Crucial   | BX/MX1/2/3/500, M5/... | 3      | 6       | 291   | 6     | 0.48   |
-| Crucial   | Client SSDs            | 13     | 72      | 205   | 1     | 0.46   |
-| Crucial   | MX500 SSDs             | 3      | 46      | 118   | 1     | 0.31   |
+| Crucial   | Client SSDs            | 13     | 75      | 201   | 1     | 0.46   |
+| Crucial   | MX500 SSDs             | 3      | 47      | 121   | 1     | 0.32   |

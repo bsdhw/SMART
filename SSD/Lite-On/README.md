@@ -35,7 +35,7 @@ MTBF — avg. MTBF in years per sample.
 | Lite-On   | L8H-256V2G-11 M... | 256 GB | 1       | 50    | 0     | 0.14   |
 | Lite-On   | LMH-128V2M-11 M... | 128 GB | 1       | 13    | 0     | 0.04   |
 | Lite-On   | CS1-SP32-11 M.2... | 32 GB  | 1       | 12    | 0     | 0.03   |
-| Lite-On   | LCH-256V2S         | 256 GB | 1       | 12    | 0     | 0.03   |
+| Lite-On   | LCH-256V2S         | 256 GB | 2       | 12    | 0     | 0.03   |
 | Lite-On   | LJH-64V2G-11 M.... | 64 GB  | 1       | 38    | 4     | 0.02   |
 | Lite-On   | L8H-128V2G         | 128 GB | 1       | 3     | 0     | 0.01   |
 | Lite-On   | CV1-8B512          | 512 GB | 1       | 2     | 0     | 0.01   |
@@ -55,5 +55,5 @@ MTBF — avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
 |-----------|------------------------|--------|---------|-------|-------|--------|
-| Lite-On   | Unknown                | 17     | 17      | 87    | 60    | 0.21   |
+| Lite-On   | Unknown                | 17     | 18      | 83    | 57    | 0.20   |
 | Lite-On   | Silicon Motion base... | 1      | 1       | 13    | 0     | 0.04   |

@@ -21,4 +21,4 @@ MTBF — avg. MTBF in years per sample.
 | ATP       | SATA III M.2 2242  | 64 GB  | 1       | 22    | 0     | 0.06   |
 | ATP       | SATA III 2.5 in... | 120 GB | 1       | 4     | 0     | 0.01   |
 | ATP       | SATA III M.2 22... | 240 GB | 1       | 1     | 0     | 0.00   |
-| ATP       | SATA III mSATA SSD | 240 GB | 2       | 0     | 0     | 0.00   |
+| ATP       | SATA III mSATA SSD | 240 GB | 3       | 0     | 0     | 0.00   |

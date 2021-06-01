@@ -30,8 +30,8 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | PC SN730 NVMe      | 1 TB   | 1       | 83    | 0     | 0.23   |
 | WDC       | PC SN730 SDBQNT... | 256 GB | 3       | 60    | 0     | 0.17   |
 | WDC       | WDS512G1X0C-00ENX0 | 512 GB | 1       | 33    | 0     | 0.09   |
-| WDC       | WDS500G2B0C-00PXH0 | 500 GB | 3       | 32    | 0     | 0.09   |
 | WDC       | PC SN520 NVMe      | 256 GB | 1       | 28    | 0     | 0.08   |
+| WDC       | WDS500G2B0C-00PXH0 | 500 GB | 4       | 27    | 0     | 0.07   |
 | WDC       | PC SN730 SDBQNT... | 512 GB | 2       | 23    | 0     | 0.06   |
 | WDC       | PC SN530 SDBPNP... | 256 GB | 2       | 20    | 0     | 0.06   |
 | WDC       | PC SN730 SDBQNT... | 1 TB   | 2       | 18    | 0     | 0.05   |

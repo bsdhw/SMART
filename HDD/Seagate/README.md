@@ -28,8 +28,8 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST32000645NS       | 2 TB   | 1       | 2713  | 0     | 7.43   |
 | Seagate   | ST33000651NS       | 3 TB   | 1       | 2619  | 0     | 7.18   |
 | Seagate   | ST3000VN000-1HJ166 | 3 TB   | 1       | 2483  | 0     | 6.81   |
-| Seagate   | ST4000VN000-1H4168 | 4 TB   | 3       | 2481  | 0     | 6.80   |
 | Seagate   | ST380011A          | 80 GB  | 2       | 2314  | 0     | 6.34   |
+| Seagate   | ST4000VN000-1H4168 | 4 TB   | 4       | 2235  | 0     | 6.12   |
 | Seagate   | ST32000641AS       | 2 TB   | 1       | 2076  | 0     | 5.69   |
 | Seagate   | ST2000NM0033-9Z... | 2 TB   | 4       | 2053  | 0     | 5.62   |
 | Seagate   | ST4000NM0033-9Z... | 4 TB   | 3       | 1988  | 0     | 5.45   |
@@ -45,16 +45,17 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST9250410AS        | 250 GB | 1       | 1400  | 0     | 3.84   |
 | Seagate   | ST1000NM0055-1V... | 1 TB   | 1       | 1376  | 0     | 3.77   |
 | Seagate   | ST2000NC001-1DY164 | 2 TB   | 4       | 1797  | 28    | 3.71   |
+| Seagate   | ST6000DM001-1YW11C | 6 TB   | 1       | 1338  | 0     | 3.67   |
 | Seagate   | ST250DM000-1BD141  | 250 GB | 5       | 1296  | 0     | 3.55   |
+| Seagate   | ST3000VX000-1ES166 | 3 TB   | 2       | 1268  | 0     | 3.48   |
 | Seagate   | ST3000DM001-1ER166 | 3 TB   | 4       | 1258  | 0     | 3.45   |
 | Seagate   | ST3160318AS        | 160 GB | 3       | 1244  | 0     | 3.41   |
+| Seagate   | ST4000DM000-1F2168 | 4 TB   | 18      | 1301  | 58    | 3.29   |
 | Seagate   | ST3250312AS        | 250 GB | 4       | 1153  | 0     | 3.16   |
 | Seagate   | ST4000LM016-1N2170 | 4 TB   | 1       | 1146  | 0     | 3.14   |
 | Seagate   | ST3250318AS        | 250 GB | 4       | 1260  | 36    | 3.11   |
 | Seagate   | ST3000DM001-1CH166 | 3 TB   | 4       | 1463  | 164   | 3.09   |
 | Seagate   | ST500DM009-2DM14C  | 500 GB | 1       | 1122  | 0     | 3.08   |
-| Seagate   | ST4000DM000-1F2168 | 4 TB   | 17      | 1220  | 61    | 3.05   |
-| Seagate   | ST3000VX000-1ES166 | 3 TB   | 1       | 1107  | 0     | 3.03   |
 | Seagate   | ST320VT000-1BS14C  | 320 GB | 1       | 1083  | 0     | 2.97   |
 | Seagate   | ST8000AS0002-1N... | 8 TB   | 5       | 1429  | 203   | 2.94   |
 | Seagate   | ST1000DM003-1CH162 | 1 TB   | 11      | 1060  | 0     | 2.91   |
@@ -83,6 +84,7 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST2000DL003-9VT166 | 2 TB   | 9       | 1381  | 248   | 2.04   |
 | Seagate   | ST96812AS          | 64 GB  | 1       | 741   | 0     | 2.03   |
 | Seagate   | ST4000DM005-2DP166 | 4 TB   | 2       | 739   | 0     | 2.02   |
+| Seagate   | ST1000DM003-1SB102 | 1 TB   | 6       | 733   | 0     | 2.01   |
 | Seagate   | ST5000DM000-1FK178 | 5 TB   | 4       | 731   | 0     | 2.00   |
 | Seagate   | ST31000424CS       | 1 TB   | 1       | 721   | 0     | 1.98   |
 | Seagate   | ST500LM000-1EJ1... | 500 GB | 1       | 720   | 0     | 1.97   |
@@ -100,22 +102,23 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST1000VX000-1CU162 | 1 TB   | 1       | 596   | 0     | 1.63   |
 | Seagate   | ST380013AS         | 80 GB  | 2       | 1985  | 4     | 1.58   |
 | Seagate   | ST6000DM003-2CY186 | 6 TB   | 5       | 574   | 0     | 1.57   |
-| Seagate   | ST1000DM003-1SB102 | 1 TB   | 5       | 558   | 0     | 1.53   |
-| Seagate   | ST500DM002-1BD142  | 500 GB | 22      | 998   | 299   | 1.43   |
+| Seagate   | ST9160310AS        | 160 GB | 1       | 2600  | 4     | 1.43   |
 | Seagate   | ST3160812AS        | 160 GB | 2       | 516   | 0     | 1.41   |
 | Seagate   | ST500DM009-2F110A  | 500 GB | 1       | 516   | 0     | 1.41   |
 | Seagate   | ST3500418AS        | 500 GB | 12      | 1240  | 65    | 1.40   |
 | Seagate   | ST3000NM0033-9Z... | 3 TB   | 1       | 508   | 0     | 1.39   |
-| Seagate   | ST2000LM015-2E8174 | 2 TB   | 14      | 569   | 1     | 1.39   |
 | Seagate   | ST1000LM024 HN-... | 1 TB   | 14      | 687   | 3     | 1.37   |
+| Seagate   | ST2000LM015-2E8174 | 2 TB   | 15      | 543   | 1     | 1.33   |
 | Seagate   | ST8000VX0022-2E... | 8 TB   | 1       | 479   | 0     | 1.31   |
 | Seagate   | ST6000NE0023-2E... | 6 TB   | 2       | 840   | 4     | 1.28   |
+| Seagate   | ST500DM002-1BD142  | 500 GB | 25      | 915   | 369   | 1.26   |
 | Seagate   | ST31500541AS       | 1.5 TB | 6       | 810   | 99    | 1.23   |
 | Seagate   | ST9250315AS        | 250 GB | 4       | 609   | 253   | 1.21   |
-| Seagate   | ST4000DM004-2CV104 | 4 TB   | 9       | 438   | 0     | 1.20   |
 | Seagate   | ST2000VN000-1HJ164 | 2 TB   | 4       | 437   | 0     | 1.20   |
 | Seagate   | ST9160412ASG       | 160 GB | 1       | 436   | 0     | 1.20   |
 | Seagate   | ST3160815AS        | 160 GB | 3       | 1160  | 11    | 1.17   |
+| Seagate   | ST4000DM004-2CV104 | 4 TB   | 10      | 410   | 0     | 1.13   |
+| Seagate   | ST3000DM007-1WY10G | 3 TB   | 4       | 406   | 0     | 1.11   |
 | Seagate   | ST1000DM003-1SB10C | 1 TB   | 2       | 406   | 0     | 1.11   |
 | Seagate   | ST9250410ASG       | 250 GB | 2       | 404   | 0     | 1.11   |
 | Seagate   | ST1000DM010-2EP102 | 1 TB   | 16      | 445   | 8     | 1.07   |
@@ -130,18 +133,16 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST10000NM0086-2... | 10 TB  | 2       | 336   | 0     | 0.92   |
 | Seagate   | ST2000DM001-9YN164 | 2 TB   | 5       | 354   | 152   | 0.84   |
 | Seagate   | ST3250823AS        | 250 GB | 1       | 2661  | 8     | 0.81   |
-| Seagate   | ST9500325AS        | 500 GB | 7       | 776   | 174   | 0.80   |
 | Seagate   | ST8000DM004-2CX188 | 8 TB   | 12      | 285   | 0     | 0.78   |
 | Seagate   | ST500LM012 HN-M... | 500 GB | 5       | 280   | 0     | 0.77   |
 | Seagate   | ST2000LM003 HN-... | 2 TB   | 3       | 267   | 0     | 0.73   |
+| Seagate   | ST9500325AS        | 500 GB | 8       | 690   | 153   | 0.73   |
 | Seagate   | ST3750640NS        | 752 GB | 2       | 2066  | 1043  | 0.71   |
 | Seagate   | ST3250410AS        | 250 GB | 2       | 409   | 3     | 0.70   |
 | Seagate   | ST3120211AS        | 120 GB | 1       | 508   | 1     | 0.70   |
 | Seagate   | ST380215A          | 80 GB  | 1       | 242   | 0     | 0.66   |
 | Seagate   | ST31000340NS       | 1 TB   | 1       | 2906  | 11    | 0.66   |
 | Seagate   | ST5000LM000-2AN170 | 5 TB   | 6       | 231   | 0     | 0.64   |
-| Seagate   | ST3000DM007-1WY10G | 3 TB   | 3       | 227   | 0     | 0.62   |
-| Seagate   | ST500LM000-SSHD... | 500 GB | 1       | 220   | 0     | 0.60   |
 | Seagate   | ST1000LX015-1U7172 | 1 TB   | 3       | 279   | 1344  | 0.60   |
 | Seagate   | ST1000LM048-2E7172 | 1 TB   | 7       | 214   | 0     | 0.59   |
 | Seagate   | ST500LM000-1EJ162  | 500 GB | 3       | 213   | 0     | 0.58   |
@@ -152,16 +153,17 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST1000VM002-1SD102 | 1 TB   | 2       | 187   | 0     | 0.51   |
 | Seagate   | ST1000DM003-9YN162 | 1 TB   | 5       | 1433  | 307   | 0.51   |
 | Seagate   | ST4000NE001-2MA101 | 4 TB   | 2       | 185   | 0     | 0.51   |
-| Seagate   | ST500LM021-1KJ152  | 500 GB | 12      | 541   | 598   | 0.46   |
 | Seagate   | ST3500320NS        | 500 GB | 1       | 1324  | 7     | 0.45   |
+| Seagate   | ST500LM021-1KJ152  | 500 GB | 13      | 507   | 629   | 0.42   |
 | Seagate   | ST9750423AS        | 752 GB | 2       | 152   | 0     | 0.42   |
-| Seagate   | ST1000LM014-1EJ164 | 1 TB   | 1       | 137   | 0     | 0.38   |
+| Seagate   | ST2000LX001-1RG174 | 2 TB   | 1       | 148   | 0     | 0.41   |
 | Seagate   | ST3120026A         | 120 GB | 1       | 1076  | 8     | 0.33   |
 | Seagate   | ST9500420AS        | 500 GB | 6       | 796   | 1058  | 0.33   |
 | Seagate   | ST1000LM035-1RK172 | 1 TB   | 16      | 132   | 57    | 0.32   |
 | Seagate   | ST9120822AS        | 120 GB | 1       | 1028  | 8     | 0.31   |
 | Seagate   | ST2000LM007-1R8174 | 2 TB   | 5       | 113   | 0     | 0.31   |
 | Seagate   | ST9500530NS 42D... | 500 GB | 2       | 221   | 48    | 0.31   |
+| Seagate   | ST500LM000-SSHD... | 500 GB | 2       | 536   | 505   | 0.30   |
 | Seagate   | ST500LT012-1DG142  | 500 GB | 6       | 454   | 300   | 0.28   |
 | Seagate   | ST2000DM008-2FR102 | 2 TB   | 7       | 138   | 21    | 0.28   |
 | Seagate   | ST9250827AS        | 250 GB | 2       | 533   | 17    | 0.25   |
@@ -171,6 +173,7 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST3000VN007-2E4166 | 3 TB   | 3       | 393   | 6     | 0.24   |
 | Seagate   | ST1000LM049-2GH172 | 1 TB   | 6       | 170   | 1     | 0.23   |
 | Seagate   | ST4000NM002A-2H... | 4 TB   | 2       | 79    | 0     | 0.22   |
+| Seagate   | ST1000LM014-1EJ164 | 1 TB   | 2       | 280   | 22    | 0.20   |
 | Seagate   | ST2000NM0008-2F... | 2 TB   | 2       | 71    | 0     | 0.20   |
 | Seagate   | ST4000VN008-2DR166 | 4 TB   | 8       | 69    | 0     | 0.19   |
 | Seagate   | ST320LT007-9ZV142  | 320 GB | 4       | 411   | 757   | 0.17   |
@@ -179,16 +182,16 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST1000NM0033-9Z... | 1 TB   | 2       | 48    | 0     | 0.13   |
 | Seagate   | ST16000NM001G-2... | 16 TB  | 4       | 43    | 0     | 0.12   |
 | Seagate   | ST750LM022 HN-M... | 752 GB | 2       | 313   | 1700  | 0.12   |
-| Seagate   | ST9320325AS        | 320 GB | 2       | 351   | 8     | 0.11   |
 | Seagate   | ST12000VN0008-2... | 12 TB  | 6       | 39    | 0     | 0.11   |
 | Seagate   | ST9500620NS        | 500 GB | 1       | 2829  | 73    | 0.10   |
 | Seagate   | ST500VT000-1DK142  | 500 GB | 1       | 71    | 1     | 0.10   |
 | Seagate   | ST1000DX001-1CM162 | 1 TB   | 1       | 671   | 19    | 0.09   |
 | Seagate   | ST9320320AS        | 320 GB | 1       | 719   | 23    | 0.08   |
+| Seagate   | ST9320325AS        | 320 GB | 3       | 967   | 117   | 0.08   |
 | Seagate   | ST500LT012-9WS142  | 500 GB | 5       | 514   | 1091  | 0.07   |
 | Seagate   | ST95005620AS       | 500 GB | 2       | 207   | 11    | 0.05   |
 | Seagate   | ST3160812A         | 160 GB | 1       | 1810  | 107   | 0.05   |
-| Seagate   | ST8000VN004-2M2101 | 8 TB   | 7       | 14    | 0     | 0.04   |
+| Seagate   | ST8000VN004-2M2101 | 8 TB   | 9       | 16    | 0     | 0.05   |
 | Seagate   | ST31500341AS       | 1.5 TB | 2       | 137   | 7     | 0.04   |
 | Seagate   | ST1000LM025 HN-... | 1 TB   | 1       | 117   | 9     | 0.03   |
 | Seagate   | ST9250320AS        | 250 GB | 1       | 241   | 22    | 0.03   |
@@ -207,6 +210,7 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | ST320LT012-9WS14C  | 320 GB | 1       | 761   | 2087  | 0.00   |
 | Seagate   | ST9320423AS        | 320 GB | 1       | 334   | 1009  | 0.00   |
 | Seagate   | ST9160412AS        | 160 GB | 1       | 313   | 1009  | 0.00   |
+| Seagate   | ST1000NM004A-2M... | 1 TB   | 1       | 0     | 0     | 0.00   |
 | Seagate   | ST3160215AS        | 160 GB | 1       | 551   | 2350  | 0.00   |
 | Seagate   | ST6000NM0115-1Y... | 6 TB   | 1       | 0     | 0     | 0.00   |
 
@@ -229,21 +233,21 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | SpinPoint F4 EG (AF)   | 1      | 2       | 1504  | 0     | 4.12   |
 | Seagate   | Constellation ES.3     | 4      | 10      | 1478  | 0     | 4.05   |
 | Seagate   | Constellation CS       | 2      | 5       | 1808  | 23    | 3.98   |
-| Seagate   | NAS HDD                | 4      | 9       | 1367  | 0     | 3.75   |
+| Seagate   | NAS HDD                | 4      | 10      | 1380  | 0     | 3.78   |
 | Seagate   | Barracuda XT           | 2      | 3       | 1361  | 0     | 3.73   |
 | Seagate   | Barracuda ES           | 4      | 8       | 1796  | 261   | 3.21   |
+| Seagate   | Desktop HDD.15         | 5      | 27      | 1226  | 39    | 3.05   |
 | Seagate   | Archive HDD            | 1      | 5       | 1429  | 203   | 2.94   |
-| Seagate   | Desktop HDD.15         | 4      | 25      | 1163  | 42    | 2.85   |
+| Seagate   | Surveillance           | 2      | 3       | 1044  | 0     | 2.86   |
 | Seagate   | Momentus 7200.3        | 2      | 2       | 999   | 0     | 2.74   |
 | Seagate   | Barracuda 7200.7 an... | 6      | 11      | 1283  | 2     | 2.58   |
 | Seagate   | Constellation ES (S... | 2      | 4       | 1827  | 9     | 2.37   |
 | Seagate   | U6                     | 1      | 1       | 2579  | 2     | 2.36   |
-| Seagate   | Surveillance           | 2      | 2       | 851   | 0     | 2.33   |
 | Seagate   | Barracuda 7200.12      | 9      | 50      | 1202  | 66    | 2.28   |
 | Seagate   | Pipeline HD 5900.2     | 2      | 8       | 825   | 0     | 2.26   |
 | Seagate   | Skyhawk                | 2      | 8       | 901   | 1     | 2.16   |
-| Seagate   | Barracuda 7200.14 (AF) | 17     | 97      | 998   | 139   | 2.05   |
 | Seagate   | Momentus 5400.2        | 1      | 1       | 741   | 0     | 2.03   |
+| Seagate   | Barracuda 7200.14 (AF) | 17     | 101     | 983   | 160   | 2.01   |
 | Seagate   | Exos X12               | 1      | 1       | 710   | 0     | 1.95   |
 | Seagate   | Barracuda LP           | 3      | 9       | 1042  | 173   | 1.90   |
 | Seagate   | Exos 7E2               | 1      | 1       | 684   | 0     | 1.88   |
@@ -251,25 +255,26 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | Constellation.2 (SATA) | 2      | 3       | 1508  | 25    | 1.58   |
 | Seagate   | Video 2.5              | 2      | 2       | 577   | 1     | 1.53   |
 | Seagate   | Barracuda 7200.10      | 13     | 21      | 1017  | 221   | 1.48   |
+| Seagate   | Barracuda 3.5          | 5      | 33      | 659   | 140   | 1.36   |
 | Seagate   | IronWolf Pro           | 4      | 8       | 581   | 1     | 1.34   |
-| Seagate   | Barracuda 3.5          | 6      | 42      | 611   | 110   | 1.33   |
 | Seagate   | SpinPoint M8 (AF)      | 4      | 24      | 616   | 144   | 1.25   |
 | Seagate   | Enterprise Capacity... | 4      | 6       | 365   | 0     | 1.00   |
-| Seagate   | Barracuda 2.5 5400     | 5      | 32      | 385   | 1     | 0.98   |
+| Seagate   | BarraCuda 3.5          | 5      | 27      | 373   | 6     | 1.00   |
+| Seagate   | Barracuda 2.5 5400     | 5      | 33      | 379   | 1     | 0.97   |
 | Seagate   | Barracuda 7200.9       | 4      | 5       | 747   | 22    | 0.92   |
-| Seagate   | BarraCuda 3.5          | 4      | 16      | 315   | 10    | 0.82   |
 | Seagate   | Barracuda 7200.8       | 1      | 1       | 2661  | 8     | 0.81   |
-| Seagate   | Laptop SSHD            | 4      | 6       | 286   | 0     | 0.78   |
 | Seagate   | Barracuda Compute      | 1      | 12      | 285   | 0     | 0.78   |
 | Seagate   | Momentus 7200.4        | 6      | 12      | 672   | 697   | 0.77   |
-| Seagate   | Momentus 5400.6        | 4      | 14      | 661   | 237   | 0.76   |
-| Seagate   | FireCuda 2.5           | 2      | 5       | 309   | 806   | 0.75   |
 | Seagate   | SpinPoint M9T          | 1      | 3       | 267   | 0     | 0.73   |
+| Seagate   | FireCuda 2.5           | 3      | 6       | 282   | 672   | 0.69   |
+| Seagate   | Momentus 5400.6        | 4      | 16      | 721   | 228   | 0.68   |
 | Seagate   | Momentus 5400.3        | 2      | 2       | 700   | 4     | 0.67   |
-| Seagate   | IronWolf               | 8      | 51      | 226   | 1     | 0.57   |
+| Seagate   | Laptop SSHD            | 4      | 8       | 374   | 132   | 0.59   |
 | Seagate   | Barracuda ES.2         | 2      | 2       | 2115  | 9     | 0.56   |
-| Seagate   | Laptop HDD             | 5      | 25      | 548   | 661   | 0.43   |
+| Seagate   | IronWolf               | 8      | 53      | 218   | 1     | 0.55   |
+| Seagate   | Momentus 5400.5        | 3      | 3       | 1187  | 17    | 0.51   |
 | Seagate   | Momentus 5400.7 (AF)   | 1      | 2       | 152   | 0     | 0.42   |
+| Seagate   | Laptop HDD             | 5      | 26      | 531   | 674   | 0.41   |
 | Seagate   | Video 3.5 HDD          | 3      | 4       | 595   | 114   | 0.39   |
 | Seagate   | Mobile HDD             | 2      | 21      | 128   | 44    | 0.31   |
 | Seagate   | Constellation          | 1      | 2       | 221   | 48    | 0.31   |
@@ -277,12 +282,11 @@ MTBF — avg. MTBF in years per sample.
 | Seagate   | Ultra Mobile HDD       | 1      | 1       | 89    | 0     | 0.24   |
 | Seagate   | Unknown                | 1      | 1       | 87    | 0     | 0.24   |
 | Seagate   | Barracuda Pro Compute  | 1      | 6       | 170   | 1     | 0.23   |
-| Seagate   | Exos 7E8               | 1      | 2       | 79    | 0     | 0.22   |
 | Seagate   | Momentus Thin          | 1      | 4       | 411   | 757   | 0.17   |
 | Seagate   | Barracuda 7200.11      | 3      | 4       | 411   | 46    | 0.17   |
+| Seagate   | Exos 7E8               | 2      | 3       | 53    | 0     | 0.15   |
 | Seagate   | Exos X16               | 1      | 4       | 43    | 0     | 0.12   |
 | Seagate   | Desktop SSHD           | 1      | 1       | 671   | 19    | 0.09   |
-| Seagate   | Momentus 5400.5        | 2      | 2       | 480   | 23    | 0.06   |
 | Seagate   | Momentus XT            | 1      | 2       | 207   | 11    | 0.05   |
 | Seagate   | SpinPoint M8U (USB)    | 1      | 1       | 117   | 9     | 0.03   |
 | Seagate   | Constellation ES (S... | 1      | 1       | 205   | 103   | 0.01   |

@@ -26,25 +26,25 @@ MTBF — avg. MTBF in years per sample.
 | Samsung   | MZVKW512HMJP-00000 | 512 GB | 2       | 429   | 0     | 1.18   |
 | Samsung   | SSD 960 EVO        | 250 GB | 13      | 401   | 0     | 1.10   |
 | Samsung   | MZVPW256HEGL-000H1 | 256 GB | 1       | 333   | 0     | 0.91   |
+| Samsung   | SSD 970 PRO        | 512 GB | 6       | 313   | 0     | 0.86   |
 | Samsung   | MZVLB1T0HALR-000L7 | 1 TB   | 1       | 286   | 0     | 0.78   |
+| Samsung   | SSD 960 EVO        | 500 GB | 5       | 283   | 0     | 0.78   |
 | Samsung   | MZQLB1T9HAJR-00007 | 1.9 TB | 4       | 278   | 0     | 0.76   |
-| Samsung   | SSD 970 PRO        | 512 GB | 5       | 275   | 0     | 0.75   |
 | Samsung   | SSD 970 EVO        | 250 GB | 5       | 266   | 0     | 0.73   |
 | Samsung   | SSD 960 PRO        | 512 GB | 1       | 262   | 0     | 0.72   |
-| Samsung   | SSD 960 EVO        | 500 GB | 4       | 257   | 0     | 0.71   |
 | Samsung   | MZVLB256HBHQ-00000 | 256 GB | 1       | 239   | 0     | 0.66   |
 | Samsung   | MZVLW256HEHP-000L7 | 256 GB | 3       | 235   | 0     | 0.65   |
 | Samsung   | PM951 NVMe         | 256 GB | 1       | 215   | 0     | 0.59   |
 | Samsung   | MZVPW128HEGM-00000 | 128 GB | 1       | 172   | 0     | 0.47   |
 | Samsung   | MZVLB512HAJQ-000L7 | 512 GB | 6       | 187   | 1     | 0.40   |
-| Samsung   | SSD 970 EVO        | 1 TB   | 6       | 139   | 0     | 0.38   |
+| Samsung   | SSD 970 EVO        | 1 TB   | 7       | 146   | 0     | 0.40   |
+| Samsung   | SSD 970 EVO Plus   | 1 TB   | 10      | 129   | 0     | 0.35   |
 | Samsung   | PM961 NVMe         | 512 GB | 1       | 116   | 0     | 0.32   |
-| Samsung   | SSD 970 EVO        | 500 GB | 10      | 112   | 0     | 0.31   |
+| Samsung   | SSD 970 EVO        | 500 GB | 11      | 111   | 0     | 0.30   |
 | Samsung   | MZVLB256HAHQ-000H1 | 256 GB | 1       | 98    | 0     | 0.27   |
 | Samsung   | MZVLB512HAJQ-000H1 | 512 GB | 1       | 97    | 0     | 0.27   |
 | Samsung   | MZVLW512HMJP-000H7 | 512 GB | 1       | 96    | 0     | 0.26   |
 | Samsung   | SSD 970 PRO        | 1 TB   | 3       | 79    | 0     | 0.22   |
-| Samsung   | SSD 970 EVO Plus   | 1 TB   | 7       | 77    | 0     | 0.21   |
 | Samsung   | MZVLB256HBHQ-000L7 | 256 GB | 9       | 65    | 0     | 0.18   |
 | Samsung   | SSD 970 EVO Plus   | 500 GB | 11      | 64    | 0     | 0.18   |
 | Samsung   | SSD 970 EVO Plus   | 250 GB | 12      | 49    | 0     | 0.14   |

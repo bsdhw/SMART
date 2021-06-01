@@ -55,17 +55,17 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD1001FAES-75W7A0  | 1 TB   | 1       | 2183  | 0     | 5.98   |
 | WDC       | WD5000BEKT-00KA9T0 | 500 GB | 2       | 2168  | 0     | 5.94   |
 | WDC       | WD5003AZEX-00K1GA0 | 500 GB | 5       | 2150  | 0     | 5.89   |
+| WDC       | WD30EFRX-68AX9N0   | 3 TB   | 12      | 2406  | 1     | 5.82   |
 | WDC       | WD10EZRX-00A8LB0   | 1 TB   | 1       | 2053  | 0     | 5.63   |
 | WDC       | WD30EZRX-00SPEB0   | 3 TB   | 1       | 2024  | 0     | 5.55   |
-| WDC       | WD30EFRX-68AX9N0   | 3 TB   | 8       | 2216  | 1     | 5.39   |
 | WDC       | WD20EFRX-68AX9N0   | 2 TB   | 5       | 2167  | 1     | 5.27   |
+| WDC       | WD360ADFD-00NLR5   | 37 GB  | 1       | 1910  | 0     | 5.23   |
 | WDC       | WD2000FYYZ-01UL1B1 | 2 TB   | 3       | 2230  | 1     | 5.06   |
 | WDC       | WD5003AZEX-00MK2A0 | 500 GB | 6       | 2134  | 2     | 5.04   |
 | WDC       | WD5000AAKX-603CA0  | 500 GB | 1       | 1827  | 0     | 5.01   |
 | WDC       | WD3000GLFS-01F8U0  | 304 GB | 1       | 1824  | 0     | 5.00   |
 | WDC       | WD6400AAKS-00A7B0  | 640 GB | 1       | 1819  | 0     | 4.98   |
 | WDC       | WD3200AAKS-00L9A0  | 320 GB | 2       | 1816  | 0     | 4.98   |
-| WDC       | WD5000AAKS-00UU3A0 | 500 GB | 2       | 1823  | 4     | 4.59   |
 | WDC       | WD30EZRX-00D8PB0   | 3 TB   | 2       | 1670  | 0     | 4.58   |
 | WDC       | WD5000BPKT-00PK4T0 | 500 GB | 2       | 1654  | 0     | 4.53   |
 | WDC       | WD5000BEVT-00A03T0 | 500 GB | 1       | 1643  | 0     | 4.50   |
@@ -86,47 +86,51 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD1600JS-60MHB5    | 160 GB | 2       | 1449  | 0     | 3.97   |
 | WDC       | WD10PURX-64D85Y0   | 1 TB   | 1       | 1445  | 0     | 3.96   |
 | WDC       | WD20EARX-00PASB0   | 2 TB   | 10      | 1794  | 124   | 3.96   |
-| WDC       | WD5000AAKX-00ERMA0 | 500 GB | 2       | 1415  | 0     | 3.88   |
+| WDC       | WD5000AAKS-00UU3A0 | 500 GB | 3       | 1529  | 3     | 3.92   |
 | WDC       | WD5002ABYS-18B1B0  | 500 GB | 2       | 2250  | 4     | 3.82   |
 | WDC       | WD2500AAJS-00L7A0  | 250 GB | 1       | 1391  | 0     | 3.81   |
 | WDC       | WD40EFRX-68WT0N0   | 4 TB   | 19      | 1694  | 2     | 3.78   |
 | WDC       | WD20EARS-00MVWB0   | 2 TB   | 3       | 2182  | 874   | 3.68   |
 | WDC       | WD5000AZLX-60K2TA0 | 500 GB | 1       | 1323  | 0     | 3.63   |
-| WDC       | WD20EFRX-68EUZN0   | 2 TB   | 13      | 1498  | 1     | 3.62   |
 | WDC       | WD3200KS-00PFB0    | 320 GB | 1       | 1317  | 0     | 3.61   |
 | WDC       | WD5000BMVV-11A1CS0 | 500 GB | 1       | 1308  | 0     | 3.59   |
+| WDC       | WD30EFRX-68EUZN0   | 3 TB   | 49      | 1542  | 2     | 3.58   |
 | WDC       | WD1600BEVS-75RST0  | 160 GB | 1       | 1301  | 0     | 3.57   |
+| WDC       | WD20EFRX-68EUZN0   | 2 TB   | 14      | 1460  | 1     | 3.55   |
 | WDC       | WD8001FFWX-68J1UN0 | 8 TB   | 1       | 1296  | 0     | 3.55   |
 | WDC       | WD2500AAKX-07U6AA0 | 250 GB | 1       | 1289  | 0     | 3.53   |
 | WDC       | WD5003ABYX-88 LEN  | 500 GB | 1       | 1280  | 0     | 3.51   |
 | WDC       | WD6400AAKS-75A7B2  | 640 GB | 1       | 1266  | 0     | 3.47   |
 | WDC       | WD1003FZEX-00MK2A0 | 1 TB   | 2       | 1237  | 0     | 3.39   |
-| WDC       | WD30EFRX-68EUZN0   | 3 TB   | 37      | 1509  | 2     | 3.37   |
 | WDC       | WD7501AALS-00E8B0  | 752 GB | 1       | 3656  | 2     | 3.34   |
 | WDC       | WD3750LMCW-11D9GS3 | 375 GB | 1       | 1179  | 0     | 3.23   |
 | WDC       | WD2004FBYZ-01YCBB1 | 2 TB   | 1       | 1158  | 0     | 3.17   |
+| WDC       | WD30EFRX-68N32N0   | 3 TB   | 10      | 1146  | 0     | 3.14   |
 | WDC       | WD3000BLFS-60YBU2  | 304 GB | 2       | 1399  | 1     | 3.13   |
 | WDC       | WD360GD-00FLC0     | 37 GB  | 1       | 1099  | 0     | 3.01   |
 | WDC       | WD5000BEKT-22KA9T0 | 500 GB | 1       | 1085  | 0     | 2.97   |
 | WDC       | WD80EFZX-68UW8N0   | 8 TB   | 13      | 1142  | 1     | 2.91   |
 | WDC       | WD10EZRX-00D8PB0   | 1 TB   | 1       | 1057  | 0     | 2.90   |
 | WDC       | WD40EZRX-00SPEB0   | 4 TB   | 1       | 1051  | 0     | 2.88   |
-| WDC       | WD60EFRX-68MYMN1   | 6 TB   | 5       | 1486  | 2     | 2.84   |
 | WDC       | WD2000JB-00FUA0    | 200 GB | 1       | 1023  | 0     | 2.81   |
 | WDC       | WD10EZRZ-00HTKB0   | 1 TB   | 2       | 1018  | 0     | 2.79   |
 | WDC       | WD5000AAKX-75U6AA0 | 500 GB | 1       | 1014  | 0     | 2.78   |
 | WDC       | WD5000LPLX-75ZNTT0 | 500 GB | 1       | 991   | 0     | 2.72   |
+| WDC       | WD10EZEX-00RKKA0   | 1 TB   | 4       | 1370  | 2     | 2.69   |
+| WDC       | WD5000AAKX-00ERMA0 | 500 GB | 3       | 960   | 0     | 2.63   |
 | WDC       | WD7500BPKX-00HPJT0 | 752 GB | 4       | 1105  | 2     | 2.59   |
 | WDC       | WD3200BEVS-08VAT2  | 320 GB | 1       | 936   | 0     | 2.57   |
 | WDC       | WD5000AADS-00S9B0  | 500 GB | 1       | 910   | 0     | 2.49   |
 | WDC       | WD7500BPKT-22PK4T0 | 752 GB | 1       | 910   | 0     | 2.49   |
 | WDC       | WD30EZRX-00MMMB0   | 3 TB   | 2       | 905   | 0     | 2.48   |
+| WDC       | WD60EFRX-68MYMN1   | 6 TB   | 6       | 1575  | 3     | 2.48   |
+| WDC       | WD5000AZRZ-00HTKB0 | 500 GB | 2       | 892   | 0     | 2.44   |
 | WDC       | WD10EZEX-60WN4A0   | 1 TB   | 2       | 890   | 0     | 2.44   |
 | WDC       | WD2500JS-75NCB2    | 250 GB | 2       | 889   | 0     | 2.44   |
 | WDC       | WD800JD-75MSA3     | 80 GB  | 1       | 888   | 0     | 2.43   |
 | WDC       | WD2500AAKX-001CA0  | 250 GB | 3       | 1105  | 400   | 2.42   |
+| WDC       | WD60EFRX-68L0BN1   | 6 TB   | 25      | 1131  | 55    | 2.41   |
 | WDC       | WD1600AAJS-60B4A0  | 160 GB | 1       | 872   | 0     | 2.39   |
-| WDC       | WD60EFRX-68L0BN1   | 6 TB   | 22      | 1145  | 63    | 2.36   |
 | WDC       | WD20NMVW-11EDZS7   | 2 TB   | 1       | 856   | 0     | 2.35   |
 | WDC       | WD2500BEVT-00A23T0 | 250 GB | 1       | 851   | 0     | 2.33   |
 | WDC       | WD80PURZ-85YNPY0   | 8 TB   | 1       | 851   | 0     | 2.33   |
@@ -145,6 +149,7 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD1200BEVT-22ZCT0  | 120 GB | 1       | 786   | 0     | 2.15   |
 | WDC       | WD2500BEKT-75PVMT0 | 250 GB | 1       | 782   | 0     | 2.14   |
 | WDC       | WD5000BPKT-60PK4T0 | 500 GB | 1       | 781   | 0     | 2.14   |
+| WDC       | WD2000FYYZ-01UL1B2 | 2 TB   | 2       | 1318  | 4     | 2.12   |
 | WDC       | WD20PURX-64P6ZY0   | 2 TB   | 1       | 769   | 0     | 2.11   |
 | WDC       | WD15EARS-00Z5B1    | 1.5 TB | 1       | 3841  | 4     | 2.11   |
 | WDC       | WD2003FZEX-00Z4SA0 | 2 TB   | 1       | 751   | 0     | 2.06   |
@@ -164,14 +169,13 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD10JFCX-68N6GN0   | 1 TB   | 2       | 620   | 0     | 1.70   |
 | WDC       | WD2503ABYX-01WERA1 | 256 GB | 2       | 615   | 0     | 1.69   |
 | WDC       | WD2500AAKX-19U6AA0 | 250 GB | 1       | 613   | 0     | 1.68   |
+| WDC       | WD40EFRX-68N32N0   | 4 TB   | 59      | 616   | 1     | 1.67   |
 | WDC       | WD2500LPCX-24C6HT0 | 250 GB | 1       | 608   | 0     | 1.67   |
 | WDC       | WD2500AAJS-40RYA0  | 250 GB | 1       | 603   | 0     | 1.65   |
-| WDC       | WD40EFRX-68N32N0   | 4 TB   | 53      | 608   | 1     | 1.65   |
 | WDC       | WD2000JB-00GVC0    | 200 GB | 1       | 3539  | 5     | 1.62   |
 | WDC       | WD2500HHTZ-04N21V1 | 250 GB | 2       | 575   | 0     | 1.58   |
 | WDC       | WD5000AAKX-001CA0  | 500 GB | 3       | 1410  | 2     | 1.57   |
 | WDC       | WD10EZEX-75WN4A0   | 1 TB   | 3       | 573   | 0     | 1.57   |
-| WDC       | WD2500BEVS-08VAT2  | 250 GB | 1       | 573   | 0     | 1.57   |
 | WDC       | WD10JPLX-00MBPT0   | 1 TB   | 4       | 571   | 0     | 1.57   |
 | WDC       | WD10JPVX-22JC3T0   | 1 TB   | 5       | 569   | 0     | 1.56   |
 | WDC       | WD5000LPCX-00VHAT0 | 500 GB | 2       | 568   | 0     | 1.56   |
@@ -184,9 +188,7 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD40PURZ-85TTDY0   | 4 TB   | 2       | 507   | 0     | 1.39   |
 | WDC       | WD400BD-75LRA0     | 40 GB  | 1       | 503   | 0     | 1.38   |
 | WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | 6       | 494   | 0     | 1.36   |
-| WDC       | WD30EFRX-68N32N0   | 3 TB   | 1       | 484   | 0     | 1.33   |
 | WDC       | WD10EZEX-08WN4A0   | 1 TB   | 14      | 564   | 1     | 1.32   |
-| WDC       | WD10EZEX-00RKKA0   | 1 TB   | 3       | 998   | 3     | 1.31   |
 | WDC       | WD5003ABYX-18WERA0 | 500 GB | 4       | 762   | 2     | 1.31   |
 | WDC       | WD1002FAEX-00Y9A0  | 1 TB   | 3       | 1490  | 3     | 1.27   |
 | WDC       | WD80EZAZ-11TDBA0   | 8 TB   | 6       | 460   | 0     | 1.26   |
@@ -202,12 +204,16 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD5000AAKS-00A7B0  | 500 GB | 1       | 424   | 0     | 1.16   |
 | WDC       | WD40EZRZ-75GXCB0   | 4 TB   | 1       | 422   | 0     | 1.16   |
 | WDC       | WD2500AAKX-603CA0  | 250 GB | 1       | 409   | 0     | 1.12   |
+| WDC       | WD2500BEVS-08VAT2  | 250 GB | 2       | 404   | 0     | 1.11   |
+| WDC       | WD1600BEVT-11ZCT0  | 160 GB | 1       | 392   | 0     | 1.07   |
 | WDC       | WD10EFRX-68FYTN0   | 1 TB   | 7       | 441   | 2     | 1.05   |
 | WDC       | WD50NDZW-11MR8S1   | 5 TB   | 1       | 382   | 0     | 1.05   |
 | WDC       | WD5000HHTZ-75N21V0 | 500 GB | 1       | 380   | 0     | 1.04   |
+| WDC       | WD8004FRYZ-01VAEB0 | 8 TB   | 2       | 376   | 0     | 1.03   |
 | WDC       | WD120EMAZ-11BLFA0  | 12 TB  | 2       | 375   | 0     | 1.03   |
 | WDC       | WD40NMZW-59GX6S1   | 4 TB   | 2       | 373   | 0     | 1.02   |
 | WDC       | WD4003FFBX-68MU3N0 | 4 TB   | 6       | 484   | 3     | 0.99   |
+| WDC       | WD2500AAKX-083CA1  | 250 GB | 1       | 2532  | 6     | 0.99   |
 | WDC       | WD2500BEVS-22UST0  | 250 GB | 1       | 357   | 0     | 0.98   |
 | WDC       | WD40EZRZ-00GXCB0   | 4 TB   | 7       | 346   | 0     | 0.95   |
 | WDC       | WD5000LPVX-60V0TT0 | 500 GB | 1       | 341   | 0     | 0.94   |
@@ -221,19 +227,19 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD5003ABYZ-011FA0  | 500 GB | 5       | 308   | 0     | 0.85   |
 | WDC       | WD40EZRZ-22GXCB0   | 4 TB   | 2       | 302   | 0     | 0.83   |
 | WDC       | WD7500AAVS-00D7B0  | 752 GB | 1       | 300   | 0     | 0.82   |
-| WDC       | WD1600BEVT-22ZCT0  | 160 GB | 6       | 371   | 3     | 0.82   |
 | WDC       | WD20EZAZ-00GGJB0   | 2 TB   | 5       | 292   | 0     | 0.80   |
 | WDC       | WD5000LPLX-60ZNTT1 | 500 GB | 1       | 288   | 0     | 0.79   |
 | WDC       | WD2002FYPS-01U1B0  | 2 TB   | 2       | 1571  | 6     | 0.77   |
 | WDC       | WD3200BPVT-75JJ5T0 | 320 GB | 1       | 1075  | 3     | 0.74   |
 | WDC       | WD3200BPVT-24JJ5T0 | 320 GB | 1       | 266   | 0     | 0.73   |
+| WDC       | WD1600BEVT-22ZCT0  | 160 GB | 7       | 331   | 3     | 0.72   |
 | WDC       | WD5000LPCX-75VHAT0 | 500 GB | 1       | 254   | 0     | 0.70   |
 | WDC       | WD5000LPVT-24G33T1 | 500 GB | 1       | 249   | 0     | 0.68   |
 | WDC       | WD1600BEVS-08VAT2  | 160 GB | 3       | 404   | 1     | 0.68   |
 | WDC       | WD40E31X-00HY4A0   | 4 TB   | 1       | 245   | 0     | 0.67   |
 | WDC       | WD20SDZW-11JJ8S0   | 2 TB   | 1       | 244   | 0     | 0.67   |
-| WDC       | WD120EMFZ-11A6JA0  | 12 TB  | 5       | 241   | 0     | 0.66   |
 | WDC       | WD7500BPVT-80HXZT3 | 752 GB | 2       | 566   | 4     | 0.65   |
+| WDC       | WD120EMFZ-11A6JA0  | 12 TB  | 7       | 235   | 0     | 0.65   |
 | WDC       | WD40NDZW-11MR8S1   | 4 TB   | 1       | 222   | 0     | 0.61   |
 | WDC       | WD7500BPKT-75PK4T0 | 752 GB | 1       | 652   | 2     | 0.60   |
 | WDC       | WD3200BPVT-22JJ5T0 | 320 GB | 1       | 216   | 0     | 0.59   |
@@ -243,6 +249,7 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD5000LPVX-22V0TT0 | 500 GB | 4       | 237   | 1     | 0.54   |
 | WDC       | WD10SPZX-22Z10T0   | 1 TB   | 1       | 197   | 0     | 0.54   |
 | WDC       | WD5003AZEX-00K3CA0 | 500 GB | 4       | 278   | 2     | 0.53   |
+| WDC       | WD5000AAKS-00A7B2  | 500 GB | 1       | 191   | 0     | 0.52   |
 | WDC       | WD80EFAX-68KNBN0   | 8 TB   | 12      | 188   | 0     | 0.52   |
 | WDC       | WD10SPZX-21Z10T0   | 1 TB   | 3       | 183   | 0     | 0.50   |
 | WDC       | WD4000BEVT-00ZAT0  | 400 GB | 1       | 179   | 0     | 0.49   |
@@ -278,6 +285,7 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD10SDRW-34A0XS0   | 1 TB   | 1       | 106   | 0     | 0.29   |
 | WDC       | WD3200BEVT-00A0RT0 | 320 GB | 1       | 946   | 8     | 0.29   |
 | WDC       | WD10EZEX-00MFCA0   | 1 TB   | 1       | 103   | 0     | 0.28   |
+| WDC       | WD120EDAZ-11F3RA0  | 12 TB  | 8       | 99    | 0     | 0.27   |
 | WDC       | WD1600AAJS-00WAA0  | 160 GB | 2       | 97    | 1     | 0.24   |
 | WDC       | WD20SDRW-11VUUS0   | 2 TB   | 1       | 82    | 0     | 0.23   |
 | WDC       | WD2003FZEX-00SRLA0 | 2 TB   | 2       | 163   | 1     | 0.22   |
@@ -290,9 +298,11 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD1003FZEX-00K3CA0 | 1 TB   | 5       | 71    | 0     | 0.20   |
 | WDC       | WD3200BPVT-55ZEST0 | 320 GB | 1       | 142   | 1     | 0.20   |
 | WDC       | WD5000LPCX-24C6HT0 | 500 GB | 1       | 68    | 0     | 0.19   |
+| WDC       | WD10EZEX-22BN5A0   | 1 TB   | 1       | 67    | 0     | 0.18   |
 | WDC       | WD10SDZW-11UMGS0   | 1 TB   | 2       | 61    | 0     | 0.17   |
 | WDC       | WD20SPZX-22UA7T0   | 2 TB   | 5       | 61    | 0     | 0.17   |
 | WDC       | WD5000AAKX-221CA1  | 500 GB | 1       | 343   | 5     | 0.16   |
+| WDC       | WD360ADFD-00NLR1   | 37 GB  | 1       | 284   | 4     | 0.16   |
 | WDC       | WD1003FBYX-05Y7B0  | 1 TB   | 1       | 56    | 0     | 0.15   |
 | WDC       | WD3200BEKT-60V5T1  | 320 GB | 1       | 102   | 1     | 0.14   |
 | WDC       | WD2503ABYZ-011FA0  | 256 GB | 1       | 50    | 0     | 0.14   |
@@ -302,6 +312,7 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD20EVDS-63T3B0    | 2 TB   | 1       | 385   | 8     | 0.12   |
 | WDC       | WD5000LPLX-08ZNTT0 | 500 GB | 1       | 41    | 0     | 0.11   |
 | WDC       | WD200EB-00BHF0     | 20 GB  | 1       | 273   | 6     | 0.11   |
+| WDC       | WD3200BEVT-60ZCT1  | 320 GB | 1       | 428   | 10    | 0.11   |
 | WDC       | WD120EFAX-68UNTN0  | 12 TB  | 2       | 38    | 0     | 0.11   |
 | WDC       | WD6400BEVT-22A0RT0 | 640 GB | 1       | 261   | 6     | 0.10   |
 | WDC       | WD2002FYPS-01U1B1  | 2 TB   | 1       | 1621  | 45    | 0.10   |
@@ -309,7 +320,6 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | WD4001FAEX-00MJRA0 | 4 TB   | 2       | 676   | 991   | 0.09   |
 | WDC       | WD7500BPKT-00PK4T0 | 752 GB | 1       | 31    | 0     | 0.09   |
 | WDC       | WD10EADS-00P8B0    | 1 TB   | 1       | 279   | 8     | 0.08   |
-| WDC       | WD120EDAZ-11F3RA0  | 12 TB  | 5       | 27    | 0     | 0.08   |
 | WDC       | WD1200JS-00MHB1    | 120 GB | 1       | 437   | 17    | 0.07   |
 | WDC       | WD3200BEVE-00A0HT0 | 320 GB | 1       | 20    | 0     | 0.05   |
 | WDC       | WD10EARX-22N0YB0   | 1 TB   | 1       | 175   | 8     | 0.05   |
@@ -356,36 +366,36 @@ MTBF — avg. MTBF in years per sample.
 | WDC       | Caviar Black           | 14     | 38      | 2162  | 12    | 5.00   |
 | WDC       | Caviar SE              | 14     | 19      | 2540  | 58    | 4.98   |
 | WDC       | Caviar Green           | 13     | 20      | 2172  | 133   | 4.45   |
-| WDC       | RE                     | 3      | 8       | 1714  | 1     | 4.30   |
 | WDC       | Protege                | 2      | 2       | 1616  | 3     | 4.11   |
 | WDC       | Green                  | 16     | 42      | 1654  | 31    | 4.07   |
 | WDC       | VelociRaptor           | 6      | 9       | 1476  | 1     | 3.89   |
+| WDC       | RE                     | 4      | 10      | 1635  | 1     | 3.87   |
 | WDC       | RE4                    | 10     | 24      | 1391  | 1     | 3.65   |
 | WDC       | Caviar SE16            | 1      | 1       | 1317  | 0     | 3.61   |
 | WDC       | Unknown                | 1      | 1       | 1179  | 0     | 3.23   |
-| WDC       | Raptor                 | 1      | 1       | 1099  | 0     | 3.01   |
-| WDC       | Caviar Blue            | 26     | 32      | 1246  | 10    | 2.84   |
+| WDC       | Raptor                 | 3      | 3       | 1098  | 2     | 2.80   |
 | WDC       | Caviar                 | 4      | 5       | 2180  | 144   | 2.80   |
+| WDC       | Caviar Blue            | 27     | 34      | 1206  | 9     | 2.76   |
+| WDC       | Red                    | 20     | 268     | 1135  | 14    | 2.69   |
 | WDC       | Scorpio Black          | 11     | 13      | 987   | 1     | 2.60   |
-| WDC       | Red                    | 20     | 230     | 1094  | 16    | 2.56   |
 | WDC       | Purple                 | 6      | 7       | 744   | 0     | 2.04   |
 | WDC       | Se                     | 1      | 1       | 734   | 0     | 2.01   |
-| WDC       | Blue                   | 47     | 116     | 730   | 11    | 1.78   |
+| WDC       | Blue                   | 50     | 122     | 750   | 11    | 1.80   |
 | WDC       | Ultrastar He10/12      | 3      | 14      | 598   | 0     | 1.64   |
 | WDC       | Black Mobile           | 11     | 19      | 629   | 1     | 1.55   |
 | WDC       | Elements / My Passport | 11     | 15      | 688   | 71    | 1.48   |
 | WDC       | HGST Ultrastar He10    | 2      | 14      | 519   | 0     | 1.42   |
 | WDC       | RE2                    | 1      | 1       | 455   | 0     | 1.25   |
 | WDC       | Red Pro                | 5      | 12      | 485   | 2     | 1.16   |
-| WDC       | Scorpio Blue           | 32     | 44      | 490   | 6     | 1.05   |
+| WDC       | Scorpio Blue           | 34     | 48      | 473   | 6     | 1.01   |
 | WDC       | Black                  | 6      | 13      | 465   | 153   | 0.97   |
 | WDC       | Blue SSHD              | 1      | 1       | 245   | 0     | 0.67   |
 | WDC       | Blue Mobile            | 24     | 51      | 245   | 28    | 0.57   |
 | WDC       | RE4-GP                 | 2      | 3       | 1588  | 19    | 0.54   |
 | WDC       | Internal Use HDD       | 2      | 2       | 152   | 0     | 0.42   |
+| WDC       | Gold                   | 3      | 5       | 184   | 75    | 0.41   |
 | WDC       | IU CB500               | 1      | 1       | 106   | 0     | 0.29   |
+| WDC       | White Label            | 2      | 9       | 104   | 0     | 0.29   |
 | WDC       | AV-GP                  | 4      | 4       | 473   | 4     | 0.24   |
 | WDC       | Ultrastar DC HC530     | 1      | 1       | 79    | 0     | 0.22   |
-| WDC       | White Label            | 2      | 6       | 46    | 0     | 0.13   |
 | WDC       | Scorpio Blue EIDE      | 1      | 1       | 20    | 0     | 0.05   |
-| WDC       | Gold                   | 2      | 3       | 55    | 124   | 0.00   |
