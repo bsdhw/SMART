@@ -15,9 +15,12 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | Zheino    | CHN-mSATAM3-256    | 256 GB | 2       | 360   | 0     | 0.99   |
+| Zheino    | CHN mSATAM1 064    | 64 GB  | 1       | 41    | 0     | 0.11   |
 | Zheino    | CHN mSATA01M 060   | 64 GB  | 1       | 26    | 0     | 0.07   |
 | Zheino    | CHN HFmSATA01M 128 | 128 GB | 1       | 18    | 0     | 0.05   |
+| Zheino    | CHN mSATAM1 256    | 256 GB | 1       | 4     | 0     | 0.01   |
+| Zheino    | CHN-mSATAM1-32     | 32 GB  | 1       | 3     | 0     | 0.01   |
 | Zheino    | CHN-mSATAQ3-120    | 120 GB | 1       | 0     | 0     | 0.00   |

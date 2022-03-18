@@ -1,0 +1,173 @@
+smartctl 7.2 2020-12-30 r5155 [OpenBSD 7.0 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Western Digital Caviar Green (AF)
+Device Model:     WDC WD6400AARS-00Y5B1
+Serial Number:    --
+LU WWN Device Id: 5 0014ee ...
+Firmware Version: 80.00A80
+User Capacity:    640,135,028,736 bytes [640 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA8-ACS (minor revision not indicated)
+SATA Version is:  SATA 2.6, 3.0 Gb/s
+Local Time is:    Tue Nov 30 01:57:39 2021 UTC
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: FAILED!
+Drive failure expected in less than 24 hours. SAVE ALL DATA.
+Warning: This result is based on an Attribute check.
+See vendor-specific Attribute list for failed Attributes.
+
+General SMART Values:
+Offline data collection status:  (0x84)	Offline data collection activity
+					was suspended by an interrupting command from host.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(12960) seconds.
+Offline data collection
+capabilities: 			 (0x7b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 ( 151) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   5) minutes.
+SCT capabilities: 	       (0x3031)	SCT Status supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   199   186   051    Pre-fail  Always       -       68049
+  3 Spin_Up_Time            0x0027   127   120   021    Pre-fail  Always       -       6650
+  4 Start_Stop_Count        0x0032   085   085   000    Old_age   Always       -       15462
+  5 Reallocated_Sector_Ct   0x0033   140   140   140    Pre-fail  Always   FAILING_NOW 479
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   017   017   000    Old_age   Always       -       61185
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   087   087   000    Old_age   Always       -       13526
+192 Power-Off_Retract_Count 0x0032   189   189   000    Old_age   Always       -       8584
+193 Load_Cycle_Count        0x0032   001   001   000    Old_age   Always       -       2226243
+194 Temperature_Celsius     0x0022   107   090   000    Old_age   Always       -       40
+196 Reallocated_Event_Count 0x0032   001   001   000    Old_age   Always       -       421
+197 Current_Pending_Sector  0x0032   191   188   000    Old_age   Always       -       1028
+198 Offline_Uncorrectable   0x0030   200   197   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       2
+200 Multi_Zone_Error_Rate   0x0008   200   002   000    Old_age   Offline      -       0
+
+SMART Error Log Version: 1
+Warning: ATA error count 27399 inconsistent with error log pointer 1
+
+ATA Error Count: 27399 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 27399 occurred at disk power-on lifetime: 59612 hours (2483 days + 20 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  04 61 00 00 00 00 a0  Device Fault; Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  ef 02 00 00 00 00 a0 00   6d+06:17:18.580  SET FEATURES [Enable write cache]
+  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
+  ef 66 00 00 00 00 a0 00   6d+06:17:18.579  SET FEATURES [Disable revert defaults]
+  b1 c1 00 00 00 00 a0 00   6d+06:17:18.579  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
+  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
+
+Error 27398 occurred at disk power-on lifetime: 59612 hours (2483 days + 20 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  04 61 00 00 00 00 a0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
+  ef 66 00 00 00 00 a0 00   6d+06:17:18.579  SET FEATURES [Disable revert defaults]
+  b1 c1 00 00 00 00 a0 00   6d+06:17:18.579  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
+  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
+  ef 10 06 00 00 00 a0 00   6d+06:17:18.578  SET FEATURES [Enable SATA feature]
+
+Error 27397 occurred at disk power-on lifetime: 59612 hours (2483 days + 20 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  04 61 00 00 00 00 a0  Device Fault; Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  ef 66 00 00 00 00 a0 00   6d+06:17:18.579  SET FEATURES [Disable revert defaults]
+  b1 c1 00 00 00 00 a0 00   6d+06:17:18.579  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
+  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
+  ef 10 06 00 00 00 a0 00   6d+06:17:18.578  SET FEATURES [Enable SATA feature]
+  ef 10 06 00 00 00 a0 00   6d+06:17:18.578  SET FEATURES [Enable SATA feature]
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%     42901         -
+# 2  Conveyance offline  Aborted by host               80%     26000         -
+# 3  Short offline       Completed without error       00%     26000         -
+# 4  Short offline       Completed without error       00%     25760         -
+# 5  Extended offline    Aborted by host               90%     25760         -
+# 6  Short offline       Completed without error       00%     23394         -
+# 7  Extended offline    Completed: read failure       70%      5439         390272192
+# 8  Short offline       Completed without error       00%      4881         -
+# 9  Extended offline    Completed: read failure       90%      4881         16234464
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

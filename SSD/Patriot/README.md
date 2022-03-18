@@ -21,11 +21,15 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| Patriot   | Burst              | 240 GB | 4       | 245   | 0     | 0.67   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Patriot   | Pyro SSD           | 240 GB | 1       | 409   | 0     | 1.12   |
+| Patriot   | Burst              | 960 GB | 2       | 378   | 0     | 1.04   |
+| Patriot   | Burst              | 240 GB | 7       | 238   | 0     | 0.65   |
+| Patriot   | Burst              | 480 GB | 1       | 183   | 0     | 0.50   |
 | Patriot   | FLARE              | 64 GB  | 1       | 172   | 0     | 0.47   |
-| Patriot   | Burst              | 120 GB | 4       | 146   | 0     | 0.40   |
+| Patriot   | Burst              | 120 GB | 8       | 139   | 0     | 0.38   |
+| Patriot   | Burst Elite        | 120 GB | 1       | 136   | 0     | 0.37   |
 
 SSD by Family
 -------------
@@ -38,7 +42,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
-| Patriot   | Phison Driven SSDs     | 2      | 8       | 195   | 0     | 0.54   |
-| Patriot   | Unknown                | 1      | 1       | 172   | 0     | 0.47   |
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
+| Patriot   | Unknown                | 3      | 3       | 239   | 0     | 0.66   |
+| Patriot   | Phison Driven SSDs     | 4      | 18      | 206   | 0     | 0.57   |

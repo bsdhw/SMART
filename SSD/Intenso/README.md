@@ -21,17 +21,22 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | Intenso   | lntenso SSD Sat... | 120 GB | 1       | 438   | 0     | 1.20   |
-| Intenso   | SSD Sata III       | 120 GB | 5       | 341   | 0     | 0.94   |
-| Intenso   | SSD                | 128 GB | 1       | 295   | 0     | 0.81   |
+| Intenso   | SSD Sata III       | 120 GB | 6       | 305   | 0     | 0.84   |
+| Intenso   | JAJMS600M128G      | 128 GB | 1       | 245   | 0     | 0.67   |
+| Intenso   | SSD SATAIII        | 120 GB | 4       | 229   | 1     | 0.63   |
 | Intenso   | SSD Sata III       | 250 GB | 2       | 138   | 0     | 0.38   |
 | Intenso   | SATA III SSD       | 480 GB | 1       | 102   | 0     | 0.28   |
-| Intenso   | SSD Sata III       | 256 GB | 2       | 31    | 0     | 0.09   |
+| Intenso   | SSD                | 128 GB | 8       | 47    | 0     | 0.13   |
+| Intenso   | IONN SSD           | 256 GB | 2       | 45    | 0     | 0.13   |
+| Intenso   | SATA3 240GB SSD    | 240 GB | 1       | 35    | 0     | 0.10   |
+| Intenso   | SSD Sata III       | 256 GB | 3       | 21    | 0     | 0.06   |
+| Intenso   | SSD Sata III       | 128 GB | 3       | 13    | 17    | 0.04   |
 | Intenso   | SSD Sata III       | 240 GB | 1       | 10    | 0     | 0.03   |
-| Intenso   | SSD Sata III       | 128 GB | 2       | 7     | 26    | 0.02   |
-| Intenso   | SSD SATAIII        | 120 GB | 2       | 0     | 1     | 0.00   |
+| Intenso   | SSD                | 256 GB | 1       | 5     | 0     | 0.01   |
+| Intenso   | SSD                | 120 GB | 2       | 2     | 0     | 0.01   |
 | Intenso   | JAJMS600M256G      | 256 GB | 1       | 0     | 0     | 0.00   |
 
 SSD by Family
@@ -45,8 +50,8 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
-| Intenso   | Phison Driven OEM SSDs | 2      | 2       | 199   | 0     | 0.55   |
-| Intenso   | Unknown                | 7      | 14      | 159   | 4     | 0.44   |
-| Intenso   | Silicon Motion base... | 1      | 2       | 138   | 0     | 0.38   |
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
+| Intenso   | Unknown                | 11     | 25      | 147   | 3     | 0.40   |
+| Intenso   | Silicon Motion base... | 2      | 3       | 94    | 0     | 0.26   |
+| Intenso   | Phison Driven OEM SSDs | 2      | 9       | 53    | 0     | 0.15   |

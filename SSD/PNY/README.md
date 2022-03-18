@@ -21,17 +21,18 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | PNY       | CS1311 240GB SSD   | 240 GB | 3       | 833   | 0     | 2.28   |
-| PNY       | CS1311 120GB SSD   | 120 GB | 1       | 497   | 0     | 1.36   |
-| PNY       | CS900 120GB SSD    | 120 GB | 10      | 279   | 0     | 0.76   |
-| PNY       | CS900 250GB SSD    | 250 GB | 1       | 256   | 0     | 0.70   |
-| PNY       | CS900 240GB SSD    | 240 GB | 9       | 209   | 0     | 0.58   |
+| PNY       | CS900 120GB SSD    | 120 GB | 17      | 468   | 0     | 1.28   |
+| PNY       | CS1311 120GB SSD   | 120 GB | 2       | 375   | 0     | 1.03   |
+| PNY       | CS900 250GB SSD    | 250 GB | 2       | 235   | 0     | 0.65   |
+| PNY       | CS900 240GB SSD    | 240 GB | 13      | 220   | 0     | 0.60   |
 | PNY       | CS1311 480GB SSD   | 480 GB | 1       | 152   | 0     | 0.42   |
 | PNY       | CS900 500GB SSD    | 500 GB | 3       | 117   | 0     | 0.32   |
 | PNY       | SSD2SC240G1SA75... | 240 GB | 1       | 53    | 0     | 0.15   |
 | PNY       | SSD2SC240G5LC70... | 240 GB | 1       | 13    | 0     | 0.04   |
+| PNY       | 120GB SATA SSD     | 120 GB | 2       | 9     | 0     | 0.02   |
 | PNY       | SSD2SC120G1CS17... | 120 GB | 2       | 6     | 0     | 0.02   |
 
 SSD by Family
@@ -45,7 +46,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
-| PNY       | Phison Driven SSDs     | 5      | 24      | 326   | 0     | 0.89   |
-| PNY       | Unknown                | 5      | 8       | 86    | 0     | 0.24   |
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
+| PNY       | Phison Driven SSDs     | 5      | 36      | 395   | 0     | 1.08   |
+| PNY       | Unknown                | 6      | 11      | 83    | 0     | 0.23   |

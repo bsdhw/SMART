@@ -15,20 +15,29 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | Toshiba   | THNSN5256GPUK NVMe | 256 GB | 1       | 1195  | 0     | 3.28   |
 | Toshiba   | KXG50ZNV512G       | 512 GB | 1       | 363   | 0     | 1.00   |
 | Toshiba   | KXG50ZNV1T02 NVMe  | 1 TB   | 1       | 293   | 0     | 0.80   |
 | Toshiba   | KXG50ZNV256G NVMe  | 256 GB | 2       | 265   | 0     | 0.73   |
+| Toshiba   | KXG50PNV2T04 NVMe  | 2 TB   | 1       | 188   | 0     | 0.52   |
 | Toshiba   | THNSN5512GPUK NVMe | 512 GB | 1       | 172   | 0     | 0.47   |
+| Toshiba   | KBG30ZMV512G       | 512 GB | 1       | 171   | 0     | 0.47   |
+| Toshiba   | RD400              | 256 GB | 1       | 167   | 0     | 0.46   |
+| Toshiba   | KXG5AZNV256G       | 256 GB | 2       | 165   | 0     | 0.45   |
 | Toshiba   | RC100              | 240 GB | 1       | 151   | 0     | 0.41   |
 | Toshiba   | THNSF5256GPUK      | 256 GB | 2       | 147   | 0     | 0.40   |
+| Toshiba   | KBG40ZNS256G NVMe  | 256 GB | 1       | 133   | 0     | 0.37   |
 | Toshiba   | THNSF5256GCJ7      | 256 GB | 1       | 130   | 0     | 0.36   |
-| Toshiba   | KXG5AZNV256G       | 256 GB | 1       | 39    | 0     | 0.11   |
+| Toshiba   | KXG60ZNV512G       | 512 GB | 1       | 89    | 0     | 0.25   |
+| Toshiba   | KBG30ZMV256G       | 256 GB | 2       | 65    | 0     | 0.18   |
+| Toshiba   | KBG40ZNT512G ME... | 512 GB | 1       | 39    | 0     | 0.11   |
 | Toshiba   | KXG60ZNV1T02       | 1 TB   | 2       | 36    | 0     | 0.10   |
+| Toshiba   | KBG30ZMT128G       | 128 GB | 1       | 24    | 0     | 0.07   |
+| Toshiba   | KBG30ZPZ128G       | 128 GB | 1       | 14    | 0     | 0.04   |
+| Toshiba   | KXG6APNV2T04       | 2 TB   | 1       | 10    | 0     | 0.03   |
 | Toshiba   | KBG30ZMV256G KI... | 256 GB | 1       | 5     | 0     | 0.01   |
 | Toshiba   | KXG60ZNV512G NVMe  | 512 GB | 1       | 2     | 0     | 0.01   |
 | Toshiba   | KBG30ZMT512G       | 512 GB | 1       | 2     | 0     | 0.01   |
-| Toshiba   | KBG30ZMV256G       | 256 GB | 1       | 1     | 0     | 0.00   |
 | Toshiba   | KXG60PNV2T04 NV... | 2 TB   | 1       | 0     | 0     | 0.00   |

@@ -21,11 +21,11 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | SuperM... | SSD                | 128 GB | 1       | 1295  | 0     | 3.55   |
 | SuperM... | SSD                | 16 GB  | 1       | 1176  | 0     | 3.22   |
-| SuperM... | SSD                | 64 GB  | 1       | 0     | 0     | 0.00   |
+| SuperM... | SSD                | 64 GB  | 2       | 87    | 0     | 0.24   |
 
 SSD by Family
 -------------
@@ -38,7 +38,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
 | SuperM... | Unknown                | 1      | 1       | 1295  | 0     | 3.55   |
-| SuperM... | Silicon Motion base... | 2      | 2       | 588   | 0     | 1.61   |
+| SuperM... | Silicon Motion base... | 2      | 3       | 450   | 0     | 1.23   |

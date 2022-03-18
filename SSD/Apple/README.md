@@ -21,17 +21,20 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Apple     | SSD SD512E         | 500 GB | 1       | 1056  | 0     | 2.89   |
+| Apple     | SSD SM0512F        | 500 GB | 2       | 812   | 0     | 2.23   |
 | Apple     | SSD TS256C         | 256 GB | 1       | 752   | 0     | 2.06   |
 | Apple     | SSD TS128C         | 121 GB | 2       | 667   | 0     | 1.83   |
-| Apple     | SSD SM0512F        | 500 GB | 1       | 527   | 0     | 1.44   |
 | Apple     | SSD SM256C         | 256 GB | 1       | 520   | 0     | 1.43   |
 | Apple     | SSD SM1024G        | 1 TB   | 1       | 251   | 0     | 0.69   |
+| Apple     | SSD SM0512G        | 500 GB | 3       | 244   | 0     | 0.67   |
 | Apple     | SSD SD0128F        | 121 GB | 2       | 370   | 1     | 0.57   |
-| Apple     | SSD SM0512G        | 500 GB | 1       | 170   | 0     | 0.47   |
+| Apple     | SSD TS128E         | 121 GB | 1       | 113   | 0     | 0.31   |
 | Apple     | SSD SM0128G        | 121 GB | 2       | 91    | 0     | 0.25   |
-| Apple     | SSD SM256E         | 256 GB | 2       | 467   | 61    | 0.18   |
+| Apple     | SSD SM128E         | 121 GB | 1       | 89    | 0     | 0.25   |
+| Apple     | SSD SM256E         | 256 GB | 4       | 261   | 31    | 0.17   |
 | Apple     | A45ACXBA9TA        | 512 GB | 1       | 16    | 0     | 0.04   |
 
 SSD by Family
@@ -45,8 +48,9 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
 | Apple     | JMicron based SSDs     | 2      | 3       | 695   | 0     | 1.91   |
+| Apple     | SD/SM/TS E/F/G SSDs    | 8      | 16      | 357   | 8     | 0.79   |
 | Apple     | Unknown                | 2      | 2       | 268   | 0     | 0.74   |
-| Apple     | SD/SM/TS E/F/G SSDs    | 6      | 9       | 311   | 14    | 0.51   |
+| Apple     | MacBook Air SSD        | 1      | 1       | 113   | 0     | 0.31   |

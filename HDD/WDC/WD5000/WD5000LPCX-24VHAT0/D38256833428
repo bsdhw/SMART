@@ -1,0 +1,119 @@
+smartctl 7.2 2020-12-30 r5155 [OpenBSD 7.0 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Western Digital Blue Mobile
+Device Model:     WDC WD5000LPCX-24VHAT0
+Serial Number:    --
+LU WWN Device Id: 5 0014ee ...
+Firmware Version: 02.01A02
+User Capacity:    500,107,862,016 bytes [500 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    5400 rpm
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sun Dec 26 19:40:56 2021 +05
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		( 8640) seconds.
+Offline data collection
+capabilities: 			 (0x7b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 ( 100) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   5) minutes.
+SCT capabilities: 	       (0x3035)	SCT Status supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   155   148   021    Pre-fail  Always       -       1225
+  4 Start_Stop_Count        0x0032   043   043   000    Old_age   Always       -       57367
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   092   092   000    Old_age   Always       -       6009
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       2070
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       546
+193 Load_Cycle_Count        0x0032   157   157   000    Old_age   Always       -       129831
+194 Temperature_Celsius     0x0022   105   093   000    Old_age   Always       -       38
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   200   200   000    Old_age   Offline      -       0
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Extended offline    Interrupted (host reset)      80%      4728         -
+# 2  Extended offline    Aborted by host               90%      4727         -
+# 3  Short offline       Completed without error       00%      4319         -
+# 4  Short offline       Completed without error       00%      4306         -
+# 5  Short offline       Completed without error       00%      4305         -
+# 6  Short offline       Completed without error       00%      4281         -
+# 7  Short offline       Completed without error       00%      4258         -
+# 8  Short offline       Completed without error       00%      4234         -
+# 9  Short offline       Completed without error       00%      4194         -
+#10  Short offline       Completed without error       00%      4169         -
+#11  Short offline       Completed without error       00%      4159         -
+#12  Short offline       Completed without error       00%      4119         -
+#13  Short offline       Completed without error       00%      4083         -
+#14  Short offline       Completed without error       00%      4068         -
+#15  Extended offline    Interrupted (host reset)      80%      4046         -
+#16  Extended offline    Aborted by host               90%      3937         -
+#17  Extended offline    Aborted by host               90%      3937         -
+#18  Extended offline    Aborted by host               90%      3937         -
+#19  Short offline       Completed without error       00%      3932         -
+#20  Short offline       Completed without error       00%      3909         -
+#21  Short offline       Completed without error       00%      3904         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

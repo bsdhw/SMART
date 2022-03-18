@@ -15,7 +15,12 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Seagate   | FireCuda 520 SS... | 500 GB | 5       | 122   | 0     | 0.34   |
 | Seagate   | FireCuda 520 SS... | 1 TB   | 1       | 111   | 0     | 0.30   |
-| Seagate   | FireCuda 520 SS... | 500 GB | 2       | 27    | 0     | 0.08   |
+| Seagate   | IronWolf ZP500N... | 500 GB | 1       | 64    | 0     | 0.18   |
+| Seagate   | FireCuda 530 ZP... | 4 TB   | 1       | 35    | 0     | 0.10   |
+| Seagate   | BarraCuda 510 S... | 512 GB | 1       | 29    | 0     | 0.08   |
+| Seagate   | FireCuda 510 SS... | 500 GB | 1       | 1     | 0     | 0.00   |
+| Seagate   | BarraCuda 510 S... | 250 GB | 1       | 0     | 0     | 0.00   |

@@ -15,10 +15,10 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | Gigabyte  | GP-AG42TB          | 2 TB   | 2       | 83    | 0     | 0.23   |
 | Gigabyte  | GP-ASM2NE6100TTTD  | 1 TB   | 1       | 53    | 0     | 0.15   |
+| Gigabyte  | GP-GSM2NE3256GNTD  | 256 GB | 3       | 29    | 0     | 0.08   |
 | Gigabyte  | GP-GSM2NE3100TNTD  | 1 TB   | 2       | 22    | 0     | 0.06   |
 | Gigabyte  | GP-GSM2NE3128GNTD  | 128 GB | 1       | 18    | 0     | 0.05   |
-| Gigabyte  | GP-GSM2NE3256GNTD  | 256 GB | 1       | 11    | 0     | 0.03   |

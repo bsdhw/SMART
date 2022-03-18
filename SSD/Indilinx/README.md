@@ -15,7 +15,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | Indilinx  | IND-S3MP-256G      | 256 GB | 1       | 243   | 0     | 0.67   |
 | Indilinx  | InM2246S3-128G     | 128 GB | 1       | 71    | 0     | 0.20   |

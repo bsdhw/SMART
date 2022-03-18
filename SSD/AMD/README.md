@@ -21,10 +21,11 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | AMD       | R3SL120G           | 120 GB | 2       | 1341  | 0     | 3.68   |
-| AMD       | R5SL240G           | 240 GB | 1       | 183   | 0     | 0.50   |
+| AMD       | R5SL240G           | 240 GB | 3       | 150   | 7     | 0.30   |
+| AMD       | R5SL120G           | 120 GB | 2       | 0     | 0     | 0.00   |
 
 SSD by Family
 -------------
@@ -37,7 +38,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
 | AMD       | Silicon Motion base... | 1      | 2       | 1341  | 0     | 3.68   |
-| AMD       | Unknown                | 1      | 1       | 183   | 0     | 0.50   |
+| AMD       | Unknown                | 2      | 5       | 90    | 4     | 0.18   |

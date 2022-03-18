@@ -1,0 +1,108 @@
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.9] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Barracuda 7200.9
+Device Model:     ST3808110AS
+Serial Number:    --
+Firmware Version: 3.AJL
+User Capacity:    80,026,361,856 bytes [80.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
+Local Time is:    Sat Jul 10 08:47:19 2021 MSK
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (  22)	The self-test routine was aborted by
+					the host.
+Total time to complete Offline 
+data collection: 		(  431) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  27) minutes.
+SCT capabilities: 	       (0x0009)	SCT Status supported.
+					SCT Error Recovery Control supported.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   100   253   006    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0002   093   093   000    Old_age   Always       -       0
+  4 Start_Stop_Count        0x0033   100   100   020    Pre-fail  Always       -       43
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   087   060   030    Pre-fail  Always       -       595523134
+  9 Power_On_Hours          0x0032   023   023   000    Old_age   Always       -       68268
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0033   100   100   020    Pre-fail  Always       -       57
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   001   001   000    Old_age   Always       -       114
+190 Airflow_Temperature_Cel 0x0022   079   051   045    Old_age   Always       -       21 (Min/Max 17/33)
+194 Temperature_Celsius     0x0022   021   049   000    Old_age   Always       -       21 (0 15 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   052   043   000    Old_age   Always       -       200591503
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0000   100   253   000    Old_age   Offline      -       0
+202 Data_Address_Mark_Errs  0x0032   100   253   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Aborted by host               60%     35864         -
+# 2  Short offline       Completed without error       00%     35864         -
+# 3  Short offline       Completed without error       00%     35864         -
+# 4  Short offline       Completed without error       00%     35864         -
+# 5  Short offline       Completed without error       00%     35864         -
+# 6  Short offline       Completed without error       00%     35864         -
+# 7  Short offline       Completed without error       00%     35864         -
+# 8  Short offline       Completed without error       00%     35864         -
+# 9  Short offline       Completed without error       00%     35864         -
+#10  Short offline       Completed without error       00%     35864         -
+#11  Short offline       Completed without error       00%     35864         -
+#12  Short offline       Completed without error       00%     35864         -
+#13  Short offline       Completed without error       00%     35863         -
+#14  Short offline       Completed without error       00%     35863         -
+#15  Short offline       Completed without error       00%     35863         -
+#16  Short offline       Completed without error       00%     35863         -
+#17  Short offline       Completed without error       00%     35863         -
+#18  Short offline       Completed without error       00%     35863         -
+#19  Short offline       Completed without error       00%     35863         -
+#20  Short offline       Completed without error       00%     35863         -
+#21  Short offline       Aborted by host               60%     35864         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

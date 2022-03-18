@@ -15,6 +15,6 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| MEMXPRO   | mSATA M3B          | 32 GB  | 2       | 4     | 0     | 0.01   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| MEMXPRO   | mSATA M3B          | 32 GB  | 4       | 2     | 0     | 0.01   |

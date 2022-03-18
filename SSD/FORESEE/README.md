@@ -15,9 +15,10 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| FORESEE   | 128GB SSD          | 128 GB | 10      | 36    | 0     | 0.10   |
-| FORESEE   | 64GB SSD           | 64 GB  | 6       | 22    | 0     | 0.06   |
-| FORESEE   | 32GB SSD           | 32 GB  | 2       | 4     | 0     | 0.01   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| FORESEE   | 32GB SSD           | 32 GB  | 4       | 102   | 0     | 0.28   |
+| FORESEE   | 128GB SSD          | 128 GB | 28      | 59    | 0     | 0.16   |
+| FORESEE   | 64GB SSD           | 64 GB  | 12      | 31    | 0     | 0.09   |
+| FORESEE   | 512GB SSD          | 512 GB | 1       | 0     | 0     | 0.00   |
 | FORESEE   | 256GB SSD          | 256 GB | 1       | 0     | 0     | 0.00   |

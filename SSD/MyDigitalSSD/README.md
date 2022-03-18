@@ -15,7 +15,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| MyDigi... | SB2                | 128 GB | 1       | 763   | 0     | 2.09   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| MyDigi... | SB2                | 128 GB | 2       | 872   | 4     | 1.20   |
 | MyDigi... | SC2 M2 SSD         | 120 GB | 1       | 186   | 0     | 0.51   |

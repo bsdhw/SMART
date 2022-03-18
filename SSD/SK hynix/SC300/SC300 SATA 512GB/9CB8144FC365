@@ -1,0 +1,311 @@
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     SK hynix SATA SSDs
+Device Model:     SK hynix SC300 SATA 512GB
+Serial Number:    --
+Firmware Version: 20121P00
+User Capacity:    512,110,190,592 bytes [512 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      M.2
+TRIM Command:     Available
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA8-ACS (minor revision not indicated)
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Fri Sep 24 10:19:06 2021 IDT
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM feature is:   Unavailable
+APM feature is:   Disabled
+Rd look-ahead is: Enabled
+Write cache is:   Enabled
+DSN feature is:   Unavailable
+ATA Security is:  Disabled, frozen [SEC2]
+Wt Cache Reorder: Unavailable
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		( 1644) seconds.
+Offline data collection
+capabilities: 			 (0x59) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  60) minutes.
+
+SMART Attributes Data Structure revision number: 0
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  1 Raw_Read_Error_Rate     POSR--   166   166   006    -    0
+  5 Retired_Block_Count     -O--CK   253   253   036    -    0
+  9 Power_On_Hours          -O--CK   066   066   000    -    30406
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    1690
+100 Total_Erase_Count       -O--CK   100   100   000    -    4488777
+171 Program_Fail_Count      -O--CK   253   253   000    -    0
+172 Erase_Fail_Count        -O--CK   253   253   000    -    0
+174 Unexpect_Power_Loss_Ct  ----CK   100   100   000    -    496
+175 Program_Fail_Count_Chip -O--CK   253   253   000    -    0
+176 Unused_Rsvd_Blk_Cnt_Tot -O--CK   253   253   000    -    0
+177 Wear_Leveling_Count     -O--CK   099   001   000    -    35
+178 Used_Rsvd_Blk_Cnt_Chip  -O--CK   100   100   000    -    28
+179 Used_Rsvd_Blk_Cnt_Tot   -O--CK   100   100   000    -    166
+180 Erase_Fail_Count        -O--CK   100   100   000    -    8666
+181 Non4k_Aligned_Access    -O--CK   253   253   000    -    0
+182 Erase_Fail_Count_Total  -O--CK   253   253   000    -    0
+183 SATA_Downshift_Count    -O--CK   253   253   000    -    0
+187 Reported_Uncorrect      -O--CK   253   253   000    -    0
+188 Command_Timeout         -O--CK   253   253   000    -    0
+191 Unknown_SSD_Attribute   -O--CK   253   253   000    -    0
+194 Temperature_Celsius     -O----   032   000   000    -    32 (Min/Max 18/55)
+195 Hardware_ECC_Recovered  -O--CK   253   253   000    -    0
+201 Percent_Lifetime_Remain -OSR--   100   100   000    -    0
+204 Soft_ECC_Correction     -OSR--   100   100   000    -    7
+231 SSD_Life_Left           PO--CK   253   253   010    -    0
+234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    18055
+238 Unknown_Attribute       -O--CK   002   001   000    -    99
+241 Total_Writes_GiB        -O--CK   100   100   000    -    5858
+242 Total_Reads_GiB         -O--CK   100   100   000    -    1038
+250 Read_Retry_Count        -O--CK   100   100   000    -    189
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+General Purpose Log Directory Version 1
+SMART           Log Directory Version 1 [multi-sector log support]
+Address    Access  R/W   Size  Description
+0x00       GPL,SL  R/O      1  Log Directory
+0x01           SL  R/O      1  Summary SMART error log
+0x02           SL  R/O      4  Comprehensive SMART error log
+0x03       GPL     R/O      5  Ext. Comprehensive SMART error log
+0x04       GPL,SL  R/O      8  Device Statistics log
+0x06           SL  R/O      1  SMART self-test log
+0x07       GPL     R/O      2  Extended self-test log
+0x09           SL  R/W      1  Selective self-test log
+0x10       GPL     R/O      1  NCQ Command Error log
+0x11       GPL     R/O      1  SATA Phy Event Counters log
+0x30       GPL     R/O      8  IDENTIFY DEVICE data log
+0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
+
+SMART Extended Comprehensive Error Log Version: 1 (5 sectors)
+Device Error Count: 1564 (device log contains only the most recent 20 errors)
+	CR     = Command Register
+	FEATR  = Features Register
+	COUNT  = Count (was: Sector Count) Register
+	LBA_48 = Upper bytes of LBA High/Mid/Low Registers ]  ATA-8
+	LH     = LBA High (was: Cylinder High) Register    ]   LBA
+	LM     = LBA Mid (was: Cylinder Low) Register      ] Register
+	LL     = LBA Low (was: Sector Number) Register     ]
+	DV     = Device (was: Device/Head) Register
+	DC     = Device Control Register
+	ER     = Error register
+	ST     = Status register
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 1564 [3] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:05:47.840  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:05:21.210  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:05:21.200  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:05:07.210  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:05:07.200  SMART READ LOG
+
+Error 1563 [2] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:05:21.200  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:05:07.210  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:05:07.200  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:59.190  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:59.180  SMART READ LOG
+
+Error 1562 [1] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:05:07.200  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:59.190  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:59.180  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:42.020  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:42.010  SMART READ LOG
+
+Error 1561 [0] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:59.180  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:42.020  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:42.010  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:32.030  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:32.020  SMART READ LOG
+
+Error 1560 [19] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:42.010  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:32.030  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:32.020  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:22.040  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:22.030  SMART READ LOG
+
+Error 1559 [18] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:32.020  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:22.040  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:22.030  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:12.050  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:12.040  SMART READ LOG
+
+Error 1558 [17] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:22.030  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:12.050  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:12.040  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:02.060  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:02.050  SMART READ LOG
+
+Error 1557 [16] occurred at disk power-on lifetime: 8626 hours (359 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  10 -- 51 00 00 00 00 00 c2 4f 00 e0 00  Error: IDNF
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:12.040  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:04:02.060  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:04:02.050  SMART READ LOG
+  b0 00 d0 00 01 00 00 00 c2 4f 00 00 00     05:03:52.070  SMART READ DATA
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 00     05:03:52.060  SMART READ LOG
+
+SMART Extended Self-test Log Version: 1 (2 sectors)
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Extended offline    Completed without error       00%      8622         -
+# 2  Short offline       Completed without error       00%      8621         -
+# 3  Short offline       Completed without error       00%      8023         -
+# 4  Short offline       Completed without error       00%      6973         -
+# 5  Short offline       Completed without error       00%      6973         -
+# 6  Short offline       Completed without error       00%      1595         -
+# 7  Short offline       Completed without error       00%       112         -
+# 8  Short offline       Completed without error       00%         1         -
+
+Warning! SMART Selective Self-Test Log Structure error: invalid SMART checksum.
+SMART Selective self-test log data structure revision number 0
+Note: revision number not 1 implies that no selective self-test has ever been run
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+SCT Commands not supported
+
+Device Statistics (GP Log 0x04)
+Page  Offset Size        Value Flags Description
+0x01  =====  =               =  ===  == General Statistics (empty) ==
+0x04  =====  =               =  ===  == General Errors Statistics (empty) ==
+0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
+0x06  =====  =               =  ===  == Transport Statistics (empty) ==
+0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
+                                |||_ C monitored condition met
+                                ||__ D supports DSN
+                                |___ N normalized value
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11)
+ID      Size     Value  Description
+0x0001  2            0  Command failed due to ICRC error
+0x000a  2           10  Device-to-host register FISes sent due to a COMRESET
+

@@ -1,0 +1,120 @@
+smartctl 7.2 2020-12-30 r5155 [OpenBSD 7.0 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     SK hynix SATA SSDs
+Device Model:     SK hynix SC311 SATA 256GB
+Serial Number:    --
+Firmware Version: 70000P10
+User Capacity:    256,060,514,304 bytes [256 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      M.2
+TRIM Command:     Available, deterministic, zeroed
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 (minor revision not indicated)
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Thu Oct 14 01:25:48 2021 CDT
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x05)	Offline data collection activity
+					was aborted by an interrupting command from host.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (  41)	The self-test routine was interrupted
+					by the host with a hard or soft reset.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x51) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  40) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 0
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   166   166   006    Pre-fail  Always       -       0
+  5 Retired_Block_Count     0x0032   253   253   036    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   083   083   000    Old_age   Always       -       15761
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       1490
+100 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       938429
+168 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       9
+169 Max_Erase_Count         0x0032   095   095   000    Old_age   Always       -       80
+174 Unexpect_Power_Loss_Ct  0x0030   100   100   000    Old_age   Offline      -       77
+175 Program_Fail_Count_Chip 0x0032   253   253   000    Old_age   Always       -       0
+176 Unused_Rsvd_Blk_Cnt_Tot 0x0032   253   253   000    Old_age   Always       -       0
+177 Wear_Leveling_Count     0x0032   098   001   000    Old_age   Always       -       33
+178 Used_Rsvd_Blk_Cnt_Chip  0x0032   253   253   000    Old_age   Always       -       0
+179 Used_Rsvd_Blk_Cnt_Tot   0x0032   253   253   000    Old_age   Always       -       0
+180 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       782
+181 Non4k_Aligned_Access    0x0032   253   253   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   253   253   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   253   253   000    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   253   253   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       128
+194 Temperature_Celsius     0x0002   029   005   000    Old_age   Always       -       29 (Min/Max 5/61)
+195 Hardware_ECC_Recovered  0x0032   253   253   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   253   253   036    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0032   253   253   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   253   253   000    Old_age   Always       -       0
+204 Soft_ECC_Correction     0x000e   096   001   000    Old_age   Always       -       73
+212 Phy_Error_Count         0x0032   100   100   000    Old_age   Always       -       2891304
+233 Media_Wearout_Indicator 0x0032   003   001   000    Old_age   Always       -       98
+234 Unknown_SK_hynix_Attrib 0x0032   100   100   000    Old_age   Always       -       17172772288
+241 Total_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       21773493505
+242 Total_Reads_GiB         0x0032   100   100   000    Old_age   Always       -       14855713429
+
+SMART Error Log Version: 0
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Interrupted (host reset)      90%     14238         -
+# 2  Short offline       Completed without error       00%     14238         -
+# 3  Short offline       Aborted by host               90%     14233         -
+# 4  Short offline       Aborted by host               40%     14233         -
+# 5  Short offline       Aborted by host               90%        13         -
+# 6  Short offline       Completed without error       00%        11         -
+# 7  Short offline       Aborted by host               90%        11         -
+# 8  Short offline       Completed without error       00%         0         -
+
+Warning! SMART Selective Self-Test Log Structure error: invalid SMART checksum.
+SMART Selective self-test log data structure revision number 0
+Note: revision number not 1 implies that no selective self-test has ever been run
+ SPAN            MIN_LBA            MAX_LBA  CURRENT_TEST_STATUS
+    1                  0                  0  Not_testing
+    2                  0                  0  Not_testing
+    3                  0                  0  Not_testing
+    4                  0                  0  Not_testing
+    5                  0                  0  Not_testing
+ 4096  73749776378095430  73749776378160965  Read_scanning was aborted by an interrupting command from host
+Selective self-test flags (0xe1a0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 4097 minute delay.
+
+
+

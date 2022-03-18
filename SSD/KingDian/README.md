@@ -21,13 +21,14 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | KingDian  | S280               | 240 GB | 1       | 378   | 0     | 1.04   |
 | KingDian  | S400               | 120 GB | 1       | 303   | 0     | 0.83   |
 | KingDian  | S280-240GB         | 240 GB | 1       | 177   | 0     | 0.49   |
-| KingDian  | S200               | 64 GB  | 3       | 58    | 337   | 0.15   |
 | KingDian  | S280               | 120 GB | 1       | 49    | 0     | 0.14   |
+| KingDian  | S200               | 64 GB  | 4       | 44    | 253   | 0.11   |
+| KingDian  | S280               | 480 GB | 1       | 29    | 0     | 0.08   |
 
 SSD by Family
 -------------
@@ -40,7 +41,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
 | KingDian  | Unknown                | 1      | 1       | 177   | 0     | 0.49   |
-| KingDian  | Silicon Motion base... | 4      | 6       | 151   | 169   | 0.41   |
+| KingDian  | Silicon Motion base... | 5      | 8       | 117   | 127   | 0.32   |

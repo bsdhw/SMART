@@ -15,7 +15,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | Plextor   | PX-256M8PeY        | 256 GB | 1       | 1218  | 0     | 3.34   |
 | Plextor   | PX-256M8PeG        | 256 GB | 1       | 598   | 0     | 1.64   |

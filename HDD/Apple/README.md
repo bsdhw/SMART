@@ -21,12 +21,15 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Apple     | HDD ST1000LM024    | 1 TB   | 1       | 617   | 0     | 1.69   |
+| Apple     | HDD HTS541010A9... | 1 TB   | 3       | 649   | 2     | 1.04   |
 | Apple     | HDD ST2000DM001    | 2 TB   | 1       | 232   | 0     | 0.64   |
-| Apple     | HDD HTS545050A7... | 500 GB | 2       | 225   | 0     | 0.62   |
-| Apple     | HDD HTS541010A9... | 1 TB   | 1       | 1008  | 4     | 0.55   |
+| Apple     | HDD HTS547575A9... | 752 GB | 1       | 217   | 0     | 0.60   |
+| Apple     | HDD HTS545050A7... | 500 GB | 4       | 157   | 6     | 0.33   |
 | Apple     | HDD HTS541010A9... | 1 TB   | 1       | 61    | 0     | 0.17   |
+| Apple     | HDD HTS547550A9... | 500 GB | 1       | 96    | 28    | 0.01   |
 
 HDD by Family
 -------------
@@ -39,8 +42,10 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
+| Apple     | Momentus               | 1      | 1       | 617   | 0     | 1.69   |
+| Apple     | Travelstar 5K1000      | 2      | 4       | 502   | 1     | 0.82   |
 | Apple     | Barracuda 7200.12      | 1      | 1       | 232   | 0     | 0.64   |
-| Apple     | HGST Travelstar Z5K500 | 1      | 2       | 225   | 0     | 0.62   |
-| Apple     | Travelstar 5K1000      | 2      | 2       | 534   | 2     | 0.36   |
+| Apple     | HGST Travelstar Z5K500 | 1      | 4       | 157   | 6     | 0.33   |
+| Apple     | HGST Travelstar 5K750  | 2      | 2       | 156   | 14    | 0.30   |

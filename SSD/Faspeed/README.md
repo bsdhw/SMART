@@ -15,6 +15,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| Faspeed   | K5M-32G            | 32 GB  | 1       | 230   | 0     | 0.63   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Faspeed   | H5-240G            | 240 GB | 1       | 318   | 0     | 0.87   |
+| Faspeed   | K5M-32G            | 32 GB  | 4       | 82    | 0     | 0.23   |

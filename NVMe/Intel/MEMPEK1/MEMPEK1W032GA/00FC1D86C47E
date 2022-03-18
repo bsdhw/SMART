@@ -1,0 +1,71 @@
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       INTEL MEMPEK1W032GA
+Serial Number:                      --
+Firmware Version:                   K3110310
+PCI Vendor/Subsystem ID:            0x8086
+IEEE OUI Identifier:                0x5cd2e4
+Controller ID:                      0
+NVMe Version:                       <1.2
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          29,260,513,280 [29.2 GB]
+Namespace 1 Formatted LBA Size:     512
+Local Time is:                      Sun Jun 27 21:25:49 2021 CEST
+Firmware Updates (0x02):            1 Slot
+Optional Admin Commands (0x0006):   Format Frmw_DL
+Optional NVM Commands (0x0046):     Wr_Unc DS_Mngmt Timestmp
+Log Page Attributes (0x02):         Cmd_Eff_Lg
+Maximum Data Transfer Size:         32 Pages
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     4.50W       -        -    0  0  0  0        0       0
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         2
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        39 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          0%
+Percentage Used:                    0%
+Data Units Read:                    933,908 [478 GB]
+Data Units Written:                 771,312 [394 GB]
+Host Read Commands:                 44,567,748
+Host Write Commands:                35,835,796
+Controller Busy Time:               0
+Power Cycles:                       657
+Power On Hours:                     3,751
+Unsafe Shutdowns:                   257
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      26
+
+Error Information (NVMe Log 0x01, 16 of 64 entries)
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
+  0         26     1       -  0xc00c      -            0     -     -
+  1         25     1       -  0xc00c      -            0     -     -
+  2         24     1       -  0xc00c      -            0     -     -
+  3         23     1       -  0xc00c      -            0     -     -
+  4         22     1       -  0xc00c      -            0     -     -
+  5         21     1       -  0xc00c      -            0     -     -
+  6         20     1       -  0xc00c      -            0     -     -
+  7         19     1       -  0xc00c      -            0     -     -
+  8         18     1       -  0xc00c      -            0     -     -
+  9         17     1       -  0xc00c      -            0     -     -
+ 10         16     1       -  0xc00c      -            0     -     -
+ 11         15     1       -  0xc00c      -            0     -     -
+ 12         14     1       -  0xc00c      -            0     -     -
+ 13         13     1       -  0xc00c      -            0     -     -
+ 14         12     1       -  0xc00c      -            0     -     -
+ 15         11     1       -  0xc00c      -            0     -     -
+... (48 entries not read)
+
+
+

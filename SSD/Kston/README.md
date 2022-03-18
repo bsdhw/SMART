@@ -15,8 +15,9 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| Kston     | SSD                | 32 GB  | 1       | 163   | 0     | 0.45   |
-| Kston     | SSD                | 128 GB | 3       | 165   | 1     | 0.23   |
-| Kston     | SSD                | 64 GB  | 4       | 37    | 0     | 0.10   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Kston     | SSD                | 32 GB  | 2       | 248   | 0     | 0.68   |
+| Kston     | SSD                | 128 GB | 8       | 163   | 1     | 0.37   |
+| Kston     | SSD                | 64 GB  | 6       | 29    | 0     | 0.08   |
+| Kston     | SSD                | 256 GB | 1       | 0     | 0     | 0.00   |

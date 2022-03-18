@@ -15,9 +15,9 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Lexar     | 256GB SSD          | 256 GB | 4       | 26    | 0     | 0.07   |
 | Lexar     | SSD                | 256 GB | 1       | 7     | 0     | 0.02   |
-| Lexar     | 256GB SSD          | 256 GB | 1       | 6     | 0     | 0.02   |
 | Lexar     | 128GB SSD          | 128 GB | 1       | 1     | 0     | 0.00   |
 | Lexar     | CFAST 64GB CARD    | 64 GB  | 1       | 0     | 6     | 0.00   |

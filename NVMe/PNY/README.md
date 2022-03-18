@@ -15,7 +15,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| PNY       | CS3030 500GB SSD   | 500 GB | 2       | 206   | 0     | 0.57   |
-| PNY       | CS3030 1TB SSD     | 1 TB   | 2       | 32    | 0     | 0.09   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| PNY       | CS3030 1TB SSD     | 1 TB   | 3       | 200   | 0     | 0.55   |
+| PNY       | CS3030 500GB SSD   | 500 GB | 3       | 162   | 0     | 0.45   |

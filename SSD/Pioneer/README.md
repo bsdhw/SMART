@@ -15,7 +15,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
 | Pioneer   | APS-SL3N-128       | 128 GB | 1       | 189   | 0     | 0.52   |
 | Pioneer   | APS-SL3N-256       | 256 GB | 1       | 0     | 0     | 0.00   |

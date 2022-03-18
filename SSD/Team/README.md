@@ -21,10 +21,14 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Team      | L3 EVO SSD         | 120 GB | 1       | 854   | 0     | 2.34   |
 | Team      | TEAML5Lite3D1T     | 1 TB   | 1       | 596   | 0     | 1.63   |
+| Team      | TEAML5Lite3D120G   | 120 GB | 1       | 139   | 0     | 0.38   |
 | Team      | T253X2512G         | 512 GB | 1       | 101   | 0     | 0.28   |
+| Team      | L5 LITE SSD        | 240 GB | 1       | 69    | 0     | 0.19   |
+| Team      | T253X2001T         | 1 TB   | 1       | 58    | 0     | 0.16   |
 | Team      | T253X1240G         | 240 GB | 1       | 4     | 0     | 0.01   |
 
 SSD by Family
@@ -38,7 +42,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF   |
-|-----------|------------------------|--------|---------|-------|-------|--------|
-| Team      | Silicon Motion base... | 1      | 1       | 596   | 0     | 1.63   |
-| Team      | Unknown                | 2      | 2       | 52    | 0     | 0.15   |
+| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
+|-----------|------------------------|--------|---------|-------|-------|------|
+| Team      | Silicon Motion base... | 2      | 2       | 367   | 0     | 1.01   |
+| Team      | Unknown                | 5      | 5       | 217   | 0     | 0.60   |

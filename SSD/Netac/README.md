@@ -15,6 +15,12 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| Netac     | SSD                | 64 GB  | 1       | 366   | 0     | 1.00   |
+| Netac     | S535N8-256GYN      | 256 GB | 1       | 20    | 0     | 0.06   |
+| Netac     | SSD                | 240 GB | 1       | 11    | 0     | 0.03   |
+| Netac     | SSD                | 256 GB | 2       | 6     | 0     | 0.02   |
+| Netac     | SSD                | 120 GB | 3       | 1     | 0     | 0.00   |
 | Netac     | W800S 256GB SSD    | 256 GB | 1       | 1     | 0     | 0.00   |
+| Netac     | SSD                | 128 GB | 1       | 0     | 0     | 0.00   |

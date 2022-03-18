@@ -15,6 +15,7 @@ Days — avg. days per sample,
 Err  — avg. errors per sample,
 MTBF — avg. MTBF in years per sample.
 
-| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF   |
-|-----------|--------------------|--------|---------|-------|-------|--------|
-| minisf... | SSD                | 256 GB | 1       | 0     | 0     | 0.00   |
+| MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
+|-----------|--------------------|--------|---------|-------|-------|------|
+| minisf... | SSD                | 256 GB | 7       | 42    | 0     | 0.12   |
+| minisf... | SSD                | 128 GB | 2       | 0     | 0     | 0.00   |
