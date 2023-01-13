@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -27,7 +27,7 @@ MTBF — avg. MTBF in years per sample.
 | KingSpec  | KSD-SA25.7-016MJ   | 16 GB  | 1       | 471   | 0     | 1.29   |
 | KingSpec  | P3-120             | 120 GB | 1       | 385   | 0     | 1.06   |
 | KingSpec  | MT-64              | 64 GB  | 2       | 225   | 0     | 0.62   |
-| KingSpec  | MT-128             | 128 GB | 4       | 139   | 0     | 0.38   |
+| KingSpec  | MT-128             | 128 GB | 5       | 111   | 0     | 0.31   |
 | KingSpec  | NT-128             | 128 GB | 2       | 70    | 0     | 0.19   |
 | KingSpec  | MT-256             | 256 GB | 1       | 47    | 0     | 0.13   |
 | KingSpec  | P3-256             | 256 GB | 1       | 35    | 0     | 0.10   |
@@ -47,11 +47,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | KingSpec  | JMicron/Maxiotek ba... | 4      | 9       | 145   | 0     | 0.40   |
-| KingSpec  | Unknown                | 12     | 16      | 123   | 0     | 0.34   |
+| KingSpec  | Unknown                | 12     | 17      | 116   | 0     | 0.32   |

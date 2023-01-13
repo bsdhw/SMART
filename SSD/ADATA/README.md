@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -33,14 +33,15 @@ MTBF — avg. MTBF in years per sample.
 | ADATA     | SSD S599           | 40 GB  | 1       | 802   | 0     | 2.20   |
 | ADATA     | SP600              | 64 GB  | 2       | 683   | 0     | 1.87   |
 | ADATA     | SP900              | 128 GB | 4       | 611   | 0     | 1.68   |
-| ADATA     | IM2S3134N-064GM    | 64 GB  | 7       | 492   | 0     | 1.35   |
+| ADATA     | IM2S3134N-064GM    | 64 GB  | 8       | 570   | 0     | 1.56   |
 | ADATA     | SU750              | 1 TB   | 1       | 435   | 0     | 1.19   |
 | ADATA     | SSD S510           | 64 GB  | 1       | 414   | 0     | 1.14   |
+| ADATA     | XM11               | 120 GB | 1       | 399   | 0     | 1.09   |
 | ADATA     | SU655              | 120 GB | 1       | 353   | 0     | 0.97   |
 | ADATA     | SU650              | 480 GB | 2       | 216   | 0     | 0.59   |
 | ADATA     | SU650              | 240 GB | 7       | 145   | 0     | 0.40   |
 | ADATA     | SU630              | 240 GB | 11      | 163   | 2     | 0.38   |
-| ADATA     | SU650              | 120 GB | 17      | 242   | 78    | 0.35   |
+| ADATA     | SU650              | 120 GB | 18      | 230   | 74    | 0.34   |
 | ADATA     | SU810NS38 SATA ... | 256 GB | 1       | 117   | 0     | 0.32   |
 | ADATA     | SU700              | 240 GB | 1       | 114   | 0     | 0.31   |
 | ADATA     | SU800              | 256 GB | 5       | 112   | 0     | 0.31   |
@@ -70,14 +71,14 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | ADATA     | JMicron based SSDs     | 4      | 6       | 1272  | 0     | 3.49   |
 | ADATA     | JMicron/Maxiotek ba... | 2      | 3       | 1002  | 0     | 2.75   |
-| ADATA     | SandForce Driven SSDs  | 5      | 10      | 760   | 43    | 1.92   |
-| ADATA     | Unknown                | 17     | 37      | 224   | 57    | 0.57   |
-| ADATA     | Silicon Motion base... | 11     | 44      | 168   | 64    | 0.33   |
+| ADATA     | SandForce Driven SSDs  | 6      | 11      | 727   | 39    | 1.84   |
+| ADATA     | Unknown                | 17     | 38      | 248   | 56    | 0.63   |
+| ADATA     | Silicon Motion base... | 11     | 45      | 165   | 63    | 0.33   |

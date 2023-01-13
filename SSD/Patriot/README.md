@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -28,8 +28,8 @@ MTBF — avg. MTBF in years per sample.
 | Patriot   | Burst              | 240 GB | 7       | 238   | 0     | 0.65   |
 | Patriot   | Burst              | 480 GB | 1       | 183   | 0     | 0.50   |
 | Patriot   | FLARE              | 64 GB  | 1       | 172   | 0     | 0.47   |
-| Patriot   | Burst              | 120 GB | 8       | 139   | 0     | 0.38   |
-| Patriot   | Burst Elite        | 120 GB | 1       | 136   | 0     | 0.37   |
+| Patriot   | Burst              | 120 GB | 9       | 146   | 0     | 0.40   |
+| Patriot   | Burst Elite        | 120 GB | 4       | 34    | 0     | 0.09   |
 
 SSD by Family
 -------------
@@ -38,11 +38,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Patriot   | Unknown                | 3      | 3       | 239   | 0     | 0.66   |
-| Patriot   | Phison Driven SSDs     | 4      | 18      | 206   | 0     | 0.57   |
+| Patriot   | Phison Driven SSDs     | 4      | 19      | 206   | 0     | 0.57   |
+| Patriot   | Unknown                | 3      | 6       | 119   | 0     | 0.33   |

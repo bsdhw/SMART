@@ -17,12 +17,13 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| Fujitsu   | MHZ2250BJ FFS G2   | 250 GB | 1       | 711   | 0     | 1.95   |
 | Fujitsu   | MJA2160BH FFS G1   | 160 GB | 1       | 707   | 0     | 1.94   |
 | Fujitsu   | MHW2120BH          | 120 GB | 1       | 641   | 0     | 1.76   |
 | Fujitsu   | MHV2100BH PL       | 100 GB | 1       | 553   | 0     | 1.52   |
@@ -50,12 +51,13 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
+| Fujitsu   | MHZ BJ                 | 1      | 1       | 711   | 0     | 1.95   |
 | Fujitsu   | MJA BH                 | 5      | 7       | 434   | 0     | 1.19   |
 | Fujitsu   | MHY BH                 | 3      | 4       | 343   | 0     | 0.94   |
 | Fujitsu   | MHT                    | 2      | 2       | 334   | 0     | 0.92   |

@@ -17,13 +17,14 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | SanDisk   | SDSA5AK-008G-1006  | 8 GB   | 1       | 1749  | 0     | 4.79   |
+| SanDisk   | SDSSDX120GG25      | 120 GB | 1       | 1640  | 0     | 4.49   |
 | SanDisk   | PU1000064GBATSSD   | 64 GB  | 1       | 1449  | 0     | 3.97   |
 | SanDisk   | SDSSDXP480G        | 480 GB | 2       | 1447  | 0     | 3.97   |
 | SanDisk   | SSD U100           | 8 GB   | 1       | 1365  | 0     | 3.74   |
@@ -43,21 +44,22 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SDSA6MM-032G-1006  | 32 GB  | 6       | 811   | 0     | 2.22   |
 | SanDisk   | X300 MSATA         | 256 GB | 1       | 800   | 0     | 2.19   |
 | SanDisk   | SSD U110           | 128 GB | 1       | 776   | 0     | 2.13   |
-| SanDisk   | SDSSDHP128G        | 128 GB | 1       | 766   | 0     | 2.10   |
 | SanDisk   | SSD U100           | 24 GB  | 2       | 745   | 0     | 2.04   |
-| SanDisk   | SDSA6MM-016G-1006  | 16 GB  | 13      | 737   | 0     | 2.02   |
 | SanDisk   | SD5SB2-128G-1006E  | 128 GB | 1       | 708   | 0     | 1.94   |
+| SanDisk   | SDSSDHP128G        | 128 GB | 2       | 706   | 0     | 1.93   |
+| SanDisk   | SDSA6MM-016G-1006  | 16 GB  | 14      | 686   | 0     | 1.88   |
 | SanDisk   | SD7SB7S-512G-1006  | 512 GB | 1       | 677   | 0     | 1.86   |
 | SanDisk   | SDSSDP128G         | 128 GB | 7       | 662   | 0     | 1.81   |
 | SanDisk   | SD7SN6S-256G-1006  | 256 GB | 2       | 646   | 0     | 1.77   |
 | SanDisk   | SSD PLUS 120 GB    | 120 GB | 2       | 759   | 1     | 1.77   |
-| SanDisk   | SD8SB8U128G1122    | 128 GB | 1       | 635   | 0     | 1.74   |
-| SanDisk   | SDSSDP064G         | 64 GB  | 4       | 616   | 0     | 1.69   |
 | SanDisk   | SDSSDXP120G        | 120 GB | 1       | 608   | 0     | 1.67   |
+| SanDisk   | SD8SB8U128G1122    | 128 GB | 2       | 598   | 0     | 1.64   |
 | SanDisk   | SDSA6GM-016G-1006  | 16 GB  | 1       | 589   | 0     | 1.62   |
+| SanDisk   | X400 M.2 2280      | 128 GB | 3       | 562   | 0     | 1.54   |
 | SanDisk   | SD7TB3Q-128G-1006  | 128 GB | 2       | 548   | 0     | 1.50   |
 | SanDisk   | SSD i110           | 32 GB  | 3       | 986   | 340   | 1.44   |
 | SanDisk   | Ultra II           | 480 GB | 5       | 497   | 0     | 1.36   |
+| SanDisk   | SDSSDP064G         | 64 GB  | 5       | 495   | 0     | 1.36   |
 | SanDisk   | SD8TB8U512G1001    | 512 GB | 2       | 489   | 0     | 1.34   |
 | SanDisk   | SD7SB3Q-128G-1006  | 128 GB | 2       | 470   | 0     | 1.29   |
 | SanDisk   | SDSSDA120G         | 120 GB | 21      | 477   | 35    | 1.29   |
@@ -66,13 +68,13 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SDSSDHII120G       | 120 GB | 3       | 448   | 0     | 1.23   |
 | SanDisk   | Ultra II           | 240 GB | 2       | 432   | 0     | 1.19   |
 | SanDisk   | SD8SN8U128G1002    | 128 GB | 1       | 424   | 0     | 1.16   |
+| SanDisk   | SDSSDH120GG25      | 120 GB | 1       | 419   | 0     | 1.15   |
+| SanDisk   | SDSSDH3500G        | 500 GB | 2       | 419   | 0     | 1.15   |
 | SanDisk   | SD6SB1M064G1022I   | 64 GB  | 5       | 412   | 0     | 1.13   |
-| SanDisk   | X400 M.2 2280      | 128 GB | 2       | 404   | 0     | 1.11   |
-| SanDisk   | SDSSDA240G         | 240 GB | 17      | 452   | 5     | 1.10   |
 | SanDisk   | SD9SB8W128G1122    | 128 GB | 1       | 381   | 0     | 1.05   |
 | SanDisk   | SSD PLUS 240 GB    | 240 GB | 6       | 392   | 1     | 1.04   |
+| SanDisk   | SDSSDA240G         | 240 GB | 18      | 428   | 5     | 1.04   |
 | SanDisk   | SDSSDHII240G       | 240 GB | 1       | 374   | 0     | 1.03   |
-| SanDisk   | SDSSDH3500G        | 500 GB | 1       | 365   | 0     | 1.00   |
 | SanDisk   | SDSSDHII960G       | 960 GB | 2       | 364   | 0     | 1.00   |
 | SanDisk   | SD8TN8U256G1001    | 256 GB | 2       | 356   | 0     | 0.98   |
 | SanDisk   | SD5SG2256G1052E    | 256 GB | 2       | 351   | 0     | 0.96   |
@@ -119,14 +121,14 @@ MTBF — avg. MTBF in years per sample.
 | SanDisk   | SSD PLUS 480 GB    | 480 GB | 1       | 55    | 0     | 0.15   |
 | SanDisk   | WD easystore       | 240 GB | 3       | 54    | 0     | 0.15   |
 | SanDisk   | SD9SN8W128G1102    | 128 GB | 2       | 50    | 0     | 0.14   |
-| SanDisk   | SD8TB8U-256G-1006  | 256 GB | 1       | 294   | 5     | 0.13   |
-| SanDisk   | SD8SN8U-128G-1006  | 128 GB | 1       | 43    | 0     | 0.12   |
 | SanDisk   | SSD i100           | 32 GB  | 3       | 477   | 4     | 0.12   |
 | SanDisk   | SD8SBAT128G1122    | 128 GB | 4       | 41    | 0     | 0.11   |
 | SanDisk   | SDSSDHP256G        | 256 GB | 1       | 41    | 0     | 0.11   |
 | SanDisk   | pSSD               | 64 GB  | 5       | 40    | 0     | 0.11   |
+| SanDisk   | SD8SN8U-128G-1006  | 128 GB | 2       | 40    | 0     | 0.11   |
 | SanDisk   | SDSA6PM-064G-1006  | 64 GB  | 1       | 33    | 0     | 0.09   |
 | SanDisk   | SD9TN8W256G1001    | 256 GB | 1       | 28    | 0     | 0.08   |
+| SanDisk   | SD8TB8U-256G-1006  | 256 GB | 2       | 739   | 514   | 0.07   |
 | SanDisk   | SSD i100           | 64 GB  | 1       | 21    | 0     | 0.06   |
 | SanDisk   | SSD P4             | 16 GB  | 2       | 86    | 4     | 0.05   |
 | SanDisk   | SD8SBAT064G1122    | 64 GB  | 1       | 15    | 0     | 0.04   |
@@ -150,13 +152,13 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| SanDisk   | SanDisk based SSDs     | 20     | 66      | 557   | 2     | 1.47   |
-| SanDisk   | SandForce Driven SSDs  | 3      | 39      | 480   | 21    | 1.24   |
-| SanDisk   | Marvell based SanDi... | 39     | 117     | 404   | 2     | 0.99   |
-| SanDisk   | Unknown                | 57     | 84      | 315   | 27    | 0.77   |
+| SanDisk   | SanDisk based SSDs     | 20     | 68      | 541   | 2     | 1.43   |
+| SanDisk   | SandForce Driven SSDs  | 4      | 41      | 497   | 20    | 1.29   |
+| SanDisk   | Marvell based SanDi... | 39     | 121     | 405   | 2     | 1.00   |
+| SanDisk   | Unknown                | 58     | 87      | 332   | 38    | 0.78   |

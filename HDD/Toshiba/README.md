@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -27,7 +27,7 @@ MTBF — avg. MTBF in years per sample.
 | Toshiba   | MK3276GSX -63      | 320 GB | 1       | 1634  | 0     | 4.48   |
 | Toshiba   | MG04ACA400E        | 4 TB   | 2       | 1535  | 0     | 4.21   |
 | Toshiba   | MD04ACA500         | 5 TB   | 1       | 1413  | 0     | 3.87   |
-| Toshiba   | DT01ACA200         | 2 TB   | 10      | 1451  | 114   | 3.50   |
+| Toshiba   | DT01ACA200         | 2 TB   | 12      | 1375  | 95    | 3.37   |
 | Toshiba   | HDWA130            | 3 TB   | 1       | 1207  | 0     | 3.31   |
 | Toshiba   | MQ01UBB200         | 2 TB   | 1       | 1067  | 0     | 2.93   |
 | Toshiba   | DT01ACA300         | 3 TB   | 12      | 1253  | 86    | 2.87   |
@@ -43,8 +43,10 @@ MTBF — avg. MTBF in years per sample.
 | Toshiba   | MK2561GSY          | 250 GB | 1       | 695   | 0     | 1.91   |
 | Toshiba   | MK1002TSKB         | 1 TB   | 1       | 692   | 0     | 1.90   |
 | Toshiba   | DT01ACA100         | 1 TB   | 31      | 697   | 1     | 1.84   |
-| Toshiba   | DT01ACA050         | 500 GB | 16      | 707   | 12    | 1.65   |
+| Toshiba   | DT01ACA050         | 500 GB | 17      | 737   | 12    | 1.75   |
+| Toshiba   | HDWF180            | 8 TB   | 1       | 594   | 0     | 1.63   |
 | Toshiba   | MQ04UBF100         | 1 TB   | 1       | 592   | 0     | 1.62   |
+| Toshiba   | MG04ACA200E        | 2 TB   | 1       | 572   | 0     | 1.57   |
 | Toshiba   | MQ01ACF050         | 500 GB | 6       | 569   | 0     | 1.56   |
 | Toshiba   | HDWN180            | 8 TB   | 10      | 540   | 0     | 1.48   |
 | Toshiba   | MQ01UBD100         | 1 TB   | 1       | 944   | 1     | 1.29   |
@@ -59,6 +61,7 @@ MTBF — avg. MTBF in years per sample.
 | Toshiba   | MK3259GSXP         | 320 GB | 1       | 326   | 0     | 0.89   |
 | Toshiba   | DT01ABA300         | 3 TB   | 3       | 622   | 3     | 0.88   |
 | Toshiba   | MK1637GSX          | 160 GB | 2       | 813   | 1     | 0.87   |
+| Toshiba   | HDWD110            | 1 TB   | 12      | 308   | 0     | 0.84   |
 | Toshiba   | HDWG180            | 8 TB   | 1       | 303   | 0     | 0.83   |
 | Toshiba   | DT01ACA050 LENOVO  | 500 GB | 1       | 298   | 0     | 0.82   |
 | Toshiba   | HDWQ140            | 4 TB   | 9       | 298   | 0     | 0.82   |
@@ -70,7 +73,6 @@ MTBF — avg. MTBF in years per sample.
 | Toshiba   | MK1060GSCX         | 100 GB | 1       | 247   | 0     | 0.68   |
 | Toshiba   | MQ01ABD100         | 1 TB   | 29      | 328   | 115   | 0.67   |
 | Toshiba   | MQ01ABD032         | 320 GB | 4       | 487   | 320   | 0.66   |
-| Toshiba   | HDWD110            | 1 TB   | 11      | 218   | 0     | 0.60   |
 | Toshiba   | MQ01ABF050M        | 500 GB | 1       | 217   | 0     | 0.60   |
 | Toshiba   | MQ01ACF032         | 320 GB | 4       | 341   | 248   | 0.56   |
 | Toshiba   | MQ04UBB400         | 4 TB   | 1       | 201   | 0     | 0.55   |
@@ -121,9 +123,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
@@ -136,21 +138,22 @@ MTBF — avg. MTBF in years per sample.
 | Toshiba   | 2.5" HDD MQ01ABB       | 1      | 1       | 953   | 0     | 2.61   |
 | Toshiba   | 2.5" HDD MQ04UBD       | 1      | 1       | 906   | 0     | 2.48   |
 | Toshiba   | 3.5" MD04ACA Enterp... | 1      | 3       | 893   | 3     | 2.32   |
-| Toshiba   | 3.5" HDD DT01ACA       | 4      | 69      | 905   | 35    | 2.21   |
+| Toshiba   | 3.5" HDD DT01ACA       | 4      | 72      | 912   | 33    | 2.24   |
 | Toshiba   | 3.5" HDD MK.002TSKB    | 1      | 1       | 692   | 0     | 1.90   |
-| Toshiba   | X300                   | 4      | 15      | 706   | 3     | 1.69   |
+| Toshiba   | X300                   | 5      | 16      | 699   | 3     | 1.69   |
 | Toshiba   | Unknown                | 4      | 5       | 593   | 0     | 1.63   |
 | Toshiba   | 2.5" HDD MQ04UBF       | 1      | 1       | 592   | 0     | 1.62   |
+| Toshiba   | MG04ACA Enterprise HDD | 1      | 1       | 572   | 0     | 1.57   |
 | Toshiba   | 2.5" HDD MQ01UBD       | 1      | 1       | 944   | 1     | 1.29   |
 | Toshiba   | N300/MN NAS HDD        | 3      | 13      | 439   | 0     | 1.20   |
 | Toshiba   | 2.5" HDD MQ01ACF       | 2      | 10      | 478   | 100   | 1.16   |
 | Toshiba   | Toshiba Client HDD     | 1      | 2       | 345   | 0     | 0.95   |
 | Toshiba   | 2.5" HDD               | 5      | 6       | 358   | 10    | 0.93   |
 | Toshiba   | 2.5" HDD MK..46GSX     | 1      | 2       | 604   | 17    | 0.92   |
+| Toshiba   | P300                   | 4      | 33      | 443   | 18    | 0.91   |
 | Toshiba   | 2.5" HDD MK..59GSXP    | 1      | 1       | 326   | 0     | 0.89   |
 | Toshiba   | 3.5" DT01ABA Deskto... | 1      | 3       | 622   | 3     | 0.88   |
 | Toshiba   | 2.5" HDD MK..37GSX     | 1      | 2       | 813   | 1     | 0.87   |
-| Toshiba   | P300                   | 4      | 32      | 416   | 19    | 0.83   |
 | Toshiba   | 3.5" HDD DT01ACA       | 1      | 1       | 298   | 0     | 0.82   |
 | Toshiba   | N300 NAS HDD           | 1      | 9       | 298   | 0     | 0.82   |
 | Toshiba   | 2.5" HDD MQ01ABF       | 2      | 3       | 265   | 0     | 0.73   |

@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -31,6 +31,7 @@ MTBF — avg. MTBF in years per sample.
 | Lite-On   | CV3-CE128-HP       | 128 GB | 1       | 157   | 0     | 0.43   |
 | Lite-On   | LCH-128V2S         | 128 GB | 3       | 156   | 0     | 0.43   |
 | Lite-On   | CV8-8E256-11 SATA  | 256 GB | 1       | 143   | 0     | 0.39   |
+| Lite-On   | CV8-8E128-11 SATA  | 128 GB | 1       | 134   | 0     | 0.37   |
 | Lite-On   | CV8-8E256          | 256 GB | 1       | 130   | 0     | 0.36   |
 | Lite-On   | LCS-128M6S-HP      | 128 GB | 1       | 123   | 0     | 0.34   |
 | Lite-On   | LCS-128L9S-11 2... | 128 GB | 2       | 107   | 0     | 0.29   |
@@ -40,9 +41,9 @@ MTBF — avg. MTBF in years per sample.
 | Lite-On   | LSS-32L6G-HP       | 32 GB  | 1       | 59    | 0     | 0.16   |
 | Lite-On   | LGT-128M6G         | 128 GB | 1       | 52    | 0     | 0.14   |
 | Lite-On   | L8H-256V2G-11 M... | 256 GB | 1       | 50    | 0     | 0.14   |
+| Lite-On   | LMS-32L6M-HP       | 32 GB  | 2       | 38    | 0     | 0.10   |
 | Lite-On   | CV3-CE128-11 SATA  | 128 GB | 1       | 19    | 0     | 0.05   |
 | Lite-On   | PH4-CE120          | 120 GB | 1       | 17    | 0     | 0.05   |
-| Lite-On   | LMS-32L6M-HP       | 32 GB  | 1       | 16    | 0     | 0.05   |
 | Lite-On   | LMH-128V2M-11 M... | 128 GB | 1       | 13    | 0     | 0.04   |
 | Lite-On   | CS1-SP32-11 M.2... | 32 GB  | 1       | 12    | 0     | 0.03   |
 | Lite-On   | LCH-256V2S         | 256 GB | 2       | 12    | 0     | 0.03   |
@@ -52,7 +53,7 @@ MTBF — avg. MTBF in years per sample.
 | Lite-On   | LMT-32L3M          | 32 GB  | 1       | 2     | 0     | 0.01   |
 | Lite-On   | CV1-8B512          | 512 GB | 1       | 2     | 0     | 0.01   |
 | Lite-On   | CS1-SP16-11 M.2... | 16 GB  | 1       | 1     | 0     | 0.00   |
-| Lite-On   | CV8-8E128-HP       | 128 GB | 2       | 73    | 1007  | 0.00   |
+| Lite-On   | CV8-8E128-HP       | 128 GB | 3       | 60    | 1007  | 0.00   |
 
 SSD by Family
 -------------
@@ -61,11 +62,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Lite-On   | Unknown                | 29     | 35      | 125   | 58    | 0.33   |
+| Lite-On   | Unknown                | 30     | 38      | 121   | 80    | 0.32   |
 | Lite-On   | Silicon Motion base... | 1      | 1       | 13    | 0     | 0.04   |

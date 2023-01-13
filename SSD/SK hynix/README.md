@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -38,6 +38,7 @@ MTBF — avg. MTBF in years per sample.
 | SK hynix  | HFS128G32TNF-N3A0A | 128 GB | 2       | 119   | 0     | 0.33   |
 | SK hynix  | SC311 SATA         | 512 GB | 2       | 117   | 0     | 0.32   |
 | SK hynix  | SHGS31-500GS-2     | 500 GB | 2       | 104   | 0     | 0.29   |
+| SK hynix  | HFS480G3H2X069N    | 480 GB | 1       | 92    | 0     | 0.25   |
 | SK hynix  | SHGS31-250GS-2     | 250 GB | 2       | 54    | 0     | 0.15   |
 | SK hynix  | HFS128G39TNF-N3A0A | 128 GB | 2       | 8     | 0     | 0.02   |
 | SK hynix  | SC210 mSATA        | 256 GB | 2       | 248   | 75    | 0.02   |
@@ -49,11 +50,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | SK hynix  | SATA SSDs              | 10     | 20      | 355   | 19    | 0.80   |
-| SK hynix  | Unknown                | 8      | 13      | 293   | 25    | 0.68   |
+| SK hynix  | Unknown                | 9      | 14      | 278   | 24    | 0.65   |

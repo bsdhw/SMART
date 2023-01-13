@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -27,7 +27,7 @@ MTBF — avg. MTBF in years per sample.
 | Micron    | M600_MTFDDAK256MBF | 256 GB | 1       | 1656  | 0     | 4.54   |
 | Micron    | M550_MTFDDAT256MAY | 256 GB | 1       | 1421  | 0     | 3.89   |
 | Micron    | 1100_MTFDDAK512TBN | 512 GB | 2       | 798   | 0     | 2.19   |
-| Micron    | 5100_MTFDDAK240TCB | 240 GB | 4       | 778   | 0     | 2.13   |
+| Micron    | 5100_MTFDDAK240TCB | 240 GB | 5       | 736   | 1     | 1.81   |
 | Micron    | MTFDDAK120MBB-1... | 120 GB | 1       | 590   | 0     | 1.62   |
 | Micron    | 5200_MTFDDAK1T9TDN | 1.9 TB | 2       | 446   | 0     | 1.22   |
 | Micron    | MTFDDAK256TBN-1... | 256 GB | 1       | 431   | 0     | 1.18   |
@@ -42,6 +42,7 @@ MTBF — avg. MTBF in years per sample.
 | Micron    | MTFDDAK256MBF-1... | 256 GB | 2       | 137   | 0     | 0.38   |
 | Micron    | MTFDDAK512TDL-1... | 512 GB | 1       | 131   | 0     | 0.36   |
 | Micron    | 5300_MTFDDAK240TDS | 240 GB | 1       | 82    | 0     | 0.23   |
+| Micron    | M600_MTFDDAV256MBF | 256 GB | 1       | 71    | 0     | 0.19   |
 | Micron    | M500_MTFDDAK960MAV | 960 GB | 4       | 1695  | 270   | 0.19   |
 | Micron    | MTFDBAK128MAG-1G1  | 128 GB | 1       | 67    | 0     | 0.19   |
 | Micron    | 5210_MTFDDAK7T6QDE | 7.6 TB | 4       | 55    | 0     | 0.15   |
@@ -65,16 +66,16 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Micron    | 5100 Pro / 5200 SSDs   | 1      | 4       | 778   | 0     | 2.13   |
+| Micron    | 5100 Pro / 5200 SSDs   | 1      | 5       | 736   | 1     | 1.81   |
 | Micron    | 5100 Pro / 52x0 / 5... | 2      | 3       | 364   | 0     | 1.00   |
 | Micron    | BX/MX1/2/3/500, M5/... | 5      | 14      | 347   | 1     | 0.95   |
-| Micron    | Client SSDs            | 9      | 16      | 340   | 1     | 0.91   |
+| Micron    | Client SSDs            | 10     | 17      | 324   | 1     | 0.86   |
 | Micron    | Unknown                | 12     | 17      | 288   | 219   | 0.60   |
 | Micron    | RealSSD m4/C400/P400   | 4      | 8       | 118   | 127   | 0.31   |
 | Micron    | BX/MX1/2/3/500, M5/... | 1      | 4       | 1695  | 270   | 0.19   |

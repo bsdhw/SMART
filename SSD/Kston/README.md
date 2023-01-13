@@ -11,13 +11,13 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Kston     | SSD                | 32 GB  | 2       | 248   | 0     | 0.68   |
+| Kston     | SSD                | 32 GB  | 3       | 258   | 0     | 0.71   |
 | Kston     | SSD                | 128 GB | 8       | 163   | 1     | 0.37   |
 | Kston     | SSD                | 64 GB  | 6       | 29    | 0     | 0.08   |
 | Kston     | SSD                | 256 GB | 1       | 0     | 0     | 0.00   |

@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -27,17 +27,17 @@ MTBF — avg. MTBF in years per sample.
 | Apacer    | AS220              | 64 GB  | 1       | 536   | 0     | 1.47   |
 | Apacer    | 32GB SATA Flash... | 32 GB  | 6       | 756   | 171   | 1.33   |
 | Apacer    | 64GB SATA Flash... | 64 GB  | 7       | 536   | 29    | 1.31   |
-| Apacer    | 16GB SATA Flash... | 16 GB  | 9       | 513   | 3     | 1.19   |
 | Apacer    | APSDM050GM1AN-T... | 54 GB  | 1       | 364   | 0     | 1.00   |
+| Apacer    | 16GB SATA Flash... | 16 GB  | 11      | 452   | 11    | 0.97   |
 | Apacer    | AS350              | 120 GB | 1       | 274   | 0     | 0.75   |
+| Apacer    | AS340              | 240 GB | 2       | 174   | 0     | 0.48   |
 | Apacer    | AS450              | 240 GB | 1       | 123   | 0     | 0.34   |
-| Apacer    | AS340              | 240 GB | 1       | 118   | 0     | 0.32   |
 | Apacer    | AS330              | 240 GB | 1       | 1006  | 8     | 0.31   |
+| Apacer    | AS350              | 256 GB | 4       | 104   | 0     | 0.29   |
 | Apacer    | AS350              | 128 GB | 4       | 100   | 0     | 0.27   |
 | Apacer    | 128GB SATA Flas... | 128 GB | 2       | 94    | 0     | 0.26   |
 | Apacer    | APM050GMFAN-4MTM1  | 54 GB  | 1       | 78    | 0     | 0.21   |
 | Apacer    | 8GB SATA Flash ... | 8 GB   | 2       | 846   | 29    | 0.15   |
-| Apacer    | AS350              | 256 GB | 3       | 27    | 0     | 0.08   |
 | Apacer    | AS340              | 120 GB | 1       | 25    | 0     | 0.07   |
 | Apacer    | 256GB SATA Flas... | 256 GB | 1       | 17    | 0     | 0.05   |
 | Apacer    | AS681              | 240 GB | 1       | 14    | 0     | 0.04   |
@@ -50,14 +50,14 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Apacer    | SDM4 Series SSD Module | 2      | 16      | 523   | 14    | 1.24   |
+| Apacer    | SDM4 Series SSD Module | 2      | 18      | 485   | 18    | 1.10   |
 | Apacer    | SDM5/5A/5A-M Series... | 2      | 8       | 778   | 136   | 1.04   |
-| Apacer    | Unknown                | 11     | 16      | 217   | 1     | 0.44   |
-| Apacer    | AS340 SSDs             | 2      | 2       | 72    | 0     | 0.20   |
+| Apacer    | Unknown                | 11     | 17      | 224   | 1     | 0.47   |
+| Apacer    | AS340 SSDs             | 2      | 3       | 125   | 0     | 0.34   |
 | Apacer    | SSDs                   | 2      | 3       | 68    | 0     | 0.19   |

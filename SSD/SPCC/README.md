@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -29,7 +29,7 @@ MTBF — avg. MTBF in years per sample.
 | SPCC      | SSD                | 240 GB | 2       | 214   | 0     | 0.59   |
 | SPCC      | SPCCSolidStateDisk | 256 GB | 3       | 144   | 0     | 0.40   |
 | SPCC      | SSD                | 512 GB | 7       | 143   | 0     | 0.39   |
-| SPCC      | SSD                | 256 GB | 11      | 114   | 0     | 0.31   |
+| SPCC      | SSD                | 256 GB | 12      | 111   | 1     | 0.29   |
 | SPCC      | SSD                | 128 GB | 19      | 109   | 1     | 0.28   |
 | SPCC      | SSD                | 55 GB  | 1       | 18    | 0     | 0.05   |
 | SPCC      | M.2 SSD            | 128 GB | 1       | 0     | 0     | 0.00   |
@@ -41,11 +41,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| SPCC      | Phison Driven OEM SSDs | 7      | 70      | 256   | 1     | 0.70   |
+| SPCC      | Phison Driven OEM SSDs | 7      | 71      | 254   | 1     | 0.69   |
 | SPCC      | Unknown                | 3      | 5       | 90    | 0     | 0.25   |

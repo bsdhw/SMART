@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -30,6 +30,7 @@ MTBF — avg. MTBF in years per sample.
 | Team      | L5 LITE SSD        | 240 GB | 1       | 69    | 0     | 0.19   |
 | Team      | T253X2001T         | 1 TB   | 1       | 58    | 0     | 0.16   |
 | Team      | T253X1240G         | 240 GB | 1       | 4     | 0     | 0.01   |
+| Team      | TIM3F56064GMC104   | 64 GB  | 1       | 0     | 0     | 0.00   |
 
 SSD by Family
 -------------
@@ -38,11 +39,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Team      | Silicon Motion base... | 2      | 2       | 367   | 0     | 1.01   |
-| Team      | Unknown                | 5      | 5       | 217   | 0     | 0.60   |
+| Team      | Unknown                | 6      | 6       | 181   | 0     | 0.50   |

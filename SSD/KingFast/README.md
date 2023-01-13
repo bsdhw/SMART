@@ -17,13 +17,13 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| KingFast  | SSD                | 16 GB  | 5       | 538   | 0     | 1.48   |
+| KingFast  | SSD                | 16 GB  | 6       | 458   | 0     | 1.26   |
 | KingFast  | SSD                | 128 GB | 1       | 189   | 0     | 0.52   |
 | KingFast  | SSD                | 120 GB | 18      | 131   | 51    | 0.36   |
 | KingFast  | SSD                | 32 GB  | 1       | 85    | 0     | 0.24   |
@@ -40,11 +40,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| KingFast  | Silicon Motion base... | 2      | 6       | 450   | 0     | 1.23   |
+| KingFast  | Silicon Motion base... | 2      | 7       | 394   | 0     | 1.08   |
 | KingFast  | Unknown                | 7      | 26      | 130   | 38    | 0.30   |

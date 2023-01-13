@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -27,10 +27,10 @@ MTBF — avg. MTBF in years per sample.
 | Toshiba   | THNSNX032GTNT M... | 32 GB  | 1       | 1665  | 0     | 4.56   |
 | Toshiba   | THNSNH512GBST      | 512 GB | 1       | 1460  | 0     | 4.00   |
 | Toshiba   | THNSNH256GMCT      | 256 GB | 1       | 1408  | 0     | 3.86   |
-| Toshiba   | THNSNJ128GMCU      | 128 GB | 1       | 1285  | 0     | 3.52   |
 | Toshiba   | THNSFJ256GDNU      | 256 GB | 1       | 1250  | 0     | 3.43   |
 | Toshiba   | THNSNJ128GCSY      | 128 GB | 1       | 1236  | 0     | 3.39   |
 | Toshiba   | THNSNH060GCST      | 64 GB  | 1       | 1105  | 0     | 3.03   |
+| Toshiba   | THNSNJ128GMCU      | 128 GB | 2       | 853   | 0     | 2.34   |
 | Toshiba   | THNSNJ128GCSU      | 128 GB | 4       | 826   | 0     | 2.26   |
 | Toshiba   | THNSNC128GBSJ      | 128 GB | 1       | 826   | 0     | 2.26   |
 | Toshiba   | Q300               | 480 GB | 2       | 762   | 0     | 2.09   |
@@ -64,16 +64,16 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Toshiba   | OCZ/Toshiba Trion SSDs | 1      | 1       | 1746  | 0     | 4.79   |
 | Toshiba   | HG3 Series             | 1      | 1       | 826   | 0     | 2.26   |
 | Toshiba   | HG5d Series            | 2      | 2       | 777   | 0     | 2.13   |
-| Toshiba   | HG6 Series SSD         | 5      | 11      | 770   | 0     | 2.11   |
+| Toshiba   | HG6 Series SSD         | 5      | 12      | 741   | 0     | 2.03   |
 | Toshiba   | HG5 Series             | 1      | 1       | 709   | 0     | 1.94   |
 | Toshiba   | JMicron/Maxiotek ba... | 1      | 1       | 692   | 0     | 1.90   |
 | Toshiba   | Unknown                | 20     | 29      | 480   | 31    | 1.29   |

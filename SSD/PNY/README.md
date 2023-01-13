@@ -17,9 +17,9 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
@@ -28,6 +28,7 @@ MTBF — avg. MTBF in years per sample.
 | PNY       | CS1311 120GB SSD   | 120 GB | 2       | 375   | 0     | 1.03   |
 | PNY       | CS900 250GB SSD    | 250 GB | 2       | 235   | 0     | 0.65   |
 | PNY       | CS900 240GB SSD    | 240 GB | 13      | 220   | 0     | 0.60   |
+| PNY       | SSD2SC240G1CS17... | 240 GB | 1       | 174   | 0     | 0.48   |
 | PNY       | CS1311 480GB SSD   | 480 GB | 1       | 152   | 0     | 0.42   |
 | PNY       | CS900 500GB SSD    | 500 GB | 3       | 117   | 0     | 0.32   |
 | PNY       | SSD2SC240G1SA75... | 240 GB | 1       | 53    | 0     | 0.15   |
@@ -42,11 +43,11 @@ Please take all columns into account when reading the table. Pay attention on th
 number of tested samples and power-on days. Simultaneous high values of both MTBF
 and errors are possible if only rare drives in the subset encounter errors.
 
-Days — avg. days per sample,
-Err  — avg. errors per sample,
-MTBF — avg. MTBF in years per sample.
+Days - avg. days per sample,
+Err  - avg. errors per sample,
+MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | PNY       | Phison Driven SSDs     | 5      | 36      | 395   | 0     | 1.08   |
-| PNY       | Unknown                | 6      | 11      | 83    | 0     | 0.23   |
+| PNY       | Unknown                | 7      | 12      | 91    | 0     | 0.25   |
