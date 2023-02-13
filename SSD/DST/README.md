@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| DST       | DST8128-MSATA-1... | 128 GB | 1       | 345   | 0     | 0.95   |
+| DST       | DST8128-MSATA-1... | 128 GB | 1       | 485   | 0     | 1.33   |

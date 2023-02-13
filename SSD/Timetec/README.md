@@ -17,6 +17,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Timetec   | 35TTM8SSATA-128G   | 128 GB | 1       | 81    | 0     | 0.22   |
+| Timetec   | 35TTM8SSATA-128G   | 128 GB | 1       | 87    | 0     | 0.24   |
 | Timetec   | 30TT253X2-256GB    | 256 GB | 1       | 42    | 0     | 0.12   |
 | Timetec   | MS05               | 256 GB | 1       | 2     | 0     | 0.01   |

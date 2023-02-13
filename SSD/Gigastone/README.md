@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Gigastone | Prime Series       | 128 GB | 1       | 147   | 0     | 0.41   |
+| Gigastone | Prime Series       | 128 GB | 1       | 149   | 0     | 0.41   |

@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| HCiPC     | P2MSM-64G2B SATA3  | 64 GB  | 1       | 12    | 0     | 0.03   |
+| HCiPC     | P2MSM-64G2B SATA3  | 64 GB  | 2       | 12    | 0     | 0.03   |

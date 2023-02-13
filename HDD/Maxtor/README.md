@@ -34,7 +34,7 @@ MTBF - avg. MTBF in years per sample.
 | Maxtor    | STM3320613AS       | 320 GB | 1       | 1639  | 61    | 0.07   |
 | Maxtor    | 6L160M0            | 163 GB | 1       | 21    | 0     | 0.06   |
 | Maxtor    | 6Y080M0            | 82 GB  | 1       | 31    | 4     | 0.02   |
-| Maxtor    | STM380815AS        | 80 GB  | 1       | 2241  | 1008  | 0.01   |
+| Maxtor    | STM380815AS        | 80 GB  | 1       | 2248  | 1008  | 0.01   |
 | Maxtor    | 6E030L0            | 32 GB  | 1       | 22    | 10    | 0.01   |
 | Maxtor    | 6Y080P0            | 82 GB  | 3       | 15    | 413   | 0.01   |
 | Maxtor    | 6Y160M0            | 160 GB | 1       | 7     | 149   | 0.00   |
@@ -55,7 +55,7 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Maxtor    | DiamondMax 10 (SATA... | 2      | 2       | 1537  | 0     | 4.21   |
 | Maxtor    | DiamondMax Plus D740X  | 1      | 3       | 2093  | 2     | 4.15   |
-| Maxtor    | DiamondMax 21          | 5      | 9       | 1067  | 220   | 1.86   |
+| Maxtor    | DiamondMax 21          | 5      | 9       | 1068  | 220   | 1.86   |
 | Maxtor    | DiamondMax 8s          | 1      | 1       | 482   | 0     | 1.32   |
 | Maxtor    | DiamondMax 22          | 1      | 1       | 1639  | 61    | 0.07   |
 | Maxtor    | DiamondMax 10 (ATA/... | 1      | 1       | 21    | 0     | 0.06   |

@@ -23,9 +23,9 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| SATADOM   | ML 3SE             | 64 GB  | 1       | 425   | 0     | 1.16   |
-| SATADOM   | SL 3IE3 V2         | 64 GB  | 7       | 174   | 0     | 0.48   |
-| SATADOM   | SH 3ME4            | 16 GB  | 1       | 15    | 0     | 0.04   |
+| SATADOM   | ML 3SE             | 64 GB  | 1       | 426   | 0     | 1.17   |
+| SATADOM   | SL 3IE3 V2         | 64 GB  | 7       | 185   | 0     | 0.51   |
+| SATADOM   | SH 3ME4            | 16 GB  | 1       | 31    | 0     | 0.09   |
 
 SSD by Family
 -------------
@@ -40,6 +40,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| SATADOM   | Unknown                | 1      | 1       | 425   | 0     | 1.16   |
-| SATADOM   | Innodisk 3IE3/3ME3/... | 1      | 7       | 174   | 0     | 0.48   |
-| SATADOM   | Innodisk 1IE3/3IE3/... | 1      | 1       | 15    | 0     | 0.04   |
+| SATADOM   | Unknown                | 1      | 1       | 426   | 0     | 1.17   |
+| SATADOM   | Innodisk 3IE3/3ME3/... | 1      | 7       | 185   | 0     | 0.51   |
+| SATADOM   | Innodisk 1IE3/3IE3/... | 1      | 1       | 31    | 0     | 0.09   |

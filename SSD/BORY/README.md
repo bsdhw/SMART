@@ -18,4 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | BORY      | M500 512G          | 512 GB | 1       | 59    | 0     | 0.16   |
-| BORY      | M500 128G          | 128 GB | 2       | 6     | 0     | 0.02   |
+| BORY      | M500 128G          | 128 GB | 3       | 22    | 0     | 0.06   |

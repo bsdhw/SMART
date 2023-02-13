@@ -18,5 +18,5 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Plextor   | PX-256M8PeY        | 256 GB | 1       | 1218  | 0     | 3.34   |
-| Plextor   | PX-256M8PeG        | 256 GB | 1       | 598   | 0     | 1.64   |
-| Plextor   | PX-256M9PeY        | 256 GB | 1       | 245   | 0     | 0.67   |
+| Plextor   | PX-256M8PeG        | 256 GB | 1       | 748   | 0     | 2.05   |
+| Plextor   | PX-256M9PeY        | 256 GB | 1       | 298   | 0     | 0.82   |

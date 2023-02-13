@@ -18,5 +18,5 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Patriot   | Scorch M2          | 128 GB | 1       | 493   | 0     | 1.35   |
-| Patriot   | M.2 P300           | 256 GB | 3       | 17    | 0     | 0.05   |
+| Patriot   | M.2 P300           | 256 GB | 3       | 25    | 0     | 0.07   |
 | Patriot   | M.2 P300           | 128 GB | 1       | 4     | 0     | 0.01   |

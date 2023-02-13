@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Smart     | SGMST3D64GBM01EMC  | 64 GB  | 1       | 1290  | 0     | 3.54   |
+| Smart     | SGMST3D64GBM01EMC  | 64 GB  | 1       | 1298  | 0     | 3.56   |
 | Smart     | SSD XceedValue2... | 32 GB  | 1       | 280   | 0     | 0.77   |

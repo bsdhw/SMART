@@ -17,12 +17,12 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Protectli | 16GB mSATA         | 16 GB  | 2       | 511   | 0     | 1.40   |
-| Protectli | 32GB mSATA         | 32 GB  | 7       | 292   | 0     | 0.80   |
-| Protectli | 480GB mSATA        | 480 GB | 2       | 213   | 0     | 0.58   |
+| Protectli | 16GB mSATA         | 16 GB  | 2       | 650   | 0     | 1.78   |
+| Protectli | 32GB mSATA         | 32 GB  | 7       | 326   | 0     | 0.89   |
+| Protectli | 480GB mSATA        | 480 GB | 2       | 313   | 0     | 0.86   |
 | Protectli | 960GB mSATA        | 960 GB | 2       | 147   | 0     | 0.40   |
-| Protectli | 120GB mSATA        | 120 GB | 21      | 64    | 0     | 0.18   |
+| Protectli | 120GB mSATA        | 120 GB | 21      | 101   | 0     | 0.28   |
+| Protectli | 64GB mSATA         | 64 GB  | 7       | 88    | 0     | 0.24   |
+| Protectli | 240GB mSATA        | 240 GB | 8       | 72    | 0     | 0.20   |
 | Protectli | 120GB M.2          | 120 GB | 2       | 52    | 0     | 0.14   |
-| Protectli | 240GB mSATA        | 240 GB | 8       | 51    | 0     | 0.14   |
-| Protectli | 64GB mSATA         | 64 GB  | 7       | 49    | 0     | 0.13   |
-| Protectli | 480GB M.2          | 480 GB | 1       | 3     | 0     | 0.01   |
+| Protectli | 480GB M.2          | 480 GB | 1       | 28    | 0     | 0.08   |

@@ -24,7 +24,7 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Smartbuy  | SSD                | 240 GB | 1       | 647   | 0     | 1.77   |
-| Smartbuy  | SSD                | 120 GB | 2       | 493   | 0     | 1.35   |
+| Smartbuy  | SSD                | 120 GB | 2       | 494   | 0     | 1.35   |
 | Smartbuy  | SSD                | 256 GB | 1       | 224   | 0     | 0.61   |
 | Smartbuy  | SSD                | 64 GB  | 2       | 176   | 0     | 0.48   |
 | Smartbuy  | SSD                | 64 GB  | 1       | 1     | 0     | 0.00   |

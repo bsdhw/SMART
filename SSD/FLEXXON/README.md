@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| FLEXXON   | FSSO064GTTS7-M1... | 64 GB  | 1       | 0     | 0     | 0.00   |
+| FLEXXON   | FSSO064GTTS7-M1... | 64 GB  | 1       | 1     | 0     | 0.00   |

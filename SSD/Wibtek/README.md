@@ -1,10 +1,10 @@
-Acer NVMe Drives
-================
+Wibtek Solid State Drives
+=========================
 
-This is a list of all tested Acer NVMe drive models and their MTBFs. See more
-info on reliability test in the [README](https://github.com/bsdhw/SMART).
+This is a list of all tested Wibtek solid state drive models and their MTBFs. See
+more info on reliability test in the [README](https://github.com/bsdhw/SMART).
 
-NVME by Model
+SSD by Model
 ------------
 
 Please take all columns into account when reading the table. Pay attention on the
@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Acer      | SSD FA100          | 256 GB | 1       | 156   | 0     | 0.43   |
+| Wibtek    | W800S 256GB SSD    | 256 GB | 1       | 1     | 0     | 0.00   |

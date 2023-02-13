@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| VisionTek | mSATA              | 120 GB | 3       | 994   | 1019  | 0.00   |
+| VisionTek | mSATA              | 120 GB | 3       | 1014  | 1018  | 0.00   |

@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| MEMXPRO   | mSATA M3B          | 32 GB  | 4       | 2     | 0     | 0.01   |
+| MEMXPRO   | mSATA M3B          | 32 GB  | 4       | 5     | 0     | 0.02   |

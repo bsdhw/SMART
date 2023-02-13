@@ -24,7 +24,7 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | TCSUNBOW  | X3                 | 480 GB | 1       | 391   | 0     | 1.07   |
-| TCSUNBOW  | M1                 | 32 GB  | 4       | 322   | 0     | 0.88   |
+| TCSUNBOW  | M1                 | 32 GB  | 4       | 349   | 0     | 0.96   |
 | TCSUNBOW  | M3                 | 120 GB | 1       | 1     | 0     | 0.00   |
 
 SSD by Family
@@ -40,5 +40,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| TCSUNBOW  | Unknown                | 2      | 5       | 336   | 0     | 0.92   |
+| TCSUNBOW  | Unknown                | 2      | 5       | 358   | 0     | 0.98   |
 | TCSUNBOW  | Silicon Motion base... | 1      | 1       | 1     | 0     | 0.00   |

@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Terabit   | T50S3STMLC-256G    | 256 GB | 1       | 0     | 0     | 0.00   |
+| Terabit   | T50S3STMLC-256G    | 256 GB | 1       | 12    | 11    | 0.00   |

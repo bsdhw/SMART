@@ -23,22 +23,22 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Intenso   | lntenso SSD Sat... | 120 GB | 1       | 438   | 0     | 1.20   |
-| Intenso   | SSD Sata III       | 120 GB | 6       | 305   | 0     | 0.84   |
+| Intenso   | SSD Sata III       | 120 GB | 6       | 499   | 0     | 1.37   |
+| Intenso   | lntenso SSD Sat... | 120 GB | 1       | 469   | 0     | 1.29   |
+| Intenso   | SSD SATAIII        | 120 GB | 6       | 355   | 1     | 0.97   |
 | Intenso   | JAJMS600M128G      | 128 GB | 1       | 245   | 0     | 0.67   |
-| Intenso   | SSD SATAIII        | 120 GB | 6       | 220   | 1     | 0.60   |
+| Intenso   | SSD                | 128 GB | 16      | 165   | 0     | 0.45   |
 | Intenso   | SSD Sata III       | 250 GB | 2       | 138   | 0     | 0.38   |
-| Intenso   | SSD                | 128 GB | 15      | 130   | 0     | 0.36   |
-| Intenso   | SATA III SSD       | 480 GB | 2       | 71    | 0     | 0.20   |
+| Intenso   | IONN SSD           | 256 GB | 3       | 92    | 0     | 0.25   |
+| Intenso   | SATA III SSD       | 480 GB | 2       | 72    | 0     | 0.20   |
+| Intenso   | SSD                | 256 GB | 2       | 72    | 0     | 0.20   |
 | Intenso   | JAJM600M256C       | 256 GB | 1       | 70    | 0     | 0.19   |
-| Intenso   | IONN SSD           | 256 GB | 3       | 68    | 0     | 0.19   |
-| Intenso   | SSD                | 256 GB | 2       | 68    | 0     | 0.19   |
+| Intenso   | JAJMS600M256G      | 256 GB | 3       | 57    | 0     | 0.16   |
 | Intenso   | SSD Sata III       | 128 GB | 6       | 56    | 9     | 0.16   |
-| Intenso   | SSD                | 120 GB | 5       | 42    | 0     | 0.12   |
+| Intenso   | SSD                | 120 GB | 6       | 39    | 0     | 0.11   |
+| Intenso   | JAJMS600M512G      | 512 GB | 1       | 38    | 0     | 0.11   |
 | Intenso   | SATA3 240GB SSD    | 240 GB | 1       | 35    | 0     | 0.10   |
-| Intenso   | SSD Sata III       | 256 GB | 4       | 21    | 0     | 0.06   |
-| Intenso   | JAJMS600M256G      | 256 GB | 3       | 20    | 0     | 0.06   |
-| Intenso   | JAJMS600M512G      | 512 GB | 1       | 18    | 0     | 0.05   |
+| Intenso   | SSD Sata III       | 256 GB | 4       | 26    | 0     | 0.07   |
 | Intenso   | SSD Sata III       | 240 GB | 1       | 10    | 0     | 0.03   |
 | Intenso   | SSDAS256           | 256 GB | 1       | 0     | 0     | 0.00   |
 | Intenso   | JAJMS600M1TB       | 1 TB   | 1       | 0     | 0     | 0.00   |
@@ -56,6 +56,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Intenso   | Phison Driven OEM SSDs | 2      | 17      | 123   | 0     | 0.34   |
-| Intenso   | Unknown                | 15     | 41      | 119   | 2     | 0.33   |
-| Intenso   | Silicon Motion base... | 2      | 4       | 103   | 0     | 0.28   |
+| Intenso   | Unknown                | 15     | 42      | 169   | 2     | 0.46   |
+| Intenso   | Phison Driven OEM SSDs | 2      | 18      | 154   | 0     | 0.42   |
+| Intenso   | Silicon Motion base... | 2      | 4       | 105   | 0     | 0.29   |

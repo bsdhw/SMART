@@ -23,8 +23,8 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| OWC       | Mercury Extreme... | 240 GB | 1       | 657   | 0     | 1.80   |
-| OWC       | Mercury Electra... | 240 GB | 3       | 544   | 0     | 1.49   |
+| OWC       | Mercury Extreme... | 240 GB | 1       | 665   | 0     | 1.82   |
+| OWC       | Mercury Electra... | 240 GB | 3       | 552   | 0     | 1.51   |
 | OWC       | Mercury Electra... | 1 TB   | 6       | 210   | 0     | 0.58   |
 | OWC       | Mercury EXTREME... | 960 GB | 2       | 65    | 0     | 0.18   |
 | OWC       | Aura               | 960 GB | 1       | 3     | 0     | 0.01   |
@@ -42,5 +42,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| OWC       | SandForce Driven SSDs  | 4      | 12      | 307   | 0     | 0.84   |
+| OWC       | SandForce Driven SSDs  | 4      | 12      | 309   | 0     | 0.85   |
 | OWC       | Unknown                | 1      | 1       | 3     | 0     | 0.01   |

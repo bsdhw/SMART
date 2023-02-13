@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| AVEXIR    | E100 SERIES -      | 120 GB | 1       | 365   | 0     | 1.00   |
+| AVEXIR    | E100 SERIES -      | 120 GB | 1       | 415   | 0     | 1.14   |

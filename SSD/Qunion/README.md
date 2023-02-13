@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Qunion    | P20A 64G           | 64 GB  | 1       | 12    | 0     | 0.03   |
+| Qunion    | P20A 64G           | 64 GB  | 1       | 27    | 0     | 0.07   |
 | Qunion    | SSD 128G           | 128 GB | 1       | 23    | 2     | 0.02   |

@@ -17,8 +17,8 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Advantech | SQF-SLMM2-8G-S8C   | 8 GB   | 1       | 801   | 0     | 2.20   |
-| Advantech | SQF-SLMM2-8G-8SE   | 8 GB   | 3       | 509   | 0     | 1.40   |
+| Advantech | SQF-SLMM2-8G-S8C   | 8 GB   | 1       | 833   | 0     | 2.28   |
+| Advantech | SQF-S25M4-16G-S9C  | 16 GB  | 1       | 612   | 0     | 1.68   |
+| Advantech | SQF-SLMM2-8G-8SE   | 8 GB   | 3       | 577   | 0     | 1.58   |
 | Advantech | SQF-S25M8-64G-S8C  | 64 GB  | 1       | 428   | 0     | 1.17   |
-| Advantech | SQF-S25M4-16G-S9C  | 16 GB  | 1       | 400   | 0     | 1.10   |
-| Advantech | SQF-S25M8-128G-ABT | 128 GB | 1       | 106   | 0     | 0.29   |
+| Advantech | SQF-S25M8-128G-ABT | 128 GB | 1       | 122   | 0     | 0.34   |

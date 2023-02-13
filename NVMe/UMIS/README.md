@@ -20,3 +20,4 @@ MTBF - avg. MTBF in years per sample.
 | UMIS      | RPJTJ256MED1OWX    | 256 GB | 1       | 57    | 0     | 0.16   |
 | UMIS      | RPJTJ128MEE1MWX    | 128 GB | 1       | 3     | 0     | 0.01   |
 | UMIS      | RPJTJ256MEE1OWX    | 256 GB | 1       | 2     | 0     | 0.01   |
+| UMIS      | RPFTJ128PDD2EWX    | 128 GB | 1       | 1     | 0     | 0.00   |

@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| ASENNO    | ASN8               | 240 GB | 1       | 231   | 0     | 0.63   |
+| ASENNO    | ASN8               | 240 GB | 1       | 249   | 0     | 0.68   |
