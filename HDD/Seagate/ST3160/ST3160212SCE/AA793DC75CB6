@@ -1,0 +1,174 @@
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate DB35.2
+Device Model:     ST3160212SCE
+Serial Number:    --
+Firmware Version: 3.ACF
+User Capacity:    160,041,885,696 bytes [160 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
+Local Time is:    Sat Jul  2 19:40:16 2022 EET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (  40)	The self-test routine was interrupted
+					by the host with a hard or soft reset.
+Total time to complete Offline 
+data collection: 		(15556) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  54) minutes.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   116   099   006    Pre-fail  Always       -       115942826
+  3 Spin_Up_Time            0x0003   094   093   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   097   097   020    Old_age   Always       -       3716
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   081   060   030    Pre-fail  Always       -       26677067812
+  9 Power_On_Hours          0x0032   055   055   000    Old_age   Always       -       39837
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   097   097   020    Old_age   Always       -       3808
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   090   090   000    Old_age   Always       -       10
+190 Airflow_Temperature_Cel 0x0022   054   050   045    Old_age   Always       -       46 (Min/Max 45/46)
+194 Temperature_Celsius     0x0022   046   050   000    Old_age   Always       -       46 (0 11 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   090   049   000    Old_age   Always       -       157193450
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0000   100   253   000    Old_age   Offline      -       0
+202 Data_Address_Mark_Errs  0x0032   100   253   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+ATA Error Count: 4
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 4 occurred at disk power-on lifetime: 36061 hours (1502 days + 13 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 00 b3 bc 2b e0  Error: UNC at LBA = 0x002bbcb3 = 2866355
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 01 b3 bc 2b e0 00      00:03:02.709  READ DMA EXT
+  35 00 01 b2 bc 2b e0 00      00:03:02.708  WRITE DMA EXT
+  25 00 01 b2 bc 2b e0 00      00:03:02.708  READ DMA EXT
+  25 00 01 b3 bc 2b e0 00      00:03:02.708  READ DMA EXT
+  25 00 01 b2 bc 2b e0 00      00:03:02.708  READ DMA EXT
+
+Error 3 occurred at disk power-on lifetime: 36061 hours (1502 days + 13 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 00 b3 bc 2b e0  Error: UNC at LBA = 0x002bbcb3 = 2866355
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 01 b3 bc 2b e0 00      00:03:02.709  READ DMA EXT
+  25 00 01 b2 bc 2b e0 00      00:03:02.708  READ DMA EXT
+  25 00 01 b1 bc 2b e0 00      00:03:02.708  READ DMA EXT
+  25 00 01 b0 bc 2b e0 00      00:03:02.708  READ DMA EXT
+  25 00 01 af bc 2b e0 00      00:03:02.708  READ DMA EXT
+
+Error 2 occurred at disk power-on lifetime: 36061 hours (1502 days + 13 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 00 b3 bc 2b e0  Error: UNC at LBA = 0x002bbcb3 = 2866355
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 7f 4f bc 2b e0 00      00:03:02.040  READ DMA EXT
+  25 00 7f d0 bb 2b e0 00      00:03:02.039  READ DMA EXT
+  25 00 7f 51 bb 2b e0 00      00:03:02.039  READ DMA EXT
+  25 00 7f d2 ba 2b e0 00      00:03:02.038  READ DMA EXT
+  25 00 7f 53 ba 2b e0 00      00:03:02.037  READ DMA EXT
+
+Error 1 occurred at disk power-on lifetime: 36061 hours (1502 days + 13 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 00 b3 bc 2b 60  Error: UNC at LBA = 0x002bbcb3 = 2866355
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 7f 4f bc 2b 60 00      00:05:44.151  READ DMA EXT
+  25 00 7f d0 bb 2b 60 00      00:05:44.150  READ DMA EXT
+  25 00 7f 51 bb 2b 60 00      00:05:44.149  READ DMA EXT
+  25 00 7f d2 ba 2b 60 00      00:05:44.149  READ DMA EXT
+  25 00 7f 53 ba 2b 60 00      00:05:44.148  READ DMA EXT
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short captive       Interrupted (host reset)      80%     39764         -
+# 2  Short offline       Completed without error       00%     39743         -
+# 3  Short offline       Completed without error       00%     39160         -
+# 4  Short offline       Interrupted (host reset)      90%     38744         -
+# 5  Short offline       Interrupted (host reset)      90%     38744         -
+# 6  Short offline       Completed without error       00%     34401         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

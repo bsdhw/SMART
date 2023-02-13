@@ -1,0 +1,162 @@
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     XPG SX950U
+Serial Number:    --
+LU WWN Device Id: 5 707c18 ...
+Firmware Version: R0126A
+User Capacity:    240,057,409,536 bytes [240 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+TRIM Command:     Available, deterministic, zeroed
+Device is:        Not in smartctl database 7.3/5319
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Fri Apr 22 20:19:41 2022 MSK
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x7b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  30) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   2) minutes.
+SCT capabilities: 	       (0x0035)	SCT Status supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0000   100   100   000    Old_age   Offline      -       0
+  5 Reallocated_Sector_Ct   0x0000   100   100   000    Old_age   Offline      -       8
+  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       8889
+ 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       2446
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       18829
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       1299
+150 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       1219
+151 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       1255
+159 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+160 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       11
+161 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       35
+163 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       23
+164 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       106287
+165 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       252
+166 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       179
+167 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       230
+168 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       1500
+169 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       100
+177 Wear_Leveling_Count     0x0000   100   100   050    Old_age   Offline      -       4
+181 Program_Fail_Cnt_Total  0x0000   100   100   000    Old_age   Offline      -       0
+182 Erase_Fail_Count_Total  0x0000   100   100   000    Old_age   Offline      -       0
+192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       236
+194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       37
+195 Hardware_ECC_Recovered  0x0000   100   100   000    Old_age   Offline      -       9
+196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       2
+199 UDMA_CRC_Error_Count    0x0000   100   100   050    Old_age   Offline      -       8580
+232 Available_Reservd_Space 0x0000   100   100   000    Old_age   Offline      -       100
+241 Total_LBAs_Written      0x0000   100   100   000    Old_age   Offline      -       270161
+242 Total_LBAs_Read         0x0000   100   100   000    Old_age   Offline      -       326315
+245 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       1913166
+
+SMART Error Log Version: 1
+ATA Error Count: 0
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error -4 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 ec 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  c8 00 00 00 00 00 00 00      00:00:00.000  READ DMA
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%      5857         -
+# 2  Short offline       Completed without error       00%      5839         -
+# 3  Short offline       Completed without error       00%      5831         -
+# 4  Extended offline    Completed without error       00%      5829         -
+# 5  Short offline       Completed without error       00%      5820         -
+# 6  Short offline       Completed without error       00%      5816         -
+# 7  Short offline       Completed without error       00%      5815         -
+# 8  Short offline       Completed without error       00%      5814         -
+# 9  Short offline       Completed without error       00%      5805         -
+#10  Short offline       Completed without error       00%      5800         -
+#11  Short offline       Completed without error       00%      5796         -
+#12  Short offline       Completed without error       00%      5791         -
+#13  Short offline       Completed without error       00%      5787         -
+#14  Short offline       Completed without error       00%      5784         -
+#15  Short offline       Completed without error       00%      5765         -
+#16  Short offline       Completed without error       00%      5751         -
+#17  Short offline       Completed without error       00%      5746         -
+#18  Short offline       Completed without error       00%      5743         -
+#19  Short offline       Completed without error       00%      5739         -
+#20  Short offline       Completed without error       00%      5736         -
+#21  Short offline       Completed without error       00%      5722         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

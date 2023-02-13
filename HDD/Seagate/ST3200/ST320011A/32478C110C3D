@@ -1,0 +1,215 @@
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Barracuda ATA IV
+Device Model:     ST320011A
+Serial Number:    --
+Firmware Version: 3.19
+User Capacity:    20,020,396,032 bytes [20.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-5 (minor revision not indicated)
+Local Time is:    Tue Jun 21 11:33:50 2022 CEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM level is:     128 (quiet), recommended: 128
+APM feature is:   Unavailable
+Rd look-ahead is: Enabled
+Write cache is:   Enabled
+DSN feature is:   Unavailable
+ATA Security is:  Disabled, frozen [SEC2]
+Wt Cache Reorder: Unavailable
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  422) seconds.
+Offline data collection
+capabilities: 			 (0x1b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  18) minutes.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  1 Raw_Read_Error_Rate     POSR--   078   071   034    -    130219472
+  3 Spin_Up_Time            PO----   076   070   000    -    0
+  4 Start_Stop_Count        -O--CK   100   100   020    -    61
+  5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
+  7 Seek_Error_Rate         POSR--   087   063   030    -    471459661
+  9 Power_On_Hours          -O--CK   015   015   000    -    74496
+ 10 Spin_Retry_Count        PO--C-   100   100   097    -    0
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    148
+194 Temperature_Celsius     -O---K   047   055   000    -    47
+195 Hardware_ECC_Recovered  -O-RC-   078   071   000    -    130219472
+197 Current_Pending_Sector  -O--C-   100   100   000    -    0
+198 Offline_Uncorrectable   ----C-   100   100   000    -    0
+199 UDMA_CRC_Error_Count    -OSRCK   200   195   000    -    16
+200 Multi_Zone_Error_Rate   ------   100   253   000    -    0
+202 Data_Address_Mark_Errs  -O--CK   100   253   000    -    0
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+General Purpose Log Directory not supported
+
+SMART Log Directory Version 1 [multi-sector log support]
+Address    Access  R/W   Size  Description
+0x00           SL  R/O      1  Log Directory
+0x01           SL  R/O      1  Summary SMART error log
+0x02           SL  R/O      5  Comprehensive SMART error log
+0x06           SL  R/O      1  SMART self-test log
+0x80-0x9f      SL  R/W     16  Host vendor specific log
+0xa0           SL  VS       1  Device vendor specific log
+0xa1           SL  VS      20  Device vendor specific log
+0xa2           SL  VS     101  Device vendor specific log
+0xa8           SL  VS      20  Device vendor specific log
+0xa9           SL  VS       1  Device vendor specific log
+
+SMART Extended Comprehensive Error Log (GP Log 0x03) not supported
+
+SMART Error Log Version: 1
+ATA Error Count: 16 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 16 occurred at disk power-on lifetime: 21660 hours (902 days + 12 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 00 6f ea 03 e0  Error: ICRC, ABRT at LBA = 0x0003ea6f = 256623
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 60 01 6f ea 03 e0 00      00:01:30.841  READ DMA
+  c8 60 01 6e ea 03 e0 00      00:01:30.841  READ DMA
+  c8 60 01 6d ea 03 e0 00      00:01:30.841  READ DMA
+  c8 60 01 6c ea 03 e0 00      00:01:30.840  READ DMA
+  c8 60 01 6b ea 03 e0 00      00:01:30.840  READ DMA
+
+Error 15 occurred at disk power-on lifetime: 21660 hours (902 days + 12 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 00 36 ea 03 e0  Error: ICRC, ABRT at LBA = 0x0003ea36 = 256566
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 60 01 36 ea 03 e0 00      00:01:30.439  READ DMA
+  c8 60 01 35 ea 03 e0 00      00:01:30.438  READ DMA
+  c8 60 01 34 ea 03 e0 00      00:01:30.438  READ DMA
+  c8 60 01 33 ea 03 e0 00      00:01:30.438  READ DMA
+  c8 60 01 32 ea 03 e0 00      00:01:30.437  READ DMA
+
+Error 14 occurred at disk power-on lifetime: 21660 hours (902 days + 12 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 00 b0 eb 03 e0  Error: ICRC, ABRT at LBA = 0x0003ebb0 = 256944
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 60 01 b0 eb 03 e0 00      00:00:50.855  READ DMA
+  c8 60 01 af eb 03 e0 00      00:00:50.854  READ DMA
+  c8 60 01 ae eb 03 e0 00      00:00:50.854  READ DMA
+  c8 60 01 ad eb 03 e0 00      00:00:50.854  READ DMA
+  c8 60 01 ac eb 03 e0 00      00:00:50.853  READ DMA
+
+Error 13 occurred at disk power-on lifetime: 21660 hours (902 days + 12 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 00 58 eb 03 e0  Error: ICRC, ABRT at LBA = 0x0003eb58 = 256856
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 60 01 58 eb 03 e0 00      00:00:50.440  READ DMA
+  c8 60 01 57 eb 03 e0 00      00:00:50.422  READ DMA
+  c8 60 01 56 eb 03 e0 00      00:00:50.049  READ DMA
+  c8 60 01 55 eb 03 e0 00      00:00:50.049  READ DMA
+  c8 60 01 54 eb 03 e0 00      00:00:50.049  READ DMA
+
+Error 12 occurred at disk power-on lifetime: 21660 hours (902 days + 12 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 00 56 eb 03 e0  Error: ICRC, ABRT at LBA = 0x0003eb56 = 256854
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 60 01 56 eb 03 e0 00      00:00:50.049  READ DMA
+  c8 60 01 55 eb 03 e0 00      00:00:50.049  READ DMA
+  c8 60 01 54 eb 03 e0 00      00:00:50.049  READ DMA
+  c8 60 01 53 eb 03 e0 00      00:00:50.048  READ DMA
+  c8 60 01 52 eb 03 e0 00      00:00:50.048  READ DMA
+
+SMART Extended Self-test Log (GP Log 0x07) not supported
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%     54788         -
+
+Selective Self-tests/Logging not supported
+
+SCT Commands not supported
+
+Device Statistics (GP/SMART Log 0x04) not supported
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11) not supported
+
+
+

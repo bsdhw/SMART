@@ -1,0 +1,116 @@
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     InnoDisk. - InnoLite iCF 16GB
+Serial Number:    --
+Firmware Version: 20110407
+User Capacity:    16,022,200,320 bytes [16.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        Not in smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
+Local Time is:    Wed May  4 22:46:30 2022 NZST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM feature is:   Unavailable
+APM feature is:   Disabled
+Rd look-ahead is: Unavailable
+Write cache is:   Unavailable
+DSN feature is:   Unavailable
+ATA Security is:  Unavailable
+Wt Cache Reorder: Unavailable
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      ( 255)	Self-test routine in progress...
+					150% of test remaining.
+Total time to complete Offline 
+data collection: 		(65280) seconds.
+Offline data collection
+capabilities: 			 (0xff) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Abort Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0xff02)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x00)	Error logging NOT supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (   1) minutes.
+Conveyance self-test routine
+recommended polling time: 	 ( 255) minutes.
+
+SMART Attributes Data Structure revision number: 65281
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  1 Raw_Read_Error_Rate     POSRCK+  100   100   000    -    281474976710655
+  2 Throughput_Performance  POSRCK+  100   100   000    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+  5 Reallocated_Sector_Ct   POSRCK+  100   100   000    -    65535 (65535 65535)
+  7 Seek_Error_Rate         POSRCK+  100   100   000    -    281474976710655
+  8 Seek_Time_Performance   POSRCK+  100   100   000    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+ 12 Power_Cycle_Count       POSRCK+  100   100   000    -    281474976645124
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+195 Hardware_ECC_Recovered  POSRCK+  100   100   000    -    281474976710655
+196 Reallocated_Event_Count POSRCK+  100   100   000    -    65535 (65535 65535)
+197 Current_Pending_Sector  POSRCK+  100   100   000    -    281474976710655
+198 Offline_Uncorrectable   POSRCK+  100   100   000    -    281474976710655
+199 UDMA_CRC_Error_Count    POSRCK+  100   100   000    -    281474976710655
+200 Multi_Zone_Error_Rate   POSRCK+  100   100   000    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+255 Unknown_Attribute       POSRCK+  255   255   ---    -    281474976710655
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+Read SMART Log Directory failed: Input/output error
+
+General Purpose Log Directory not supported
+
+SMART Extended Comprehensive Error Log (GP Log 0x03) not supported
+
+SMART Error Log not supported
+
+SMART Extended Self-test Log (GP Log 0x07) not supported
+
+Read SMART Self-test Log failed: Input/output error
+
+Read SMART Selective Self-test Log failed: Input/output error
+
+SCT Commands not supported
+
+Device Statistics (GP/SMART Log 0x04) not supported
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11) not supported
+

@@ -1,0 +1,203 @@
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Barracuda 7200.10
+Device Model:     ST380815AS
+Serial Number:    --
+Firmware Version: 3.CHF
+User Capacity:    80,026,361,856 bytes [80.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
+Local Time is:    Sat Jul  2 19:40:15 2022 EET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (  25)	The self-test routine was aborted by
+					the host.
+Total time to complete Offline 
+data collection: 		(  433) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  26) minutes.
+SCT capabilities: 	       (0x0035)	SCT Status supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   100   253   006    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0002   098   097   000    Old_age   Always       -       0
+  4 Start_Stop_Count        0x0033   092   092   020    Pre-fail  Always       -       8860
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   086   060   030    Pre-fail  Always       -       415255442
+  9 Power_On_Hours          0x0032   042   042   000    Old_age   Always       -       51653
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0033   092   092   020    Pre-fail  Always       -       8732
+184 End-to-End_Error        0x0033   100   253   097    Pre-fail  Always       -       0
+187 Reported_Uncorrect      0x003a   001   001   000    Old_age   Always       -       102
+189 High_Fly_Writes         0x0022   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x001a   057   050   000    Old_age   Always       -       43 (Min/Max 41/44)
+194 Temperature_Celsius     0x0000   043   050   000    Old_age   Offline      -       43 (0 12 0 0 0)
+195 Hardware_ECC_Recovered  0x0032   065   048   000    Old_age   Always       -       182402800
+197 Current_Pending_Sector  0x0000   001   001   000    Old_age   Offline      -       4294967280
+198 Offline_Uncorrectable   0x0000   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0000   200   200   000    Old_age   Offline      -       397
+
+SMART Error Log Version: 1
+ATA Error Count: 637 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 637 occurred at disk power-on lifetime: 49618 hours (2067 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 56 12 08 00 e0  Error: ICRC, ABRT 86 sectors at LBA = 0x00000812 = 2066
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 67 01 08 00 e0 00      00:00:13.795  READ DMA
+  c8 00 67 01 08 00 e0 00      00:00:13.283  READ DMA
+  c8 00 67 01 08 00 e0 00      00:00:12.771  READ DMA
+  c8 00 01 00 08 00 e0 00      00:00:12.769  READ DMA
+  c8 00 01 00 00 00 e0 00      00:00:12.722  READ DMA
+
+Error 636 occurred at disk power-on lifetime: 49618 hours (2067 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 56 12 08 00 e0  Error: ICRC, ABRT 86 sectors at LBA = 0x00000812 = 2066
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 67 01 08 00 e0 00      00:00:04.391  READ DMA
+  c8 00 67 01 08 00 e0 00      00:00:13.283  READ DMA
+  c8 00 01 00 08 00 e0 00      00:00:12.771  READ DMA
+  c8 00 01 00 00 00 e0 00      00:00:12.769  READ DMA
+  c8 00 01 01 00 00 e0 00      00:00:12.722  READ DMA
+
+Error 635 occurred at disk power-on lifetime: 49618 hours (2067 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 56 12 08 00 e0  Error: ICRC, ABRT 86 sectors at LBA = 0x00000812 = 2066
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 67 01 08 00 e0 00      00:00:04.391  READ DMA
+  c8 00 01 00 08 00 e0 00      00:00:04.391  READ DMA
+  c8 00 01 00 00 00 e0 00      00:00:12.771  READ DMA
+  c8 00 01 01 00 00 e0 00      00:00:12.769  READ DMA
+  c8 00 01 00 00 00 e0 00      00:00:12.722  READ DMA
+
+Error 634 occurred at disk power-on lifetime: 49618 hours (2067 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 56 12 08 00 e0  Error: ICRC, ABRT 86 sectors at LBA = 0x00000812 = 2066
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 67 01 08 00 e0 00      00:00:13.791  READ DMA
+  c8 00 67 01 08 00 e0 00      00:00:13.270  READ DMA
+  c8 00 67 01 08 00 e0 00      00:00:12.749  READ DMA
+  c8 00 01 00 08 00 e0 00      00:00:12.744  READ DMA
+  c8 00 01 00 00 00 e0 00      00:00:12.707  READ DMA
+
+Error 633 occurred at disk power-on lifetime: 49618 hours (2067 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 56 12 08 00 e0  Error: ICRC, ABRT 86 sectors at LBA = 0x00000812 = 2066
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 67 01 08 00 e0 00      00:00:04.351  READ DMA
+  c8 00 67 01 08 00 e0 00      00:00:13.270  READ DMA
+  c8 00 01 00 08 00 e0 00      00:00:12.749  READ DMA
+  c8 00 01 00 00 00 e0 00      00:00:12.744  READ DMA
+  c8 00 01 01 00 00 e0 00      00:00:12.707  READ DMA
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Aborted by host               90%     51521         -
+# 2  Short captive       Interrupted (host reset)      90%     51521         -
+# 3  Short captive       Interrupted (host reset)      90%     51521         -
+# 4  Short offline       Completed without error       00%     51384         -
+# 5  Short offline       Completed without error       00%     50715         -
+# 6  Short offline       Completed without error       00%     50643         -
+# 7  Short offline       Aborted by host               90%     39936         -
+# 8  Short offline       Completed without error       00%     39936         -
+# 9  Short offline       Aborted by host               70%     39925         -
+#10  Extended offline    Interrupted (host reset)      50%     24820         -
+#11  Short offline       Aborted by host               40%     24820         -
+#12  Short captive       Completed without error       00%     14568         -
+#13  Extended offline    Interrupted (host reset)      30%         1         -
+#14  Short offline       Aborted by host               90%     51521         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

@@ -1,0 +1,75 @@
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       SAMSUNG MZVPW256HEGL-000H1
+Serial Number:                      --
+Firmware Version:                   CXZ74H0Q
+PCI Vendor/Subsystem ID:            0x144d
+IEEE OUI Identifier:                0x002538
+Total NVM Capacity:                 256,060,514,304 [256 GB]
+Unallocated NVM Capacity:           0
+Controller ID:                      2
+NVMe Version:                       1.2
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
+Namespace 1 Utilization:            54,237,569,024 [54.2 GB]
+Namespace 1 Formatted LBA Size:     512
+Namespace 1 IEEE EUI-64:            002538 ...
+Local Time is:                      Sat May 21 23:18:40 2022 EDT
+Firmware Updates (0x16):            3 Slots, no Reset required
+Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+Log Page Attributes (0x03):         S/H_per_NS Cmd_Eff_Lg
+Warning  Comp. Temp. Threshold:     70 Celsius
+Critical Comp. Temp. Threshold:     73 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     6.80W       -        -    0  0  0  0        0       0
+ 1 +     5.60W       -        -    1  1  1  1        0       0
+ 2 +     4.40W       -        -    2  2  2  2        0       0
+ 3 -   0.0400W       -        -    3  3  3  3      210    1500
+ 4 -   0.0050W       -        -    4  4  4  4     2200    6000
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        39 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          5%
+Percentage Used:                    6%
+Data Units Read:                    5,855,083 [2.99 TB]
+Data Units Written:                 50,827,399 [26.0 TB]
+Host Read Commands:                 144,324,156
+Host Write Commands:                1,089,218,898
+Controller Busy Time:               9,095
+Power Cycles:                       200
+Power On Hours:                     9,070
+Unsafe Shutdowns:                   179
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      10
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+Temperature Sensor 1:               39 Celsius
+Temperature Sensor 2:               61 Celsius
+
+Error Information (NVMe Log 0x01, 16 of 64 entries)
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
+  0         10     0  0x080c  0x4004      -            0     0     -
+  1          9     0  0x070b  0x4004      -            0     0     -
+  2          8     0  0x0808  0x4004      -            0     0     -
+  3          7     0  0x0707  0x4004      -            0     0     -
+  4          6     0  0x0018  0x4004  0x02c            0     0     -
+  5          5     0  0x0017  0x4004  0x02c            0     0     -
+  6          4     0  0x000e  0x4004      -            0     1     -
+  7          3     0  0x000d  0x4004      -            0     1     -
+  8          2     0  0x001f  0x4212  0x028            0     -     -
+  9          1     0  0x001e  0x4212  0x028            0     -     -
+

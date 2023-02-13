@@ -1,0 +1,145 @@
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Crucial/Micron Client SSDs
+Device Model:     CT2000BX500SSD1
+Serial Number:    --
+LU WWN Device Id: 5 00a075 ...
+Firmware Version: M6CR030
+User Capacity:    2,000,398,934,016 bytes [2.00 TB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+TRIM Command:     Available
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ACS-3 T13/2161-D revision 4
+SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sun Jan  1 15:19:50 2023 PST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  120) seconds.
+Offline data collection
+capabilities: 			 (0x11) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   000    Pre-fail  Always       -       0
+  5 Reallocate_NAND_Blk_Cnt 0x0032   100   100   010    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       9628
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2151
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 Ave_Block-Erase_Count   0x0032   098   098   000    Old_age   Always       -       36
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       347
+180 Unused_Reserve_NAND_Blk 0x0033   100   100   000    Pre-fail  Always       -       6
+183 SATA_Interfac_Downshift 0x0032   100   100   000    Old_age   Always       -       55
+184 Error_Correction_Count  0x0032   100   100   000    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   073   047   000    Old_age   Always       -       27 (Min/Max 15/53)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_ECC_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       283
+202 Percent_Lifetime_Remain 0x0030   098   098   001    Old_age   Offline      -       2
+206 Write_Error_Rate        0x000e   100   100   000    Old_age   Always       -       0
+210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
+246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       52223913927
+247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       1631997310
+248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       1182820672
+249 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       0
+250 Read_Error_Retry_Rate   0x0032   100   100   000    Old_age   Always       -       2361076
+251 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       0
+252 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       0
+253 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       158
+254 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       206
+223 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       5
+
+SMART Error Log Version: 1
+Warning: ATA error count 0 inconsistent with error log pointer 1
+
+ATA Error Count: 0
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 0 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 00 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  ec 00 01 00 00 00 00 08      00:00:00.000  IDENTIFY DEVICE
+  ec 00 01 00 00 00 00 08      00:00:00.000  IDENTIFY DEVICE
+  b0 d5 01 00 4f c2 00 08      00:00:00.000  SMART READ LOG
+  b0 d5 01 01 4f c2 00 08      00:00:00.000  SMART READ LOG
+  b0 d5 01 01 4f c2 00 08      00:00:00.000  SMART READ LOG
+
+Error -4 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 00 00 00 00 00 00   at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 40 d0 28 ce 55 40 00      00:00:00.000  READ FPDMA QUEUED
+  60 40 a0 c0 34 15 40 00      00:00:00.000  READ FPDMA QUEUED
+  b0 da 00 00 4f c2 00 00      00:00:00.000  SMART RETURN STATUS
+  b0 d5 01 00 4f c2 00 00      00:00:00.000  SMART READ LOG
+  b0 d5 01 01 4f c2 00 00      00:00:00.000  SMART READ LOG
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+

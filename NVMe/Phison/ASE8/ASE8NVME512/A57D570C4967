@@ -1,0 +1,81 @@
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       ASE8NVME512
+Serial Number:                      --
+Firmware Version:                   E8FM12.0
+PCI Vendor/Subsystem ID:            0x1987
+IEEE OUI Identifier:                0x6479a7
+Total NVM Capacity:                 512,110,190,592 [512 GB]
+Unallocated NVM Capacity:           0
+Controller ID:                      0
+NVMe Version:                       1.2
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
+Namespace 1 Formatted LBA Size:     512
+Namespace 1 IEEE EUI-64:            6479a7 ...
+Local Time is:                      Fri Jun 24 13:44:21 2022 EDT
+Firmware Updates (0x12):            1 Slot, no Reset required
+Optional Admin Commands (0x0007):   Security Format Frmw_DL
+Optional NVM Commands (0x001e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+Log Page Attributes (0x04):         Ext_Get_Lg
+Maximum Data Transfer Size:         512 Pages
+Warning  Comp. Temp. Threshold:     84 Celsius
+Critical Comp. Temp. Threshold:     88 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     3.00W       -        -    0  0  0  0        0       0
+ 1 +     2.00W       -        -    1  1  1  1        0       0
+ 2 +     2.00W       -        -    2  2  2  2        0       0
+ 3 -   0.1000W       -        -    3  3  3  3     1000    1000
+ 4 -   0.0050W       -        -    4  4  4  4   400000   90000
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         1
+ 1 -    4096       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        31 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          50%
+Percentage Used:                    2%
+Data Units Read:                    29,800,832 [15.2 TB]
+Data Units Written:                 24,847,304 [12.7 TB]
+Host Read Commands:                 280,871,526
+Host Write Commands:                230,955,259
+Controller Busy Time:               1,943
+Power Cycles:                       1,227
+Power On Hours:                     10,259
+Unsafe Shutdowns:                   204
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      2,403
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+Temperature Sensor 2:               31 Celsius
+
+Error Information (NVMe Log 0x01, 16 of 16 entries)
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
+  0       2403     0  0x0014  0x021b      -   2147483776     0     -
+  1       2402     0  0x000a  0x0017      -            1     1     -
+  2       2401     0  0x0014  0x021b      -   2147483776     0     -
+  3       2400     0  0x000a  0x0017      -            1     1     -
+  4       2399     0  0x0013  0x021b      -   2147483776     0     -
+  5       2398     0  0x0007  0x0005      -     33555456     0     -
+  6       2397     0  0x0021  0x0005      -          127     1     -
+  7       2396     0  0x0020  0x0005      -            3     1     -
+  8       2393     0  0x0004  0x0005      -          208     0     -
+  9       2392     0  0x0003  0x0005      -            3     1     -
+ 10       2391     0  0x0001  0x0005      -            6     -     -
+ 11       2390     0  0x0021  0x0005      -          127     1     -
+ 12       2389     0  0x0020  0x0005      -            3     1     -
+ 13       2388     0  0x0013  0x021b      -   2147483776     0     -
+ 14       2378     0  0x0001  0x0005      -            6     -     -
+ 15       2363     0  0x0007  0x0005      -     33555456     0     -
+

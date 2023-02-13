@@ -1,0 +1,239 @@
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Barracuda 7200.7 and 7200.7 Plus
+Device Model:     ST380013AS
+Serial Number:    --
+Firmware Version: 3.18
+User Capacity:    80,026,361,856 bytes [80.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-6 T13/1410D revision 2
+Local Time is:    Mon Jun 27 16:12:56 2022 +01
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM feature is:   Unavailable
+APM feature is:   Unavailable
+Rd look-ahead is: Enabled
+Write cache is:   Enabled
+DSN feature is:   Unavailable
+ATA Security is:  Disabled, NOT FROZEN [SEC1]
+Wt Cache Reorder: Unavailable
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  430) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  58) minutes.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  1 Raw_Read_Error_Rate     POSR--   062   053   006    -    219458470
+  3 Spin_Up_Time            PO----   097   097   000    -    0
+  4 Start_Stop_Count        -O--CK   100   100   020    -    5
+  5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
+  7 Seek_Error_Rate         POSR--   068   060   030    -    249567698478
+  9 Power_On_Hours          -O--CK   091   091   000    -    8282
+ 10 Spin_Retry_Count        PO--C-   100   100   097    -    0
+ 12 Power_Cycle_Count       -O--CK   098   098   020    -    2602
+194 Temperature_Celsius     -O---K   039   056   000    -    39
+195 Hardware_ECC_Recovered  -O-RC-   062   052   000    -    219458470
+197 Current_Pending_Sector  -O--C-   100   100   000    -    7
+198 Offline_Uncorrectable   ----C-   100   100   000    -    7
+199 UDMA_CRC_Error_Count    -OSRCK   200   131   000    -    611
+200 Multi_Zone_Error_Rate   ------   100   253   000    -    0
+202 Data_Address_Mark_Errs  -O--CK   100   253   000    -    0
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+General Purpose Log Directory not supported
+
+SMART Log Directory Version 1 [multi-sector log support]
+Address    Access  R/W   Size  Description
+0x00           SL  R/O      1  Log Directory
+0x01           SL  R/O      1  Summary SMART error log
+0x02           SL  R/O      5  Comprehensive SMART error log
+0x03           SL  R/O      5  Ext. Comprehensive SMART error log
+0x06           SL  R/O      1  SMART self-test log
+0x07           SL  R/O      1  Extended self-test log
+0x09           SL  R/W      1  Selective self-test log
+0x20           SL  R/O      1  Streaming performance log [OBS-8]
+0x21           SL  R/O      1  Write stream error log
+0x22           SL  R/O      1  Read stream error log
+0x23           SL  R/O      1  Delayed sector log [OBS-8]
+0x80-0x9f      SL  R/W     16  Host vendor specific log
+0xa0           SL  VS       1  Device vendor specific log
+0xa1           SL  VS      20  Device vendor specific log
+0xa2           SL  VS     101  Device vendor specific log
+0xa8           SL  VS      20  Device vendor specific log
+0xa9           SL  VS       1  Device vendor specific log
+
+SMART Extended Comprehensive Error Log (GP Log 0x03) not supported
+
+SMART Error Log Version: 1
+ATA Error Count: 1282 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 1282 occurred at disk power-on lifetime: 5937 hours (247 days + 9 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 f0 ff ff ff ef  Error: ABRT at LBA = 0x0fffffff = 268435455
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c4 d8 00 df 20 60 e0 00      00:15:46.588  READ MULTIPLE
+  c4 d8 00 df 1f 60 e0 00      00:15:46.557  READ MULTIPLE
+  c4 d8 00 df 1e 60 e0 00      00:15:46.526  READ MULTIPLE
+  c4 d8 00 df 1d 60 e0 00      00:15:46.495  READ MULTIPLE
+  c4 d8 68 37 1c 60 e0 00      00:15:46.463  READ MULTIPLE
+
+Error 1281 occurred at disk power-on lifetime: 5937 hours (247 days + 9 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 02 28 c0 1b e0  Error: ICRC, ABRT 2 sectors at LBA = 0x001bc028 = 1818664
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 13 17 c0 1b e0 00      00:15:12.552  READ DMA
+  c8 00 1a fd bf 1b e0 00      00:15:12.551  READ DMA
+  c8 00 26 d7 bf 1b e0 00      00:15:12.543  READ DMA
+  c8 00 2c 94 5a 2f e0 00      00:15:12.543  READ DMA
+  c8 00 05 8f 5a 2f e0 00      00:15:12.527  READ DMA
+
+Error 1280 occurred at disk power-on lifetime: 5937 hours (247 days + 9 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 01 e6 c5 1c e0  Error: ICRC, ABRT 1 sectors at LBA = 0x001cc5e6 = 1885670
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 12 d5 c5 1c e0 00      00:14:42.071  READ DMA
+  c8 00 2e a7 c5 1c e0 00      00:14:42.070  READ DMA
+  c8 00 11 96 c5 1c e0 00      00:14:42.070  READ DMA
+  c8 00 2f 67 c5 1c e0 00      00:14:42.069  READ DMA
+  c8 00 10 57 c5 1c e0 00      00:14:42.805  READ DMA
+
+Error 1279 occurred at disk power-on lifetime: 5937 hours (247 days + 9 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 00 e6 c4 1c e0  Error: ICRC, ABRT at LBA = 0x001cc4e6 = 1885414
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 0e d9 c4 1c e0 00      00:14:42.071  READ DMA
+  c8 00 32 a7 c4 1c e0 00      00:14:42.070  READ DMA
+  c8 00 0d 9a c4 1c e0 00      00:14:42.070  READ DMA
+  c8 00 33 67 c4 1c e0 00      00:14:42.069  READ DMA
+  c8 00 0c 5b c4 1c e0 00      00:14:42.069  READ DMA
+
+Error 1278 occurred at disk power-on lifetime: 5937 hours (247 days + 9 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 23 84 be 1c e0  Error: ICRC, ABRT 35 sectors at LBA = 0x001cbe84 = 1883780
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 34 73 be 1c e0 00      00:14:13.298  READ DMA
+  c8 00 0c 67 be 1c e0 00      00:14:13.069  READ DMA
+  c8 00 33 34 be 1c e0 00      00:13:44.631  READ DMA
+  c8 00 0d 27 be 1c e0 00      00:13:44.630  READ DMA
+  c8 00 32 f5 bd 1c e0 00      00:13:44.622  READ DMA
+
+SMART Extended Self-test Log (GP Log 0x07) not supported
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%       327         -
+# 2  Extended offline    Interrupted (host reset)      80%       308         -
+# 3  Short captive       Completed without error       00%       308         -
+# 4  Extended offline    Interrupted (host reset)      80%       308         -
+# 5  Short offline       Aborted by host               40%       308         -
+# 6  Extended offline    Interrupted (host reset)      90%       308         -
+# 7  Conveyance offline  Fatal or unknown error        00%       308         0
+# 8  Short offline       Completed without error       00%       240         -
+# 9  Short offline       Completed without error       00%       237         -
+#10  Short offline       Completed without error       00%       236         -
+#11  Short offline       Completed: read failure       90%       150         19684179
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+SCT Commands not supported
+
+Device Statistics (GP/SMART Log 0x04) not supported
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11) not supported
+

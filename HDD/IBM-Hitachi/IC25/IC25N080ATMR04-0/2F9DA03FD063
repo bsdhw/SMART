@@ -1,0 +1,200 @@
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-RELEASE-p11 i386] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Hitachi Travelstar 80GN
+Device Model:     IC25N080ATMR04-0
+Serial Number:    --
+Firmware Version: MO4OAD4A
+User Capacity:    80,026,361,856 bytes [80.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-6 T13/1410D revision 3a
+Local Time is:    Sat Apr 30 18:50:12 2022 EDT
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM level is:     128 (quiet), recommended: 128
+APM level is:     128 (minimum power consumption without standby)
+Rd look-ahead is: Enabled
+Write cache is:   Enabled
+DSN feature is:   Unavailable
+ATA Security is:  Disabled, frozen [SEC2]
+Wt Cache Reorder: Unavailable
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  645) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  69) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  1 Raw_Read_Error_Rate     PO-R--   100   100   062    -    0
+  2 Throughput_Performance  P-S---   100   100   040    -    0
+  3 Spin_Up_Time            POS---   125   125   033    -    1
+  4 Start_Stop_Count        -O--C-   100   100   000    -    1101
+  5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
+  7 Seek_Error_Rate         PO-R--   100   100   067    -    0
+  8 Seek_Time_Performance   P-S---   100   100   040    -    0
+  9 Power_On_Hours          -O--C-   097   097   000    -    1491
+ 10 Spin_Retry_Count        PO--C-   100   100   060    -    0
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    1099
+191 G-Sense_Error_Rate      -O-R--   100   100   000    -    0
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    101
+193 Load_Cycle_Count        -O--C-   095   095   000    -    57293
+194 Temperature_Celsius     -O----   177   177   000    -    31 (Min/Max 13/53)
+196 Reallocated_Event_Count -O--CK   100   100   000    -    4
+197 Current_Pending_Sector  -O---K   100   100   000    -    0
+198 Offline_Uncorrectable   ---R--   100   100   000    -    0
+199 UDMA_CRC_Error_Count    -O-R--   200   200   000    -    0
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+General Purpose Log Directory Version 1
+SMART           Log Directory Version 1 [multi-sector log support]
+Address    Access  R/W   Size  Description
+0x00       GPL,SL  R/O      1  Log Directory
+0x01           SL  R/O      1  Summary SMART error log
+0x03       GPL     R/O      1  Ext. Comprehensive SMART error log
+0x06           SL  R/O      1  SMART self-test log
+0x07       GPL     R/O      1  Extended self-test log
+0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
+
+SMART Extended Comprehensive Error Log Version: 1 (1 sectors)
+Device Error Count: 335 (device log contains only the most recent 4 errors)
+	CR     = Command Register
+	FEATR  = Features Register
+	COUNT  = Count (was: Sector Count) Register
+	LBA_48 = Upper bytes of LBA High/Mid/Low Registers ]  ATA-8
+	LH     = LBA High (was: Cylinder High) Register    ]   LBA
+	LM     = LBA Mid (was: Cylinder Low) Register      ] Register
+	LL     = LBA Low (was: Sector Number) Register     ]
+	DV     = Device (was: Device/Head) Register
+	DC     = Device Control Register
+	ER     = Error register
+	ST     = Status register
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 335 [2] occurred at disk power-on lifetime: 1230 hours (51 days + 6 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  40 -- 51 00 6c 00 00 02 52 14 fb e2 00  Error: UNC 108 sectors at LBA = 0x025214fb = 38933755
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  c8 00 00 00 70 09 0a ce 52 14 f7 e2 00     00:30:33.300  READ DMA
+  c8 00 00 00 18 2c 47 b6 09 0a b7 e0 00     00:30:33.300  READ DMA
+  c8 00 00 00 08 2c 47 b6 2c 47 af e1 00     00:30:33.300  READ DMA
+  c8 00 00 00 08 09 0a fb 2c 47 af e1 00     00:30:33.300  READ DMA
+  c8 00 00 00 2d 09 0a ae 09 0a cf e0 00     00:30:33.300  READ DMA
+
+Error 334 [1] occurred at disk power-on lifetime: 1230 hours (51 days + 6 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  40 -- 51 00 7c 00 00 02 52 14 fb e2 00  Error: UNC 124 sectors at LBA = 0x025214fb = 38933755
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  c8 00 00 00 80 2c 47 b6 52 14 f7 e2 00     00:30:29.600  READ DMA
+  c8 00 00 00 08 2c 47 b6 2c 47 af e1 00     00:30:29.500  READ DMA
+  c8 00 00 00 08 08 dc 1d 2c 47 af e1 00     00:30:29.500  READ DMA
+  c8 00 00 00 1f 08 db fe 08 db ff e0 00     00:30:29.500  READ DMA
+  c8 00 00 00 28 09 09 a6 08 db d7 e0 00     00:30:29.500  READ DMA
+
+Error 333 [0] occurred at disk power-on lifetime: 1230 hours (51 days + 6 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  40 -- 51 00 7c 00 00 02 52 14 fb e2 7c  Error: UNC 124 sectors at LBA = 0x025214fb = 38933755
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  c8 00 00 00 80 2c 47 b6 52 14 f7 e2 00     00:30:25.700  READ DMA
+  c8 00 00 00 08 2c 47 b6 2c 47 af e1 00     00:30:25.700  READ DMA
+  c8 00 00 00 08 08 dd 23 2c 47 af e1 00     00:30:25.700  READ DMA
+  c8 00 00 00 55 08 dc ce 08 dc cf e0 00     00:30:25.700  READ DMA
+  c8 00 00 00 28 2c 47 b6 08 dc a7 e0 00     00:30:25.700  READ DMA
+
+Error 332 [3] occurred at disk power-on lifetime: 1230 hours (51 days + 6 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  40 -- 51 00 7c 00 00 02 52 14 fb e2 00  Error: UNC 124 sectors at LBA = 0x025214fb = 38933755
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  c8 00 00 00 80 2c 47 b6 52 14 f7 e2 00     00:30:21.900  READ DMA
+  c8 00 00 00 08 2c 47 b6 2c 47 af e1 00     00:30:21.900  READ DMA
+  c8 00 00 00 08 07 ef 9a 2c 47 af e1 00     00:30:21.900  READ DMA
+  c8 00 00 00 14 2a 1d 86 07 ef 87 e0 00     00:30:21.900  READ DMA
+  ca 00 00 00 08 2c 47 b6 2a 1d 7f e1 00     00:30:21.800  WRITE DMA
+
+SMART Extended Self-test Log Version: 1 (1 sectors)
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Warning! SMART Selective Self-Test Log Structure error: invalid SMART checksum.
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+SCT Commands not supported
+
+Device Statistics (GP/SMART Log 0x04) not supported
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11) not supported
+
