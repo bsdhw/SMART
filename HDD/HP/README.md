@@ -23,12 +23,13 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| HP        | GB0500EAFYL        | 500 GB | 3       | 2702  | 0     | 7.40   |
 | HP        | GB0250EAFYK        | 250 GB | 3       | 3054  | 1     | 6.61   |
+| HP        | GB0500EAFYL        | 500 GB | 4       | 2079  | 0     | 5.70   |
 | HP        | MB1000GCWCV        | 1 TB   | 7       | 1962  | 4     | 4.08   |
+| HP        | VB0250EAVER        | 250 GB | 3       | 2037  | 2     | 3.76   |
 | HP        | FB160C4081         | 160 GB | 3       | 3161  | 3     | 3.27   |
-| HP        | VB0250EAVER        | 250 GB | 1       | 2348  | 2     | 2.14   |
 | HP        | MB1000GDUNU        | 1 TB   | 1       | 615   | 0     | 1.69   |
+| HP        | VB0160EAVEQ        | 160 GB | 1       | 718   | 116   | 0.02   |
 
 HDD by Family
 -------------
@@ -43,6 +44,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| HP        | Proliant HardDrive     | 4      | 10      | 2737  | 1     | 5.35   |
+| HP        | Proliant HardDrive     | 5      | 12      | 2358  | 11    | 4.51   |
 | HP        | Seagate Constellati... | 1      | 7       | 1962  | 4     | 4.08   |
-| HP        | 250GB SATA disk VB0... | 1      | 1       | 2348  | 2     | 2.14   |
+| HP        | 250GB SATA disk VB0... | 1      | 3       | 2037  | 2     | 3.76   |

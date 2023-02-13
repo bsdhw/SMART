@@ -23,12 +23,12 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Hoodisk   | SSD                | 16 GB  | 12      | 441   | 0     | 1.21   |
-| Hoodisk   | SSD                | 32 GB  | 32      | 383   | 0     | 1.05   |
+| Hoodisk   | SSD                | 16 GB  | 18      | 516   | 0     | 1.42   |
+| Hoodisk   | SSD                | 32 GB  | 50      | 479   | 0     | 1.31   |
+| Hoodisk   | SSD                | 128 GB | 48      | 354   | 0     | 0.97   |
+| Hoodisk   | SSD                | 64 GB  | 51      | 325   | 0     | 0.89   |
 | Hoodisk   | SSD                | 512 GB | 3       | 308   | 0     | 0.84   |
-| Hoodisk   | SSD                | 128 GB | 35      | 296   | 0     | 0.81   |
-| Hoodisk   | SSD                | 64 GB  | 39      | 260   | 0     | 0.71   |
-| Hoodisk   | SSD                | 256 GB | 9       | 192   | 0     | 0.53   |
+| Hoodisk   | SSD                | 256 GB | 10      | 180   | 0     | 0.49   |
 
 SSD by Family
 -------------
@@ -43,5 +43,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Hoodisk   | Phison Driven OEM SSDs | 5      | 127     | 313   | 0     | 0.86   |
+| Hoodisk   | Phison Driven OEM SSDs | 5      | 177     | 387   | 0     | 1.06   |
 | Hoodisk   | Unknown                | 1      | 3       | 308   | 0     | 0.84   |

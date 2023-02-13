@@ -17,4 +17,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| BlueRay   | SDM03II-HRM        | 16 GB  | 1       | 1177  | 0     | 3.23   |
 | BlueRay   | Ultra M8V          | 256 GB | 1       | 95    | 0     | 0.26   |
+| BlueRay   | SSD120GM7B         | 120 GB | 1       | 984   | 19    | 0.13   |

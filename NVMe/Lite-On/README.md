@@ -18,3 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Lite-On   | CA3-8D512          | 512 GB | 2       | 33    | 0     | 0.09   |
+| Lite-On   | CL1-8D256          | 256 GB | 1       | 0     | 0     | 0.00   |
