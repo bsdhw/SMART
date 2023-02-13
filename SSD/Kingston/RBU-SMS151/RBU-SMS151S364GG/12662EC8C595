@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Sep  4 00:45:33 2022 +05
+Local Time is:    Sat Sep 10 15:18:07 2022 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,31 +63,31 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O-R--   099   099   000    -    5363
   2 Throughput_Performance  P-S---   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    13024
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    266
+  9 Power_On_Hours          -O--C-   100   100   000    -    13182
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    267
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       ------   100   100   000    -    23
 170 Unknown_Attribute       PO--C-   100   100   010    -    22
 172 Unknown_Attribute       -O--CK   100   100   000    -    0
-173 Unknown_Attribute       ------   100   100   000    -    42991901
+173 Unknown_Attribute       ------   100   100   000    -    43122976
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 181 Program_Fail_Cnt_Total  -O--C-   100   100   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    28
-194 Temperature_Celsius     PO---K   055   045   000    -    45 (Min/Max 22/55)
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    29
+194 Temperature_Celsius     PO---K   057   045   000    -    43 (Min/Max 22/55)
 196 Reallocated_Event_Count ------   100   100   000    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
 218 Unknown_Attribute       ------   100   100   000    -    0
-233 Media_Wearout_Indicator PO--C-   100   100   000    -    13274240
+233 Media_Wearout_Indicator PO--C-   100   100   000    -    13434956
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    6626328
-242 Total_LBAs_Read         -O--C-   100   100   000    -    19217071
+241 Total_LBAs_Written      -O--C-   100   100   000    -    6727219
+242 Total_LBAs_Read         -O--C-   100   100   000    -    19220366
 243 Unknown_Attribute       -O--C-   100   100   000    -    110382343808100
-244 Unknown_Attribute       ------   100   100   000    -    285
-245 Unknown_Attribute       ------   100   100   000    -    656
-246 Unknown_Attribute       ------   100   100   000    -    2401768
+244 Unknown_Attribute       ------   100   100   000    -    288
+245 Unknown_Attribute       ------   100   100   000    -    658
+246 Unknown_Attribute       ------   100   100   000    -    2433135
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -149,8 +149,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4            8  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            9  Device-to-host register FISes sent due to a COMRESET
+0x0009  4            2  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

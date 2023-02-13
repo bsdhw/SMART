@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun May  2 11:45:10 2021 CDT
+Local Time is:    Mon May 17 05:29:37 2021 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,20 +60,20 @@ SMART Attributes Data Structure revision number: 18
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Runtime_Bad_Block       ------   000   000   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    39517
+  9 Power_On_Hours          ------   100   100   000    -    39865
  12 Power_Cycle_Count       ------   100   100   000    -    3361
 171 Avail_OP_Block_Count    ------   100   100   000    -    77822800
 174 Pwr_Cycle_Ct_Unplanned  ------   100   100   000    -    1249
 195 Total_Prog_Failures     ------   100   100   000    -    0
 196 Total_Erase_Failures    ------   100   100   000    -    0
 197 Total_Unc_Read_Failures ------   100   100   000    -    0
-208 Average_Erase_Count     ------   100   100   000    -    348
+208 Average_Erase_Count     ------   100   100   000    -    349
 210 SATA_CRC_Error_Count    ------   100   100   000    -    11
 224 In_Warranty             ------   100   100   000    -    1
 233 Remaining_Lifetime_Perc ------   089   089   000    -    89
-241 Host_Writes_GiB         ------   100   100   000    -    8726
-242 Host_Reads_GiB          ------   100   100   000    -    9018
-249 Total_NAND_Prog_Ct_GiB  ------   100   100   000    -    351888818
+241 Host_Writes_GiB         ------   100   100   000    -    8834
+242 Host_Reads_GiB          ------   100   100   000    -    9019
+249 Total_NAND_Prog_Ct_GiB  ------   100   100   000    -    355565281
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

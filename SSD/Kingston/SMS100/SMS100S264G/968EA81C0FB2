@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p14-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Mar 10 21:42:25 2021 CET
+Local Time is:    Mon Aug  9 20:36:16 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -59,12 +59,12 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    9351
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    1472
+  9 Power_On_Hours          -O--C-   100   100   000    -    13724
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    1481
 168 Unknown_Attribute       -O--C-   100   100   000    -    269
 170 Unknown_Attribute       PO----   100   100   010    -    155
-173 Unknown_Attribute       -O--C-   100   100   000    -    41686546
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    164
+173 Unknown_Attribute       -O--C-   100   100   000    -    72426388
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    167
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -108,8 +108,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           20  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           28  Device-to-host register FISes sent due to a COMRESET
+0x0009  4            2  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            4  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

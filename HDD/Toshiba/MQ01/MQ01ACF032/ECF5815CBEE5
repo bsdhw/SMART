@@ -13,7 +13,7 @@ Form Factor:      2.5 inches
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Oct  4 01:00:06 2022 CDT
+Local Time is:    Fri Dec 30 12:58:30 2022 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,23 +58,23 @@ SMART Attributes Data Structure revision number: 128
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       1790
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       1847
   5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   088   088   000    Old_age   Always       -       4977
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1045
-191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       569
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       216
-193 Load_Cycle_Count        0x0032   096   096   000    Old_age   Always       -       42760
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       35 (Min/Max 14/77)
-199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       203096913
-200 Multi_Zone_Error_Rate   0x0032   100   100   000    Old_age   Always       -       336308741
-240 Head_Flying_Hours       0x0032   089   089   000    Old_age   Always       -       4726
-241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       15684518661
-242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       30013104444
+  9 Power_On_Hours          0x0032   087   087   000    Old_age   Always       -       5515
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1283
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       571
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       252
+193 Load_Cycle_Count        0x0032   095   095   000    Old_age   Always       -       57135
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       28 (Min/Max 14/77)
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       210071367
+200 Multi_Zone_Error_Rate   0x0032   100   100   000    Old_age   Always       -       346854649
+240 Head_Flying_Hours       0x0032   088   088   000    Old_age   Always       -       5057
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       17293284088
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       31051099078
 254 Free_Fall_Sensor        0x0032   100   100   000    Old_age   Always       -       100
 
 SMART Error Log Version: 1
-ATA Error Count: 2
+ATA Error Count: 3
 	CR = Command Register [HEX]
 	FR = Features Register [HEX]
 	SC = Sector Count Register [HEX]
@@ -88,6 +88,23 @@ ATA Error Count: 2
 Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 3 occurred at disk power-on lifetime: 5045 hours (210 days + 5 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 41 50 7f 19 a5 40  Error: ICRC, ABRT at LBA = 0x00a5197f = 10819967
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 00 60 80 1a a5 40 00      01:02:39.118  READ FPDMA QUEUED
+  60 00 58 80 19 a5 40 00      01:02:39.111  READ FPDMA QUEUED
+  60 00 50 80 15 a5 40 00      01:02:39.111  READ FPDMA QUEUED
+  60 00 48 80 10 a5 40 00      01:02:39.111  READ FPDMA QUEUED
+  60 80 40 00 10 a5 40 00      01:02:39.103  READ FPDMA QUEUED
 
 Error 2 occurred at disk power-on lifetime: 4235 hours (176 days + 11 hours)
   When the command that caused the error occurred, the device was active or idle.
@@ -151,6 +168,4 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
-
-
 

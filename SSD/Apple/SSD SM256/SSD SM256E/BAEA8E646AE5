@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jan  1 21:13:55 2021 CET
+Local Time is:    Sat Jan  2 22:57:17 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -60,12 +60,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O-RC-   200   200   000    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   099   099   000    -    3001
- 12 Power_Cycle_Count       -O--CK   077   077   000    -    22752
+  9 Power_On_Hours          -O--CK   099   099   000    -    3005
+ 12 Power_Cycle_Count       -O--CK   077   077   000    -    22762
 169 Unknown_Apple_Attrib    PO--C-   253   253   010    -    1297507948800
 173 Wear_Leveling_Count     -O--CK   186   186   100    -    786007523654
-192 Power-Off_Retract_Count -O--C-   095   095   000    -    21680
-194 Temperature_Celsius     -O---K   064   044   000    -    36 (Min/Max 10/57)
+192 Power-Off_Retract_Count -O--C-   095   095   000    -    21687
+194 Temperature_Celsius     -O---K   073   044   000    -    27 (Min/Max 10/57)
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O-RC-   200   200   000    -    0
                             ||||||_ K auto-keep
@@ -127,7 +127,7 @@ ID      Size     Value  Description
 0x0007  2         4096  R_ERR response for host-to-device non-data FIS
 0x0008  2         7952  Device-to-host non-data FIS retries
 0x0009  2         7953  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2        10797  Device-to-host register FISes sent due to a COMRESET
+0x000a  2        10807  Device-to-host register FISes sent due to a COMRESET
 0x000b  2         6145  CRC errors within host-to-device FIS
 0x000d  2         7953  Non-CRC errors within host-to-device FIS
 0x000f  2         8176  R_ERR response for host-to-device data FIS, CRC

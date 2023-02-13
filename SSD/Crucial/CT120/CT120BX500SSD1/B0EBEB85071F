@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Jan 25 20:10:11 2021 CET
+Local Time is:    Mon Jan 25 20:10:35 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -72,7 +72,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 183 SATA_Interfac_Downshift -O--CK   100   100   050    -    0
 184 Error_Correction_Count  -O--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   050    -    0
-194 Temperature_Celsius     -O---K   052   049   050    Past 48 (Min/Max 33/51)
+194 Temperature_Celsius     -O---K   060   049   050    Past 40 (Min/Max 33/51)
 196 Reallocated_Event_Count -O--CK   100   100   050    -    0
 197 Current_Pending_ECC_Cnt -O--CK   100   100   050    -    0
 198 Offline_Uncorrectable   ----CK   100   100   050    -    0
@@ -80,8 +80,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain ----CK   089   089   001    -    89
 206 Write_Error_Rate        -OSR-K   100   100   050    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   050    -    0
-246 Total_LBAs_Written      -O--CK   100   100   050    -    15295480624
-247 Host_Program_Page_Count -O--CK   100   100   050    -    477983769
+246 Total_LBAs_Written      -O--CK   100   100   050    -    15296021136
+247 Host_Program_Page_Count -O--CK   100   100   050    -    478000660
 248 FTL_Program_Page_Count  -O--CK   100   100   050    -    400693248
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -138,10 +138,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              22  ---  Lifetime Power-On Resets
 0x01  0x010  4            1740  ---  Power-on Hours
-0x01  0x018  6      2410579720  ---  Logical Sectors Written
-0x01  0x020  6       136162266  ---  Number of Write Commands
-0x01  0x028  6       291516222  ---  Logical Sectors Read
-0x01  0x030  6         5773836  ---  Number of Read Commands
+0x01  0x018  6      2411119248  ---  Logical Sectors Written
+0x01  0x020  6       136170746  ---  Number of Write Commands
+0x01  0x028  6       291519982  ---  Logical Sectors Read
+0x01  0x030  6         5773911  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              17  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

@@ -9,7 +9,7 @@ User Capacity:    7,717,183,488 bytes [7.71 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA/ATAPI-5 (minor revision not indicated)
-Local Time is:    Sun Mar 28 17:15:42 2021 EEST
+Local Time is:    Sun Mar 28 18:47:22 2021 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -41,7 +41,7 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 232 Available_Reservd_Space -O----   082   082   002    -    82
-233 Media_Wearout_Indicator -O----   100   100   000    -    7529668
+233 Media_Wearout_Indicator -O----   100   100   000    -    7531014
 234 Unknown_Attribute       -O----   100   100   000    -    0
 235 Unknown_Attribute       -O----   253   253   003    -    99
   9 Power_On_Hours          -O----   044   044   000    -    2091

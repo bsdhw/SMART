@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Fri May  6 13:17:13 2022 EDT
+Local Time is:    Fri Oct 28 18:20:39 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,26 +59,26 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0027   196   182   021    Pre-fail  Always       -       1200
-  4 Start_Stop_Count        0x0032   098   098   000    Old_age   Always       -       2774
+  3 Spin_Up_Time            0x0027   196   175   021    Pre-fail  Always       -       1200
+  4 Start_Stop_Count        0x0032   098   098   000    Old_age   Always       -       2978
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   090   090   000    Old_age   Always       -       7949
+  9 Power_On_Hours          0x0032   090   090   000    Old_age   Always       -       8018
  10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       2756
-191 G-Sense_Error_Rate      0x0032   001   001   000    Old_age   Always       -       155589
+ 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       2795
+191 G-Sense_Error_Rate      0x0032   001   001   000    Old_age   Always       -       155734
 192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       34
-193 Load_Cycle_Count        0x0032   109   109   000    Old_age   Always       -       275541
-194 Temperature_Celsius     0x0022   100   092   000    Old_age   Always       -       47
+193 Load_Cycle_Count        0x0032   108   108   000    Old_age   Always       -       276560
+194 Temperature_Celsius     0x0022   095   092   000    Old_age   Always       -       52
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
 200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
-240 Head_Flying_Hours       0x0032   092   092   000    Old_age   Always       -       6280
-241 Total_LBAs_Written      0x0032   200   200   000    Old_age   Always       -       23059424593
-242 Total_LBAs_Read         0x0032   200   200   000    Old_age   Always       -       38528048107
+240 Head_Flying_Hours       0x0032   092   092   000    Old_age   Always       -       6346
+241 Total_LBAs_Written      0x0032   200   200   000    Old_age   Always       -       24334050611
+242 Total_LBAs_Read         0x0032   200   200   000    Old_age   Always       -       39959652990
 254 Free_Fall_Sensor        0x0032   200   200   000    Old_age   Always       -       0
 
 SMART Error Log Version: 1

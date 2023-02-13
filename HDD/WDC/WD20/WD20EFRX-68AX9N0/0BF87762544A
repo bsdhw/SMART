@@ -1,5 +1,5 @@
-smartctl 7.0 2018-12-30 r4883 [FreeBSD 11.3-RELEASE-p14 amd64] (local build)
-Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RC3 amd64] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital Red
@@ -12,7 +12,7 @@ Sector Sizes:     512 bytes logical, 4096 bytes physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 1.5 Gb/s)
-Local Time is:    Thu Oct 29 15:33:01 2020 MDT
+Local Time is:    Fri Nov  6 16:50:36 2020 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,7 +68,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   4 Start_Stop_Count        -O--CK   100   100   000    -    127
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   000    -    0
-  9 Power_On_Hours          -O--CK   017   017   000    -    60863
+  9 Power_On_Hours          -O--CK   017   017   000    -    61057
  10 Spin_Retry_Count        -O--CK   100   100   000    -    0
  11 Calibration_Retry_Count -O--CK   100   100   000    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    126
@@ -161,7 +161,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (383)
+Temperature History Size (Index):    478 (26)
 
 SCT Error Recovery Control:
            Read:     70 (7.0 seconds)
@@ -181,12 +181,12 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2           19  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           19  Device-to-host register FISes sent due to a COMRESET
+0x0009  2           23  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           23  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
-0x8000  4     15027719  Vendor specific
+0x8000  4     15726495  Vendor specific
 
 
 

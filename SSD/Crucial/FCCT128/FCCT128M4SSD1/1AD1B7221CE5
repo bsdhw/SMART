@@ -1,5 +1,5 @@
-smartctl 7.0 2018-12-30 r4883 [FreeBSD 11.3-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     FCCT128M4SSD1
@@ -10,14 +10,15 @@ User Capacity:    128,035,676,160 bytes [128 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
+TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat May 23 11:21:43 2020 EDT
+Local Time is:    Fri May 28 07:42:47 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
-APM level is:     254 (maximum performance)
+APM feature is:   Disabled
 Rd look-ahead is: Enabled
 Write cache is:   Enabled
 DSN feature is:   Unavailable
@@ -66,14 +67,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    30426
- 12 Power_Cycle_Count       -O--CK   100   100   001    -    8778
+  9 Power_On_Hours          -O--CK   100   100   001    -    39163
+ 12 Power_Cycle_Count       -O--CK   100   100   001    -    8789
 170 Unknown_Attribute       PO--CK   100   100   010    -    0
 171 Unknown_Attribute       -O--CK   100   100   001    -    0
 172 Unknown_Attribute       -O--CK   100   100   001    -    0
-173 Unknown_Attribute       PO--CK   099   099   010    -    48
-174 Unknown_Attribute       -O--CK   100   100   001    -    82
-181 Program_Fail_Cnt_Total  -O---K   100   100   001    -    2284954714154
+173 Unknown_Attribute       PO--CK   096   096   010    -    146
+174 Unknown_Attribute       -O--CK   100   100   001    -    91
+181 Program_Fail_Cnt_Total  -O---K   100   100   001    -    2289249681450
 183 Runtime_Bad_Block       -O--CK   100   100   001    -    0
 184 End-to-End_Error        PO--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   001    -    0
@@ -85,7 +86,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--CK   100   100   001    -    0
 198 Offline_Uncorrectable   ----CK   100   100   001    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   001    -    0
-202 Unknown_SSD_Attribute   ---RC-   099   099   001    -    1
+202 Unknown_SSD_Attribute   ---RC-   096   096   001    -    4
 206 Unknown_SSD_Attribute   -OSR--   100   100   001    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -156,7 +157,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (335)
+Temperature History Size (Index):    478 (100)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -165,12 +166,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            8778  ---  Lifetime Power-On Resets
-0x01  0x010  4           30426  ---  Power-on Hours
-0x01  0x018  6      7839642550  ---  Logical Sectors Written
-0x01  0x020  6       106404466  ---  Number of Write Commands
-0x01  0x028  6      6676365431  ---  Logical Sectors Read
-0x01  0x030  6       112986147  ---  Number of Read Commands
+0x01  0x008  4            8789  ---  Lifetime Power-On Resets
+0x01  0x010  4           39163  ---  Power-on Hours
+0x01  0x018  6     27573443110  ---  Logical Sectors Written
+0x01  0x020  6       676495182  ---  Number of Write Commands
+0x01  0x028  6      7986348379  ---  Logical Sectors Read
+0x01  0x030  6       153378180  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
@@ -203,5 +204,7 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4            0  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            8  Device-to-host register FISes sent due to a COMRESET
+
+
 

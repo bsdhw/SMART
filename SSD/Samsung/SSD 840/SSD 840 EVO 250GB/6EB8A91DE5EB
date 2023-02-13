@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Feb 16 05:02:35 2021 EST
+Local Time is:    Tue Feb 16 05:05:14 2021 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -136,7 +136,7 @@ Device State:                        Active (0)
 Current Temperature:                    28 Celsius
 Power Cycle Min/Max Temperature:      ?/ ? Celsius
 Lifetime    Min/Max Temperature:      ?/ ? Celsius
-Under/Over Temperature Limit Count:   0/45855
+Under/Over Temperature Limit Count:   0/45871
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         10 minutes

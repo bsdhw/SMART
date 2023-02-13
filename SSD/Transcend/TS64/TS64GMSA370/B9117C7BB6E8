@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Oct 27 16:59:08 2020 CDT
+Local Time is:    Tue Oct 27 17:17:15 2020 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,12 +55,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0000   100   100   000    Old_age   Offline      -       0
   5 Reallocated_Sector_Ct   0x0000   100   100   000    Old_age   Offline      -       0
-  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       1809
- 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       59
+  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       1810
+ 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       60
 160 Uncorrectable_Error_Cnt 0x0000   100   100   000    Old_age   Offline      -       0
 161 Valid_Spare_Block_Cnt   0x0000   100   100   000    Old_age   Offline      -       54
 163 Initial_Bad_Block_Count 0x0000   100   100   000    Old_age   Offline      -       14
-164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       224922
+164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       224932
 165 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       260
 166 Min_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       160
 167 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       219
@@ -72,7 +72,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 178 Runtime_Invalid_Blk_Cnt 0x0000   100   100   000    Old_age   Offline      -       0
 181 Program_Fail_Cnt_Total  0x0000   100   100   000    Old_age   Offline      -       0
 182 Erase_Fail_Count_Total  0x0000   100   100   000    Old_age   Offline      -       0
-192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       12
+192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       13
 194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       53
 195 Hardware_ECC_Recovered  0x0000   100   100   000    Old_age   Offline      -       273
 196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       0
@@ -80,9 +80,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 198 Offline_Uncorrectable   0x0000   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0000   100   100   050    Old_age   Offline      -       0
 232 Available_Reservd_Space 0x0000   100   100   000    Old_age   Offline      -       100
-241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       343900
-242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       110055
-245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       449844
+241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       343909
+242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       110070
+245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       449864
 
 SMART Error Log Version: 1
 No Errors Logged

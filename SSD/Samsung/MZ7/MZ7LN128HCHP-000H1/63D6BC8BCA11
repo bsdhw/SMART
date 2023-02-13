@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jan  6 21:56:05 2023 EET
+Local Time is:    Fri Jan  6 21:58:18 2023 EET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Uncorrectable_Error_Cnt -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    3
-190 Airflow_Temperature_Cel -O---K   072   051   040    -    28
+190 Airflow_Temperature_Cel -O---K   074   051   040    -    26
 196 Reallocated_Event_Count -O--CK   253   253   001    -    0
 198 Offline_Uncorrectable   ----CK   100   100   001    -    0
 199 CRC_Error_Count         -O---K   100   100   001    -    0
@@ -152,11 +152,11 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x018  6     53617496585  ---  Logical Sectors Written
-0x01  0x028  6     23090393173  ---  Logical Sectors Read
-0x01  0x1f8  7               -  --C+ Unknown
+0x01  0x018  6     53617523474  ---  Logical Sectors Written
+0x01  0x028  6     23090396637  ---  Logical Sectors Read
+0x01  0x1f8  7               -  --C  Unknown
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              28  ---  Current Temperature
+0x05  0x008  1              26  ---  Current Temperature
 0x05  0x020  1              40  ---  Highest Temperature
 0x05  0x028  1              24  ---  Lowest Temperature
                                 |||_ C monitored condition met

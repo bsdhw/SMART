@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Aug  8 12:15:13 2021 PDT
+Local Time is:    Sun Aug  8 12:29:28 2021 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -56,7 +56,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   ---    Old_age   Always       -       0
   9 Power_On_Hours          0x0032   100   100   ---    Old_age   Always       -       2421
- 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       547
+ 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       548
 165 Block_Erase_Count       0x0032   100   100   ---    Old_age   Always       -       81649009257
 166 Minimum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       1
 167 Max_Bad_Blocks_per_Die  0x0032   100   100   ---    Old_age   Always       -       37
@@ -70,14 +70,14 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 184 End-to-End_Error        0x0032   100   100   ---    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   ---    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   074   045   ---    Old_age   Always       -       26 (Min/Max 12/45)
+194 Temperature_Celsius     0x0022   067   045   ---    Old_age   Always       -       33 (Min/Max 12/45)
 199 UDMA_CRC_Error_Count    0x0032   100   100   ---    Old_age   Always       -       0
 230 Media_Wearout_Indicator 0x0032   001   001   ---    Old_age   Always       -       0x011700280117
 232 Available_Reservd_Space 0x0033   100   100   004    Pre-fail  Always       -       100
 233 NAND_GB_Written_TLC     0x0032   100   100   ---    Old_age   Always       -       2230
 234 NAND_GB_Written_SLC     0x0032   100   100   ---    Old_age   Always       -       6373
 241 Host_Writes_GiB         0x0030   253   253   ---    Old_age   Offline      -       5338
-242 Host_Reads_GiB          0x0030   253   253   ---    Old_age   Offline      -       3035
+242 Host_Reads_GiB          0x0030   253   253   ---    Old_age   Offline      -       3036
 244 Temp_Throttle_Status    0x0032   000   100   ---    Old_age   Always       -       0
 
 SMART Error Log Version: 1

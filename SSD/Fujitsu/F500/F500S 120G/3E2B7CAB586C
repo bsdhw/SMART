@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.1-RC1 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Feb 21 07:27:20 2022 EST
+Local Time is:    Tue Apr  5 09:04:36 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,8 +62,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    856
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    871
+  9 Power_On_Hours          -O--C-   100   100   000    -    869
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    926
 161 Unknown_Attribute       -O--C-   100   100   000    -    269
 163 Unknown_Attribute       PO----   100   100   050    -    45
 165 Unknown_Attribute       ------   100   100   000    -    24
@@ -71,13 +71,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 167 Unknown_Attribute       ------   100   100   000    -    17
 172 Unknown_Attribute       -O--C-   100   100   000    -    0
 173 Unknown_Attribute       -O---K   100   100   000    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    236
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    285
 194 Temperature_Celsius     PO---K   060   060   000    -    40 (Min/Max 33/40)
 196 Reallocated_Event_Count ------   100   100   000    -    0
 198 Offline_Uncorrectable   -O--C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    1910
-242 Total_LBAs_Read         -O--C-   100   100   000    -    2378
+241 Total_LBAs_Written      -O--C-   100   100   000    -    1932
+242 Total_LBAs_Read         -O--C-   100   100   000    -    2392
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -124,10 +124,10 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             871  ---  Lifetime Power-On Resets
-0x01  0x010  4             856  ---  Power-on Hours
-0x01  0x018  6      4006298790  ---  Logical Sectors Written
-0x01  0x028  6      4987839913  ---  Logical Sectors Read
+0x01  0x008  4             926  ---  Lifetime Power-On Resets
+0x01  0x010  4             869  ---  Power-on Hours
+0x01  0x018  6      4053011270  ---  Logical Sectors Written
+0x01  0x028  6      5018472704  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==

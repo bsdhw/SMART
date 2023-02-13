@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 19 12:58:25 2020 CEST
+Local Time is:    Sun Dec 27 15:21:15 2020 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -54,8 +54,8 @@ SMART Attributes Data Structure revision number: 4
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   ---    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   253   100   ---    Old_age   Always       -       14606
- 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       2077
+  9 Power_On_Hours          0x0032   253   100   ---    Old_age   Always       -       14608
+ 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       2090
 166 Min_W/E_Cycle           0x0032   100   100   ---    Old_age   Always       -       43
 167 Min_Bad_Block/Die       0x0032   100   100   ---    Old_age   Always       -       20
 168 Maximum_Erase_Cycle     0x0032   100   100   ---    Old_age   Always       -       222
@@ -63,15 +63,15 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 171 Program_Fail_Count      0x0032   100   100   ---    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   ---    Old_age   Always       -       0
 173 Avg_Write/Erase_Count   0x0032   100   100   ---    Old_age   Always       -       109
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   ---    Old_age   Always       -       363
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   ---    Old_age   Always       -       371
 187 Reported_Uncorrect      0x0032   100   100   ---    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   081   048   ---    Old_age   Always       -       19 (Min/Max 14/48)
+194 Temperature_Celsius     0x0022   065   048   ---    Old_age   Always       -       35 (Min/Max 14/48)
 212 SATA_PHY_Error          0x0032   100   100   ---    Old_age   Always       -       0
 230 Perc_Write/Erase_Count  0x0032   100   100   ---    Old_age   Always       -       0 0 831
 232 Perc_Avail_Resrvd_Space 0x0033   100   100   004    Pre-fail  Always       -       100
-233 Total_NAND_Writes_GiB   0x0032   100   100   ---    Old_age   Always       -       13890
-241 Total_Writes_GiB        0x0030   253   253   ---    Old_age   Offline      -       7098
-242 Total_Reads_GiB         0x0030   253   253   ---    Old_age   Offline      -       10114
+233 Total_NAND_Writes_GiB   0x0032   100   100   ---    Old_age   Always       -       13911
+241 Total_Writes_GiB        0x0030   253   253   ---    Old_age   Offline      -       7114
+242 Total_Reads_GiB         0x0030   253   253   ---    Old_age   Offline      -       10121
 243 Unknown_Attribute       0x0032   100   100   ---    Old_age   Always       -       0
 
 SMART Error Log Version: 1

@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            5cd2e4 ...
-Local Time is:                      Mon Dec 20 09:20:59 2021 EST
+Local Time is:                      Mon Dec 20 09:39:18 2021 EST
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0016):   Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp

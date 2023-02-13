@@ -10,10 +10,10 @@ IEEE OUI Identifier:                0x002538
 Controller ID:                      1
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
-Namespace 1 Utilization:            241,674,379,264 [241 GB]
+Namespace 1 Utilization:            236,661,825,536 [236 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Thu May 28 15:40:42 2020 MSK
+Local Time is:                      Thu Aug 13 17:07:25 2020 MSK
 Firmware Updates (0x06):            3 Slots
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -39,14 +39,14 @@ Critical Warning:                   0x00
 Temperature:                        35 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    17%
-Data Units Read:                    30,050,857 [15.3 TB]
-Data Units Written:                 65,779,933 [33.6 TB]
-Host Read Commands:                 1,165,247,526
-Host Write Commands:                1,827,665,649
-Controller Busy Time:               13,183
-Power Cycles:                       207
-Power On Hours:                     21,967
+Percentage Used:                    19%
+Data Units Read:                    44,801,401 [22.9 TB]
+Data Units Written:                 73,112,922 [37.4 TB]
+Host Read Commands:                 2,070,913,905
+Host Write Commands:                2,229,377,567
+Controller Busy Time:               14,782
+Power Cycles:                       212
+Power On Hours:                     23,260
 Unsafe Shutdowns:                   95
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      3

@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Aug 24 18:05:27 2022 CEST
+Local Time is:    Wed Aug 24 18:13:52 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -75,7 +75,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
 231 SSD_Life_Left           0x0000   095   095   000    Old_age   Offline      -       95
 233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       3268
-241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       2484
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       2485
 242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       1610
 244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       26
 245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       36

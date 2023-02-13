@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Nov 26 21:58:50 2022 UTC
+Local Time is:    Mon Nov 28 10:46:16 2022 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,10 +62,10 @@ SMART Attributes Data Structure revision number: 5
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          PO--CK   100   100   010    -    5824
- 12 Power_Cycle_Count       PO--CK   100   100   010    -    6307
+  9 Power_On_Hours          PO--CK   100   100   010    -    5859
+ 12 Power_Cycle_Count       PO--CK   100   100   010    -    6312
 161 Unknown_Attribute       PO--CK   100   100   010    -    0
-164 Unknown_Attribute       PO--CK   100   100   010    -    30247
+164 Unknown_Attribute       PO--CK   100   100   010    -    30255
 165 Unknown_Attribute       PO--CK   100   100   010    -    69
 166 Unknown_Attribute       PO--CK   100   100   010    -    45
 167 Unknown_Attribute       PO--CK   100   100   010    -    66
@@ -74,11 +74,11 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 177 Wear_Leveling_Count     PO--CK   100   100   010    -    0
 178 Used_Rsvd_Blk_Cnt_Chip  PO--CK   100   100   010    -    0
 192 Power-Off_Retract_Count PO--CK   100   100   010    -    18
-194 Temperature_Celsius     PO--CK   100   100   010    -    47
+194 Temperature_Celsius     PO--CK   100   100   010    -    48
 195 Hardware_ECC_Recovered  PO--CK   100   100   010    -    0
 199 UDMA_CRC_Error_Count    PO--CK   100   100   010    -    0
-241 Total_LBAs_Written      PO--CK   100   100   010    -    17507
-242 Total_LBAs_Read         PO--CK   100   100   010    -    12328
+241 Total_LBAs_Written      PO--CK   100   100   010    -    17514
+242 Total_LBAs_Read         PO--CK   100   100   010    -    12329
 243 Unknown_Attribute       PO--CK   100   100   010    -    0
 244 Unknown_Attribute       PO--CK   100   100   010    -    0
 245 Unknown_Attribute       PO--CK   100   100   010    -    0

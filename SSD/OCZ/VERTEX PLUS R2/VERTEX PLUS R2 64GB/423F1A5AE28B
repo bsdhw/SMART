@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
-Local Time is:    Fri Jul  2 09:01:57 2021 CDT
+Local Time is:    Wed Jul 14 10:36:31 2021 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -30,9 +30,8 @@ General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
 					was never started.
 					Auto Offline Data Collection: Disabled.
-Self-test execution status:      (   0)	The previous self-test routine completed
-					without error or no self-test has ever 
-					been run.
+Self-test execution status:      ( 121)	The previous self-test completed having
+					the read element of the test failed.
 Total time to complete Offline 
 data collection: 		(    0) seconds.
 Offline data collection
@@ -61,9 +60,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            ------   100   100   000    -    0
   4 Start_Stop_Count        ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    48353
+  9 Power_On_Hours          ------   100   100   000    -    48643
  12 Power_Cycle_Count       ------   100   100   000    -    1037
-232 Lifetime_Writes         ------   100   100   000    -    890085
+232 Lifetime_Writes         ------   100   100   000    -    899419
 233 Media_Wearout_Indicator ------   100   000   000    -    100
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -89,9 +88,9 @@ Address    Access  R/W   Size  Description
 SMART Extended Comprehensive Error Log Version: 18 (77 sectors)
 No Errors Logged
 
-Warning! SMART Extended Self-test Log Structure error: invalid SMART checksum.
 SMART Extended Self-test Log Version: 1 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed: read failure       90%       254         0
 
 Selective Self-tests/Logging not supported
 
@@ -104,5 +103,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 [Reserved: 0x00 0x00 0x41 0x00]
 ID      Size     Value  Description
-0x0628  12: Invalid entry
+0x8c68  0: Invalid entry
 

@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jan 22 10:56:19 2021 GMT
+Local Time is:    Mon Mar  8 22:07:10 2021 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,17 +68,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    17021
+  9 Power_On_Hours          -O--C-   100   100   000    -    18112
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
  12 Power_Cycle_Count       -O--C-   100   100   000    -    687
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    100
 170 Unknown_Attribute       PO--C-   100   100   010    -    0
-173 Unknown_Attribute       PO--C-   176   176   100    -    0
+173 Unknown_Attribute       PO--C-   175   175   100    -    0
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    53
-194 Temperature_Celsius     -O---K   053   036   000    -    47 (Min/Max 14/64)
+194 Temperature_Celsius     -O---K   054   036   000    -    46 (Min/Max 14/64)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
                             ||||||_ K auto-keep
@@ -124,21 +124,21 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       3 (0x0003)
 Device State:                        Active (0)
-Current Temperature:                    47 Celsius
-Power Cycle Min/Max Temperature:     43/51 Celsius
+Current Temperature:                    46 Celsius
+Power Cycle Min/Max Temperature:     41/51 Celsius
 Lifetime    Min/Max Temperature:     14/64 Celsius
 Specified Max Operating Temperature:    14 Celsius
-Under/Over Temperature Limit Count:   0/68775
+Under/Over Temperature Limit Count:   0/134247
 Vendor specific:
 00 00 04 00 05 01 00 05 05 00 00 00 00 00 00 00
-00 02 00 00 75 08 a7 03 02 02 00 00 00 00 00 05
+00 02 00 00 53 f9 e2 03 02 02 00 00 00 00 00 05
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/40 Celsius
 Min/Max Temperature Limit:            0/80 Celsius
-Temperature History Size (Index):    128 (3)
+Temperature History Size (Index):    128 (67)
 
 SCT Error Recovery Control:
            Read:     80 (8.0 seconds)

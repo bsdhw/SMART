@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sat Dec 24 19:17:03 2022 SAST
+Local Time is:    Sat Dec 31 17:12:46 2022 SAST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,12 +66,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    5222
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    835
+  9 Power_On_Hours          -O--CK   100   100   000    -    5248
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    837
 161 Valid_Spare_Block_Cnt   -O--CK   100   100   000    -    0
-162 Unknown_Attribute       -O--CK   100   100   000    -    148454
+162 Unknown_Attribute       -O--CK   100   100   000    -    149151
 163 Initial_Bad_Block_Count -O--CK   100   100   000    -    100
-164 Total_Erase_Count       -O--CK   100   100   000    -    307
+164 Total_Erase_Count       -O--CK   100   100   000    -    309
 166 Min_Erase_Count         -O--CK   100   100   000    -    70
 167 Average_Erase_Count     -O--CK   100   100   050    -    0
 168 Max_Erase_Count_of_Spec -O--CK   100   100   000    -    0
@@ -80,19 +80,19 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 172 Unknown_Attribute       -O--CK   100   100   000    -    0
 174 Unknown_Attribute       -O--CK   100   100   000    -    91
 175 Program_Fail_Count_Chip -O--CK   100   100   000    -    0
-181 Program_Fail_Cnt_Total  -O---K   100   100   000    -    879969452
+181 Program_Fail_Cnt_Total  -O---K   100   100   000    -    879984891
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   100   100   030    -    48
+194 Temperature_Celsius     -O---K   100   100   030    -    45
 195 Hardware_ECC_Recovered  -O-RCK   100   100   000    -    0
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
-206 Unknown_SSD_Attribute   -O--CK   100   100   000    -    238
-207 Unknown_SSD_Attribute   -O--CK   100   100   000    -    328
+206 Unknown_SSD_Attribute   -O--CK   100   100   000    -    239
+207 Unknown_SSD_Attribute   -O--CK   100   100   000    -    329
 232 Available_Reservd_Space -O--CK   100   100   000    -    100
-241 Host_Writes_32MiB       -O--CK   100   100   000    -    6350
-242 Host_Reads_32MiB        -O--CK   100   100   000    -    10148
-249 Unkn_SiliconMotion_Attr -O--CK   100   100   000    -    2506
-250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    11666
+241 Host_Writes_32MiB       -O--CK   100   100   000    -    6398
+242 Host_Reads_32MiB        -O--CK   100   100   000    -    10155
+249 Unkn_SiliconMotion_Attr -O--CK   100   100   000    -    2526
+250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    11723
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -122,7 +122,9 @@ SMART Extended Comprehensive Error Log Version: 1 (2 sectors)
 No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%      5245         -
+# 2  Short offline       Completed without error       00%      5222         -
 
 SMART Selective self-test log data structure revision number 0
 Note: revision number not 1 implies that no selective self-test has ever been run
@@ -159,21 +161,21 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             835  ---  Lifetime Power-On Resets
-0x01  0x010  4            5222  ---  Power-on Hours
-0x01  0x018  6     13318678960  ---  Logical Sectors Written
-0x01  0x020  6       356705409  ---  Number of Write Commands
-0x01  0x028  6     21282606436  ---  Logical Sectors Read
-0x01  0x030  6       445947084  ---  Number of Read Commands
-0x01  0x038  6     18794024651  ---  Date and Time TimeStamp
+0x01  0x008  4             837  ---  Lifetime Power-On Resets
+0x01  0x010  4            5248  ---  Power-on Hours
+0x01  0x018  6     13418198260  ---  Logical Sectors Written
+0x01  0x020  6       358828536  ---  Number of Write Commands
+0x01  0x028  6     21298161171  ---  Logical Sectors Read
+0x01  0x030  6       446287124  ---  Number of Read Commands
+0x01  0x038  6     18888318544  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               1  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            5111  ---  Number of Hardware Resets
+0x06  0x008  4            5163  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              10  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              12  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -183,5 +185,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           10  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           30  Device-to-host register FISes sent due to a COMRESET
 

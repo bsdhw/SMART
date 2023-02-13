@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Aug 30 11:10:07 2020 MSK
+Local Time is:    Sun Aug 30 11:33:47 2020 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,7 +55,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
   9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       214
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       113
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       114
 165 Block_Erase_Count       0x0032   100   100   000    Old_age   Always       -       101
 166 Minimum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       1
 167 Max_Bad_Blocks_per_Die  0x0032   100   100   ---    Old_age   Always       -       0
@@ -65,7 +65,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
 173 Average_PE_Cycles_TLC   0x0032   100   100   000    Old_age   Always       -       1
-174 Unexpected_Power_Loss   0x0032   100   100   000    Old_age   Always       -       13
+174 Unexpected_Power_Loss   0x0032   100   100   000    Old_age   Always       -       14
 184 End-to-End_Error        0x0032   100   100   ---    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       0
@@ -74,9 +74,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 230 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0x001c0014001c
 232 Available_Reservd_Space 0x0033   100   100   005    Pre-fail  Always       -       100
 233 NAND_GB_Written_TLC     0x0032   100   100   ---    Old_age   Always       -       73
-234 NAND_GB_Written_SLC     0x0032   100   100   000    Old_age   Always       -       775
+234 NAND_GB_Written_SLC     0x0032   100   100   000    Old_age   Always       -       777
 241 Host_Writes_GiB         0x0030   100   100   000    Old_age   Offline      -       355
-242 Host_Reads_GiB          0x0030   100   100   000    Old_age   Offline      -       61
+242 Host_Reads_GiB          0x0030   100   100   000    Old_age   Offline      -       62
 244 Temp_Throttle_Status    0x0032   000   100   ---    Old_age   Always       -       0
 
 SMART Error Log Version: 1

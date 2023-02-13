@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Aug 23 07:41:11 2021 PDT
+Local Time is:    Mon Aug 23 08:31:45 2021 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,7 +66,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   200   200   002    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   056   056   001    -    29118
+  9 Power_On_Hours          -O--CK   056   056   001    -    29119
  11 Unknown_SSD_Attribute   -O---K   099   099   001    -    288
  12 Power_Cycle_Count       -O--CK   099   099   001    -    568
 170 Unused_Rsvd_Blk_Ct_Chip PO--CK   100   100   010    -    385
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Uncorrectable_Error_Cnt -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    12885164047
-190 Airflow_Temperature_Cel -O---K   071   042   040    -    29
+190 Airflow_Temperature_Cel -O---K   070   042   040    -    30
 196 Reallocated_Event_Count -O--CK   253   253   001    -    0
 198 Offline_Uncorrectable   ----CK   100   100   001    -    0
 199 CRC_Error_Count         -O---K   100   100   001    -    0
@@ -150,7 +150,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        SCT command executing in background (5)
-Current Temperature:                    29 Celsius
+Current Temperature:                    30 Celsius
 Power Cycle Min/Max Temperature:     28/41 Celsius
 Lifetime    Min/Max Temperature:      0/70 Celsius
 Under/Over Temperature Limit Count:  4294967295/4294901760
@@ -161,7 +161,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/70 Celsius
-Temperature History Size (Index):    128 (104)
+Temperature History Size (Index):    128 (109)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -170,10 +170,11 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x018  6     73287124717  ---  Logical Sectors Written
-0x01  0x028  6     37271485685  ---  Logical Sectors Read
+0x01  0x018  6     73293108893  ---  Logical Sectors Written
+0x01  0x028  6     37271514601  ---  Logical Sectors Read
+0x01  0x1f8  7               -  ---+ Unknown
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              29  ---  Current Temperature
+0x05  0x008  1              30  ---  Current Temperature
 0x05  0x020  1              40  ---  Highest Temperature
 0x05  0x028  1              20  ---  Lowest Temperature
                                 |||_ C monitored condition met

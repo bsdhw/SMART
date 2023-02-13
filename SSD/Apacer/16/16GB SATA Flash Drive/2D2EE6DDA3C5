@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Aug  2 22:32:12 2022 +04
+Local Time is:    Wed Aug  3 17:39:16 2022 +04
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,17 +63,17 @@ SCT capabilities: 	       (0x0039)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--C-   100   100   000    -    7482
+  9 Power_On_Hours          -O--C-   100   100   000    -    7501
  12 Power_Cycle_Count       -O--C-   100   100   000    -    37
 167 SSD_Write_Protect_Mode  -O---K   100   100   000    -    0
-168 SATA_PHY_Err_Ct         -O--C-   100   100   000    -    5
+168 SATA_PHY_Err_Ct         -O--C-   100   100   000    -    10
 175 Bad_Cluster_Table_Count PO--C-   100   100   010    -    0
 192 Unexpect_Power_Loss_Ct  -O--C-   100   100   000    -    26
 194 Temperature_Celsius     PO---K   100   100   000    -    40 (Min/Max 30/60)
-163 Max_Erase_Count         ------   100   100   001    -    1115
-164 Average_Erase_Count     ------   100   100   001    -    1042
+163 Max_Erase_Count         ------   100   100   001    -    1121
+164 Average_Erase_Count     ------   100   100   001    -    1056
 166 Grown_Bad_Block_Count   ------   100   100   010    -    0
-241 Total_LBAs_Written      ------   100   100   000    -    2336580594
+241 Total_LBAs_Written      ------   100   100   000    -    2375172402
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

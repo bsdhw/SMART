@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jan 13 09:44:29 2022 CST
+Local Time is:    Tue Jan 25 11:25:35 2022 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -80,7 +80,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    19
-194 Temperature_Celsius     ------   100   100   000    -    25
+194 Temperature_Celsius     ------   100   100   000    -    26
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0
@@ -88,7 +88,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
 241 Host_Writes_32MiB       ------   100   100   000    -    26697
-242 Host_Reads_32MiB        ------   100   100   000    -    12695
+242 Host_Reads_32MiB        ------   100   100   000    -    12696
 245 TLC_Writes_32MiB        ------   100   100   000    -    51664
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -142,8 +142,8 @@ Page  Offset Size        Value Flags Description
 0x01  0x010  4             327  ---  Power-on Hours
 0x01  0x018  6      1749631832  ---  Logical Sectors Written
 0x01  0x020  6        32616184  ---  Number of Write Commands
-0x01  0x028  6       832007511  ---  Logical Sectors Read
-0x01  0x030  6         7737590  ---  Number of Read Commands
+0x01  0x028  6       832064073  ---  Logical Sectors Read
+0x01  0x030  6         7740452  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
@@ -151,7 +151,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4              19  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            1068  ---  Number of Hardware Resets
+0x06  0x008  4            1086  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

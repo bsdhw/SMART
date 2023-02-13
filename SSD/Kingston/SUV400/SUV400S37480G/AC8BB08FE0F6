@@ -14,7 +14,7 @@ Form Factor:      M.2
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed May  5 02:34:36 2021 CEST
+Local Time is:    Fri Jun 11 00:45:47 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -62,22 +62,22 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   000    Pre-fail  Always       -       1
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       13604
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2751
-100 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       4438976
-101 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       695616
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       14122
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2824
+100 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       4538880
+101 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       712384
 170 Reserved_Block_Count    0x0032   100   100   000    Old_age   Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       1970
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       2025
 175 Program_Fail_Count_Chip 0x0032   100   100   000    Old_age   Always       -       0
 176 Erase_Fail_Count_Chip   0x0032   100   100   000    Old_age   Always       -       0
-177 Wear_Leveling_Count     0x0032   098   098   000    Old_age   Always       -       700
+177 Wear_Leveling_Count     0x0032   098   098   000    Old_age   Always       -       716
 178 Used_Rsvd_Blk_Cnt_Chip  0x0002   100   100   000    Old_age   Always       -       0
 180 Unused_Rsvd_Blk_Cnt_Tot 0x0002   100   100   000    Old_age   Always       -       2570
 183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       8
 187 Reported_Uncorrect      0x0033   100   100   000    Pre-fail  Always       -       0
-194 Temperature_Celsius     0x0022   024   100   000    Old_age   Always       -       24 (Min/Max 7/39)
+194 Temperature_Celsius     0x0022   029   100   000    Old_age   Always       -       29 (Min/Max 7/39)
 195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       1
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
@@ -85,10 +85,10 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 201 Unc_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
 204 Soft_ECC_Correction     0x0032   100   100   000    Old_age   Always       -       1
 231 SSD_Life_Left           0x0032   099   099   000    Old_age   Always       -       1
-233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       5682
-234 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       3495
-241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       4472
-242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       7720
+233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       5805
+234 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       3594
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       4586
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       7794
 250 Read_Retry_Count        0x0032   100   100   000    Old_age   Always       -       1
 
 SMART Error Log Version: 0

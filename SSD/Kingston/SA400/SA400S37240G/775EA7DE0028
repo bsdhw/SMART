@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p16-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Phison Driven SSDs
@@ -12,10 +12,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun May 23 21:57:32 2021 CEST
+Local Time is:    Wed Nov 30 22:08:10 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,8 +63,8 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    8604
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    1161
+  9 Power_On_Hours          -O--CK   100   100   000    -    21916
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    1194
 148 Unknown_Attribute       ------   255   255   000    -    0
 149 Unknown_Attribute       ------   255   255   000    -    0
 167 Write_Protect_Mode      ------   100   100   000    -    0
@@ -72,22 +72,22 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 169 Bad_Block_Rate          ------   100   100   000    -    26
 170 Bad_Blk_Ct_Erl/Lat      ------   100   100   010    -    0/18
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-173 MaxAvgErase_Ct          ------   100   100   000    -    158 (Average 97)
+173 MaxAvgErase_Ct          ------   100   100   000    -    372 (Average 350)
 181 Program_Fail_Count      -O--CK   100   100   000    -    0
 182 Erase_Fail_Count        ------   255   255   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-192 Unsafe_Shutdown_Count   -O--C-   100   100   000    -    468
-194 Temperature_Celsius     -O---K   066   059   000    -    34 (Min/Max 15/41)
+192 Unsafe_Shutdown_Count   -O--C-   100   100   000    -    499
+194 Temperature_Celsius     -O---K   068   059   000    -    32 (Min/Max 15/41)
 196 Reallocated_Event_Count ------   100   100   000    -    0
 199 SATA_CRC_Error_Count    -O--CK   100   100   000    -    0
 218 CRC_Error_Count         ------   100   100   000    -    0
-231 SSD_Life_Left           PO--C-   100   100   000    -    90
-233 Flash_Writes_GiB        PO--C-   100   100   000    -    18751
-241 Lifetime_Writes_GiB     -O--C-   100   100   000    -    14205
-242 Lifetime_Reads_GiB      -O--C-   100   100   000    -    5266
-244 Average_Erase_Count     ------   100   100   000    -    97
-245 Max_Erase_Count         ------   100   100   000    -    158
-246 Total_Erase_Count       ------   100   100   000    -    745104
+231 SSD_Life_Left           PO--C-   100   100   000    -    65
+233 Flash_Writes_GiB        PO--C-   100   100   000    -    75361
+241 Lifetime_Writes_GiB     -O--C-   100   100   000    -    59271
+242 Lifetime_Reads_GiB      -O--C-   100   100   000    -    6744
+244 Average_Erase_Count     ------   100   100   000    -    350
+245 Max_Erase_Count         ------   100   100   000    -    372
+246 Total_Erase_Count       ------   100   100   000    -    2666864
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -141,20 +141,20 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1161  ---  Lifetime Power-On Resets
-0x01  0x010  4            8604  ---  Power-on Hours
-0x01  0x018  6     29791226546  ---  Logical Sectors Written
-0x01  0x028  6     11045569524  ---  Logical Sectors Read
+0x01  0x008  4            1194  ---  Lifetime Power-On Resets
+0x01  0x010  4           21916  ---  Power-on Hours
+0x01  0x018  6    124301689290  ---  Logical Sectors Written
+0x01  0x028  6     14144019798  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              34  ---  Current Temperature
+0x05  0x008  1              32  ---  Current Temperature
 0x05  0x020  1              41  ---  Highest Temperature
 0x05  0x028  1              15  ---  Lowest Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               9  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              35  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -169,8 +169,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           14  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           15  Device-to-host register FISes sent due to a COMRESET
+0x0009  4            4  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            5  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

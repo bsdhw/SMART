@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p3 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,19 +13,14 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jan 18 10:04:40 2023 CET
+Local Time is:    Wed Jan 18 11:08:39 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
-AAM feature is:   Unavailable
-APM feature is:   Unavailable
-Rd look-ahead is: Enabled
-Write cache is:   Enabled
-DSN feature is:   Unavailable
-ATA Security is:  Disabled, frozen [SEC2]
-Wt Cache Reorder: Enabled
 
 === START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x82)	Offline data collection activity
@@ -63,67 +58,34 @@ SCT capabilities: 	       (0x303f)	SCT Status supported.
 
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
-ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   118   099   006    -    200802392
-  3 Spin_Up_Time            PO----   100   098   000    -    0
-  4 Start_Stop_Count        -O--CK   099   099   020    -    1434
-  5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   078   060   030    -    8753086255
-  9 Power_On_Hours          -O--CK   084   084   000    -    14830
- 10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   099   099   020    -    1419
-183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
-184 End-to-End_Error        -O--CK   100   100   099    -    0
-187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-188 Command_Timeout         -O--CK   100   099   000    -    0 0 2
-189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   066   055   045    -    34 (Min/Max 19/34)
-194 Temperature_Celsius     -O---K   034   045   000    -    34 (0 12 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   044   030   000    -    200802392
-197 Current_Pending_Sector  -O--C-   100   100   000    -    0
-198 Offline_Uncorrectable   ----C-   100   100   000    -    0
-199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    14839h+12m+05.888s
-241 Total_LBAs_Written      ------   100   253   000    -    3347287930
-242 Total_LBAs_Read         ------   100   253   000    -    1049402595
-                            ||||||_ K auto-keep
-                            |||||__ C event count
-                            ||||___ R error rate
-                            |||____ S speed/performance
-                            ||_____ O updated online
-                            |______ P prefailure warning
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   119   099   006    Pre-fail  Always       -       216633384
+  3 Spin_Up_Time            0x0003   100   098   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1437
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   078   060   030    Pre-fail  Always       -       8753131161
+  9 Power_On_Hours          0x0032   084   084   000    Old_age   Always       -       14831
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1422
+183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       0 0 2
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   065   055   045    Old_age   Always       -       35 (Min/Max 35/36)
+194 Temperature_Celsius     0x0022   035   045   000    Old_age   Always       -       35 (0 12 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   045   030   000    Old_age   Always       -       216633384
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       14840h+00m+52.349s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       1640819791
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       1176493781
 
-General Purpose Log Directory Version 1
-SMART           Log Directory Version 1 [multi-sector log support]
-Address    Access  R/W   Size  Description
-0x00       GPL,SL  R/O      1  Log Directory
-0x01           SL  R/O      1  Summary SMART error log
-0x02           SL  R/O      5  Comprehensive SMART error log
-0x03       GPL     R/O      5  Ext. Comprehensive SMART error log
-0x06           SL  R/O      1  SMART self-test log
-0x07       GPL     R/O      1  Extended self-test log
-0x09           SL  R/W      1  Selective self-test log
-0x10       GPL     R/O      1  NCQ Command Error log
-0x11       GPL     R/O      1  SATA Phy Event Counters log
-0x21       GPL     R/O      1  Write stream error log
-0x22       GPL     R/O      1  Read stream error log
-0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
-0xa1       GPL,SL  VS      20  Device vendor specific log
-0xa2       GPL     VS    2248  Device vendor specific log
-0xa8       GPL,SL  VS     129  Device vendor specific log
-0xa9       GPL,SL  VS       1  Device vendor specific log
-0xab       GPL     VS       1  Device vendor specific log
-0xb0       GPL     VS    2928  Device vendor specific log
-0xbd       GPL     VS     252  Device vendor specific log
-0xbe-0xbf  GPL     VS   65535  Device vendor specific log
-0xc0       GPL,SL  VS       1  Device vendor specific log
-0xe0       GPL,SL  R/W      1  SCT Command/Status
-0xe1       GPL,SL  R/W      1  SCT Data Transfer
-
-SMART Extended Comprehensive Error Log Version: 1 (5 sectors)
+SMART Error Log Version: 1
 No Errors Logged
 
-SMART Extended Self-test Log Version: 1 (1 sectors)
+SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
 # 1  Short offline       Completed without error       00%     14669         -
 # 2  Short offline       Completed without error       00%     14669         -
@@ -140,35 +102,5 @@ Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
 
-SCT Status Version:                  3
-SCT Version (vendor specific):       522 (0x020a)
-Device State:                        Active (0)
-Current Temperature:                    34 Celsius
-Power Cycle Min/Max Temperature:     19/34 Celsius
-Lifetime    Min/Max Temperature:     12/44 Celsius
-Under/Over Temperature Limit Count:   0/0
 
-SCT Temperature History Version:     2
-Temperature Sampling Period:         1 minute
-Temperature Logging Interval:        59 minutes
-Min/Max recommended Temperature:     14/55 Celsius
-Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (52)
-
-SCT Error Recovery Control:
-           Read: Disabled
-          Write: Disabled
-
-Device Statistics (GP/SMART Log 0x04) not supported
-
-Pending Defects log (GP Log 0x0c) not supported
-
-SATA Phy Event Counters (GP Log 0x11)
-ID      Size     Value  Description
-0x000a  2            3  Device-to-host register FISes sent due to a COMRESET
-0x0001  2            0  Command failed due to ICRC error
-0x0003  2            0  R_ERR response for device-to-host data FIS
-0x0004  2            0  R_ERR response for host-to-device data FIS
-0x0006  2            0  R_ERR response for device-to-host non-data FIS
-0x0007  2            0  R_ERR response for host-to-device non-data FIS
 

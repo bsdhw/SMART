@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RC2 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Apr 11 10:54:03 2022 MDT
+Local Time is:    Fri Apr 15 10:43:35 2022 MDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,29 +62,29 @@ SCT capabilities: 	       (0x1085)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   082   063   006    -    195765325
+  1 Raw_Read_Error_Rate     POSR--   083   063   006    -    227460426
   3 Spin_Up_Time            PO----   097   096   000    -    0
-  4 Start_Stop_Count        -O--CK   098   098   020    -    2660
+  4 Start_Stop_Count        -O--CK   098   098   020    -    2692
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   068   060   045    -    7279768
-  9 Power_On_Hours          -O--CK   095   095   000    -    5024
+  7 Seek_Error_Rate         POSR--   068   060   045    -    7305614
+  9 Power_On_Hours          -O--CK   095   095   000    -    5102
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   020    -    196
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    228
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    0 0 0
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   075   059   040    -    25 (Min/Max 25/32)
-193 Load_Cycle_Count        -O--CK   099   099   000    -    2834
-194 Temperature_Celsius     -O---K   025   003   000    -    25 (0 3 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   007   001   000    -    195765325
+190 Airflow_Temperature_Cel -O---K   071   059   040    -    29 (Min/Max 29/31)
+193 Load_Cycle_Count        -O--CK   099   099   000    -    2866
+194 Temperature_Celsius     -O---K   029   003   000    -    29 (0 3 0 0 0)
+195 Hardware_ECC_Recovered  -O-RC-   008   001   000    -    227460426
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    3525h+17m+15.014s
-241 Total_LBAs_Written      ------   100   253   000    -    2773338637
-242 Total_LBAs_Read         ------   100   253   000    -    3319223872
+240 Head_Flying_Hours       ------   100   253   000    -    3594h+28m+45.172s
+241 Total_LBAs_Written      ------   100   253   000    -    2803819431
+242 Total_LBAs_Read         ------   100   253   000    -    3320438179
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -127,25 +127,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Aborted by host               90%      5011         -
-# 2  Short offline       Aborted by host               90%      5011         -
-# 3  Short offline       Aborted by host               80%      5011         -
-# 4  Short offline       Completed without error       00%      5011         -
-# 5  Short offline       Interrupted (host reset)      90%      4339         -
-# 6  Short offline       Interrupted (host reset)      90%      4339         -
-# 7  Short offline       Completed without error       00%      4338         -
-# 8  Short offline       Interrupted (host reset)      90%      4332         -
-# 9  Short offline       Completed without error       00%      4332         -
-#10  Short offline       Interrupted (host reset)      70%      4331         -
-#11  Short offline       Interrupted (host reset)      90%      4326         -
-#12  Short offline       Interrupted (host reset)      90%      4326         -
-#13  Short offline       Completed without error       00%      4326         -
-#14  Short offline       Completed without error       00%      3947         -
-#15  Short offline       Completed without error       00%      3653         -
-#16  Short offline       Aborted by host               90%      3378         -
-#17  Short offline       Aborted by host               90%      3378         -
-#18  Short offline       Aborted by host               90%      3377         -
-#19  Short offline       Aborted by host               90%      3377         -
+# 1  Short offline       Interrupted (host reset)      90%      5034         -
+# 2  Short offline       Aborted by host               40%      5034         -
+# 3  Short offline       Aborted by host               90%      5011         -
+# 4  Short offline       Aborted by host               90%      5011         -
+# 5  Short offline       Aborted by host               80%      5011         -
+# 6  Short offline       Completed without error       00%      5011         -
+# 7  Short offline       Interrupted (host reset)      90%      4339         -
+# 8  Short offline       Interrupted (host reset)      90%      4339         -
+# 9  Short offline       Completed without error       00%      4338         -
+#10  Short offline       Interrupted (host reset)      90%      4332         -
+#11  Short offline       Completed without error       00%      4332         -
+#12  Short offline       Interrupted (host reset)      70%      4331         -
+#13  Short offline       Interrupted (host reset)      90%      4326         -
+#14  Short offline       Interrupted (host reset)      90%      4326         -
+#15  Short offline       Completed without error       00%      4326         -
+#16  Short offline       Completed without error       00%      3947         -
+#17  Short offline       Completed without error       00%      3653         -
+#18  Short offline       Aborted by host               90%      3378         -
+#19  Short offline       Aborted by host               90%      3378         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -161,8 +161,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    25 Celsius
-Power Cycle Min/Max Temperature:     23/32 Celsius
+Current Temperature:                    29 Celsius
+Power Cycle Min/Max Temperature:     29/31 Celsius
 Lifetime    Min/Max Temperature:      2/41 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -173,17 +173,17 @@ SCT Error Recovery Control command not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             196  ---  Lifetime Power-On Resets
-0x01  0x010  4            5024  ---  Power-on Hours
-0x01  0x018  6      2858524685  ---  Logical Sectors Written
-0x01  0x020  6        10943282  ---  Number of Write Commands
-0x01  0x028  6      3319322836  ---  Logical Sectors Read
-0x01  0x030  6        17760036  ---  Number of Read Commands
+0x01  0x008  4             228  ---  Lifetime Power-On Resets
+0x01  0x010  4            5102  ---  Power-on Hours
+0x01  0x018  6      2889005479  ---  Logical Sectors Written
+0x01  0x020  6        10980720  ---  Number of Write Commands
+0x01  0x028  6      3320537143  ---  Logical Sectors Read
+0x01  0x030  6        17784537  ---  Number of Read Commands
 0x01  0x038  6               -  ---  Date and Time TimeStamp
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4            3565  ---  Spindle Motor Power-on Hours
-0x03  0x010  4            2714  ---  Head Flying Hours
-0x03  0x018  4            2834  ---  Head Load Events
+0x03  0x008  4            3643  ---  Spindle Motor Power-on Hours
+0x03  0x010  4            2793  ---  Head Flying Hours
+0x03  0x018  4            2866  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures
@@ -192,9 +192,9 @@ Page  Offset Size        Value Flags Description
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              25  ---  Current Temperature
-0x05  0x010  1              27  ---  Average Short Term Temperature
-0x05  0x018  1              30  ---  Average Long Term Temperature
+0x05  0x008  1              29  ---  Current Temperature
+0x05  0x010  1              28  ---  Average Short Term Temperature
+0x05  0x018  1              29  ---  Average Long Term Temperature
 0x05  0x020  1              41  ---  Highest Temperature
 0x05  0x028  1              14  ---  Lowest Temperature
 0x05  0x030  1              37  ---  Highest Average Short Term Temperature
@@ -213,7 +213,7 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x000a  2           97  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           11  Device-to-host register FISes sent due to a COMRESET
 0x0001  2            0  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS

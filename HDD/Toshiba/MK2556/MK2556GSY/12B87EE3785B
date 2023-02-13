@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Dec 20 16:02:18 2021 CET
+Local Time is:    Mon Dec 20 16:09:36 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,24 +59,24 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000f   100   100   050    Pre-fail  Always       -       0
   2 Throughput_Performance  0x0007   100   100   050    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0003   100   100   002    Pre-fail  Always       -       1251
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       1681
+  3 Spin_Up_Time            0x0003   100   100   002    Pre-fail  Always       -       1279
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       1682
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000f   100   100   050    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
   9 Power_On_Minutes        0x0032   094   094   000    Old_age   Always       -       43h+24m
  10 Spin_Retry_Count        0x0013   133   100   030    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1666
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1667
 183 Runtime_Bad_Block       0x0022   100   100   001    Old_age   Always       -       33
 184 End-to-End_Error        0x0033   100   100   097    Pre-fail  Always       -       0
 185 Unknown_Attribute       0x0032   100   100   001    Old_age   Always       -       65535
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
 189 High_Fly_Writes         0x003a   100   100   001    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0022   064   057   045    Old_age   Always       -       36 (Min/Max 33/36)
+190 Airflow_Temperature_Cel 0x0022   064   057   045    Old_age   Always       -       36 (Min/Max 35/36)
 191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       635
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1638425
-193 Load_Cycle_Count        0x0032   099   099   000    Old_age   Always       -       12742
+193 Load_Cycle_Count        0x0032   099   099   000    Old_age   Always       -       12745
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0

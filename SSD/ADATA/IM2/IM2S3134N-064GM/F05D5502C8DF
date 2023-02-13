@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jun  1 23:26:09 2021 CDT
+Local Time is:    Mon Jun 14 16:31:24 2021 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -29,8 +29,8 @@ Wt Cache Reorder: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Disabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -69,25 +69,25 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    13101
+  9 Power_On_Hours          -O--C-   100   100   000    -    13405
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
  12 Power_Cycle_Count       -O--C-   100   100   000    -    48
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    0
 170 Unknown_Attribute       PO--C-   100   100   010    -    0
-173 Unknown_Attribute       -O--C-   168   168   000    -    4326097246
+173 Unknown_Attribute       -O--C-   168   168   000    -    4326293856
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO--CK   100   100   020    -    556
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    37
-194 Temperature_Celsius     -O---K   051   051   030    -    49 (Min/Max 48/51)
+194 Temperature_Celsius     -O---K   050   050   030    -    50 (Min/Max 47/52)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 231 Unknown_SSD_Attribute   PO--CK   089   089   005    -    11
-233 Media_Wearout_Indicator -O--CK   100   100   000    -    46480649472
-234 Unknown_Attribute       -O--CK   100   100   000    -    61308513152
+233 Media_Wearout_Indicator -O--CK   100   100   000    -    46716717056
+234 Unknown_Attribute       -O--CK   100   100   000    -    61423146112
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-241 Total_LBAs_Written      -O--CK   100   100   000    -    16395864569
-242 Total_LBAs_Read         -O--CK   100   100   000    -    1207625586
+241 Total_LBAs_Written      -O--CK   100   100   000    -    16546279209
+242 Total_LBAs_Read         -O--CK   100   100   000    -    1210850434
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -142,7 +142,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -127/127 Celsius
 Min/Max Temperature Limit:           -127/127 Celsius
-Temperature History Size (Index):    478 (281)
+Temperature History Size (Index):    478 (370)
 
 SCT Error Recovery Control:
            Read:     70 (7.0 seconds)
@@ -152,11 +152,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4              48  ---  Lifetime Power-On Resets
-0x01  0x018  6     16395864569  ---  Logical Sectors Written
-0x01  0x020  6       362496930  ---  Number of Write Commands
-0x01  0x028  6      1207625586  ---  Logical Sectors Read
-0x01  0x030  6         5512191  ---  Number of Read Commands
-0x01  0x038  6     47163600000  ---  Date and Time TimeStamp
+0x01  0x018  6     16546279209  ---  Logical Sectors Written
+0x01  0x020  6       364787700  ---  Number of Write Commands
+0x01  0x028  6      1210850434  ---  Logical Sectors Read
+0x01  0x030  6         5573389  ---  Number of Read Commands
+0x01  0x038  6     48258000000  ---  Date and Time TimeStamp
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              19  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

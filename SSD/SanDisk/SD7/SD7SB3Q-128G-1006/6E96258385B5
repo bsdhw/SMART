@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p14-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     SanDisk SD7SB3Q-128G-1006
@@ -11,10 +11,10 @@ Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Mar 26 17:51:56 2021 NZDT
+Local Time is:    Fri May  6 18:39:52 2022 NZST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,18 +66,18 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   252   252   002    -    0
   5 Reallocated_Sector_Ct   PO--CK   252   252   005    -    0
-  9 Power_On_Hours          -O--CK   061   061   ---    -    17236
- 12 Power_Cycle_Count       -O--CK   252   252   ---    -    174
+  9 Power_On_Hours          -O--CK   056   056   ---    -    19324
+ 12 Power_Cycle_Count       -O--CK   252   252   ---    -    208
 170 Unknown_Attribute       PO--CK   100   100   010    -    0
 171 Unknown_Attribute       -O---K   100   100   ---    -    0
 172 Unknown_Attribute       -O--CK   100   100   ---    -    0
-173 Unknown_Attribute       PO--CK   093   093   005    -    974982807605
-174 Unknown_Attribute       -O--CK   252   252   ---    -    99
+173 Unknown_Attribute       PO--CK   089   089   005    -    1486091518007
+174 Unknown_Attribute       -O--CK   252   252   ---    -    131
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
 188 Command_Timeout         -O--CK   100   099   ---    -    2
-190 Airflow_Temperature_Cel -O---K   065   028   045    Past 35
+190 Airflow_Temperature_Cel -O---K   067   028   045    Past 33
 196 Reallocated_Event_Count -O--CK   252   252   ---    -    0
 199 UDMA_CRC_Error_Count    -O---K   100   100   ---    -    0
 244 Unknown_Attribute       -O--CK   000   100   ---    -    0
@@ -129,10 +129,10 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       257 (0x0101)
 Device State:                        Active (0)
-Current Temperature:                    35 Celsius
-Power Cycle Min/Max Temperature:     27/45 Celsius
-Lifetime    Min/Max Temperature:     27/45 Celsius
-Specified Max Operating Temperature:    35 Celsius
+Current Temperature:                    32 Celsius
+Power Cycle Min/Max Temperature:     23/41 Celsius
+Lifetime    Min/Max Temperature:     23/41 Celsius
+Specified Max Operating Temperature:    32 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -143,7 +143,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -10/70 Celsius
 Min/Max Temperature Limit:           -15/90 Celsius
-Temperature History Size (Index):    256 (251)
+Temperature History Size (Index):    256 (74)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -152,13 +152,13 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             174  ---  Lifetime Power-On Resets
-0x01  0x018  6    464934593386  ---  Logical Sectors Written
-0x01  0x020  6        68451882  ---  Number of Write Commands
-0x01  0x028  6    942817834238  ---  Logical Sectors Read
-0x01  0x030  6        47772861  ---  Number of Read Commands
+0x01  0x008  4             208  ---  Lifetime Power-On Resets
+0x01  0x018  6    522619729071  ---  Logical Sectors Written
+0x01  0x020  6        74286580  ---  Number of Write Commands
+0x01  0x028  6   1012597741784  ---  Logical Sectors Read
+0x01  0x030  6        48886475  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               7  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              11  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -170,7 +170,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4           36  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           18  Device-to-host register FISes sent due to a COMRESET
 
 
 

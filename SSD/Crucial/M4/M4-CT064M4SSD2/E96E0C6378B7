@@ -14,14 +14,12 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed May  5 02:34:36 2021 CEST
+Local Time is:    Fri Jun 11 00:45:48 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
 === START OF READ SMART DATA SECTION ===
-SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
-Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -62,14 +60,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   100   100   001    Old_age   Always       -       18179
- 12 Power_Cycle_Count       0x0032   100   100   001    Old_age   Always       -       3881
+  9 Power_On_Hours          0x0032   100   100   001    Old_age   Always       -       18683
+ 12 Power_Cycle_Count       0x0032   100   100   001    Old_age   Always       -       3980
 170 Grown_Failing_Block_Ct  0x0033   100   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   001    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   001    Old_age   Always       -       0
 173 Wear_Leveling_Count     0x0033   097   097   010    Pre-fail  Always       -       104
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   001    Old_age   Always       -       1456
-181 Non4k_Aligned_Access    0x0022   100   100   001    Old_age   Always       -       936 217 719
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   001    Old_age   Always       -       1512
+181 Non4k_Aligned_Access    0x0022   100   100   001    Old_age   Always       -       938 217 721
 183 SATA_Iface_Downshift    0x0032   100   100   001    Old_age   Always       -       0
 184 End-to-End_Error        0x0033   100   100   050    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   001    Old_age   Always       -       0
@@ -153,6 +151,4 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
-
-
 

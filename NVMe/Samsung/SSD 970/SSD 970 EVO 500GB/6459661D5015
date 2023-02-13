@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p4 amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-STABLE amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -16,7 +16,7 @@ Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Utilization:            0
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Fri Sep 10 14:43:55 2021 MDT
+Local Time is:                      Fri Sep 10 20:40:46 2021 MDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,24 +42,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        28 Celsius
+Temperature:                        30 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    299 [153 MB]
+Data Units Read:                    317 [162 MB]
 Data Units Written:                 0
-Host Read Commands:                 44,124
+Host Read Commands:                 49,213
 Host Write Commands:                0
 Controller Busy Time:               0
-Power Cycles:                       51
-Power On Hours:                     12
-Unsafe Shutdowns:                   18
+Power Cycles:                       55
+Power On Hours:                     14
+Unsafe Shutdowns:                   19
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      78
+Error Information Log Entries:      85
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               28 Celsius
-Temperature Sensor 2:               34 Celsius
+Temperature Sensor 1:               30 Celsius
+Temperature Sensor 2:               36 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

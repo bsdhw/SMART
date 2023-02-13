@@ -12,7 +12,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 4a
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Mar 27 04:03:30 2021 CDT
+Local Time is:    Sat Mar 27 05:16:16 2021 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,19 +66,19 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   9 Power_On_Hours          -O----   100   100   000    -    18986
  12 Power_Cycle_Count       PO----   100   100   000    -    62
 173 Unknown_Attribute       PO----   100   100   000    -    28
-177 Wear_Leveling_Count     PO----   100   100   000    -    29497
+177 Wear_Leveling_Count     PO----   100   100   000    -    29518
 178 Used_Rsvd_Blk_Cnt_Chip  PO----   100   100   000    -    0
 181 Program_Fail_Cnt_Total  PO----   100   100   000    -    0
 182 Erase_Fail_Count_Total  PO----   100   100   000    -    0
 187 Reported_Uncorrect      PO----   100   100   000    -    0
 192 Power-Off_Retract_Count PO----   100   100   000    -    53
-194 Temperature_Celsius     PO----   100   100   000    -    36
+194 Temperature_Celsius     PO----   100   100   000    -    28
 196 Reallocated_Event_Count PO----   100   100   000    -    0
 198 Offline_Uncorrectable   PO----   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO----   100   100   000    -    0
 232 Available_Reservd_Space PO----   100   100   010    -    0
-241 Total_LBAs_Written      PO----   100   100   000    -    48149
-242 Total_LBAs_Read         PO----   100   100   000    -    187645
+241 Total_LBAs_Written      PO----   100   100   000    -    48198
+242 Total_LBAs_Read         PO----   100   100   000    -    187648
 244 Unknown_Attribute       PO----   100   100   000    -    113
 245 Unknown_Attribute       PO----   100   100   000    -    0
                             ||||||_ K auto-keep

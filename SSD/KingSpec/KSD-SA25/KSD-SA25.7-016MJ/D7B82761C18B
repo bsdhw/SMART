@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p13-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Feb 18 16:36:49 2021 EST
+Local Time is:    Tue Oct 19 00:11:23 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,14 +62,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    11323
+  9 Power_On_Hours          -O--C-   100   100   000    -    14211
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    117
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    134
 167 Unknown_Attribute       -O---K   100   100   000    -    0
-168 Unknown_Attribute       -O--C-   100   100   000    -    5
+168 Unknown_Attribute       -O--C-   100   100   000    -    2
 169 Unknown_Attribute       PO--C-   100   100   010    -    131072
 170 Unknown_Attribute       PO--C-   100   100   010    -    0
-173 Unknown_Attribute       -O--C-   121   121   000    -    128321379
+173 Unknown_Attribute       -O--C-   061   061   000    -    226561352
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    0
 194 Temperature_Celsius     PO---K   100   100   030    -    40 (Min/Max 30/60)

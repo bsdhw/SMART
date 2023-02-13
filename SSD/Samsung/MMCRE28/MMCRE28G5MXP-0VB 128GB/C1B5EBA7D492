@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p14-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p21-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Mon Mar 15 04:46:40 2021 CET
+Local Time is:    Mon Dec  6 20:56:07 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -57,23 +57,23 @@ recommended polling time: 	 (  24) minutes.
 SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--CK   090   090   000    -    47953
- 12 Power_Cycle_Count       -O--CK   098   098   000    -    1437
-175 Program_Fail_Count_Chip -O--CK   090   090   010    -    6
+  9 Power_On_Hours          -O--CK   089   089   000    -    54305
+ 12 Power_Cycle_Count       -O--CK   098   098   000    -    1476
+175 Program_Fail_Count_Chip -O--CK   086   086   010    -    8
 176 Erase_Fail_Count_Chip   -O--CK   100   100   010    -    0
-177 Wear_Leveling_Count     PO--C-   085   085   017    -    881
-178 Used_Rsvd_Blk_Cnt_Chip  PO--C-   055   055   010    -    27
-179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   097   097   010    -    98
-180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   097   097   010    -    3742
-181 Program_Fail_Cnt_Total  -O--CK   099   099   010    -    6
+177 Wear_Leveling_Count     PO--C-   083   083   017    -    1011
+178 Used_Rsvd_Blk_Cnt_Chip  PO--C-   052   052   010    -    29
+179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   097   097   010    -    100
+180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   097   097   010    -    3740
+181 Program_Fail_Cnt_Total  -O--CK   099   099   010    -    8
 182 Erase_Fail_Count_Total  -O--CK   100   100   010    -    0
-183 Runtime_Bad_Block       PO--C-   099   099   010    -    6
+183 Runtime_Bad_Block       PO--C-   099   099   010    -    8
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 195 Hardware_ECC_Recovered  -O-RC-   200   200   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   253   253   000    -    0
-232 Available_Reservd_Space PO--C-   055   055   010    -    33
-233 Media_Wearout_Indicator -O--CK   099   099   000    -    7894420
+232 Available_Reservd_Space PO--C-   052   052   010    -    31
+233 Media_Wearout_Indicator -O--CK   099   099   000    -    7997216
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -128,8 +128,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2            2  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            2  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            5  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            5  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Jun  3 11:38:02 2020 EDT
+Local Time is:    Wed Jun  3 13:19:54 2020 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -65,13 +65,13 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   5 Reallocated_Sector_Ct   0x0033   100   100   ---    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   ---    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   100   100   ---    Pre-fail  Offline      -       40
-  9 Power_On_Hours          0x0012   044   044   ---    Old_age   Always       -       24550
+  9 Power_On_Hours          0x0012   044   044   ---    Old_age   Always       -       24552
  10 Spin_Retry_Count        0x0013   100   100   ---    Pre-fail  Always       -       0
  12 Power_Cycle_Count       0x0032   098   098   ---    Old_age   Always       -       3780
 191 G-Sense_Error_Rate      0x000a   100   100   ---    Old_age   Always       -       0
 192 Power-Off_Retract_Count 0x0032   100   100   ---    Old_age   Always       -       51
 193 Load_Cycle_Count        0x0012   049   049   ---    Old_age   Always       -       510887
-194 Temperature_Celsius     0x0002   193   193   ---    Old_age   Always       -       31 (Min/Max 20/51)
+194 Temperature_Celsius     0x0002   187   187   ---    Old_age   Always       -       32 (Min/Max 20/51)
 196 Reallocated_Event_Count 0x0032   100   100   ---    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0022   100   100   ---    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0008   100   100   ---    Old_age   Offline      -       0

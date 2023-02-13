@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Sep 29 14:43:55 2021 UTC
+Local Time is:    Wed Sep 29 15:09:39 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,12 +62,12 @@ SCT capabilities: 	       (0x1085)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   113   099   006    -    55847544
+  1 Raw_Read_Error_Rate     POSR--   113   099   006    -    56078920
   3 Spin_Up_Time            PO----   097   097   000    -    0
   4 Start_Stop_Count        -O--CK   096   096   020    -    4267
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   066   060   030    -    5114635
-  9 Power_On_Hours          -O--CK   093   093   000    -    6800
+  7 Seek_Error_Rate         POSR--   066   060   030    -    5121359
+  9 Power_On_Hours          -O--CK   093   093   000    -    6801
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   100   020    -    8
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
@@ -83,9 +83,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    6198h+25m+25.513s
-241 Total_LBAs_Written      ------   100   253   000    -    6812965142
-242 Total_LBAs_Read         ------   100   253   000    -    744876765527
+240 Head_Flying_Hours       ------   100   253   000    -    6198h+51m+09.245s
+241 Total_LBAs_Written      ------   100   253   000    -    6814545766
+242 Total_LBAs_Read         ------   100   253   000    -    744876767415
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

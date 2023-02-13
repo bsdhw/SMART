@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       SAMSUNG MZVKW512HMJP-000H1
@@ -13,10 +13,10 @@ Controller ID:                      2
 NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
-Namespace 1 Utilization:            51,853,885,440 [51.8 GB]
+Namespace 1 Utilization:            172,359,491,584 [172 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sat Jul 16 08:43:32 2022 CEST
+Local Time is:                      Sun Jul 17 04:15:51 2022 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -45,38 +45,38 @@ Temperature:                        38 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    2%
-Data Units Read:                    102,866,247 [52.6 TB]
-Data Units Written:                 52,676,631 [26.9 TB]
-Host Read Commands:                 5,433,426,829
-Host Write Commands:                881,874,139
-Controller Busy Time:               6,665
-Power Cycles:                       503
-Power On Hours:                     14,080
-Unsafe Shutdowns:                   66
+Data Units Read:                    103,129,580 [52.8 TB]
+Data Units Written:                 53,185,925 [27.2 TB]
+Host Read Commands:                 5,436,874,328
+Host Write Commands:                888,529,310
+Controller Busy Time:               6,675
+Power Cycles:                       516
+Power On Hours:                     14,095
+Unsafe Shutdowns:                   72
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      599
+Error Information Log Entries:      717
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               38 Celsius
-Temperature Sensor 2:               56 Celsius
+Temperature Sensor 2:               59 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0        599     0  0x0018  0x421a  0x028            0     0     -
-  1        598     0  0x0016  0x4212  0x028            0     0     -
-  2        597     0  0x0018  0x421a  0x028            0     0     -
-  3        596     0  0x0016  0x4212  0x028            0     0     -
-  4        595     0  0x0019  0x4212  0x028            0     -     -
-  5        594     0  0x0018  0x421a  0x028            0     0     -
-  6        593     0  0x0016  0x4212  0x028            0     0     -
-  7        592     0  0x00d9  0x4212  0x028            0     -     -
-  8        591     0  0x0019  0x4212  0x028            0     -     -
-  9        590     0  0x001f  0x4004  0x02c            0     0     -
- 10        589     0  0x001e  0x4004  0x02c            0     0     -
- 11        588     0  0x001c  0x4212  0x028            0     -     -
- 12        587     0  0x0018  0x421a  0x028            0     0     -
- 13        586     0  0x0016  0x4212  0x028            0     0     -
- 14        585     0  0x001f  0x4004  0x02c            0     0     -
- 15        584     0  0x001e  0x4004  0x02c            0     0     -
+  0        717     0  0x0022  0x421a  0x028            0     0     -
+  1        716     0  0x0020  0x4212  0x028            0     0     -
+  2        715     0  0x0026  0x421a  0x028            0     0     -
+  3        714     0  0x0024  0x4212  0x028            0     0     -
+  4        713     0  0x0021  0x4016  0x004            0     1     -
+  5        712     0  0x0022  0x421a  0x028            0     0     -
+  6        711     0  0x0020  0x4212  0x028            0     0     -
+  7        710     0  0x0022  0x421a  0x028            0     0     -
+  8        709     0  0x0020  0x4212  0x028            0     0     -
+  9        708     0  0x0022  0x421a  0x028            0     0     -
+ 10        707     0  0x0020  0x4212  0x028            0     0     -
+ 11        706     0  0x0022  0x421a  0x028            0     0     -
+ 12        705     0  0x0020  0x4212  0x028            0     0     -
+ 13        704     0  0x0022  0x421a  0x028            0     0     -
+ 14        703     0  0x0020  0x4212  0x028            0     0     -
+ 15        702     0  0x0022  0x421a  0x028            0     0     -
 ... (48 entries not read)
 

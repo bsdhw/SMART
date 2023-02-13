@@ -13,7 +13,7 @@ TRIM Command:     Unavailable
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 24 13:07:47 2022 UTC
+Local Time is:    Mon Oct 24 13:17:56 2022 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,9 +65,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   000   000   000    -    2199023255552
 197 Current_Pending_Sector  ------   000   000   000    -    0
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
-225 Unknown_SSD_Attribute   ------   000   080   000    -    636546
+225 Unknown_SSD_Attribute   ------   000   103   000    -    637073
 170 Unknown_Attribute       PO----   100   100   ---    -    983040
-173 Unknown_Attribute       -O----   100   100   ---    -    14286961
+173 Unknown_Attribute       -O----   100   100   ---    -    14418033
 229 Unknown_Attribute       -O----   100   100   ---    -    88470212370072
 236 Unknown_Attribute       -O----   100   100   ---    -    0
 235 Unknown_Attribute       -O----   100   000   ---    -    0
@@ -115,7 +115,7 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x0001  2            6  Command failed due to ICRC error
+0x0001  2           12  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS

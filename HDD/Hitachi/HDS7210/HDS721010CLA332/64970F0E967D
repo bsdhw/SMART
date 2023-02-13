@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon May 25 16:25:48 2020 MSK
+Local Time is:    Mon May 25 16:30:59 2020 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -56,7 +56,7 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000b   094   094   016    Pre-fail  Always       -       786448
+  1 Raw_Read_Error_Rate     0x000b   094   094   016    Pre-fail  Always       -       1048583
   2 Throughput_Performance  0x0005   135   135   054    Pre-fail  Offline      -       97
   3 Spin_Up_Time            0x0007   120   120   024    Pre-fail  Always       -       315 (Average 315)
   4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       395
@@ -68,7 +68,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       388
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       395
 193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       395
-194 Temperature_Celsius     0x0002   222   222   000    Old_age   Always       -       27 (Min/Max 19/59)
+194 Temperature_Celsius     0x0002   200   200   000    Old_age   Always       -       30 (Min/Max 19/59)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       109
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0

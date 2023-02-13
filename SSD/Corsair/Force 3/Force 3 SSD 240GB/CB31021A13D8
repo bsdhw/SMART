@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jul 16 02:09:32 2021 EDT
+Local Time is:    Sun Jul 18 22:17:37 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,9 +63,9 @@ SCT capabilities: 	       (0x0021)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   100   100   050    -    0/3939436
+  1 Raw_Read_Error_Rate     POSR--   102   102   050    -    0/5121646
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   034   034   000    -    58078h+31m+37.920s
+  9 Power_On_Hours_and_Msec -O--CK   034   034   000    -    58146h+37m+02.390s
  12 Power_Cycle_Count       -O--CK   094   094   000    -    6840
 171 Program_Fail_Count      -O--CK   000   000   000    -    0
 172 Erase_Fail_Count        -O--CK   000   000   000    -    0
@@ -75,15 +75,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count        -O--CK   000   000   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 194 Temperature_Celsius     -O---K   030   030   000    -    30 (Min/Max 30/30)
-195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/3939436
+195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/5121646
 196 Reallocated_Event_Count PO--CK   100   100   003    -    0
-201 Unc_Soft_Read_Err_Rate  --SRC-   120   120   000    -    0/3939436
-204 Soft_ECC_Correct_Rate   --SRC-   120   120   000    -    0/3939436
+201 Unc_Soft_Read_Err_Rate  --SRC-   120   120   000    -    0/5121646
+204 Soft_ECC_Correct_Rate   --SRC-   120   120   000    -    0/5121646
 230 Life_Curve_Status       PO--C-   100   100   000    -    100
 231 SSD_Life_Left           PO--C-   099   099   010    -    0
-233 SandForce_Internal      ------   000   000   000    -    31138
-234 SandForce_Internal      -O--CK   000   000   000    -    32599
-241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    32599
+233 SandForce_Internal      ------   000   000   000    -    31162
+234 SandForce_Internal      -O--CK   000   000   000    -    32627
+241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    32627
 242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    18253
                             ||||||_ K auto-keep
                             |||||__ C event count

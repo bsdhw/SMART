@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jan 20 16:59:23 2021 UTC
+Local Time is:    Wed Jan 20 17:03:48 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -68,7 +68,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    154
 163 Initial_Bad_Block_Count ------   100   100   000    -    11
-164 Total_Erase_Count       ------   100   100   000    -    35300
+164 Total_Erase_Count       ------   100   100   000    -    35301
 165 Max_Erase_Count         ------   100   100   000    -    34
 166 Min_Erase_Count         ------   100   100   000    -    0
 167 Average_Erase_Count     ------   100   100   000    -    16
@@ -81,16 +81,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    10
-194 Temperature_Celsius     ------   100   100   000    -    47
+194 Temperature_Celsius     ------   100   100   000    -    46
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    35779
+241 Host_Writes_32MiB       ------   100   100   000    -    35780
 242 Host_Reads_32MiB        ------   100   100   000    -    2088
-245 TLC_Writes_32MiB        ------   100   100   000    -    70600
+245 TLC_Writes_32MiB        ------   100   100   000    -    70602
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -138,10 +138,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4              43  ---  Lifetime Power-On Resets
 0x01  0x010  4             118  ---  Power-on Hours
-0x01  0x018  6      2344861058  ---  Logical Sectors Written
-0x01  0x020  6        33634291  ---  Number of Write Commands
-0x01  0x028  6       136845651  ---  Logical Sectors Read
-0x01  0x030  6         4003671  ---  Number of Read Commands
+0x01  0x018  6      2344900050  ---  Logical Sectors Written
+0x01  0x020  6        33634931  ---  Number of Write Commands
+0x01  0x028  6       136848755  ---  Logical Sectors Read
+0x01  0x030  6         4003735  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==

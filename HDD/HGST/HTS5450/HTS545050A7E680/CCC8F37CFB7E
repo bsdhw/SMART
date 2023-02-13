@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Nov 12 22:40:58 2020 CET
+Local Time is:    Sat Apr  3 12:18:08 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -24,8 +24,8 @@ SMART overall-health self-assessment test result: PASSED
 Warning: This result is based on an Attribute check.
 
 General SMART Values:
-Offline data collection status:  (0x82)	Offline data collection activity
-					was completed without error.
+Offline data collection status:  (0x85)	Offline data collection activity
+					was aborted by an interrupting command from host.
 					Auto Offline Data Collection: Enabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -60,17 +60,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   062    Pre-fail  Always       -       0
   2 Throughput_Performance  0x0005   198   198   040    Pre-fail  Offline      -       120
-  3 Spin_Up_Time            0x0007   253   253   033    Pre-fail  Always       -       1
-  4 Start_Stop_Count        0x0012   071   071   000    Old_age   Always       -       47278
+  3 Spin_Up_Time            0x0007   220   220   033    Pre-fail  Always       -       1
+  4 Start_Stop_Count        0x0012   070   070   000    Old_age   Always       -       48197
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   148   148   040    Pre-fail  Offline      -       36
-  9 Power_On_Hours          0x0012   063   063   000    Old_age   Always       -       16383
+  9 Power_On_Hours          0x0012   058   058   000    Old_age   Always       -       18797
  10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       4474
+ 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       4635
 191 G-Sense_Error_Rate      0x000a   100   100   000    Old_age   Always       -       0
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       196
-193 Load_Cycle_Count        0x0012   084   084   000    Old_age   Always       -       168706
+192 Power-Off_Retract_Count 0x0032   099   099   000    Old_age   Always       -       204
+193 Load_Cycle_Count        0x0012   083   083   000    Old_age   Always       -       170373
 194 Temperature_Celsius     0x0002   136   136   000    Old_age   Always       -       44 (Min/Max 14/58)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
@@ -94,4 +94,6 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
 

@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jul  1 10:37:29 2022 CEST
+Local Time is:    Fri Jul  1 10:43:20 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 

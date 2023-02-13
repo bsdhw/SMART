@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p15-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Apr  7 22:10:28 2021 CEST
+Local Time is:    Mon Sep 20 12:54:04 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,9 +65,9 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   104   104   050    -    0/8065198
+  1 Raw_Read_Error_Rate     POSR--   118   104   050    -    0/180198114
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    70500h+39m+52.840s
+  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    74475h+19m+47.550s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    31
 171 Program_Fail_Count      -O--CK   000   000   000    -    0
 172 Erase_Fail_Count        -O--CK   000   000   000    -    0
@@ -77,13 +77,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count        -O--CK   000   000   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 194 Temperature_Celsius     -O---K   030   129   000    -    30 (Min/Max 30/30)
-195 ECC_Uncorr_Error_Count  --SRC-   104   104   000    -    0/8065198
+195 ECC_Uncorr_Error_Count  --SRC-   118   104   000    -    0/180198114
 196 Reallocated_Event_Count PO--CK   100   100   000    -    0
 231 SSD_Life_Left           PO--C-   100   100   010    -    0
-233 SandForce_Internal      ------   000   000   000    -    8576
-234 SandForce_Internal      -O--CK   000   000   000    -    1728
-241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    1728
-242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    24064
+233 SandForce_Internal      ------   000   000   000    -    10368
+234 SandForce_Internal      -O--CK   000   000   000    -    4352
+241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    4352
+242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    25472
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -135,7 +135,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      ?/ ? Celsius
 Min/Max Temperature Limit:            ?/ ? Celsius
-Temperature History Size (Index):    478 (174)
+Temperature History Size (Index):    478 (132)
 
 SCT Error Recovery Control:
            Read:    256 (25.6 seconds)
@@ -148,5 +148,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2           13  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           49  Device-to-host register FISes sent due to a COMRESET
 

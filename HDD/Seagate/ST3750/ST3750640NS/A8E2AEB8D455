@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Seagate Barracuda ES
@@ -8,9 +8,9 @@ Serial Number:    --
 Firmware Version: 3.AEG
 User Capacity:    750,156,374,016 bytes [750 GB]
 Sector Size:      512 bytes logical/physical
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Tue Oct 20 20:39:05 2020 MSK
+Local Time is:    Fri Apr 22 08:51:55 2022 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,18 +55,18 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000f   115   079   006    Pre-fail  Always       -       91816384
-  3 Spin_Up_Time            0x0003   095   093   000    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       257
+  3 Spin_Up_Time            0x0003   094   093   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       258
   5 Reallocated_Sector_Ct   0x0033   099   099   036    Pre-fail  Always       -       60
-  7 Seek_Error_Rate         0x000f   041   036   030    Pre-fail  Always       -       235940432641184
-  9 Power_On_Hours          0x0032   044   044   000    Old_age   Always       -       49634
+  7 Seek_Error_Rate         0x000f   043   036   030    Pre-fail  Always       -       166370635193103
+  9 Power_On_Hours          0x0032   042   042   000    Old_age   Always       -       51475
  10 Spin_Retry_Count        0x0013   099   099   097    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       288
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       289
 187 Reported_Uncorrect      0x0032   096   096   000    Old_age   Always       -       4
 189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0022   066   048   045    Old_age   Always       -       34 (Min/Max 33/35)
-194 Temperature_Celsius     0x0022   034   052   000    Old_age   Always       -       34 (0 14 0 0 0)
-195 Hardware_ECC_Recovered  0x001a   060   052   000    Old_age   Always       -       19479828
+190 Airflow_Temperature_Cel 0x0022   057   048   045    Old_age   Always       -       43 (Min/Max 17/45)
+194 Temperature_Celsius     0x0022   043   052   000    Old_age   Always       -       43 (0 14 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   060   052   000    Old_age   Always       -       81234752
 197 Current_Pending_Sector  0x0012   001   001   000    Old_age   Always       -       7456
 198 Offline_Uncorrectable   0x0010   001   001   000    Old_age   Offline      -       7456
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0

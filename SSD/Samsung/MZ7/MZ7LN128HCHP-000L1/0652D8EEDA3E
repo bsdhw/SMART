@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri May 28 22:30:31 2021 CEST
+Local Time is:    Sun Jun 20 17:28:37 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,23 +64,23 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   097   097   000    -    10840
- 12 Power_Cycle_Count       -O--CK   097   097   000    -    2180
+  9 Power_On_Hours          -O--CK   097   097   000    -    11071
+ 12 Power_Cycle_Count       -O--CK   097   097   000    -    2262
 170 Unused_Rsvd_Blk_Ct_Chip -O--CK   100   100   010    -    0
 171 Program_Fail_Count_Chip -O--CK   100   100   010    -    0
 172 Erase_Fail_Count_Chip   -O--CK   100   100   010    -    0
-173 Wear_Leveling_Count     PO--CK   090   090   005    -    203
-174 Unexpect_Power_Loss_Ct  -O--CK   099   099   000    -    39
+173 Wear_Leveling_Count     PO--CK   089   089   005    -    220
+174 Unexpect_Power_Loss_Ct  -O--CK   099   099   000    -    44
 178 Used_Rsvd_Blk_Cnt_Chip  PO--C-   100   100   010    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   100   100   010    -    394
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Uncorrectable_Error_Cnt -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O--CK   062   050   000    -    38
+194 Temperature_Celsius     -O--CK   057   050   000    -    43
 199 CRC_Error_Count         -OSRCK   100   100   000    -    0
-233 Media_Wearout_Indicator PO--C-   089   089   000    -    15074327
-241 Total_LBAs_Written      -O--CK   099   099   000    -    9832
-242 Total_LBAs_Read         -O--CK   099   099   000    -    11377
-249 NAND_Writes_1GiB        -O--CK   099   099   000    -    25984
+233 Media_Wearout_Indicator PO--C-   089   089   000    -    14931721
+241 Total_LBAs_Written      -O--CK   099   099   000    -    10136
+242 Total_LBAs_Read         -O--CK   099   099   000    -    11481
+249 NAND_Writes_1GiB        -O--CK   099   099   000    -    28160
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -129,8 +129,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        SCT command executing in background (5)
-Current Temperature:                    37 Celsius
-Power Cycle Min/Max Temperature:     34/40 Celsius
+Current Temperature:                    43 Celsius
+Power Cycle Min/Max Temperature:     34/45 Celsius
 Lifetime    Min/Max Temperature:      0/70 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -139,7 +139,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/70 Celsius
-Temperature History Size (Index):    128 (13)
+Temperature History Size (Index):    128 (43)
 
 SCT Error Recovery Control:
            Read: Disabled

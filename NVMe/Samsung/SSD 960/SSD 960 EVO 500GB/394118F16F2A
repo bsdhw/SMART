@@ -13,10 +13,10 @@ Controller ID:                      2
 NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
-Namespace 1 Utilization:            27,765,231,616 [27.7 GB]
+Namespace 1 Utilization:            204,324,028,416 [204 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Wed Apr 21 14:37:12 2021 PDT
+Local Time is:                      Sun Jun 13 04:50:06 2021 PDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -42,24 +42,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        40 Celsius
+Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    1%
-Data Units Read:                    23,810,189 [12.1 TB]
-Data Units Written:                 22,251,021 [11.3 TB]
-Host Read Commands:                 284,300,562
-Host Write Commands:                395,302,038
-Controller Busy Time:               1,739
-Power Cycles:                       1,512
-Power On Hours:                     5,484
-Unsafe Shutdowns:                   48
+Data Units Read:                    23,869,299 [12.2 TB]
+Data Units Written:                 22,890,798 [11.7 TB]
+Host Read Commands:                 287,001,199
+Host Write Commands:                420,806,645
+Controller Busy Time:               1,806
+Power Cycles:                       1,515
+Power On Hours:                     6,527
+Unsafe Shutdowns:                   49
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      1,150
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               40 Celsius
-Temperature Sensor 2:               58 Celsius
+Temperature Sensor 1:               44 Celsius
+Temperature Sensor 2:               62 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS

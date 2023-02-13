@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Dec 18 19:32:39 2022 UTC
+Local Time is:    Sun Dec 18 19:38:26 2022 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,7 +66,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 192 Power-Off_Retract_Count ------   000   000   000    -    0
 194 Temperature_Celsius     ------   030   100   000    -    30 (2 100 0 0 0)
 197 Current_Pending_Sector  -O--C-   000   100   000    -    0
-225 Unknown_SSD_Attribute   ------   000   120   000    -    1493395
+225 Unknown_SSD_Attribute   ------   000   000   000    -    1496675
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
 165 Unknown_Attribute       -O----   081   001   000    -    81
 167 Unknown_Attribute       -O----   052   001   000    -    52
@@ -78,8 +78,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Unknown_Attribute       -O----   100   001   000    -    89569723997848
 232 Available_Reservd_Space PO----   100   001   000    -    0
 235 Unknown_Attribute       -O----   000   000   000    -    0
-241 Total_LBAs_Written      -O----   100   001   000    -    5833
-242 Total_LBAs_Read         -O----   100   001   000    -    5391
+241 Total_LBAs_Written      -O----   100   001   000    -    5846
+242 Total_LBAs_Read         -O----   100   001   000    -    5392
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -11,7 +11,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
-Local Time is:    Mon Aug 30 13:37:28 2021 CEST
+Local Time is:    Sat Nov  6 09:44:48 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -26,11 +26,11 @@ Wt Cache Reorder: Unavailable
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Disabled.
 Total time to complete Offline 
-data collection: 		(    0) seconds.
+data collection: 		(    1) seconds.
 Offline data collection
 capabilities: 			 (0x00) 	Offline data collection not supported.
 SMART capabilities:            (0x0002)	Does not save SMART data before
@@ -44,26 +44,26 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O----   100   100   050    -    0
-  9 Power_On_Hours          ------   100   100   050    -    15112
- 12 Power_Cycle_Count       ------   100   100   050    -    19
+  9 Power_On_Hours          ------   100   100   050    -    3055
+ 12 Power_Cycle_Count       ------   100   100   050    -    28
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    139
-162 Unknown_Attribute       ------   100   100   050    -    107
+162 Unknown_Attribute       ------   100   100   050    -    112
 163 Unknown_Attribute       ------   100   100   050    -    1
-164 Unknown_Attribute       ------   100   100   050    -    32865
-165 Unknown_Attribute       ------   100   100   050    -    67
-166 Unknown_Attribute       ------   100   100   050    -    0
-167 Unknown_Attribute       ------   100   100   050    -    16
+164 Unknown_Attribute       ------   100   100   050    -    156663
+165 Unknown_Attribute       ------   100   100   050    -    130
+166 Unknown_Attribute       ------   100   100   050    -    65
+167 Unknown_Attribute       ------   100   100   050    -    76
 168 Unknown_Attribute       ------   100   100   050    -    100000
 169 Unknown_Attribute       ------   100   100   050    -    100
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   050    -    43
+194 Temperature_Celsius     ------   100   100   050    -    42
 195 Hardware_ECC_Recovered  ------   100   100   050    -    0
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   100   100   050    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      -O--CK   100   100   050    -    2948
-242 Total_LBAs_Read         -O--CK   100   100   050    -    257
+241 Total_LBAs_Written      -O--CK   100   100   050    -    14520
+242 Total_LBAs_Read         -O--CK   100   100   050    -    591
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

@@ -16,7 +16,7 @@ Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Utilization:            246,734,405,632 [246 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sun Apr  4 20:05:16 2021 PDT
+Local Time is:                      Sun Apr  4 20:05:48 2021 PDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,10 +46,10 @@ Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    7%
-Data Units Read:                    23,244,579 [11.9 TB]
-Data Units Written:                 268,941,420 [137 TB]
-Host Read Commands:                 112,539,732
-Host Write Commands:                1,631,355,864
+Data Units Read:                    23,244,587 [11.9 TB]
+Data Units Written:                 268,941,424 [137 TB]
+Host Read Commands:                 112,539,856
+Host Write Commands:                1,631,355,927
 Controller Busy Time:               13,039
 Power Cycles:                       78
 Power On Hours:                     1,362

@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jun  3 14:28:53 2021 EDT
+Local Time is:    Fri Jun  4 16:57:50 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,8 +63,8 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Retired_Block_Count     -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   209   100   000    -    4305h+00m+00.000s
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    512
+  9 Power_On_Hours_and_Msec -O--CK   211   100   000    -    4307h+00m+00.000s
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    517
 166 Unknown_Attribute       -O--CK   100   100   000    -    5094
 167 Unknown_Attribute       -O--CK   100   100   000    -    0
 168 Unknown_Attribute       -O--CK   100   100   000    -    5147
@@ -72,16 +72,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 170 Reserve_Block_Count     -O--CK   100   100   000    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-173 Unknown_SandForce_Attr  -O--CK   100   100   ---    -    5106
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    352
+173 Unknown_SandForce_Attr  -O--CK   100   100   ---    -    5107
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    355
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   064   100   000    -    36 (Min/Max 0/73)
+194 Temperature_Celsius     -O---K   060   100   000    -    40 (Min/Max 0/73)
 199 SATA_CRC_Error_Count    -O--CK   100   100   000    -    49
 230 Life_Curve_Status       -O--CK   100   100   000    -    170
 232 Available_Reservd_Space PO--CK   100   100   004    -    100
-233 SandForce_Internal      -O--CK   100   100   000    -    1084025
-241 Lifetime_Writes_GiB     ----CK   253   253   000    -    7864
-242 Lifetime_Reads_GiB      ----CK   253   253   000    -    8505
+233 SandForce_Internal      -O--CK   100   100   000    -    1084081
+241 Lifetime_Writes_GiB     ----CK   253   253   000    -    7914
+242 Lifetime_Reads_GiB      ----CK   253   253   000    -    8508
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -151,21 +151,21 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             512  ---  Lifetime Power-On Resets
-0x01  0x010  4            4305  ---  Power-on Hours
-0x01  0x018  6            7864  ---  Logical Sectors Written
-0x01  0x020  6       188402166  ---  Number of Write Commands
-0x01  0x028  6            8505  ---  Logical Sectors Read
-0x01  0x030  6       139072296  ---  Number of Read Commands
+0x01  0x008  4             517  ---  Lifetime Power-On Resets
+0x01  0x010  4            4307  ---  Power-on Hours
+0x01  0x018  6            7914  ---  Logical Sectors Written
+0x01  0x020  6       189576521  ---  Number of Write Commands
+0x01  0x028  6            8508  ---  Logical Sectors Read
+0x01  0x030  6       139366324  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4             398  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4             401  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              37  ---  Current Temperature
-0x05  0x010  1              61  ---  Average Short Term Temperature
-0x05  0x018  1              51  ---  Average Long Term Temperature
+0x05  0x008  1              40  ---  Current Temperature
+0x05  0x010  1              65  ---  Average Short Term Temperature
+0x05  0x018  1              67  ---  Average Long Term Temperature
 0x05  0x020  1              72  ---  Highest Temperature
 0x05  0x028  1              15  ---  Lowest Temperature
 0x05  0x030  1              -1  ---  Highest Average Short Term Temperature
@@ -177,7 +177,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4          114574  ---  Number of Hardware Resets
+0x06  0x008  4          114590  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             170  ---  Percentage Used Endurance Indicator

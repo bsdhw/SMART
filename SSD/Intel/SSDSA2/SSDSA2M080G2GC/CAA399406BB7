@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Fri Aug 26 22:42:52 2022 CEST
+Local Time is:    Fri Sep  9 21:49:18 2022 CEST
 
 ==> WARNING: This drive may require a firmware update to
 fix possible drive hangs when reading SMART self-test log:
@@ -69,13 +69,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            -----K   100   100   000    -    0
   4 Start_Stop_Count        ----CK   100   100   000    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    2
-  9 Power_On_Hours          -O--CK   100   100   000    -    27911
+  9 Power_On_Hours          -O--CK   100   100   000    -    28247
  12 Power_Cycle_Count       -O--CK   100   100   000    -    260
 192 Unsafe_Shutdown_Count   -O--CK   100   100   000    -    133
-225 Host_Writes_32MiB       ----CK   200   200   000    -    34837
-226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    1047
+225 Host_Writes_32MiB       ----CK   200   200   000    -    38252
+226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    1093
 227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    0
-228 Workload_Minutes        -O--CK   100   100   000    -    4282027232
+228 Workload_Minutes        -O--CK   100   100   000    -    4282047339
 232 Available_Reservd_Space PO--CK   099   099   010    -    0
 233 Media_Wearout_Indicator -O--CK   099   099   000    -    0
 184 End-to-End_Error        PO--CK   100   100   099    -    0

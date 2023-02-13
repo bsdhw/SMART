@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Feb 14 19:45:19 2022 CST
+Local Time is:    Sun Feb 20 10:41:28 2022 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,26 +61,26 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O----   100   100   050    -    0
-  9 Power_On_Hours          ------   100   100   050    -    987
+  9 Power_On_Hours          ------   100   100   050    -    1037
  12 Power_Cycle_Count       ------   100   100   050    -    38
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    83
 162 Unknown_Attribute       ------   100   100   050    -    1
 163 Unknown_Attribute       ------   100   100   050    -    12
-164 Unknown_Attribute       ------   100   100   050    -    164848
-165 Unknown_Attribute       ------   100   100   050    -    164
-166 Unknown_Attribute       ------   100   100   050    -    115
-167 Unknown_Attribute       ------   100   100   050    -    157
+164 Unknown_Attribute       ------   100   100   050    -    392310
+165 Unknown_Attribute       ------   100   100   050    -    384
+166 Unknown_Attribute       ------   100   100   050    -    347
+167 Unknown_Attribute       ------   100   100   050    -    375
 168 Unknown_Attribute       ------   100   100   050    -    3000
-169 Unknown_Attribute       ------   095   095   050    -    95
+169 Unknown_Attribute       ------   088   088   050    -    88
 192 Power-Off_Retract_Count ------   100   100   050    -    26
 194 Temperature_Celsius     ------   100   100   050    -    45
 195 Hardware_ECC_Recovered  ------   100   100   050    -    0
 196 Reallocated_Event_Count ------   100   100   050    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    67969
-242 Total_LBAs_Read         ------   100   100   050    -    779
-245 Unknown_Attribute       ------   100   100   050    -    224820
+241 Total_LBAs_Written      ------   100   100   050    -    81605
+242 Total_LBAs_Read         ------   100   100   050    -    1125
+245 Unknown_Attribute       ------   100   100   050    -    563287
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -118,18 +118,18 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              38  ---  Lifetime Power-On Resets
-0x01  0x010  4             987  ---  Power-on Hours
-0x01  0x018  6       159462787  ---  Logical Sectors Written
-0x01  0x020  6       158376768  ---  Number of Write Commands
-0x01  0x028  6        51080404  ---  Logical Sectors Read
-0x01  0x030  6         1191821  ---  Number of Read Commands
+0x01  0x010  4            1037  ---  Power-on Hours
+0x01  0x018  6      1053108763  ---  Logical Sectors Written
+0x01  0x020  6       173659309  ---  Number of Write Commands
+0x01  0x028  6        73732422  ---  Logical Sectors Read
+0x01  0x030  6         1784781  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4         4169414  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              45  ---  Current Temperature
-0x05  0x010  1             -93  ---  Average Short Term Temperature
-0x05  0x018  1              67  ---  Average Long Term Temperature
+0x05  0x010  1             -52  ---  Average Short Term Temperature
+0x05  0x018  1            -118  ---  Average Long Term Temperature
 0x05  0x020  1              45  ---  Highest Temperature
 0x05  0x028  1              45  ---  Lowest Temperature
 0x05  0x030  1              -1  ---  Highest Average Short Term Temperature
@@ -141,10 +141,10 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             184  ---  Number of Hardware Resets
+0x06  0x008  4             190  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               5  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              12  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -162,7 +162,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  2            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            7  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           13  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

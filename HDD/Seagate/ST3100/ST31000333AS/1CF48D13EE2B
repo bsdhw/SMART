@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Fri Mar  5 06:07:11 2021 EST
+Local Time is:    Wed Mar 31 02:42:52 2021 EDT
 
 ==> WARNING: There are known problems with these drives,
 see the following Seagate web pages:
@@ -72,21 +72,21 @@ SCT capabilities: 	       (0x103b)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   118   099   006    -    182218205
-  3 Spin_Up_Time            PO----   094   091   000    -    0
-  4 Start_Stop_Count        -O--CK   090   090   020    -    10250
+  1 Raw_Read_Error_Rate     POSR--   115   099   006    -    86949018
+  3 Spin_Up_Time            PO----   093   091   000    -    0
+  4 Start_Stop_Count        -O--CK   090   090   020    -    10482
   5 Reallocated_Sector_Ct   PO--CK   099   099   036    -    78
-  7 Seek_Error_Rate         POSR--   083   060   030    -    232827456
-  9 Power_On_Hours          -O--CK   092   092   000    -    7586
- 10 Spin_Retry_Count        PO--C-   100   100   097    -    81
- 12 Power_Cycle_Count       -O--CK   092   037   020    -    8909
+  7 Seek_Error_Rate         POSR--   084   060   030    -    237682045
+  9 Power_On_Hours          -O--CK   092   092   000    -    7687
+ 10 Spin_Retry_Count        PO--C-   100   100   097    -    84
+ 12 Power_Cycle_Count       -O--CK   092   037   020    -    9138
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   095   095   000    -    5
 188 Command_Timeout         -O--CK   100   098   000    -    17182228567
-189 High_Fly_Writes         -O-RCK   001   001   000    -    2202
-190 Airflow_Temperature_Cel -O---K   066   044   045    Past 34 (0 40 34 32 0)
-194 Temperature_Celsius     -O---K   034   056   000    -    34 (0 10 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   045   021   000    -    182218205
+189 High_Fly_Writes         -O-RCK   001   001   000    -    2226
+190 Airflow_Temperature_Cel -O---K   067   044   045    Past 33 (0 40 33 19 0)
+194 Temperature_Celsius     -O---K   033   056   000    -    33 (0 10 0 0 0)
+195 Hardware_ECC_Recovered  -O-RC-   040   021   000    -    86949018
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    2
@@ -245,17 +245,17 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    34 Celsius
-Power Cycle Min/Max Temperature:     32/34 Celsius
+Current Temperature:                    32 Celsius
+Power Cycle Min/Max Temperature:     19/32 Celsius
 Lifetime    Min/Max Temperature:     10/56 Celsius
-Under/Over Temperature Limit Count:   0/24
+Under/Over Temperature Limit Count:   0/29
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/ 0 Celsius
 Min/Max Temperature Limit:            0/ 0 Celsius
-Temperature History Size (Index):    128 (21)
+Temperature History Size (Index):    128 (61)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -267,7 +267,7 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x000a  2           10  Device-to-host register FISes sent due to a COMRESET
+0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
 0x0001  2            0  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS

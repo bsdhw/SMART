@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Samsung SSD 970 EVO Plus 1TB
@@ -16,7 +16,7 @@ Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Utilization:            520,822,849,536 [520 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Fri Aug  5 00:58:21 2022 EDT
+Local Time is:                      Fri Aug  5 02:00:06 2022 EDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0057):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat Timestmp
@@ -46,13 +46,13 @@ Temperature:                        43 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    7,709,229 [3.94 TB]
+Data Units Read:                    7,709,284 [3.94 TB]
 Data Units Written:                 7,304,165 [3.73 TB]
-Host Read Commands:                 62,424,989
+Host Read Commands:                 62,426,375
 Host Write Commands:                39,946,670
 Controller Busy Time:               291
 Power Cycles:                       189
-Power On Hours:                     203
+Power On Hours:                     204
 Unsafe Shutdowns:                   32
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0

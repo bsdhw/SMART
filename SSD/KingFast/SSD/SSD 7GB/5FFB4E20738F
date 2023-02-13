@@ -13,7 +13,7 @@ TRIM Command:     Unavailable
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Mar  2 08:34:00 2022 IST
+Local Time is:    Wed Mar  2 12:44:55 2022 IST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -56,7 +56,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 166 Min_Erase_Count         ------   100   100   050    -    0
 167 Average_Erase_Count     ------   100   100   050    -    38
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    85 (Min/Max 62/98)
+194 Temperature_Celsius     ------   100   100   000    -    87 (Min/Max 62/98)
 195 Hardware_ECC_Recovered  ------   100   100   050    -    16
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0

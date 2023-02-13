@@ -13,10 +13,10 @@ Controller ID:                      5
 NVMe Version:                       1.4
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            2,771,734,528 [2.77 GB]
+Namespace 1 Utilization:            10,243,309,568 [10.2 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Wed Apr  6 17:17:46 2022 CEST
+Local Time is:                      Thu May 26 19:33:46 2022 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0055):     Comp DS_Mngmt Sav/Sel_Feat Timestmp
@@ -43,24 +43,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        27 Celsius
+Temperature:                        36 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    705 [360 MB]
-Data Units Written:                 10,374 [5.31 GB]
-Host Read Commands:                 22,447
-Host Write Commands:                181,101
-Controller Busy Time:               0
-Power Cycles:                       10
-Power On Hours:                     1
-Unsafe Shutdowns:                   8
+Data Units Read:                    17,791 [9.10 GB]
+Data Units Written:                 501,302 [256 GB]
+Host Read Commands:                 463,641
+Host Write Commands:                7,979,728
+Controller Busy Time:               2
+Power Cycles:                       13
+Power On Hours:                     1,202
+Unsafe Shutdowns:                   10
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               27 Celsius
-Temperature Sensor 2:               36 Celsius
+Temperature Sensor 1:               36 Celsius
+Temperature Sensor 2:               47 Celsius
 Thermal Temp. 2 Transition Count:   1
 Thermal Temp. 2 Total Time:         6
 

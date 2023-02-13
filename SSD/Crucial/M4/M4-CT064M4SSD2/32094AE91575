@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Apr 27 20:47:20 2022 CEST
+Local Time is:    Thu Apr 28 19:24:35 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,8 +68,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   099   099   050    -    2
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    36864
-  9 Power_On_Hours          -O--CK   100   100   001    -    17576
- 12 Power_Cycle_Count       -O--CK   100   100   001    -    3104
+  9 Power_On_Hours          -O--CK   100   100   001    -    17579
+ 12 Power_Cycle_Count       -O--CK   100   100   001    -    3105
 170 Grown_Failing_Block_Ct  PO--CK   100   100   010    -    18
 171 Program_Fail_Count      -O--CK   100   100   001    -    887
 172 Erase_Fail_Count        -O--CK   100   100   001    -    33
@@ -125,27 +125,27 @@ SMART Extended Self-test Log size 3449 not supported
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Vendor (0xff)       Completed without error       00%     17572         -
-# 2  Vendor (0xff)       Completed without error       00%     17567         -
-# 3  Vendor (0xff)       Completed without error       00%     17550         -
-# 4  Vendor (0xff)       Completed without error       00%     17547         -
-# 5  Vendor (0xff)       Completed without error       00%     17533         -
-# 6  Vendor (0xff)       Completed without error       00%     17520         -
-# 7  Vendor (0xff)       Completed without error       00%     17516         -
-# 8  Vendor (0xff)       Completed without error       00%     17498         -
-# 9  Vendor (0xff)       Completed without error       00%     17445         -
-#10  Vendor (0xff)       Completed without error       00%     17436         -
-#11  Vendor (0xff)       Completed without error       00%     17424         -
-#12  Vendor (0xff)       Completed without error       00%     17419         -
-#13  Vendor (0xff)       Completed without error       00%     17405         -
-#14  Vendor (0xff)       Completed without error       00%     17392         -
-#15  Vendor (0xff)       Completed without error       00%     17370         -
-#16  Vendor (0xff)       Completed without error       00%     17366         -
-#17  Vendor (0xff)       Completed without error       00%     17304         -
-#18  Vendor (0xff)       Completed without error       00%     17292         -
-#19  Vendor (0xff)       Completed without error       00%     17250         -
-#20  Vendor (0xff)       Completed without error       00%     17166         -
-#21  Vendor (0xff)       Completed without error       00%     17161         -
+# 1  Vendor (0xff)       Completed without error       00%     17577         -
+# 2  Vendor (0xff)       Completed without error       00%     17572         -
+# 3  Vendor (0xff)       Completed without error       00%     17567         -
+# 4  Vendor (0xff)       Completed without error       00%     17550         -
+# 5  Vendor (0xff)       Completed without error       00%     17547         -
+# 6  Vendor (0xff)       Completed without error       00%     17533         -
+# 7  Vendor (0xff)       Completed without error       00%     17520         -
+# 8  Vendor (0xff)       Completed without error       00%     17516         -
+# 9  Vendor (0xff)       Completed without error       00%     17498         -
+#10  Vendor (0xff)       Completed without error       00%     17445         -
+#11  Vendor (0xff)       Completed without error       00%     17436         -
+#12  Vendor (0xff)       Completed without error       00%     17424         -
+#13  Vendor (0xff)       Completed without error       00%     17419         -
+#14  Vendor (0xff)       Completed without error       00%     17405         -
+#15  Vendor (0xff)       Completed without error       00%     17392         -
+#16  Vendor (0xff)       Completed without error       00%     17370         -
+#17  Vendor (0xff)       Completed without error       00%     17366         -
+#18  Vendor (0xff)       Completed without error       00%     17304         -
+#19  Vendor (0xff)       Completed without error       00%     17292         -
+#20  Vendor (0xff)       Completed without error       00%     17250         -
+#21  Vendor (0xff)       Completed without error       00%     17166         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -170,7 +170,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (15)
+Temperature History Size (Index):    478 (11)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -179,12 +179,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            3104  ---  Lifetime Power-On Resets
-0x01  0x010  4           17576  ---  Power-on Hours
+0x01  0x008  4            3105  ---  Lifetime Power-On Resets
+0x01  0x010  4           17579  ---  Power-on Hours
 0x01  0x018  6     20829189634  ---  Logical Sectors Written
 0x01  0x020  6       376697285  ---  Number of Write Commands
-0x01  0x028  6     27226178731  ---  Logical Sectors Read
-0x01  0x030  6       465832961  ---  Number of Read Commands
+0x01  0x028  6     27226191171  ---  Logical Sectors Read
+0x01  0x030  6       465833203  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4           19920  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

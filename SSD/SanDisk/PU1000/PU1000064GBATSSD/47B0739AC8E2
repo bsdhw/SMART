@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p15-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p16-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Apr 16 03:19:28 2021 CEST
+Local Time is:    Sat Apr 24 14:23:09 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,7 +60,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O----   100   100   000    -    0
-  9 Power_On_Hours          -O----   100   100   000    -    34790
+  9 Power_On_Hours          -O----   100   100   000    -    34993
  12 Power_Cycle_Count       -O----   100   100   000    -    189
 171 Unknown_Attribute       -O----   100   100   000    -    0
 172 Unknown_Attribute       -O----   100   100   000    -    0
@@ -69,9 +69,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O----   100   100   000    -    0
 230 Unknown_SSD_Attribute   -O----   100   100   000    -    33
 232 Available_Reservd_Space PO----   100   100   005    -    0
-234 Unknown_Attribute       -O----   100   100   000    -    776
-241 Total_LBAs_Written      -O----   100   100   000    -    4101215448
-242 Total_LBAs_Read         -O----   100   100   000    -    44410511
+234 Unknown_Attribute       -O----   100   100   000    -    795
+241 Total_LBAs_Written      -O----   100   100   000    -    4325398016
+242 Total_LBAs_Read         -O----   100   100   000    -    97176993
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -133,8 +133,8 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              30  ---  Current Temperature
-0x05  0x010  1              30  ---  Average Short Term Temperature
+0x05  0x008  1              26  ---  Current Temperature
+0x05  0x010  1              25  ---  Average Short Term Temperature
 0x05  0x018  1               -  ---  Average Long Term Temperature
 0x05  0x020  1              32  ---  Highest Temperature
 0x05  0x028  1              11  ---  Lowest Temperature
@@ -160,8 +160,8 @@ ID      Size     Value  Description
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x0009  2            5  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            7  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            8  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
 0x0001  2            0  Command failed due to ICRC error

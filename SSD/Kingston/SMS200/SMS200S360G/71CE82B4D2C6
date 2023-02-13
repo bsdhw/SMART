@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 19 09:57:57 2020 CEST
+Local Time is:    Mon Oct 19 09:58:43 2020 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,9 +57,9 @@ SCT capabilities: 	       (0x0025)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x0033   095   095   050    Pre-fail  Always       -       0/171569666
+  1 Raw_Read_Error_Rate     0x0033   095   095   050    Pre-fail  Always       -       0/171574985
   5 Retired_Block_Count     0x0033   100   100   003    Pre-fail  Always       -       0
-  9 Power_On_Hours_and_Msec 0x0032   038   038   000    Old_age   Always       -       54723h+57m+37.190s
+  9 Power_On_Hours_and_Msec 0x0032   038   038   000    Old_age   Always       -       54723h+58m+23.650s
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       68
 171 Program_Fail_Count      0x000a   000   000   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   000   000   000    Old_age   Always       -       0
@@ -69,10 +69,10 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count        0x0032   000   000   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0012   100   100   000    Old_age   Always       -       0
 194 Temperature_Celsius     0x0022   044   069   000    Old_age   Always       -       44 (Min/Max -19/69)
-195 ECC_Uncorr_Error_Count  0x001c   120   120   000    Old_age   Offline      -       0/171569666
+195 ECC_Uncorr_Error_Count  0x001c   120   120   000    Old_age   Offline      -       0/171574985
 196 Reallocated_Event_Count 0x0033   100   100   003    Pre-fail  Always       -       0
-201 Unc_Soft_Read_Err_Rate  0x001c   120   120   000    Old_age   Offline      -       0/171569666
-204 Soft_ECC_Correct_Rate   0x001c   120   120   000    Old_age   Offline      -       0/171569666
+201 Unc_Soft_Read_Err_Rate  0x001c   120   120   000    Old_age   Offline      -       0/171574985
+204 Soft_ECC_Correct_Rate   0x001c   120   120   000    Old_age   Offline      -       0/171574985
 230 Life_Curve_Status       0x0013   100   100   000    Pre-fail  Always       -       100
 231 SSD_Life_Left           0x0013   062   062   010    Pre-fail  Always       -       1
 233 SandForce_Internal      0x0032   000   000   000    Old_age   Always       -       17725

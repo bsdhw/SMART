@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jan  5 23:48:59 2023 CET
+Local Time is:    Fri Jan  6 01:09:47 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,7 +61,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Retired_Block_Count     -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   000   100   000    -    669h+00m+00.000s
+  9 Power_On_Hours_and_Msec -O--CK   000   100   000    -    670h+00m+00.000s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    1516
 165 Unknown_Attribute       -O--CK   100   100   000    -    3212744328735
 166 Unknown_Attribute       -O--CK   100   100   000    -    3
@@ -80,8 +80,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 230 Life_Curve_Status       -O--CK   100   100   000    -    2241995670026
 232 Available_Reservd_Space PO--CK   100   100   004    -    100
 233 SandForce_Internal      -O--CK   100   100   000    -    2768
-234 SandForce_Internal      -O--CK   100   100   000    -    7155
-241 Lifetime_Writes_GiB     ----CK   253   253   000    -    3933
+234 SandForce_Internal      -O--CK   100   100   000    -    7156
+241 Lifetime_Writes_GiB     ----CK   253   253   000    -    3934
 242 Lifetime_Reads_GiB      ----CK   253   253   000    -    5237
 244 Unknown_Attribute       -O--CK   000   100   000    -    0
                             ||||||_ K auto-keep
@@ -112,14 +112,15 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%       457         -
-# 2  Short offline       Completed without error       00%       330         -
-# 3  Short offline       Completed without error       00%       297         -
-# 4  Short offline       Self-test routine in progress 60%       297         -
-# 5  Short offline       Completed without error       00%       162         -
-# 6  Short offline       Self-test routine in progress 70%       162         -
-# 7  Short offline       Completed without error       00%        19         -
-# 8  Short offline       Self-test routine in progress 70%        19         -
+# 1  Short offline       Completed without error       00%       669         -
+# 2  Short offline       Completed without error       00%       457         -
+# 3  Short offline       Completed without error       00%       330         -
+# 4  Short offline       Completed without error       00%       297         -
+# 5  Short offline       Self-test routine in progress 60%       297         -
+# 6  Short offline       Completed without error       00%       162         -
+# 7  Short offline       Self-test routine in progress 70%       162         -
+# 8  Short offline       Completed without error       00%        19         -
+# 9  Short offline       Self-test routine in progress 70%        19         -
 
 Selective Self-tests/Logging not supported
 
@@ -129,11 +130,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4            1516  ---  Lifetime Power-On Resets
-0x01  0x010  4             669  ---  Power-on Hours
-0x01  0x018  6      3955192777  ---  Logical Sectors Written
-0x01  0x020  6        87407902  ---  Number of Write Commands
-0x01  0x028  6      2393080195  ---  Logical Sectors Read
-0x01  0x030  6       158957422  ---  Number of Read Commands
+0x01  0x010  4             670  ---  Power-on Hours
+0x01  0x018  6      3955886336  ---  Logical Sectors Written
+0x01  0x020  6        87419479  ---  Number of Write Commands
+0x01  0x028  6      2393093051  ---  Logical Sectors Read
+0x01  0x030  6       158957748  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

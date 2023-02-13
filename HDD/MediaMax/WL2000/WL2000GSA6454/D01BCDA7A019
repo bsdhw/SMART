@@ -13,7 +13,7 @@ Form Factor:      3.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Dec 18 08:03:03 2020 EST
+Local Time is:    Fri Dec 18 08:07:22 2020 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -316,7 +316,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    128 (87)
+Temperature History Size (Index):    128 (91)
 
 SCT Error Recovery Control:
            Read:     85 (8.5 seconds)
@@ -327,12 +327,12 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              57  ---  Lifetime Power-On Resets
 0x01  0x010  4           16733  ---  Power-on Hours
-0x01  0x018  6     17442857714  ---  Logical Sectors Written
-0x01  0x020  6       970847992  ---  Number of Write Commands
-0x01  0x028  6    204398948538  ---  Logical Sectors Read
+0x01  0x018  6     17442933686  ---  Logical Sectors Written
+0x01  0x020  6       970855136  ---  Number of Write Commands
+0x01  0x028  6    204398948567  ---  Logical Sectors Read
 0x01  0x030  6      1462935894  ---  Number of Read Commands
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4           15603  ---  Spindle Motor Power-on Hours
+0x03  0x008  4           15604  ---  Spindle Motor Power-on Hours
 0x03  0x010  4           14211  ---  Head Flying Hours
 0x03  0x018  4         1057806  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
@@ -380,7 +380,7 @@ ID      Size     Value  Description
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
-0x8000  4      1897815  Vendor specific
+0x8000  4      1898073  Vendor specific
 
 
 

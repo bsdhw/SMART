@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p13-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     TS128GMTS550T
@@ -10,10 +10,10 @@ User Capacity:    128,035,676,160 bytes [128 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Feb 17 21:21:25 2021 CET
+Local Time is:    Sun Jul 17 12:54:44 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -28,14 +28,14 @@ Wt Cache Reorder: Unavailable
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Disabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
 					been run.
 Total time to complete Offline 
-data collection: 		(    0) seconds.
+data collection: 		(   60) seconds.
 Offline data collection
 capabilities: 			 (0x71) SMART execute Offline immediate.
 					No Auto Offline data collection support.
@@ -62,34 +62,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    1074
- 12 Power_Cycle_Count       ------   100   100   000    -    14
-148 Unknown_Attribute       ------   100   100   000    -    14752
-149 Unknown_Attribute       ------   100   100   000    -    216
-150 Unknown_Attribute       ------   100   100   000    -    54
-151 Unknown_Attribute       ------   100   100   000    -    196
-164 Unknown_Attribute       ------   100   100   000    -    2427
-165 Unknown_Attribute       ------   100   100   000    -    6
-166 Unknown_Attribute       ------   100   100   000    -    0
-167 Unknown_Attribute       ------   100   100   000    -    1
+  9 Power_On_Hours          ------   100   100   000    -    13747
+ 12 Power_Cycle_Count       ------   100   100   000    -    41
+148 Unknown_Attribute       ------   100   100   000    -    269818
+149 Unknown_Attribute       ------   100   100   000    -    3615
+150 Unknown_Attribute       ------   100   100   000    -    3417
+151 Unknown_Attribute       ------   100   100   000    -    3597
+164 Unknown_Attribute       ------   100   100   000    -    39521
+165 Unknown_Attribute       ------   100   100   000    -    58
+166 Unknown_Attribute       ------   100   100   000    -    6
+167 Unknown_Attribute       ------   100   100   000    -    28
 159 Unknown_Attribute       ------   100   100   000    -    0
 160 Unknown_Attribute       ------   100   100   000    -    0
 161 Unknown_Attribute       ------   100   100   000    -    110
 163 Unknown_Attribute       ------   100   100   000    -    8
 168 Unknown_Attribute       ------   100   100   000    -    1000
-169 Unknown_Attribute       ------   100   100   000    -    100
-177 Wear_Leveling_Count     ------   100   100   050    -    4
+169 Unknown_Attribute       ------   100   100   000    -    98
+177 Wear_Leveling_Count     ------   100   100   050    -    93
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
-192 Power-Off_Retract_Count ------   100   100   000    -    8
-194 Temperature_Celsius     ------   100   100   000    -    60
+192 Power-Off_Retract_Count ------   100   100   000    -    28
+194 Temperature_Celsius     ------   100   100   000    -    63
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Total_LBAs_Written      ------   100   100   000    -    11822
-242 Total_LBAs_Read         ------   100   100   000    -    618
-245 Unknown_Attribute       ------   100   100   000    -    4854
+241 Total_LBAs_Written      ------   100   100   000    -    195188
+242 Total_LBAs_Read         ------   100   100   000    -    8418
+245 Unknown_Attribute       ------   100   100   000    -    79042
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -118,8 +118,9 @@ Address    Access  R/W   Size  Description
 SMART Extended Comprehensive Error Log Version: 1 (1 sectors)
 No Errors Logged
 
-SMART Extended Self-test Log Version: 0 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+SMART Extended Self-test Log Version: 1 (1 sectors)
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%      4151         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -128,7 +129,7 @@ SMART Selective self-test log data structure revision number 1
     3        0        0  Not_testing
     4        0        0  Not_testing
     5        0        0  Not_testing
-    6        0    65535  Read_scanning was never started
+    7        0    65535  Read_scanning was completed without error
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
@@ -138,20 +139,20 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              14  ---  Lifetime Power-On Resets
-0x01  0x010  4            1074  ---  Power-on Hours
-0x01  0x018  6       774811627  ---  Logical Sectors Written
-0x01  0x020  6        11050385  ---  Number of Write Commands
-0x01  0x028  6        40515909  ---  Logical Sectors Read
-0x01  0x030  6         1079851  ---  Number of Read Commands
+0x01  0x008  4              41  ---  Lifetime Power-On Resets
+0x01  0x010  4           13747  ---  Power-on Hours
+0x01  0x018  6      4201933061  ---  Logical Sectors Written
+0x01  0x020  6       200154251  ---  Number of Write Commands
+0x01  0x028  6       551709518  ---  Logical Sectors Read
+0x01  0x030  6         5868254  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4               8  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4              28  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             167  ---  Number of Hardware Resets
+0x06  0x008  4             361  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
+0x07  0x008  1               2  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

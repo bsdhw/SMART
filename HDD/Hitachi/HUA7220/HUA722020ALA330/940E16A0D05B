@@ -13,7 +13,7 @@ Form Factor:      3.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Fri Dec 18 08:02:59 2020 EST
+Local Time is:    Fri Dec 18 08:07:19 2020 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -146,7 +146,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -40/70 Celsius
-Temperature History Size (Index):    128 (103)
+Temperature History Size (Index):    128 (108)
 
 SCT Error Recovery Control:
            Read:     70 (7.0 seconds)
@@ -157,8 +157,8 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              67  ---  Lifetime Power-On Resets
 0x01  0x010  4           18669  ---  Power-on Hours
-0x01  0x018  6     17674881877  ---  Logical Sectors Written
-0x01  0x020  6       829132927  ---  Number of Write Commands
+0x01  0x018  6     17674960477  ---  Logical Sectors Written
+0x01  0x020  6       829137684  ---  Number of Write Commands
 0x01  0x028  6    205403714936  ---  Logical Sectors Read
 0x01  0x030  6      1430286820  ---  Number of Read Commands
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==

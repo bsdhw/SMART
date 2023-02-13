@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Apr 14 15:24:36 2022 CEST
+Local Time is:    Mon Apr 18 22:34:10 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,20 +60,20 @@ SMART Attributes Data Structure revision number: 18
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Runtime_Bad_Block       ------   018   018   000    -    18
-  9 Power_On_Hours          ------   100   100   000    -    14391
+  9 Power_On_Hours          ------   100   100   000    -    14492
  12 Power_Cycle_Count       ------   100   100   000    -    2201
 171 Avail_OP_Block_Count    ------   080   080   000    -    81804112
 174 Pwr_Cycle_Ct_Unplanned  ------   100   100   000    -    136
 195 Total_Prog_Failures     ------   100   100   000    -    0
 196 Total_Erase_Failures    ------   100   100   000    -    18
 197 Total_Unc_Read_Failures ------   100   100   000    -    0
-208 Average_Erase_Count     ------   100   100   000    -    740
+208 Average_Erase_Count     ------   100   100   000    -    741
 210 SATA_CRC_Error_Count    ------   100   100   000    -    0
 224 In_Warranty             ------   100   100   000    -    1
 233 Remaining_Lifetime_Perc ------   076   076   000    -    76
-241 Host_Writes_GiB         ------   100   100   000    -    39055
+241 Host_Writes_GiB         ------   100   100   000    -    39079
 242 Host_Reads_GiB          ------   100   100   000    -    29511
-249 Total_NAND_Prog_Ct_GiB  ------   100   100   000    -    2328397989
+249 Total_NAND_Prog_Ct_GiB  ------   100   100   000    -    2329227417
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

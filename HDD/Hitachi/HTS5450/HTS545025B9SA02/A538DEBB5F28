@@ -13,7 +13,7 @@ Form Factor:      2.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 1.5 Gb/s
-Local Time is:    Tue Mar  2 19:37:44 2021 EST
+Local Time is:    Tue Mar  2 19:42:21 2021 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -75,8 +75,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 160 Unknown_Attribute       -O--CK   100   100   000    -    0
 191 G-Sense_Error_Rate      -O-R--   100   100   000    -    1799591297024
 192 Power-Off_Retract_Count -O--CK   099   099   000    -    940779569304
-193 Load_Cycle_Count        -O--C-   078   078   000    -    227439
-194 Temperature_Celsius     -O----   183   183   000    -    30 (Min/Max 9/48)
+193 Load_Cycle_Count        -O--C-   078   078   000    -    227440
+194 Temperature_Celsius     -O----   177   177   000    -    31 (Min/Max 9/48)
 195 Hardware_ECC_Recovered  -O-R--   100   100   000    -    0
 196 Reallocated_Event_Count -O--CK   100   100   000    -    302
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
@@ -211,8 +211,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    30 Celsius
-Power Cycle Min/Max Temperature:     27/30 Celsius
+Current Temperature:                    31 Celsius
+Power Cycle Min/Max Temperature:     27/31 Celsius
 Lifetime    Min/Max Temperature:      9/48 Celsius
 Specified Max Operating Temperature:    34 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -222,7 +222,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/60 Celsius
 Min/Max Temperature Limit:           -40/65 Celsius
-Temperature History Size (Index):    478 (233)
+Temperature History Size (Index):    478 (237)
 
 SCT Error Recovery Control:
            Read: Disabled

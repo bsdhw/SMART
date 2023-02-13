@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 1.5 Gb/s)
-Local Time is:    Thu Feb 11 20:49:57 2021 EST
+Local Time is:    Thu Feb 11 22:19:12 2021 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -67,7 +67,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    45
 163 Initial_Bad_Block_Count ------   100   100   000    -    24
-164 Total_Erase_Count       ------   100   100   000    -    503
+164 Total_Erase_Count       ------   100   100   000    -    508
 165 Max_Erase_Count         ------   100   100   000    -    17
 166 Min_Erase_Count         ------   100   100   000    -    0
 167 Average_Erase_Count     ------   100   100   000    -    0
@@ -80,16 +80,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    21
-194 Temperature_Celsius     ------   100   100   000    -    28
-195 Hardware_ECC_Recovered  ------   100   100   000    -    493
+194 Temperature_Celsius     ------   100   100   000    -    32
+195 Hardware_ECC_Recovered  ------   100   100   000    -    500
 196 Reallocated_Event_Count ------   100   100   016    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    4290
-242 Host_Reads_32MiB        ------   100   100   000    -    1835
-245 TLC_Writes_32MiB        ------   100   100   000    -    8048
+241 Host_Writes_32MiB       ------   100   100   000    -    4377
+242 Host_Reads_32MiB        ------   100   100   000    -    1886
+245 TLC_Writes_32MiB        ------   100   100   000    -    8128
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -136,10 +136,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4              68  ---  Lifetime Power-On Resets
 0x01  0x010  4             294  ---  Power-on Hours
-0x01  0x018  6       281206635  ---  Logical Sectors Written
-0x01  0x020  6         1931510  ---  Number of Write Commands
-0x01  0x028  6       120318097  ---  Logical Sectors Read
-0x01  0x030  6         2173638  ---  Number of Read Commands
+0x01  0x018  6       286874267  ---  Logical Sectors Written
+0x01  0x020  6         2004409  ---  Number of Write Commands
+0x01  0x028  6       123637418  ---  Logical Sectors Read
+0x01  0x030  6         2254011  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
@@ -147,7 +147,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4              21  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             348  ---  Number of Hardware Resets
+0x06  0x008  4             372  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Jul 19 21:47:51 2021 EDT
+Local Time is:    Wed Jul 21 18:58:54 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,20 +62,20 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     PO-R--   099   099   062    -    196608
+  1 Raw_Read_Error_Rate     PO-R--   100   100   062    -    65536
   2 Throughput_Performance  P-S---   100   100   040    -    0
   3 Spin_Up_Time            POS---   235   235   033    -    1
   4 Start_Stop_Count        -O--C-   099   099   000    -    2869
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   100   100   040    -    0
-  9 Power_On_Hours          -O--C-   012   012   000    -    38656
+  9 Power_On_Hours          -O--C-   012   012   000    -    38702
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
  12 Power_Cycle_Count       -O--CK   099   099   000    -    2481
 191 G-Sense_Error_Rate      -O-R--   100   100   000    -    0
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    131163
 193 Load_Cycle_Count        -O--C-   001   001   000    -    1334114
-194 Temperature_Celsius     -O----   176   176   000    -    34 (Min/Max 17/52)
+194 Temperature_Celsius     -O----   206   206   000    -    29 (Min/Max 17/52)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    141
 197 Current_Pending_Sector  -O---K   100   100   000    -    28
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0
@@ -192,25 +192,25 @@ Error 44 [3] occurred at disk power-on lifetime: 38275 hours (1594 days + 19 hou
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed: read failure       40%     38656         624858854
-# 2  Short offline       Completed without error       00%     37698         -
-# 3  Short offline       Completed without error       00%     37674         -
-# 4  Short offline       Completed without error       00%     37674         -
-# 5  Short offline       Completed without error       00%     37616         -
-# 6  Short offline       Completed without error       00%     36777         -
-# 7  Short offline       Completed without error       00%     36716         -
-# 8  Short offline       Completed without error       00%     36393         -
-# 9  Short offline       Completed without error       00%     35901         -
-#10  Short offline       Completed without error       00%     35900         -
-#11  Short offline       Completed without error       00%     35899         -
-#12  Short offline       Completed without error       00%     35898         -
-#13  Short offline       Completed without error       00%     35897         -
-#14  Short offline       Completed without error       00%     35896         -
-#15  Short offline       Completed without error       00%     35895         -
-#16  Short offline       Completed without error       00%     35894         -
-#17  Short offline       Completed without error       00%     35893         -
-#18  Short offline       Completed without error       00%     35892         -
-#19  Short offline       Completed without error       00%     35891         -
+# 1  Short offline       Completed: read failure       40%     38683         624858854
+# 2  Short offline       Completed: read failure       40%     38659         624858854
+# 3  Short offline       Completed: read failure       40%     38656         624858854
+# 4  Short offline       Completed without error       00%     37698         -
+# 5  Short offline       Completed without error       00%     37674         -
+# 6  Short offline       Completed without error       00%     37674         -
+# 7  Short offline       Completed without error       00%     37616         -
+# 8  Short offline       Completed without error       00%     36777         -
+# 9  Short offline       Completed without error       00%     36716         -
+#10  Short offline       Completed without error       00%     36393         -
+#11  Short offline       Completed without error       00%     35901         -
+#12  Short offline       Completed without error       00%     35900         -
+#13  Short offline       Completed without error       00%     35899         -
+#14  Short offline       Completed without error       00%     35898         -
+#15  Short offline       Completed without error       00%     35897         -
+#16  Short offline       Completed without error       00%     35896         -
+#17  Short offline       Completed without error       00%     35895         -
+#18  Short offline       Completed without error       00%     35894         -
+#19  Short offline       Completed without error       00%     35893         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -226,7 +226,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    34 Celsius
+Current Temperature:                    30 Celsius
 Power Cycle Min/Max Temperature:     29/48 Celsius
 Lifetime    Min/Max Temperature:     17/52 Celsius
 Specified Max Operating Temperature:    36 Celsius
@@ -237,7 +237,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -40/65 Celsius
-Temperature History Size (Index):    128 (112)
+Temperature History Size (Index):    128 (117)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -247,14 +247,14 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4            2481  ---  Lifetime Power-On Resets
-0x01  0x010  4           38656  ---  Power-on Hours
+0x01  0x010  4           38702  ---  Power-on Hours
 0x01  0x018  6     85103400776  ---  Logical Sectors Written
 0x01  0x020  6      1601565513  ---  Number of Write Commands
-0x01  0x028  6    110987041346  ---  Logical Sectors Read
+0x01  0x028  6    110990045274  ---  Logical Sectors Read
 0x01  0x030  6      4332762228  ---  Number of Read Commands
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4           36424  ---  Spindle Motor Power-on Hours
-0x03  0x010  4           36320  ---  Head Flying Hours
+0x03  0x008  4           36469  ---  Spindle Motor Power-on Hours
+0x03  0x010  4           36365  ---  Head Flying Hours
 0x03  0x018  4         1334114  ---  Head Load Events
 0x03  0x020  4             132  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4          438992  ---  Read Recovery Attempts
@@ -263,8 +263,8 @@ Page  Offset Size        Value Flags Description
 0x04  0x008  4              47  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4            5447  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              34  ---  Current Temperature
-0x05  0x010  1              31  N--  Average Short Term Temperature
+0x05  0x008  1              30  ---  Current Temperature
+0x05  0x010  1              29  N--  Average Short Term Temperature
 0x05  0x018  1              32  N--  Average Long Term Temperature
 0x05  0x020  1              52  ---  Highest Temperature
 0x05  0x028  1              17  ---  Lowest Temperature

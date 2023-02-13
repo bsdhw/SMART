@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jan 10 23:08:36 2023 CET
+Local Time is:    Thu Jan 26 21:35:02 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -50,15 +50,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Later_Bad_Block         -O--C-   100   100   001    -    0
   7 Seek_Error_Rate         ------   000   000   000    -    0
   8 Seek_Time_Performance   ------   000   000   000    -    0
-  9 Power_On_Hours          -O--C-   128   000   000    -    379
+  9 Power_On_Hours          -O--C-   003   000   000    -    761
  10 Spin_Retry_Count        ------   000   000   000    -    0
- 12 Power_Cycle_Count       -O--C-   168   000   000    -    168
+ 12 Power_Cycle_Count       -O--C-   172   000   000    -    172
 163 Total_Bad_Block_Count   ------   000   000   000    -    21
 168 SATA_PHY_Error_Count    ------   000   000   000    -    0
 169 Remaining_Lifetime_Perc ------   100   000   000    -    100
 175 Bad_Cluster_Table_Count ------   000   000   000    -    0
 192 Power-Off_Retract_Count -O--C-   000   000   000    -    131
-194 Temperature_Celsius     -O----   057   100   000    -    58 (3 60 0 52 0)
+194 Temperature_Celsius     -O----   055   100   000    -    55 (3 56 0 45 0)
 197 Current_Pending_Sector  ------   000   000   000    -    0
 225 Data_Log_Write_Count    ------   000   000   000    -    0
 240 Write_Head              ------   000   000   000    -    0

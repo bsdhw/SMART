@@ -13,9 +13,9 @@ Controller ID:                      5
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
-Namespace 1 Utilization:            24,699,883,520 [24.6 GB]
+Namespace 1 Utilization:            24,737,886,208 [24.7 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Wed Dec  7 06:50:50 2022 PST
+Local Time is:                      Wed Dec  7 07:00:10 2022 PST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -45,10 +45,10 @@ Temperature:                        11 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          50%
 Percentage Used:                    3%
-Data Units Read:                    2,676,911 [1.37 TB]
-Data Units Written:                 5,755,467 [2.94 TB]
-Host Read Commands:                 38,083,793
-Host Write Commands:                177,453,756
+Data Units Read:                    2,676,912 [1.37 TB]
+Data Units Written:                 5,755,591 [2.94 TB]
+Host Read Commands:                 38,083,811
+Host Write Commands:                177,462,803
 Controller Busy Time:               932
 Power Cycles:                       96
 Power On Hours:                     10,237

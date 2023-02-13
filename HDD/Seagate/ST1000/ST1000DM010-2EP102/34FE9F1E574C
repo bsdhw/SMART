@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Aug 31 21:10:06 2022 EEST
+Local Time is:    Wed Aug 31 21:31:32 2022 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,7 +62,7 @@ SCT capabilities: 	       (0x1085)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   078   063   006    -    78130425
+  1 Raw_Read_Error_Rate     POSR--   078   063   006    -    78130681
   3 Spin_Up_Time            PO----   097   097   000    -    0
   4 Start_Stop_Count        -O--CK   100   100   020    -    97
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
@@ -75,16 +75,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    0 0 0
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   065   055   040    -    35 (Min/Max 35/36)
+190 Airflow_Temperature_Cel -O---K   064   055   040    -    36 (Min/Max 35/37)
 193 Load_Cycle_Count        -O--CK   100   100   000    -    1447
-194 Temperature_Celsius     -O---K   035   018   000    -    35 (0 18 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   014   001   000    -    78130425
+194 Temperature_Celsius     -O---K   036   018   000    -    36 (0 18 0 0 0)
+195 Hardware_ECC_Recovered  -O-RC-   014   001   000    -    78130681
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    12962h+48m+03.960s
+240 Head_Flying_Hours       ------   100   253   000    -    12963h+09m+29.538s
 241 Total_LBAs_Written      ------   100   253   000    -    15107679100
-242 Total_LBAs_Read         ------   100   253   000    -    51082200582
+242 Total_LBAs_Read         ------   100   253   000    -    51082200838
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -161,8 +161,8 @@ Page  Offset Size        Value Flags Description
 0x01  0x010  4           32654  ---  Power-on Hours
 0x01  0x018  6     15127636654  ---  Logical Sectors Written
 0x01  0x020  6        89999835  ---  Number of Write Commands
-0x01  0x028  6     51084466348  ---  Logical Sectors Read
-0x01  0x030  6       219253948  ---  Number of Read Commands
+0x01  0x028  6     51084466604  ---  Logical Sectors Read
+0x01  0x030  6       219253956  ---  Number of Read Commands
 0x01  0x038  6               -  ---  Date and Time TimeStamp
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
 0x03  0x008  4           32620  ---  Spindle Motor Power-on Hours

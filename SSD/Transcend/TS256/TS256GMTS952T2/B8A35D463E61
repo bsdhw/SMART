@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Mar 24 19:01:02 2022 CET
+Local Time is:    Fri Mar 25 19:49:34 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,13 +62,13 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    2
+  9 Power_On_Hours          ------   100   100   000    -    11
  12 Power_Cycle_Count       ------   100   100   000    -    8
-148 Unknown_Attribute       ------   100   100   000    -    628
-149 Unknown_Attribute       ------   100   100   000    -    10
+148 Unknown_Attribute       ------   100   100   000    -    2883
+149 Unknown_Attribute       ------   100   100   000    -    43
 150 Unknown_Attribute       ------   100   100   000    -    0
-151 Unknown_Attribute       ------   100   100   000    -    6
-164 Unknown_Attribute       ------   100   100   000    -    84
+151 Unknown_Attribute       ------   100   100   000    -    30
+164 Unknown_Attribute       ------   100   100   000    -    293
 165 Unknown_Attribute       ------   100   100   000    -    4
 166 Unknown_Attribute       ------   100   100   000    -    0
 167 Unknown_Attribute       ------   100   100   000    -    0
@@ -82,14 +82,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    2
-194 Temperature_Celsius     ------   100   100   000    -    65 (Min/Max 20/68)
+194 Temperature_Celsius     ------   100   100   000    -    70 (Min/Max 20/73)
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Total_LBAs_Written      ------   100   100   000    -    784
-242 Total_LBAs_Read         ------   100   100   000    -    84
-245 Unknown_Attribute       ------   100   100   000    -    1320
+241 Total_LBAs_Written      ------   100   100   000    -    3327
+242 Total_LBAs_Read         ------   100   100   000    -    179
+245 Unknown_Attribute       ------   100   100   000    -    5643
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -139,16 +139,16 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4               8  ---  Lifetime Power-On Resets
-0x01  0x010  4               2  ---  Power-on Hours
-0x01  0x018  6        51432207  ---  Logical Sectors Written
-0x01  0x020  6          589220  ---  Number of Write Commands
-0x01  0x028  6         5525941  ---  Logical Sectors Read
-0x01  0x030  6           86282  ---  Number of Read Commands
+0x01  0x010  4              11  ---  Power-on Hours
+0x01  0x018  6       218087183  ---  Logical Sectors Written
+0x01  0x020  6         2401863  ---  Number of Write Commands
+0x01  0x028  6        11750981  ---  Logical Sectors Read
+0x01  0x030  6          230297  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               2  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             555  ---  Number of Hardware Resets
+0x06  0x008  4             675  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

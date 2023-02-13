@@ -10,7 +10,7 @@ User Capacity:    320,071,851,520 bytes [320 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Tue Jun  2 22:17:52 2020 EEST
+Local Time is:    Tue Jun  2 22:27:42 2020 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -58,7 +58,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            PO----   095   095   000    -    0
   4 Start_Stop_Count        -O--CK   085   085   020    -    16100
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    24
-  7 Seek_Error_Rate         POSR--   059   048   030    -    1237172762142
+  7 Seek_Error_Rate         POSR--   059   048   030    -    1237172766053
   9 Power_On_Hours          -O--CK   092   092   000    -    7439
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   085   085   020    -    16276
@@ -66,7 +66,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
 190 Airflow_Temperature_Cel -O---K   061   050   045    -    39 (Min/Max 31/39)
 194 Temperature_Celsius     -O---K   039   050   000    -    39 (0 15 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   084   060   000    -    215897900
+195 Hardware_ECC_Recovered  -O-RC-   084   060   000    -    216861836
 197 Current_Pending_Sector  -O--C-   100   001   000    -    12
 198 Offline_Uncorrectable   ----C-   100   001   000    -    12
 199 UDMA_CRC_Error_Count    -OSRCK   200   188   000    -    108

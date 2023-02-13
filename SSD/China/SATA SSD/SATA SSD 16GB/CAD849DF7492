@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 20 22:38:31 2022 CEST
+Local Time is:    Sat Aug 20 22:50:35 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -121,8 +121,8 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              30  ---  Lifetime Power-On Resets
 0x01  0x010  4            4233  ---  Power-on Hours
-0x01  0x018  6       103701809  ---  Logical Sectors Written
-0x01  0x028  6       177121547  ---  Logical Sectors Read
+0x01  0x018  6       103916033  ---  Logical Sectors Written
+0x01  0x028  6       177162932  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==

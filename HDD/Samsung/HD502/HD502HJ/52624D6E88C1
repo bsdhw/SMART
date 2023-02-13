@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p11-HBSD amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p12-HBSD amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SAMSUNG SpinPoint F3
@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Fri Jan 22 19:55:03 2021 -03
+Local Time is:    Sun Jan 24 06:41:30 2021 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -70,17 +70,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   252   252   010    -    0
   7 Seek_Error_Rate         -OSR-K   252   252   051    -    0
   8 Seek_Time_Performance   --S--K   252   252   015    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    81764
+  9 Power_On_Hours          -O--CK   100   100   000    -    81799
  10 Spin_Retry_Count        -O--CK   252   252   051    -    0
  11 Calibration_Retry_Count -O--CK   252   252   000    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    798
 191 G-Sense_Error_Rate      -O---K   100   100   000    -    3
 192 Power-Off_Retract_Count -O---K   252   252   000    -    0
-194 Temperature_Celsius     -O----   064   039   000    -    32 (Min/Max 15/61)
+194 Temperature_Celsius     -O----   064   039   000    -    35 (Min/Max 15/61)
 195 Hardware_ECC_Recovered  -O-RCK   100   100   000    -    0
 196 Reallocated_Event_Count -O--CK   252   252   000    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    1
-198 Offline_Uncorrectable   ----CK   252   100   000    -    0
+198 Offline_Uncorrectable   ----CK   100   100   000    -    1
 199 UDMA_CRC_Error_Count    -OS-CK   100   100   000    -    23
 200 Multi_Zone_Error_Rate   -O-R-K   100   100   000    -    1
 223 Load_Retry_Count        -O--CK   252   252   000    -    0
@@ -293,7 +293,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    32 Celsius
+Current Temperature:                    36 Celsius
 Power Cycle Min/Max Temperature:     30/39 Celsius
 Lifetime    Min/Max Temperature:     18/61 Celsius
 Specified Max Operating Temperature:    80 Celsius
@@ -304,7 +304,7 @@ Temperature Sampling Period:         5 minutes
 Temperature Logging Interval:        5 minutes
 Min/Max recommended Temperature:     -5/80 Celsius
 Min/Max Temperature Limit:           -10/85 Celsius
-Temperature History Size (Index):    128 (105)
+Temperature History Size (Index):    128 (6)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -324,8 +324,8 @@ ID      Size     Value  Description
 0x0006  4            0  R_ERR response for device-to-host non-data FIS
 0x0007  4            0  R_ERR response for host-to-device non-data FIS
 0x0008  4            0  Device-to-host non-data FIS retries
-0x0009  4            6  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            5  Device-to-host register FISes sent due to a COMRESET
+0x0009  4            9  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            8  Device-to-host register FISes sent due to a COMRESET
 0x000b  4            0  CRC errors within host-to-device FIS
 0x000d  4            0  Non-CRC errors within host-to-device FIS
 0x000f  4            0  R_ERR response for host-to-device data FIS, CRC

@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p4 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Feb  2 10:13:41 2021 CET
+Local Time is:    Wed Mar  3 14:18:01 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -67,29 +67,29 @@ SCT capabilities: 	       (0x3035)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   078   064   006    -    56892584
+  1 Raw_Read_Error_Rate     POSR--   080   064   006    -    92455712
   3 Spin_Up_Time            PO----   099   099   000    -    0
-  4 Start_Stop_Count        -O--CK   099   099   020    -    1556
+  4 Start_Stop_Count        -O--CK   099   099   020    -    1558
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   065   060   045    -    3300992
-  9 Power_On_Hours          -O--CK   094   094   000    -    5268 (1 101 0)
+  7 Seek_Error_Rate         POSR--   066   060   045    -    3830441
+  9 Power_On_Hours          -O--CK   094   094   000    -    5464 (71 130 0)
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   020    -    12
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    14
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-188 Command_Timeout         -O--CK   100   100   000    -    4295032833
+188 Command_Timeout         -O--CK   100   099   000    -    8590065666
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   062   040   040    Past 38 (Min/Max 33/45)
+190 Airflow_Temperature_Cel -O---K   061   040   040    Past 39 (Min/Max 33/46)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    0
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    1
-193 Load_Cycle_Count        -O--CK   061   061   000    -    79669
-194 Temperature_Celsius     -O---K   038   060   000    -    38 (0 27 0 0 0)
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    2
+193 Load_Cycle_Count        -O--CK   054   054   000    -    93310
+194 Temperature_Celsius     -O---K   039   060   000    -    39 (0 27 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    333 (160 201 0)
-241 Total_LBAs_Written      ------   100   253   000    -    300097051
-242 Total_LBAs_Read         ------   100   253   000    -    936455
+240 Head_Flying_Hours       ------   100   253   000    -    379 (236 194 0)
+241 Total_LBAs_Written      ------   100   253   000    -    335482763
+242 Total_LBAs_Read         ------   100   253   000    -    1113871
 254 Free_Fall_Sensor        -O--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -148,7 +148,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    38 Celsius
+Current Temperature:                    39 Celsius
 Power Cycle Min/Max Temperature:     33/46 Celsius
 Lifetime    Min/Max Temperature:     27/60 Celsius
 Specified Max Operating Temperature:    38 Celsius
@@ -159,7 +159,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        30 minutes
 Min/Max recommended Temperature:     14/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (95)
+Temperature History Size (Index):    128 (87)
 
 SCT Error Recovery Control command not supported
 

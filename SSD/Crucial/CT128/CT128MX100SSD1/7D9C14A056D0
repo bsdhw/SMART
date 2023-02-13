@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jan 21 12:42:53 2021 CET
+Local Time is:    Thu Jan 21 12:46:53 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -77,7 +77,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 183 SATA_Interfac_Downshift -O--CK   100   100   000    -    0
 184 Error_Correction_Count  -O--CK   100   100   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   071   051   000    -    29 (Min/Max 13/49)
+194 Temperature_Celsius     -O---K   070   051   000    -    30 (Min/Max 13/49)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    16
 197 Current_Pending_ECC_Cnt -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain P---CK   098   098   000    -    2
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    12389035230
-247 Host_Program_Page_Count -O--CK   100   100   000    -    388131433
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    232998508
+246 Total_LBAs_Written      -O--CK   100   100   000    -    12389122638
+247 Host_Program_Page_Count -O--CK   100   100   000    -    388134168
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    233074643
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -126,18 +126,19 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Vendor (0xff)       Completed without error       00%      1428         -
-# 2  Vendor (0xff)       Completed without error       00%       967         -
-# 3  Vendor (0xff)       Completed without error       00%       951         -
-# 4  Vendor (0xff)       Completed without error       00%       751         -
-# 5  Vendor (0xff)       Completed without error       00%       224         -
-# 6  Vendor (0xff)       Completed without error       00%       155         -
+# 1  Short offline       Completed without error       00%      5656         -
+# 2  Vendor (0xff)       Completed without error       00%      1428         -
+# 3  Vendor (0xff)       Completed without error       00%       967         -
+# 4  Vendor (0xff)       Completed without error       00%       951         -
+# 5  Vendor (0xff)       Completed without error       00%       751         -
+# 6  Vendor (0xff)       Completed without error       00%       224         -
+# 7  Vendor (0xff)       Completed without error       00%       155         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
     1        0        0  Not_testing
     2        0        0  Not_testing
-    3        0        0  Not_testing
+    3        0        0  Completed [00% left] (57881389-57946924)
     4        0        0  Not_testing
     5        0        0  Not_testing
 Selective self-test flags (0x0):
@@ -147,7 +148,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    29 Celsius
+Current Temperature:                    30 Celsius
 Power Cycle Min/Max Temperature:     26/41 Celsius
 Lifetime    Min/Max Temperature:     13/49 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -157,7 +158,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (284)
+Temperature History Size (Index):    478 (288)
 
 SCT Error Recovery Control command not supported
 
@@ -166,15 +167,15 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             617  ---  Lifetime Power-On Resets
 0x01  0x010  4            5656  ---  Power-on Hours
-0x01  0x018  6     12389035230  ---  Logical Sectors Written
-0x01  0x020  6       150319358  ---  Number of Write Commands
-0x01  0x028  6      8597038058  ---  Logical Sectors Read
-0x01  0x030  6       137396507  ---  Number of Read Commands
+0x01  0x018  6     12389122638  ---  Logical Sectors Written
+0x01  0x020  6       150320486  ---  Number of Write Commands
+0x01  0x028  6      8597041034  ---  Logical Sectors Read
+0x01  0x030  6       137396563  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4            2059  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              29  ---  Current Temperature
+0x05  0x008  1              30  ---  Current Temperature
 0x05  0x010  1              28  ---  Average Short Term Temperature
 0x05  0x018  1              27  ---  Average Long Term Temperature
 0x05  0x020  1              49  ---  Highest Temperature

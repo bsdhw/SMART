@@ -13,7 +13,7 @@ Rotation Rate:    5400 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sat Jan  2 19:24:04 2021 +05
+Local Time is:    Sat Jan  2 19:26:27 2021 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -69,7 +69,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
  12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       2388
 192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       113
 193 Load_Cycle_Count        0x0032   176   176   000    Old_age   Always       -       74708
-194 Temperature_Celsius     0x0022   118   096   000    Old_age   Always       -       25
+194 Temperature_Celsius     0x0022   117   096   000    Old_age   Always       -       26
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0

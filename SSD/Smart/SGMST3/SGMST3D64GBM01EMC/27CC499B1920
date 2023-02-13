@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Oct  7 00:05:47 2022 CEST
+Local Time is:    Sun Oct 16 00:18:19 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,7 +64,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    30968
+  9 Power_On_Hours          -O--C-   100   100   000    -    31161
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
  12 Power_Cycle_Count       -O--C-   100   100   000    -    190
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
@@ -119,8 +119,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4        20515  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           36  Device-to-host register FISes sent due to a COMRESET
+0x0009  4        20518  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           39  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

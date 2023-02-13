@@ -15,7 +15,7 @@ TRIM Command:     Unavailable
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jul  8 12:10:33 2022 CDT
+Local Time is:    Mon Sep 26 14:53:01 2022 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -57,20 +57,20 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Later_Bad_Block         PO--C-   100   100   001    -    0
   7 Seek_Error_Rate         ------   000   000   000    -    0
   8 Seek_Time_Performance   ------   000   000   000    -    0
-  9 Power_On_Hours          -O----   093   000   000    -    21853
+  9 Power_On_Hours          -O----   057   000   000    -    23609
  10 Spin_Retry_Count        ------   000   000   000    -    0
- 12 Power_Cycle_Count       -O----   078   000   000    -    78
+ 12 Power_Cycle_Count       -O----   057   000   000    -    569
 163 Total_Bad_Block_Count   ------   000   000   000    -    49
 168 SATA_PHY_Error_Count    ------   000   000   000    -    0
-233 Media_Wearout_Indicator ------   099   000   000    -    99
+233 Media_Wearout_Indicator ------   098   000   000    -    98
 175 Bad_Cluster_Table_Count ------   000   000   000    -    0
 192 Power-Off_Retract_Count ------   000   000   000    -    0
 194 Temperature_Celsius     ------   030   100   000    -    30 (3 100 0 0 0)
 203 Run_Out_Cancel          ------   000   100   000    -    0
-225 Data_Log_Write_Count    ------   000   193   000    -    30922291
+225 Data_Log_Write_Count    ------   000   051   000    -    54996231
 240 Write_Head              ------   000   000   000    -    0
-165 Max_Erase_Count         -O----   172   001   000    -    172
-167 Average_Erase_Count     -O----   158   001   000    -    158
+165 Max_Erase_Count         -O----   085   001   000    -    341
+167 Average_Erase_Count     -O----   066   001   000    -    322
 170 Spare_Block_Count       PO----   100   001   000    -    188
 171 Program_Fail_Count      -O----   000   001   000    -    0
 172 Erase_Fail_Count        -O----   000   001   000    -    0
@@ -79,8 +79,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Flash_ID                -O----   100   001   000    -    0xd17a93953c98
 232 Spares_Remaining_Perc   PO----   100   001   000    -    0
 235 Later_Bad_Blk_Inf_R/W/E -O----   000   000   000    -    0 0 0
-241 Host_Writes_32MiB       -O----   100   001   000    -    120790
-242 Host_Reads_32MiB        -O----   100   001   000    -    10441
+241 Host_Writes_32MiB       -O----   100   001   000    -    214829
+242 Host_Reads_32MiB        -O----   100   001   000    -    42677
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -131,7 +131,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            9  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            1  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

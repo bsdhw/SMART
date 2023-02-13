@@ -13,7 +13,7 @@ Form Factor:      2.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Jul 11 16:53:35 2021 CEST
+Local Time is:    Sun Jul 11 18:23:44 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -59,7 +59,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   000   100   000    -    21394
+  9 Power_On_Hours          -O--CK   000   100   000    -    21395
  12 Power_Cycle_Count       -O--CK   100   100   000    -    31
 165 Unknown_Attribute       -O--CK   100   100   000    -    8826298697815
 166 Unknown_Attribute       -O--CK   100   100   000    -    1
@@ -119,11 +119,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              31  ---  Lifetime Power-On Resets
-0x01  0x010  4           21394  ---  Power-on Hours
-0x01  0x018  6       118949598  ---  Logical Sectors Written
-0x01  0x020  6      1080000121  ---  Number of Write Commands
-0x01  0x028  6      2028128743  ---  Logical Sectors Read
-0x01  0x030  6       269970219  ---  Number of Read Commands
+0x01  0x010  4           21395  ---  Power-on Hours
+0x01  0x018  6       119058427  ---  Logical Sectors Written
+0x01  0x020  6      1080007807  ---  Number of Write Commands
+0x01  0x028  6      2028131488  ---  Logical Sectors Read
+0x01  0x030  6       269970261  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

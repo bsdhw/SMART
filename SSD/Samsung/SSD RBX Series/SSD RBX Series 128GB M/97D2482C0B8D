@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Unavailable
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Thu Feb  3 18:59:00 2022 PST
+Local Time is:    Thu Feb 24 23:00:56 2022 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     254 (maximum performance), recommended: 128
@@ -57,7 +57,7 @@ recommended polling time: 	 (  36) minutes.
 SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--CK   093   093   000    -    35119
+  9 Power_On_Hours          -O--CK   092   092   000    -    35627
  12 Power_Cycle_Count       -O--CK   095   095   000    -    4208
 175 Program_Fail_Count_Chip -O--CK   100   100   011    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   011    -    0
@@ -73,7 +73,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   253   253   000    -    0
 232 Available_Reservd_Space PO--C-   088   088   011    -    108
-233 Media_Wearout_Indicator -O--CK   022   022   000    -    3357833757
+233 Media_Wearout_Indicator -O--CK   011   011   000    -    3852017413
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -132,8 +132,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2            5  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            5  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            8  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            8  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

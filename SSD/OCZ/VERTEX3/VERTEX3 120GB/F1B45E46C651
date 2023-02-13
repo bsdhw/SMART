@@ -13,8 +13,8 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
-SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Apr 23 18:14:38 2022 CEST
+SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
+Local Time is:    Sat Oct 15 14:44:40 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,10 +58,10 @@ SCT capabilities: 	       (0x0021)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   120   120   050    Pre-fail  Always       -       0/0
+  1 Raw_Read_Error_Rate     0x000f   086   086   050    Pre-fail  Always       -       0/3291889
   5 Retired_Block_Count     0x0033   100   100   003    Pre-fail  Always       -       1
-  9 Power_On_Hours_and_Msec 0x0032   068   068   000    Old_age   Always       -       28477h+30m+09.870s
- 12 Power_Cycle_Count       0x0032   095   095   000    Old_age   Always       -       5229
+  9 Power_On_Hours_and_Msec 0x0032   068   068   000    Old_age   Always       -       28482h+04m+19.080s
+ 12 Power_Cycle_Count       0x0032   095   095   000    Old_age   Always       -       5236
 171 Program_Fail_Count      0x0032   000   000   000    Old_age   Always       -       1
 172 Erase_Fail_Count        0x0032   000   000   000    Old_age   Always       -       0
 174 Unexpect_Power_Loss_Ct  0x0030   000   000   000    Old_age   Offline      -       67
@@ -70,16 +70,16 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count        0x0032   000   000   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 194 Temperature_Celsius     0x0022   030   030   000    Old_age   Always       -       30 (Min/Max 30/30)
-195 ECC_Uncorr_Error_Count  0x001c   100   100   000    Old_age   Offline      -       0/0
+195 ECC_Uncorr_Error_Count  0x001c   120   120   000    Old_age   Offline      -       0/3291889
 196 Reallocated_Event_Count 0x0033   100   100   003    Pre-fail  Always       -       1
-201 Unc_Soft_Read_Err_Rate  0x001c   100   100   000    Old_age   Offline      -       0/0
-204 Soft_ECC_Correct_Rate   0x001c   100   100   000    Old_age   Offline      -       0/0
+201 Unc_Soft_Read_Err_Rate  0x001c   120   120   000    Old_age   Offline      -       0/3291889
+204 Soft_ECC_Correct_Rate   0x001c   120   120   000    Old_age   Offline      -       0/3291889
 230 Life_Curve_Status       0x0013   100   100   000    Pre-fail  Always       -       100
 231 SSD_Life_Left           0x0013   100   100   010    Pre-fail  Always       -       0
-233 SandForce_Internal      0x0000   000   000   000    Old_age   Offline      -       19996
-234 SandForce_Internal      0x0032   000   000   000    Old_age   Always       -       13760
-241 Lifetime_Writes_GiB     0x0032   000   000   000    Old_age   Always       -       13760
-242 Lifetime_Reads_GiB      0x0032   000   000   000    Old_age   Always       -       42433
+233 SandForce_Internal      0x0000   000   000   000    Old_age   Offline      -       20009
+234 SandForce_Internal      0x0032   000   000   000    Old_age   Always       -       13790
+241 Lifetime_Writes_GiB     0x0032   000   000   000    Old_age   Always       -       13790
+242 Lifetime_Reads_GiB      0x0032   000   000   000    Old_age   Always       -       42555
 
 SMART Error Log not supported
 

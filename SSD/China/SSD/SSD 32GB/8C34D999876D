@@ -12,7 +12,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Feb 24 12:13:28 2022 CET
+Local Time is:    Thu Mar  3 09:23:30 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -44,24 +44,24 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
-  5 Reallocated_Sector_Ct   ------   100   100   050    -    1
+  5 Reallocated_Sector_Ct   ------   100   100   050    -    9
  12 Power_Cycle_Count       ------   100   100   050    -    77
-160 Unknown_Attribute       ------   100   100   050    -    0
-161 Unknown_Attribute       ------   100   100   050    -    150
-162 Unknown_Attribute       ------   100   100   050    -    135
+160 Unknown_Attribute       ------   100   100   050    -    2
+161 Unknown_Attribute       ------   100   100   050    -    142
+162 Unknown_Attribute       ------   100   100   050    -    124
 163 Unknown_Attribute       ------   100   100   050    -    17
-164 Unknown_Attribute       ------   100   100   050    -    47099
-165 Unknown_Attribute       ------   100   100   050    -    68
-166 Unknown_Attribute       ------   100   100   050    -    1
-167 Unknown_Attribute       ------   100   100   050    -    22
+164 Unknown_Attribute       ------   100   100   050    -    109836
+165 Unknown_Attribute       ------   100   100   050    -    81
+166 Unknown_Attribute       ------   100   100   050    -    16
+167 Unknown_Attribute       ------   100   100   050    -    53
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    38 (Min/Max 8/50)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    0
+194 Temperature_Celsius     ------   100   100   000    -    41 (Min/Max 8/50)
+195 Hardware_ECC_Recovered  ------   100   100   050    -    5
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    4366
-242 Total_LBAs_Read         ------   100   100   050    -    7359
+241 Total_LBAs_Written      ------   100   100   050    -    8770
+242 Total_LBAs_Read         ------   100   100   050    -    7424
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

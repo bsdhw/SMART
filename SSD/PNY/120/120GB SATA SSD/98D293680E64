@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Dec 19 02:54:48 2022 CST
+Local Time is:    Mon Dec 19 03:11:03 2022 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -140,16 +140,16 @@ Error 48 [3] occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  00 -- 00 00 00 00 00 00 00 00 00 00 00
+  00 -- 00 00 00 00 00 00 00 00 00 00 00   at LBA = 0x00000000 = 0
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  b0 00 d1 01 01 00 00 4f 00 c2 01 40 08     00:00:00.000  SMART READ ATTRIBUTE THRESHOLDS [OBS-4]
-  b0 00 d0 01 01 00 00 4f 00 c2 00 40 08     00:00:00.000  SMART READ DATA
-  ec 00 00 01 01 00 00 00 00 00 00 40 08     00:00:00.000  IDENTIFY DEVICE
-  60 00 01 20 20 00 0d 4b 00 f9 af 40 08     00:00:00.000  READ FPDMA QUEUED
-  60 00 08 b0 b0 00 00 00 00 00 00 40 08     00:00:00.000  READ FPDMA QUEUED
+  60 00 08 01 f0 00 00 01 00 00 50 00 00     00:00:00.000  READ FPDMA QUEUED
+  60 00 08 01 f0 00 00 01 00 00 50 00 00     00:00:00.000  READ FPDMA QUEUED
+  60 00 08 01 f0 00 00 01 00 00 50 00 00     00:00:00.000  READ FPDMA QUEUED
+  60 00 08 01 f0 00 00 01 00 00 50 00 00     00:00:00.000  READ FPDMA QUEUED
+  60 00 08 38 f0 00 00 01 00 00 50 00 00     00:00:00.000  READ FPDMA QUEUED
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
@@ -176,8 +176,8 @@ Page  Offset Size        Value Flags Description
 0x01  0x010  4             671  ---  Power-on Hours
 0x01  0x018  6      2538088889  ---  Logical Sectors Written
 0x01  0x020  6        19474704  ---  Number of Write Commands
-0x01  0x028  6      2430048390  ---  Logical Sectors Read
-0x01  0x030  6        45311631  ---  Number of Read Commands
+0x01  0x028  6      2430049994  ---  Logical Sectors Read
+0x01  0x030  6        45311825  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

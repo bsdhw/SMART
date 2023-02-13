@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p8 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Controller ID:                      0
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          120,034,123,776 [120 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Wed Aug 19 09:56:38 2020 IST
+Local Time is:                      Thu Oct 29 07:52:01 2020 GMT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -43,36 +43,36 @@ Temperature:                        49 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          50%
 Percentage Used:                    1%
-Data Units Read:                    2,508,544 [1.28 TB]
-Data Units Written:                 1,833,220 [938 GB]
-Host Read Commands:                 53,139,717
-Host Write Commands:                60,455,137
-Controller Busy Time:               368
-Power Cycles:                       17
-Power On Hours:                     2,453
+Data Units Read:                    3,082,435 [1.57 TB]
+Data Units Written:                 2,198,032 [1.12 TB]
+Host Read Commands:                 68,911,210
+Host Write Commands:                67,573,965
+Controller Busy Time:               455
+Power Cycles:                       19
+Power On Hours:                     4,153
 Unsafe Shutdowns:                   11
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      50
+Error Information Log Entries:      63
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 2:               49 Celsius
 
 Error Information (NVMe Log 0x01, max 16 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0         50     0  0x0004  0x0203      -            0     0     -
-  1         49     0  0x0004  0x0203      -            0     0     -
-  2         48     0  0x0004  0x0203      -            0     0     -
-  3         47     0  0x0004  0x0203      -            0     0     -
-  4         46     0  0x0004  0x0203      -            0     0     -
-  5         45     0  0x0004  0x0203      -            0     0     -
-  6         44     0  0x0004  0x0203      -            0     0     -
-  7         43     0  0x0004  0x0203      -            0     0     -
-  8         42     0  0x0004  0x0203      -            0     0     -
-  9         41     0  0x0004  0x0203      -            0     0     -
- 10         40     0  0x0004  0x0203      -            0     0     -
- 11         39     0  0x0004  0x0203      -            0     0     -
- 12         38     0  0x0004  0x0203      -            0     0     -
- 13         37     0  0x0004  0x0203      -            0     0     -
- 14         36     0  0x0004  0x0203      -            0     0     -
- 15         35     0  0x0004  0x0203      -            0     0     -
+  0         63     0  0x0004  0x0203      -            0     0     -
+  1         62     0  0x0004  0x0203      -            0     0     -
+  2         61     0  0x0004  0x0203      -            0     0     -
+  3         60     0  0x0004  0x0203      -            0     0     -
+  4         59     0  0x0004  0x0203      -            0     0     -
+  5         58     0  0x0004  0x0203      -            0     0     -
+  6         57     0  0x0004  0x0203      -            0     0     -
+  7         56     0  0x0004  0x0203      -            0     0     -
+  8         55     0  0x0004  0x0203      -            0     0     -
+  9         54     0  0x0004  0x0203      -            0     0     -
+ 10         53     0  0x0004  0x0203      -            0     0     -
+ 11         52     0  0x0004  0x0203      -            0     0     -
+ 12         51     0  0x0004  0x0203      -            0     0     -
+ 13         50     0  0x0004  0x0203      -            0     0     -
+ 14         49     0  0x0004  0x0203      -            0     0     -
+ 15         48     0  0x0004  0x0203      -            0     0     -
 

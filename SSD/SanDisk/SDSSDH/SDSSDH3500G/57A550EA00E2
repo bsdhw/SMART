@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Mar 20 07:54:19 2022 EDT
+Local Time is:    Sun Mar 20 07:54:36 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -126,7 +126,7 @@ Page  Offset Size        Value Flags Description
 0x01  0x018  6     35876263748  ---  Logical Sectors Written
 0x01  0x020  6      1395441485  ---  Number of Write Commands
 0x01  0x028  6     25427490709  ---  Logical Sectors Read
-0x01  0x030  6        94522447  ---  Number of Read Commands
+0x01  0x030  6        94522454  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               1  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

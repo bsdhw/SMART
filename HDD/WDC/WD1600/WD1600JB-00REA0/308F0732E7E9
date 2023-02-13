@@ -10,7 +10,7 @@ User Capacity:    160,041,885,696 bytes [160 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Thu Nov 26 15:51:26 2020 EST
+Local Time is:    Thu Nov 26 16:38:22 2020 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,7 +59,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       333
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000f   200   200   051    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   001   001   000    Old_age   Always       -       99366
+  9 Power_On_Hours          0x0032   001   001   000    Old_age   Always       -       99367
  10 Spin_Retry_Count        0x0013   100   100   051    Pre-fail  Always       -       0
  11 Calibration_Retry_Count 0x0012   100   100   051    Old_age   Always       -       0
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       331

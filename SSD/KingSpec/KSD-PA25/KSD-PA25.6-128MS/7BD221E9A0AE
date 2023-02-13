@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Unavailable
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
-Local Time is:    Mon Mar  8 16:36:01 2021 EST
+Local Time is:    Mon Mar 15 22:31:00 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -45,23 +45,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O----   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    81
+ 12 Power_Cycle_Count       ------   100   100   050    -    86
 160 Uncorrectable_Error_Cnt ------   100   100   050    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   050    -    275
-162 Unknown_Attribute       ------   100   100   050    -    230
+162 Unknown_Attribute       ------   100   100   050    -    243
 163 Initial_Bad_Block_Count ------   100   100   050    -    4
-164 Total_Erase_Count       ------   100   100   050    -    49549
-165 Max_Erase_Count         ------   100   100   050    -    67
+164 Total_Erase_Count       ------   100   100   050    -    60106
+165 Max_Erase_Count         ------   100   100   050    -    70
 166 Min_Erase_Count         ------   100   100   050    -    0
-167 Average_Erase_Count     ------   100   100   050    -    12
+167 Average_Erase_Count     ------   100   100   050    -    14
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    74 (Min/Max 41/75)
+194 Temperature_Celsius     ------   100   100   000    -    62 (Min/Max 41/75)
 195 Hardware_ECC_Recovered  ------   100   100   050    -    0
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Host_Writes_32MiB       -O--CK   100   100   050    -    10856
-242 Host_Reads_32MiB        -O--CK   100   100   050    -    7908
+241 Host_Writes_32MiB       -O--CK   100   100   050    -    12666
+242 Host_Reads_32MiB        -O--CK   100   100   050    -    9996
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

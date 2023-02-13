@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun Jan  9 23:59:05 2022 GMT
+Local Time is:    Tue Jan 11 20:40:20 2022 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     254 (maximum performance), recommended: 128
@@ -62,19 +62,19 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     PO-R--   100   100   016    -    0
+  1 Raw_Read_Error_Rate     PO-R--   100   100   016    -    65536
   2 Throughput_Performance  P-S---   132   132   054    -    115
-  3 Spin_Up_Time            POS---   138   138   024    -    358 (Average 474)
-  4 Start_Stop_Count        -O--C-   100   100   000    -    841
+  3 Spin_Up_Time            POS---   169   169   024    -    319 (Average 358)
+  4 Start_Stop_Count        -O--C-   100   100   000    -    848
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   128   128   020    -    32
-  9 Power_On_Hours          -O--C-   090   090   000    -    73374
+  9 Power_On_Hours          -O--C-   090   090   000    -    73418
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    841
-192 Power-Off_Retract_Count -O--CK   097   097   000    -    3651
-193 Load_Cycle_Count        -O--C-   097   097   000    -    3651
-194 Temperature_Celsius     -O----   111   111   000    -    54 (Min/Max 18/63)
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    848
+192 Power-Off_Retract_Count -O--CK   097   097   000    -    3658
+193 Load_Cycle_Count        -O--C-   097   097   000    -    3658
+194 Temperature_Celsius     -O----   107   107   000    -    56 (Min/Max 18/63)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0
@@ -109,8 +109,10 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%      7299         -
-# 2  Short offline       Completed without error       00%      2752         -
+# 1  Short offline       Completed without error       00%      7840         -
+# 2  Short offline       Completed without error       00%      7840         -
+# 3  Short offline       Completed without error       00%      7299         -
+# 4  Short offline       Completed without error       00%      2752         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -126,8 +128,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        SMART Off-line Data Collection executing in background (4)
-Current Temperature:                    54 Celsius
-Power Cycle Min/Max Temperature:     54/59 Celsius
+Current Temperature:                    56 Celsius
+Power Cycle Min/Max Temperature:     54/57 Celsius
 Lifetime    Min/Max Temperature:     18/63 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -136,7 +138,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -40/70 Celsius
-Temperature History Size (Index):    128 (84)
+Temperature History Size (Index):    128 (30)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -149,8 +151,8 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x0009  2            3  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            3  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            7  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            7  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 

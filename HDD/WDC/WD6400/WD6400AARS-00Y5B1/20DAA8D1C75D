@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [OpenBSD 7.0 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital Caviar Green (AF)
@@ -9,10 +9,10 @@ LU WWN Device Id: 5 0014ee ...
 Firmware Version: 80.00A80
 User Capacity:    640,135,028,736 bytes [640 GB]
 Sector Size:      512 bytes logical/physical
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Tue Nov 30 01:57:39 2021 UTC
+Local Time is:    Sun May 22 23:22:08 2022 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -24,8 +24,8 @@ Warning: This result is based on an Attribute check.
 See vendor-specific Attribute list for failed Attributes.
 
 General SMART Values:
-Offline data collection status:  (0x84)	Offline data collection activity
-					was suspended by an interrupting command from host.
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Enabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -60,27 +60,25 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   199   186   051    Pre-fail  Always       -       68049
-  3 Spin_Up_Time            0x0027   127   120   021    Pre-fail  Always       -       6650
-  4 Start_Stop_Count        0x0032   085   085   000    Old_age   Always       -       15462
-  5 Reallocated_Sector_Ct   0x0033   140   140   140    Pre-fail  Always   FAILING_NOW 479
+  3 Spin_Up_Time            0x0027   126   120   021    Pre-fail  Always       -       6658
+  4 Start_Stop_Count        0x0032   083   083   000    Old_age   Always       -       17092
+  5 Reallocated_Sector_Ct   0x0033   134   134   140    Pre-fail  Always   FAILING_NOW 528
   7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   017   017   000    Old_age   Always       -       61185
+  9 Power_On_Hours          0x0032   011   011   000    Old_age   Always       -       65260
  10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   087   087   000    Old_age   Always       -       13526
-192 Power-Off_Retract_Count 0x0032   189   189   000    Old_age   Always       -       8584
-193 Load_Cycle_Count        0x0032   001   001   000    Old_age   Always       -       2226243
-194 Temperature_Celsius     0x0022   107   090   000    Old_age   Always       -       40
-196 Reallocated_Event_Count 0x0032   001   001   000    Old_age   Always       -       421
-197 Current_Pending_Sector  0x0032   191   188   000    Old_age   Always       -       1028
+ 12 Power_Cycle_Count       0x0032   087   087   000    Old_age   Always       -       13614
+192 Power-Off_Retract_Count 0x0032   189   189   000    Old_age   Always       -       8646
+193 Load_Cycle_Count        0x0032   001   001   000    Old_age   Always       -       2265209
+194 Temperature_Celsius     0x0022   108   090   000    Old_age   Always       -       39
+196 Reallocated_Event_Count 0x0032   001   001   000    Old_age   Always       -       470
+197 Current_Pending_Sector  0x0032   190   188   000    Old_age   Always       -       1060
 198 Offline_Uncorrectable   0x0030   200   197   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       2
 200 Multi_Zone_Error_Rate   0x0008   200   002   000    Old_age   Offline      -       0
 
 SMART Error Log Version: 1
-Warning: ATA error count 27399 inconsistent with error log pointer 1
-
-ATA Error Count: 27399 (device log contains only the most recent five errors)
+ATA Error Count: 27406 (device log contains only the most recent five errors)
 	CR = Command Register [HEX]
 	FR = Features Register [HEX]
 	SC = Sector Count Register [HEX]
@@ -94,57 +92,6 @@ ATA Error Count: 27399 (device log contains only the most recent five errors)
 Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
-
-Error 27399 occurred at disk power-on lifetime: 59612 hours (2483 days + 20 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER ST SC SN CL CH DH
-  -- -- -- -- -- -- --
-  04 61 00 00 00 00 a0  Device Fault; Error: ABRT
-
-  Commands leading to the command that caused the error were:
-  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
-  -- -- -- -- -- -- -- --  ----------------  --------------------
-  ef 02 00 00 00 00 a0 00   6d+06:17:18.580  SET FEATURES [Enable write cache]
-  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
-  ef 66 00 00 00 00 a0 00   6d+06:17:18.579  SET FEATURES [Disable revert defaults]
-  b1 c1 00 00 00 00 a0 00   6d+06:17:18.579  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
-  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
-
-Error 27398 occurred at disk power-on lifetime: 59612 hours (2483 days + 20 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER ST SC SN CL CH DH
-  -- -- -- -- -- -- --
-  04 61 00 00 00 00 a0
-
-  Commands leading to the command that caused the error were:
-  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
-  -- -- -- -- -- -- -- --  ----------------  --------------------
-  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
-  ef 66 00 00 00 00 a0 00   6d+06:17:18.579  SET FEATURES [Disable revert defaults]
-  b1 c1 00 00 00 00 a0 00   6d+06:17:18.579  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
-  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
-  ef 10 06 00 00 00 a0 00   6d+06:17:18.578  SET FEATURES [Enable SATA feature]
-
-Error 27397 occurred at disk power-on lifetime: 59612 hours (2483 days + 20 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER ST SC SN CL CH DH
-  -- -- -- -- -- -- --
-  04 61 00 00 00 00 a0  Device Fault; Error: ABRT
-
-  Commands leading to the command that caused the error were:
-  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
-  -- -- -- -- -- -- -- --  ----------------  --------------------
-  ef 66 00 00 00 00 a0 00   6d+06:17:18.579  SET FEATURES [Disable revert defaults]
-  b1 c1 00 00 00 00 a0 00   6d+06:17:18.579  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
-  f5 00 00 00 00 00 a0 00   6d+06:17:18.579  SECURITY FREEZE LOCK
-  ef 10 06 00 00 00 a0 00   6d+06:17:18.578  SET FEATURES [Enable SATA feature]
-  ef 10 06 00 00 00 a0 00   6d+06:17:18.578  SET FEATURES [Enable SATA feature]
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error

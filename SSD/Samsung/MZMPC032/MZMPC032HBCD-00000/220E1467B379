@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 T13/2015-D revision 2
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Aug 14 21:59:31 2020 CEST
+Local Time is:    Fri Aug 14 22:06:06 2020 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,11 +68,11 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 183 Runtime_Bad_Block       PO--C-   100   100   010    -    0
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O--CK   042   029   000    -    58
+190 Airflow_Temperature_Cel -O--CK   043   029   000    -    57
 195 Hardware_ECC_Recovered  -O-RC-   200   200   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   253   253   000    -    0
 235 Unknown_Attribute       -O--C-   099   099   000    -    18
-241 Total_LBAs_Written      -O--CK   099   099   000    -    8046299716
+241 Total_LBAs_Written      -O--CK   099   099   000    -    8046333404
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

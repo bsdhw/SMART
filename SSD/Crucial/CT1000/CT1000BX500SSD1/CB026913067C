@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun May 30 21:17:04 2021 EDT
+Local Time is:    Sun May 30 21:31:39 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -80,8 +80,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain ----CK   100   100   001    -    0
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    75086442
-247 Host_Program_Page_Count -O--CK   100   100   000    -    2346451
+246 Total_LBAs_Written      -O--CK   100   100   000    -    75280834
+247 Host_Program_Page_Count -O--CK   100   100   000    -    2352526
 248 FTL_Program_Page_Count  -O--CK   100   100   000    -    0
 249 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    0
@@ -128,10 +128,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4               2  ---  Lifetime Power-On Resets
 0x01  0x010  4              25  ---  Power-on Hours
-0x01  0x018  6        75086442  ---  Logical Sectors Written
-0x01  0x020  6          763482  ---  Number of Write Commands
-0x01  0x028  6         8069443  ---  Logical Sectors Read
-0x01  0x030  6          209142  ---  Number of Read Commands
+0x01  0x018  6        75280834  ---  Logical Sectors Written
+0x01  0x020  6          770498  ---  Number of Write Commands
+0x01  0x028  6         8081243  ---  Logical Sectors Read
+0x01  0x030  6          209258  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

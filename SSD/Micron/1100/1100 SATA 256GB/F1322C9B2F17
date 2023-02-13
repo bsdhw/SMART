@@ -1,8 +1,8 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p6 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-STABLE amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
-Model Family:     Crucial/Micron BX/MX1/2/3/500, M5/600, 1100 SSDs
+Model Family:     Crucial/Micron Client SSDs
 Device Model:     Micron 1100 SATA 256GB
 Serial Number:    --
 LU WWN Device Id: 5 00a075 ...
@@ -11,10 +11,11 @@ User Capacity:    256,060,514,304 bytes [256 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
+TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jan  7 14:54:23 2021 CET
+Local Time is:    Mon Jan 18 10:17:52 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,8 +67,8 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocate_NAND_Blk_Cnt PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    82
- 12 Power_Cycle_Count       PO--CK   100   100   001    -    1064
+  9 Power_On_Hours          -O--CK   100   100   000    -    83
+ 12 Power_Cycle_Count       PO--CK   100   100   001    -    1086
 181 Program_Fail_Cnt_Total  PO--CK   100   100   001    -    0
 182 Erase_Fail_Count_Total  PO--CK   100   100   001    -    0
 177 Wear_Leveling_Count     PO--CK   099   099   010    -    27
@@ -80,8 +81,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 178 Used_Rsvd_Blk_Cnt_Chip  PO--CK   100   100   000    -    0
 180 Unused_Reserve_NAND_Blk PO--CK   000   000   000    -    2059
 195 Cumulativ_Corrected_ECC POSR-K   100   000   050    Past 0
-241 Total_LBAs_Written      PO--CK   100   100   000    -    5609313338
-242 Total_LBAs_Read         PO--CK   100   100   000    -    4102098456
+241 Total_LBAs_Written      PO--CK   100   100   000    -    5770074595
+242 Total_LBAs_Read         PO--CK   100   100   000    -    4246261790
 179 Used_Rsvd_Blk_Cnt_Tot   PO--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -146,7 +147,7 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
 Current Temperature:                    22 Celsius
-Power Cycle Min/Max Temperature:     19/22 Celsius
+Power Cycle Min/Max Temperature:     18/22 Celsius
 Lifetime    Min/Max Temperature:     13/51 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -155,22 +156,22 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (208)
+Temperature History Size (Index):    478 (269)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1064  ---  Lifetime Power-On Resets
-0x01  0x010  4              82  ---  Power-on Hours
-0x01  0x018  6      5609313338  ---  Logical Sectors Written
-0x01  0x020  6       105552244  ---  Number of Write Commands
-0x01  0x028  6      4102098456  ---  Logical Sectors Read
-0x01  0x030  6        71151855  ---  Number of Read Commands
+0x01  0x008  4            1086  ---  Lifetime Power-On Resets
+0x01  0x010  4              83  ---  Power-on Hours
+0x01  0x018  6      5770074595  ---  Logical Sectors Written
+0x01  0x020  6       109029008  ---  Number of Write Commands
+0x01  0x028  6      4246261790  ---  Logical Sectors Read
+0x01  0x030  6        74205699  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4            1045  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4            1067  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              22  ---  Current Temperature
 0x05  0x010  1              25  ---  Average Short Term Temperature
@@ -186,8 +187,8 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            3377  ---  Number of Hardware Resets
-0x06  0x010  4              67  ---  Number of ASR Events
+0x06  0x008  4            3456  ---  Number of Hardware Resets
+0x06  0x010  4              72  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               1  N--  Percentage Used Endurance Indicator
@@ -200,5 +201,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           12  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           16  Device-to-host register FISes sent due to a COMRESET
 

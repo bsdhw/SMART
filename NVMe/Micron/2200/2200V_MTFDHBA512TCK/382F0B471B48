@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p10 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p4 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Micron_2200V_MTFDHBA512TCK
@@ -8,14 +8,16 @@ Firmware Version:                   P1MA0V4
 PCI Vendor/Subsystem ID:            0x1344
 IEEE OUI Identifier:                0x00a075
 Controller ID:                      0
+NVMe Version:                       1.2.1
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            00a075 ...
-Local Time is:                      Thu Oct 15 19:16:32 2020 CEST
+Local Time is:                      Sat Aug 28 16:44:00 2021 CEST
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0017):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat
+Log Page Attributes (0x03):         S/H_per_NS Cmd_Eff_Lg
 Maximum Data Transfer Size:         128 Pages
 Warning  Comp. Temp. Threshold:     82 Celsius
 Critical Comp. Temp. Threshold:     85 Celsius
@@ -37,25 +39,25 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        48 Celsius
+Temperature:                        47 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    0%
-Data Units Read:                    1,330,726 [681 GB]
-Data Units Written:                 2,440,745 [1.24 TB]
-Host Read Commands:                 11,740,249
-Host Write Commands:                16,458,168
-Controller Busy Time:               380
-Power Cycles:                       361
-Power On Hours:                     178
-Unsafe Shutdowns:                   30
+Percentage Used:                    2%
+Data Units Read:                    7,434,361 [3.80 TB]
+Data Units Written:                 12,620,629 [6.46 TB]
+Host Read Commands:                 80,716,279
+Host Write Commands:                128,815,987
+Controller Busy Time:               2,783
+Power Cycles:                       1,058
+Power On Hours:                     2,648
+Unsafe Shutdowns:                   93
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      0
+Error Information Log Entries:      2
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               48 Celsius
-Temperature Sensor 2:               51 Celsius
+Temperature Sensor 1:               47 Celsius
+Temperature Sensor 2:               50 Celsius
 
-Error Information (NVMe Log 0x01, max 256 entries)
+Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged
 

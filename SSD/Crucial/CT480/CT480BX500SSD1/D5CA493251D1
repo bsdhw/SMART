@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Nov 12 02:08:47 2022 GMT
+Local Time is:    Wed Dec 28 23:46:41 2022 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,31 +62,31 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   000    -    1
   5 Reallocate_NAND_Blk_Cnt -O--CK   098   098   010    -    1
-  9 Power_On_Hours          -O--CK   100   100   000    -    4067
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    15
+  9 Power_On_Hours          -O--CK   100   100   000    -    5147
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    19
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-173 Ave_Block-Erase_Count   -O--CK   075   075   000    -    177
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    11
+173 Ave_Block-Erase_Count   -O--CK   073   073   000    -    194
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    15
 180 Unused_Reserve_NAND_Blk PO--CK   100   100   000    -    34
 183 SATA_Interfac_Downshift -O--CK   100   100   000    -    0
 184 Error_Correction_Count  -O--CK   100   100   000    -    1
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   072   053   000    -    28 (Min/Max 22/47)
+194 Temperature_Celsius     -O---K   072   053   000    -    28 (Min/Max 19/47)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    1
 197 Current_Pending_ECC_Cnt -O--CK   100   100   000    -    1
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
-202 Percent_Lifetime_Remain ----CK   075   075   001    -    25
+202 Percent_Lifetime_Remain ----CK   073   073   001    -    27
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    1
-246 Total_LBAs_Written      -O--CK   100   100   000    -    24725878535
-247 Host_Program_Page_Count -O--CK   100   100   000    -    772683704
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    4178749344
+246 Total_LBAs_Written      -O--CK   100   100   000    -    25804328039
+247 Host_Program_Page_Count -O--CK   100   100   000    -    806385251
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    4756481952
 249 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    0
-251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    3858567797
-252 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    75
+251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    1154416808
+252 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    78
 253 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 254 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    397
 223 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    35

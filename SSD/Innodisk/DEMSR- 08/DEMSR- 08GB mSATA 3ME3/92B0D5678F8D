@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 13 13:52:55 2022 EDT
+Local Time is:    Sat Aug 13 14:26:15 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -56,7 +56,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   001    -    0
   7 Unknown_SSD_Attribute   ------   000   000   000    -    0
   8 Unknown_SSD_Attribute   ------   000   000   000    -    0
-  9 Power_On_Hours          -O----   162   000   000    -    1698
+  9 Power_On_Hours          -O----   163   000   000    -    1699
  10 Unknown_SSD_Attribute   ------   000   000   000    -    0
  12 Power_Cycle_Count       -O----   099   000   000    -    355
 163 Unknown_Attribute       ------   000   000   000    -    6
@@ -66,9 +66,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 192 Power-Off_Retract_Count ------   001   000   000    -    1
 194 Temperature_Celsius     ------   030   100   000    -    30 (2 100 0 0 0)
 197 Current_Pending_Sector  -O--C-   000   100   000    -    0
-225 Unknown_SSD_Attribute   ------   000   198   000    -    564610
+225 Unknown_SSD_Attribute   ------   000   084   000    -    566108
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
-165 Unknown_Attribute       -O----   037   001   000    -    37
+165 Unknown_Attribute       -O----   038   001   000    -    38
 167 Unknown_Attribute       -O----   022   001   000    -    22
 170 Unknown_Attribute       PO----   100   001   000    -    73
 171 Unknown_Attribute       -O----   000   001   000    -    0
@@ -78,8 +78,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Unknown_Attribute       -O----   100   001   000    -    89569723997848
 232 Available_Reservd_Space PO----   100   001   000    -    0
 235 Unknown_Attribute       -O----   000   000   000    -    0
-241 Total_LBAs_Written      -O----   100   001   000    -    2205
-242 Total_LBAs_Read         -O----   100   001   000    -    3880
+241 Total_LBAs_Written      -O----   100   001   000    -    2211
+242 Total_LBAs_Read         -O----   100   001   000    -    3881
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

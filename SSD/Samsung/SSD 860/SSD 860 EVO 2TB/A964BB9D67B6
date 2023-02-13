@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Oct 27 21:50:20 2020 CET
+Local Time is:    Sun Feb 14 09:38:30 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,7 +59,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   096   096   000    Old_age   Always       -       18250
+  9 Power_On_Hours          0x0032   095   095   000    Old_age   Always       -       20878
  12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       28
 177 Wear_Leveling_Count     0x0013   099   099   000    Pre-fail  Always       -       1
 179 Used_Rsvd_Blk_Cnt_Tot   0x0013   100   100   010    Pre-fail  Always       -       0
@@ -67,11 +67,11 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count_Total  0x0032   100   100   010    Old_age   Always       -       0
 183 Runtime_Bad_Block       0x0013   100   100   010    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   067   055   000    Old_age   Always       -       33
+190 Airflow_Temperature_Cel 0x0032   069   055   000    Old_age   Always       -       31
 195 ECC_Error_Rate          0x001a   200   200   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
 235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       11
-241 Total_LBAs_Written      0x0032   099   099   000    Old_age   Always       -       11178398441
+241 Total_LBAs_Written      0x0032   099   099   000    Old_age   Always       -       11903977261
 
 SMART Error Log Version: 1
 No Errors Logged

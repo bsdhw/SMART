@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p5 i386] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p4 i386] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Hitachi Travelstar 4K120
@@ -11,7 +11,7 @@ User Capacity:    60,011,642,880 bytes [60.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Tue May 26 13:17:44 2020 EEST
+Local Time is:    Sun Oct  3 20:01:44 2021 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -56,22 +56,22 @@ recommended polling time: 	 (  47) minutes.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     PO-R--   100   100   062    -    0
+  1 Raw_Read_Error_Rate     PO-R--   099   099   062    -    131072
   2 Throughput_Performance  P-S---   100   100   040    -    0
-  3 Spin_Up_Time            POS---   227   227   033    -    1
-  4 Start_Stop_Count        -O--C-   083   083   000    -    28164
+  3 Spin_Up_Time            POS---   182   182   033    -    1
+  4 Start_Stop_Count        -O--C-   080   080   000    -    31523
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   100   100   040    -    0
-  9 Power_On_Hours          -O--C-   027   027   000    -    32129
+  9 Power_On_Hours          -O--C-   015   015   000    -    37344
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
- 12 Power_Cycle_Count       -O--CK   092   092   000    -    12941
-191 G-Sense_Error_Rate      -O-R--   100   100   000    -    65536
-192 Power-Off_Retract_Count -O--CK   095   095   000    -    1081
-193 Load_Cycle_Count        -O--C-   049   049   000    -    513420
+ 12 Power_Cycle_Count       -O--CK   091   091   000    -    14323
+191 G-Sense_Error_Rate      -O-R--   100   100   000    -    0
+192 Power-Off_Retract_Count -O--CK   095   095   000    -    1123
+193 Load_Cycle_Count        -O--C-   048   048   000    -    523757
 194 Temperature_Celsius     -O----   117   117   000    -    47 (Min/Max 9/58)
-196 Reallocated_Event_Count -O--CK   100   100   000    -    8
-197 Current_Pending_Sector  -O---K   100   100   000    -    0
+196 Reallocated_Event_Count -O--CK   100   100   000    -    10
+197 Current_Pending_Sector  -O---K   100   100   000    -    64
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O-R--   200   200   000    -    0
                             ||||||_ K auto-keep
@@ -93,7 +93,7 @@ Address    Access  R/W   Size  Description
 0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
 
 SMART Extended Comprehensive Error Log Version: 1 (1 sectors)
-Device Error Count: 144 (device log contains only the most recent 4 errors)
+Device Error Count: 15509 (device log contains only the most recent 4 errors)
 	CR     = Command Register
 	FEATR  = Features Register
 	COUNT  = Count (was: Sector Count) Register
@@ -109,94 +109,94 @@ Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
 
-Error 144 [3] occurred at disk power-on lifetime: 24607 hours (1025 days + 7 hours)
+Error 15509 [0] occurred at disk power-on lifetime: 36055 hours (1502 days + 7 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 51 00 3a 00 00 01 61 bd 2e e1 00  Error: UNC 58 sectors at LBA = 0x0161bd2e = 23182638
+  40 -- 51 00 01 39 55 01 39 55 a6 e1 00  Error: UNC 1 sectors at LBA = 0x3955013955a6 = 63037255538086
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  c8 00 00 00 40 61 ba e7 61 bd 28 e1 00     04:43:14.200  READ DMA
-  c8 00 00 00 40 61 b2 e7 61 ba a8 e1 00     04:43:14.200  READ DMA
-  c8 00 00 00 40 61 b2 a7 61 b2 a8 e1 00     04:43:14.200  READ DMA
-  c8 00 00 00 00 61 b0 e7 61 b1 a8 e1 00     04:43:14.200  READ DMA
-  c8 00 00 00 40 61 b0 a7 61 b0 a8 e1 00     04:43:14.200  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:55:04.400  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:58.900  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:53.400  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:47.700  READ DMA
+  c8 00 00 00 01 fe 6c 67 39 55 a6 e1 00     02:54:42.300  READ DMA
 
-Error 143 [2] occurred at disk power-on lifetime: 21799 hours (908 days + 7 hours)
+Error 15508 [3] occurred at disk power-on lifetime: 36055 hours (1502 days + 7 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 51 00 01 13 97 00 13 97 0a e0 00  Error: UNC 1 sectors at LBA = 0x13970013970a = 21539262273290
+  40 -- 51 00 01 39 55 01 39 55 a6 e1 00  Error: UNC 1 sectors at LBA = 0x3955013955a6 = 63037255538086
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:15.500  READ DMA
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:10.600  READ DMA
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:05.700  READ DMA
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:00.700  READ DMA
-  c8 00 00 00 01 13 97 09 13 97 0a e0 00     00:01:55.800  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:58.900  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:53.400  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:47.700  READ DMA
+  c8 00 00 00 01 fe 6c 67 39 55 a6 e1 00     02:54:42.300  READ DMA
+  ca 00 00 00 40 ea dd e7 fe 6c 28 e0 00     02:54:42.300  WRITE DMA
 
-Error 142 [1] occurred at disk power-on lifetime: 21799 hours (908 days + 7 hours)
+Error 15507 [2] occurred at disk power-on lifetime: 36055 hours (1502 days + 7 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 51 00 01 13 97 00 13 97 0a e0 00  Error: UNC 1 sectors at LBA = 0x13970013970a = 21539262273290
+  40 -- 51 00 01 39 55 01 39 55 a6 e1 00  Error: UNC 1 sectors at LBA = 0x3955013955a6 = 63037255538086
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:10.600  READ DMA
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:05.700  READ DMA
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:00.700  READ DMA
-  c8 00 00 00 01 13 97 09 13 97 0a e0 00     00:01:55.800  READ DMA
-  c8 00 00 00 01 13 97 08 13 97 09 e0 00     00:01:55.800  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:53.400  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:47.700  READ DMA
+  c8 00 00 00 01 fe 6c 67 39 55 a6 e1 00     02:54:42.300  READ DMA
+  ca 00 00 00 40 ea dd e7 fe 6c 28 e0 00     02:54:42.300  WRITE DMA
+  ca 00 00 00 40 ea da a7 ea dd a8 e0 00     02:54:42.300  WRITE DMA
 
-Error 141 [0] occurred at disk power-on lifetime: 21799 hours (908 days + 7 hours)
+Error 15506 [1] occurred at disk power-on lifetime: 36055 hours (1502 days + 7 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 51 00 01 13 97 00 13 97 0a e0 00  Error: UNC 1 sectors at LBA = 0x13970013970a = 21539262273290
+  40 -- 51 00 01 39 55 01 39 55 a6 e1 00  Error: UNC 1 sectors at LBA = 0x3955013955a6 = 63037255538086
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:05.700  READ DMA
-  c8 00 00 01 01 13 97 0a 13 97 0a e0 00     00:02:00.700  READ DMA
-  c8 00 00 00 01 13 97 09 13 97 0a e0 00     00:01:55.800  READ DMA
-  c8 00 00 00 01 13 97 08 13 97 09 e0 00     00:01:55.800  READ DMA
-  c8 00 00 00 01 13 97 07 13 97 08 e0 00     00:01:55.800  READ DMA
+  c8 00 00 01 01 39 55 a6 39 55 a6 e1 00     02:54:47.700  READ DMA
+  c8 00 00 00 01 fe 6c 67 39 55 a6 e1 00     02:54:42.300  READ DMA
+  ca 00 00 00 40 ea dd e7 fe 6c 28 e0 00     02:54:42.300  WRITE DMA
+  ca 00 00 00 40 ea da a7 ea dd a8 e0 00     02:54:42.300  WRITE DMA
+  ca 00 00 00 40 b0 25 67 ea da 68 e0 00     02:54:42.300  WRITE DMA
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     32035         -
-# 2  Short offline       Completed without error       00%     31950         -
-# 3  Short offline       Completed without error       00%     31657         -
-# 4  Short offline       Completed without error       00%     31506         -
-# 5  Extended offline    Completed without error       00%     31328         -
-# 6  Short offline       Completed without error       00%     30826         -
-# 7  Extended offline    Completed without error       00%     30590         -
-# 8  Short offline       Completed without error       00%     30167         -
-# 9  Short offline       Completed without error       00%     30009         -
-#10  Short offline       Completed without error       00%     29888         -
-#11  Extended offline    Completed without error       00%     29566         -
-#12  Short offline       Completed without error       00%     28985         -
-#13  Short offline       Completed without error       00%     28694         -
-#14  Short offline       Completed without error       00%     28486         -
-#15  Short offline       Completed without error       00%     28256         -
-#16  Short offline       Completed without error       00%     27968         -
-#17  Extended offline    Aborted by host               90%     27935         -
-#18  Short offline       Completed without error       00%     27480         -
+# 1  Short offline       Completed without error       00%     37294         -
+# 2  Short offline       Completed without error       00%     36970         -
+# 3  Short offline       Completed without error       00%     36663         -
+# 4  Short offline       Completed without error       00%     36600         -
+# 5  Extended offline    Completed: read failure       80%     36053         20534632
+# 6  Short offline       Completed without error       00%     35960         -
+# 7  Short offline       Completed without error       00%     35835         -
+# 8  Short offline       Completed without error       00%     35560         -
+# 9  Short offline       Completed without error       00%     35369         -
+#10  Short offline       Completed without error       00%     35218         -
+#11  Short offline       Completed without error       00%     35106         -
+#12  Short offline       Completed without error       00%     35053         -
+#13  Short offline       Aborted by host               70%     35052         -
+#14  Short offline       Completed without error       00%     34800         -
+#15  Extended offline    Completed: read failure       80%     34800         20534632
+#16  Extended offline    Completed: read failure       80%     34604         20534632
+#17  Extended offline    Completed: read failure       80%     34531         20534632
+#18  Extended offline    Completed: read failure       80%     34468         20534632
 
 Warning! SMART Selective Self-Test Log Structure error: invalid SMART checksum.
 SMART Selective self-test log data structure revision number 1

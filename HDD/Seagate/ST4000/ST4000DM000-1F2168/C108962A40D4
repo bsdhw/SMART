@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Mar 21 22:47:33 2021 CET
+Local Time is:    Mon Mar 22 15:28:16 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,30 +57,30 @@ SCT capabilities: 	       (0x1085)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   120   099   006    Pre-fail  Always       -       1169432
+  1 Raw_Read_Error_Rate     0x000f   120   099   006    Pre-fail  Always       -       1189272
   3 Spin_Up_Time            0x0003   092   091   000    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0032   095   095   020    Old_age   Always       -       5612
+  4 Start_Stop_Count        0x0032   095   095   020    Old_age   Always       -       5613
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  7 Seek_Error_Rate         0x000f   074   060   030    Pre-fail  Always       -       8643715087
+  7 Seek_Error_Rate         0x000f   074   060   030    Pre-fail  Always       -       8643715094
   9 Power_On_Hours          0x0032   085   085   000    Old_age   Always       -       13984
  10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   097   097   020    Old_age   Always       -       3789
+ 12 Power_Cycle_Count       0x0032   097   097   020    Old_age   Always       -       3790
 183 Runtime_Bad_Block       0x0032   093   093   000    Old_age   Always       -       7
 184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   098   000    Old_age   Always       -       16 16 22
 189 High_Fly_Writes         0x003a   082   082   000    Old_age   Always       -       18
-190 Airflow_Temperature_Cel 0x0022   067   049   045    Old_age   Always       -       33 (0 7 33 33 0)
+190 Airflow_Temperature_Cel 0x0022   074   049   045    Old_age   Always       -       26 (0 7 26 15 0)
 191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
 192 Power-Off_Retract_Count 0x0032   099   099   000    Old_age   Always       -       2430
-193 Load_Cycle_Count        0x0032   038   038   000    Old_age   Always       -       125429
-194 Temperature_Celsius     0x0022   033   051   000    Old_age   Always       -       33 (128 0 0 0 0)
+193 Load_Cycle_Count        0x0032   038   038   000    Old_age   Always       -       125432
+194 Temperature_Celsius     0x0022   026   051   000    Old_age   Always       -       26 (128 0 0 0 0)
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
-240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       9512h+26m+28.431s
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       9512h+27m+55.593s
 241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       38189973985
-242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       82909565544
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       82909566827
 
 SMART Error Log Version: 1
 ATA Error Count: 1

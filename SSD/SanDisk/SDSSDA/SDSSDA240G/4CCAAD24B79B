@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Feb 25 15:42:56 2021 MST
+Local Time is:    Wed Mar  3 17:04:21 2021 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,11 +63,11 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Retired_Block_Count     -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   008   100   000    -    2568h+00m+00.000s
+  9 Power_On_Hours_and_Msec -O--CK   016   100   000    -    2576h+00m+00.000s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    1284
-166 Unknown_Attribute       -O--CK   100   100   000    -    55
+166 Unknown_Attribute       -O--CK   100   100   000    -    56
 167 Unknown_Attribute       -O--CK   100   100   000    -    0
-168 Unknown_Attribute       -O--CK   100   100   000    -    106
+168 Unknown_Attribute       -O--CK   100   100   000    -    107
 169 Unknown_Attribute       -O--CK   100   100   000    -    21
 170 Reserve_Block_Count     -O--CK   100   100   000    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
@@ -75,13 +75,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 173 Unknown_SandForce_Attr  -O--CK   100   100   ---    -    90
 174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    59
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   070   100   000    -    30 (Min/Max 0/62)
+194 Temperature_Celsius     -O---K   067   100   000    -    33 (Min/Max 0/62)
 199 SATA_CRC_Error_Count    -O--CK   100   100   000    -    1
 230 Life_Curve_Status       -O--CK   100   100   000    -    3
 232 Available_Reservd_Space PO--CK   100   100   004    -    100
-233 SandForce_Internal      -O--CK   100   100   000    -    19937
-241 Lifetime_Writes_GiB     ----CK   253   253   000    -    15839
-242 Lifetime_Reads_GiB      ----CK   253   253   000    -    8636
+233 SandForce_Internal      -O--CK   100   100   000    -    20046
+241 Lifetime_Writes_GiB     ----CK   253   253   000    -    15931
+242 Lifetime_Reads_GiB      ----CK   253   253   000    -    8639
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -148,20 +148,20 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4            1284  ---  Lifetime Power-On Resets
-0x01  0x010  4            2568  ---  Power-on Hours
-0x01  0x018  6           15839  ---  Logical Sectors Written
-0x01  0x020  6       467430876  ---  Number of Write Commands
-0x01  0x028  6            8636  ---  Logical Sectors Read
-0x01  0x030  6       347188588  ---  Number of Read Commands
+0x01  0x010  4            2576  ---  Power-on Hours
+0x01  0x018  6           15931  ---  Logical Sectors Written
+0x01  0x020  6       469899653  ---  Number of Write Commands
+0x01  0x028  6            8639  ---  Logical Sectors Read
+0x01  0x030  6       347317780  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4              80  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              32  ---  Current Temperature
-0x05  0x010  1              58  ---  Average Short Term Temperature
-0x05  0x018  1              36  ---  Average Long Term Temperature
+0x05  0x008  1              33  ---  Current Temperature
+0x05  0x010  1              64  ---  Average Short Term Temperature
+0x05  0x018  1              64  ---  Average Long Term Temperature
 0x05  0x020  1              56  ---  Highest Temperature
 0x05  0x028  1               7  ---  Lowest Temperature
 0x05  0x030  1              -1  ---  Highest Average Short Term Temperature

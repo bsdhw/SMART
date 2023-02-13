@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p6 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       KINGSTON RBUSNS8154P3512GJ
@@ -10,14 +10,16 @@ IEEE OUI Identifier:                0x0026b7
 Total NVM Capacity:                 512,110,190,592 [512 GB]
 Unallocated NVM Capacity:           0
 Controller ID:                      0
+NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Thu Aug  6 16:29:54 2020 CEST
+Local Time is:                      Sat Sep 18 08:39:52 2021 CEST
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+Log Page Attributes (0x04):         Ext_Get_Lg
 Maximum Data Transfer Size:         512 Pages
 Warning  Comp. Temp. Threshold:     81 Celsius
 Critical Comp. Temp. Threshold:     85 Celsius
@@ -40,38 +42,38 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        45 Celsius
+Temperature:                        37 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          100%
 Percentage Used:                    0%
-Data Units Read:                    3,873,101 [1.98 TB]
-Data Units Written:                 5,681,744 [2.90 TB]
-Host Read Commands:                 69,749,062
-Host Write Commands:                101,259,172
-Controller Busy Time:               444
-Power Cycles:                       1,679
-Power On Hours:                     605
-Unsafe Shutdowns:                   113
+Data Units Read:                    3,899,423 [1.99 TB]
+Data Units Written:                 6,074,485 [3.11 TB]
+Host Read Commands:                 71,072,289
+Host Write Commands:                108,021,686
+Controller Busy Time:               519
+Power Cycles:                       1,888
+Power On Hours:                     661
+Unsafe Shutdowns:                   166
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      23
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 2:               45 Celsius
+Temperature Sensor 2:               37 Celsius
 
-Error Information (NVMe Log 0x01, max 16 entries)
+Error Information (NVMe Log 0x01, 16 of 16 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0         25     0  0x0018  0x0005      -     33555712     0     -
-  1         22     0  0x0014  0x0005      -     33555712     0     -
-  2         21     -       -  0x0000      -            -     -  0xff
-  3         20     -       -  0x0000      -            -     -  0xff
-  4         19     -       -  0x0000      -            -     -  0xff
-  5         16     -       -  0x0000      -            -     -  0xff
-  6         14     -       -  0x0000      -            -     -  0xff
-  7         13     -       -  0x0000      -            -     -  0xff
-  8         12     -       -  0x0000      -            -     -  0xff
-  9         11     -       -  0x0000      -            -     -  0xff
- 10         10     -       -  0x0000      -            -     -  0xff
- 11          8     -       -  0x0000      -            -     -  0xff
+  0         26     0  0x001a  0x0005      -     33555712     0     -
+  1         25     0  0x0016  0x0005      -     33555712     0     -
+  2         24     0  0x0007  0x0005      -     33555456     0     -
+  3         22     0  0x0014  0x0005      -     33555712     0     -
+  4         21     -       -  0x0000      -            -     -  0xff
+  5         20     -       -  0x0000      -            -     -  0xff
+  6         19     -       -  0x0000      -            -     -  0xff
+  7         16     -       -  0x0000      -            -     -  0xff
+  8         14     -       -  0x0000      -            -     -  0xff
+  9         13     -       -  0x0000      -            -     -  0xff
+ 10         12     -       -  0x0000      -            -     -  0xff
+ 11         11     -       -  0x0000      -            -     -  0xff
  12          2     0  0x0007  0x0005      -     33555456     0     -
  13          1     0  0x0015  0x0005      -     33555712     0     -
 

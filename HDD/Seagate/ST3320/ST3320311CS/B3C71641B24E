@@ -13,7 +13,7 @@ Rotation Rate:    5900 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Jul 19 21:47:52 2021 EDT
+Local Time is:    Wed Jul 21 18:58:55 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,12 +64,12 @@ SCT capabilities: 	       (0x103b)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   118   099   006    -    177554856
+  1 Raw_Read_Error_Rate     POSR--   112   099   006    -    42229772
   3 Spin_Up_Time            PO----   098   097   000    -    0
   4 Start_Stop_Count        -O--CK   037   037   020    -    65535
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   083   060   030    -    4524489415
-  9 Power_On_Hours          -O--CK   081   081   000    -    17287
+  7 Seek_Error_Rate         POSR--   083   060   030    -    4526387833
+  9 Power_On_Hours          -O--CK   081   081   000    -    17332
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   037   020    -    579
 184 End-to-End_Error        -O--CK   100   100   099    -    0
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 189 High_Fly_Writes         -O-RCK   097   097   000    -    3
 190 Airflow_Temperature_Cel -O---K   071   046   045    -    29 (Min/Max 27/46)
 194 Temperature_Celsius     -O---K   029   054   000    -    29 (0 15 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   056   046   000    -    177554856
+195 Hardware_ECC_Recovered  -O-RC-   058   046   000    -    42229772
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
@@ -201,25 +201,25 @@ Error 1 [0] occurred at disk power-on lifetime: 11846 hours (493 days + 14 hours
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     17265         -
-# 2  Short offline       Completed without error       00%     17241         -
-# 3  Short offline       Completed without error       00%     17217         -
-# 4  Short offline       Completed without error       00%     17193         -
-# 5  Short offline       Completed without error       00%     17169         -
-# 6  Short offline       Completed without error       00%     17145         -
-# 7  Short offline       Completed without error       00%     17121         -
-# 8  Short offline       Completed without error       00%     17097         -
-# 9  Short offline       Completed without error       00%     17073         -
-#10  Short offline       Completed without error       00%     17049         -
-#11  Short offline       Completed without error       00%     17025         -
-#12  Short offline       Completed without error       00%     17001         -
-#13  Short offline       Completed without error       00%     16977         -
-#14  Short offline       Completed without error       00%     16953         -
-#15  Short offline       Completed without error       00%     16929         -
-#16  Short offline       Completed without error       00%     16905         -
-#17  Short offline       Completed without error       00%     16881         -
-#18  Short offline       Completed without error       00%     16857         -
-#19  Short offline       Completed without error       00%     16833         -
+# 1  Short offline       Completed without error       00%     17314         -
+# 2  Short offline       Completed without error       00%     17290         -
+# 3  Short offline       Completed without error       00%     17265         -
+# 4  Short offline       Completed without error       00%     17241         -
+# 5  Short offline       Completed without error       00%     17217         -
+# 6  Short offline       Completed without error       00%     17193         -
+# 7  Short offline       Completed without error       00%     17169         -
+# 8  Short offline       Completed without error       00%     17145         -
+# 9  Short offline       Completed without error       00%     17121         -
+#10  Short offline       Completed without error       00%     17097         -
+#11  Short offline       Completed without error       00%     17073         -
+#12  Short offline       Completed without error       00%     17049         -
+#13  Short offline       Completed without error       00%     17025         -
+#14  Short offline       Completed without error       00%     17001         -
+#15  Short offline       Completed without error       00%     16977         -
+#16  Short offline       Completed without error       00%     16953         -
+#17  Short offline       Completed without error       00%     16929         -
+#18  Short offline       Completed without error       00%     16905         -
+#19  Short offline       Completed without error       00%     16881         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -245,7 +245,7 @@ Temperature Sampling Period:         2 minutes
 Temperature Logging Interval:        94 minutes
 Min/Max recommended Temperature:      1/61 Celsius
 Min/Max Temperature Limit:            2/60 Celsius
-Temperature History Size (Index):    128 (44)
+Temperature History Size (Index):    128 (73)
 
 SCT Error Recovery Control:
            Read: Disabled

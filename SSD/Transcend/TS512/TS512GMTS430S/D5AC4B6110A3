@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Mar 23 05:01:13 2021 EDT
+Local Time is:    Wed Mar 31 06:18:58 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,14 +62,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    491
- 12 Power_Cycle_Count       ------   100   100   000    -    1548
-148 Total_SLC_Erase_Ct      ------   100   100   000    -    38322
-149 Max_SLC_Erase_Ct        ------   100   100   000    -    321
-150 Min_SLC_Erase_Ct        ------   100   100   000    -    138
-151 Average_SLC_Erase_Ct    ------   100   100   000    -    281
-164 Total_Erase_Count       ------   100   100   000    -    14270
-165 Max_Erase_Count         ------   100   100   000    -    68
+  9 Power_On_Hours          ------   100   100   000    -    513
+ 12 Power_Cycle_Count       ------   100   100   000    -    1620
+148 Total_SLC_Erase_Ct      ------   100   100   000    -    39651
+149 Max_SLC_Erase_Ct        ------   100   100   000    -    330
+150 Min_SLC_Erase_Ct        ------   100   100   000    -    150
+151 Average_SLC_Erase_Ct    ------   100   100   000    -    291
+164 Total_Erase_Count       ------   100   100   000    -    14683
+165 Max_Erase_Count         ------   100   100   000    -    71
 166 Min_Erase_Count         ------   100   100   000    -    0
 167 Average_Erase_Count     ------   100   100   000    -    5
 159 Unkn_SiliconMotion_Attr ------   100   100   000    -    0
@@ -81,15 +81,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 177 Wear_Leveling_Count     ------   100   100   050    -    10
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
-192 Power-Off_Retract_Count ------   100   100   000    -    249
+192 Power-Off_Retract_Count ------   100   100   000    -    251
 194 Temperature_Celsius     ------   100   100   000    -    52
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    77302
-242 Host_Reads_32MiB        ------   100   100   000    -    104488
-245 TLC_Writes_32MiB        ------   100   100   000    -    57080
+241 Host_Writes_32MiB       ------   100   100   000    -    80241
+242 Host_Reads_32MiB        ------   100   100   000    -    105968
+245 TLC_Writes_32MiB        ------   100   100   000    -    58732
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -139,17 +139,17 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1548  ---  Lifetime Power-On Resets
-0x01  0x010  4             491  ---  Power-on Hours
-0x01  0x018  6       771159668  ---  Logical Sectors Written
-0x01  0x020  6        25733170  ---  Number of Write Commands
-0x01  0x028  6      2552819379  ---  Logical Sectors Read
-0x01  0x030  6        51406460  ---  Number of Read Commands
+0x01  0x008  4            1620  ---  Lifetime Power-On Resets
+0x01  0x010  4             513  ---  Power-on Hours
+0x01  0x018  6       963709878  ---  Logical Sectors Written
+0x01  0x020  6        27630603  ---  Number of Write Commands
+0x01  0x028  6      2649775247  ---  Logical Sectors Read
+0x01  0x030  6        52397963  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4             250  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4             252  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            8011  ---  Number of Hardware Resets
+0x06  0x008  4            8384  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p13-HBSD amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     JWX 16GB MSATA
@@ -9,10 +9,10 @@ User Capacity:    15,837,691,904 bytes [15.8 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available
-Device is:        Not in smartctl database 7.3/5319
+Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Jul 31 13:45:15 2022 HKT
+Local Time is:    Tue Feb 16 15:33:02 2021 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -45,23 +45,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   ------   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    194
+ 12 Power_Cycle_Count       ------   100   100   050    -    150
 160 Unknown_Attribute       ------   100   100   050    -    128
 161 Unknown_Attribute       ------   100   100   050    -    72
-162 Unknown_Attribute       ------   100   100   050    -    60
+162 Unknown_Attribute       ------   100   100   050    -    53
 163 Unknown_Attribute       ------   100   100   050    -    16
-164 Unknown_Attribute       ------   100   100   050    -    101781
-165 Unknown_Attribute       ------   100   100   050    -    131
-166 Unknown_Attribute       ------   100   100   050    -    66
-167 Unknown_Attribute       ------   100   100   050    -    99
+164 Unknown_Attribute       ------   100   100   050    -    63561
+165 Unknown_Attribute       ------   100   100   050    -    101
+166 Unknown_Attribute       ------   100   100   050    -    35
+167 Unknown_Attribute       ------   100   100   050    -    62
 192 Power-Off_Retract_Count ------   100   100   050    -    1
-194 Temperature_Celsius     ------   100   100   000    -    43 (Min/Max 18/48)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    2140
+194 Temperature_Celsius     ------   100   100   000    -    37 (Min/Max 18/47)
+195 Hardware_ECC_Recovered  ------   100   100   050    -    2023
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    10826
-242 Total_LBAs_Read         ------   100   100   050    -    1321
+241 Total_LBAs_Written      ------   100   100   050    -    6956
+242 Total_LBAs_Read         ------   100   100   050    -    742
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

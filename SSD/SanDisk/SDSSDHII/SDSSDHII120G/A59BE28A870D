@@ -1,5 +1,5 @@
-smartctl 7.0 2018-12-30 r4883 [FreeBSD 11.3-RELEASE-p14 amd64] (local build)
-Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RC3 amd64] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Marvell based SanDisk SSDs
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Oct 29 15:33:01 2020 MDT
+Local Time is:    Fri Nov  6 16:50:35 2020 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,7 +60,7 @@ SMART Attributes Data Structure revision number: 4
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   ---    -    0
-  9 Power_On_Hours          -O--CK   253   100   ---    -    14728
+  9 Power_On_Hours          -O--CK   253   100   ---    -    14922
  12 Power_Cycle_Count       -O--CK   100   100   ---    -    7520
 165 Total_Write/Erase_Count -O--CK   100   100   ---    -    2431299556265
 166 Min_W/E_Cycle           -O--CK   100   100   ---    -    111
@@ -76,9 +76,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 199 SATA_CRC_Error          -O--CK   100   100   ---    -    26
 230 Perc_Write/Erase_Count  -O--CK   100   100   ---    -    1542 6992 6992
 232 Perc_Avail_Resrvd_Space PO--CK   100   100   004    -    100
-233 Total_NAND_Writes_GiB   -O--CK   100   100   ---    -    16042
-234 Perc_Write/Erase_Ct_BC  -O--CK   100   100   ---    -    26557
-241 Total_Writes_GiB        ----CK   253   253   ---    -    13573
+233 Total_NAND_Writes_GiB   -O--CK   100   100   ---    -    16043
+234 Perc_Write/Erase_Ct_BC  -O--CK   100   100   ---    -    26559
+241 Total_Writes_GiB        ----CK   253   253   ---    -    13574
 242 Total_Reads_GiB         ----CK   253   253   ---    -    14306
 244 Thermal_Throttle        -O--CK   000   100   ---    -    0
                             ||||||_ K auto-keep
@@ -137,7 +137,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4           41  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           49  Device-to-host register FISes sent due to a COMRESET
 
 
 

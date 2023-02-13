@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          2,000,398,934,016 [2.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            00a075 ...
-Local Time is:                      Fri May  7 17:58:10 2021 PDT
+Local Time is:                      Sat May  8 06:49:18 2021 PDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0057):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat Timestmp
@@ -40,26 +40,26 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        66 Celsius
+Temperature:                        62 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    0%
-Data Units Read:                    3,077,483 [1.57 TB]
-Data Units Written:                 4,234,851 [2.16 TB]
-Host Read Commands:                 43,520,581
-Host Write Commands:                61,953,311
-Controller Busy Time:               1,723
-Power Cycles:                       8,624
-Power On Hours:                     776
-Unsafe Shutdowns:                   228
+Data Units Read:                    3,083,812 [1.57 TB]
+Data Units Written:                 4,238,668 [2.17 TB]
+Host Read Commands:                 43,617,561
+Host Write Commands:                62,045,809
+Controller Busy Time:               1,725
+Power Cycles:                       8,625
+Power On Hours:                     777
+Unsafe Shutdowns:                   229
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      26
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               66 Celsius
-Temperature Sensor 2:               83 Celsius
-Thermal Temp. 1 Transition Count:   27868
-Thermal Temp. 1 Total Time:         9059302
+Temperature Sensor 1:               62 Celsius
+Temperature Sensor 2:               76 Celsius
+Thermal Temp. 1 Transition Count:   27889
+Thermal Temp. 1 Total Time:         9070608
 
 Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged

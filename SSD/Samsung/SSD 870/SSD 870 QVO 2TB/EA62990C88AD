@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jul  1 10:37:29 2022 CEST
+Local Time is:    Fri Jul  1 10:43:19 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -68,7 +68,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count_Total  0x0032   100   100   010    Old_age   Always       -       0
 183 Runtime_Bad_Block       0x0013   100   100   010    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   072   062   000    Old_age   Always       -       28
+190 Airflow_Temperature_Cel 0x0032   073   062   000    Old_age   Always       -       27
 195 ECC_Error_Rate          0x001a   200   200   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
 235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       7

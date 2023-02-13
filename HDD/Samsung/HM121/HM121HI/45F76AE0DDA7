@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 0
 SATA Version is:  SATA 2.5, 1.5 Gb/s
-Local Time is:    Wed Feb 10 21:15:02 2021 EST
+Local Time is:    Wed Mar 17 21:47:55 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     128 (quiet), recommended: 254
@@ -60,18 +60,18 @@ SCT capabilities: 	       (0x003f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   100   100   051    -    16
-  3 Spin_Up_Time            POS---   252   252   025    -    2000
-  4 Start_Stop_Count        -O--CK   039   039   000    -    617091
+  1 Raw_Read_Error_Rate     POSR--   100   100   051    -    17
+  3 Spin_Up_Time            POS---   252   252   025    -    2062
+  4 Start_Stop_Count        -O--CK   039   039   000    -    624191
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    1
-  9 Power_On_Hours          -O--CK   077   077   000    -    12025
- 12 Power_Cycle_Count       -O--CK   094   094   000    -    6379
+  9 Power_On_Hours          -O--CK   075   075   000    -    12838
+ 12 Power_Cycle_Count       -O--CK   094   094   000    -    6381
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    5131
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    177
-194 Temperature_Celsius     -O---K   121   088   000    -    39 (Min/Max 10/50)
-196 Reallocated_Event_Count -O--CK   100   100   000    -    32510 (0 7)
-197 Current_Pending_Sector  -O--C-   100   100   000    -    3610
-198 Offline_Uncorrectable   ----CK   100   100   000    -    11103
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    178
+194 Temperature_Celsius     -O---K   130   088   000    -    36 (Min/Max 10/50)
+196 Reallocated_Event_Count -O--CK   100   100   000    -    33426 (0 7)
+197 Current_Pending_Sector  -O--C-   100   100   000    -    3619
+198 Offline_Uncorrectable   ----CK   100   100   000    -    11107
 199 UDMA_CRC_Error_Count    -OS-CK   252   252   000    -    0
 200 Multi_Zone_Error_Rate   -O-R--   252   252   000    -    0
                             ||||||_ K auto-keep
@@ -123,8 +123,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    39 Celsius
-Power Cycle Min/Max Temperature:     37/47 Celsius
+Current Temperature:                    36 Celsius
+Power Cycle Min/Max Temperature:     33/41 Celsius
 Lifetime    Min/Max Temperature:     12/58 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -133,7 +133,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     15/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (56)
+Temperature History Size (Index):    128 (117)
 
 SCT Error Recovery Control:
            Read:    270 (27.0 seconds)
@@ -146,7 +146,7 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2           32  Device-to-host register FISes sent due to a COMRESET
+0x000a  2            2  Device-to-host register FISes sent due to a COMRESET
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  2            0  Transition from drive PhyRdy to drive PhyNRdy
 0x000b  2            0  CRC errors within host-to-device FIS

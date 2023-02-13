@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Jun  5 10:59:29 2020 -03
+Local Time is:    Fri Jun  5 11:00:00 2020 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -83,7 +83,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    14624h+42m+17.011s
+240 Head_Flying_Hours       ------   100   253   000    -    14624h+42m+40.131s
 241 Total_LBAs_Written      ------   100   253   000    -    36328411443
 242 Total_LBAs_Read         ------   100   253   000    -    122375282338
                             ||||||_ K auto-keep

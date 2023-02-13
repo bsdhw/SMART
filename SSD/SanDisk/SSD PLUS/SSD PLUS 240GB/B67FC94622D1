@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Marvell based SanDisk SSDs
@@ -11,10 +11,11 @@ User Capacity:    240,065,183,744 bytes [240 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
+TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Dec 16 06:17:46 2020 EST
+Local Time is:    Wed Jan 13 12:01:08 2021 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -59,18 +60,18 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    18381
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    163
+  9 Power_On_Hours          -O--CK   100   100   000    -    19004
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    193
 165 Total_Write/Erase_Count -O--CK   100   100   000    -    1026
 166 Min_W/E_Cycle           -O--CK   100   100   ---    -    2
 167 Min_Bad_Block/Die       -O--CK   100   100   ---    -    0
 168 Maximum_Erase_Cycle     -O--CK   100   100   ---    -    4
 169 Total_Bad_Block         -O--CK   100   100   ---    -    281
-170 Unknown_Attribute       -O--CK   100   100   ---    -    0
+170 Unknown_Marvell_Attr    -O--CK   100   100   ---    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
 173 Avg_Write/Erase_Count   -O--CK   100   100   000    -    2
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    164
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    194
 184 End-to-End_Error        -O--CK   100   100   ---    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    43
 188 Command_Timeout         -O--CK   100   100   ---    -    0
@@ -275,14 +276,14 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             163  ---  Lifetime Power-On Resets
-0x01  0x010  4           18381  ---  Power-on Hours
-0x01  0x018  6      6102857552  ---  Logical Sectors Written
-0x01  0x028  6      1411545859  ---  Logical Sectors Read
-0x01  0x038  6           18381  ---  Date and Time TimeStamp
+0x01  0x008  4             193  ---  Lifetime Power-On Resets
+0x01  0x010  4           19004  ---  Power-on Hours
+0x01  0x018  6      6102895016  ---  Logical Sectors Written
+0x01  0x028  6      1411610693  ---  Logical Sectors Read
+0x01  0x038  6           19004  ---  Date and Time TimeStamp
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              28  ---  Current Temperature
-0x05  0x010  1              29  ---  Average Short Term Temperature
+0x05  0x010  1               -  ---  Average Short Term Temperature
 0x05  0x018  1               -  ---  Average Long Term Temperature
 0x05  0x020  1              44  ---  Highest Temperature
 0x05  0x028  1              22  ---  Lowest Temperature

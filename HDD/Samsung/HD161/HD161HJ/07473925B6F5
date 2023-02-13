@@ -10,7 +10,7 @@ User Capacity:    160,037,658,112 bytes [160 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA/ATAPI-7, ATA8-ACS T13/1699-D revision 3b
-Local Time is:    Tue Jan  5 14:11:58 2021 CET
+Local Time is:    Fri Jan 29 02:18:48 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,24 +60,24 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   5 Reallocated_Sector_Ct   0x0033   253   253   010    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000f   253   253   051    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0025   253   253   015    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       20727
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       21291
  10 Spin_Retry_Count        0x0033   253   253   051    Pre-fail  Always       -       0
  11 Calibration_Retry_Count 0x0012   253   253   000    Old_age   Always       -       0
  12 Power_Cycle_Count       0x0032   097   097   000    Old_age   Always       -       3115
- 13 Read_Soft_Error_Rate    0x000e   100   100   000    Old_age   Always       -       219446201
+ 13 Read_Soft_Error_Rate    0x000e   100   100   000    Old_age   Always       -       286973796
 184 End-to-End_Error        0x0033   253   253   099    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0032   253   253   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   253   253   000    Old_age   Always       -       0
 190 Airflow_Temperature_Cel 0x0022   157   097   000    Old_age   Always       -       27 (Min/Max 9/47)
 194 Temperature_Celsius     0x0022   157   094   000    Old_age   Always       -       27 (Min/Max 9/48)
-195 Hardware_ECC_Recovered  0x001a   100   100   000    Old_age   Always       -       219446201
+195 Hardware_ECC_Recovered  0x001a   100   100   000    Old_age   Always       -       286973796
 196 Reallocated_Event_Count 0x0032   253   253   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0012   253   253   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   253   253   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
 200 Multi_Zone_Error_Rate   0x000a   100   100   000    Old_age   Always       -       0
 201 Soft_Read_Error_Rate    0x000a   100   100   000    Old_age   Always       -       0
-202 Data_Address_Mark_Errs  0x0032   100   100   000    Old_age   Always       -       40
+202 Data_Address_Mark_Errs  0x0032   100   100   000    Old_age   Always       -       41
 
 SMART Error Log Version: 1
 ATA Error Count: 75 (device log contains only the most recent five errors)

@@ -1,4 +1,4 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p21-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jan 25 01:53:15 2022 UTC
+Local Time is:    Tue Jan 25 06:34:28 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -56,7 +56,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   001    -    0
   7 Unknown_SSD_Attribute   ------   000   000   000    -    0
   8 Unknown_SSD_Attribute   ------   000   000   000    -    0
-  9 Power_On_Hours          -O----   233   000   000    -    5609
+  9 Power_On_Hours          -O----   237   000   000    -    5613
  10 Unknown_SSD_Attribute   ------   000   000   000    -    0
  12 Power_Cycle_Count       -O----   174   000   000    -    686
 163 Unknown_Attribute       ------   000   000   000    -    8
@@ -66,10 +66,10 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 192 Power-Off_Retract_Count ------   000   000   000    -    0
 194 Temperature_Celsius     ------   030   100   000    -    30 (2 100 0 0 0)
 197 Current_Pending_Sector  -O--C-   000   100   000    -    0
-225 Unknown_SSD_Attribute   ------   000   097   000    -    541805
+225 Unknown_SSD_Attribute   ------   000   225   000    -    586850
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
 165 Unknown_Attribute       -O----   029   001   000    -    29
-167 Unknown_Attribute       -O----   019   001   000    -    19
+167 Unknown_Attribute       -O----   020   001   000    -    20
 170 Unknown_Attribute       PO----   100   001   000    -    70
 171 Unknown_Attribute       -O----   000   001   000    -    0
 172 Unknown_Attribute       -O----   000   001   000    -    0
@@ -78,8 +78,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Unknown_Attribute       -O----   100   001   000    -    89569723997848
 232 Available_Reservd_Space PO----   100   001   000    -    0
 235 Unknown_Attribute       -O----   000   000   000    -    0
-241 Total_LBAs_Written      -O----   100   001   000    -    2116
-242 Total_LBAs_Read         -O----   100   001   000    -    7489
+241 Total_LBAs_Written      -O----   100   001   000    -    2292
+242 Total_LBAs_Read         -O----   100   001   000    -    7524
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -119,7 +119,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           19  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

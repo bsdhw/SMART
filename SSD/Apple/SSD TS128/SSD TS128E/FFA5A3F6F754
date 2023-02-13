@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Oct 31 12:16:26 2021 EDT
+Local Time is:    Thu Nov  4 05:59:35 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,28 +68,28 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    2712
+  9 Power_On_Hours          -O--C-   100   100   000    -    2720
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   087   087   000    -    13913
+ 12 Power_Cycle_Count       -O--C-   087   087   000    -    13975
 167 Unknown_Attribute       -O--C-   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   200   200   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    751783446319
 170 Unknown_Attribute       PO--C-   100   100   010    -    0
 171 Unknown_Attribute       ------   100   100   000    -    0
-173 Wear_Leveling_Count     PO--C-   180   180   100    -    1924184998409
+173 Wear_Leveling_Count     PO--C-   180   180   100    -    1924184998411
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 177 Wear_Leveling_Count     ------   000   000   000    -    7
 181 Program_Fail_Cnt_Total  -O--CK   000   000   000    -    0
 182 Erase_Fail_Count_Total  -O--CK   000   000   000    -    0
 187 Reported_Uncorrect      -O--C-   100   100   000    -    0
-192 Power-Off_Retract_Count -O--C-   000   000   000    -    502
+192 Power-Off_Retract_Count -O--C-   000   000   000    -    510
 194 Temperature_Celsius     PO---K   100   034   000    -    0 (Min/Max 0/66)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--C-   200   200   000    -    0
-233 Media_Wearout_Indicator ------   000   000   000    -    63234
+233 Media_Wearout_Indicator ------   000   000   000    -    63378
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-241 Host_Writes_GiB         -O--CK   000   000   000    -    37094
-242 Host_Reades_GiB         -O--CK   000   000   000    -    55328
+241 Host_Writes_GiB         -O--CK   000   000   000    -    37228
+242 Host_Reades_GiB         -O--CK   000   000   000    -    55451
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -153,7 +153,7 @@ SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
 Current Temperature:                     0 Celsius
 Power Cycle Min/Max Temperature:      0/66 Celsius
-Lifetime    Min/Max Temperature:     42/42 Celsius
+Lifetime    Min/Max Temperature:     44/44 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Data Table command not supported
@@ -163,16 +163,16 @@ SCT Error Recovery Control command not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4           13914  ---  Lifetime Power-On Resets
-0x01  0x010  4            2746  ---  Power-on Hours
-0x01  0x018  6     77801785345  ---  Logical Sectors Written
-0x01  0x028  6    116034999852  ---  Logical Sectors Read
+0x01  0x008  4           13976  ---  Lifetime Power-On Resets
+0x01  0x010  4            2754  ---  Power-on Hours
+0x01  0x018  6     78083308630  ---  Logical Sectors Written
+0x01  0x028  6    116292771954  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4           84032  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4           84280  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4           84032  ---  Number of Hardware Resets
-0x06  0x010  4        11381096  ---  Number of ASR Events
+0x06  0x008  4           84280  ---  Number of Hardware Resets
+0x06  0x010  4        11408103  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             255  ---  Percentage Used Endurance Indicator

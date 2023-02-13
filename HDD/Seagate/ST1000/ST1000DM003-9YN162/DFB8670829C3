@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Feb  1 13:15:03 2021 MST
+Local Time is:    Mon Feb  1 13:16:13 2021 MST
 
 ==> WARNING: A firmware update for this drive may be available,
 see the following Seagate web pages:
@@ -71,7 +71,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            PO----   097   097   000    -    0
   4 Start_Stop_Count        -O--CK   100   100   020    -    77
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    768
-  7 Seek_Error_Rate         POSR--   084   060   030    -    257972256
+  7 Seek_Error_Rate         POSR--   084   060   030    -    257972267
   9 Power_On_Hours          -O--CK   026   026   000    -    65635
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   100   020    -    76
@@ -88,8 +88,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--C-   100   001   000    -    0
 198 Offline_Uncorrectable   ----C-   100   001   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    62021h+18m+48.583s
-241 Total_LBAs_Written      ------   100   253   000    -    188655511726670
+240 Head_Flying_Hours       ------   100   253   000    -    62021h+19m+57.746s
+241 Total_LBAs_Written      ------   100   253   000    -    188655514219619
 242 Total_LBAs_Read         ------   100   253   000    -    269000865375208
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -264,8 +264,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    38 Celsius
-Power Cycle Min/Max Temperature:     26/38 Celsius
+Current Temperature:                    39 Celsius
+Power Cycle Min/Max Temperature:     26/39 Celsius
 Lifetime    Min/Max Temperature:     18/53 Celsius
 Under/Over Temperature Limit Count:   0/0
 

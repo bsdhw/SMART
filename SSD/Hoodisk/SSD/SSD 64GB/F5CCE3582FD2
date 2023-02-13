@@ -14,7 +14,7 @@ Form Factor:      mSATA
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 19 16:50:11 2020 BST
+Local Time is:    Wed Nov 18 15:37:03 2020 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,16 +57,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       8608
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       139
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       9327
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       149
 168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
 170 Bad_Blk_Ct_Erl/Lat      0x0003   078   078   010    Pre-fail  Always       -       0/124
-173 MaxAvgErase_Ct          0x0012   100   100   000    Old_age   Always       -       143 (Average 124)
-192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       96
+173 MaxAvgErase_Ct          0x0012   100   100   000    Old_age   Always       -       144 (Average 125)
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       100
 194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
 218 CRC_Error_Count         0x000b   100   100   050    Pre-fail  Always       -       0
 231 SSD_Life_Left           0x0013   100   100   000    Pre-fail  Always       -       95
-241 Lifetime_Writes_GiB     0x0012   100   100   000    Old_age   Always       -       2558
+241 Lifetime_Writes_GiB     0x0012   100   100   000    Old_age   Always       -       2608
 
 SMART Error Log Version: 1
 No Errors Logged

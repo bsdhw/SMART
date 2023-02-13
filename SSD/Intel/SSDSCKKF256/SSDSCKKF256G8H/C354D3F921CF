@@ -13,7 +13,7 @@ Form Factor:      M.2
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Nov 11 16:30:21 2020 CET
+Local Time is:    Wed Nov 11 16:30:41 2020 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -141,7 +141,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/100 Celsius
-Temperature History Size (Index):    128 (116)
+Temperature History Size (Index):    128 (118)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -152,10 +152,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4             576  ---  Lifetime Power-On Resets
 0x01  0x010  4             462  ---  Power-on Hours
-0x01  0x018  6      8627530646  ---  Logical Sectors Written
-0x01  0x020  6       186202832  ---  Number of Write Commands
-0x01  0x028  6     10970520234  ---  Logical Sectors Read
-0x01  0x030  6       164225030  ---  Number of Read Commands
+0x01  0x018  6      8627535166  ---  Logical Sectors Written
+0x01  0x020  6       186203028  ---  Number of Write Commands
+0x01  0x028  6     10970520442  ---  Logical Sectors Read
+0x01  0x030  6       164225033  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  -D-  Number of Reported Uncorrectable Errors
 0x04  0x010  4              70  -D-  Resets Between Cmd Acceptance and Completion

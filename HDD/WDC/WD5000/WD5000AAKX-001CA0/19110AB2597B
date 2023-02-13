@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Nov 11 20:26:43 2020 IST
+Local Time is:    Wed Dec  9 12:19:34 2020 IST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,16 +63,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   200   200   051    -    0
-  3 Spin_Up_Time            POS--K   138   136   021    -    4066
-  4 Start_Stop_Count        -O--CK   089   089   000    -    11733
+  3 Spin_Up_Time            POS--K   138   136   021    -    4100
+  4 Start_Stop_Count        -O--CK   089   089   000    -    11869
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   000    -    0
-  9 Power_On_Hours          -O--CK   073   073   000    -    19713
+  9 Power_On_Hours          -O--CK   073   073   000    -    19912
  10 Spin_Retry_Count        -O--CK   100   100   000    -    0
  11 Calibration_Retry_Count -O--CK   100   100   000    -    0
- 12 Power_Cycle_Count       -O--CK   089   089   000    -    11684
-192 Power-Off_Retract_Count -O--CK   199   199   000    -    1201
-193 Load_Cycle_Count        -O--CK   197   197   000    -    10531
+ 12 Power_Cycle_Count       -O--CK   089   089   000    -    11819
+192 Power-Off_Retract_Count -O--CK   199   199   000    -    1207
+193 Load_Cycle_Count        -O--CK   197   197   000    -    10661
 194 Temperature_Celsius     -O---K   105   091   000    -    38
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
@@ -131,7 +131,7 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       258 (0x0102)
 Device State:                        Active (0)
 Current Temperature:                    38 Celsius
-Power Cycle Min/Max Temperature:     29/38 Celsius
+Power Cycle Min/Max Temperature:     26/38 Celsius
 Lifetime    Min/Max Temperature:      0/52 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -140,7 +140,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (428)
+Temperature History Size (Index):    478 (179)
 
 SCT Error Recovery Control command not supported
 
@@ -157,7 +157,7 @@ ID      Size     Value  Description
 0x0005  2            0  R_ERR response for non-data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x000a  2            2  Device-to-host register FISes sent due to a COMRESET
+0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
-0x8000  4         1833  Vendor specific
+0x8000  4        17108  Vendor specific
 

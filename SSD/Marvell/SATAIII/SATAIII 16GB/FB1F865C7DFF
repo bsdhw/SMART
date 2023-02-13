@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Mar 24 15:22:21 2022 GMT
+Local Time is:    Thu Mar 24 16:49:45 2022 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,19 +62,19 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O----   100   100   000    -    0
   9 Power_On_Hours          -O----   100   100   000    -    33824
- 12 Power_Cycle_Count       -O----   100   100   000    -    118
-165 Total_Write/Erase_Count -O----   100   100   000    -    8346975
+ 12 Power_Cycle_Count       -O----   100   100   000    -    119
+165 Total_Write/Erase_Count -O----   100   100   000    -    8347241
 171 Program_Fail_Count      -O----   100   100   000    -    0
 172 Erase_Fail_Count        -O----   100   100   000    -    0
 173 Avg_Write/Erase_Count   -O----   100   100   000    -    4185
-174 Unexpect_Power_Loss_Ct  -O----   100   100   000    -    78
+174 Unexpect_Power_Loss_Ct  -O----   100   100   000    -    79
 187 Reported_Uncorrect      -O----   100   100   000    -    10
-194 Temperature_Celsius     -O---K   051   049   000    -    49 (Min/Max 4/68)
+194 Temperature_Celsius     -O---K   050   050   000    -    50 (Min/Max 4/68)
 230 Perc_Write/Erase_Count  -O----   100   100   000    -    0 0 10000
 232 Perc_Avail_Resrvd_Space PO----   100   100   005    -    0
-234 Perc_Write/Erase_Ct_BC  -O----   100   100   000    -    5077
-241 Total_Writes_GiB        -O----   100   100   000    -    23810209695
-242 Total_Reads_GiB         -O----   100   100   000    -    253685320
+234 Perc_Write/Erase_Ct_BC  -O----   100   100   000    -    5078
+241 Total_Writes_GiB        -O----   100   100   000    -    23808558873
+242 Total_Reads_GiB         -O----   100   100   000    -    254482560
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -274,8 +274,8 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              49  ---  Current Temperature
-0x05  0x010  1              47  ---  Average Short Term Temperature
+0x05  0x008  1              50  ---  Current Temperature
+0x05  0x010  1               -  ---  Average Short Term Temperature
 0x05  0x018  1               -  ---  Average Long Term Temperature
 0x05  0x020  1              68  ---  Highest Temperature
 0x05  0x028  1              27  ---  Lowest Temperature
@@ -301,8 +301,8 @@ ID      Size     Value  Description
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x0009  2            4  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            4  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            9  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            8  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
 0x0001  2            0  Command failed due to ICRC error

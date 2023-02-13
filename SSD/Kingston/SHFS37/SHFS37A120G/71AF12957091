@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Dec 18 08:02:53 2020 EST
+Local Time is:    Fri Dec 18 08:07:12 2020 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,7 +64,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   120   120   050    -    0/0
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   065   065   000    -    31083h+13m+54.960s
+  9 Power_On_Hours_and_Msec -O--CK   065   065   000    -    31083h+18m+13.800s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    298
 171 Program_Fail_Count      -O-R--   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
@@ -141,7 +141,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/85 Celsius
-Temperature History Size (Index):    478 (242)
+Temperature History Size (Index):    478 (243)
 
 SCT Error Recovery Control command not supported
 
@@ -151,7 +151,7 @@ Page  Offset Size        Value Flags Description
 0x01  0x008  4             298  ---  Lifetime Power-On Resets
 0x01  0x010  4           31083  ---  Power-on Hours
 0x01  0x018  6     10261308953  ---  Logical Sectors Written
-0x01  0x028  6     33738348569  ---  Logical Sectors Read
+0x01  0x028  6     33738348574  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4             247  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               1  ---  Resets Between Cmd Acceptance and Completion

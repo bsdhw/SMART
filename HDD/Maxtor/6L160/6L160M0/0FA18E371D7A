@@ -10,7 +10,7 @@ User Capacity:    163,928,604,672 bytes [163 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 0
-Local Time is:    Fri Nov 27 17:08:46 2020 EET
+Local Time is:    Fri Nov 27 17:10:22 2020 EET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,15 +55,15 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   5 Reallocated_Sector_Ct   0x0033   253   253   063    Pre-fail  Always       -       0
   6 Read_Channel_Margin     0x0001   253   253   100    Pre-fail  Offline      -       0
   7 Seek_Error_Rate         0x000a   253   252   000    Old_age   Always       -       0
-  8 Seek_Time_Performance   0x0027   248   233   187    Pre-fail  Always       -       40153
-  9 Power_On_Minutes        0x0032   173   173   000    Old_age   Always       -       514h+39m
+  8 Seek_Time_Performance   0x0027   248   233   187    Pre-fail  Always       -       40210
+  9 Power_On_Minutes        0x0032   173   173   000    Old_age   Always       -       514h+40m
  10 Spin_Retry_Count        0x002b   253   252   157    Pre-fail  Always       -       0
  11 Calibration_Retry_Count 0x002b   253   252   223    Pre-fail  Always       -       0
  12 Power_Cycle_Count       0x0032   241   241   000    Old_age   Always       -       4884
 192 Power-Off_Retract_Count 0x0032   253   253   000    Old_age   Always       -       0
 193 Load_Cycle_Count        0x0032   253   253   000    Old_age   Always       -       0
 194 Temperature_Celsius     0x0032   031   253   000    Old_age   Always       -       26
-195 Hardware_ECC_Recovered  0x000a   253   252   000    Old_age   Always       -       6221
+195 Hardware_ECC_Recovered  0x000a   253   252   000    Old_age   Always       -       6356
 196 Reallocated_Event_Count 0x0008   253   253   000    Old_age   Offline      -       0
 197 Current_Pending_Sector  0x0008   253   253   000    Old_age   Offline      -       0
 198 Offline_Uncorrectable   0x0008   253   253   000    Old_age   Offline      -       0

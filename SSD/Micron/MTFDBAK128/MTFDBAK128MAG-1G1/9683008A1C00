@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p21-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     MTFDBAK128MAG-1G1
@@ -11,10 +11,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Jan 27 08:34:42 2022 CET
+Local Time is:    Wed Jun  8 09:59:07 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,14 +68,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   4 Start_Stop_Count        -O--CK   100   100   000    -    3
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    1622
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    1484
+  9 Power_On_Hours          -O--CK   100   100   000    -    2840
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    1491
 170 Unknown_Attribute       PO--CK   100   100   010    -    0
 171 Unknown_Attribute       -O--CK   100   100   000    -    0
 172 Unknown_Attribute       -O--CK   100   100   000    -    0
-173 Unknown_Attribute       PO--CK   093   093   010    -    357
+173 Unknown_Attribute       PO--CK   093   093   010    -    372
 174 Unknown_Attribute       -O--CK   100   100   000    -    3
-181 Program_Fail_Cnt_Total  -O---K   100   100   000    -    11862763570938
+181 Program_Fail_Cnt_Total  -O---K   100   100   000    -    11927188997884
 183 Runtime_Bad_Block       -O--CK   100   100   050    -    0
 184 End-to-End_Error        PO--CK   100   100   002    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
@@ -155,7 +155,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (373)
+Temperature History Size (Index):    478 (38)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -164,12 +164,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            1484  ---  Lifetime Power-On Resets
-0x01  0x010  4            1622  ---  Power-on Hours
-0x01  0x018  6     16384502339  ---  Logical Sectors Written
-0x01  0x020  6       311149326  ---  Number of Write Commands
-0x01  0x028  6     30415520958  ---  Logical Sectors Read
-0x01  0x030  6       584800383  ---  Number of Read Commands
+0x01  0x008  4            1491  ---  Lifetime Power-On Resets
+0x01  0x010  4            2840  ---  Power-on Hours
+0x01  0x018  6     17064871250  ---  Logical Sectors Written
+0x01  0x020  6       321021131  ---  Number of Write Commands
+0x01  0x028  6     30432345936  ---  Logical Sectors Read
+0x01  0x030  6       585391466  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
@@ -188,7 +188,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               -  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            6655  ---  Number of Hardware Resets
+0x06  0x008  4            6739  ---  Number of Hardware Resets
 0x06  0x010  4               0  ---  Number of ASR Events
 0x06  0x018  4               4  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
@@ -202,5 +202,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           16  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           22  Device-to-host register FISes sent due to a COMRESET
 

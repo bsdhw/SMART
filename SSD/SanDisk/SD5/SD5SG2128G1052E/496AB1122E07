@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Sep 26 10:34:33 2021 AEST
+Local Time is:    Sun Sep 26 17:59:35 2021 AEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,25 +60,25 @@ recommended polling time: 	 (  10) minutes.
 SMART Attributes Data Structure revision number: 4
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     -OSR--   100   100   ---    -    2
+  1 Raw_Read_Error_Rate     -OSR--   100   100   ---    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   ---    -    0
-  9 Power_On_Hours          -O--CK   253   100   ---    -    9476
- 12 Power_Cycle_Count       -O--CK   100   100   ---    -    3521
+  9 Power_On_Hours          -O--CK   253   100   ---    -    9474
+ 12 Power_Cycle_Count       -O--CK   100   100   ---    -    3522
 167 Min_Bad_Block/Die       -O--CK   100   100   ---    -    32
 168 Maximum_Erase_Cycle     -O--CK   100   100   ---    -    275
 169 Total_Bad_Block         -O--CK   100   100   ---    -    214
 171 Program_Fail_Count      -O--CK   100   100   ---    -    0
 172 Erase_Fail_Count        -O--CK   100   100   ---    -    0
 173 Avg_Write/Erase_Count   -O--CK   100   100   ---    -    163
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   ---    -    264
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   ---    -    265
 184 End-to-End_Error        -O--CK   100   100   ---    -    0
-194 Temperature_Celsius     -O---K   053   063   ---    -    47 (Min/Max 15/63)
+194 Temperature_Celsius     -O---K   054   063   ---    -    46 (Min/Max 15/63)
 212 SATA_PHY_Error          -O--CK   100   100   ---    -    0
 230 Perc_Write/Erase_Count  -O--CK   100   100   ---    -    0 0 1323
 232 Perc_Avail_Resrvd_Space PO--CK   100   100   004    -    100
 233 Total_NAND_Writes_GiB   -O--CK   100   100   ---    -    1323
-241 Total_Writes_GiB        ----CK   253   253   ---    -    21806302186
-242 Total_Reads_GiB         ----CK   253   253   ---    -    30557465530
+241 Total_Writes_GiB        ----CK   253   253   ---    -    21791256481
+242 Total_Reads_GiB         ----CK   253   253   ---    -    30556367783
 243 Unknown_Marvell_Attr    -O--CK   100   100   ---    -    2801795072
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -122,5 +122,5 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4           19  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           13  Device-to-host register FISes sent due to a COMRESET
 

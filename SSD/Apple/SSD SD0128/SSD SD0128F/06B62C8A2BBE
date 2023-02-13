@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Mar 13 14:03:36 2021 +05
+Local Time is:    Sun Mar 14 18:07:09 2021 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -42,14 +42,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000f   100   100   000    Pre-fail  Always       -       0
   5 Reallocated_Sector_Ct   0x000f   100   100   000    Pre-fail  Always       -       1
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       15577
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       21687
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       15581
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       21690
 169 Unknown_Apple_Attrib    0x0022   100   100   010    Old_age   Always       -       966541706976
-173 Wear_Leveling_Count     0x0022   115   115   100    Old_age   Always       -       9672433469776
-174 Host_Reads_MiB          0x0030   100   100   000    Old_age   Offline      -       187786982
-175 Host_Writes_MiB         0x0030   100   100   000    Old_age   Offline      -       153956746
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       353
-194 Temperature_Celsius     0x0022   021   021   000    Old_age   Always       -       79 (Min/Max 25/91)
+173 Wear_Leveling_Count     0x0022   115   115   100    Old_age   Always       -       9676728437072
+174 Host_Reads_MiB          0x0030   100   100   000    Old_age   Offline      -       187790194
+175 Host_Writes_MiB         0x0030   100   100   000    Old_age   Offline      -       153986383
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       356
+194 Temperature_Celsius     0x0022   020   020   000    Old_age   Always       -       80 (Min/Max 25/91)
 197 Current_Pending_Sector  0x0032   000   000   000    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x003e   100   100   000    Old_age   Always       -       0
 244 Unknown_Attribute       0x0002   000   000   000    Old_age   Always       -       0

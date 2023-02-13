@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat May 23 20:58:48 2020 CEST
+Local Time is:    Sat May 23 20:59:10 2020 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -75,8 +75,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 CRC_Error_Count         -OSRCK   253   253   000    -    267
 232 Available_Reservd_Space PO--C-   095   095   000    -    3862
-241 Total_LBAs_Written      -O--CK   099   099   000    -    49105027163
-242 Total_LBAs_Read         -O--CK   099   099   000    -    51742802621
+241 Total_LBAs_Written      -O--CK   099   099   000    -    49105035987
+242 Total_LBAs_Read         -O--CK   099   099   000    -    51742806005
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

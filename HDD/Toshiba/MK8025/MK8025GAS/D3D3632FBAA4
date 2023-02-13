@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [i386-unknown-openbsd6.7] (local build)
+smartctl 7.1 2019-12-30 r5022 [i386-unknown-openbsd6.8] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,7 +10,7 @@ User Capacity:    80,026,361,856 bytes [80.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-6 (minor revision not indicated)
-Local Time is:    Tue Aug 11 01:40:33 2020 CEST
+Local Time is:    Sat Nov  7 23:05:30 2020 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -50,26 +50,26 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
   2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
-  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       1361
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       206
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       1432
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       210
   5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       120
- 10 Spin_Retry_Count        0x0033   103   100   030    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       98
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       130
+ 10 Spin_Retry_Count        0x0033   104   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       99
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       13
-193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       2260
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       33 (Min/Max 8/40)
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       2397
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       32 (Min/Max 8/40)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
 220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       47
-222 Loaded_Hours            0x0032   100   100   000    Old_age   Always       -       104
+222 Loaded_Hours            0x0032   100   100   000    Old_age   Always       -       114
 223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
 224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
-226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       216
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       224
 240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
 
 SMART Error Log Version: 1

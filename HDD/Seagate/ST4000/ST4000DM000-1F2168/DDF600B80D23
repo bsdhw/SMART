@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Dec 18 08:03:06 2020 EST
+Local Time is:    Fri Dec 18 08:07:25 2020 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -79,12 +79,12 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 190 Airflow_Temperature_Cel -O---K   074   031   045    Past 26 (132 239 34 26 0)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    0
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    0
-193 Load_Cycle_Count        -O--CK   001   001   000    -    455935
+193 Load_Cycle_Count        -O--CK   001   001   000    -    455936
 194 Temperature_Celsius     -O---K   026   069   000    -    26 (0 9 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    20288h+00m+40.217s
+240 Head_Flying_Hours       ------   100   253   000    -    20288h+01m+11.681s
 241 Total_LBAs_Written      ------   100   253   000    -    33020928194
 242 Total_LBAs_Read         ------   100   253   000    -    465156558885
                             ||||||_ K auto-keep
@@ -326,7 +326,7 @@ Page  Offset Size        Value Flags Description
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
 0x03  0x008  4           26586  ---  Spindle Motor Power-on Hours
 0x03  0x010  4            5245  ---  Head Flying Hours
-0x03  0x018  4          455935  ---  Head Load Events
+0x03  0x018  4          455936  ---  Head Load Events
 0x03  0x020  4           62392  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures

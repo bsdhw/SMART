@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p12-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Samsung SSD 970 EVO Plus 250GB
@@ -13,10 +13,10 @@ Controller ID:                      4
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            4,426,502,144 [4.42 GB]
+Namespace 1 Utilization:            28,429,352,960 [28.4 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Wed Feb  3 15:38:25 2021 PST
+Local Time is:                      Tue Jul 26 20:07:57 2022 PDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,24 +42,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        48 Celsius
+Temperature:                        59 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    7,602 [3.89 GB]
-Data Units Written:                 152,219 [77.9 GB]
-Host Read Commands:                 237,016
-Host Write Commands:                2,407,078
-Controller Busy Time:               0
-Power Cycles:                       5
-Power On Hours:                     182
-Unsafe Shutdowns:                   2
+Data Units Read:                    91,779 [46.9 GB]
+Data Units Written:                 8,519,432 [4.36 TB]
+Host Read Commands:                 3,150,216
+Host Write Commands:                121,367,787
+Controller Busy Time:               26
+Power Cycles:                       16
+Power On Hours:                     13,060
+Unsafe Shutdowns:                   6
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               48 Celsius
-Temperature Sensor 2:               49 Celsius
+Temperature Sensor 1:               59 Celsius
+Temperature Sensor 2:               58 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 14.0-CURRENT amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,7 +10,7 @@ User Capacity:    80,026,361,856 bytes [80.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Sat Jul  9 14:30:26 2022 PDT
+Local Time is:    Mon Jul 11 19:23:50 2022 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -57,18 +57,18 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   062    -    0
   2 Throughput_Performance  P-S---   100   100   040    -    0
-  3 Spin_Up_Time            POS---   240   240   033    -    1
-  4 Start_Stop_Count        -O--C-   098   098   000    -    4336
+  3 Spin_Up_Time            POS---   251   251   033    -    1
+  4 Start_Stop_Count        -O--C-   098   098   000    -    4341
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   100   100   040    -    0
-  9 Power_On_Hours          -O--C-   080   080   000    -    8912
+  9 Power_On_Hours          -O--C-   080   080   000    -    8930
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
- 12 Power_Cycle_Count       -O--CK   098   098   000    -    3677
+ 12 Power_Cycle_Count       -O--CK   098   098   000    -    3682
 191 G-Sense_Error_Rate      -O-R--   100   100   000    -    0
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    38
-193 Load_Cycle_Count        -O--C-   084   084   000    -    165575
-194 Temperature_Celsius     -O----   122   122   000    -    45 (Min/Max 16/64)
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    39
+193 Load_Cycle_Count        -O--C-   084   084   000    -    167348
+194 Temperature_Celsius     -O----   144   144   000    -    38 (Min/Max 16/64)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    1
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0

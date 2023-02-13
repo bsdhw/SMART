@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          4,000,787,030,016 [4.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Sat Dec 11 09:14:16 2021 NZDT
+Local Time is:                      Sat Dec 11 10:26:42 2021 NZDT
 Firmware Updates (0x18):            4 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005d):     Comp DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,13 +46,13 @@ Temperature:                        32 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    2%
-Data Units Read:                    59,434,656 [30.4 TB]
+Data Units Read:                    59,434,675 [30.4 TB]
 Data Units Written:                 214,645,070 [109 TB]
-Host Read Commands:                 1,022,773,922
+Host Read Commands:                 1,022,774,379
 Host Write Commands:                3,260,228,918
 Controller Busy Time:               10,565
-Power Cycles:                       21
-Power On Hours:                     844
+Power Cycles:                       22
+Power On Hours:                     845
 Unsafe Shutdowns:                   2
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      42

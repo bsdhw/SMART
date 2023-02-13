@@ -13,7 +13,7 @@ Form Factor:      2.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Oct 31 13:51:12 2020 EDT
+Local Time is:    Sat Oct 31 13:56:09 2020 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -75,7 +75,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 232 Available_Reservd_Space 0x0033   100   100   004    Pre-fail  Always       -       100
 233 Media_Wearout_Indicator 0x0032   100   100   ---    Old_age   Always       -       224
 234 Unknown_Attribute       0x0032   100   100   ---    Old_age   Always       -       2364
-241 Total_LBAs_Written      0x0030   253   253   ---    Old_age   Offline      -       2587
+241 Total_LBAs_Written      0x0030   253   253   ---    Old_age   Offline      -       2588
 242 Total_LBAs_Read         0x0030   253   253   ---    Old_age   Offline      -       187
 244 Unknown_Attribute       0x0032   000   100   ---    Old_age   Always       -       0
 

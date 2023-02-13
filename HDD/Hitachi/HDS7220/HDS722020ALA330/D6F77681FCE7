@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun Mar 21 22:47:34 2021 CET
+Local Time is:    Mon Mar 22 15:28:17 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,17 +60,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       1
   2 Throughput_Performance  0x0005   133   133   054    Pre-fail  Offline      -       101
-  3 Spin_Up_Time            0x0007   122   122   024    Pre-fail  Always       -       621 (Average 560)
-  4 Start_Stop_Count        0x0012   099   099   000    Old_age   Always       -       4544
+  3 Spin_Up_Time            0x0007   122   122   024    Pre-fail  Always       -       562 (Average 621)
+  4 Start_Stop_Count        0x0012   099   099   000    Old_age   Always       -       4545
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   114   114   020    Pre-fail  Offline      -       38
-  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       17415
+  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       17417
  10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2817
-192 Power-Off_Retract_Count 0x0032   096   096   000    Old_age   Always       -       4850
-193 Load_Cycle_Count        0x0012   096   096   000    Old_age   Always       -       4850
-194 Temperature_Celsius     0x0002   166   166   000    Old_age   Always       -       36 (Min/Max 9/65)
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2818
+192 Power-Off_Retract_Count 0x0032   096   096   000    Old_age   Always       -       4851
+193 Load_Cycle_Count        0x0012   096   096   000    Old_age   Always       -       4851
+194 Temperature_Celsius     0x0002   200   200   000    Old_age   Always       -       30 (Min/Max 9/65)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0

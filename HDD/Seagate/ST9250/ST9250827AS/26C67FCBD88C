@@ -13,7 +13,7 @@ Rotation Rate:    5400 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Tue Jun  1 11:31:27 2021 UTC
+Local Time is:    Wed Jun  2 23:21:07 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,20 +61,20 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   100   253   006    -    0
   3 Spin_Up_Time            PO----   099   099   000    -    0
-  4 Start_Stop_Count        -O--CK   100   100   020    -    846
+  4 Start_Stop_Count        -O--CK   100   100   020    -    849
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   072   060   030    -    21563115967
-  9 Power_On_Hours          -O--CK   078   078   000    -    19962
+  7 Seek_Error_Rate         POSR--   072   060   030    -    21563291562
+  9 Power_On_Hours          -O--CK   078   078   000    -    19988
  10 Spin_Retry_Count        PO--C-   100   100   034    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   020    -    752
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    756
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   068   045   045    Past 32 (Min/Max 17/55)
-191 G-Sense_Error_Rate      -O--CK   100   100   000    -    848
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    425
-193 Load_Cycle_Count        -O---K   001   001   000    -    1832620
-194 Temperature_Celsius     -O-RC-   032   055   000    -    32 (0 17 0 0 0)
-195 Hardware_ECC_Recovered  -O--C-   072   054   000    -    109356138
+190 Airflow_Temperature_Cel -O---K   065   045   045    Past 35 (Min/Max 17/55)
+191 G-Sense_Error_Rate      -O--CK   100   100   000    -    850
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    427
+193 Load_Cycle_Count        -O---K   001   001   000    -    1837564
+194 Temperature_Celsius     -O-RC-   035   055   000    -    35 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  -O--C-   074   054   000    -    115060455
 197 Current_Pending_Sector  ----C-   100   100   000    -    0
 198 Offline_Uncorrectable   -OSRCK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   200   200   000    -    0
@@ -143,7 +143,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       521 (0x0209)
 Device State:                        Active (0)
-Current Temperature:                    32 Celsius
+Current Temperature:                    35 Celsius
 Power Cycle Min/Max Temperature:     --/ 0 Celsius
 Lifetime    Min/Max Temperature:     --/ 0 Celsius
 
@@ -165,6 +165,6 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0009  2            3  Transition from drive PhyRdy to drive PhyNRdy
 0x8002  2            0  Vendor specific
-0x8003  2            0  Vendor specific
+0x8003  2            1  Vendor specific
 0x8004  2            0  Vendor specific
 

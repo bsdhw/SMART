@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p3 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Sector Sizes:     512 bytes logical, 4096 bytes physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jul 30 22:22:52 2020 CEST
+Local Time is:    Thu Oct 29 15:12:10 2020 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,17 +63,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   200   200   051    -    0
-  3 Spin_Up_Time            POS--K   173   168   021    -    4325
-  4 Start_Stop_Count        -O--CK   100   100   000    -    149
+  3 Spin_Up_Time            POS--K   174   168   021    -    4291
+  4 Start_Stop_Count        -O--CK   100   100   000    -    151
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
-  7 Seek_Error_Rate         -OSR-K   200   200   000    -    0
-  9 Power_On_Hours          -O--CK   023   023   000    -    56553
+  7 Seek_Error_Rate         -OSR-K   100   253   000    -    0
+  9 Power_On_Hours          -O--CK   020   020   000    -    58728
  10 Spin_Retry_Count        -O--CK   100   100   000    -    0
  11 Calibration_Retry_Count -O--CK   100   100   000    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    149
-192 Power-Off_Retract_Count -O--CK   200   200   000    -    110
-193 Load_Cycle_Count        -O--CK   178   178   000    -    66617
-194 Temperature_Celsius     -O---K   115   106   000    -    32
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    151
+192 Power-Off_Retract_Count -O--CK   200   200   000    -    112
+193 Load_Cycle_Count        -O--CK   178   178   000    -    68326
+194 Temperature_Celsius     -O---K   114   106   000    -    33
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
 198 Offline_Uncorrectable   ----CK   200   200   000    -    0
@@ -108,7 +108,7 @@ Address    Access  R/W   Size  Description
 0xe1       GPL,SL  R/W      1  SCT Data Transfer
 
 SMART Extended Comprehensive Error Log Version: 1 (6 sectors)
-Device Error Count: 40 (device log contains only the most recent 24 errors)
+Device Error Count: 45 (device log contains only the most recent 24 errors)
 	CR     = Command Register
 	FEATR  = Features Register
 	COUNT  = Count (was: Sector Count) Register
@@ -123,6 +123,91 @@ Device Error Count: 40 (device log contains only the most recent 24 errors)
 Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 45 [20] occurred at disk power-on lifetime: 58726 hours (2446 days + 22 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  3f 00 00 00 01 00 00 00 00 00 e0 40 00     11:26:42.429  WRITE LOG EXT
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     11:26:42.405  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00     11:26:42.405  IDENTIFY DEVICE
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     11:26:42.353  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00     11:26:42.352  IDENTIFY DEVICE
+
+Error 44 [19] occurred at disk power-on lifetime: 58714 hours (2446 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  3f 00 00 00 01 00 00 00 00 00 e0 40 00     00:00:24.356  WRITE LOG EXT
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:24.289  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:24.289  IDENTIFY DEVICE
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:24.237  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:24.236  IDENTIFY DEVICE
+
+Error 43 [18] occurred at disk power-on lifetime: 58714 hours (2446 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  3f 00 00 00 01 00 00 00 00 00 e0 40 00 16d+12:26:14.520  WRITE LOG EXT
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00 16d+12:26:14.494  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 16d+12:26:14.482  IDENTIFY DEVICE
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00 16d+12:26:14.458  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 16d+12:26:14.457  IDENTIFY DEVICE
+
+Error 42 [17] occurred at disk power-on lifetime: 57125 hours (2380 days + 5 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  3f 00 00 00 01 00 00 00 00 00 e0 40 00     00:00:25.485  WRITE LOG EXT
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:25.458  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:25.445  IDENTIFY DEVICE
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:25.378  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:25.378  IDENTIFY DEVICE
+
+Error 41 [16] occurred at disk power-on lifetime: 56927 hours (2371 days + 23 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  3f 00 00 00 01 00 00 00 00 00 e0 40 00 20d+21:22:55.019  WRITE LOG EXT
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00 20d+21:22:54.996  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 20d+21:22:54.995  IDENTIFY DEVICE
+  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00 20d+21:22:54.943  SMART READ DATA
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 20d+21:22:54.943  IDENTIFY DEVICE
 
 Error 40 [15] occurred at disk power-on lifetime: 56425 hours (2351 days + 1 hours)
   When the command that caused the error occurred, the device was active or idle.
@@ -175,91 +260,6 @@ Error 38 [13] occurred at disk power-on lifetime: 56390 hours (2349 days + 14 ho
   b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:01:00.467  SMART READ DATA
   ec 00 00 00 00 00 00 00 00 00 00 00 00     00:01:00.466  IDENTIFY DEVICE
 
-Error 37 [12] occurred at disk power-on lifetime: 56390 hours (2349 days + 14 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  3f 00 00 00 01 00 00 00 00 00 e0 40 00     00:00:26.415  WRITE LOG EXT
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:26.387  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:26.375  IDENTIFY DEVICE
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:26.304  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:26.304  IDENTIFY DEVICE
-
-Error 36 [11] occurred at disk power-on lifetime: 56390 hours (2349 days + 14 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  3f 00 00 00 01 00 00 00 00 00 e0 40 00     00:00:25.337  WRITE LOG EXT
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:25.302  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:25.302  IDENTIFY DEVICE
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:25.240  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:25.240  IDENTIFY DEVICE
-
-Error 35 [10] occurred at disk power-on lifetime: 56112 hours (2338 days + 0 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  3f 00 00 00 01 00 00 00 00 00 e0 40 00     03:30:59.909  WRITE LOG EXT
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     03:30:59.882  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     03:30:59.870  IDENTIFY DEVICE
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     03:30:59.846  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     03:30:59.846  IDENTIFY DEVICE
-
-Error 34 [9] occurred at disk power-on lifetime: 56109 hours (2337 days + 21 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  3f 00 00 00 01 00 00 00 00 00 e0 40 00     00:00:24.454  WRITE LOG EXT
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:24.431  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:24.430  IDENTIFY DEVICE
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:24.333  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:24.333  IDENTIFY DEVICE
-
-Error 33 [8] occurred at disk power-on lifetime: 56109 hours (2337 days + 21 hours)
-  When the command that caused the error occurred, the device was active or idle.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  04 -- 51 00 01 00 00 00 00 00 00 40 00  Error: ABRT
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  3f 00 00 00 01 00 00 00 00 00 e0 40 00     00:00:44.250  WRITE LOG EXT
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:44.184  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:44.183  IDENTIFY DEVICE
-  b0 00 d0 00 00 00 00 00 c2 4f 00 00 00     00:00:44.131  SMART READ DATA
-  ec 00 00 00 00 00 00 00 00 00 00 00 00     00:00:44.130  IDENTIFY DEVICE
-
 SMART Extended Self-test Log Version: 1 (1 sectors)
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
 
@@ -277,8 +277,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       258 (0x0102)
 Device State:                        Active (0)
-Current Temperature:                    32 Celsius
-Power Cycle Min/Max Temperature:     32/35 Celsius
+Current Temperature:                    33 Celsius
+Power Cycle Min/Max Temperature:     31/33 Celsius
 Lifetime    Min/Max Temperature:      2/41 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
@@ -290,7 +290,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (368)
+Temperature History Size (Index):    478 (307)
 
 SCT Error Recovery Control command not supported
 
@@ -308,12 +308,12 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2            1  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            2  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            3  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            4  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
-0x8000  4       459210  Vendor specific
+0x8000  4        50295  Vendor specific
 
 
 

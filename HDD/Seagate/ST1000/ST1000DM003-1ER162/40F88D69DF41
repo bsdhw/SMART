@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug  7 11:31:16 2021 EDT
+Local Time is:    Sat Aug  7 11:38:56 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -75,15 +75,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   099   000    -    0 0 1
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   072   064   045    -    28 (Min/Max 22/28)
+190 Airflow_Temperature_Cel -O---K   071   064   045    -    29 (Min/Max 22/29)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    0
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    12
-193 Load_Cycle_Count        -O--CK   036   036   000    -    128899
-194 Temperature_Celsius     -O---K   028   040   000    -    28 (0 13 0 0 0)
+193 Load_Cycle_Count        -O--CK   036   036   000    -    128900
+194 Temperature_Celsius     -O---K   029   040   000    -    29 (0 13 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    23873h+55m+48.116s
+240 Head_Flying_Hours       ------   100   253   000    -    23873h+56m+28.934s
 241 Total_LBAs_Written      ------   100   253   000    -    24216039101
 242 Total_LBAs_Read         ------   100   253   000    -    1077443304916
                             ||||||_ K auto-keep
@@ -143,8 +143,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    26 Celsius
-Power Cycle Min/Max Temperature:     22/26 Celsius
+Current Temperature:                    28 Celsius
+Power Cycle Min/Max Temperature:     22/28 Celsius
 Lifetime    Min/Max Temperature:     13/36 Celsius
 Under/Over Temperature Limit Count:   0/0
 

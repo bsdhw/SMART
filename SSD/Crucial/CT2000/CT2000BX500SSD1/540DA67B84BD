@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Jan  1 15:19:50 2023 PST
+Local Time is:    Wed Jan 11 22:13:24 2023 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,17 +57,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   000    Pre-fail  Always       -       0
   5 Reallocate_NAND_Blk_Cnt 0x0032   100   100   010    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       9628
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2151
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       9835
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2163
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
 173 Ave_Block-Erase_Count   0x0032   098   098   000    Old_age   Always       -       36
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       347
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       353
 180 Unused_Reserve_NAND_Blk 0x0033   100   100   000    Pre-fail  Always       -       6
 183 SATA_Interfac_Downshift 0x0032   100   100   000    Old_age   Always       -       55
 184 Error_Correction_Count  0x0032   100   100   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   073   047   000    Old_age   Always       -       27 (Min/Max 15/53)
+194 Temperature_Celsius     0x0022   071   047   000    Old_age   Always       -       29 (Min/Max 15/53)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_ECC_Cnt 0x0032   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
@@ -75,14 +75,14 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 202 Percent_Lifetime_Remain 0x0030   098   098   001    Old_age   Offline      -       2
 206 Write_Error_Rate        0x000e   100   100   000    Old_age   Always       -       0
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
-246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       52223913927
-247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       1631997310
-248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       1182820672
+246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       53283107135
+247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       1665097097
+248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       1202284864
 249 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       0
-250 Read_Error_Retry_Rate   0x0032   100   100   000    Old_age   Always       -       2361076
+250 Read_Error_Retry_Rate   0x0032   100   100   000    Old_age   Always       -       2428220
 251 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       0
 252 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       0
-253 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       158
+253 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       162
 254 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       206
 223 Unkn_CrucialMicron_Attr 0x0032   100   100   000    Old_age   Always       -       5
 
@@ -132,11 +132,11 @@ Error -4 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
-  60 40 d0 28 ce 55 40 00      00:00:00.000  READ FPDMA QUEUED
-  60 40 a0 c0 34 15 40 00      00:00:00.000  READ FPDMA QUEUED
-  b0 da 00 00 4f c2 00 00      00:00:00.000  SMART RETURN STATUS
-  b0 d5 01 00 4f c2 00 00      00:00:00.000  SMART READ LOG
-  b0 d5 01 01 4f c2 00 00      00:00:00.000  SMART READ LOG
+  60 80 18 c0 ae 0f 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 40 a0 00 b2 0f 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 40 a0 00 b2 0f 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 40 a0 00 b2 0f 00 00      00:00:00.000  READ FPDMA QUEUED
+  60 40 a0 00 b2 0f 00 00      00:00:00.000  READ FPDMA QUEUED
 
 SMART Self-test log structure revision number 1
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]

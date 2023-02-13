@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Oct  6 10:46:07 2020 CEST
+Local Time is:    Tue Oct  6 16:17:25 2020 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -61,12 +61,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    1577
+  9 Power_On_Hours          ------   100   100   000    -    1578
  12 Power_Cycle_Count       ------   100   100   000    -    42
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    151
 163 Initial_Bad_Block_Count ------   100   100   000    -    13
-164 Total_Erase_Count       ------   100   100   000    -    1252780
+164 Total_Erase_Count       ------   100   100   000    -    1252868
 165 Max_Erase_Count         ------   100   100   000    -    658
 166 Min_Erase_Count         ------   100   100   000    -    556
 167 Average_Erase_Count     ------   100   100   000    -    600
@@ -86,9 +86,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    349568
+241 Host_Writes_32MiB       ------   100   100   000    -    349607
 242 Host_Reads_32MiB        ------   100   100   000    -    13276
-245 TLC_Writes_32MiB        ------   100   100   000    -    626390
+245 TLC_Writes_32MiB        ------   100   100   000    -    626434
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -136,11 +136,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4              42  ---  Lifetime Power-On Resets
-0x01  0x010  4            1577  ---  Power-on Hours
-0x01  0x018  6     22909342796  ---  Logical Sectors Written
-0x01  0x020  6       308763222  ---  Number of Write Commands
-0x01  0x028  6       870081835  ---  Logical Sectors Read
-0x01  0x030  6        18433865  ---  Number of Read Commands
+0x01  0x010  4            1578  ---  Power-on Hours
+0x01  0x018  6     22911880700  ---  Logical Sectors Written
+0x01  0x020  6       308806599  ---  Number of Write Commands
+0x01  0x028  6       870082275  ---  Logical Sectors Read
+0x01  0x030  6        18433876  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==

@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p7 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          120,034,123,776 [120 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            010000 ...
-Local Time is:                      Fri Aug 14 14:24:56 2020 CDT
+Local Time is:                      Fri Jan  1 01:02:13 2021 CST
 Firmware Updates (0x06):            3 Slots
 Optional Admin Commands (0x0006):   Format Frmw_DL
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -37,15 +37,15 @@ Critical Warning:                   0x00
 Temperature:                        54 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    1%
-Data Units Read:                    74,111 [37.9 GB]
-Data Units Written:                 8,201,087 [4.19 TB]
-Host Read Commands:                 347,489
-Host Write Commands:                84,082,516
-Controller Busy Time:               166,573,568
-Power Cycles:                       122
-Power On Hours:                     14,189
-Unsafe Shutdowns:                   74
+Percentage Used:                    2%
+Data Units Read:                    198,862 [101 GB]
+Data Units Written:                 11,444,083 [5.85 TB]
+Host Read Commands:                 847,203
+Host Write Commands:                118,182,616
+Controller Busy Time:               264,785,274
+Power Cycles:                       126
+Power On Hours:                     17,526
+Unsafe Shutdowns:                   76
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
@@ -60,7 +60,7 @@ Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
  47 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
  48 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
  49 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
- 50 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
+ 50 738656352708082699     0  0x3ff0  0x3c0a  0xa40 738656318348344368 171981872  0x30
  51 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
  52 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
  53 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
@@ -69,5 +69,5 @@ Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
  56 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
  57 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
  58 4607182419872710656     0  0x3ff0  0x0000 0x3ff0 4607182419872710656 1072693248     -
-... (104 entries not shown)
+... (111 entries not shown)
 

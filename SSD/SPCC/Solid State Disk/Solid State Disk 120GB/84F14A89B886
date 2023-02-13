@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Jul 18 00:21:52 2021 CST
+Local Time is:    Sun Jul 18 00:36:45 2021 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -72,7 +72,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 167 Unknown_Attribute       ------   100   100   050    -    23
 168 Unknown_Attribute       ------   100   100   050    -    3000
 192 Power-Off_Retract_Count ------   100   100   050    -    141
-194 Temperature_Celsius     ------   100   100   050    -    33
+194 Temperature_Celsius     ------   100   100   050    -    32
 195 Hardware_ECC_Recovered  ------   100   100   050    -    909
 196 Reallocated_Event_Count ------   100   100   050    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
@@ -121,10 +121,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4             741  ---  Lifetime Power-On Resets
 0x01  0x010  4             100  ---  Power-on Hours
-0x01  0x018  6      2777364356  ---  Logical Sectors Written
-0x01  0x020  6        39250595  ---  Number of Write Commands
-0x01  0x028  6      2484015295  ---  Logical Sectors Read
-0x01  0x030  6        34107757  ---  Number of Read Commands
+0x01  0x018  6      2777376507  ---  Logical Sectors Written
+0x01  0x020  6        39250914  ---  Number of Write Commands
+0x01  0x028  6      2484017727  ---  Logical Sectors Read
+0x01  0x030  6        34107816  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4          309783  ---  Resets Between Cmd Acceptance and Completion

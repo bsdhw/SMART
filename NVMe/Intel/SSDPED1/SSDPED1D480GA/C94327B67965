@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [MidnightBSD 1.2 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.0.2 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -11,7 +11,7 @@ Controller ID:                      0
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          480,103,981,056 [480 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Thu Jul 30 20:59:29 2020 EDT
+Local Time is:                      Wed Dec 30 15:41:25 2020 EST
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0006):     Wr_Unc DS_Mngmt
@@ -34,14 +34,14 @@ Temperature:                        42 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          0%
 Percentage Used:                    0%
-Data Units Read:                    827,705 [423 GB]
-Data Units Written:                 5,692,122 [2.91 TB]
-Host Read Commands:                 92,665,187
-Host Write Commands:                42,944,583
-Controller Busy Time:               34
-Power Cycles:                       16
-Power On Hours:                     7,176
-Unsafe Shutdowns:                   13
+Data Units Read:                    41,108,898 [21.0 TB]
+Data Units Written:                 9,854,593 [5.04 TB]
+Host Read Commands:                 5,114,434,329
+Host Write Commands:                85,510,393
+Controller Busy Time:               562
+Power Cycles:                       18
+Power On Hours:                     10,844
+Unsafe Shutdowns:                   15
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 

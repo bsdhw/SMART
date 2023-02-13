@@ -12,7 +12,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Mar 16 19:35:37 2021 +07
+Local Time is:    Wed Mar 17 12:49:59 2021 +07
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -48,20 +48,20 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  12 Power_Cycle_Count       ------   100   100   050    -    221
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    139
-162 Unknown_Attribute       ------   100   100   050    -    115
+162 Unknown_Attribute       ------   100   100   050    -    124
 163 Unknown_Attribute       ------   100   100   050    -    1
-164 Unknown_Attribute       ------   100   100   050    -    12227
-165 Unknown_Attribute       ------   100   100   050    -    55
+164 Unknown_Attribute       ------   100   100   050    -    13598
+165 Unknown_Attribute       ------   100   100   050    -    59
 166 Unknown_Attribute       ------   100   100   050    -    0
-167 Unknown_Attribute       ------   100   100   050    -    5
+167 Unknown_Attribute       ------   100   100   050    -    6
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    56 (Min/Max 7/58)
+194 Temperature_Celsius     ------   100   100   000    -    53 (Min/Max 7/58)
 195 Hardware_ECC_Recovered  ------   100   100   050    -    0
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    889
-242 Total_LBAs_Read         ------   100   100   050    -    414
+241 Total_LBAs_Written      ------   100   100   050    -    992
+242 Total_LBAs_Read         ------   100   100   050    -    430
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

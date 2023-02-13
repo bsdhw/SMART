@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Feb 22 11:33:40 2021 UTC
+Local Time is:    Mon Feb 22 17:57:48 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -73,18 +73,18 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 175 Program_Fail_Count_Chip -O--C-   100   100   010    -    0
 187 Reported_Uncorrect      -O--C-   100   100   000    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    26
-194 Temperature_Celsius     PO---K   036   038   000    -    36
+194 Temperature_Celsius     PO---K   035   038   000    -    35
 196 Reallocated_Event_Count -O----   100   100   000    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
-233 Media_Wearout_Indicator PO-R--   100   100   000    -    10518
+233 Media_Wearout_Indicator PO-R--   100   100   000    -    10521
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    7931
+241 Total_LBAs_Written      -O--C-   100   100   000    -    7934
 242 Total_LBAs_Read         -O--C-   100   100   000    -    474
 244 Unknown_Attribute       -O----   100   100   050    -    396
 245 Unknown_Attribute       -O----   100   100   050    -    464
-246 Unknown_Attribute       -O----   100   100   050    -    3437418
+246 Unknown_Attribute       -O----   100   100   050    -    3438216
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

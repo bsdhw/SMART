@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.2/5301
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Apr 16 22:09:05 2022 -03
+Local Time is:    Sat Apr 16 22:12:57 2022 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,12 +63,12 @@ SCT capabilities: 	       (0x0021)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   119   119   050    -    0/221028068
+  1 Raw_Read_Error_Rate     POSR--   119   119   050    -    0/221031881
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   017   017   000    -    73464h+59m+26.060s
+  9 Power_On_Hours_and_Msec -O--CK   017   017   000    -    73465h+03m+18.070s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    255
- 13 Soft_Read_Error_Rate    -O-R--   038   038   000    -    5817976/221028068
-100 Gigabytes_Erased        -O--CK   000   000   000    -    72617
+ 13 Soft_Read_Error_Rate    -O-R--   038   038   000    -    5824897/221031881
+100 Gigabytes_Erased        -O--CK   000   000   000    -    72618
 170 Reserve_Block_Count     -O--CK   000   000   000    -    2592
 171 Program_Fail_Count      -O--CK   000   000   000    -    0
 172 Erase_Fail_Count        -O--CK   000   000   000    -    0
@@ -80,12 +80,12 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 189 Airflow_Temperature_Cel ------   037   053   000    -    37 (Min/Max 15/53)
 194 Temperature_Celsius     -O---K   037   053   000    -    37 (Min/Max 15/53)
-195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/221028068
+195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/221031881
 196 Reallocated_Event_Count PO--CK   100   100   003    -    0
-198 Uncorrectable_Sector_Ct ----C-   119   119   000    -    0/2924260
+198 Uncorrectable_Sector_Ct ----C-   119   119   000    -    0/2928073
 199 SATA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-201 Unc_Soft_Read_Err_Rate  --SRC-   120   120   000    -    0/221028068
-204 Soft_ECC_Correct_Rate   --SRC-   120   120   000    -    0/221028068
+201 Unc_Soft_Read_Err_Rate  --SRC-   120   120   000    -    0/221031881
+204 Soft_ECC_Correct_Rate   --SRC-   120   120   000    -    0/221031881
 230 Life_Curve_Status       PO--C-   100   100   000    -    100
 231 SSD_Life_Left           PO--C-   083   083   010    -    0
 232 Available_Reservd_Space ------   000   000   000    -    10
@@ -145,7 +145,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      ?/ ? Celsius
 Min/Max Temperature Limit:            ?/ ? Celsius
-Temperature History Size (Index):    478 (84)
+Temperature History Size (Index):    478 (86)
 
 SCT Error Recovery Control command not supported
 
@@ -153,9 +153,9 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             255  ---  Lifetime Power-On Resets
-0x01  0x010  4           73464  ---  Power-on Hours
-0x01  0x018  6     50709951267  ---  Logical Sectors Written
-0x01  0x028  6     26088550494  ---  Logical Sectors Read
+0x01  0x010  4           73465  ---  Power-on Hours
+0x01  0x018  6     50710350507  ---  Logical Sectors Written
+0x01  0x028  6     26088554307  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4            3640  ---  Resets Between Cmd Acceptance and Completion

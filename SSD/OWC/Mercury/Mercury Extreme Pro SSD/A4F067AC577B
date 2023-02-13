@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p1 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SandForce Driven SSDs
@@ -10,10 +10,11 @@ Firmware Version: 343A13F0
 User Capacity:    240,057,409,536 bytes [240 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
+TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Nov  2 23:27:23 2020 EST
+Local Time is:    Fri Jun 18 17:04:53 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,25 +65,25 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   100   100   050    -    0/3222070
+  1 Raw_Read_Error_Rate     POSR--   120   120   050    -    0/0
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    15769h+04m+05.480s
- 12 Power_Cycle_Count       -O--CK   098   098   000    -    2854
+  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    15980h+43m+33.390s
+ 12 Power_Cycle_Count       -O--CK   098   098   000    -    2863
 171 Program_Fail_Count      -O--CK   000   000   000    -    0
 172 Erase_Fail_Count        -O--CK   000   000   000    -    0
-174 Unexpect_Power_Loss_Ct  ----CK   000   000   000    -    72
+174 Unexpect_Power_Loss_Ct  ----CK   000   000   000    -    74
 177 Wear_Range_Delta        ------   000   000   000    -    1
 181 Program_Fail_Count      -O--CK   000   000   000    -    0
 182 Erase_Fail_Count        -O--CK   000   000   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 194 Temperature_Celsius     -O---K   001   129   000    -    1 (0 127 0 129 0)
-195 ECC_Uncorr_Error_Count  --SRC-   100   100   000    -    0/3222070
+195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/0
 196 Reallocated_Event_Count PO--CK   100   100   000    -    0
 231 SSD_Life_Left           PO--C-   100   100   010    -    0
-233 SandForce_Internal      ------   000   000   000    -    13440
-234 SandForce_Internal      -O--CK   000   000   000    -    10240
-241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    10240
-242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    14272
+233 SandForce_Internal      ------   000   000   000    -    13504
+234 SandForce_Internal      -O--CK   000   000   000    -    10304
+241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    10304
+242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    14336
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -148,5 +149,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2            8  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           11  Device-to-host register FISes sent due to a COMRESET
 

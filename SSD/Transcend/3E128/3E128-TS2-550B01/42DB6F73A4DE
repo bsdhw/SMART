@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.9] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Nov 16 02:19:29 2020 CST
+Local Time is:    Mon Jun  7 19:21:03 2021 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -54,32 +54,32 @@ SCT capabilities: 	       (0x0025)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x0033   120   120   050    Pre-fail  Always       -       0
+  1 Raw_Read_Error_Rate     0x0033   120   120   050    Pre-fail  Always       -       34359738368
   5 Reallocated_Sector_Ct   0x0033   100   100   003    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   000   000   000    Old_age   Always       -       9611 (215 78 0)
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       219
- 13 Read_Soft_Error_Rate    0x0032   120   120   000    Old_age   Always       -       203096118525952
-100 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       2477
+  9 Power_On_Hours          0x0032   000   000   000    Old_age   Always       -       14251 (200 208 0)
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       245
+ 13 Read_Soft_Error_Rate    0x0032   120   120   000    Old_age   Always       -       253115307655168
+100 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       2547
 170 Unknown_Attribute       0x00ef   000   000   000    Pre-fail  Always       -       35072
 171 Unknown_Attribute       0x000a   000   000   000    Old_age   Always       -       0
 172 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       0
-174 Unknown_Attribute       0x0030   000   000   000    Old_age   Offline      -       225
+174 Unknown_Attribute       0x0030   000   000   000    Old_age   Offline      -       251
 177 Wear_Leveling_Count     0x0000   000   000   000    Old_age   Offline      -       0
 181 Program_Fail_Cnt_Total  0x000a   000   000   000    Old_age   Always       -       0
 182 Erase_Fail_Count_Total  0x0032   000   000   000    Old_age   Always       -       0
 184 End-to-End_Error        0x0000   100   100   090    Old_age   Offline      -       0
 187 Reported_Uncorrect      0x001c   100   100   000    Old_age   Offline      -       0
-194 Temperature_Celsius     0x0022   052   059   000    Old_age   Always       -       52 (Min/Max 16/59)
-195 Hardware_ECC_Recovered  0x001c   100   100   000    Old_age   Offline      -       0
+194 Temperature_Celsius     0x0022   046   059   000    Old_age   Always       -       46 (Min/Max 16/59)
+195 Hardware_ECC_Recovered  0x001c   100   100   000    Old_age   Offline      -       34359738368
 196 Reallocated_Event_Count 0x0033   100   100   003    Pre-fail  Always       -       0
 198 Offline_Uncorrectable   0x0010   120   120   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0004   200   200   000    Old_age   Offline      -       0
-201 Unknown_SSD_Attribute   0x001c   100   100   000    Old_age   Offline      -       0
-204 Soft_ECC_Correction     0x001c   100   100   000    Old_age   Offline      -       0
+201 Unknown_SSD_Attribute   0x001c   100   100   000    Old_age   Offline      -       34359738368
+204 Soft_ECC_Correction     0x001c   100   100   000    Old_age   Offline      -       34359738368
 230 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       100
 231 Temperature_Celsius     0x0013   100   100   010    Pre-fail  Always       -       0
 232 Available_Reservd_Space 0x0032   000   000   000    Old_age   Always       -       34
-233 Media_Wearout_Indicator 0x0032   000   000   000    Old_age   Always       -       2193
+233 Media_Wearout_Indicator 0x0032   000   000   000    Old_age   Always       -       2246
 234 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       9605
 241 Total_LBAs_Written      0x0032   000   000   000    Old_age   Always       -       9605
 242 Total_LBAs_Read         0x0032   000   000   000    Old_age   Always       -       173907

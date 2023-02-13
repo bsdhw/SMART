@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Nov 27 17:08:46 2020 EET
+Local Time is:    Fri Nov 27 17:10:22 2020 EET
 
 ==> WARNING: A firmware update for this drive may be available,
 see the following Seagate web pages:
@@ -63,11 +63,11 @@ SCT capabilities: 	       (0x103f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   104   099   006    Pre-fail  Always       -       6813918
+  1 Raw_Read_Error_Rate     0x000f   104   099   006    Pre-fail  Always       -       6890766
   3 Spin_Up_Time            0x0003   098   097   000    Pre-fail  Always       -       0
   4 Start_Stop_Count        0x0032   097   097   020    Old_age   Always       -       4076
   5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
-  7 Seek_Error_Rate         0x000f   087   060   030    Pre-fail  Always       -       471343673
+  7 Seek_Error_Rate         0x000f   087   060   030    Pre-fail  Always       -       471343879
   9 Power_On_Hours          0x0032   061   061   000    Old_age   Always       -       34446
  10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
  12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1933
@@ -78,13 +78,13 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
 190 Airflow_Temperature_Cel 0x0022   075   054   045    Old_age   Always       -       25 (Min/Max 24/25)
 194 Temperature_Celsius     0x0022   025   046   000    Old_age   Always       -       25 (0 12 0 0 0)
-195 Hardware_ECC_Recovered  0x001a   059   037   000    Old_age   Always       -       6813918
+195 Hardware_ECC_Recovered  0x001a   058   037   000    Old_age   Always       -       6890766
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
-240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       39374 (159 70 0)
-241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       2832386058
-242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       4127762596
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       39374 (21 111 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       2832391506
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       4127770951
 
 SMART Error Log Version: 1
 No Errors Logged

@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Sep 29 14:43:52 2021 UTC
+Local Time is:    Wed Sep 29 15:09:37 2021 UTC
 
 ==> WARNING: Using smartmontools or hdparm with this
 drive may result in data loss due to a firmware bug.
@@ -153,7 +153,7 @@ Temperature Sampling Period:         5 minutes
 Temperature Logging Interval:        5 minutes
 Min/Max recommended Temperature:     -5/80 Celsius
 Min/Max Temperature Limit:           -10/85 Celsius
-Temperature History Size (Index):    128 (105)
+Temperature History Size (Index):    128 (110)
 
 SCT Error Recovery Control:
            Read: Disabled

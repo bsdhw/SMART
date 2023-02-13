@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     INTEL SSDSC2BF180A4L
@@ -9,10 +9,11 @@ Firmware Version: LSTi
 User Capacity:    180,045,766,656 bytes [180 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
-Device is:        Not in smartctl database [for details use: -P showall]
+TRIM Command:     Available, deterministic
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon May  3 02:58:56 2021 CEST
+Local Time is:    Sat Mar 19 06:51:42 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,27 +58,27 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       4111 (0 68 0)
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       600
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       8569 (168 142 0)
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       606
 170 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       0
 171 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
-174 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       4
+174 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       5
 183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error        0x0033   100   100   097    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   043   057   000    Old_age   Always       -       43 (Min/Max 21/57)
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       4
+190 Airflow_Temperature_Cel 0x0032   045   057   000    Old_age   Always       -       45 (Min/Max 21/57)
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       5
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
-225 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       217718
+225 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       233598
 226 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       65535
-227 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       70
+227 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       68
 228 Power-off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       65535
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
-233 Media_Wearout_Indicator 0x0032   093   093   000    Old_age   Always       -       0
-241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       217718
-242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       508805
-249 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       45312
+233 Media_Wearout_Indicator 0x0032   090   090   000    Old_age   Always       -       0
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       233598
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       514419
+249 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       57250
 
 SMART Error Log not supported
 

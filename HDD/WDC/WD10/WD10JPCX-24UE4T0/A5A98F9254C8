@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     WDC WD10JPCX-24UE4T0
@@ -9,10 +9,10 @@ Firmware Version: 01.01A01
 User Capacity:    1,000,204,886,016 bytes [1.00 TB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    5400 rpm
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 19 12:31:28 2020 CEST
+Local Time is:    Sun Jan  8 19:59:44 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,23 +58,23 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0027   182   178   021    Pre-fail  Always       -       1875
-  4 Start_Stop_Count        0x0032   001   001   000    Old_age   Always       -       148794
+  3 Spin_Up_Time            0x0027   181   178   021    Pre-fail  Always       -       1916
+  4 Start_Stop_Count        0x0032   001   001   000    Old_age   Always       -       190434
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002f   200   200   051    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   090   090   000    Old_age   Always       -       8027
+  9 Power_On_Hours          0x0032   086   086   000    Old_age   Always       -       10446
  10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   098   098   000    Old_age   Always       -       2423
-192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       103
-193 Load_Cycle_Count        0x0032   123   123   000    Old_age   Always       -       231767
-194 Temperature_Celsius     0x0022   123   101   000    Old_age   Always       -       24
+ 12 Power_Cycle_Count       0x0032   097   097   000    Old_age   Always       -       3189
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       133
+193 Load_Cycle_Count        0x0032   109   109   000    Old_age   Always       -       275132
+194 Temperature_Celsius     0x0022   128   101   000    Old_age   Always       -       19
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
 200 Multi_Zone_Error_Rate   0x0008   200   200   000    Old_age   Offline      -       0
-240 Head_Flying_Hours       0x0032   096   096   000    Old_age   Always       -       3059
+240 Head_Flying_Hours       0x0032   096   096   000    Old_age   Always       -       3383
 
 SMART Error Log Version: 1
 No Errors Logged

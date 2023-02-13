@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Feb 11 03:39:22 2021 CET
+Local Time is:    Thu Feb 11 03:39:49 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -53,7 +53,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  -O--C-   100   100   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    2
-194 Temperature_Celsius     PO---K   046   045   000    -    54 (Min/Max 18/55)
+194 Temperature_Celsius     PO---K   047   045   000    -    53 (Min/Max 18/55)
 196 Reallocated_Event_Count ------   100   100   000    -    0
 218 Unknown_Attribute       ------   100   100   000    -    0
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    100
@@ -101,12 +101,12 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              11  ---  Lifetime Power-On Resets
 0x01  0x010  4              37  ---  Power-on Hours
-0x01  0x018  6       137524245  ---  Logical Sectors Written
-0x01  0x028  6        94914587  ---  Logical Sectors Read
+0x01  0x018  6       137530541  ---  Logical Sectors Written
+0x01  0x028  6        94918227  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              54  ---  Current Temperature
+0x05  0x008  1              53  ---  Current Temperature
 0x05  0x020  1              55  ---  Highest Temperature
 0x05  0x028  1              18  ---  Lowest Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==

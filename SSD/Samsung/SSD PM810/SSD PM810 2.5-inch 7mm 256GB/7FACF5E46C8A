@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Nov 12 11:53:51 2021 GMT
+Local Time is:    Wed Nov 17 13:34:32 2021 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -59,25 +59,25 @@ recommended polling time: 	 (  28) minutes.
 SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  5 Reallocated_Sector_Ct   PO--CK   092   092   ---    -    498
-  9 Power_On_Hours          -O--CK   092   092   ---    -    38486
- 12 Power_Cycle_Count       -O--CK   097   097   ---    -    2456
+  5 Reallocated_Sector_Ct   PO--CK   092   092   ---    -    499
+  9 Power_On_Hours          -O--CK   092   092   ---    -    38611
+ 12 Power_Cycle_Count       -O--CK   097   097   ---    -    2458
 175 Program_Fail_Count_Chip -O--CK   091   091   ---    -    335
 176 Erase_Fail_Count_Chip   -O--CK   100   100   ---    -    0
 177 Wear_Leveling_Count     PO--C-   080   080   ---    -    591
 178 Used_Rsvd_Blk_Cnt_Chip  PO--C-   066   066   ---    -    1358
-179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   069   069   ---    -    2470
-180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   069   069   ---    -    5594
-181 Program_Fail_Cnt_Total  -O--CK   093   093   ---    -    498
+179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   069   069   ---    -    2472
+180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   069   069   ---    -    5592
+181 Program_Fail_Cnt_Total  -O--CK   093   093   ---    -    499
 182 Erase_Fail_Count_Total  -O--CK   100   100   ---    -    0
-183 Runtime_Bad_Block       PO--C-   093   093   ---    -    498
+183 Runtime_Bad_Block       PO--C-   093   093   ---    -    499
 187 Uncorrectable_Error_Cnt -O--CK   066   066   ---    -    33731
 195 ECC_Error_Rate          -O-RC-   001   001   ---    -    33731
 198 Offline_Uncorrectable   ----CK   100   100   ---    -    0
 199 CRC_Error_Count         -OSRCK   253   253   ---    -    0
 232 Available_Reservd_Space PO--C-   066   066   ---    -    2674
-241 Total_LBAs_Written      -O--CK   037   037   ---    -    2701708247
-242 Total_LBAs_Read         -O--CK   030   030   ---    -    3010305007
+241 Total_LBAs_Written      -O--CK   034   034   ---    -    2828280031
+242 Total_LBAs_Read         -O--CK   030   030   ---    -    3016136349
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -220,8 +220,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2            6  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            2  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            2  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

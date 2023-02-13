@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Mar 14 21:11:07 2021 UTC
+Local Time is:    Sun Mar 14 21:18:54 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -77,7 +77,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    109951162777700
 232 Available_Reservd_Space PO--C-   100   100   000    -    249108103168
 233 Media_Wearout_Indicator PO-R--   100   100   000    -    22
-235 Unknown_Attribute       PO-R--   100   100   000    -    48188000
+235 Unknown_Attribute       PO-R--   100   100   000    -    48207872
 241 Total_LBAs_Written      -O--C-   100   100   000    -    15
 242 Total_LBAs_Read         -O--C-   100   100   000    -    0
                             ||||||_ K auto-keep
@@ -127,8 +127,8 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4               6  ---  Lifetime Power-On Resets
 0x01  0x010  4             240  ---  Power-on Hours
-0x01  0x018  6        33355662  ---  Logical Sectors Written
-0x01  0x020  6          401070  ---  Number of Write Commands
+0x01  0x018  6        33368654  ---  Logical Sectors Written
+0x01  0x020  6          401289  ---  Number of Write Commands
 0x01  0x028  6          696661  ---  Logical Sectors Read
 0x01  0x030  6           29081  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==

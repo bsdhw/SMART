@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Jul  4 12:39:38 2022 CDT
+Local Time is:    Mon Jul  4 12:41:09 2022 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,11 +68,11 @@ SCT capabilities: 	       (0x50bd)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   072   064   044    -    16321978
+  1 Raw_Read_Error_Rate     POSR--   072   064   044    -    16335043
   3 Spin_Up_Time            PO----   091   088   000    -    0
   4 Start_Stop_Count        -O--CK   099   099   020    -    1281
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   083   060   045    -    192032730
+  7 Seek_Error_Rate         POSR--   083   060   045    -    192032817
   9 Power_On_Hours          -O--CK   079   079   000    -    19002
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   100   020    -    37
@@ -87,9 +87,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    44
 200 Pressure_Limit          PO---K   100   100   001    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    11445h+28m+17.645s
+240 Head_Flying_Hours       ------   100   253   000    -    11445h+29m+48.807s
 241 Total_LBAs_Written      ------   100   253   000    -    211655323665
-242 Total_LBAs_Read         ------   100   253   000    -    1136623986680
+242 Total_LBAs_Read         ------   100   253   000    -    1136623999745
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -166,7 +166,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    48 Celsius
+Current Temperature:                    47 Celsius
 Power Cycle Min/Max Temperature:     32/49 Celsius
 Lifetime    Min/Max Temperature:     21/56 Celsius
 Under/Over Temperature Limit Count:   0/113
@@ -192,8 +192,8 @@ Page  Offset Size        Value Flags Description
 0x01  0x010  4           19002  ---  Power-on Hours
 0x01  0x018  6    211650350209  ---  Logical Sectors Written
 0x01  0x020  6       584632686  ---  Number of Write Commands
-0x01  0x028  6   1136581696152  ---  Logical Sectors Read
-0x01  0x030  6      2436646792  ---  Number of Read Commands
+0x01  0x028  6   1136581709217  ---  Logical Sectors Read
+0x01  0x030  6      2436646904  ---  Number of Read Commands
 0x01  0x038  6               -  ---  Date and Time TimeStamp
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
 0x03  0x008  4           18916  ---  Spindle Motor Power-on Hours
@@ -209,7 +209,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4           12897  ---  Resets Between Cmd Acceptance and Completion
 0x04  0x018  4               0  -D-  Physical Element Status Changed
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              48  ---  Current Temperature
+0x05  0x008  1              47  ---  Current Temperature
 0x05  0x010  1              43  ---  Average Short Term Temperature
 0x05  0x018  1              40  ---  Average Long Term Temperature
 0x05  0x020  1              56  ---  Highest Temperature

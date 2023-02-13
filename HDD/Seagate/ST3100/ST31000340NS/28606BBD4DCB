@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p15-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p18-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Apr  5 17:32:13 2021 MDT
+Local Time is:    Tue Jul  6 10:27:39 2021 MDT
 
 ==> WARNING: There are known problems with these drives,
 see the following Seagate web pages:
@@ -70,21 +70,21 @@ SCT capabilities: 	       (0x103d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   082   063   044    -    194279538
+  1 Raw_Read_Error_Rate     POSR--   081   063   044    -    163489102
   3 Spin_Up_Time            PO----   099   099   000    -    0
-  4 Start_Stop_Count        -O--CK   100   100   020    -    143
+  4 Start_Stop_Count        -O--CK   100   100   020    -    144
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    11
-  7 Seek_Error_Rate         POSR--   073   060   030    -    362492471608
-  9 Power_On_Hours          -O--CK   021   021   000    -    69763
+  7 Seek_Error_Rate         POSR--   073   060   030    -    366890886472
+  9 Power_On_Hours          -O--CK   018   018   000    -    71964
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   100   037   020    -    143
+ 12 Power_Cycle_Count       -O--CK   100   037   020    -    144
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    3
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   056   054   045    -    44 (Min/Max 43/45)
-194 Temperature_Celsius     -O---K   044   047   000    -    44 (0 13 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   041   029   000    -    194279538
+190 Airflow_Temperature_Cel -O---K   057   051   045    -    43 (Min/Max 38/49)
+194 Temperature_Celsius     -O---K   043   049   000    -    43 (0 13 0 0 0)
+195 Hardware_ECC_Recovered  -O-RC-   029   029   000    -    163489102
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    7
@@ -145,16 +145,16 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
 Current Temperature:                    44 Celsius
-Power Cycle Min/Max Temperature:     43/44 Celsius
-Lifetime    Min/Max Temperature:     13/46 Celsius
-Under/Over Temperature Limit Count:   0/17
+Power Cycle Min/Max Temperature:     37/49 Celsius
+Lifetime    Min/Max Temperature:     13/49 Celsius
+Under/Over Temperature Limit Count:   0/8793
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/ 0 Celsius
 Min/Max Temperature Limit:            0/ 0 Celsius
-Temperature History Size (Index):    128 (92)
+Temperature History Size (Index):    128 (114)
 
 SCT Error Recovery Control:
            Read:    100 (10.0 seconds)

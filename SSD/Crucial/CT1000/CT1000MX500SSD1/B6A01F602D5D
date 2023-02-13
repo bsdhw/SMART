@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Oct 31 13:51:12 2020 EDT
+Local Time is:    Sat Oct 31 13:56:09 2020 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -81,7 +81,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
 246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       727946742
 247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       7635895
-248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       6705463
+248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       6705469
 
 SMART Error Log Version: 1
 No Errors Logged

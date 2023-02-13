@@ -10,7 +10,7 @@ User Capacity:    160,041,885,696 bytes [160 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Wed Nov 10 14:48:01 2021 CET
+Local Time is:    Wed Nov 10 16:11:54 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     254 (maximum performance), recommended: 128
@@ -26,8 +26,8 @@ SMART overall-health self-assessment test result: PASSED
 See vendor-specific Attribute list for marginal Attributes.
 
 General SMART Values:
-Offline data collection status:  (0x84)	Offline data collection activity
-					was suspended by an interrupting command from host.
+Offline data collection status:  (0x85)	Offline data collection activity
+					was aborted by an interrupting command from host.
 					Auto Offline Data Collection: Enabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -67,12 +67,12 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   4 Start_Stop_Count        -O--CK   097   097   000    -    3879
   5 Reallocated_Sector_Ct   PO--CK   199   199   140    -    4
   7 Seek_Error_Rate         POSR--   200   200   051    -    0
-  9 Power_On_Hours          -O--CK   071   071   000    -    21829
+  9 Power_On_Hours          -O--CK   071   071   000    -    21830
  10 Spin_Retry_Count        PO--C-   100   100   051    -    0
  11 Calibration_Retry_Count -O--C-   100   100   051    -    0
  12 Power_Cycle_Count       -O--CK   097   097   000    -    3866
-190 Airflow_Temperature_Cel -O---K   061   045   045    Past 39
-194 Temperature_Celsius     -O---K   108   092   000    -    39
+190 Airflow_Temperature_Cel -O---K   059   045   045    Past 41
+194 Temperature_Celsius     -O---K   106   092   000    -    41
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--C-   200   200   000    -    0
 198 Offline_Uncorrectable   ----C-   200   200   000    -    0
@@ -153,7 +153,11 @@ Error 1 [0] occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
   00 00 00 00 c7 00 f1 02 97 25 00 00 00     00:00:50.944  NOP [Abort queued commands]
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Extended offline    Completed without error       00%     21830         -
+# 2  Extended offline    Aborted by host               90%     21829         -
+# 3  Short offline       Completed without error       00%     21829         -
+# 4  Short offline       Completed without error       00%     21829         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -168,9 +172,9 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 SCT Status Version:                  2
 SCT Version (vendor specific):       258 (0x0102)
-Device State:                        SMART Off-line Data Collection executing in background (4)
+Device State:                        Active (0)
 Current Temperature:                     ? Celsius
-Power Cycle Min/Max Temperature:     --/40 Celsius
+Power Cycle Min/Max Temperature:     --/43 Celsius
 Lifetime    Min/Max Temperature:     --/55 Celsius
 
 SCT Temperature History Version:     2
@@ -192,5 +196,5 @@ SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
 0x000a  2           10  Device-to-host register FISes sent due to a COMRESET
-0x8000  4         7471  Vendor specific
+0x8000  4        12499  Vendor specific
 

@@ -1,7 +1,8 @@
-smartctl 6.6 2017-11-05 r4594 [MidnightBSD 1.2 amd64] (local build)
-Copyright (C) 2002-17, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.1 2019-12-30 r5022 [MidnightBSD 1.2 amd64] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
+Model Family:     Western Digital Red
 Device Model:     WDC WD60EFAX-68SHWN0
 Serial Number:    --
 LU WWN Device Id: 5 0014ee ...
@@ -10,10 +11,10 @@ User Capacity:    6,001,175,126,016 bytes [6.00 TB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    5400 rpm
 Form Factor:      3.5 inches
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri May 22 12:06:38 2020 EDT
+Local Time is:    Thu Jul 30 20:59:29 2020 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -28,7 +29,7 @@ Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
 					been run.
 Total time to complete Offline 
-data collection: 		(21360) seconds.
+data collection: 		(27840) seconds.
 Offline data collection
 capabilities: 			 (0x7b) SMART execute Offline immediate.
 					Auto Offline data collection on/off support.
@@ -58,17 +59,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0027   226   226   021    Pre-fail  Always       -       3691
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       9
+  3 Spin_Up_Time            0x0027   226   226   021    Pre-fail  Always       -       3675
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       10
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   095   095   000    Old_age   Always       -       3683
+  9 Power_On_Hours          0x0032   093   093   000    Old_age   Always       -       5347
  10 Spin_Retry_Count        0x0032   100   253   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   253   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       9
-192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       5
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       10
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       6
 193 Load_Cycle_Count        0x0032   200   200   000    Old_age   Always       -       3
-194 Temperature_Celsius     0x0022   114   113   000    Old_age   Always       -       36
+194 Temperature_Celsius     0x0022   116   109   000    Old_age   Always       -       34
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
@@ -91,4 +92,6 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
 

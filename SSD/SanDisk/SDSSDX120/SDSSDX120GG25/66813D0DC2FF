@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SandForce Driven SSDs
@@ -12,10 +12,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Mar 25 16:08:15 2022 AEDT
+Local Time is:    Mon Mar 28 18:51:39 2022 AEDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,16 +66,16 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   120   120   050    -    0/0
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   056   056   000    -    39363h+12m+41.190s
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    199
+  9 Power_On_Hours_and_Msec -O--CK   055   055   000    -    39422h+33m+26.430s
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    200
 171 Program_Fail_Count      -O--CK   000   000   000    -    0
 172 Erase_Fail_Count        -O--CK   000   000   000    -    0
-174 Unexpect_Power_Loss_Ct  ----CK   000   000   000    -    181
+174 Unexpect_Power_Loss_Ct  ----CK   000   000   000    -    182
 177 Wear_Range_Delta        ------   000   000   000    -    11
 181 Program_Fail_Count      -O--CK   000   000   000    -    0
 182 Erase_Fail_Count        -O--CK   000   000   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   042   050   000    -    42 (Min/Max 10/50)
+194 Temperature_Celsius     -O---K   040   050   000    -    40 (Min/Max 10/50)
 195 ECC_Uncorr_Error_Count  --SRC-   100   100   000    -    0/0
 196 Reallocated_Event_Count PO--CK   100   100   003    -    0
 201 Unc_Soft_Read_Err_Rate  --SRC-   100   100   000    -    0/0
@@ -128,8 +128,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
-Current Temperature:                    42 Celsius
-Power Cycle Min/Max Temperature:     40/42 Celsius
+Current Temperature:                    40 Celsius
+Power Cycle Min/Max Temperature:     40/40 Celsius
 Lifetime    Min/Max Temperature:     10/50 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -155,8 +155,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2           12  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           13  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            2  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            3  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

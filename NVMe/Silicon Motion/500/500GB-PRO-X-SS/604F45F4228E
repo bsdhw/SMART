@@ -13,7 +13,7 @@ Controller ID:                      1
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Wed Dec  9 21:56:55 2020 EST
+Local Time is:                      Wed Dec  9 22:40:46 2020 EST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0006):   Format Frmw_DL
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -34,18 +34,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        33 Celsius
+Temperature:                        32 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    2,548 [1.30 GB]
-Data Units Written:                 59,701 [30.5 GB]
-Host Read Commands:                 746,409
-Host Write Commands:                980,679
+Data Units Read:                    3,819 [1.95 GB]
+Data Units Written:                 60,884 [31.1 GB]
+Host Read Commands:                 870,234
+Host Write Commands:                1,015,006
 Controller Busy Time:               10
-Power Cycles:                       4
-Power On Hours:                     2
-Unsafe Shutdowns:                   2
+Power Cycles:                       5
+Power On Hours:                     3
+Unsafe Shutdowns:                   3
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Sep 24 10:19:06 2021 IDT
+Local Time is:    Fri Sep 24 10:28:44 2021 IDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,7 +61,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   166   166   006    -    0
   5 Retired_Block_Count     -O--CK   253   253   036    -    0
-  9 Power_On_Hours          -O--CK   066   066   000    -    30406
+  9 Power_On_Hours          -O--CK   066   066   000    -    30407
  12 Power_Cycle_Count       -O--CK   100   100   020    -    1690
 100 Total_Erase_Count       -O--CK   100   100   000    -    4488777
 171 Program_Fail_Count      -O--CK   253   253   000    -    0
@@ -79,14 +79,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   253   253   000    -    0
 188 Command_Timeout         -O--CK   253   253   000    -    0
 191 Unknown_SSD_Attribute   -O--CK   253   253   000    -    0
-194 Temperature_Celsius     -O----   032   000   000    -    32 (Min/Max 18/55)
+194 Temperature_Celsius     -O----   030   000   000    -    30 (Min/Max 18/55)
 195 Hardware_ECC_Recovered  -O--CK   253   253   000    -    0
 201 Percent_Lifetime_Remain -OSR--   100   100   000    -    0
 204 Soft_ECC_Correction     -OSR--   100   100   000    -    7
 231 SSD_Life_Left           PO--CK   253   253   010    -    0
-234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    18055
+234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    18057
 238 Unknown_Attribute       -O--CK   002   001   000    -    99
-241 Total_Writes_GiB        -O--CK   100   100   000    -    5858
+241 Total_Writes_GiB        -O--CK   100   100   000    -    5859
 242 Total_Reads_GiB         -O--CK   100   100   000    -    1038
 250 Read_Retry_Count        -O--CK   100   100   000    -    189
                             ||||||_ K auto-keep

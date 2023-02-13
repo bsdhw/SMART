@@ -9,7 +9,7 @@ User Capacity:    15,103,033,344 bytes [15.1 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA/ATAPI-5 (minor revision not indicated)
-Local Time is:    Wed Oct 21 19:54:19 2020 +10
+Local Time is:    Wed Oct 21 19:57:47 2020 +10
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -62,8 +62,8 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 222 Loaded_Hours            0x0032   093   093   050    Old_age   Always       -       2977
 223 Load_Retry_Count        0x0032   100   100   050    Old_age   Always       -       0
 224 Load_Friction           0x0022   100   100   050    Old_age   Always       -       0
-225 Load_Cycle_Count        0x0032   057   057   070    Old_age   Always   FAILING_NOW 433643
-226 Load-in_Time            0x0026   100   100   001    Old_age   Always       -       385
+225 Load_Cycle_Count        0x0032   057   057   070    Old_age   Always   FAILING_NOW 433651
+226 Load-in_Time            0x0026   100   100   001    Old_age   Always       -       381
 228 Power-off_Retract_Count 0x0032   100   100   060    Old_age   Always       -       323
 240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       3
 

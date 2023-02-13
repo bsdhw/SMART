@@ -10,7 +10,7 @@ User Capacity:    40,007,761,920 bytes [40.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-6 T13/1410D revision 3a
-Local Time is:    Wed Dec 30 00:10:09 2020 CET
+Local Time is:    Sat Jan  2 11:24:36 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -18,8 +18,8 @@ SMART support is: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x82)	Offline data collection activity
-					was completed without error.
+Offline data collection status:  (0x85)	Offline data collection activity
+					was aborted by an interrupting command from host.
 					Auto Offline Data Collection: Enabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -49,19 +49,19 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   062    Pre-fail  Always       -       0
-  2 Throughput_Performance  0x0005   106   106   040    Pre-fail  Offline      -       4557
-  3 Spin_Up_Time            0x0007   208   208   033    Pre-fail  Always       -       1
-  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       505
+  2 Throughput_Performance  0x0005   100   100   040    Pre-fail  Offline      -       340
+  3 Spin_Up_Time            0x0007   215   215   033    Pre-fail  Always       -       1
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       525
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
-  8 Seek_Time_Performance   0x0005   118   118   040    Pre-fail  Offline      -       41
-  9 Power_On_Hours          0x0012   099   099   000    Old_age   Always       -       808
+  8 Seek_Time_Performance   0x0005   100   100   040    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0012   099   099   000    Old_age   Always       -       840
  10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       316
-191 G-Sense_Error_Rate      0x000a   099   099   000    Old_age   Always       -       2
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       29
-193 Load_Cycle_Count        0x0012   098   098   000    Old_age   Always       -       21140
-194 Temperature_Celsius     0x0002   203   203   000    Old_age   Always       -       27 (Min/Max 9/49)
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       328
+191 G-Sense_Error_Rate      0x000a   098   098   000    Old_age   Always       -       131074
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       33
+193 Load_Cycle_Count        0x0012   098   098   000    Old_age   Always       -       22841
+194 Temperature_Celsius     0x0002   177   177   000    Old_age   Always       -       31 (Min/Max 9/49)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       1
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0

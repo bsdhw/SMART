@@ -13,7 +13,7 @@ Rotation Rate:    5900 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Dec 18 08:02:58 2020 EST
+Local Time is:    Fri Dec 18 08:07:17 2020 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -86,7 +86,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    55833 (110 235 0)
+240 Head_Flying_Hours       ------   100   253   000    -    55833 (98 22 0)
 241 Total_LBAs_Written      ------   100   253   000    -    523974993
 242 Total_LBAs_Read         ------   100   253   000    -    2940132647
                             ||||||_ K auto-keep

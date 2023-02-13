@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Dec 15 22:12:33 2020 PST
+Local Time is:    Tue Dec 15 22:21:40 2020 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -75,8 +75,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  12 Power_Cycle_Count       -O--CK   100   100   000    -    3967
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    52681
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    178
-193 Load_Cycle_Count        -O--CK   073   073   000    -    277578
-194 Temperature_Celsius     -O---K   100   100   000    -    48 (Min/Max 20/54)
+193 Load_Cycle_Count        -O--CK   073   073   000    -    277584
+194 Temperature_Celsius     -O---K   100   100   000    -    46 (Min/Max 20/54)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
@@ -85,7 +85,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 222 Loaded_Hours            -O--CK   079   079   000    -    8507
 223 Load_Retry_Count        -O--CK   100   100   000    -    0
 224 Load_Friction           -O---K   100   100   000    -    0
-226 Load-in_Time            -OS--K   100   100   000    -    260
+226 Load-in_Time            -OS--K   100   100   000    -    257
 240 Head_Flying_Hours       P-----   100   100   001    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -281,7 +281,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    48 Celsius
+Current Temperature:                    46 Celsius
 Power Cycle Min/Max Temperature:     32/48 Celsius
 Lifetime    Min/Max Temperature:     20/54 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -291,7 +291,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/55 Celsius
 Min/Max Temperature Limit:            5/55 Celsius
-Temperature History Size (Index):    478 (105)
+Temperature History Size (Index):    478 (114)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -302,16 +302,16 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4            3967  ---  Lifetime Power-On Resets
 0x01  0x010  4            9719  ---  Power-on Hours
-0x01  0x018  6     41270373490  ---  Logical Sectors Written
-0x01  0x020  6       521421695  ---  Number of Write Commands
-0x01  0x028  6     51195943855  ---  Logical Sectors Read
-0x01  0x030  6       743990033  ---  Number of Read Commands
+0x01  0x018  6     41271909209  ---  Logical Sectors Written
+0x01  0x020  6       521440940  ---  Number of Write Commands
+0x01  0x028  6     51196117351  ---  Logical Sectors Read
+0x01  0x030  6       743992935  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (rev 1) ==
 0x02  0x010  4           52681  ---  Overlimit Shock Events
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
 0x03  0x008  4            7711  ---  Spindle Motor Power-on Hours
 0x03  0x010  4            8507  ---  Head Flying Hours
-0x03  0x018  4          277578  ---  Head Load Events
+0x03  0x018  4          277584  ---  Head Load Events
 0x03  0x020  4             184  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4             114  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures
@@ -319,7 +319,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x008  4           10780  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              48  ---  Current Temperature
+0x05  0x008  1              46  ---  Current Temperature
 0x05  0x010  1              43  N--  Average Short Term Temperature
 0x05  0x018  1              40  N--  Average Long Term Temperature
 0x05  0x020  1              54  ---  Highest Temperature
