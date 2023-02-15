@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Nov 23 20:18:12 2021 CET
+Local Time is:    Thu Jan 20 19:24:46 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,30 +58,30 @@ SCT capabilities: 	       (0x0025)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x0032   095   095   050    Old_age   Always       -       0/83330542
+  1 Raw_Read_Error_Rate     0x0032   120   120   050    Old_age   Always       -       0/0
   5 Retired_Block_Count     0x0033   100   100   003    Pre-fail  Always       -       0
-  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       246h+35m+07.040s
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       30
+  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       182h+33m+09.130s
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       22
 171 Program_Fail_Count      0x000a   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-174 Unexpect_Power_Loss_Ct  0x0030   000   000   000    Old_age   Offline      -       10
+174 Unexpect_Power_Loss_Ct  0x0030   000   000   000    Old_age   Offline      -       0
 177 Wear_Range_Delta        0x0000   000   000   000    Old_age   Offline      -       0
 181 Program_Fail_Count      0x000a   100   100   000    Old_age   Always       -       0
 182 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0012   100   100   000    Old_age   Always       -       0
-189 Airflow_Temperature_Cel 0x0000   030   043   000    Old_age   Offline      -       30 (Min/Max 19/43)
-194 Temperature_Celsius     0x0022   030   043   000    Old_age   Always       -       30 (Min/Max 19/43)
-195 ECC_Uncorr_Error_Count  0x001c   120   120   000    Old_age   Offline      -       0/83330542
+189 Airflow_Temperature_Cel 0x0000   029   047   000    Old_age   Offline      -       29 (Min/Max 19/47)
+194 Temperature_Celsius     0x0022   029   047   000    Old_age   Always       -       29 (Min/Max 19/47)
+195 ECC_Uncorr_Error_Count  0x001c   120   120   000    Old_age   Offline      -       0/0
 196 Reallocated_Event_Count 0x0033   100   100   003    Pre-fail  Always       -       0
-201 Unc_Soft_Read_Err_Rate  0x001c   120   120   000    Old_age   Offline      -       0/83330542
-204 Soft_ECC_Correct_Rate   0x001c   120   120   000    Old_age   Offline      -       0/83330542
+201 Unc_Soft_Read_Err_Rate  0x001c   120   120   000    Old_age   Offline      -       0/0
+204 Soft_ECC_Correct_Rate   0x001c   120   120   000    Old_age   Offline      -       0/0
 230 Life_Curve_Status       0x0013   100   100   000    Pre-fail  Always       -       100
 231 SSD_Life_Left           0x0000   092   092   011    Old_age   Offline      -       17179869185
-233 SandForce_Internal      0x0032   000   000   000    Old_age   Always       -       4998
-234 SandForce_Internal      0x0032   000   000   000    Old_age   Always       -       1035
-241 Lifetime_Writes_GiB     0x0032   000   000   000    Old_age   Always       -       1035
-242 Lifetime_Reads_GiB      0x0032   000   000   000    Old_age   Always       -       1504
-244 Unknown_Attribute       0x0000   091   091   010    Old_age   Offline      -       17694990
+233 SandForce_Internal      0x0032   000   000   000    Old_age   Always       -       4294962339
+234 SandForce_Internal      0x0032   000   000   000    Old_age   Always       -       223
+241 Lifetime_Writes_GiB     0x0032   000   000   000    Old_age   Always       -       223
+242 Lifetime_Reads_GiB      0x0032   000   000   000    Old_age   Always       -       603
+244 Unknown_Attribute       0x0000   091   091   010    Old_age   Offline      -       17826064
 
 SMART Error Log not supported
 

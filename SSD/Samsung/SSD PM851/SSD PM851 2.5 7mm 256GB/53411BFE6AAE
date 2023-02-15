@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Aug 15 07:14:54 2021 CDT
+Local Time is:    Thu Aug 26 02:18:14 2021 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,7 +64,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
- 12 Power_Cycle_Count       -O--CK   098   098   000    -    1254
+ 12 Power_Cycle_Count       -O--CK   098   098   000    -    1258
 175 Program_Fail_Count_Chip -O--CK   100   100   010    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   010    -    0
 177 Wear_Leveling_Count     PO--C-   094   094   005    -    71
@@ -75,8 +75,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count_Total  -O--CK   100   100   010    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 195 Hardware_ECC_Recovered  -O-RC-   200   200   000    -    0
-241 Total_LBAs_Written      -O--CK   099   099   000    -    25771208270
-242 Total_LBAs_Read         -O--CK   099   099   000    -    25923068694
+241 Total_LBAs_Written      -O--CK   099   099   000    -    25850547694
+242 Total_LBAs_Read         -O--CK   099   099   000    -    25935687130
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -125,14 +125,14 @@ Device State:                        Active (0)
 Current Temperature:                    38 Celsius
 Power Cycle Min/Max Temperature:      ?/ ? Celsius
 Lifetime    Min/Max Temperature:      ?/ ? Celsius
-Under/Over Temperature Limit Count:   0/212412
+Under/Over Temperature Limit Count:   0/213973
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      ?/ ? Celsius
 Min/Max Temperature Limit:            ?/ ? Celsius
-Temperature History Size (Index):    128 (119)
+Temperature History Size (Index):    128 (9)
 
 SCT Error Recovery Control:
            Read: Disabled

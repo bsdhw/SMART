@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     KINGSTON SMS100S264G
@@ -10,10 +10,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      < 1.8 inches
 TRIM Command:     Available
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Aug  9 20:36:16 2021 CEST
+Local Time is:    Mon Jun 27 18:07:54 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -59,12 +59,12 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    13724
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    1481
+  9 Power_On_Hours          -O--C-   100   100   000    -    20000
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    1565
 168 Unknown_Attribute       -O--C-   100   100   000    -    269
 170 Unknown_Attribute       PO----   100   100   010    -    155
-173 Unknown_Attribute       -O--C-   100   100   000    -    72426388
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    167
+173 Unknown_Attribute       -O--C-   100   100   000    -    135735075
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    187
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count

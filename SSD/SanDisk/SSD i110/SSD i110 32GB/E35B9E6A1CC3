@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p7-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p7-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sat May 22 13:33:31 2021 CEST
+Local Time is:    Wed May 11 18:43:54 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,18 +60,18 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O----   100   100   000    -    0
-  9 Power_On_Hours          -O----   100   100   000    -    34461
- 12 Power_Cycle_Count       -O----   100   100   000    -    12
+  9 Power_On_Hours          -O----   100   100   000    -    42946
+ 12 Power_Cycle_Count       -O----   100   100   000    -    18
 171 Unknown_Attribute       -O----   100   100   000    -    0
 172 Unknown_Attribute       -O----   100   100   000    -    0
 173 Unknown_Attribute       -O----   100   100   000    -    3574
-174 Unknown_Attribute       -O----   100   100   000    -    8
-187 Reported_Uncorrect      -O----   100   100   000    -    54579802
+174 Unknown_Attribute       -O----   100   100   000    -    11
+187 Reported_Uncorrect      -O----   100   100   000    -    54579868
 230 Unknown_SSD_Attribute   -O----   100   100   000    -    10000
 232 Available_Reservd_Space PO----   100   100   005    -    0
 234 Unknown_Attribute       -O----   100   100   000    -    4328
 241 Total_LBAs_Written      -O----   100   100   000    -    83879207058
-242 Total_LBAs_Read         -O----   100   100   000    -    323802655
+242 Total_LBAs_Read         -O----   100   100   000    -    325869438
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -98,7 +98,7 @@ Address    Access  R/W   Size  Description
 0xa6-0xa7  GPL,SL  VS     255  Device vendor specific log
 
 SMART Extended Comprehensive Error Log Version: 1 (16 sectors)
-Device Error Count: 53850 (device log contains only the most recent 64 errors)
+Device Error Count: 53916 (device log contains only the most recent 64 errors)
 	CR     = Command Register
 	FEATR  = Features Register
 	COUNT  = Count (was: Sector Count) Register
@@ -114,41 +114,7 @@ Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
 
-Error 53850 [25] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
-  When the command that caused the error occurred, the device was in an unknown state.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  00 -- 00 00 00 00 00 00 00 00 00 00 00
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  00 00 00 00 00 00 00 00 00 00 00 00 25 16d+13:40:55.765  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 24 13d+06:08:44.612  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 23  9d+22:36:33.459  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 22  6d+15:04:22.306  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 21  3d+07:32:11.153  NOP [Abort queued commands]
-
-Error 53849 [24] occurred at disk power-on lifetime: 43981 hours (1832 days + 13 hours)
-  When the command that caused the error occurred, the device was in an unknown state.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  00 -- 00 00 00 00 00 00 00 00 00 00 00
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  00 00 00 00 00 00 00 00 00 00 00 00 15 16d+13:40:55.765  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 14 13d+06:08:44.612  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 13  9d+22:36:33.459  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 12  6d+15:04:22.306  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 11  3d+07:32:11.153  NOP [Abort queued commands]
-
-Error 53848 [23] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
+Error 53916 [27] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -165,7 +131,7 @@ Error 53848 [23] occurred at disk power-on lifetime: 61166 hours (2548 days + 14
   00 00 00 00 00 00 00 00 00 00 00 00 42  6d+15:04:22.306  NOP [Abort queued commands]
   00 00 00 00 00 00 00 00 00 00 00 00 41  3d+07:32:11.153  NOP [Abort queued commands]
 
-Error 53847 [22] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
+Error 53915 [26] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -182,7 +148,7 @@ Error 53847 [22] occurred at disk power-on lifetime: 61166 hours (2548 days + 14
   00 00 00 00 00 00 00 00 00 00 00 00 32  6d+15:04:22.306  NOP [Abort queued commands]
   00 00 00 00 00 00 00 00 00 00 00 00 31  3d+07:32:11.153  NOP [Abort queued commands]
 
-Error 53846 [21] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
+Error 53914 [25] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -199,7 +165,7 @@ Error 53846 [21] occurred at disk power-on lifetime: 61166 hours (2548 days + 14
   00 00 00 00 00 00 00 00 00 00 00 00 22  6d+15:04:22.306  NOP [Abort queued commands]
   00 00 00 00 00 00 00 00 00 00 00 00 21  3d+07:32:11.153  NOP [Abort queued commands]
 
-Error 53845 [20] occurred at disk power-on lifetime: 43981 hours (1832 days + 13 hours)
+Error 53913 [24] occurred at disk power-on lifetime: 43981 hours (1832 days + 13 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -216,7 +182,7 @@ Error 53845 [20] occurred at disk power-on lifetime: 43981 hours (1832 days + 13
   00 00 00 00 00 00 00 00 00 00 00 00 12  6d+15:04:22.306  NOP [Abort queued commands]
   00 00 00 00 00 00 00 00 00 00 00 00 11  3d+07:32:11.153  NOP [Abort queued commands]
 
-Error 53844 [19] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
+Error 53912 [23] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -233,7 +199,7 @@ Error 53844 [19] occurred at disk power-on lifetime: 61166 hours (2548 days + 14
   00 00 00 00 00 00 00 00 00 00 00 00 42  6d+15:04:22.306  NOP [Abort queued commands]
   00 00 00 00 00 00 00 00 00 00 00 00 41  3d+07:32:11.153  NOP [Abort queued commands]
 
-Error 53843 [18] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
+Error 53911 [22] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -249,6 +215,40 @@ Error 53843 [18] occurred at disk power-on lifetime: 61166 hours (2548 days + 14
   00 00 00 00 00 00 00 00 00 00 00 00 33  9d+22:36:33.459  NOP [Abort queued commands]
   00 00 00 00 00 00 00 00 00 00 00 00 32  6d+15:04:22.306  NOP [Abort queued commands]
   00 00 00 00 00 00 00 00 00 00 00 00 31  3d+07:32:11.153  NOP [Abort queued commands]
+
+Error 53910 [21] occurred at disk power-on lifetime: 61166 hours (2548 days + 14 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  00 -- 00 00 00 00 00 00 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  00 00 00 00 00 00 00 00 00 00 00 00 25 16d+13:40:55.765  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 24 13d+06:08:44.612  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 23  9d+22:36:33.459  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 22  6d+15:04:22.306  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 21  3d+07:32:11.153  NOP [Abort queued commands]
+
+Error 53909 [20] occurred at disk power-on lifetime: 43981 hours (1832 days + 13 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  00 -- 00 00 00 00 00 00 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  00 00 00 00 00 00 00 00 00 00 00 00 15 16d+13:40:55.765  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 14 13d+06:08:44.612  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 13  9d+22:36:33.459  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 12  6d+15:04:22.306  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 11  3d+07:32:11.153  NOP [Abort queued commands]
 
 SMART Extended Self-test Log (GP Log 0x07) not supported
 
@@ -280,15 +280,15 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              51  ---  Current Temperature
-0x05  0x010  1              50  ---  Average Short Term Temperature
+0x05  0x008  1              55  ---  Current Temperature
+0x05  0x010  1              54  ---  Average Short Term Temperature
 0x05  0x018  1              51  ---  Average Long Term Temperature
-0x05  0x020  1              58  ---  Highest Temperature
-0x05  0x028  1              35  ---  Lowest Temperature
-0x05  0x030  1              55  ---  Highest Average Short Term Temperature
-0x05  0x038  1              55  ---  Lowest Average Short Term Temperature
-0x05  0x040  1              51  ---  Highest Average Long Term Temperature
-0x05  0x048  1              51  ---  Lowest Average Long Term Temperature
+0x05  0x020  1              61  ---  Highest Temperature
+0x05  0x028  1              31  ---  Lowest Temperature
+0x05  0x030  1              59  ---  Highest Average Short Term Temperature
+0x05  0x038  1              59  ---  Lowest Average Short Term Temperature
+0x05  0x040  1              56  ---  Highest Average Long Term Temperature
+0x05  0x048  1              56  ---  Lowest Average Long Term Temperature
 0x05  0x050  4               0  ---  Time in Over-Temperature
 0x05  0x058  1              95  ---  Specified Maximum Operating Temperature
 0x05  0x060  4               0  ---  Time in Under-Temperature
@@ -307,8 +307,8 @@ ID      Size     Value  Description
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x0009  2           29  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           24  Device-to-host register FISes sent due to a COMRESET
+0x0009  2           32  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           26  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
 0x0001  2            0  Command failed due to ICRC error

@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.8] (local build)
+smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.9] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Dec 18 21:54:15 2020 PST
+Local Time is:    Thu Jun  3 21:39:31 2021 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -54,29 +54,29 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       4372
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       657
-165 Total_Write/Erase_Count 0x0032   100   100   000    Old_age   Always       -       1129
-166 Min_W/E_Cycle           0x0032   100   100   ---    Old_age   Always       -       8
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       7400
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       978
+165 Total_Write/Erase_Count 0x0032   100   100   000    Old_age   Always       -       2186
+166 Min_W/E_Cycle           0x0032   100   100   ---    Old_age   Always       -       15
 167 Min_Bad_Block/Die       0x0032   100   100   ---    Old_age   Always       -       0
-168 Maximum_Erase_Cycle     0x0032   100   100   ---    Old_age   Always       -       15
+168 Maximum_Erase_Cycle     0x0032   100   100   ---    Old_age   Always       -       36
 169 Total_Bad_Block         0x0032   100   100   ---    Old_age   Always       -       105
 170 Unknown_Attribute       0x0032   100   100   ---    Old_age   Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-173 Avg_Write/Erase_Count   0x0032   100   100   000    Old_age   Always       -       8
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       104
+173 Avg_Write/Erase_Count   0x0032   100   100   000    Old_age   Always       -       15
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       129
 184 End-to-End_Error        0x0032   100   100   ---    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   055   051   000    Old_age   Always       -       45 (Min/Max 18/51)
+194 Temperature_Celsius     0x0022   059   053   000    Old_age   Always       -       41 (Min/Max 18/53)
 199 SATA_CRC_Error          0x0032   100   100   ---    Old_age   Always       -       0
-230 Perc_Write/Erase_Count  0x0032   100   100   000    Old_age   Always       -       790 316 790
+230 Perc_Write/Erase_Count  0x0032   100   100   000    Old_age   Always       -       1560 768 1560
 232 Perc_Avail_Resrvd_Space 0x0033   100   100   005    Pre-fail  Always       -       100
-233 Total_NAND_Writes_GiB   0x0032   100   100   ---    Old_age   Always       -       867
-234 Perc_Write/Erase_Ct_BC  0x0032   100   100   000    Old_age   Always       -       6283
-241 Total_Writes_GiB        0x0030   100   100   000    Old_age   Offline      -       2316
-242 Total_Reads_GiB         0x0030   100   100   000    Old_age   Offline      -       1176
+233 Total_NAND_Writes_GiB   0x0032   100   100   ---    Old_age   Always       -       1807
+234 Perc_Write/Erase_Ct_BC  0x0032   100   100   000    Old_age   Always       -       12163
+241 Total_Writes_GiB        0x0030   100   100   000    Old_age   Offline      -       4687
+242 Total_Reads_GiB         0x0030   100   100   000    Old_age   Offline      -       1776
 244 Thermal_Throttle        0x0032   000   100   ---    Old_age   Always       -       0
 
 SMART Error Log Version: 1
@@ -86,4 +86,6 @@ SMART Self-test log structure revision number 1
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
 
 Selective Self-tests/Logging not supported
+
+
 

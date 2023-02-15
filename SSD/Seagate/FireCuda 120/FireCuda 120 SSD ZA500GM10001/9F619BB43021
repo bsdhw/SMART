@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.1.1 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2021-09-14 r5236 [MidnightBSD 2.1.1 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     Seagate FireCuda 120 SSD ZA500GM10001
@@ -10,10 +10,11 @@ User Capacity:    500,107,862,016 bytes [500 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
+TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Oct 13 22:59:57 2021 EDT
+Local Time is:    Fri May 20 04:42:45 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -54,31 +55,32 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       1
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       3
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       5307
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       21
  16 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       2726
  17 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       2726
 168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
 170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       249
 173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       1
-174 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       1
+174 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       7
 177 Wear_Leveling_Count     0x0000   100   100   000    Old_age   Offline      -       0
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       1
-194 Temperature_Celsius     0x0023   100   094   000    Pre-fail  Always       -       27 (Min/Max 24/33)
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       7
+194 Temperature_Celsius     0x0023   100   091   000    Pre-fail  Always       -       27 (Min/Max 19/36)
 218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
-231 Temperature_Celsius     0x0013   100   100   000    Pre-fail  Always       -       100
+231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       100
 232 Available_Reservd_Space 0x0013   100   100   000    Pre-fail  Always       -       0
-233 Media_Wearout_Indicator 0x000b   100   100   000    Pre-fail  Always       -       24
-234 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       9346296
-235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       51192000
-241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       23
-242 Total_LBAs_Read         0x0012   100   100   000    Old_age   Always       -       0
+233 Media_Wearout_Indicator 0x000b   100   100   000    Pre-fail  Always       -       110
+234 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       57773848
+235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       231993216
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       96
+242 Total_LBAs_Read         0x0012   100   100   000    Old_age   Always       -       8
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%       285         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS

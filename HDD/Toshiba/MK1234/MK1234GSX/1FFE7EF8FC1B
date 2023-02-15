@@ -10,7 +10,7 @@ User Capacity:    120,034,123,776 bytes [120 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Fri Feb 19 15:04:27 2021 CET
+Local Time is:    Fri Feb 19 15:25:39 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,8 +68,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  10 Spin_Retry_Count        PO--CK   226   100   030    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    6270
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    394
-193 Load_Cycle_Count        -O--CK   085   085   000    -    154175
-194 Temperature_Celsius     -O---K   100   100   000    -    29 (Min/Max 6/59)
+193 Load_Cycle_Count        -O--CK   085   085   000    -    154234
+194 Temperature_Celsius     -O---K   100   100   000    -    31 (Min/Max 6/59)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 222 Loaded_Hours            -O--CK   086   086   000    -    5664
 223 Load_Retry_Count        -O--CK   100   100   000    -    0
 224 Load_Friction           -O---K   100   100   000    -    0
-226 Load-in_Time            -OS--K   100   100   000    -    307
+226 Load-in_Time            -OS--K   100   100   000    -    300
 240 Head_Flying_Hours       P-----   100   100   001    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count

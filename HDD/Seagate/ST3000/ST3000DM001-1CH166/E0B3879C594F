@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jul 13 05:03:27 2021 EEST
+Local Time is:    Mon Jul 26 12:03:28 2021 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,30 +62,30 @@ SCT capabilities: 	       (0x3085)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   120   099   006    -    242660520
-  3 Spin_Up_Time            PO----   095   093   000    -    0
-  4 Start_Stop_Count        -O--CK   094   094   020    -    6681
+  1 Raw_Read_Error_Rate     POSR--   116   099   006    -    116033864
+  3 Spin_Up_Time            PO----   096   093   000    -    0
+  4 Start_Stop_Count        -O--CK   094   094   020    -    6743
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   087   060   030    -    480397032
-  9 Power_On_Hours          -O--CK   062   062   000    -    33390
+  7 Seek_Error_Rate         POSR--   087   060   030    -    491551256
+  9 Power_On_Hours          -O--CK   062   062   000    -    33612
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   098   098   020    -    2546
+ 12 Power_Cycle_Count       -O--CK   098   098   020    -    2568
 183 Runtime_Bad_Block       -O--CK   001   001   000    -    358
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   088   000    -    3 3 17
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   066   052   045    -    34 (0 1 34 28 0)
+190 Airflow_Temperature_Cel -O---K   072   052   045    -    28 (0 1 28 26 0)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    0
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    747
-193 Load_Cycle_Count        -O--CK   078   078   000    -    44437
-194 Temperature_Celsius     -O---K   034   048   000    -    34 (128 0 0 0 0)
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    748
+193 Load_Cycle_Count        -O--CK   078   078   000    -    44706
+194 Temperature_Celsius     -O---K   028   048   000    -    28 (128 0 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    28630h+43m+35.485s
-241 Total_LBAs_Written      ------   100   253   000    -    104763625576
-242 Total_LBAs_Read         ------   100   253   000    -    218489871234
+240 Head_Flying_Hours       ------   100   253   000    -    28722h+15m+09.724s
+241 Total_LBAs_Written      ------   100   253   000    -    105096478866
+242 Total_LBAs_Read         ------   100   253   000    -    226119390567
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -143,8 +143,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    31 Celsius
-Power Cycle Min/Max Temperature:     28/31 Celsius
+Current Temperature:                    27 Celsius
+Power Cycle Min/Max Temperature:     26/27 Celsius
 Lifetime    Min/Max Temperature:     17/48 Celsius
 Under/Over Temperature Limit Count:   0/0
 

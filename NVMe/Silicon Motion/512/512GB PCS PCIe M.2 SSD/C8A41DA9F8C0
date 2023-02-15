@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-RELEASE-p6 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       512GB PCS PCIe M.2 SSD
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Thu Jan 27 20:19:06 2022 CET
+Local Time is:                      Tue Dec 13 12:25:17 2022 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -36,17 +36,17 @@ SMART overall-health self-assessment test result: PASSED
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
 Temperature:                        40 Celsius
-Available Spare:                    94%
+Available Spare:                    88%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    8,040,302 [4.11 TB]
-Data Units Written:                 3,089,436 [1.58 TB]
-Host Read Commands:                 143,197,864
-Host Write Commands:                61,532,606
-Controller Busy Time:               4,863
-Power Cycles:                       17
-Power On Hours:                     2,705
-Unsafe Shutdowns:                   12
+Percentage Used:                    1%
+Data Units Read:                    31,729,691 [16.2 TB]
+Data Units Written:                 12,502,540 [6.40 TB]
+Host Read Commands:                 687,170,974
+Host Write Commands:                355,470,114
+Controller Busy Time:               18,949
+Power Cycles:                       20
+Power On Hours:                     9,802
+Unsafe Shutdowns:                   14
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

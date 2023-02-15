@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RC4 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,7 +10,7 @@ User Capacity:    1,500,301,910,016 bytes [1.50 TB]
 Sector Size:      512 bytes logical/physical
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
-Local Time is:    Thu Apr 28 19:24:35 2022 CEST
+Local Time is:    Tue Sep 27 20:53:44 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     254 (maximum performance), recommended: 128
@@ -59,21 +59,21 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     P-----   200   200   051    -    0
-  3 Spin_Up_Time            P-----   247   241   021    -    6608
-  4 Start_Stop_Count        ------   097   097   000    -    3687
+  3 Spin_Up_Time            P-----   244   238   021    -    6758
+  4 Start_Stop_Count        ------   096   096   000    -    4164
   5 Reallocated_Sector_Ct   P-----   200   200   140    -    0
   7 Seek_Error_Rate         P-----   100   253   051    -    0
-  9 Power_On_Hours          ------   086   086   000    -    10667
+  9 Power_On_Hours          ------   084   084   000    -    12039
  10 Spin_Retry_Count        P-----   100   100   051    -    0
  11 Calibration_Retry_Count ------   100   100   051    -    0
- 12 Power_Cycle_Count       ------   099   099   000    -    1287
+ 12 Power_Cycle_Count       ------   099   099   000    -    1631
 184 End-to-End_Error        P-----   100   100   097    -    0
 187 Reported_Uncorrect      ------   100   100   000    -    0
-188 Command_Timeout         ------   100   100   000    -    0
-190 Airflow_Temperature_Cel ------   058   042   000    -    42
-192 Power-Off_Retract_Count ------   200   200   000    -    306
-193 Load_Cycle_Count        ------   177   177   000    -    69383
-194 Temperature_Celsius     ------+  110   094   000    -    42
+188 Command_Timeout         ------   100   099   000    -    4295032833
+190 Airflow_Temperature_Cel ------   057   042   000    -    43
+192 Power-Off_Retract_Count ------   200   200   000    -    344
+193 Load_Cycle_Count        ------   173   173   000    -    81531
+194 Temperature_Celsius     ------+  109   094   000    -    43
 195 Hardware_ECC_Recovered  ------+  200   200   000    -    0
 196 Reallocated_Event_Count ------+  200   200   000    -    0
 197 Current_Pending_Sector  ------   200   200   000    -    0
@@ -141,7 +141,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        0 minutes
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (203)
+Temperature History Size (Index):    478 (201)
 
 SCT Error Recovery Control command not supported
 
@@ -164,7 +164,7 @@ ID      Size     Value  Description
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
-0x8000  4         9486  Vendor specific
+0x8000  4        13066  Vendor specific
 
 
 

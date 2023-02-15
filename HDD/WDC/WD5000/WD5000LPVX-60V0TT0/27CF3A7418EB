@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Aug 26 11:20:08 2020 +08
+Local Time is:    Wed Aug 26 11:25:50 2020 +08
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -79,7 +79,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 190 Airflow_Temperature_Cel -O---K   063   047   040    -    37 (Min/Max 23/40)
 191 G-Sense_Error_Rate      -O--CK   001   001   000    -    125
 192 Power-Off_Retract_Count -O--CK   200   200   000    -    111
-193 Load_Cycle_Count        -O--CK   149   149   000    -    154057
+193 Load_Cycle_Count        -O--CK   149   149   000    -    154063
 194 Temperature_Celsius     -O---K   106   090   000    -    37
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
@@ -166,7 +166,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    128 (57)
+Temperature History Size (Index):    128 (63)
 
 SCT Error Recovery Control:
            Read:     85 (8.5 seconds)
@@ -191,5 +191,5 @@ ID      Size     Value  Description
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
-0x8000  4        10249  Vendor specific
+0x8000  4        10590  Vendor specific
 

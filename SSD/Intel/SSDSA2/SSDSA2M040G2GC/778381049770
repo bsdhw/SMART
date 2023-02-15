@@ -1,5 +1,5 @@
-smartctl 6.6 2017-11-05 r4594 [FreeBSD 11.2-RELEASE-p2 amd64] (local build)
-Copyright (C) 2002-17, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p10 amd64] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Intel X18-M/X25-M/X25-V G2 SSDs
@@ -13,11 +13,11 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Aug 19 20:26:30 2020 CEST
+Local Time is:    Thu Oct  1 08:21:24 2020 CEST
 
 ==> WARNING: This drive may require a firmware update to
 fix possible drive hangs when reading SMART self-test log:
-http://downloadcenter.intel.com/Detail_Desc.aspx?DwnldID=18363
+https://downloadcenter.intel.com/download/26491
 
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
@@ -67,16 +67,16 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            -----K   100   100   000    -    0
   4 Start_Stop_Count        ----CK   100   100   000    -    0
-  5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    65756
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    123
-192 Unsafe_Shutdown_Count   -O--CK   100   100   000    -    65
-225 Host_Writes_32MiB       ----CK   200   200   000    -    414459
-226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    4244
+  5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    1
+  9 Power_On_Hours          -O--CK   100   100   000    -    66763
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    135
+192 Unsafe_Shutdown_Count   -O--CK   100   100   000    -    74
+225 Host_Writes_32MiB       ----CK   200   200   000    -    419575
+226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    4376
 227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    1
-228 Workload_Minutes        -O--CK   100   100   000    -    3429892046
-232 Available_Reservd_Space PO--CK   100   100   010    -    0
-233 Media_Wearout_Indicator -O--CK   090   090   000    -    0
+228 Workload_Minutes        -O--CK   100   100   000    -    3429952495
+232 Available_Reservd_Space PO--CK   099   099   010    -    0
+233 Media_Wearout_Indicator -O--CK   091   091   000    -    0
 184 End-to-End_Error        PO--CK   100   100   099    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -127,9 +127,9 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0004  4            0  R_ERR response for host-to-device data FIS
 0x0007  4            0  R_ERR response for host-to-device non-data FIS
-0x0008  4           13  Device-to-host non-data FIS retries
-0x0009  4          235  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4          236  Device-to-host register FISes sent due to a COMRESET
+0x0008  4            0  Device-to-host non-data FIS retries
+0x0009  4            4  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            5  Device-to-host register FISes sent due to a COMRESET
 0x000b  4            0  CRC errors within host-to-device FIS
 0x000d  4            0  Non-CRC errors within host-to-device FIS
 0x000f  4            0  R_ERR response for host-to-device data FIS, CRC

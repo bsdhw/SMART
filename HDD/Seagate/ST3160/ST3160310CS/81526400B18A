@@ -13,7 +13,7 @@ Rotation Rate:    5900 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Apr 20 03:16:36 2022 BST
+Local Time is:    Wed Apr 20 04:32:10 2022 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,12 +64,12 @@ SCT capabilities: 	       (0x103b)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   116   099   006    -    106521638
+  1 Raw_Read_Error_Rate     POSR--   116   099   006    -    106592471
   3 Spin_Up_Time            PO----   097   097   000    -    0
   4 Start_Stop_Count        -O--CK   100   100   020    -    180
   5 Reallocated_Sector_Ct   PO--CK   086   086   036    -    602
-  7 Seek_Error_Rate         POSR--   068   057   030    -    124787885163
-  9 Power_On_Hours          -O--CK   080   080   000    -    18338
+  7 Seek_Error_Rate         POSR--   068   057   030    -    124787901910
+  9 Power_On_Hours          -O--CK   080   080   000    -    18339
  10 Spin_Retry_Count        PO--C-   100   100   097    -    2
  12 Power_Cycle_Count       -O--CK   100   100   020    -    245
 184 End-to-End_Error        -O--CK   100   100   099    -    0
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 189 High_Fly_Writes         -O-RCK   001   001   000    -    335
 190 Airflow_Temperature_Cel -O---K   062   054   045    -    38 (Min/Max 22/39)
 194 Temperature_Celsius     -O---K   038   046   000    -    38 (0 17 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   059   053   000    -    106521638
+195 Hardware_ECC_Recovered  -O-RC-   059   053   000    -    106592471
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
@@ -240,7 +240,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      1/61 Celsius
 Min/Max Temperature Limit:            2/60 Celsius
-Temperature History Size (Index):    128 (20)
+Temperature History Size (Index):    128 (96)
 
 SCT Error Recovery Control:
            Read: Disabled

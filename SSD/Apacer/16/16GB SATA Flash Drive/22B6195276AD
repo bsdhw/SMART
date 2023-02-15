@@ -13,7 +13,7 @@ TRIM Command:     Unavailable
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Tue Jun  8 18:34:14 2021 CEST
+Local Time is:    Wed Jun 23 17:36:30 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -50,22 +50,22 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    18459
+  9 Power_On_Hours          -O--C-   100   100   000    -    18626
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    139
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    142
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 175 Program_Fail_Count_Chip PO----   100   100   010    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    0
 194 Temperature_Celsius     -O---K   040   100   000    -    40 (Min/Max 30/60)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-160 Unknown_Attribute       ------   100   100   010    -    16
-161 Unknown_Attribute       ------   100   100   010    -    16
-162 Unknown_Attribute       ------   100   100   005    -    246
-163 Unknown_Attribute       ------   100   100   001    -    3852
-164 Unknown_Attribute       ------   100   100   001    -    3773
-165 Unknown_Attribute       ------   100   100   001    -    3773
-241 Total_LBAs_Written      ------   100   100   000    -    3858931495
+160 Unknown_Attribute       ------   100   100   010    -    18
+161 Unknown_Attribute       ------   100   100   010    -    18
+162 Unknown_Attribute       ------   100   100   005    -    244
+163 Unknown_Attribute       ------   100   100   001    -    3864
+164 Unknown_Attribute       ------   100   100   001    -    3807
+165 Unknown_Attribute       ------   100   100   001    -    3807
+241 Total_LBAs_Written      ------   100   100   000    -    3954110319
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

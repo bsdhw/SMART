@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Dec 11 01:29:36 2022 CET
+Local Time is:    Sun Dec 11 01:40:05 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -46,23 +46,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   ------   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    366
+ 12 Power_Cycle_Count       ------   100   100   050    -    367
 160 Uncorrectable_Error_Cnt ------   100   100   050    -    128
 161 Valid_Spare_Block_Cnt   ------   100   100   050    -    191
-162 Unknown_Attribute       ------   100   100   050    -    168
+162 Unknown_Attribute       ------   100   100   050    -    177
 163 Initial_Bad_Block_Count ------   100   100   050    -    7
-164 Total_Erase_Count       ------   100   100   050    -    622244
+164 Total_Erase_Count       ------   100   100   050    -    622288
 165 Max_Erase_Count         ------   100   100   050    -    329
 166 Min_Erase_Count         ------   100   100   050    -    264
 167 Average_Erase_Count     ------   100   100   050    -    297
 192 Power-Off_Retract_Count ------   100   100   050    -    0
 194 Temperature_Celsius     ------   100   100   000    -    40 (Min/Max 40/40)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    2907542
+195 Hardware_ECC_Recovered  ------   100   100   050    -    2907934
 196 Reallocated_Event_Count ------   100   100   050    -    138
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    1
 241 Host_Writes_32MiB       ------   100   100   050    -    24003
-242 Host_Reads_32MiB        ------   100   100   050    -    19388
+242 Host_Reads_32MiB        ------   100   100   050    -    19391
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

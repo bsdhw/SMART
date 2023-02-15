@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Apr  6 15:08:37 2021 PDT
+Local Time is:    Fri Apr  9 09:47:10 2021 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,25 +62,25 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O----   100   100   050    -    0
-  9 Power_On_Hours          ------   100   100   050    -    5788
+  9 Power_On_Hours          ------   100   100   050    -    5796
  12 Power_Cycle_Count       ------   100   100   050    -    49
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    22
 162 Unknown_Attribute       ------   100   100   050    -    1
 163 Unknown_Attribute       ------   100   100   050    -    48
-164 Unknown_Attribute       ------   100   100   050    -    946992
-165 Unknown_Attribute       ------   100   100   050    -    1943
+164 Unknown_Attribute       ------   100   100   050    -    949045
+165 Unknown_Attribute       ------   100   100   050    -    1948
 166 Unknown_Attribute       ------   100   100   050    -    1891
-167 Unknown_Attribute       ------   100   100   050    -    1893
+167 Unknown_Attribute       ------   100   100   050    -    1898
 168 Unknown_Attribute       ------   100   100   050    -    3000
 169 Unknown_Attribute       ------   037   037   050    NOW  37
 192 Power-Off_Retract_Count ------   100   100   050    -    41
 194 Temperature_Celsius     ------   100   100   050    -    40
 195 Hardware_ECC_Recovered  ------   100   100   050    -    0
 196 Reallocated_Event_Count ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    1735413
-242 Total_LBAs_Read         ------   100   100   050    -    364560
-245 Unknown_Attribute       ------   100   100   050    -    1893572
+241 Total_LBAs_Written      ------   100   100   050    -    1739078
+242 Total_LBAs_Read         ------   100   100   050    -    366403
+245 Unknown_Attribute       ------   100   100   050    -    1897678
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -121,18 +121,18 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              49  ---  Lifetime Power-On Resets
-0x01  0x010  4            5788  ---  Power-on Hours
-0x01  0x018  6      2062920747  ---  Logical Sectors Written
-0x01  0x020  6      1418689576  ---  Number of Write Commands
-0x01  0x028  6      2416973401  ---  Logical Sectors Read
-0x01  0x030  6       238991559  ---  Number of Read Commands
+0x01  0x010  4            5796  ---  Power-on Hours
+0x01  0x018  6      2303087179  ---  Logical Sectors Written
+0x01  0x020  6      1420663368  ---  Number of Write Commands
+0x01  0x028  6      2537799479  ---  Logical Sectors Read
+0x01  0x030  6       240167312  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4           14592  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              40  ---  Current Temperature
-0x05  0x010  1             -40  ---  Average Short Term Temperature
-0x05  0x018  1             108  ---  Average Long Term Temperature
+0x05  0x010  1             -26  ---  Average Short Term Temperature
+0x05  0x018  1             -84  ---  Average Long Term Temperature
 0x05  0x020  1              40  ---  Highest Temperature
 0x05  0x028  1              40  ---  Lowest Temperature
 0x05  0x030  1              -1  ---  Highest Average Short Term Temperature

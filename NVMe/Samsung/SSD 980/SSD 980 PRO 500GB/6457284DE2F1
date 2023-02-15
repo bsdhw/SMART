@@ -13,10 +13,10 @@ Controller ID:                      6
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
-Namespace 1 Utilization:            90,180,476,928 [90.1 GB]
+Namespace 1 Utilization:            89,490,345,984 [89.4 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Thu Jun 23 11:48:11 2022 CEST
+Local Time is:                      Sat Jun 25 16:52:02 2022 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0057):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat Timestmp
@@ -46,20 +46,20 @@ Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    3,520,453 [1.80 TB]
-Data Units Written:                 6,552,878 [3.35 TB]
-Host Read Commands:                 50,170,751
-Host Write Commands:                69,232,231
-Controller Busy Time:               947
-Power Cycles:                       972
-Power On Hours:                     780
-Unsafe Shutdowns:                   206
+Data Units Read:                    3,551,739 [1.81 TB]
+Data Units Written:                 6,613,728 [3.38 TB]
+Host Read Commands:                 50,615,181
+Host Write Commands:                70,255,283
+Controller Busy Time:               963
+Power Cycles:                       981
+Power On Hours:                     786
+Unsafe Shutdowns:                   210
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               40 Celsius
-Temperature Sensor 2:               46 Celsius
+Temperature Sensor 2:               47 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

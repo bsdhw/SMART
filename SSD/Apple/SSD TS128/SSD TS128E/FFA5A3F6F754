@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Apple MacBook Air SSD
@@ -11,10 +11,10 @@ User Capacity:    121,332,826,112 bytes [121 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Nov  4 05:59:35 2021 EDT
+Local Time is:    Tue Dec 27 13:59:42 2022 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,28 +68,28 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    2720
+  9 Power_On_Hours          -O--C-   100   100   000    -    3074
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   087   087   000    -    13975
+ 12 Power_Cycle_Count       -O--C-   084   084   000    -    17229
 167 Unknown_Attribute       -O--C-   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   200   200   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    751783446319
 170 Unknown_Attribute       PO--C-   100   100   010    -    0
 171 Unknown_Attribute       ------   100   100   000    -    0
-173 Wear_Leveling_Count     PO--C-   180   180   100    -    1924184998411
+173 Wear_Leveling_Count     PO--C-   179   179   100    -    2392338268756
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
-177 Wear_Leveling_Count     ------   000   000   000    -    7
+177 Wear_Leveling_Count     ------   000   000   000    -    4
 181 Program_Fail_Cnt_Total  -O--CK   000   000   000    -    0
 182 Erase_Fail_Count_Total  -O--CK   000   000   000    -    0
 187 Reported_Uncorrect      -O--C-   100   100   000    -    0
-192 Power-Off_Retract_Count -O--C-   000   000   000    -    510
+192 Power-Off_Retract_Count -O--C-   000   000   000    -    1007
 194 Temperature_Celsius     PO---K   100   034   000    -    0 (Min/Max 0/66)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--C-   200   200   000    -    0
-233 Media_Wearout_Indicator ------   000   000   000    -    63378
+233 Media_Wearout_Indicator ------   000   000   000    -    71820
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-241 Host_Writes_GiB         -O--CK   000   000   000    -    37228
-242 Host_Reades_GiB         -O--CK   000   000   000    -    55451
+241 Host_Writes_GiB         -O--CK   000   000   000    -    44546
+242 Host_Reades_GiB         -O--CK   000   000   000    -    64817
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -153,7 +153,7 @@ SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
 Current Temperature:                     0 Celsius
 Power Cycle Min/Max Temperature:      0/66 Celsius
-Lifetime    Min/Max Temperature:     44/44 Celsius
+Lifetime    Min/Max Temperature:     23/23 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Data Table command not supported
@@ -163,16 +163,16 @@ SCT Error Recovery Control command not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4           13976  ---  Lifetime Power-On Resets
-0x01  0x010  4            2754  ---  Power-on Hours
-0x01  0x018  6     78083308630  ---  Logical Sectors Written
-0x01  0x028  6    116292771954  ---  Logical Sectors Read
+0x01  0x008  4           17230  ---  Lifetime Power-On Resets
+0x01  0x010  4            3108  ---  Power-on Hours
+0x01  0x018  6     93429927283  ---  Logical Sectors Written
+0x01  0x028  6    135934740972  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4           84280  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4           97370  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4           84280  ---  Number of Hardware Resets
-0x06  0x010  4        11408103  ---  Number of ASR Events
+0x06  0x008  4           97370  ---  Number of Hardware Resets
+0x06  0x010  4        13854907  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             255  ---  Percentage Used Endurance Indicator
@@ -190,7 +190,7 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2            5  Transition from drive PhyRdy to drive PhyNRdy
+0x0009  2            3  Transition from drive PhyRdy to drive PhyNRdy
 0x000a  2            4  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC

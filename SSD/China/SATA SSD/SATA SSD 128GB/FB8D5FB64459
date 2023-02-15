@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     SATA SSD
@@ -10,10 +10,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Mar 18 19:02:06 2022 CET
+Local Time is:    Tue Aug  2 18:58:19 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,23 +62,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    1498
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    44
+  9 Power_On_Hours          -O--C-   100   100   000    -    4785
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    58
 161 Unknown_Attribute       -O--C-   100   100   000    -    203
 163 Unknown_Attribute       PO----   100   100   050    -    16
-165 Unknown_Attribute       ------   100   100   000    -    1156
+165 Unknown_Attribute       ------   100   100   000    -    5385
 166 Unknown_Attribute       ------   100   100   000    -    0
-167 Unknown_Attribute       ------   100   100   000    -    1124
+167 Unknown_Attribute       ------   100   100   000    -    5351
 172 Unknown_Attribute       -O--C-   100   100   000    -    0
 173 Unknown_Attribute       -O---K   100   100   000    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    34
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    48
 194 Temperature_Celsius     PO---K   060   060   000    -    40 (Min/Max 33/40)
 196 Reallocated_Event_Count ------   100   100   000    -    0
 198 Offline_Uncorrectable   -O--C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    1704
-242 Total_LBAs_Read         -O--C-   100   100   000    -    239
-249 Unknown_Attribute       -O--C-   100   100   000    -    131206
+241 Total_LBAs_Written      -O--C-   100   100   000    -    5750
+242 Total_LBAs_Read         -O--C-   100   100   000    -    740
+249 Unknown_Attribute       -O--C-   100   100   000    -    660378
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -125,10 +125,10 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              44  ---  Lifetime Power-On Resets
-0x01  0x010  4            1498  ---  Power-on Hours
-0x01  0x018  6      3574852726  ---  Logical Sectors Written
-0x01  0x028  6       502762933  ---  Logical Sectors Read
+0x01  0x008  4              58  ---  Lifetime Power-On Resets
+0x01  0x010  4            4785  ---  Power-on Hours
+0x01  0x018  6     12059528102  ---  Logical Sectors Written
+0x01  0x028  6      1553905187  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
@@ -136,7 +136,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x020  1              40  ---  Highest Temperature
 0x05  0x028  1              33  ---  Lowest Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4              66  ---  Number of Hardware Resets
+0x06  0x008  4              92  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

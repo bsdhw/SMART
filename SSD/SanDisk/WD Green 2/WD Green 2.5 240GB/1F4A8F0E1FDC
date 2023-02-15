@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-4, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Dec 30 12:58:30 2022 CST
+Local Time is:    Sun Jan  1 10:06:39 2023 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,8 +58,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   010    Old_age   Always       -       11
   9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       3
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       278
-165 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       390851788946
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       283
+165 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       390851985556
 166 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       3
 167 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       19
 168 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       4
@@ -72,14 +72,14 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 184 End-to-End_Error        0x0032   100   100   097    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   100   100   014    Old_age   Always       -       32 (Min/Max 15/60)
+194 Temperature_Celsius     0x0022   100   100   014    Old_age   Always       -       38 (Min/Max 15/60)
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
-230 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       154622754852
+230 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       158917722149
 232 Available_Reservd_Space 0x0033   100   100   000    Pre-fail  Always       -       94
 233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       256
-234 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       1493
-241 Total_LBAs_Written      0x0030   253   253   000    Old_age   Offline      -       848
-242 Total_LBAs_Read         0x0030   253   253   000    Old_age   Offline      -       234
+234 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       1516
+241 Total_LBAs_Written      0x0030   253   253   000    Old_age   Offline      -       858
+242 Total_LBAs_Read         0x0030   253   253   000    Old_age   Offline      -       241
 244 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 
 Warning! SMART ATA Error Log Structure error: invalid SMART checksum.

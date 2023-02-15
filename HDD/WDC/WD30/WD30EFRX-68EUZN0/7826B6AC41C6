@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital Red
@@ -10,10 +10,10 @@ Firmware Version: 82.00A82
 User Capacity:    3,000,592,982,016 bytes [3.00 TB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    5400 rpm
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Jul  4 00:51:30 2021 EEST
+Local Time is:    Wed Oct 12 09:56:17 2022 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,17 +65,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   200   200   051    -    0
-  3 Spin_Up_Time            POS--K   180   174   021    -    5991
-  4 Start_Stop_Count        -O--CK   100   100   000    -    502
+  3 Spin_Up_Time            POS--K   178   174   021    -    6083
+  4 Start_Stop_Count        -O--CK   100   100   000    -    547
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   000    -    0
-  9 Power_On_Hours          -O--CK   053   053   000    -    34353
+  9 Power_On_Hours          -O--CK   042   042   000    -    42378
  10 Spin_Retry_Count        -O--CK   100   100   000    -    0
  11 Calibration_Retry_Count -O--CK   100   100   000    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    399
-192 Power-Off_Retract_Count -O--CK   200   200   000    -    98
-193 Load_Cycle_Count        -O--CK   200   200   000    -    2197
-194 Temperature_Celsius     -O---K   115   113   000    -    35
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    444
+192 Power-Off_Retract_Count -O--CK   200   200   000    -    117
+193 Load_Cycle_Count        -O--CK   200   200   000    -    2924
+194 Temperature_Celsius     -O---K   122   113   000    -    28
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
 198 Offline_Uncorrectable   ----CK   100   253   000    -    0
@@ -131,8 +131,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       258 (0x0102)
 Device State:                        Active (0)
-Current Temperature:                    35 Celsius
-Power Cycle Min/Max Temperature:     23/36 Celsius
+Current Temperature:                    28 Celsius
+Power Cycle Min/Max Temperature:     19/30 Celsius
 Lifetime    Min/Max Temperature:      2/37 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
@@ -144,7 +144,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (239)
+Temperature History Size (Index):    478 (11)
 
 SCT Error Recovery Control:
            Read:     70 (7.0 seconds)
@@ -169,7 +169,5 @@ ID      Size     Value  Description
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
-0x8000  4       111779  Vendor specific
-
-
+0x8000  4      1336264  Vendor specific
 

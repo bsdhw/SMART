@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 20 12:59:20 2022 CEST
+Local Time is:    Mon Jan 30 13:41:28 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,13 +58,13 @@ SMART Attributes Data Structure revision number: 5
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0033   100   100   010    Pre-fail  Always       -       536
- 12 Power_Cycle_Count       0x0033   100   100   010    Pre-fail  Always       -       392
+  9 Power_On_Hours          0x0033   100   100   010    Pre-fail  Always       -       1049
+ 12 Power_Cycle_Count       0x0033   100   100   010    Pre-fail  Always       -       947
 161 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       0
-164 Average_Erase_Count     0x0033   100   100   010    Pre-fail  Always       -       26913
-165 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       33
-166 Later_Bad_Block_Count   0x0033   100   100   010    Pre-fail  Always       -       0
-167 SSD_Protect_Mode        0x0033   100   100   010    Pre-fail  Always       -       26
+164 Average_Erase_Count     0x0033   100   100   010    Pre-fail  Always       -       51130
+165 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       59
+166 Later_Bad_Block_Count   0x0033   100   100   010    Pre-fail  Always       -       3
+167 SSD_Protect_Mode        0x0033   100   100   010    Pre-fail  Always       -       50
 169 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       0
 176 Erase_Fail_Count_Chip   0x0033   100   100   010    Pre-fail  Always       -       0
 177 Wear_Leveling_Count     0x0033   100   100   010    Pre-fail  Always       -       0
@@ -73,8 +73,8 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 194 Temperature_Celsius     0x0033   100   100   010    Pre-fail  Always       -       48
 195 Hardware_ECC_Recovered  0x0033   100   100   010    Pre-fail  Always       -       0
 199 UDMA_CRC_Error_Count    0x0033   100   100   010    Pre-fail  Always       -       0
-241 Total_LBAs_Written      0x0033   100   100   010    Pre-fail  Always       -       1845
-242 Total_LBAs_Read         0x0033   100   100   010    Pre-fail  Always       -       657
+241 Total_LBAs_Written      0x0033   100   100   010    Pre-fail  Always       -       3422
+242 Total_LBAs_Read         0x0033   100   100   010    Pre-fail  Always       -       1038
 243 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       0
 244 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       0
 245 Unknown_Attribute       0x0033   100   100   010    Pre-fail  Always       -       0

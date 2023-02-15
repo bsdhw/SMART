@@ -1,4 +1,4 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p21-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p22-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Dec 30 11:10:40 2021 CET
+Local Time is:    Fri Feb  4 18:25:44 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,17 +66,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   8 Seek_Time_Performance   ------   000   000   000    -    0
   9 Power_On_Hours          -O----   100   100   000    -    255
  10 Spin_Retry_Count        ------   000   000   000    -    0
- 12 Power_Cycle_Count       -O----   100   100   000    -    145
+ 12 Power_Cycle_Count       -O----   100   100   000    -    148
 168 SATA_PHY_Error_Count    ------   000   000   000    -    0
 169 Remaining_Lifetime_Perc ------   039   000   000    -    42880953483264
 175 Bad_Cluster_Table_Count ------   000   000   000    -    0
 192 Power-Off_Retract_Count ------   000   000   000    -    0
-194 Temperature_Celsius     ------   055   100   000    -    0 (3 100 0 0 0)
+194 Temperature_Celsius     ------   056   100   000    -    0 (3 100 0 0 0)
 197 Current_Pending_Sector  ------   000   000   000    -    0
-240 Write_Head              ------   000   168   000    -    38572322
+240 Write_Head              ------   000   056   000    -    40673123
 225 Data_Log_Write_Count    ------   000   000   000    -    0
 170 Spare_Block_Count       PO----   000   000   ---    -    3211264
-173 Unknown_Attribute       -O--C-   000   000   ---    -    121571091
+173 Unknown_Attribute       -O--C-   000   000   ---    -    122816293
 229 Flash_ID                -O----   000   000   ---    -    0x507a93953a98
 236 Unknown_Attribute       -O----   000   000   ---    -    0
 235 Later_Bad_Blk_Inf_R/W/E -O----   000   000   ---    -    0 0 0

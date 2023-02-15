@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p3 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jul 30 22:33:22 2022 EDT
+Local Time is:    Thu Nov 24 18:41:18 2022 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,30 +64,30 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 32
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    1545
+  1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    1546
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
-  9 Power_On_Hours          -O--CK   100   100   ---    -    7166
- 12 Power_Cycle_Count       -O--CK   100   100   ---    -    1515
+  9 Power_On_Hours          -O--CK   100   100   ---    -    7298
+ 12 Power_Cycle_Count       -O--CK   100   100   ---    -    1523
 171 Program_Fail_Count      -O--CK   100   100   ---    -    0
 172 Erase_Fail_Count        -O--CK   100   100   ---    -    0
-173 Avg_Write/Erase_Count   -O--CK   083   083   005    -    119
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   ---    -    125
+173 Avg_Write/Erase_Count   -O--CK   079   079   005    -    153
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   ---    -    133
 176 Erase_Fail_Count_Chip   -O---K   100   100   ---    -    1088
 181 Program_Fail_Cnt_Total  -O---K   100   100   ---    -    0
 183 Runtime_Bad_Block       -O--CK   100   100   ---    -    0
 184 End-to-End_Error        PO-RCK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
 188 Command_Timeout         -O--CK   100   100   ---    -    6
-194 Temperature_Celsius     -O---K   041   053   ---    -    41 (Min/Max 18/53)
+194 Temperature_Celsius     -O---K   040   053   ---    -    40 (Min/Max 18/53)
 198 Offline_Uncorrectable   ----CK   100   100   ---    -    0
 199 SATA_CRC_Error          -O--CK   100   100   ---    -    0
-201 Lifetime_Remaining%     PO---K   083   083   005    -    73014444151
-230 Perc_Write/Erase_Count  -O--CK   100   100   ---    -    17492 17492 4352
-241 Total_Writes_GiB        -O--CK   100   100   ---    -    551166
-242 Total_Reads_GiB         -O--CK   100   100   ---    -    657461
-243 Unknown_Marvell_Attr    -O--CK   100   100   ---    -    6911193
+201 Lifetime_Remaining%     PO---K   079   079   005    -    90194313369
+230 Perc_Write/Erase_Count  -O--CK   100   100   ---    -    22325 22325 5461
+241 Total_Writes_GiB        -O--CK   100   100   ---    -    636384
+242 Total_Reads_GiB         -O--CK   100   100   ---    -    669749
+243 Unknown_Marvell_Attr    -O--CK   100   100   ---    -    8806873
 244 Thermal_Throttle        -O--CK   000   100   ---    -    0
-249 TLC_NAND_GB_Writes      -O--CK   100   100   ---    -    14292
+249 TLC_NAND_GB_Writes      -O--CK   100   100   ---    -    18374
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -119,9 +119,8 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%      7127         -
-# 2  Short offline       Completed without error       00%      6902         -
-# 3  Short offline       Completed without error       00%         1         -
+# 1  Short offline       Completed without error       00%      6902         -
+# 2  Short offline       Completed without error       00%         1         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -137,10 +136,10 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       257 (0x0101)
 Device State:                        Active (0)
-Current Temperature:                    41 Celsius
-Power Cycle Min/Max Temperature:     38/42 Celsius
-Lifetime    Min/Max Temperature:     38/42 Celsius
-Specified Max Operating Temperature:    41 Celsius
+Current Temperature:                    39 Celsius
+Power Cycle Min/Max Temperature:     37/42 Celsius
+Lifetime    Min/Max Temperature:     37/42 Celsius
+Specified Max Operating Temperature:    39 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -151,7 +150,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -15/90 Celsius
-Temperature History Size (Index):    256 (79)
+Temperature History Size (Index):    256 (132)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -160,11 +159,11 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1515  ---  Lifetime Power-On Resets
-0x01  0x010  4              91  ---  Power-on Hours
+0x01  0x008  4            1523  ---  Lifetime Power-On Resets
+0x01  0x010  4              79  ---  Power-on Hours
 0x01  0x018  6               0  ---  Logical Sectors Written
-0x01  0x020  6     18060610392  ---  Number of Write Commands
-0x01  0x028  6     21543689079  ---  Logical Sectors Read
+0x01  0x020  6     20853056143  ---  Number of Write Commands
+0x01  0x028  6     21946359843  ---  Logical Sectors Read
 0x01  0x030  6               0  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
@@ -181,7 +180,7 @@ Page  Offset Size        Value Flags Description
 0x06  0x010  4            1018  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              17  N--  Percentage Used Endurance Indicator
+0x07  0x008  1              21  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

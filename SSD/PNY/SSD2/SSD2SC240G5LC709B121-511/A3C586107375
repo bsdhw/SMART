@@ -13,7 +13,7 @@ Form Factor:      2.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Apr  8 17:35:47 2021 EEST
+Local Time is:    Sat Apr 10 12:40:16 2021 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,8 +59,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0032   120   120   050    Old_age   Always       -       0
   5 Reallocated_Sector_Ct   0x0033   098   098   003    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       358 (180 242 0)
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       733
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       358 (209 122 0)
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       741
 171 Unknown_Attribute       0x000a   100   100   000    Old_age   Always       -       0
 172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 174 Unknown_Attribute       0x0030   000   000   000    Old_age   Offline      -       31
@@ -68,17 +68,17 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 181 Program_Fail_Cnt_Total  0x000a   100   100   000    Old_age   Always       -       0
 182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0012   100   100   000    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   029   062   000    Old_age   Always       -       29 (Min/Max 11/62)
+194 Temperature_Celsius     0x0022   023   062   000    Old_age   Always       -       23 (Min/Max 11/62)
 195 Hardware_ECC_Recovered  0x001c   120   120   000    Old_age   Offline      -       0
 196 Reallocated_Event_Count 0x0033   098   098   003    Pre-fail  Always       -       0
 201 Unknown_SSD_Attribute   0x001c   120   120   000    Old_age   Offline      -       0
 204 Soft_ECC_Correction     0x001c   120   120   000    Old_age   Offline      -       0
 230 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       100
 231 Temperature_Celsius     0x0013   100   100   010    Pre-fail  Always       -       12884901888
-233 Media_Wearout_Indicator 0x0032   000   000   000    Old_age   Always       -       7136
-234 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       2116
-241 Total_LBAs_Written      0x0032   000   000   000    Old_age   Always       -       2116
-242 Total_LBAs_Read         0x0032   000   000   000    Old_age   Always       -       2019
+233 Media_Wearout_Indicator 0x0032   000   000   000    Old_age   Always       -       7141
+234 Unknown_Attribute       0x0032   000   000   000    Old_age   Always       -       2117
+241 Total_LBAs_Written      0x0032   000   000   000    Old_age   Always       -       2117
+242 Total_LBAs_Read         0x0032   000   000   000    Old_age   Always       -       2023
 
 SMART Error Log not supported
 

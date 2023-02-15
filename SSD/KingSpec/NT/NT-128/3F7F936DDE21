@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu May 26 22:41:22 2022 CDT
+Local Time is:    Wed Jul 13 18:26:55 2022 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -30,8 +30,8 @@ Wt Cache Reorder: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x02)	Offline data collection activity
-					was completed without error.
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
 					Auto Offline Data Collection: Disabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -65,30 +65,30 @@ SCT capabilities: 	       (0x0031)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--C-   100   100   000    -    2303
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    681
+  9 Power_On_Hours          -O--C-   100   100   000    -    3098
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    788
 167 Unknown_JMF_Attribute   -O---K   100   100   000    -    0
 168 SATA_Phy_Error_Count    -O--C-   100   100   000    -    83
 169 Unknown_JMF_Attribute   PO--C-   092   092   010    -    3932190
 171 Unknown_Attribute       -O--CK   000   000   000    -    0
 172 Unknown_Attribute       -O--CK   000   000   000    -    1
-173 Erase_Count             -O--C-   200   200   000    -    37 59 47
+173 Erase_Count             -O--C-   200   200   000    -    43 64 53
 175 Bad_Cluster_Table_Count -O---K   100   100   010    -    0
 180 Unknown_JMF_Attribute   PO--CK   100   100   000    -    790
 187 Unknown_JMF_Attribute   -O--CK   100   000   000    -    53
-192 Unexpect_Power_Loss_Ct  -O--C-   100   100   000    -    444
+192 Unexpect_Power_Loss_Ct  -O--C-   100   100   000    -    532
 194 Temperature_Celsius     -O---K   030   030   000    -    30 (Min/Max 10/50)
-206 Unknown_SSD_Attribute   -O--CK   200   200   000    -    37
-207 Unknown_SSD_Attribute   -O--CK   200   200   000    -    59
-208 Unknown_SSD_Attribute   -O--CK   200   200   000    -    47
-209 Unknown_SSD_Attribute   -O--CK   200   200   000    -    347
-210 Unknown_Attribute       -O--CK   200   200   000    -    611
-211 Unknown_Attribute       -O--CK   200   200   000    -    468
+206 Unknown_SSD_Attribute   -O--CK   200   200   000    -    43
+207 Unknown_SSD_Attribute   -O--CK   200   200   000    -    64
+208 Unknown_SSD_Attribute   -O--CK   200   200   000    -    53
+209 Unknown_SSD_Attribute   -O--CK   200   200   000    -    404
+210 Unknown_Attribute       -O--CK   200   200   000    -    698
+211 Unknown_Attribute       -O--CK   200   200   000    -    543
 231 Unknown_JMF_Attribute   PO---K   097   097   005    -    3
-233 Unknown_JMF_Attribute   -O--CK   100   100   000    -    8299758336
-234 Unknown_JMF_Attribute   -O--CK   100   100   000    -    49377617
-241 Total_LBAs_Written      -O--CK   100   100   000    -    4296323680
-242 Total_LBAs_Read         -O--CK   100   100   000    -    2195752599
+233 Unknown_JMF_Attribute   -O--CK   100   100   000    -    9511262592
+234 Unknown_JMF_Attribute   -O--CK   100   100   000    -    55643146
+241 Total_LBAs_Written      -O--CK   100   100   000    -    4962521180
+242 Total_LBAs_Read         -O--CK   100   100   000    -    3396711157
 245 Unknown_Attribute       -O--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -270,18 +270,22 @@ Error 76 [75] occurred at disk power-on lifetime: 500 hours (20 days + 20 hours)
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%      2004         -
-# 2  Short offline       Interrupted (host reset)      00%      1348         -
-# 3  Short offline       Aborted by host               00%      1348         -
-# 4  Short offline       Completed without error       00%      1322         -
-# 5  Short offline       Interrupted (host reset)      00%       950         -
-# 6  Short offline       Completed without error       00%       673         -
-# 7  Short offline       Completed without error       00%       673         -
-# 8  Extended offline    Completed without error       00%       500         -
-# 9  Short offline       Completed without error       00%       500         -
-#10  Short offline       Aborted by host               00%       228         -
-#11  Short offline       Completed without error       00%        70         -
-#12  Short offline       Aborted by host               00%        14         -
+# 1  Short offline       Completed without error       00%      3014         -
+# 2  Short offline       Completed without error       00%      2653         -
+# 3  Conveyance offline  Completed without error       00%      2652         -
+# 4  Short offline       Aborted by host               00%      2371         -
+# 5  Short offline       Completed without error       00%      2004         -
+# 6  Short offline       Interrupted (host reset)      00%      1348         -
+# 7  Short offline       Aborted by host               00%      1348         -
+# 8  Short offline       Completed without error       00%      1322         -
+# 9  Short offline       Interrupted (host reset)      00%       950         -
+#10  Short offline       Completed without error       00%       673         -
+#11  Short offline       Completed without error       00%       673         -
+#12  Extended offline    Completed without error       00%       500         -
+#13  Short offline       Completed without error       00%       500         -
+#14  Short offline       Aborted by host               00%       228         -
+#15  Short offline       Completed without error       00%        70         -
+#16  Short offline       Aborted by host               00%        14         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -307,22 +311,22 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -127/127 Celsius
 Min/Max Temperature Limit:           -127/127 Celsius
-Temperature History Size (Index):    478 (40)
+Temperature History Size (Index):    478 (415)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             681  ---  Lifetime Power-On Resets
-0x01  0x010  4            2303  ---  Power-on Hours
-0x01  0x018  6      4296323680  ---  Logical Sectors Written
-0x01  0x020  6        40512095  ---  Number of Write Commands
-0x01  0x028  6      2195752599  ---  Logical Sectors Read
-0x01  0x030  6        23430773  ---  Number of Read Commands
-0x01  0x038  6   2104159520648  ---  Date and Time TimeStamp
+0x01  0x008  4             788  ---  Lifetime Power-On Resets
+0x01  0x010  4            3098  ---  Power-on Hours
+0x01  0x018  6      4962521180  ---  Logical Sectors Written
+0x01  0x020  6        46173088  ---  Number of Write Commands
+0x01  0x028  6      3396711157  ---  Logical Sectors Read
+0x01  0x030  6        34683942  ---  Number of Read Commands
+0x01  0x038  6   2854414285852  ---  Date and Time TimeStamp
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               7  N--  Percentage Used Endurance Indicator
+0x07  0x008  1               8  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -338,7 +342,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           47  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

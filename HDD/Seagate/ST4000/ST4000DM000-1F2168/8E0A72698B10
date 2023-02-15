@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 11.3-RELEASE-p9 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.0 2018-12-30 r4883 [FreeBSD 11.3-RELEASE-p11 amd64] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Seagate Desktop HDD.15
@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Jun  5 11:00:00 2020 -03
+Local Time is:    Mon Jul 27 08:48:45 2020 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,12 +62,12 @@ SCT capabilities: 	       (0x1085)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   111   099   006    -    38986504
+  1 Raw_Read_Error_Rate     POSR--   118   099   006    -    197805512
   3 Spin_Up_Time            PO----   091   091   000    -    0
-  4 Start_Stop_Count        -O--CK   093   093   020    -    7983
+  4 Start_Stop_Count        -O--CK   090   090   020    -    11018
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   084   060   030    -    4592302511
-  9 Power_On_Hours          -O--CK   059   059   000    -    36341
+  7 Seek_Error_Rate         POSR--   084   060   030    -    4593316907
+  9 Power_On_Hours          -O--CK   058   058   000    -    37587
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   100   020    -    401
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
@@ -75,17 +75,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    0 0 0
 189 High_Fly_Writes         -O-RCK   049   049   000    -    51
-190 Airflow_Temperature_Cel -O---K   065   048   045    -    35 (Min/Max 25/42 #1)
+190 Airflow_Temperature_Cel -O---K   068   048   045    -    32 (Min/Max 0/43 #3)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    0
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    365
-193 Load_Cycle_Count        -O--CK   094   094   000    -    12820
-194 Temperature_Celsius     -O---K   035   052   000    -    35 (128 0 0 0 0)
+193 Load_Cycle_Count        -O--CK   093   093   000    -    15978
+194 Temperature_Celsius     -O---K   032   052   000    -    32 (128 0 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    21
-240 Head_Flying_Hours       ------   100   253   000    -    31772h+52m+29.543s
-241 Total_LBAs_Written      ------   100   253   000    -    197478192263
-242 Total_LBAs_Read         ------   100   253   000    -    428230833773
+240 Head_Flying_Hours       ------   100   253   000    -    32876h+31m+36.443s
+241 Total_LBAs_Written      ------   100   253   000    -    198242712143
+242 Total_LBAs_Read         ------   100   253   000    -    428233739039
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -130,25 +130,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     36330         -
-# 2  Short offline       Completed without error       00%     36306         -
-# 3  Short offline       Completed without error       00%     36282         -
-# 4  Short offline       Completed without error       00%     36258         -
-# 5  Short offline       Completed without error       00%     36234         -
-# 6  Extended offline    Completed without error       00%     36218         -
-# 7  Short offline       Completed without error       00%     36186         -
-# 8  Short offline       Completed without error       00%     36162         -
-# 9  Short offline       Completed without error       00%     36138         -
-#10  Short offline       Completed without error       00%     36114         -
-#11  Short offline       Completed without error       00%     36090         -
-#12  Short offline       Completed without error       00%     36066         -
-#13  Extended offline    Completed without error       00%     36050         -
-#14  Short offline       Completed without error       00%     36018         -
-#15  Short offline       Completed without error       00%     35995         -
-#16  Short offline       Completed without error       00%     35971         -
-#17  Short offline       Completed without error       00%     35947         -
-#18  Short offline       Completed without error       00%     35923         -
-#19  Short offline       Completed without error       00%     35899         -
+# 1  Short offline       Completed without error       00%     37579         -
+# 2  Extended offline    Completed without error       00%     37563         -
+# 3  Short offline       Completed without error       00%     37531         -
+# 4  Short offline       Completed without error       00%     37507         -
+# 5  Short offline       Completed without error       00%     37482         -
+# 6  Short offline       Completed without error       00%     37458         -
+# 7  Short offline       Completed without error       00%     37434         -
+# 8  Short offline       Completed without error       00%     37410         -
+# 9  Extended offline    Completed without error       00%     37394         -
+#10  Short offline       Completed without error       00%     37362         -
+#11  Short offline       Completed without error       00%     37338         -
+#12  Short offline       Completed without error       00%     37314         -
+#13  Short offline       Completed without error       00%     37290         -
+#14  Short offline       Completed without error       00%     37266         -
+#15  Short offline       Completed without error       00%     37242         -
+#16  Extended offline    Completed without error       00%     37226         -
+#17  Short offline       Completed without error       00%     37194         -
+#18  Short offline       Completed without error       00%     37170         -
+#19  Short offline       Completed without error       00%     37146         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -164,8 +164,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    34 Celsius
-Power Cycle Min/Max Temperature:     26/42 Celsius
+Current Temperature:                    32 Celsius
+Power Cycle Min/Max Temperature:     26/43 Celsius
 Lifetime    Min/Max Temperature:     16/52 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -179,7 +179,7 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x000a  2           42  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           54  Device-to-host register FISes sent due to a COMRESET
 0x0001  2            0  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS

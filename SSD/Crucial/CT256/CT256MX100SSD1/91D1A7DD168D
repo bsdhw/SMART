@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Mar 21 22:47:33 2021 CET
+Local Time is:    Mon Mar 22 15:28:15 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -61,8 +61,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   000    Pre-fail  Always       -       27
   5 Reallocate_NAND_Blk_Cnt 0x0033   100   100   000    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       5241
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       3964
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       5243
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       3965
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
 173 Ave_Block-Erase_Count   0x0032   098   098   000    Old_age   Always       -       68
@@ -79,9 +79,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 202 Percent_Lifetime_Remain 0x0031   098   098   000    Pre-fail  Offline      -       2
 206 Write_Error_Rate        0x000e   100   100   000    Old_age   Always       -       0
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
-246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       19220538109
-247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       603811829
-248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       822874863
+246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       19301083437
+247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       606334588
+248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       823477637
 
 SMART Error Log Version: 1
 No Errors Logged

@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Nov 12 23:15:33 2022 MSK
+Local Time is:    Fri Nov 18 22:04:08 2022 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,7 +62,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   000    -    0
   5 Reallocate_NAND_Blk_Cnt -O--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    5722
+  9 Power_On_Hours          -O--CK   100   100   000    -    5861
  12 Power_Cycle_Count       -O--CK   100   100   000    -    53
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
@@ -80,15 +80,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain ----CK   100   100   001    -    0
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    371065059
-247 Host_Program_Page_Count -O--CK   100   100   000    -    11595783
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    7501824
+246 Total_LBAs_Written      -O--CK   100   100   000    -    390852499
+247 Host_Program_Page_Count -O--CK   100   100   000    -    12214140
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    7974912
 249 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    0
-251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    782809661
+251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    811315390
 252 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 253 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
-254 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    49
+254 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    51
 223 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    3
                             ||||||_ K auto-keep
                             |||||__ C event count

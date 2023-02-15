@@ -12,7 +12,7 @@ Unallocated NVM Capacity:           0
 Controller ID:                      0
 NVMe Version:                       1.3
 Number of Namespaces:               4
-Local Time is:                      Wed Dec  7 15:52:11 2022 CET
+Local Time is:                      Sat Jan 28 22:56:07 2023 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x001f):   Security Format Frmw_DL NS_Mngmt Self_Test
 Optional NVM Commands (0x0055):     Comp DS_Mngmt Sav/Sel_Feat Timestmp
@@ -38,19 +38,19 @@ Temperature:                        51 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    1%
-Data Units Read:                    454,457 [232 GB]
-Data Units Written:                 3,710,426 [1.89 TB]
-Host Read Commands:                 5,094,012
-Host Write Commands:                59,730,808
-Controller Busy Time:               12,086
+Data Units Read:                    460,502 [235 GB]
+Data Units Written:                 5,117,796 [2.62 TB]
+Host Read Commands:                 5,247,448
+Host Write Commands:                82,761,079
+Controller Busy Time:               14,849
 Power Cycles:                       159
-Power On Hours:                     5,364
+Power On Hours:                     6,613
 Unsafe Shutdowns:                   97
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               49 Celsius
+Temperature Sensor 1:               48 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

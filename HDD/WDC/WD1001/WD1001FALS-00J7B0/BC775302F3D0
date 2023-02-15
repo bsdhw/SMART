@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p2 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.5, 3.0 Gb/s
-Local Time is:    Thu May 28 09:17:55 2020 PDT
+Local Time is:    Sun May 31 13:22:40 2020 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -68,13 +68,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   4 Start_Stop_Count        -O--CK   100   100   000    -    122
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   100   253   051    -    0
-  9 Power_On_Hours          -O--CK   001   001   000    -    101370
+  9 Power_On_Hours          -O--CK   001   001   000    -    101446
  10 Spin_Retry_Count        -O--CK   100   100   051    -    0
  11 Calibration_Retry_Count -O--CK   100   100   051    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    122
 192 Power-Off_Retract_Count -O--CK   200   200   000    -    93
 193 Load_Cycle_Count        -O--CK   200   200   000    -    122
-194 Temperature_Celsius     -O---K   102   090   000    -    48
+194 Temperature_Celsius     -O---K   099   090   000    -    51
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
 198 Offline_Uncorrectable   ----CK   200   200   000    -    0
@@ -112,24 +112,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Extended offline    Completed without error       00%     35736         -
-# 2  Extended offline    Completed without error       00%     35568         -
-# 3  Extended offline    Completed without error       00%     35401         -
-# 4  Extended offline    Completed without error       00%     35234         -
-# 5  Extended offline    Completed without error       00%     35067         -
-# 6  Extended offline    Completed without error       00%     34899         -
-# 7  Extended offline    Completed without error       00%     34732         -
-# 8  Extended offline    Completed without error       00%     34564         -
-# 9  Extended offline    Completed without error       00%     34396         -
-#10  Extended offline    Completed without error       00%     34228         -
-#11  Extended offline    Completed without error       00%     34060         -
-#12  Extended offline    Completed without error       00%     33892         -
-#13  Extended offline    Completed without error       00%     33725         -
-#14  Extended offline    Completed without error       00%     33558         -
-#15  Extended offline    Completed without error       00%     33390         -
-#16  Extended offline    Completed without error       00%     33222         -
-#17  Extended offline    Completed without error       00%     33055         -
-#18  Extended offline    Completed without error       00%     32887         -
+# 1  Extended offline    Completed without error       00%     35903         -
+# 2  Extended offline    Completed without error       00%     35736         -
+# 3  Extended offline    Completed without error       00%     35568         -
+# 4  Extended offline    Completed without error       00%     35401         -
+# 5  Extended offline    Completed without error       00%     35234         -
+# 6  Extended offline    Completed without error       00%     35067         -
+# 7  Extended offline    Completed without error       00%     34899         -
+# 8  Extended offline    Completed without error       00%     34732         -
+# 9  Extended offline    Completed without error       00%     34564         -
+#10  Extended offline    Completed without error       00%     34396         -
+#11  Extended offline    Completed without error       00%     34228         -
+#12  Extended offline    Completed without error       00%     34060         -
+#13  Extended offline    Completed without error       00%     33892         -
+#14  Extended offline    Completed without error       00%     33725         -
+#15  Extended offline    Completed without error       00%     33558         -
+#16  Extended offline    Completed without error       00%     33390         -
+#17  Extended offline    Completed without error       00%     33222         -
+#18  Extended offline    Completed without error       00%     33055         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -145,9 +145,9 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       258 (0x0102)
 Device State:                        SMART Off-line Data Collection executing in background (4)
-Current Temperature:                    48 Celsius
-Power Cycle Min/Max Temperature:     43/53 Celsius
-Lifetime    Min/Max Temperature:     44/60 Celsius
+Current Temperature:                    51 Celsius
+Power Cycle Min/Max Temperature:     43/54 Celsius
+Lifetime    Min/Max Temperature:     51/60 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Temperature History Version:     2
@@ -155,7 +155,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    128 (57)
+Temperature History Size (Index):    128 (6)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -174,8 +174,8 @@ ID      Size     Value  Description
 0x0005  2            0  R_ERR response for non-data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x000a  2            3  Device-to-host register FISes sent due to a COMRESET
-0x8000  4       850047  Vendor specific
+0x000a  2           11  Device-to-host register FISes sent due to a COMRESET
+0x8000  4      1123650  Vendor specific
 
 
 

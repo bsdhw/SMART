@@ -13,7 +13,7 @@ Form Factor:      3.5 inches
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Dec 13 23:50:15 2022 PST
+Local Time is:    Wed Dec 14 12:46:15 2022 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -69,7 +69,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         POSR-K   100   100   067    -    0
   8 Seek_Time_Performance   P-S--K   140   100   020    -    30
-  9 Power_On_Hours          -O--CK   097   097   000    -    22013
+  9 Power_On_Hours          -O--CK   097   097   000    -    22026
  10 Spin_Retry_Count        PO--CK   100   100   060    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    2869
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   093   000    -    34376976588
 189 High_Fly_Writes         -O--CK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   075   058   000    -    25 (Min/Max 17/25)
+190 Airflow_Temperature_Cel -O---K   075   058   000    -    25 (Min/Max 17/26)
 192 Power-Off_Retract_Count -O--CK   098   098   000    -    2894
 193 Load_Cycle_Count        -O--CK   098   098   000    -    2894
 194 Temperature_Celsius     -O----   240   142   000    -    25 (Min/Max 14/42)
@@ -137,7 +137,7 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        SMART Off-line Data Collection executing in background (4)
 Current Temperature:                    25 Celsius
-Power Cycle Min/Max Temperature:     17/25 Celsius
+Power Cycle Min/Max Temperature:     17/26 Celsius
 Lifetime    Min/Max Temperature:     14/42 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -146,7 +146,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -40/70 Celsius
-Temperature History Size (Index):    128 (71)
+Temperature History Size (Index):    128 (79)
 
 SCT Error Recovery Control:
            Read:     85 (8.5 seconds)
@@ -156,14 +156,14 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4            2869  ---  Lifetime Power-On Resets
-0x01  0x010  4           22013  ---  Power-on Hours
-0x01  0x018  6     28981050649  ---  Logical Sectors Written
-0x01  0x020  6       681949374  ---  Number of Write Commands
-0x01  0x028  6     80748956059  ---  Logical Sectors Read
-0x01  0x030  6       714342059  ---  Number of Read Commands
+0x01  0x010  4           22026  ---  Power-on Hours
+0x01  0x018  6     28987299684  ---  Logical Sectors Written
+0x01  0x020  6       682036216  ---  Number of Write Commands
+0x01  0x028  6     80816041243  ---  Logical Sectors Read
+0x01  0x030  6       714400367  ---  Number of Read Commands
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4           22005  ---  Spindle Motor Power-on Hours
-0x03  0x010  4           22005  ---  Head Flying Hours
+0x03  0x008  4           22018  ---  Spindle Motor Power-on Hours
+0x03  0x010  4           22018  ---  Head Flying Hours
 0x03  0x018  4            2894  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               8  ---  Read Recovery Attempts
@@ -173,7 +173,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4            2252  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              25  ---  Current Temperature
-0x05  0x010  1              23  N--  Average Short Term Temperature
+0x05  0x010  1              24  N--  Average Short Term Temperature
 0x05  0x018  1              25  N--  Average Long Term Temperature
 0x05  0x020  1              42  ---  Highest Temperature
 0x05  0x028  1              14  ---  Lowest Temperature

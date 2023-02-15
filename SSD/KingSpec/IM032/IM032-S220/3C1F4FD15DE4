@@ -12,7 +12,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Apr 27 22:10:25 2022 BST
+Local Time is:    Sat Jul 16 07:21:10 2022 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -27,11 +27,11 @@ Wt Cache Reorder: Unavailable
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Disabled.
 Total time to complete Offline 
-data collection: 		(    0) seconds.
+data collection: 		(    1) seconds.
 Offline data collection
 capabilities: 			 (0x00) 	Offline data collection not supported.
 SMART capabilities:            (0x0002)	Does not save SMART data before
@@ -45,16 +45,16 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   ------   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    11
-187 Reported_Uncorrect      ------   100   100   050    -    0
-192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    50 (Min/Max 22/56)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    0
+ 12 Power_Cycle_Count       ------   100   100   050    -    23
+187 Reported_Uncorrect      ------   100   100   050    -    330
+192 Power-Off_Retract_Count ------   100   100   050    -    5
+194 Temperature_Celsius     ------   100   100   000    -    36 (Min/Max 22/61)
+195 Hardware_ECC_Recovered  ------   100   100   050    -    546
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    10597
-242 Total_LBAs_Read         ------   100   100   050    -    95
+241 Total_LBAs_Written      ------   100   100   050    -    36208
+242 Total_LBAs_Read         ------   100   100   050    -    1509
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

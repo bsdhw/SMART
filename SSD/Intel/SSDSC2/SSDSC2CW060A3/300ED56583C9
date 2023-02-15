@@ -13,7 +13,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Aug  9 17:19:03 2020 CEST
+Local Time is:    Sun Aug  9 17:22:15 2020 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,7 +63,7 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   000   000   000    -    902512h+19m+11.660s
+  9 Power_On_Hours_and_Msec -O--CK   000   000   000    -    902512h+22m+14.580s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    385
 170 Available_Reservd_Space PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
@@ -134,7 +134,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/ 0 Celsius
-Temperature History Size (Index):    24676 (24)
+Temperature History Size (Index):    24676 (25)
 Invalid Temperature History Size or Index
 
 SCT Error Recovery Control command not supported
@@ -144,8 +144,8 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             394  ---  Lifetime Power-On Resets
 0x01  0x010  4            7718  ---  Power-on Hours
-0x01  0x018  6     35988842529  ---  Logical Sectors Written
-0x01  0x028  6      2270221050  ---  Logical Sectors Read
+0x01  0x018  6     35988843458  ---  Logical Sectors Written
+0x01  0x028  6      2270249943  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4            3302  ---  Resets Between Cmd Acceptance and Completion

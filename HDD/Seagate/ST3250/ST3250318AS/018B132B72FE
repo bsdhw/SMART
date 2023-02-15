@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sat Oct 15 10:17:23 2022 EDT
+Local Time is:    Sat Oct 15 10:22:31 2022 EDT
 
 ==> WARNING: A firmware update for this drive may be available,
 see the following Seagate web pages:
@@ -70,11 +70,11 @@ SCT capabilities: 	       (0x103f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   110   099   006    -    26658479
+  1 Raw_Read_Error_Rate     POSR--   110   099   006    -    26819898
   3 Spin_Up_Time            PO----   098   097   000    -    0
   4 Start_Stop_Count        -O--CK   100   100   020    -    103
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   075   060   030    -    38908864888
+  7 Seek_Error_Rate         POSR--   075   060   030    -    38908865582
   9 Power_On_Hours          -O--CK   018   018   000    -    71953
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   100   020    -    52
@@ -85,13 +85,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
 190 Airflow_Temperature_Cel -O---K   063   055   045    -    37 (Min/Max 22/42)
 194 Temperature_Celsius     -O---K   037   045   000    -    37 (0 17 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   040   028   000    -    26658479
+195 Hardware_ECC_Recovered  -O-RC-   040   028   000    -    26819898
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    72081 (130 159 0)
-241 Total_LBAs_Written      ------   100   253   000    -    113368693
-242 Total_LBAs_Read         ------   100   253   000    -    3907327850
+240 Head_Flying_Hours       ------   100   253   000    -    72081 (54 78 0)
+241 Total_LBAs_Written      ------   100   253   000    -    113437541
+242 Total_LBAs_Read         ------   100   253   000    -    3907336154
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -150,7 +150,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    38 Celsius
+Current Temperature:                    37 Celsius
 Power Cycle Min/Max Temperature:     22/42 Celsius
 Lifetime    Min/Max Temperature:     17/45 Celsius
 Under/Over Temperature Limit Count:   0/0

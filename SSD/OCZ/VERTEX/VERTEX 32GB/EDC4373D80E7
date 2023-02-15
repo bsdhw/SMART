@@ -12,7 +12,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
-Local Time is:    Sat Apr 16 05:03:24 2022 EDT
+Local Time is:    Fri Apr 22 22:40:58 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -58,23 +58,23 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   ---   ---   ---    -    6
-  9 Power_On_Hours          ------   ---   ---   ---    -    168
- 12 Power_Cycle_Count       ------   ---   ---   ---    -    90
+  9 Power_On_Hours          ------   ---   ---   ---    -    328
+ 12 Power_Cycle_Count       ------   ---   ---   ---    -    93
 184 Initial_Bad_Block_Count ------   ---   ---   ---    -    1
 195 Program_Failure_Blk_Ct  ------   ---   ---   ---    -    0
 196 Erase_Failure_Blk_Ct    ------   ---   ---   ---    -    1
 197 Read_Failure_Blk_Ct     ------   ---   ---   ---    -    0
-198 Read_Sectors_Tot_Ct     ------   ---   ---   ---    -    95345468
-199 Write_Sectors_Tot_Ct    ------   ---   ---   ---    -    253874092
-200 Read_Commands_Tot_Ct    ------   ---   ---   ---    -    1446253
-201 Write_Commands_Tot_Ct   ------   ---   ---   ---    -    3925301
-202 Error_Bits_Flash_Tot_Ct ------   ---   ---   ---    -    293719
-203 Corr_Read_Errors_Tot_Ct ------   ---   ---   ---    -    251735
+198 Read_Sectors_Tot_Ct     ------   ---   ---   ---    -    98943383
+199 Write_Sectors_Tot_Ct    ------   ---   ---   ---    -    345239855
+200 Read_Commands_Tot_Ct    ------   ---   ---   ---    -    1555980
+201 Write_Commands_Tot_Ct   ------   ---   ---   ---    -    5285910
+202 Error_Bits_Flash_Tot_Ct ------   ---   ---   ---    -    294638
+203 Corr_Read_Errors_Tot_Ct ------   ---   ---   ---    -    252618
 204 Bad_Block_Full_Flag     ------   ---   ---   ---    -    0
 205 Max_PE_Count_Spec       ------   ---   ---   ---    -    5000
 206 Min_Erase_Count         ------   ---   ---   ---    -    1
-207 Max_Erase_Count         ------   ---   ---   ---    -    101
-208 Average_Erase_Count     ------   ---   ---   ---    -    13
+207 Max_Erase_Count         ------   ---   ---   ---    -    112
+208 Average_Erase_Count     ------   ---   ---   ---    -    18
 209 Remaining_Lifetime_Perc ------   ---   ---   ---    -    99
 211 SATA_Error_Ct_CRC       ------   ---   ---   ---    -    0
 212 SATA_Error_Ct_Handshake ------   ---   ---   ---    -    0
@@ -119,5 +119,6 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 [Reserved: 0x00 0x00 0x41 0x00]
 ID      Size     Value  Description
-0x06e8  8       147695  Unknown
+0x0028  2        16506  Unknown
+0x0002  0: Invalid entry
 

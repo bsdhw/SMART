@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p2 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Form Factor:      2.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu May 28 09:17:55 2020 PDT
+Local Time is:    Sun May 31 13:22:40 2020 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,7 +63,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   099   099   000    -    3621
+  9 Power_On_Hours          -O--CK   099   099   000    -    3697
  12 Power_Cycle_Count       -O--CK   099   099   000    -    4
 177 Wear_Leveling_Count     PO--C-   098   098   000    -    11
 179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   100   100   010    -    0
@@ -71,11 +71,11 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count_Total  -O--CK   100   100   010    -    0
 183 Runtime_Bad_Block       PO--C-   100   100   010    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O--CK   055   044   000    -    45
+190 Airflow_Temperature_Cel -O--CK   051   044   000    -    49
 195 Hardware_ECC_Recovered  -O-RC-   200   200   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   100   100   000    -    0
 235 Unknown_Attribute       -O--C-   100   100   000    -    0
-241 Total_LBAs_Written      -O--CK   099   099   000    -    12810507556
+241 Total_LBAs_Written      -O--CK   099   099   000    -    13087382624
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -126,8 +126,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    45 Celsius
-Power Cycle Min/Max Temperature:     34/50 Celsius
+Current Temperature:                    49 Celsius
+Power Cycle Min/Max Temperature:     34/51 Celsius
 Lifetime    Min/Max Temperature:     40/56 Celsius
 Specified Max Operating Temperature:    70 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -138,7 +138,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/70 Celsius
-Temperature History Size (Index):    128 (109)
+Temperature History Size (Index):    128 (53)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -148,22 +148,22 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4               4  ---  Lifetime Power-On Resets
-0x01  0x010  4            3621  ---  Power-on Hours
-0x01  0x018  6     12810507556  ---  Logical Sectors Written
-0x01  0x020  6       337488520  ---  Number of Write Commands
-0x01  0x028  6      6935722948  ---  Logical Sectors Read
-0x01  0x030  6        71079166  ---  Number of Read Commands
-0x01  0x038  6         1919000  ---  Date and Time TimeStamp
+0x01  0x010  4            3697  ---  Power-on Hours
+0x01  0x018  6     13087382624  ---  Logical Sectors Written
+0x01  0x020  6       344677496  ---  Number of Write Commands
+0x01  0x028  6      6947247028  ---  Logical Sectors Read
+0x01  0x030  6        71720396  ---  Number of Read Commands
+0x01  0x038  6         2201000  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              45  ---  Current Temperature
+0x05  0x008  1              49  ---  Current Temperature
 0x05  0x020  1              56  ---  Highest Temperature
 0x05  0x028  1              40  ---  Lowest Temperature
 0x05  0x058  1              70  ---  Specified Maximum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4              54  ---  Number of Hardware Resets
+0x06  0x008  4              67  ---  Number of Hardware Resets
 0x06  0x010  4               0  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==

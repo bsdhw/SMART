@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Thu Sep 30 10:41:08 2021 CEST
+Local Time is:                      Thu Oct  7 07:49:44 2021 CEST
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -42,40 +42,40 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        24 Celsius
+Temperature:                        27 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    12,316,063 [6.30 TB]
-Data Units Written:                 5,457,531 [2.79 TB]
-Host Read Commands:                 158,212,049
-Host Write Commands:                90,200,545
-Controller Busy Time:               167
-Power Cycles:                       3,191
-Power On Hours:                     310
+Data Units Read:                    12,720,572 [6.51 TB]
+Data Units Written:                 5,998,021 [3.07 TB]
+Host Read Commands:                 160,641,265
+Host Write Commands:                94,050,879
+Controller Busy Time:               177
+Power Cycles:                       3,255
+Power On Hours:                     341
 Unsafe Shutdowns:                   25
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      2,570
+Error Information Log Entries:      2,626
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 2:               24 Celsius
+Temperature Sensor 2:               27 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 16 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0       2570     0  0x000c  0x0005      -     33555712     0     -
-  1       2569     0  0x000c  0x0005      -     33555712     0     -
-  2       2568     0  0x000c  0x0005      -     33555712     0     -
-  3       2567     0  0x000c  0x0005      -     33555712     0     -
-  4       2566     0  0x000c  0x0005      -     33555712     0     -
-  5       2565     0  0x000c  0x0005      -     33555712     0     -
-  6       2564     0  0x000c  0x0005      -     33555712     0     -
-  7       2563     0  0x000c  0x0005      -     33555712     0     -
-  8       2562     0  0x000c  0x0005      -     33555712     0     -
-  9       2561     0  0x000c  0x0005      -     33555712     0     -
- 10       2560     0  0x000c  0x0005      -     33555712     0     -
- 11       2559     0  0x000c  0x0005      -     33555712     0     -
- 12       2558     0  0x000c  0x0005      -     33555712     0     -
- 13       2557     0  0x0002  0x0005      -          208     0     -
- 14       2556     0  0x000c  0x0005      -     33555712     0     -
- 15       2555     0  0x0002  0x0005      -          208     0     -
+  0       2626     0  0x000c  0x0005      -     33555712     0     -
+  1       2625     0  0x000c  0x0005      -     33555712     0     -
+  2       2624     0  0x000c  0x0005      -     33555712     0     -
+  3       2623     0  0x0002  0x0005      -          208     0     -
+  4       2622     0  0x0011  0x0005      -     33555712     0     -
+  5       2621     0  0x000c  0x0005      -     33555712     0     -
+  6       2620     0  0x000e  0x0005      -     33555712     0     -
+  7       2619     0  0x000e  0x0005      -     33555712     0     -
+  8       2618     0  0x000d  0x0005      -     33555712     0     -
+  9       2617     0  0x000c  0x0005      -     33555712     0     -
+ 10       2616     0  0x000c  0x0005      -     33555712     0     -
+ 11       2615     0  0x000c  0x0005      -     33555712     0     -
+ 12       2614     0  0x000e  0x0005      -     33555712     0     -
+ 13       2613     0  0x000e  0x0005      -     33555712     0     -
+ 14       2612     0  0x000d  0x0005      -     33555712     0     -
+ 15       2611     0  0x000c  0x0005      -     33555712     0     -
 

@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 11.3-RELEASE-p9 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.0 2018-12-30 r4883 [FreeBSD 11.3-RELEASE-p11 amd64] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     40GB SATA Flash Drive
@@ -12,7 +12,7 @@ Form Factor:      2.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Jun  5 10:59:58 2020 -03
+Local Time is:    Mon Jul 27 08:48:35 2020 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -57,19 +57,19 @@ recommended polling time: 	 (   2) minutes.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--C-   100   100   000    -    3766
+  9 Power_On_Hours          -O--C-   100   100   000    -    4805
  12 Power_Cycle_Count       -O--C-   100   100   000    -    141
-163 Unknown_Attribute       -O----   100   100   000    -    40
-164 Unknown_Attribute       -O----   100   100   000    -    36
+163 Unknown_Attribute       -O----   100   100   000    -    47
+164 Unknown_Attribute       -O----   100   100   000    -    41
 166 Unknown_Attribute       -O----   100   100   000    -    0
 167 Unknown_Attribute       -O----   100   100   000    -    0
-168 Unknown_Attribute       -O--C-   100   100   000    -    38
+168 Unknown_Attribute       -O--C-   100   100   000    -    50
 175 Program_Fail_Count_Chip -O--C-   100   100   010    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    34
 194 Temperature_Celsius     PO---K   100   100   020    -    30
 202 Unknown_SSD_Attribute   -O--C-   100   100   050    -    100
 231 Temperature_Celsius     PO--C-   100   100   000    -    98
-241 Total_LBAs_Written      -O--C-   100   100   000    -    1729564725
+241 Total_LBAs_Written      -O--C-   100   100   000    -    1955103631
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -97,25 +97,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%       283         -
-# 2  Short offline       Completed without error       00%       262         -
-# 3  Short offline       Completed without error       00%       242         -
-# 4  Short offline       Completed without error       00%       222         -
-# 5  Short offline       Completed without error       00%       201         -
-# 6  Extended offline    Completed without error       00%       180         -
-# 7  Short offline       Completed without error       00%       159         -
-# 8  Short offline       Completed without error       00%       138         -
-# 9  Short offline       Completed without error       00%       117         -
-#10  Short offline       Completed without error       00%        96         -
-#11  Short offline       Completed without error       00%        75         -
-#12  Short offline       Completed without error       00%        54         -
-#13  Extended offline    Completed without error       00%        33         -
-#14  Short offline       Completed without error       00%        12         -
-#15  Short offline       Completed without error       00%      1165         -
-#16  Short offline       Completed without error       00%      1146         -
-#17  Short offline       Completed without error       00%      1126         -
-#18  Short offline       Completed without error       00%      1106         -
-#19  Short offline       Completed without error       00%      1087         -
+# 1  Short offline       Completed without error       00%      1322         -
+# 2  Extended offline    Completed without error       00%      1299         -
+# 3  Short offline       Completed without error       00%      1275         -
+# 4  Short offline       Completed without error       00%      1252         -
+# 5  Short offline       Completed without error       00%      1230         -
+# 6  Short offline       Completed without error       00%      1211         -
+# 7  Short offline       Completed without error       00%      1193         -
+# 8  Short offline       Completed without error       00%      1174         -
+# 9  Extended offline    Completed without error       00%      1155         -
+#10  Short offline       Completed without error       00%      1136         -
+#11  Short offline       Completed without error       00%      1116         -
+#12  Short offline       Completed without error       00%      1097         -
+#13  Short offline       Completed without error       00%      1078         -
+#14  Short offline       Completed without error       00%      1059         -
+#15  Short offline       Completed without error       00%      1040         -
+#16  Extended offline    Completed without error       00%      1021         -
+#17  Short offline       Completed without error       00%      1002         -
+#18  Short offline       Completed without error       00%       983         -
+#19  Short offline       Completed without error       00%       964         -
 
 Selective Self-tests/Logging not supported
 
@@ -139,8 +139,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           38  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           39  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           50  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           51  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

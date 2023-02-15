@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon May 25 19:54:05 2020 MSK
+Local Time is:    Mon May 25 19:59:39 2020 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -84,9 +84,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain ----CK   090   090   001    -    10
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    7544382857
-247 Host_Program_Page_Count -O--CK   100   100   000    -    120908751
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    443890737
+246 Total_LBAs_Written      -O--CK   100   100   000    -    7545852016
+247 Host_Program_Page_Count -O--CK   100   100   000    -    120931906
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    443992745
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -144,7 +144,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/100 Celsius
-Temperature History Size (Index):    128 (97)
+Temperature History Size (Index):    128 (104)
 
 SCT Error Recovery Control command not supported
 

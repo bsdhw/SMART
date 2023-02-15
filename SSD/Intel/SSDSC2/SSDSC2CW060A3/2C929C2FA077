@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Intel 520 Series SSDs
@@ -11,10 +11,10 @@ User Capacity:    60,022,480,896 bytes [60.0 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Nov 17 11:06:46 2021 PST
+Local Time is:    Sat Oct 15 05:11:22 2022 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,24 +64,24 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   000   000   000    -    927418h+42m+50.730s
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    230
+  9 Power_On_Hours_and_Msec -O--CK   000   000   000    -    934841h+55m+50.460s
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    232
 170 Available_Reservd_Space PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    229
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    231
 184 End-to-End_Error        PO--CK   100   100   090    -    0
-187 Uncorrectable_Error_Cnt POSR--   110   110   050    -    35424777
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    229
-225 Host_Writes_32MiB       -O--CK   100   100   000    -    4001643
+187 Uncorrectable_Error_Cnt POSR--   108   108   050    -    18205549
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    231
+225 Host_Writes_32MiB       -O--CK   100   100   000    -    9999675
 226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    65535
 227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    0
 228 Workload_Minutes        -O--CK   100   100   000    -    65535
 232 Available_Reservd_Space PO--CK   100   100   010    -    0
-233 Media_Wearout_Indicator -O--CK   088   088   000    -    0
-241 Host_Writes_32MiB       -O--CK   100   100   000    -    4001643
-242 Host_Reads_32MiB        -O--CK   100   100   000    -    36302
-249 NAND_Writes_1GiB        PO--C-   100   100   000    -    47014
+233 Media_Wearout_Indicator -O--CK   067   067   000    -    0
+241 Host_Writes_32MiB       -O--CK   100   100   000    -    9999675
+242 Host_Reads_32MiB        -O--CK   100   100   000    -    55719
+249 NAND_Writes_1GiB        PO--C-   100   100   000    -    111482
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -136,7 +136,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/ 0 Celsius
 Min/Max Temperature Limit:            0/ 0 Celsius
-Temperature History Size (Index):    0 (461)
+Temperature History Size (Index):    0 (61)
 Temperature History is empty
 
 SCT Error Recovery Control command not supported
@@ -144,17 +144,17 @@ SCT Error Recovery Control command not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             236  ---  Lifetime Power-On Resets
-0x01  0x010  4           32624  ---  Power-on Hours
-0x01  0x018  6    262386814520  ---  Logical Sectors Written
-0x01  0x028  6      2500885590  ---  Logical Sectors Read
+0x01  0x008  4             238  ---  Lifetime Power-On Resets
+0x01  0x010  4           40046  ---  Power-on Hours
+0x01  0x018  6    655473815999  ---  Logical Sectors Written
+0x01  0x028  6      3773413038  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4            4766  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4            5271  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            4766  ---  Number of Hardware Resets
-0x06  0x010  4            2848  ---  Number of ASR Events
-0x06  0x018  4             281  ---  Number of Interface CRC Errors
+0x06  0x008  4            5271  ---  Number of Hardware Resets
+0x06  0x010  4            3226  ---  Number of ASR Events
+0x06  0x018  4             317  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             255  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -170,9 +170,9 @@ ID      Size     Value  Description
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x0008  2           33  Device-to-host non-data FIS retries
-0x0009  2          305  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2          224  Device-to-host register FISes sent due to a COMRESET
+0x0008  2            2  Device-to-host non-data FIS retries
+0x0009  2           78  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           57  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

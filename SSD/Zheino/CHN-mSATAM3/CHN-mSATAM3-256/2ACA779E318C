@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Feb 11 12:11:20 2021 CST
+Local Time is:    Thu Feb 11 14:18:59 2021 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,26 +61,26 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O----   100   100   050    -    0
-  9 Power_On_Hours          ------   100   100   050    -    83
+  9 Power_On_Hours          ------   100   100   050    -    84
  12 Power_Cycle_Count       ------   100   100   050    -    42
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    66
 162 Unknown_Attribute       ------   100   100   050    -    1
 163 Unknown_Attribute       ------   100   100   050    -    34
-164 Unknown_Attribute       ------   100   100   050    -    5575
+164 Unknown_Attribute       ------   100   100   050    -    5600
 165 Unknown_Attribute       ------   100   100   050    -    10
 166 Unknown_Attribute       ------   100   100   050    -    1
 167 Unknown_Attribute       ------   100   100   050    -    5
 168 Unknown_Attribute       ------   100   100   050    -    3000
 169 Unknown_Attribute       ------   100   100   050    -    100
 192 Power-Off_Retract_Count ------   100   100   050    -    14
-194 Temperature_Celsius     ------   100   100   050    -    43
+194 Temperature_Celsius     ------   100   100   050    -    44
 195 Hardware_ECC_Recovered  ------   100   100   050    -    8
 196 Reallocated_Event_Count ------   100   100   050    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    31358
-242 Total_LBAs_Read         ------   100   100   050    -    1227
-245 Unknown_Attribute       ------   100   100   050    -    38054
+241 Total_LBAs_Written      ------   100   100   050    -    31493
+242 Total_LBAs_Read         ------   100   100   050    -    1228
+245 Unknown_Attribute       ------   100   100   050    -    38225
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -119,18 +119,18 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              42  ---  Lifetime Power-On Resets
-0x01  0x010  4              83  ---  Power-on Hours
-0x01  0x018  6      2055128810  ---  Logical Sectors Written
-0x01  0x020  6        21563402  ---  Number of Write Commands
-0x01  0x028  6        80472651  ---  Logical Sectors Read
-0x01  0x030  6         1695401  ---  Number of Read Commands
+0x01  0x010  4              84  ---  Power-on Hours
+0x01  0x018  6      2063931010  ---  Logical Sectors Written
+0x01  0x020  6        21644003  ---  Number of Write Commands
+0x01  0x028  6        80535187  ---  Logical Sectors Read
+0x01  0x030  6         1696381  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              43  ---  Current Temperature
+0x05  0x008  1              44  ---  Current Temperature
 0x05  0x010  1              79  ---  Average Short Term Temperature
-0x05  0x018  1              91  ---  Average Long Term Temperature
+0x05  0x018  1              92  ---  Average Long Term Temperature
 0x05  0x020  1              47  ---  Highest Temperature
 0x05  0x028  1              21  ---  Lowest Temperature
 0x05  0x030  1              79  ---  Highest Average Short Term Temperature

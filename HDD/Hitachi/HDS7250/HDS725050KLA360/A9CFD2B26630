@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p11 amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p4 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -11,7 +11,7 @@ User Capacity:    500,107,862,016 bytes [500 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Sun Feb 28 11:50:38 2021 PST
+Local Time is:    Sun Mar 14 11:57:05 2021 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -67,12 +67,12 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   100   100   020    -    0
-  9 Power_On_Hours          -O--C-   087   087   000    -    96923
+  9 Power_On_Hours          -O--C-   087   087   000    -    97258
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    3380
-192 Power-Off_Retract_Count -O--CK   075   075   050    -    30744
-193 Load_Cycle_Count        -O--C-   075   075   050    -    30744
-194 Temperature_Celsius     -O----   114   114   000    -    48 (Min/Max 10/56)
+192 Power-Off_Retract_Count -O--CK   075   075   050    -    30758
+193 Load_Cycle_Count        -O--C-   075   075   050    -    30758
+194 Temperature_Celsius     -O----   144   144   000    -    38 (Min/Max 10/56)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0
@@ -106,24 +106,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     31376         -
-# 2  Short offline       Completed without error       00%     31208         -
-# 3  Extended offline    Completed without error       00%     31043         -
-# 4  Short offline       Completed without error       00%     30872         -
-# 5  Short offline       Completed without error       00%     30704         -
-# 6  Short offline       Completed without error       00%     30536         -
-# 7  Short offline       Completed without error       00%     30368         -
-# 8  Extended offline    Completed without error       00%     30299         -
-# 9  Short offline       Completed without error       00%     30213         -
-#10  Short offline       Completed without error       00%     30045         -
-#11  Short offline       Completed without error       00%     29877         -
-#12  Short offline       Completed without error       00%     29709         -
-#13  Extended offline    Completed without error       00%     29568         -
-#14  Short offline       Completed without error       00%     29541         -
-#15  Short offline       Completed without error       00%     29373         -
-#16  Short offline       Completed without error       00%     29212         -
-#17  Short offline       Completed without error       00%     29044         -
-#18  Short offline       Completed without error       00%     28876         -
+# 1  Extended offline    Completed without error       00%     31715         -
+# 2  Short offline       Completed without error       00%     31544         -
+# 3  Short offline       Completed without error       00%     31376         -
+# 4  Short offline       Completed without error       00%     31208         -
+# 5  Extended offline    Completed without error       00%     31043         -
+# 6  Short offline       Completed without error       00%     30872         -
+# 7  Short offline       Completed without error       00%     30704         -
+# 8  Short offline       Completed without error       00%     30536         -
+# 9  Short offline       Completed without error       00%     30368         -
+#10  Extended offline    Completed without error       00%     30299         -
+#11  Short offline       Completed without error       00%     30213         -
+#12  Short offline       Completed without error       00%     30045         -
+#13  Short offline       Completed without error       00%     29877         -
+#14  Short offline       Completed without error       00%     29709         -
+#15  Extended offline    Completed without error       00%     29568         -
+#16  Short offline       Completed without error       00%     29541         -
+#17  Short offline       Completed without error       00%     29373         -
+#18  Short offline       Completed without error       00%     29212         -
 
 Warning! SMART Selective Self-Test Log Structure error: invalid SMART checksum.
 SMART Selective self-test log data structure revision number 1
@@ -140,8 +140,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    48 Celsius
-Power Cycle Min/Max Temperature:     --/49 Celsius
+Current Temperature:                    38 Celsius
+Power Cycle Min/Max Temperature:     --/51 Celsius
 Lifetime    Min/Max Temperature:     --/56 Celsius
 
 SCT Temperature History Version:     2
@@ -149,7 +149,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/60 Celsius
 Min/Max Temperature Limit:           -40/65 Celsius
-Temperature History Size (Index):    128 (108)
+Temperature History Size (Index):    128 (120)
 
 SCT Error Recovery Control:
            Read: Disabled

@@ -1,4 +1,4 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p22-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Feb 18 11:30:54 2022 CET
+Local Time is:    Mon Feb 28 12:03:52 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,8 +63,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    13008
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    102
+  9 Power_On_Hours          -O--C-   100   100   000    -    13249
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    103
 161 Unknown_Attribute       -O--C-   100   100   000    -    145
 163 Unknown_Attribute       PO----   100   100   050    -    61
 165 Unknown_Attribute       ------   100   100   000    -    57
@@ -77,8 +77,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 196 Reallocated_Event_Count ------   100   100   000    -    0
 198 Offline_Uncorrectable   -O--C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    3003
-242 Total_LBAs_Read         -O--C-   100   100   000    -    153
+241 Total_LBAs_Written      -O--C-   100   100   000    -    3118
+242 Total_LBAs_Read         -O--C-   100   100   000    -    163
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -106,7 +106,8 @@ SMART Extended Comprehensive Error Log Version: 1 (64 sectors)
 No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%     13226         -
 
 SMART Selective self-test log data structure revision number 0
 Note: revision number not 1 implies that no selective self-test has ever been run
@@ -125,10 +126,10 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             102  ---  Lifetime Power-On Resets
-0x01  0x010  4           13008  ---  Power-on Hours
-0x01  0x018  6      6299010299  ---  Logical Sectors Written
-0x01  0x028  6       322838478  ---  Logical Sectors Read
+0x01  0x008  4             103  ---  Lifetime Power-On Resets
+0x01  0x010  4           13249  ---  Power-on Hours
+0x01  0x018  6      6540884843  ---  Logical Sectors Written
+0x01  0x028  6       342044813  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
@@ -153,8 +154,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           35  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           36  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           17  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           18  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

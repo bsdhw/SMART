@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     WD Blue / Red / Green SSDs
@@ -12,10 +12,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Mar 29 09:37:25 2022 EDT
+Local Time is:    Wed Feb  8 14:50:38 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,29 +60,29 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    8036
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    1687
-165 Block_Erase_Count       -O--CK   100   100   000    -    4806
-166 Minimum_PE_Cycles_TLC   -O--CK   100   100   ---    -    50
+  9 Power_On_Hours          -O--CK   100   100   000    -    11154
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    2213
+165 Block_Erase_Count       -O--CK   100   100   000    -    5817
+166 Minimum_PE_Cycles_TLC   -O--CK   100   100   ---    -    62
 167 Max_Bad_Blocks_per_Die  -O--CK   100   100   ---    -    0
-168 Maximum_PE_Cycles_TLC   -O--CK   100   100   ---    -    79
+168 Maximum_PE_Cycles_TLC   -O--CK   100   100   ---    -    90
 169 Total_Bad_Blocks        -O--CK   100   100   ---    -    187
 170 Grown_Bad_Blocks        -O--CK   100   100   ---    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-173 Average_PE_Cycles_TLC   -O--CK   100   100   000    -    50
-174 Unexpected_Power_Loss   -O--CK   100   100   000    -    461
+173 Average_PE_Cycles_TLC   -O--CK   100   100   000    -    62
+174 Unexpected_Power_Loss   -O--CK   100   100   000    -    533
 184 End-to-End_Error        -O--CK   100   100   ---    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   ---    -    0
-194 Temperature_Celsius     -O---K   054   053   000    -    46 (Min/Max 21/53)
+194 Temperature_Celsius     -O---K   059   053   000    -    41 (Min/Max 20/53)
 199 UDMA_CRC_Error_Count    -O--CK   100   100   ---    -    0
-230 Media_Wearout_Indicator -O--CK   100   100   000    -    0x0d490a000d49
+230 Media_Wearout_Indicator -O--CK   100   100   000    -    0x103e0c28103e
 232 Available_Reservd_Space PO--CK   100   100   005    -    100
-233 NAND_GB_Written_TLC     -O--CK   100   100   ---    -    5938
-234 NAND_GB_Written_SLC     -O--CK   100   100   000    -    26734
-241 Host_Writes_GiB         ----CK   100   100   000    -    9365
-242 Host_Reads_GiB          ----CK   100   100   000    -    13958
+233 NAND_GB_Written_TLC     -O--CK   100   100   ---    -    7414
+234 NAND_GB_Written_SLC     -O--CK   100   100   000    -    32361
+241 Host_Writes_GiB         ----CK   100   100   000    -    11289
+242 Host_Reads_GiB          ----CK   100   100   000    -    15040
 244 Temp_Throttle_Status    -O--CK   000   100   ---    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -276,13 +276,13 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1687  ---  Lifetime Power-On Resets
-0x01  0x010  4            8036  ---  Power-on Hours
-0x01  0x018  6     19641540317  ---  Logical Sectors Written
-0x01  0x028  6     29272507283  ---  Logical Sectors Read
-0x01  0x038  6            8037  ---  Date and Time TimeStamp
+0x01  0x008  4            2213  ---  Lifetime Power-On Resets
+0x01  0x010  4           11154  ---  Power-on Hours
+0x01  0x018  6     23675682780  ---  Logical Sectors Written
+0x01  0x028  6     31543170795  ---  Logical Sectors Read
+0x01  0x038  6           11155  ---  Date and Time TimeStamp
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              46  ---  Current Temperature
+0x05  0x008  1              41  ---  Current Temperature
 0x05  0x010  1               -  ---  Average Short Term Temperature
 0x05  0x018  1               -  ---  Average Long Term Temperature
 0x05  0x020  1              53  ---  Highest Temperature
@@ -296,7 +296,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              10  N--  Percentage Used Endurance Indicator
+0x07  0x008  1              12  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -309,8 +309,8 @@ ID      Size     Value  Description
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x0009  2            8  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            8  Device-to-host register FISes sent due to a COMRESET
+0x0009  2           12  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           12  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
 0x0001  2            0  Command failed due to ICRC error

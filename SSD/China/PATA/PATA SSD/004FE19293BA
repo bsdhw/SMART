@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p4 i386] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p6 i386] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -9,7 +9,7 @@ User Capacity:    7,717,183,488 bytes [7.71 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA/ATAPI-5 (minor revision not indicated)
-Local Time is:    Sun Mar 28 18:47:22 2021 EEST
+Local Time is:    Sun May 16 20:27:08 2021 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -40,11 +40,11 @@ Error logging capability:        (0x00)	Error logging NOT supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-232 Available_Reservd_Space -O----   082   082   002    -    82
-233 Media_Wearout_Indicator -O----   100   100   000    -    7531014
+232 Available_Reservd_Space -O----   081   081   002    -    81
+233 Media_Wearout_Indicator -O----   100   100   000    -    7731227
 234 Unknown_Attribute       -O----   100   100   000    -    0
 235 Unknown_Attribute       -O----   253   253   003    -    99
-  9 Power_On_Hours          -O----   044   044   000    -    2091
+  9 Power_On_Hours          -O----   100   100   000    -    2147
 203 Run_Out_Cancel          -O----   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count

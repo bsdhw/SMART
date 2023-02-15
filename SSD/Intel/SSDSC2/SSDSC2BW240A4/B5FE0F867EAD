@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Nov 23 20:18:12 2021 CET
+Local Time is:    Thu Jan 20 19:24:46 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,8 +58,8 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       18813h+27m+23.290s
- 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       1588
+  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       19391h+40m+22.040s
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       1657
 170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
@@ -67,44 +67,44 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       208
 184 End-to-End_Error        0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   031   054   000    Old_age   Always       -       31 (Min/Max 19/54)
+190 Airflow_Temperature_Cel 0x0032   029   054   000    Old_age   Always       -       29 (Min/Max 19/54)
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       70
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1371936
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1412336
 226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       65535
 227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       38
 228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       65535
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   074   074   000    Old_age   Always       -       0
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1371936
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       856742
-249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       181783
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1412336
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       874957
+249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       182870
 
 SMART Error Log not supported
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Offline             Interrupted (host reset)      10%     18811         -
-# 2  Offline             Interrupted (host reset)      10%     18809         -
-# 3  Offline             Interrupted (host reset)      10%     18774         -
-# 4  Offline             Interrupted (host reset)      10%     18772         -
-# 5  Offline             Interrupted (host reset)      10%     18764         -
-# 6  Offline             Interrupted (host reset)      10%     18757         -
-# 7  Offline             Interrupted (host reset)      10%     18751         -
-# 8  Offline             Interrupted (host reset)      10%     18745         -
-# 9  Offline             Interrupted (host reset)      10%     18739         -
-#10  Offline             Interrupted (host reset)      10%     18725         -
-#11  Offline             Interrupted (host reset)      10%     18720         -
-#12  Offline             Interrupted (host reset)      10%     18720         -
-#13  Offline             Interrupted (host reset)      10%     18720         -
-#14  Offline             Interrupted (host reset)      10%     18720         -
-#15  Offline             Interrupted (host reset)      10%     18712         -
-#16  Offline             Interrupted (host reset)      10%     18705         -
-#17  Offline             Interrupted (host reset)      10%     18698         -
-#18  Offline             Interrupted (host reset)      10%     18692         -
-#19  Offline             Interrupted (host reset)      10%     18686         -
-#20  Offline             Interrupted (host reset)      10%     18680         -
-#21  Offline             Interrupted (host reset)      10%     18667         -
+# 1  Offline             Interrupted (host reset)      10%     19390         -
+# 2  Offline             Interrupted (host reset)      10%     19387         -
+# 3  Offline             Interrupted (host reset)      10%     19384         -
+# 4  Offline             Interrupted (host reset)      10%     19382         -
+# 5  Offline             Interrupted (host reset)      10%     19382         -
+# 6  Offline             Interrupted (host reset)      10%     19373         -
+# 7  Offline             Interrupted (host reset)      10%     19358         -
+# 8  Offline             Interrupted (host reset)      10%     19358         -
+# 9  Offline             Interrupted (host reset)      10%     19357         -
+#10  Offline             Interrupted (host reset)      10%     19351         -
+#11  Offline             Interrupted (host reset)      10%     19345         -
+#12  Offline             Interrupted (host reset)      10%     19339         -
+#13  Offline             Interrupted (host reset)      10%     19333         -
+#14  Offline             Interrupted (host reset)      10%     19327         -
+#15  Offline             Interrupted (host reset)      10%     19313         -
+#16  Offline             Interrupted (host reset)      10%     19298         -
+#17  Offline             Interrupted (host reset)      10%     19290         -
+#18  Offline             Interrupted (host reset)      10%     19279         -
+#19  Offline             Interrupted (host reset)      10%     19276         -
+#20  Offline             Interrupted (host reset)      10%     19269         -
+#21  Offline             Interrupted (host reset)      10%     19263         -
 
 SMART Selective self-test log data structure revision number 0
 Note: revision number not 1 implies that no selective self-test has ever been run

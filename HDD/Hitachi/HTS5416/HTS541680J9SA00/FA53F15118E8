@@ -11,7 +11,7 @@ User Capacity:    80,026,361,856 bytes [80.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Wed Mar  9 14:34:09 2022 EST
+Local Time is:    Mon Jul  4 11:21:11 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -61,20 +61,20 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   062    -    0
-  2 Throughput_Performance  P-S---   107   107   040    -    4479
+  2 Throughput_Performance  P-S---   106   106   040    -    4518
   3 Spin_Up_Time            POS---   253   253   033    -    0
-  4 Start_Stop_Count        -O--C-   082   082   000    -    29040
+  4 Start_Stop_Count        -O--C-   082   082   000    -    29897
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   128   128   040    -    36
-  9 Power_On_Hours          -O--C-   030   030   000    -    30761
+  9 Power_On_Hours          -O--C-   028   028   000    -    31585
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
- 12 Power_Cycle_Count       -O--CK   093   093   000    -    11044
+ 12 Power_Cycle_Count       -O--CK   093   093   000    -    11501
 191 G-Sense_Error_Rate      -O-R--   100   100   000    -    0
-192 Power-Off_Retract_Count -O--CK   098   098   000    -    519
-193 Load_Cycle_Count        -O--C-   001   001   000    -    3295860
-194 Temperature_Celsius     -O----   157   157   000    -    35 (Min/Max 12/54)
-195 Hardware_ECC_Recovered  -O-R--   100   100   000    -    0
+192 Power-Off_Retract_Count -O--CK   097   097   000    -    619
+193 Load_Cycle_Count        -O--C-   001   001   000    -    3306756
+194 Temperature_Celsius     -O----   183   183   000    -    30 (Min/Max 12/54)
+195 Hardware_ECC_Recovered  -O-R--   100   100   000    -    2
 196 Reallocated_Event_Count -O--CK   100   100   000    -    9
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0
@@ -188,10 +188,24 @@ Error 671 [2] occurred at disk power-on lifetime: 29532 hours (1230 days + 12 ho
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     28003         -
-# 2  Short offline       Completed without error       00%      5779         -
-# 3  Short offline       Completed without error       00%      4787         -
-# 4  Short offline       Completed without error       00%      4626         -
+# 1  Short offline       Completed without error       00%     31327         -
+# 2  Short offline       Completed without error       00%     31326         -
+# 3  Short offline       Completed without error       00%     31314         -
+# 4  Short offline       Completed without error       00%     31305         -
+# 5  Short offline       Completed without error       00%     31268         -
+# 6  Short offline       Interrupted (host reset)      40%     31195         -
+# 7  Extended offline    Interrupted (host reset)      60%     31178         -
+# 8  Short offline       Completed without error       00%     31116         -
+# 9  Short offline       Completed without error       00%     31040         -
+#10  Short offline       Completed without error       00%     31038         -
+#11  Short offline       Completed without error       00%     31023         -
+#12  Short offline       Completed without error       00%     31021         -
+#13  Extended offline    Interrupted (host reset)      30%     30944         -
+#14  Short offline       Completed without error       00%     30872         -
+#15  Short offline       Completed without error       00%     30869         -
+#16  Short offline       Completed without error       00%     30844         -
+#17  Short offline       Completed without error       00%     30835         -
+#18  Short offline       Completed without error       00%     30822         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -207,8 +221,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    35 Celsius
-Power Cycle Min/Max Temperature:     --/36 Celsius
+Current Temperature:                    30 Celsius
+Power Cycle Min/Max Temperature:     --/30 Celsius
 Lifetime    Min/Max Temperature:     --/54 Celsius
 
 Unexpected SCT status 0x0000 (action_code=5, function_code=0)
@@ -225,8 +239,8 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x0009  2           12  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            4  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            2  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 

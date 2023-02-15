@@ -10,7 +10,7 @@ User Capacity:    320,072,933,376 bytes [320 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Thu Nov  4 01:42:24 2021 EDT
+Local Time is:    Tue Nov  9 05:56:37 2021 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -19,7 +19,8 @@ Rd look-ahead is: Enabled
 Write cache is:   Enabled
 DSN feature is:   Unavailable
 ATA Security is:  Unavailable
-Unexpected SCT status 0xffff (action_code=4, function_code=2)
+Another SCT command is executing, abort Feature Control
+(SCT ext_status_code 0xffff, action_code=4, function_code=2)
 Wt Cache Reorder: Unknown (SCT Feature Control command failed)
 
 === START OF READ SMART DATA SECTION ===
@@ -63,16 +64,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            -O----   096   095   000    -    0
   4 Start_Stop_Count        PO--CK   099   099   020    -    1098
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   052   051   030    -    10621797482143
-  9 Power_On_Hours          -O--CK   089   089   000    -    9913
+  7 Seek_Error_Rate         POSR--   052   051   030    -    10621802050374
+  9 Power_On_Hours          -O--CK   089   089   000    -    10038
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       PO--CK   099   099   020    -    1090
 184 End-to-End_Error        PO--CK   100   253   097    -    0
 187 Reported_Uncorrect      -O-RCK   100   100   000    -    0
 189 High_Fly_Writes         -O---K   100   100   000    -    0
-190 Airflow_Temperature_Cel -O-RC-   068   045   000    -    32 (Min/Max 27/43)
-194 Temperature_Celsius     ------   032   055   000    -    32 (0 13 0 0 0)
-195 Hardware_ECC_Recovered  -O--CK   049   048   000    -    40339156
+190 Airflow_Temperature_Cel -O-RC-   066   045   000    -    34 (Min/Max 27/43)
+194 Temperature_Celsius     ------   034   055   000    -    34 (0 13 0 0 0)
+195 Hardware_ECC_Recovered  -O--CK   052   048   000    -    192006552
 197 Current_Pending_Sector  ------   100   100   000    -    0
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   200   200   000    -    0
@@ -130,7 +131,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       521 (0x0209)
 Device State:                        Active (0)
-Current Temperature:                    32 Celsius
+Current Temperature:                    34 Celsius
 Power Cycle Min/Max Temperature:     --/46 Celsius
 Lifetime    Min/Max Temperature:     --/55 Celsius
 

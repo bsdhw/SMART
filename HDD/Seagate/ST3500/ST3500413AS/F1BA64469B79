@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Apr  4 19:08:04 2022 MSK
+Local Time is:    Mon Apr 25 09:09:28 2022 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     208 (intermediate), recommended: 208
@@ -64,12 +64,12 @@ SCT capabilities: 	       (0x103f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   093   092   006    -    169138478
+  1 Raw_Read_Error_Rate     POSR--   093   092   006    -    169187332
   3 Spin_Up_Time            PO----   100   100   000    -    0
   4 Start_Stop_Count        -O--CK   100   100   020    -    77
-  5 Reallocated_Sector_Ct   PO--CK   091   091   036    -    396
-  7 Seek_Error_Rate         POSR--   088   060   030    -    759212182
-  9 Power_On_Hours          -O--CK   096   011   000    -    4124
+  5 Reallocated_Sector_Ct   PO--CK   091   091   036    -    400
+  7 Seek_Error_Rate         POSR--   088   060   030    -    759232387
+  9 Power_On_Hours          -O--CK   095   011   000    -    4618
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   100   020    -    77
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
@@ -79,13 +79,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 189 High_Fly_Writes         -O-RCK   095   095   000    -    5
 190 Airflow_Temperature_Cel -O---K   078   057   045    -    22 (Min/Max 20/43)
 194 Temperature_Celsius     -O---K   022   043   000    -    22 (0 13 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   022   011   000    -    169138478
+195 Hardware_ECC_Recovered  -O-RC-   022   011   000    -    169187332
 197 Current_Pending_Sector  -O--C-   081   081   000    -    803
 198 Offline_Uncorrectable   ----C-   081   081   000    -    803
 199 UDMA_CRC_Error_Count    -OSRCK   200   199   000    -    16406
-240 Head_Flying_Hours       ------   100   253   000    -    82475 (57 94 0)
+240 Head_Flying_Hours       ------   100   253   000    -    82969 (122 85 0)
 241 Total_LBAs_Written      ------   100   253   000    -    312636200
-242 Total_LBAs_Read         ------   100   253   000    -    3689035526
+242 Total_LBAs_Read         ------   100   253   000    -    3689038254
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -283,7 +283,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        59 minutes
 Min/Max recommended Temperature:     14/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (98)
+Temperature History Size (Index):    128 (89)
 
 SCT Error Recovery Control:
            Read: Disabled

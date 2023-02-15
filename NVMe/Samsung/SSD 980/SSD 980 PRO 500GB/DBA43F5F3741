@@ -12,10 +12,10 @@ Unallocated NVM Capacity:           0
 Controller ID:                      6
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
-Namespace 1 Utilization:            127,654,752,256 [127 GB]
+Namespace 1 Utilization:            87,323,172,864 [87.3 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Thu Mar 11 05:10:12 2021 EST
+Local Time is:                      Mon Mar 15 06:56:43 2021 EDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0057):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat Timestmp
@@ -44,20 +44,20 @@ Temperature:                        33 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    1,140,518 [583 GB]
-Data Units Written:                 1,371,307 [702 GB]
-Host Read Commands:                 8,933,515
-Host Write Commands:                6,233,386
-Controller Busy Time:               26
-Power Cycles:                       222
-Power On Hours:                     57
-Unsafe Shutdowns:                   38
+Data Units Read:                    1,925,688 [985 GB]
+Data Units Written:                 1,990,119 [1.01 TB]
+Host Read Commands:                 12,355,361
+Host Write Commands:                9,238,513
+Controller Busy Time:               66
+Power Cycles:                       256
+Power On Hours:                     65
+Unsafe Shutdowns:                   54
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               33 Celsius
-Temperature Sensor 2:               38 Celsius
+Temperature Sensor 2:               39 Celsius
 
 Error Information (NVMe Log 0x01, max 64 entries)
 No Errors Logged
