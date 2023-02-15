@@ -18,4 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Silico... | SP-mSATA-64G       | 64 GB  | 1       | 976   | 0     | 2.68   |
-| Silico... | SP128GISSD301SV0   | 128 GB | 1       | 117   | 0     | 0.32   |
+| Silico... | SP128GISSD301SV0   | 128 GB | 1       | 133   | 0     | 0.37   |

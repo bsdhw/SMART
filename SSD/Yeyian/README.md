@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Yeyian    | VALK 3000          | 250 GB | 2       | 24    | 0     | 0.07   |
+| Yeyian    | VALK 3000          | 250 GB | 2       | 56    | 0     | 0.15   |

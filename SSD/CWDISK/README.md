@@ -18,4 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | CWDISK    | SSD                | 32 GB  | 1       | 455   | 0     | 1.25   |
-| CWDISK    | SSD                | 128 GB | 4       | 2     | 0     | 0.01   |
+| CWDISK    | SSD                | 128 GB | 4       | 3     | 0     | 0.01   |

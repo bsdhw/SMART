@@ -31,7 +31,7 @@ MTBF - avg. MTBF in years per sample.
 | Innodisk  | DEMSR- 16GB mSA... | 16 GB  | 1       | 748   | 0     | 2.05   |
 | Innodisk  | Corp. mSATA 3SE... | 2 GB   | 1       | 617   | 0     | 1.69   |
 | Innodisk  | Corp. - mSATA 3IE3 | 64 GB  | 1       | 523   | 0     | 1.44   |
-| Innodisk  | DEMSR- 16GB mSA... | 16 GB  | 4       | 439   | 0     | 1.20   |
+| Innodisk  | DEMSR- 16GB mSA... | 16 GB  | 4       | 441   | 0     | 1.21   |
 | Innodisk  | mSATA mini 3ME4    | 64 GB  | 1       | 411   | 0     | 1.13   |
 | Innodisk  | Corp. - mSATA 3ME3 | 32 GB  | 3       | 215   | 0     | 0.59   |
 | Innodisk  | Corp. DRPS-16GJ... | 16 GB  | 1       | 187   | 0     | 0.51   |
@@ -60,6 +60,6 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Innodisk  | 1IE3/3IE3/3ME3/3IE4... | 5      | 7       | 534   | 0     | 1.46   |
 | Innodisk  | 3IE3/3ME3/3ME4 SSDs    | 1      | 1       | 411   | 0     | 1.13   |
-| Innodisk  | Unknown                | 12     | 29      | 379   | 0     | 1.04   |
+| Innodisk  | Unknown                | 12     | 29      | 380   | 0     | 1.04   |
 | Innodisk  | 3IE2/3ME2/3MG2/3SE2... | 2      | 2       | 97    | 8     | 0.03   |
 | Innodisk  | 3IE2/3ME2/3MG2/3SE2... | 1      | 1       | 3     | 0     | 0.01   |

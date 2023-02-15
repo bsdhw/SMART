@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| KimMiDi   | T900 SSD           | 128 GB | 1       | 23    | 0     | 0.06   |
+| KimMiDi   | T900 SSD           | 128 GB | 1       | 186   | 0     | 0.51   |

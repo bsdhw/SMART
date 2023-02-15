@@ -34,7 +34,7 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | SP600              | 128 GB | 1       | 813   | 0     | 2.23   |
 | ADATA     | SSD S599           | 40 GB  | 1       | 802   | 0     | 2.20   |
 | ADATA     | SP600              | 64 GB  | 2       | 683   | 0     | 1.87   |
-| ADATA     | IM2S3134N-064GM    | 64 GB  | 19      | 635   | 0     | 1.74   |
+| ADATA     | IM2S3134N-064GM    | 64 GB  | 19      | 637   | 0     | 1.75   |
 | ADATA     | IMSS314-064GB      | 64 GB  | 1       | 549   | 0     | 1.51   |
 | ADATA     | SU630              | 960 GB | 1       | 494   | 0     | 1.35   |
 | ADATA     | SP900              | 128 GB | 7       | 493   | 0     | 1.35   |
@@ -44,23 +44,23 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | SSD S511           | 64 GB  | 1       | 286   | 0     | 0.78   |
 | ADATA     | SU650              | 960 GB | 2       | 358   | 145   | 0.76   |
 | ADATA     | SU650              | 480 GB | 3       | 248   | 0     | 0.68   |
-| ADATA     | SU650              | 120 GB | 31      | 284   | 44    | 0.60   |
+| ADATA     | SU655              | 120 GB | 2       | 235   | 0     | 0.65   |
+| ADATA     | SU650              | 120 GB | 31      | 291   | 44    | 0.62   |
+| ADATA     | SU800              | 256 GB | 10      | 207   | 201   | 0.56   |
 | ADATA     | SU800NS38          | 256 GB | 2       | 204   | 0     | 0.56   |
-| ADATA     | SU655              | 120 GB | 2       | 197   | 0     | 0.54   |
-| ADATA     | SU800              | 256 GB | 10      | 187   | 201   | 0.51   |
 | ADATA     | SU630              | 240 GB | 16      | 203   | 2     | 0.49   |
 | ADATA     | SU800              | 1 TB   | 3       | 318   | 15    | 0.49   |
-| ADATA     | SU650              | 240 GB | 14      | 127   | 0     | 0.35   |
+| ADATA     | SU800              | 128 GB | 10      | 162   | 1     | 0.39   |
+| ADATA     | SU650              | 240 GB | 14      | 132   | 0     | 0.36   |
 | ADATA     | SU750              | 256 GB | 2       | 122   | 0     | 0.34   |
-| ADATA     | SU800              | 128 GB | 10      | 143   | 1     | 0.34   |
 | ADATA     | SU810NS38 SATA ... | 256 GB | 1       | 117   | 0     | 0.32   |
 | ADATA     | SU700              | 240 GB | 1       | 114   | 0     | 0.31   |
 | ADATA     | SSD S510           | 120 GB | 1       | 1879  | 18    | 0.27   |
 | ADATA     | SU635              | 240 GB | 4       | 97    | 0     | 0.27   |
 | ADATA     | IM2S3144-030GK     | 32 GB  | 1       | 87    | 0     | 0.24   |
+| ADATA     | SU630              | 480 GB | 2       | 47    | 0     | 0.13   |
 | ADATA     | SU800              | 512 GB | 3       | 43    | 0     | 0.12   |
 | ADATA     | ASU800SS-128GT     | 128 GB | 2       | 39    | 0     | 0.11   |
-| ADATA     | SU630              | 480 GB | 2       | 29    | 0     | 0.08   |
 | ADATA     | SP550              | 240 GB | 1       | 155   | 6     | 0.06   |
 | ADATA     | ASU800SS-256GT-2   | 256 GB | 1       | 19    | 0     | 0.05   |
 | ADATA     | SU655              | 240 GB | 1       | 18    | 0     | 0.05   |
@@ -70,9 +70,9 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | SU650NS38          | 256 GB | 1       | 8     | 0     | 0.02   |
 | ADATA     | ASU800SS-256GT     | 256 GB | 1       | 108   | 17    | 0.02   |
 | ADATA     | ICFS332-016GW      | 16 GB  | 1       | 0     | 0     | 0.00   |
-| ADATA     | SX300              | 128 GB | 2       | 21    | 525   | 0.00   |
+| ADATA     | SX300              | 128 GB | 2       | 22    | 525   | 0.00   |
 | ADATA     | XM13               | 32 GB  | 1       | 347   | 1029  | 0.00   |
-| ADATA     | SP550              | 480 GB | 1       | 4     | 1275  | 0.00   |
+| ADATA     | SP550              | 480 GB | 1       | 4     | 1326  | 0.00   |
 
 SSD by Family
 -------------
@@ -90,5 +90,5 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | JMicron based SSDs     | 4      | 6       | 1280  | 0     | 3.51   |
 | ADATA     | JMicron/Maxiotek ba... | 3      | 4       | 1145  | 0     | 3.14   |
 | ADATA     | SandForce Driven SSDs  | 7      | 17      | 792   | 26    | 1.79   |
-| ADATA     | Unknown                | 22     | 64      | 323   | 34    | 0.85   |
-| ADATA     | Silicon Motion base... | 14     | 83      | 205   | 60    | 0.47   |
+| ADATA     | Unknown                | 22     | 64      | 325   | 34    | 0.85   |
+| ADATA     | Silicon Motion base... | 14     | 83      | 214   | 61    | 0.49   |

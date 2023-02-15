@@ -26,7 +26,7 @@ MTBF - avg. MTBF in years per sample.
 | Goodram   | SSDPR-CX300-120    | 120 GB | 1       | 1283  | 0     | 3.52   |
 | Goodram   | SSD                | 240 GB | 4       | 983   | 0     | 2.70   |
 | Goodram   | SSD                | 64 GB  | 1       | 820   | 0     | 2.25   |
-| Goodram   | SSD                | 120 GB | 6       | 741   | 0     | 2.03   |
+| Goodram   | SSD                | 120 GB | 6       | 775   | 0     | 2.12   |
 | Goodram   | SSDPR-CX400-128    | 128 GB | 3       | 657   | 0     | 1.80   |
 | Goodram   | IRIDIUM PRO        | 120 GB | 1       | 599   | 0     | 1.64   |
 | Goodram   | IRP-SSDPR-S25C-256 | 256 GB | 1       | 478   | 0     | 1.31   |
@@ -54,6 +54,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Goodram   | Phison Driven OEM SSDs | 3      | 11      | 836   | 0     | 2.29   |
+| Goodram   | Phison Driven OEM SSDs | 3      | 11      | 855   | 0     | 2.34   |
 | Goodram   | Phison Driven SSDs     | 4      | 9       | 453   | 0     | 1.24   |
 | Goodram   | Unknown                | 10     | 19      | 165   | 0     | 0.45   |
