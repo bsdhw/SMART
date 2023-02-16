@@ -27,8 +27,8 @@ MTBF - avg. MTBF in years per sample.
 | Dogfish   | SSD                | 240 GB | 1       | 259   | 0     | 0.71   |
 | Dogfish   | SSD                | 480 GB | 1       | 680   | 2     | 0.62   |
 | Dogfish   | SSD                | 512 GB | 5       | 180   | 0     | 0.49   |
-| Dogfish   | SSD                | 64 GB  | 7       | 150   | 0     | 0.41   |
-| Dogfish   | SSD                | 128 GB | 16      | 168   | 1     | 0.41   |
+| Dogfish   | SSD                | 128 GB | 16      | 176   | 1     | 0.43   |
+| Dogfish   | SSD                | 64 GB  | 7       | 151   | 0     | 0.41   |
 | Dogfish   | SSD                | 256 GB | 11      | 116   | 0     | 0.32   |
 | Dogfish   | SSD                | 120 GB | 1       | 121   | 2     | 0.11   |
 | Dogfish   | SSD                | 64 GB  | 1       | 26    | 0     | 0.07   |
@@ -50,4 +50,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Dogfish   | Unknown                | 9      | 15      | 190   | 1     | 0.42   |
-| Dogfish   | Silicon Motion base... | 3      | 32      | 152   | 1     | 0.39   |
+| Dogfish   | Silicon Motion base... | 3      | 32      | 156   | 1     | 0.40   |

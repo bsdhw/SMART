@@ -48,7 +48,7 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | HD250HJ            | 250 GB | 2       | 1028  | 1211  | 1.49   |
 | Samsung   | HD161HJ            | 160 GB | 7       | 755   | 377   | 1.27   |
 | Samsung   | HM320II            | 320 GB | 4       | 771   | 2     | 0.94   |
-| Samsung   | HM321HI            | 320 GB | 6       | 372   | 145   | 0.94   |
+| Samsung   | HM321HI            | 320 GB | 6       | 373   | 145   | 0.94   |
 | Samsung   | HE161HJ            | 160 GB | 1       | 310   | 0     | 0.85   |
 | Samsung   | HN-M101MBB         | 1 TB   | 2       | 255   | 0     | 0.70   |
 | Samsung   | HD403LJ            | 400 GB | 1       | 254   | 0     | 0.70   |
@@ -100,7 +100,7 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | SpinPoint S250         | 1      | 2       | 1028  | 1211  | 1.49   |
 | Samsung   | SpinPoint S166         | 2      | 8       | 674   | 457   | 1.11   |
 | Samsung   | SpinPoint P120         | 3      | 4       | 1295  | 257   | 0.97   |
-| Samsung   | SpinPoint M7E (AF)     | 2      | 7       | 324   | 124   | 0.81   |
+| Samsung   | SpinPoint M7E (AF)     | 2      | 7       | 324   | 124   | 0.82   |
 | Samsung   | SpinPoint P80          | 1      | 1       | 234   | 0     | 0.64   |
 | Samsung   | SpinPoint M8 (AF)      | 2      | 3       | 203   | 0     | 0.56   |
 | Samsung   | SpinPoint F4           | 2      | 2       | 843   | 7     | 0.31   |

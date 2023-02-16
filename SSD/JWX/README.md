@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| JWX       | MSATA              | 128 GB | 1       | 200   | 0     | 0.55   |
+| JWX       | MSATA              | 128 GB | 1       | 201   | 0     | 0.55   |

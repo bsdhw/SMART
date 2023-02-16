@@ -20,9 +20,9 @@ MTBF - avg. MTBF in years per sample.
 | Intel     | SSDPEDMW400G4      | 400 GB | 2       | 1410  | 0     | 3.86   |
 | Intel     | SSDPEDME016T4S     | 1.6 TB | 1       | 1203  | 0     | 3.30   |
 | Intel     | SSDPE2MX450G7      | 450 GB | 2       | 1077  | 0     | 2.95   |
-| Intel     | SSDPED1D280GA      | 280 GB | 2       | 1027  | 0     | 2.81   |
+| Intel     | SSDPED1D280GA      | 280 GB | 2       | 1036  | 0     | 2.84   |
 | Intel     | SSDPEKKF256G7L     | 256 GB | 1       | 827   | 0     | 2.27   |
-| Intel     | SSDPED1D480GA      | 480 GB | 1       | 597   | 0     | 1.64   |
+| Intel     | SSDPED1D480GA      | 480 GB | 1       | 609   | 0     | 1.67   |
 | Intel     | SSDPE21D280GA      | 280 GB | 2       | 543   | 0     | 1.49   |
 | Intel     | SSDPEKNW010T8H     | 1 TB   | 1       | 494   | 0     | 1.36   |
 | Intel     | SSDPEKKW128G8      | 128 GB | 2       | 494   | 0     | 1.35   |
@@ -50,7 +50,7 @@ MTBF - avg. MTBF in years per sample.
 | Intel     | HBRPEKNX0203AH     | 1 TB   | 1       | 52    | 0     | 0.14   |
 | Intel     | SSDPEK1A118GA      | 118 GB | 1       | 26    | 0     | 0.07   |
 | Intel     | SSDPEKNW010T9      | 1 TB   | 1       | 25    | 0     | 0.07   |
-| Intel     | SSDPEKNU512GZ      | 512 GB | 2       | 7     | 0     | 0.02   |
+| Intel     | SSDPEKNU512GZ      | 512 GB | 2       | 8     | 0     | 0.02   |
 | Intel     | MEMPEK1J016GAL     | 16 GB  | 1       | 3     | 0     | 0.01   |
 | Intel     | 670p SSDPEKNU51... | 512 GB | 1       | 2     | 0     | 0.01   |
 | Intel     | SSDPEKKW010T7      | 1 TB   | 1       | 0     | 0     | 0.00   |

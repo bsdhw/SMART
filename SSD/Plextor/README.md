@@ -26,7 +26,7 @@ MTBF - avg. MTBF in years per sample.
 | Plextor   | PX-512M5Pro        | 512 GB | 1       | 1381  | 0     | 3.79   |
 | Plextor   | PH6-CE120          | 120 GB | 1       | 864   | 0     | 2.37   |
 | Plextor   | PH6-CE120-G        | 120 GB | 1       | 804   | 0     | 2.20   |
-| Plextor   | PX-64G5Le          | 64 GB  | 1       | 791   | 0     | 2.17   |
+| Plextor   | PX-64G5Le          | 64 GB  | 1       | 793   | 0     | 2.17   |
 | Plextor   | PX-128M7VC         | 128 GB | 1       | 671   | 0     | 1.84   |
 | Plextor   | PX-AG256M6e        | 256 GB | 1       | 576   | 0     | 1.58   |
 | Plextor   | PX-64G7Me          | 64 GB  | 1       | 489   | 0     | 1.34   |

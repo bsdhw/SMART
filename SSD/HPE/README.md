@@ -17,7 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| HPE       | MK0400GCTZA        | 400 GB | 2       | 2183  | 0     | 5.98   |
+| HPE       | MK0400GCTZA        | 400 GB | 2       | 2203  | 0     | 6.04   |
 | HPE       | MK000480GWCEV      | 480 GB | 2       | 1275  | 0     | 3.49   |
 | HPE       | MK000960GWCFA      | 960 GB | 2       | 1275  | 0     | 3.49   |
 | HPE       | MK000240GWEZF      | 240 GB | 2       | 882   | 0     | 2.42   |

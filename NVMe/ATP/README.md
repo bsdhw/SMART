@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| ATP       | NVMe M.2 2280 SSD  | 240 GB | 6       | 73    | 0     | 0.20   |
+| ATP       | NVMe M.2 2280 SSD  | 240 GB | 6       | 75    | 0     | 0.21   |

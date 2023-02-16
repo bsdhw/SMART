@@ -21,10 +21,10 @@ MTBF - avg. MTBF in years per sample.
 | HP        | FK0032CAAZP        | 32 GB  | 3       | 1371  | 0     | 3.76   |
 | HP        | VK0480GECQP        | 480 GB | 1       | 1083  | 0     | 2.97   |
 | HP        | SSD M700           | 240 GB | 1       | 487   | 0     | 1.34   |
+| HP        | SSD S700 Pro       | 256 GB | 1       | 400   | 0     | 1.10   |
 | HP        | SSD S600           | 120 GB | 1       | 339   | 0     | 0.93   |
 | HP        | SSD S700 Pro       | 512 GB | 2       | 294   | 0     | 0.81   |
 | HP        | SSD S700           | 250 GB | 5       | 264   | 0     | 0.72   |
-| HP        | SSD S700 Pro       | 256 GB | 1       | 262   | 0     | 0.72   |
 | HP        | SSD S700           | 1 TB   | 1       | 198   | 0     | 0.54   |
 | HP        | SSD S600           | 240 GB | 1       | 5     | 0     | 0.01   |
 | HP        | SSD S700           | 120 GB | 1       | 0     | 0     | 0.00   |

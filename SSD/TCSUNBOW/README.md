@@ -40,5 +40,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| TCSUNBOW  | Unknown                | 2      | 5       | 366   | 0     | 1.00   |
+| TCSUNBOW  | Unknown                | 2      | 5       | 366   | 0     | 1.01   |
 | TCSUNBOW  | Silicon Motion base... | 1      | 1       | 1     | 0     | 0.00   |
