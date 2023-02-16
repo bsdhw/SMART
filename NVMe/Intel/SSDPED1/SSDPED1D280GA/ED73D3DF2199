@@ -12,7 +12,7 @@ NVMe Version:                       <1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          280,065,171,456 [280 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Thu Apr 28 09:46:22 2022 MSK
+Local Time is:                      Mon May 16 13:14:11 2022 MSK
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0006):     Wr_Unc DS_Mngmt
@@ -38,11 +38,11 @@ Available Spare Threshold:          0%
 Percentage Used:                    0%
 Data Units Read:                    944,369 [483 GB]
 Data Units Written:                 1,261,568 [645 GB]
-Host Read Commands:                 7,714,336
+Host Read Commands:                 7,714,385
 Host Write Commands:                20,962,638
 Controller Busy Time:               9
 Power Cycles:                       13
-Power On Hours:                     22,913
+Power On Hours:                     23,349
 Unsafe Shutdowns:                   2
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0

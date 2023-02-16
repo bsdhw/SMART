@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sat Aug 14 10:33:32 2021 EDT
+Local Time is:    Sun Sep  5 09:04:43 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -62,12 +62,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    317
- 12 Power_Cycle_Count       ------   100   100   000    -    103
+  9 Power_On_Hours          ------   100   100   000    -    331
+ 12 Power_Cycle_Count       ------   100   100   000    -    109
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    45
 163 Initial_Bad_Block_Count ------   100   100   000    -    24
-164 Total_Erase_Count       ------   100   100   000    -    1448
+164 Total_Erase_Count       ------   100   100   000    -    1867
 165 Max_Erase_Count         ------   100   100   000    -    18
 166 Min_Erase_Count         ------   100   100   000    -    0
 167 Average_Erase_Count     ------   100   100   000    -    1
@@ -79,17 +79,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 178 Runtime_Invalid_Blk_Cnt ------   100   100   000    -    0
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
-192 Power-Off_Retract_Count ------   100   100   000    -    38
-194 Temperature_Celsius     ------   100   100   000    -    39
-195 Hardware_ECC_Recovered  ------   100   100   000    -    549
+192 Power-Off_Retract_Count ------   100   100   000    -    40
+194 Temperature_Celsius     ------   100   100   000    -    37
+195 Hardware_ECC_Recovered  ------   100   100   000    -    576
 196 Reallocated_Event_Count ------   100   100   016    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    13636
-242 Host_Reads_32MiB        ------   100   100   000    -    13974
-245 TLC_Writes_32MiB        ------   100   100   000    -    23168
+241 Host_Writes_32MiB       ------   100   100   000    -    19704
+242 Host_Reads_32MiB        ------   100   100   000    -    19638
+245 TLC_Writes_32MiB        ------   100   100   000    -    29872
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -134,20 +134,20 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             103  ---  Lifetime Power-On Resets
-0x01  0x010  4             317  ---  Power-on Hours
-0x01  0x018  6       893679953  ---  Logical Sectors Written
-0x01  0x020  6        15724740  ---  Number of Write Commands
-0x01  0x028  6       915809413  ---  Logical Sectors Read
-0x01  0x030  6        25236327  ---  Number of Read Commands
+0x01  0x008  4             109  ---  Lifetime Power-On Resets
+0x01  0x010  4             331  ---  Power-on Hours
+0x01  0x018  6      1291344633  ---  Logical Sectors Written
+0x01  0x020  6        31797154  ---  Number of Write Commands
+0x01  0x028  6      1287028597  ---  Logical Sectors Read
+0x01  0x030  6        34639375  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4              38  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4              40  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             551  ---  Number of Hardware Resets
+0x06  0x008  4             581  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

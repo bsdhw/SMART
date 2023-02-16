@@ -13,7 +13,7 @@ TRIM Command:     Unavailable
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Oct  6 13:59:56 2021 UTC
+Local Time is:    Thu Oct 28 03:57:36 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -55,9 +55,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   ------   000   000   000    -    0
   7 Unknown_SSD_Attribute   ------   000   000   000    -    0
   8 Unknown_SSD_Attribute   ------   000   000   000    -    0
-  9 Power_On_Hours          ------   000   000   000    -    10776
+  9 Power_On_Hours          ------   000   000   000    -    11292
  10 Unknown_SSD_Attribute   ------   000   000   000    -    0
- 12 Power_Cycle_Count       ------   000   000   000    -    78
+ 12 Power_Cycle_Count       ------   000   000   000    -    79
   1 Raw_Read_Error_Rate     ------   000   000   000    -    0
 168 Unknown_Attribute       ------   000   000   000    -    0
 169 Unknown_Attribute       ------   000   000   000    -    0
@@ -68,7 +68,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  ------   000   000   000    -    0
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
 170 Unknown_Attribute       PO----   100   100   ---    -    2359296
-173 Unknown_Attribute       -O--C-   100   100   ---    -    88540405
+173 Unknown_Attribute       -O--C-   100   100   ---    -    125372191
 229 Unknown_Attribute       -O----   100   100   ---    -    8830595015064
 236 Unknown_Attribute       -O----   100   100   ---    -    0
 235 Unknown_Attribute       -O----   100   000   ---    -    0

@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Sep 11 20:17:32 2021 UTC
+Local Time is:    Sat Nov  6 16:02:45 2021 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,10 +63,10 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            ------   100   100   000    -    0
   4 Start_Stop_Count        ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    4993
- 12 Power_Cycle_Count       ------   100   100   000    -    992
-232 Lifetime_Writes         ------   100   100   000    -    7453362925
-233 Media_Wearout_Indicator ------   100   000   000    -    100
+  9 Power_On_Hours          ------   100   100   000    -    6244
+ 12 Power_Cycle_Count       ------   100   100   000    -    994
+232 Lifetime_Writes         ------   100   100   000    -    18214682829
+233 Media_Wearout_Indicator ------   099   000   000    -    99
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

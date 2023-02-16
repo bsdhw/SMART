@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 i386] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 i386] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,7 +10,7 @@ User Capacity:    160,041,885,696 bytes [160 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA/ATAPI-6 T13/1410D revision 2
-Local Time is:    Tue May  3 16:47:07 2022 EDT
+Local Time is:    Wed Oct 26 23:15:04 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -50,21 +50,21 @@ SCT capabilities: 	       (0x0001)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   118   081   006    Pre-fail  Always       -       200719346
+  1 Raw_Read_Error_Rate     0x000f   119   081   006    Pre-fail  Always       -       214218273
   3 Spin_Up_Time            0x0003   099   098   000    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0032   093   093   020    Old_age   Always       -       7419
+  4 Start_Stop_Count        0x0032   093   093   020    Old_age   Always       -       7456
   5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
-  7 Seek_Error_Rate         0x000f   058   057   030    Pre-fail  Always       -       2272386791305
-  9 Power_On_Hours          0x0032   090   090   000    Old_age   Always       -       8929
+  7 Seek_Error_Rate         0x000f   058   057   030    Pre-fail  Always       -       2272387673113
+  9 Power_On_Hours          0x0032   090   090   000    Old_age   Always       -       8943
  10 Spin_Retry_Count        0x0013   100   100   034    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   097   097   020    Old_age   Always       -       3407
+ 12 Power_Cycle_Count       0x0032   097   097   020    Old_age   Always       -       3417
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0022   066   045   045    Old_age   Always   In_the_past 34 (Min/Max 32/34)
+190 Airflow_Temperature_Cel 0x0022   062   045   045    Old_age   Always   In_the_past 38 (Min/Max 37/38)
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       501
-193 Load_Cycle_Count        0x0032   001   001   000    Old_age   Always       -       270369
-194 Temperature_Celsius     0x0022   034   055   000    Old_age   Always       -       34 (0 12 0 0 0)
-195 Hardware_ECC_Recovered  0x001a   062   053   000    Old_age   Always       -       21470355
+193 Load_Cycle_Count        0x0032   001   001   000    Old_age   Always       -       270529
+194 Temperature_Celsius     0x0022   038   055   000    Old_age   Always       -       38 (0 12 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   067   053   000    Old_age   Always       -       89301771
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0

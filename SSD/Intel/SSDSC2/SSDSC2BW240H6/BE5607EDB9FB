@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [x86_64-unknown-openbsd6.9] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Intel 53x and Pro 1500/2500 Series SSDs
@@ -10,10 +10,11 @@ Firmware Version: RG21
 User Capacity:    240,057,409,536 bytes [240 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
-Device is:        In smartctl database [for details use: -P show]
+TRIM Command:     Available, deterministic
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jul  7 12:19:30 2021 CEST
+Local Time is:    Sat Nov  5 21:37:12 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,32 +59,42 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       5333h+00m+00.000s
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       4891
-170 Available_Reservd_Space 0x0033   091   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       6413h+00m+00.000s
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       6022
+170 Available_Reservd_Space 0x0033   090   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       19
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       29
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error        0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   029   100   000    Old_age   Always       -       29 (Min/Max 13/38)
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       19
+190 Airflow_Temperature_Cel 0x0032   025   100   000    Old_age   Always       -       25 (Min/Max 13/39)
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       29
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       13
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       467792
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       585968
 226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       65535
-227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       62
+227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       64
 228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       65535
-232 Available_Reservd_Space 0x0033   091   100   010    Pre-fail  Always       -       0
-233 Media_Wearout_Indicator 0x0032   070   100   000    Old_age   Always       -       0
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       467792
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       797859
-249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       115571
+232 Available_Reservd_Space 0x0033   090   100   010    Pre-fail  Always       -       0
+233 Media_Wearout_Indicator 0x0032   065   100   000    Old_age   Always       -       0
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       585968
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1064053
+249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       131606
 
 SMART Error Log not supported
 
 SMART Self-test log structure revision number 1
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Aborted by host               00%      6413         -
+# 2  Extended offline    Aborted by host               00%      6156         -
+# 3  Extended offline    Aborted by host               00%      6152         -
+# 4  Short offline       Aborted by host               00%      6081         -
+# 5  Extended offline    Aborted by host               00%      5920         -
+# 6  Extended offline    Aborted by host               00%      5888         -
+# 7  Short offline       Aborted by host               00%      5474         -
+# 8  Short offline       Aborted by host               00%      5380         -
+# 9  Short offline       Aborted by host               00%      5378         -
+#10  Short offline       Aborted by host               00%      5375         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS

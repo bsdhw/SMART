@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p16-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu May 13 11:39:44 2021 +07
+Local Time is:    Mon Jul 26 14:12:37 2021 +07
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -45,23 +45,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   ------   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    222
+ 12 Power_Cycle_Count       ------   100   100   050    -    226
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    139
-162 Unknown_Attribute       ------   100   100   050    -    117
+162 Unknown_Attribute       ------   100   100   050    -    123
 163 Unknown_Attribute       ------   100   100   050    -    1
-164 Unknown_Attribute       ------   100   100   050    -    45640
-165 Unknown_Attribute       ------   100   100   050    -    66
-166 Unknown_Attribute       ------   100   100   050    -    0
-167 Unknown_Attribute       ------   100   100   050    -    22
+164 Unknown_Attribute       ------   100   100   050    -    80245
+165 Unknown_Attribute       ------   100   100   050    -    70
+166 Unknown_Attribute       ------   100   100   050    -    3
+167 Unknown_Attribute       ------   100   100   050    -    39
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    48 (Min/Max 7/65)
+194 Temperature_Celsius     ------   100   100   000    -    53 (Min/Max 7/65)
 195 Hardware_ECC_Recovered  ------   100   100   050    -    0
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    4089
-242 Total_LBAs_Read         ------   100   100   050    -    4297
+241 Total_LBAs_Written      ------   100   100   050    -    7583
+242 Total_LBAs_Read         ------   100   100   050    -    7924
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Aug 28 13:38:47 2022 MDT
+Local Time is:    Tue Feb  7 18:57:30 2023 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,15 +60,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   166   166   006    -    0
   5 Retired_Block_Count     -O--CK   253   100   036    -    0
-  9 Power_On_Hours          -O--CK   082   082   000    -    15995
- 12 Power_Cycle_Count       -O--CK   100   100   020    -    1665
-100 Total_Erase_Count       -O--CK   099   099   000    -    41444126
+  9 Power_On_Hours          -O--CK   078   078   000    -    19890
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    1691
+100 Total_Erase_Count       -O--CK   099   099   000    -    46056001
 171 Program_Fail_Count      -O--CK   253   253   000    -    0
 172 Erase_Fail_Count        -O--CK   253   253   000    -    0
-174 Unexpect_Power_Loss_Ct  ----CK   100   100   000    -    249
+174 Unexpect_Power_Loss_Ct  ----CK   100   100   000    -    274
 175 Program_Fail_Count_Chip -O--CK   253   253   000    -    0
 176 Unused_Rsvd_Blk_Cnt_Tot -O--CK   253   253   000    -    0
-177 Wear_Leveling_Count     -O--CK   041   041   000    -    628
+177 Wear_Leveling_Count     -O--CK   035   035   000    -    699
 178 Used_Rsvd_Blk_Cnt_Chip  -O--CK   100   100   000    -    30
 179 Used_Rsvd_Blk_Cnt_Tot   -O--CK   100   100   000    -    224
 180 Erase_Fail_Count        -O--CK   100   100   000    -    5216
@@ -78,16 +78,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   253   253   000    -    0
 188 Command_Timeout         -O--CK   253   253   000    -    0
 191 Unknown_SK_hynix_Attrib -O--CK   253   253   000    -    0
-194 Temperature_Celsius     -O----   041   000   000    -    41 (Min/Max 0/68)
+194 Temperature_Celsius     -O----   037   000   000    -    37 (Min/Max 0/68)
 195 Hardware_ECC_Recovered  -O--CK   253   253   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   253   253   000    -    0
 201 Percent_Lifetime_Remain -OSR--   100   100   000    -    0
-204 Soft_ECC_Correction     -OSR--   037   001   000    -    1896
-231 SSD_Life_Left           PO--CK   042   042   010    -    59
-234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    340752276544
-241 Total_Writes_GB         -O--CK   100   100   000    -    35606616832
-242 Total_Reads_GB          -O--CK   100   100   000    -    25757154062
-250 Read_Retry_Count        -O--CK   100   100   000    -    26972948
+204 Soft_ECC_Correction     -OSR--   096   001   000    -    55
+231 SSD_Life_Left           PO--CK   035   035   010    -    66
+234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    378790694208
+241 Total_Writes_GB         -O--CK   100   100   000    -    41491902040
+242 Total_Reads_GB          -O--CK   100   100   000    -    26034673814
+250 Read_Retry_Count        -O--CK   100   100   000    -    27403033
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

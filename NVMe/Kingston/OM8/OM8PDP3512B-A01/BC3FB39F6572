@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Wed Aug 18 20:35:15 2021 CEST
+Local Time is:                      Thu Oct 28 13:12:27 2021 CEST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,14 +46,14 @@ Temperature:                        55 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    1%
-Data Units Read:                    665,339 [340 GB]
-Data Units Written:                 19,400,014 [9.93 TB]
-Host Read Commands:                 9,094,366
-Host Write Commands:                193,242,710
-Controller Busy Time:               199
-Power Cycles:                       25
-Power On Hours:                     4,288
-Unsafe Shutdowns:                   13
+Data Units Read:                    731,993 [374 GB]
+Data Units Written:                 25,599,410 [13.1 TB]
+Host Read Commands:                 10,248,276
+Host Write Commands:                256,518,082
+Controller Busy Time:               253
+Power Cycles:                       26
+Power On Hours:                     5,976
+Unsafe Shutdowns:                   14
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      58
 Warning  Comp. Temperature Time:    0

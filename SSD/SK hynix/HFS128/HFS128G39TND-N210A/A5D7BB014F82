@@ -13,7 +13,7 @@ Form Factor:      M.2
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Mar 18 09:35:12 2021 +03
+Local Time is:    Tue Mar 23 22:18:18 2021 +03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -52,34 +52,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000f   166   166   006    Pre-fail  Always       -       0
   5 Retired_Block_Count     0x0032   253   100   036    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   093   093   000    Old_age   Always       -       6545
- 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       5458
-100 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       16054701
-168 Min_Erase_Count         0x0032   057   057   000    Old_age   Always       -       458
-169 Max_Erase_Count         0x0032   051   051   000    Old_age   Always       -       528
+  9 Power_On_Hours          0x0032   093   093   000    Old_age   Always       -       6609
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       5487
+100 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       16073152
+168 Min_Erase_Count         0x0032   056   056   000    Old_age   Always       -       472
+169 Max_Erase_Count         0x0032   051   051   000    Old_age   Always       -       529
 171 Program_Fail_Count      0x0032   253   253   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   253   253   000    Old_age   Always       -       0
-174 Unexpect_Power_Loss_Ct  0x0030   100   100   000    Old_age   Offline      -       316
+174 Unexpect_Power_Loss_Ct  0x0030   100   100   000    Old_age   Offline      -       323
 175 Program_Fail_Count_Chip 0x0032   253   253   000    Old_age   Always       -       0
 176 Unused_Rsvd_Blk_Cnt_Tot 0x0032   253   253   000    Old_age   Always       -       0
-177 Wear_Leveling_Count     0x0032   054   054   000    Old_age   Always       -       489
+177 Wear_Leveling_Count     0x0032   054   054   000    Old_age   Always       -       490
 178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   000    Old_age   Always       -       20
 179 Used_Rsvd_Blk_Cnt_Tot   0x0032   100   100   000    Old_age   Always       -       119
 180 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       2521
 184 End-to-End_Error        0x0032   253   253   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   253   253   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   253   253   000    Old_age   Always       -       0
-194 Temperature_Celsius     0x0002   053   000   000    Old_age   Always       -       53 (Min/Max 16/74)
+194 Temperature_Celsius     0x0002   057   000   000    Old_age   Always       -       57 (Min/Max 16/74)
 195 Hardware_ECC_Recovered  0x0032   253   253   000    Old_age   Always       -       0
 196 Reallocated_Event_Count 0x0032   253   100   036    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0032   253   253   000    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x0032   253   253   000    Old_age   Always       -       0
-204 Soft_ECC_Correction     0x000e   100   001   000    Old_age   Always       -       577
+204 Soft_ECC_Correction     0x000e   100   001   000    Old_age   Always       -       16
 212 Phy_Error_Count         0x0032   253   253   000    Old_age   Always       -       0
-234 Unknown_SK_hynix_Attrib 0x0032   100   100   000    Old_age   Always       -       67629
-241 Total_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       12837
-242 Total_Reads_GiB         0x0032   100   100   000    Old_age   Always       -       10485
-250 Read_Retry_Count        0x0032   100   100   000    Old_age   Always       -       29708316
+234 Unknown_SK_hynix_Attrib 0x0032   100   100   000    Old_age   Always       -       67704
+241 Total_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       12889
+242 Total_Reads_GiB         0x0032   100   100   000    Old_age   Always       -       10505
+250 Read_Retry_Count        0x0032   100   100   000    Old_age   Always       -       29740256
 
 SMART Error Log Version: 0
 No Errors Logged
