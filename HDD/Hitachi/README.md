@@ -24,14 +24,14 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Hitachi   | HDT721032SLA360    | 320 GB | 1       | 3534  | 0     | 9.68   |
-| Hitachi   | HDS725050KLA360    | 500 GB | 4       | 3383  | 0     | 9.27   |
+| Hitachi   | HDS725050KLA360    | 500 GB | 4       | 3385  | 0     | 9.28   |
 | Hitachi   | HDS5C3020ALA632    | 2 TB   | 2       | 3285  | 0     | 9.00   |
 | Hitachi   | HUA7250SBSUN500G   | 500 GB | 2       | 2785  | 0     | 7.63   |
 | Hitachi   | HDT725025VLA380    | 250 GB | 2       | 2611  | 0     | 7.15   |
 | Hitachi   | HUA721050KLA330    | 500 GB | 2       | 3842  | 1     | 7.02   |
 | Hitachi   | HDS5C1010CLA382    | 1 TB   | 1       | 2374  | 0     | 6.51   |
 | Hitachi   | HDS722020ALA330    | 2 TB   | 2       | 2315  | 0     | 6.35   |
-| Hitachi   | HUA723020ALA640    | 2 TB   | 9       | 2294  | 0     | 6.29   |
+| Hitachi   | HUA723020ALA640    | 2 TB   | 9       | 2314  | 0     | 6.34   |
 | Hitachi   | HDT725032VLA360    | 320 GB | 2       | 3927  | 2     | 6.26   |
 | Hitachi   | HDS721616PLAT80    | 160 GB | 1       | 2187  | 0     | 5.99   |
 | Hitachi   | HDS5C4040ALE630    | 4 TB   | 21      | 2076  | 0     | 5.69   |
@@ -162,12 +162,12 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Hitachi   | Deskstar 7K500         | 1      | 4       | 3383  | 0     | 9.27   |
+| Hitachi   | Deskstar 7K500         | 1      | 4       | 3385  | 0     | 9.28   |
 | Hitachi   | Sun Internal           | 1      | 2       | 2785  | 0     | 7.63   |
 | Hitachi   | Deskstar 7K2000        | 1      | 2       | 2315  | 0     | 6.35   |
 | Hitachi   | Deskstar 5K4000        | 1      | 21      | 2076  | 0     | 5.69   |
 | Hitachi   | Deskstar 5K3000        | 2      | 20      | 2146  | 2     | 5.60   |
-| Hitachi   | Ultrastar 7K3000       | 3      | 26      | 2019  | 78    | 5.39   |
+| Hitachi   | Ultrastar 7K3000       | 3      | 26      | 2026  | 78    | 5.41   |
 | Hitachi   | Deskstar 7K80          | 2      | 3       | 1830  | 0     | 5.01   |
 | Hitachi   | Deskstar T7K500        | 3      | 6       | 2326  | 1     | 4.87   |
 | Hitachi   | Deskstar 7K1000.B      | 5      | 11      | 2437  | 2     | 4.81   |
