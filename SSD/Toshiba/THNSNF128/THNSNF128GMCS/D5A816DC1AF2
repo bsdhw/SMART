@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     TOSHIBA THNSNF128GMCS
@@ -10,10 +10,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      < 1.8 inches
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Aug 11 17:01:44 2021 BST
+Local Time is:    Tue Jan 10 20:35:39 2023 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,17 +68,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    21850
+  9 Power_On_Hours          -O--C-   100   100   000    -    34263
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
  12 Power_Cycle_Count       -O--C-   100   100   000    -    687
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    100
 170 Unknown_Attribute       PO--C-   100   100   010    -    0
-173 Unknown_Attribute       PO--C-   174   174   100    -    0
+173 Unknown_Attribute       PO--C-   171   171   100    -    0
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    53
-194 Temperature_Celsius     -O---K   047   036   000    -    53 (Min/Max 14/64)
+194 Temperature_Celsius     -O---K   053   036   000    -    47 (Min/Max 14/64)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
                             ||||||_ K auto-keep
@@ -125,21 +125,21 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       3 (0x0003)
 Device State:                        Active (0)
-Current Temperature:                    53 Celsius
-Power Cycle Min/Max Temperature:     41/61 Celsius
+Current Temperature:                    47 Celsius
+Power Cycle Min/Max Temperature:     41/62 Celsius
 Lifetime    Min/Max Temperature:     14/64 Celsius
 Specified Max Operating Temperature:    14 Celsius
-Under/Over Temperature Limit Count:   0/358512
+Under/Over Temperature Limit Count:   0/1103260
 Vendor specific:
 00 00 04 00 05 01 00 05 05 00 00 00 00 00 00 00
-00 02 00 00 1e 4e b0 04 02 02 00 00 00 00 00 05
+00 02 00 00 52 27 5a 07 02 02 00 00 00 00 00 05
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/40 Celsius
 Min/Max Temperature Limit:            0/80 Celsius
-Temperature History Size (Index):    128 (76)
+Temperature History Size (Index):    128 (120)
 
 SCT Error Recovery Control:
            Read:     80 (8.0 seconds)
@@ -159,8 +159,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           67  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           68  Device-to-host register FISes sent due to a COMRESET
+0x0009  4          135  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4          136  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

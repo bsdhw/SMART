@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.0.7 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2021-09-14 r5236 [MidnightBSD 2.1.6 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       INTEL SSDPED1D480GA
@@ -8,13 +8,15 @@ Firmware Version:                   E2010325
 PCI Vendor/Subsystem ID:            0x8086
 IEEE OUI Identifier:                0x5cd2e4
 Controller ID:                      0
+NVMe Version:                       <1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          480,103,981,056 [480 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Mon Jun  7 14:50:38 2021 EDT
+Local Time is:                      Mon Mar 21 17:19:48 2022 EDT
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0006):     Wr_Unc DS_Mngmt
+Log Page Attributes (0x02):         Cmd_Eff_Lg
 Maximum Data Transfer Size:         32 Pages
 
 Supported Power States
@@ -30,21 +32,21 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        43 Celsius
+Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          0%
 Percentage Used:                    0%
-Data Units Read:                    41,610,510 [21.3 TB]
-Data Units Written:                 12,674,409 [6.48 TB]
-Host Read Commands:                 5,198,704,329
-Host Write Commands:                120,621,649
-Controller Busy Time:               584
-Power Cycles:                       38
-Power On Hours:                     14,637
-Unsafe Shutdowns:                   23
+Data Units Read:                    43,579,611 [22.3 TB]
+Data Units Written:                 22,932,287 [11.7 TB]
+Host Read Commands:                 5,317,094,553
+Host Write Commands:                206,828,526
+Controller Busy Time:               644
+Power Cycles:                       48
+Power On Hours:                     21,545
+Unsafe Shutdowns:                   29
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 
-Error Information (NVMe Log 0x01, max 64 entries)
+Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
 

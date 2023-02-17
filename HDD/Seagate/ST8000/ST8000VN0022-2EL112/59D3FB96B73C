@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue May 25 10:48:38 2021 EDT
+Local Time is:    Mon Jun  7 14:50:34 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,30 +58,30 @@ SCT capabilities: 	       (0x50bd)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   078   064   044    Pre-fail  Always       -       65494416
-  3 Spin_Up_Time            0x0003   085   085   000    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       28
+  1 Raw_Read_Error_Rate     0x000f   083   064   044    Pre-fail  Always       -       205520081
+  3 Spin_Up_Time            0x0003   086   085   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       36
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  7 Seek_Error_Rate         0x000f   092   060   045    Pre-fail  Always       -       1526748091
-  9 Power_On_Hours          0x0032   072   072   000    Old_age   Always       -       24632
+  7 Seek_Error_Rate         0x000f   092   060   045    Pre-fail  Always       -       1602863592
+  9 Power_On_Hours          0x0032   072   072   000    Old_age   Always       -       24926
  10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       28
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       36
 184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
 189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0022   056   047   040    Old_age   Always       -       44 (Min/Max 39/49)
-191 G-Sense_Error_Rate      0x0032   046   046   000    Old_age   Always       -       108955
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       820
-193 Load_Cycle_Count        0x0032   098   098   000    Old_age   Always       -       4376
+190 Airflow_Temperature_Cel 0x0022   056   047   040    Old_age   Always       -       44 (Min/Max 28/44)
+191 G-Sense_Error_Rate      0x0032   045   045   000    Old_age   Always       -       110245
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       840
+193 Load_Cycle_Count        0x0032   098   098   000    Old_age   Always       -       4397
 194 Temperature_Celsius     0x0022   044   050   000    Old_age   Always       -       44 (0 22 0 0 0)
-195 Hardware_ECC_Recovered  0x001a   003   001   000    Old_age   Always       -       65494416
+195 Hardware_ECC_Recovered  0x001a   004   001   000    Old_age   Always       -       205520081
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
-240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       22227 (13 221 0)
-241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       170763083998
-242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       98549696923
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       22519 (105 148 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       171791309406
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       98888044604
 
 SMART Error Log Version: 1
 No Errors Logged

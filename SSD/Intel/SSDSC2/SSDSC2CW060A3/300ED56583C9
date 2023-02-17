@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p4 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Intel 520 Series SSDs
@@ -10,10 +10,11 @@ Firmware Version: 400i
 User Capacity:    60,022,480,896 bytes [60.0 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
+TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Dec  4 12:46:12 2020 CET
+Local Time is:    Mon Mar  1 16:37:26 2021 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,24 +64,24 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   000   000   000    -    903927h+53m+20.630s
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    493
+  9 Power_On_Hours_and_Msec -O--CK   000   000   000    -    904594h+22m+24.590s
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    546
 170 Available_Reservd_Space PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    464
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    517
 184 End-to-End_Error        PO--CK   100   100   090    -    0
 187 Uncorrectable_Error_Cnt POSR--   120   120   050    -    0
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    464
-225 Host_Writes_32MiB       -O--CK   100   100   000    -    718355
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    517
+225 Host_Writes_32MiB       -O--CK   100   100   000    -    727869
 226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    65535
 227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    7
 228 Workload_Minutes        -O--CK   100   100   000    -    65535
 232 Available_Reservd_Space PO--CK   100   100   010    -    0
 233 Media_Wearout_Indicator -O--CK   095   095   000    -    0
-241 Host_Writes_32MiB       -O--CK   100   100   000    -    718355
-242 Host_Reads_32MiB        -O--CK   100   100   000    -    58103
-249 NAND_Writes_1GiB        PO--C-   100   100   000    -    23530
+241 Host_Writes_32MiB       -O--CK   100   100   000    -    727869
+242 Host_Reads_32MiB        -O--CK   100   100   000    -    58442
+249 NAND_Writes_1GiB        PO--C-   100   100   000    -    23859
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -134,7 +135,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/ 0 Celsius
-Temperature History Size (Index):    58212 (101)
+Temperature History Size (Index):    3684 (100)
 Invalid Temperature History Size or Index
 
 SCT Error Recovery Control command not supported
@@ -142,16 +143,16 @@ SCT Error Recovery Control command not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             502  ---  Lifetime Power-On Resets
-0x01  0x010  4            9133  ---  Power-on Hours
-0x01  0x018  6     47233804991  ---  Logical Sectors Written
-0x01  0x028  6      3950202188  ---  Logical Sectors Read
+0x01  0x008  4             555  ---  Lifetime Power-On Resets
+0x01  0x010  4            9800  ---  Power-on Hours
+0x01  0x018  6     47857356421  ---  Logical Sectors Written
+0x01  0x028  6      3972396740  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4            4324  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4            4782  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            4324  ---  Number of Hardware Resets
-0x06  0x010  4            2191  ---  Number of ASR Events
+0x06  0x008  4            4782  ---  Number of Hardware Resets
+0x06  0x010  4            2500  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             255  ---  Percentage Used Endurance Indicator
@@ -169,7 +170,7 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2            7  Transition from drive PhyRdy to drive PhyNRdy
+0x0009  2            5  Transition from drive PhyRdy to drive PhyNRdy
 0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC

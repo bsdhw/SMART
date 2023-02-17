@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Dec 26 14:29:51 2022 CET
+Local Time is:    Tue Dec 27 09:37:04 2022 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,33 +66,33 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    2127
+  9 Power_On_Hours          ------   100   100   000    -    2128
  12 Power_Cycle_Count       ------   100   100   000    -    31
-148 Unknown_Attribute       ------   100   100   000    -    60126
-149 Unknown_Attribute       ------   100   100   000    -    6712
+148 Unknown_Attribute       ------   100   100   000    -    60178
+149 Unknown_Attribute       ------   100   100   000    -    6719
 150 Unknown_Attribute       ------   100   100   000    -    6641
-151 Unknown_Attribute       ------   100   100   000    -    6680
+151 Unknown_Attribute       ------   100   100   000    -    6686
 159 Unknown_Attribute       ------   100   100   000    -    0
 160 Unknown_Attribute       ------   100   100   000    -    0
 161 Unknown_Attribute       ------   100   100   000    -    16
-164 Unknown_Attribute       ------   100   100   000    -    167496
+164 Unknown_Attribute       ------   100   100   000    -    167685
 165 Unknown_Attribute       ------   100   100   000    -    799
-166 Unknown_Attribute       ------   100   100   000    -    703
-167 Unknown_Attribute       ------   100   100   000    -    761
+166 Unknown_Attribute       ------   100   100   000    -    705
+167 Unknown_Attribute       ------   100   100   000    -    762
 169 Unknown_Attribute       ------   062   062   000    -    62
 177 Wear_Leveling_Count     ------   100   100   050    -    37
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    14
-194 Temperature_Celsius     ------   063   096   000    -    63
+194 Temperature_Celsius     ------   065   096   000    -    65
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 231 Unknown_SSD_Attribute   ------   062   062   000    -    62
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Total_LBAs_Written      ------   100   100   000    -    1212900
-242 Total_LBAs_Read         ------   100   100   000    -    51471
-245 Unknown_Attribute       ------   100   100   000    -    6783588
+241 Total_LBAs_Written      ------   100   100   000    -    1213501
+242 Total_LBAs_Read         ------   100   100   000    -    51472
+245 Unknown_Attribute       ------   100   100   000    -    6791242
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -142,7 +142,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    63 Celsius
+Current Temperature:                    65 Celsius
 Power Cycle Min/Max Temperature:     56/87 Celsius
 Lifetime    Min/Max Temperature:     23/96 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -152,7 +152,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/100 Celsius
-Temperature History Size (Index):    128 (12)
+Temperature History Size (Index):    128 (45)
 
 SCT Error Recovery Control command not supported
 
@@ -160,26 +160,26 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              31  ---  Lifetime Power-On Resets
-0x01  0x010  4            2127  ---  Power-on Hours
-0x01  0x018  6      2179235653  ---  Logical Sectors Written
-0x01  0x020  6      1103081496  ---  Number of Write Commands
-0x01  0x028  6      3373263923  ---  Logical Sectors Read
-0x01  0x030  6        15823128  ---  Number of Read Commands
-0x01  0x038  6      3363939411  ---  Date and Time TimeStamp
+0x01  0x010  4            2128  ---  Power-on Hours
+0x01  0x018  6      2218613869  ---  Logical Sectors Written
+0x01  0x020  6      1104592392  ---  Number of Write Commands
+0x01  0x028  6      3373287507  ---  Logical Sectors Read
+0x01  0x030  6        15824578  ---  Number of Read Commands
+0x01  0x038  6      3366907846  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4              14  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              63  ---  Current Temperature
-0x05  0x010  1              64  ---  Average Short Term Temperature
-0x05  0x018  1              64  ---  Average Long Term Temperature
+0x05  0x010  1              63  ---  Average Short Term Temperature
+0x05  0x018  1              63  ---  Average Long Term Temperature
 0x05  0x020  1              96  ---  Highest Temperature
 0x05  0x028  1              23  ---  Lowest Temperature
 0x05  0x030  1              86  ---  Highest Average Short Term Temperature
 0x05  0x038  1               0  ---  Lowest Average Short Term Temperature
 0x05  0x040  1              85  ---  Highest Average Long Term Temperature
 0x05  0x048  1               0  ---  Lowest Average Long Term Temperature
-0x05  0x050  4              36  ---  Time in Over-Temperature
+0x05  0x050  4              46  ---  Time in Over-Temperature
 0x05  0x058  1              70  ---  Specified Maximum Operating Temperature
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature

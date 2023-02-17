@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Feb  1 21:52:27 2022 EST
+Local Time is:    Tue Feb  1 22:15:00 2022 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -67,7 +67,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   000    -    0
   5 Reallocate_NAND_Blk_Cnt PO--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    13649
+  9 Power_On_Hours          -O--CK   100   100   000    -    13650
  12 Power_Cycle_Count       -O--CK   100   100   000    -    1816
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain P---CK   097   097   000    -    3
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    27454458692
-247 Host_Program_Page_Count -O--CK   100   100   000    -    976802190
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    1019092238
+246 Total_LBAs_Written      -O--CK   100   100   000    -    27455188668
+247 Host_Program_Page_Count -O--CK   100   100   000    -    976825002
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    1019101011
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -170,7 +170,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (36)
+Temperature History Size (Index):    478 (59)
 
 SCT Error Recovery Control command not supported
 
@@ -178,11 +178,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4            1816  ---  Lifetime Power-On Resets
-0x01  0x010  4           13649  ---  Power-on Hours
-0x01  0x018  6     27454458692  ---  Logical Sectors Written
-0x01  0x020  6       351563494  ---  Number of Write Commands
-0x01  0x028  6      7076545505  ---  Logical Sectors Read
-0x01  0x030  6       108644033  ---  Number of Read Commands
+0x01  0x010  4           13650  ---  Power-on Hours
+0x01  0x018  6     27455188668  ---  Logical Sectors Written
+0x01  0x020  6       351568502  ---  Number of Write Commands
+0x01  0x028  6      7076564218  ---  Logical Sectors Read
+0x01  0x030  6       108644248  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4            1994  ---  Resets Between Cmd Acceptance and Completion

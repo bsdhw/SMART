@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 21 14:41:25 2021 EDT
+Local Time is:    Sat Dec 18 10:27:40 2021 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -62,16 +62,16 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   5 Reallocated_Sector_Ct   0x0013   100   100   050    Pre-fail  Always       -       0
   7 Unknown_SSD_Attribute   0x000b   100   100   050    Pre-fail  Always       -       0
   8 Unknown_SSD_Attribute   0x0005   100   100   050    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       26065
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       26240
  10 Unknown_SSD_Attribute   0x0013   100   100   050    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       1167
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       1213
 167 SSD_Protect_Mode        0x0022   100   100   000    Old_age   Always       -       0
 168 SATA_PHY_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
 169 Bad_Block_Count         0x0013   100   100   010    Pre-fail  Always       -       100
 173 Erase_Count             0x0012   183   183   000    Old_age   Always       -       0
 175 Program_Fail_Count_Chip 0x0013   100   100   010    Pre-fail  Always       -       0
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       219
-194 Temperature_Celsius     0x0023   072   057   020    Pre-fail  Always       -       28 (Min/Max 17/43)
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       221
+194 Temperature_Celsius     0x0023   073   057   020    Pre-fail  Always       -       27 (Min/Max 17/43)
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 240 Unknown_SSD_Attribute   0x0013   100   100   050    Pre-fail  Always       -       0
 

@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Oct 19 18:42:22 2022 CEST
+Local Time is:    Wed Oct 19 18:57:53 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,7 +62,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    6656
+  9 Power_On_Hours          -O--C-   100   100   000    -    6657
  12 Power_Cycle_Count       -O--C-   100   100   000    -    62
 161 Unknown_Attribute       -O--C-   100   100   000    -    203
 163 Unknown_Attribute       PO----   100   100   050    -    16
@@ -76,9 +76,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 196 Reallocated_Event_Count ------   100   100   000    -    0
 198 Offline_Uncorrectable   -O--C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    7965
+241 Total_LBAs_Written      -O--C-   100   100   000    -    7966
 242 Total_LBAs_Read         -O--C-   100   100   000    -    1030
-249 Unknown_Attribute       -O--C-   100   100   000    -    959977
+249 Unknown_Attribute       -O--C-   100   100   000    -    960017
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -126,9 +126,9 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              62  ---  Lifetime Power-On Resets
-0x01  0x010  4            6656  ---  Power-on Hours
-0x01  0x018  6     16705525102  ---  Logical Sectors Written
-0x01  0x028  6      2160836179  ---  Logical Sectors Read
+0x01  0x010  4            6657  ---  Power-on Hours
+0x01  0x018  6     16706139230  ---  Logical Sectors Written
+0x01  0x028  6      2160843611  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==

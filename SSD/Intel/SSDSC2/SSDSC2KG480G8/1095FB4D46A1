@@ -6,7 +6,7 @@ Model Family:     Intel S4510/S4610/S4500/S4600 Series SSDs
 Device Model:     INTEL SSDSC2KG480G8
 Serial Number:    --
 LU WWN Device Id: 5 5cd2e4 ...
-Firmware Version: XCV10120
+Firmware Version: XCV10132
 User Capacity:    480,103,981,056 bytes [480 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Dec  6 10:55:54 2020 EST
+Local Time is:    Thu Dec 24 13:20:47 2020 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -22,14 +22,14 @@ SMART support is: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Disabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
 					been run.
 Total time to complete Offline 
-data collection: 		(    0) seconds.
+data collection: 		(    2) seconds.
 Offline data collection
 capabilities: 			 (0x79) SMART execute Offline immediate.
 					No Auto Offline data collection support.
@@ -59,38 +59,39 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       3881
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       41
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       4319
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       74
 170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       36
-175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2523 (41 65535)
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       65
+175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2494 (74 65535)
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error_Count  0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Drive_Temperature       0x0022   072   072   000    Old_age   Always       -       28 (Min/Max 17/28)
-192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       36
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       28
+190 Drive_Temperature       0x0022   075   075   000    Old_age   Always       -       25 (Min/Max 22/26)
+192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       65
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       25
 197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       345291
-226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       225
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       363043
+226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       245
 227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       60
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       232690
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       258805
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
 234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
-235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2523 (41 65535)
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       345291
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       523267
-243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       472311
+235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2494 (74 65535)
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       363043
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       551061
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       497384
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%      4104         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS

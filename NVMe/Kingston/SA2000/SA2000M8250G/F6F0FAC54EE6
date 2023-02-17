@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p15-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p16-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -11,10 +11,10 @@ Controller ID:                      1
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            66,240,573,440 [66.2 GB]
+Namespace 1 Utilization:            70,771,941,376 [70.7 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Thu Apr  1 10:08:52 2021 CEST
+Local Time is:                      Fri May 14 13:01:32 2021 CEST
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -43,15 +43,15 @@ Critical Warning:                   0x00
 Temperature:                        35 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    16%
-Data Units Read:                    597,029 [305 GB]
-Data Units Written:                 50,535,526 [25.8 TB]
-Host Read Commands:                 9,706,374
-Host Write Commands:                852,755,567
-Controller Busy Time:               12,654
-Power Cycles:                       65
-Power On Hours:                     7,935
-Unsafe Shutdowns:                   37
+Percentage Used:                    17%
+Data Units Read:                    659,024 [337 GB]
+Data Units Written:                 59,957,384 [30.6 TB]
+Host Read Commands:                 10,686,055
+Host Write Commands:                950,998,926
+Controller Busy Time:               15,589
+Power Cycles:                       67
+Power On Hours:                     8,970
+Unsafe Shutdowns:                   38
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

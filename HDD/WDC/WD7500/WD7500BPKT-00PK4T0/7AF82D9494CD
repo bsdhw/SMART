@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 i386] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 i386] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed May  4 23:36:30 2022 EDT
+Local Time is:    Mon Oct 24 13:02:56 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,17 +57,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0027   195   191   021    Pre-fail  Always       -       1250
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       610
+  3 Spin_Up_Time            0x0027   194   191   021    Pre-fail  Always       -       1258
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       626
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       898
+  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       945
  10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       610
-192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       70
-193 Load_Cycle_Count        0x0032   198   198   000    Old_age   Always       -       7231
-194 Temperature_Celsius     0x0022   101   092   000    Old_age   Always       -       46
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       626
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       71
+193 Load_Cycle_Count        0x0032   198   198   000    Old_age   Always       -       7555
+194 Temperature_Celsius     0x0022   096   092   000    Old_age   Always       -       51
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0

@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p3 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          2,048,408,248,320 [2.04 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Mon Jul  4 11:16:58 2022 MST
+Local Time is:                      Tue Nov 29 09:57:20 2022 MST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005d):     Comp DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -45,17 +45,17 @@ Critical Warning:                   0x00
 Temperature:                        29 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    4%
-Data Units Read:                    5,566,271 [2.84 TB]
-Data Units Written:                 137,651,432 [70.4 TB]
-Host Read Commands:                 86,238,555
-Host Write Commands:                1,640,593,992
-Controller Busy Time:               537
-Power Cycles:                       65
-Power On Hours:                     19,694
-Unsafe Shutdowns:                   44
+Percentage Used:                    7%
+Data Units Read:                    6,933,466 [3.54 TB]
+Data Units Written:                 203,959,147 [104 TB]
+Host Read Commands:                 101,125,105
+Host Write Commands:                2,244,484,391
+Controller Busy Time:               732
+Power Cycles:                       97
+Power On Hours:                     23,236
+Unsafe Shutdowns:                   65
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      416
+Error Information Log Entries:      585
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 

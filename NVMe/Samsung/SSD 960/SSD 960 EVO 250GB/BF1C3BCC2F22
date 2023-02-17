@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Samsung SSD 960 EVO 250GB
@@ -13,10 +13,10 @@ Controller ID:                      2
 NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            43,898,339,328 [43.8 GB]
+Namespace 1 Utilization:            127,941,816,320 [127 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Fri Jan 28 15:12:07 2022 CST
+Local Time is:                      Sun Aug 14 23:31:52 2022 CDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -42,42 +42,42 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        29 Celsius
+Temperature:                        33 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    9%
-Data Units Read:                    21,476,004 [10.9 TB]
-Data Units Written:                 63,357,960 [32.4 TB]
-Host Read Commands:                 346,780,436
-Host Write Commands:                974,807,119
-Controller Busy Time:               6,694
-Power Cycles:                       1,950
-Power On Hours:                     6,079
-Unsafe Shutdowns:                   118
+Percentage Used:                    17%
+Data Units Read:                    21,551,291 [11.0 TB]
+Data Units Written:                 108,597,580 [55.6 TB]
+Host Read Commands:                 348,621,966
+Host Write Commands:                1,642,647,877
+Controller Busy Time:               7,890
+Power Cycles:                       1,957
+Power On Hours:                     8,287
+Unsafe Shutdowns:                   123
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      672
+Error Information Log Entries:      726
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               29 Celsius
-Temperature Sensor 2:               40 Celsius
+Temperature Sensor 1:               33 Celsius
+Temperature Sensor 2:               44 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0        672     0  0x0015  0x421a  0x028            0     0     -
-  1        671     0  0x0009  0x4016  0x004            0     1     -
-  2        670     0  0x0015  0x421a  0x028            0     0     -
-  3        669     0  0x0009  0x4016  0x004            0     1     -
-  4        668     0  0x0015  0x421a  0x028            0     0     -
-  5        667     0  0x0009  0x4016  0x004            0     1     -
-  6        666     0  0x0015  0x421a  0x028            0     0     -
-  7        665     0  0x0009  0x4016  0x004            0     1     -
-  8        664     0  0x0015  0x421a  0x028            0     0     -
-  9        663     0  0x0009  0x4016  0x004            0     1     -
- 10        662     0  0x0009  0x4016  0x004            0     1     -
- 11        661     0  0x0015  0x421a  0x028            0     0     -
- 12        660     0  0x0009  0x4016  0x004            0     1     -
- 13        659     0  0x0015  0x421a  0x028            0     0     -
- 14        658     0  0x0009  0x4016  0x004            0     1     -
- 15        657     0  0x0015  0x421a  0x028            0     0     -
+  0        726     0  0x0015  0x421a  0x028            0     0     -
+  1        725     0  0x0009  0x4016  0x004            0     1     -
+  2        724     0  0x0015  0x421a  0x028            0     0     -
+  3        723     0  0x0009  0x4016  0x004            0     1     -
+  4        722     0  0x0015  0x421a  0x028            0     0     -
+  5        721     0  0x0009  0x4016  0x004            0     1     -
+  6        720     0  0x0016  0x421a  0x028            0     0     -
+  7        719     0  0x0009  0x4016  0x004            0     1     -
+  8        718     0  0x0016  0x421a  0x028            0     0     -
+  9        717     0  0x0009  0x4016  0x004            0     1     -
+ 10        716     0  0x0016  0x421a  0x028            0     0     -
+ 11        715     0  0x0009  0x4016  0x004            0     1     -
+ 12        714     0  0x0009  0x4016  0x004            0     1     -
+ 13        713     0  0x0015  0x421a  0x028            0     0     -
+ 14        712     0  0x0009  0x4016  0x004            0     1     -
+ 15        711     0  0x0009  0x4016  0x004            0     1     -
 ... (48 entries not read)
 

@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Apr 17 22:37:03 2021 CEST
+Local Time is:    Fri Jun 11 00:45:45 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -61,54 +61,54 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   000    Pre-fail  Always       -       27
   5 Reallocate_NAND_Blk_Cnt 0x0033   100   100   000    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       5356
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       3976
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       5804
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       4059
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-173 Ave_Block-Erase_Count   0x0032   098   098   000    Old_age   Always       -       74
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       2495
+173 Ave_Block-Erase_Count   0x0032   097   097   000    Old_age   Always       -       93
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       2555
 180 Unused_Reserve_NAND_Blk 0x0033   000   000   000    Pre-fail  Always       -       2159
 183 SATA_Interfac_Downshift 0x0032   100   100   000    Old_age   Always       -       0
 184 Error_Correction_Count  0x0032   100   100   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   076   056   000    Old_age   Always       -       24 (Min/Max 8/44)
+194 Temperature_Celsius     0x0022   058   047   000    Old_age   Always       -       42 (Min/Max 8/53)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
-202 Percent_Lifetime_Remain 0x0031   098   098   000    Pre-fail  Offline      -       2
+202 Percent_Lifetime_Remain 0x0031   097   097   000    Pre-fail  Offline      -       3
 206 Write_Error_Rate        0x000e   100   100   000    Old_age   Always       -       0
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
-246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       21809870133
-247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       684872739
-248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       839424514
+246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       30394227755
+247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       953534449
+248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       891909166
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Vendor (0xff)       Completed without error       00%      4898         -
-# 2  Vendor (0xff)       Completed without error       00%      4868         -
-# 3  Vendor (0xff)       Completed without error       00%      4764         -
-# 4  Vendor (0xff)       Completed without error       00%      4651         -
-# 5  Vendor (0xff)       Completed without error       00%      4379         -
-# 6  Vendor (0xff)       Completed without error       00%      4020         -
-# 7  Vendor (0xff)       Completed without error       00%      3584         -
-# 8  Vendor (0xff)       Completed without error       00%      3113         -
-# 9  Vendor (0xff)       Completed without error       00%      2898         -
-#10  Vendor (0xff)       Completed without error       00%      2731         -
-#11  Vendor (0xff)       Completed without error       00%      2667         -
-#12  Vendor (0xff)       Completed without error       00%      2632         -
-#13  Vendor (0xff)       Completed without error       00%      2604         -
-#14  Vendor (0xff)       Completed without error       00%      2319         -
-#15  Vendor (0xff)       Completed without error       00%      2147         -
-#16  Vendor (0xff)       Completed without error       00%      2038         -
-#17  Vendor (0xff)       Completed without error       00%      2023         -
-#18  Vendor (0xff)       Completed without error       00%      2009         -
-#19  Vendor (0xff)       Completed without error       00%      1785         -
-#20  Vendor (0xff)       Completed without error       00%      1750         -
-#21  Vendor (0xff)       Completed without error       00%      1029         -
+# 1  Vendor (0xff)       Completed without error       00%      5790         -
+# 2  Vendor (0xff)       Completed without error       00%      5737         -
+# 3  Vendor (0xff)       Completed without error       00%      5721         -
+# 4  Vendor (0xff)       Completed without error       00%      5693         -
+# 5  Vendor (0xff)       Completed without error       00%      5679         -
+# 6  Vendor (0xff)       Completed without error       00%      5659         -
+# 7  Vendor (0xff)       Completed without error       00%      4898         -
+# 8  Vendor (0xff)       Completed without error       00%      4868         -
+# 9  Vendor (0xff)       Completed without error       00%      4764         -
+#10  Vendor (0xff)       Completed without error       00%      4651         -
+#11  Vendor (0xff)       Completed without error       00%      4379         -
+#12  Vendor (0xff)       Completed without error       00%      4020         -
+#13  Vendor (0xff)       Completed without error       00%      3584         -
+#14  Vendor (0xff)       Completed without error       00%      3113         -
+#15  Vendor (0xff)       Completed without error       00%      2898         -
+#16  Vendor (0xff)       Completed without error       00%      2731         -
+#17  Vendor (0xff)       Completed without error       00%      2667         -
+#18  Vendor (0xff)       Completed without error       00%      2632         -
+#19  Vendor (0xff)       Completed without error       00%      2604         -
+#20  Vendor (0xff)       Completed without error       00%      2319         -
+#21  Vendor (0xff)       Completed without error       00%      2147         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -120,4 +120,6 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
 

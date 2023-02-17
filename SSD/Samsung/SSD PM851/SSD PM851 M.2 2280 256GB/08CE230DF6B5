@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p4 amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.1-RELEASE amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Nov  3 22:48:18 2021 GMT
+Local Time is:    Fri May 20 01:55:25 2022 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,10 +65,10 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
- 12 Power_Cycle_Count       -O--CK   097   097   000    -    2521
+ 12 Power_Cycle_Count       -O--CK   097   097   000    -    2665
 175 Program_Fail_Count_Chip -O--CK   100   100   010    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   010    -    0
-177 Wear_Leveling_Count     PO--C-   080   080   005    -    231
+177 Wear_Leveling_Count     PO--C-   080   080   005    -    240
 178 Used_Rsvd_Blk_Cnt_Chip  PO--C-   100   100   010    -    0
 179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   100   100   010    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   100   100   010    -    4423
@@ -76,8 +76,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count_Total  -O--CK   100   100   010    -    0
 187 Uncorrectable_Error_Cnt -O--CK   100   100   000    -    0
 195 ECC_Error_Rate          -O-RC-   200   200   000    -    0
-241 Total_LBAs_Written      -O--CK   099   099   000    -    64360164733
-242 Total_LBAs_Read         -O--CK   099   099   000    -    68857739666
+241 Total_LBAs_Written      -O--CK   099   099   000    -    67568298685
+242 Total_LBAs_Read         -O--CK   099   099   000    -    72790791846
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -107,24 +107,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%         0         -
+# 1  Short offline       Completed without error       00%         2         -
 # 2  Short offline       Completed without error       00%         0         -
-# 3  Short offline       Completed without error       00%         4         -
-# 4  Short offline       Completed without error       00%         4         -
-# 5  Short offline       Completed without error       00%         0         -
-# 6  Short offline       Completed without error       00%         1         -
-# 7  Short offline       Completed without error       00%        63         -
-# 8  Short offline       Completed without error       00%       119         -
-# 9  Short offline       Completed without error       00%        89         -
-#10  Short offline       Completed without error       00%        88         -
-#11  Short offline       Completed without error       00%         0         -
-#12  Short offline       Completed without error       00%         0         -
+# 3  Short offline       Completed without error       00%         0         -
+# 4  Short offline       Completed without error       00%         0         -
+# 5  Short offline       Completed without error       00%         4         -
+# 6  Short offline       Completed without error       00%         4         -
+# 7  Short offline       Completed without error       00%         0         -
+# 8  Short offline       Completed without error       00%         1         -
+# 9  Short offline       Completed without error       00%        63         -
+#10  Short offline       Completed without error       00%       119         -
+#11  Short offline       Completed without error       00%        89         -
+#12  Short offline       Completed without error       00%        88         -
 #13  Short offline       Completed without error       00%         0         -
-#14  Short offline       Completed without error       00%         2         -
-#15  Short offline       Completed without error       00%        72         -
-#16  Short offline       Completed without error       00%         4         -
-#17  Short offline       Completed without error       00%         0         -
-#18  Short offline       Completed without error       00%         0         -
+#14  Short offline       Completed without error       00%         0         -
+#15  Short offline       Completed without error       00%         0         -
+#16  Short offline       Completed without error       00%         2         -
+#17  Short offline       Completed without error       00%        72         -
+#18  Short offline       Completed without error       00%         4         -
 #19  Short offline       Completed without error       00%         0         -
 
 SMART Selective self-test log data structure revision number 1
@@ -144,7 +144,7 @@ Device State:                        Active (0)
 Current Temperature:                    40 Celsius
 Power Cycle Min/Max Temperature:      ?/ ? Celsius
 Lifetime    Min/Max Temperature:      ?/ ? Celsius
-Under/Over Temperature Limit Count:   0/79299
+Under/Over Temperature Limit Count:   0/80775
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         10 minutes

@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.1-RELEASE amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-RELEASE-p4 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       WDC PC SN520 SDAPMUW-128G-1101
@@ -10,14 +10,16 @@ IEEE OUI Identifier:                0x001b44
 Total NVM Capacity:                 128,035,676,160 [128 GB]
 Unallocated NVM Capacity:           0
 Controller ID:                      1
+NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Mon Feb  8 15:46:27 2021 EST
+Local Time is:                      Wed Mar  3 23:03:47 2021 CET
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+Log Page Attributes (0x02):         Cmd_Eff_Lg
 Maximum Data Transfer Size:         128 Pages
 Warning  Comp. Temp. Threshold:     82 Celsius
 Critical Comp. Temp. Threshold:     86 Celsius
@@ -41,23 +43,23 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        36 Celsius
+Temperature:                        43 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    2,394,753 [1.22 TB]
-Data Units Written:                 2,189,581 [1.12 TB]
-Host Read Commands:                 37,285,788
-Host Write Commands:                21,994,889
-Controller Busy Time:               131
-Power Cycles:                       240
-Power On Hours:                     133
+Data Units Read:                    2,460,540 [1.25 TB]
+Data Units Written:                 2,249,456 [1.15 TB]
+Host Read Commands:                 38,739,821
+Host Write Commands:                22,902,283
+Controller Busy Time:               137
+Power Cycles:                       250
+Power On Hours:                     137
 Unsafe Shutdowns:                   8
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 
-Error Information (NVMe Log 0x01, max 256 entries)
+Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged
 

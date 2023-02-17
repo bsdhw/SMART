@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [NetBSD 9.1 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [OpenBSD 6.9 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SK hynix SATA SSDs
@@ -10,15 +10,18 @@ User Capacity:    128,035,676,160 bytes [128 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
 Form Factor:      M.2
+TRIM Command:     Available, deterministic
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Mar 23 22:18:18 2021 +03
+Local Time is:    Sun Jun 27 09:45:09 2021 +03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
 === START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -52,34 +55,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000f   166   166   006    Pre-fail  Always       -       0
   5 Retired_Block_Count     0x0032   253   100   036    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   093   093   000    Old_age   Always       -       6609
- 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       5487
-100 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       16073152
-168 Min_Erase_Count         0x0032   056   056   000    Old_age   Always       -       472
-169 Max_Erase_Count         0x0032   051   051   000    Old_age   Always       -       529
+  9 Power_On_Hours          0x0032   092   092   000    Old_age   Always       -       7478
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       5770
+100 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       17681510
+168 Min_Erase_Count         0x0032   052   052   000    Old_age   Always       -       511
+169 Max_Erase_Count         0x0032   046   046   000    Old_age   Always       -       578
 171 Program_Fail_Count      0x0032   253   253   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   253   253   000    Old_age   Always       -       0
-174 Unexpect_Power_Loss_Ct  0x0030   100   100   000    Old_age   Offline      -       323
+174 Unexpect_Power_Loss_Ct  0x0030   100   100   000    Old_age   Offline      -       383
 175 Program_Fail_Count_Chip 0x0032   253   253   000    Old_age   Always       -       0
 176 Unused_Rsvd_Blk_Cnt_Tot 0x0032   253   253   000    Old_age   Always       -       0
-177 Wear_Leveling_Count     0x0032   054   054   000    Old_age   Always       -       490
+177 Wear_Leveling_Count     0x0032   049   049   000    Old_age   Always       -       541
 178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   000    Old_age   Always       -       20
 179 Used_Rsvd_Blk_Cnt_Tot   0x0032   100   100   000    Old_age   Always       -       119
 180 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       2521
 184 End-to-End_Error        0x0032   253   253   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   253   253   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   253   253   000    Old_age   Always       -       0
-194 Temperature_Celsius     0x0002   057   000   000    Old_age   Always       -       57 (Min/Max 16/74)
+194 Temperature_Celsius     0x0002   060   000   000    Old_age   Always       -       60 (Min/Max 16/74)
 195 Hardware_ECC_Recovered  0x0032   253   253   000    Old_age   Always       -       0
 196 Reallocated_Event_Count 0x0032   253   100   036    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0032   253   253   000    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x0032   253   253   000    Old_age   Always       -       0
-204 Soft_ECC_Correction     0x000e   100   001   000    Old_age   Always       -       16
+204 Soft_ECC_Correction     0x000e   001   001   000    Old_age   Always       -       2764
 212 Phy_Error_Count         0x0032   253   253   000    Old_age   Always       -       0
-234 Unknown_SK_hynix_Attrib 0x0032   100   100   000    Old_age   Always       -       67704
-241 Total_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       12889
-242 Total_Reads_GiB         0x0032   100   100   000    Old_age   Always       -       10505
-250 Read_Retry_Count        0x0032   100   100   000    Old_age   Always       -       29740256
+234 Unknown_SK_hynix_Attrib 0x0032   100   100   000    Old_age   Always       -       74480
+241 Total_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       14961
+242 Total_Reads_GiB         0x0032   100   100   000    Old_age   Always       -       10755
+250 Read_Retry_Count        0x0032   100   100   000    Old_age   Always       -       31346066
 
 SMART Error Log Version: 0
 No Errors Logged
@@ -88,4 +91,6 @@ SMART Self-test log structure revision number 1
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
 
 Selective Self-tests/Logging not supported
+
+
 

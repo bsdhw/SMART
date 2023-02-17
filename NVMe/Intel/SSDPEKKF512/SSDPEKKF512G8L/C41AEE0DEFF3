@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.2-STABLE amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-STABLE amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            5cd2e4 ...
-Local Time is:                      Fri Mar 26 20:54:23 2021 CET
+Local Time is:                      Thu Apr 29 20:56:03 2021 CEST
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -39,18 +39,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        46 Celsius
+Temperature:                        37 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          12%
 Percentage Used:                    5%
-Data Units Read:                    18,191,072 [9.31 TB]
-Data Units Written:                 30,060,053 [15.3 TB]
-Host Read Commands:                 281,108,055
-Host Write Commands:                570,422,955
-Controller Busy Time:               8,203
-Power Cycles:                       725
-Power On Hours:                     6,507
-Unsafe Shutdowns:                   217
+Data Units Read:                    19,175,511 [9.81 TB]
+Data Units Written:                 31,742,238 [16.2 TB]
+Host Read Commands:                 302,664,540
+Host Write Commands:                606,894,074
+Controller Busy Time:               8,652
+Power Cycles:                       789
+Power On Hours:                     7,174
+Unsafe Shutdowns:                   266
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      80
 Warning  Comp. Temperature Time:    0
