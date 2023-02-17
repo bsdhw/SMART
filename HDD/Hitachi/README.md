@@ -89,10 +89,10 @@ MTBF - avg. MTBF in years per sample.
 | Hitachi   | HDT725032VLA380    | 320 GB | 2       | 441   | 0     | 1.21   |
 | Hitachi   | HTS723220L9A360    | 200 GB | 1       | 401   | 0     | 1.10   |
 | Hitachi   | HTS721060G9SA00    | 64 GB  | 1       | 1545  | 3     | 1.06   |
+| Hitachi   | HTS545032B9A300    | 320 GB | 8       | 460   | 301   | 1.03   |
 | Hitachi   | HDS721616PLA380    | 160 GB | 3       | 445   | 3     | 0.95   |
 | Hitachi   | HTS723232A7A364    | 320 GB | 7       | 954   | 462   | 0.91   |
 | Hitachi   | HCS5C1032CLA382    | 320 GB | 1       | 1997  | 5     | 0.91   |
-| Hitachi   | HTS545032B9A300    | 320 GB | 7       | 412   | 343   | 0.86   |
 | Hitachi   | HTS547550A9E384    | 500 GB | 8       | 419   | 147   | 0.80   |
 | Hitachi   | HTS545025B9SA02    | 250 GB | 4       | 682   | 244   | 0.75   |
 | Hitachi   | HTS541080G9SA00    | 80 GB  | 1       | 525   | 1     | 0.72   |
@@ -190,9 +190,9 @@ MTBF - avg. MTBF in years per sample.
 | Hitachi   | Ultrastar 7K4000       | 2      | 19      | 654   | 1     | 1.70   |
 | Hitachi   | Travelstar 7K500       | 5      | 9       | 1046  | 556   | 1.64   |
 | Hitachi   | CinemaStar C5K750      | 1      | 1       | 445   | 0     | 1.22   |
+| Hitachi   | Travelstar 5K500.B     | 8      | 28      | 622   | 395   | 1.19   |
 | Hitachi   | Travelstar 5K250       | 6      | 9       | 621   | 3     | 1.18   |
 | Hitachi   | Travelstar 5K100       | 4      | 4       | 615   | 3     | 1.17   |
-| Hitachi   | Travelstar 5K500.B     | 8      | 27      | 616   | 410   | 1.15   |
 | Hitachi   | Travelstar Z7K500      | 2      | 4       | 800   | 737   | 1.02   |
 | Hitachi   | Travelstar Z7K320      | 2      | 8       | 863   | 405   | 0.88   |
 | Hitachi   | Travelstar 7K320       | 4      | 4       | 484   | 254   | 0.77   |

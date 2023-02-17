@@ -41,7 +41,7 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | SMS151S332GD1      | 32 GB  | 1       | 767   | 0     | 2.10   |
 | Kingston  | SS050S232G         | 32 GB  | 1       | 744   | 0     | 2.04   |
 | Kingston  | SMS200S360G        | 64 GB  | 13      | 1108  | 6     | 1.96   |
-| Kingston  | SV300S37A120G      | 120 GB | 48      | 916   | 2     | 1.93   |
+| Kingston  | SV300S37A120G      | 120 GB | 49      | 921   | 2     | 1.96   |
 | Kingston  | SV300S37A480G      | 480 GB | 2       | 695   | 0     | 1.91   |
 | Kingston  | SHFS37A120G        | 120 GB | 10      | 894   | 1     | 1.88   |
 | Kingston  | SV300S37A60G       | 64 GB  | 17      | 1082  | 49    | 1.83   |
@@ -72,12 +72,12 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | SA400S37120G       | 120 GB | 91      | 306   | 2     | 0.80   |
 | Kingston  | SKC400S37256G      | 256 GB | 1       | 271   | 0     | 0.74   |
 | Kingston  | SMSM150S3128G      | 128 GB | 1       | 229   | 0     | 0.63   |
+| Kingston  | SA400S37240G       | 240 GB | 132     | 222   | 1     | 0.60   |
 | Kingston  | SA400S37480G       | 480 GB | 30      | 224   | 1     | 0.60   |
 | Kingston  | SHSS37A240G        | 240 GB | 2       | 217   | 0     | 0.60   |
-| Kingston  | SA400S37240G       | 240 GB | 131     | 217   | 1     | 0.59   |
 | Kingston  | SUV500240G         | 240 GB | 3       | 205   | 0     | 0.56   |
+| Kingston  | SUV500MS480G       | 480 GB | 13      | 200   | 1     | 0.54   |
 | Kingston  | SUV500M8240G       | 240 GB | 3       | 196   | 0     | 0.54   |
-| Kingston  | SUV500MS480G       | 480 GB | 12      | 173   | 1     | 0.47   |
 | Kingston  | SMS200S3240G       | 240 GB | 1       | 168   | 0     | 0.46   |
 | Kingston  | SNV325S2           | 128 GB | 1       | 163   | 0     | 0.45   |
 | Kingston  | SQ500S37240G       | 240 GB | 1       | 159   | 0     | 0.44   |
@@ -127,8 +127,8 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Kingston  | JMicron/Maxiotek ba... | 4      | 7       | 1457  | 4     | 2.19   |
-| Kingston  | SandForce Driven SSDs  | 16     | 153     | 937   | 40    | 1.90   |
-| Kingston  | SSDNow UV400/500       | 10     | 150     | 438   | 7     | 1.16   |
-| Kingston  | Phison Driven SSDs     | 16     | 295     | 247   | 1     | 0.66   |
+| Kingston  | SandForce Driven SSDs  | 16     | 154     | 938   | 40    | 1.90   |
+| Kingston  | SSDNow UV400/500       | 10     | 151     | 439   | 7     | 1.16   |
+| Kingston  | Phison Driven SSDs     | 16     | 296     | 249   | 1     | 0.67   |
 | Kingston  | Unknown                | 42     | 94      | 227   | 79    | 0.54   |
 | Kingston  | Silicon Motion base... | 1      | 3       | 67    | 0     | 0.19   |

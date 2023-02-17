@@ -38,6 +38,7 @@ MTBF - avg. MTBF in years per sample.
 | Crucial   | CT128M550SSD4      | 128 GB | 1       | 610   | 0     | 1.67   |
 | Crucial   | CT256MX100SSD1     | 256 GB | 9       | 603   | 0     | 1.65   |
 | Crucial   | CT1050MX300SSD4    | 1 TB   | 2       | 1139  | 3     | 1.63   |
+| Crucial   | CT275MX300SSD4     | 275 GB | 5       | 632   | 35    | 1.61   |
 | Crucial   | CT240M500SSD1      | 240 GB | 7       | 756   | 234   | 1.49   |
 | Crucial   | CT250MX200SSD4     | 250 GB | 2       | 515   | 0     | 1.41   |
 | Crucial   | CT250MX500SSD4     | 250 GB | 4       | 487   | 0     | 1.34   |
@@ -47,7 +48,6 @@ MTBF - avg. MTBF in years per sample.
 | Crucial   | CT2050MX300SSD1    | 2 TB   | 1       | 369   | 0     | 1.01   |
 | Crucial   | CT525MX300SSD1     | 528 GB | 15      | 574   | 2     | 1.00   |
 | Crucial   | CT525MX300SSD4     | 528 GB | 2       | 370   | 2     | 0.94   |
-| Crucial   | CT275MX300SSD4     | 275 GB | 4       | 390   | 44    | 0.92   |
 | Crucial   | CT120BX500SSD1     | 120 GB | 45      | 320   | 0     | 0.88   |
 | Crucial   | CT500MX200SSD1     | 500 GB | 5       | 300   | 0     | 0.82   |
 | Crucial   | CT250MX500SSD1     | 250 GB | 59      | 272   | 0     | 0.75   |
@@ -56,9 +56,9 @@ MTBF - avg. MTBF in years per sample.
 | Crucial   | CT120M500SSD1      | 120 GB | 5       | 741   | 4     | 0.67   |
 | Crucial   | CT500MX500SSD1     | 500 GB | 55      | 241   | 1     | 0.65   |
 | Crucial   | CT2000MX500SSD1    | 2 TB   | 13      | 220   | 0     | 0.60   |
+| Crucial   | CT240BX500SSD1     | 240 GB | 57      | 192   | 0     | 0.53   |
 | Crucial   | CT1000MX500SSD1    | 1 TB   | 32      | 202   | 2     | 0.52   |
 | Crucial   | CT750MX300SSD1     | 752 GB | 1       | 187   | 0     | 0.51   |
-| Crucial   | CT240BX500SSD1     | 240 GB | 56      | 184   | 0     | 0.51   |
 | Crucial   | CT480BX500SSD1     | 480 GB | 17      | 192   | 1     | 0.49   |
 | Crucial   | CT960BX500SSD1     | 960 GB | 2       | 127   | 0     | 0.35   |
 | Crucial   | CT128M550SSD3      | 128 GB | 1       | 1959  | 16    | 0.32   |
@@ -88,5 +88,5 @@ MTBF - avg. MTBF in years per sample.
 | Crucial   | Unknown                | 1      | 2       | 1406  | 0     | 3.85   |
 | Crucial   | RealSSD m4/C400/P400   | 8      | 40      | 1540  | 154   | 3.83   |
 | Crucial   | BX/MX1/2/3/500, M5/... | 5      | 13      | 668   | 1     | 1.53   |
-| Crucial   | Client SSDs            | 33     | 391     | 329   | 22    | 0.74   |
+| Crucial   | Client SSDs            | 33     | 393     | 333   | 22    | 0.75   |
 | Crucial   | BX/MX1/2/3/500, M5/... | 1      | 5       | 741   | 4     | 0.67   |
