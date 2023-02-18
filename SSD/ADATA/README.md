@@ -34,7 +34,7 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | SP600              | 128 GB | 1       | 813   | 0     | 2.23   |
 | ADATA     | SSD S599           | 40 GB  | 1       | 802   | 0     | 2.20   |
 | ADATA     | SP600              | 64 GB  | 2       | 683   | 0     | 1.87   |
-| ADATA     | IM2S3134N-064GM    | 64 GB  | 19      | 664   | 0     | 1.82   |
+| ADATA     | IM2S3134N-064GM    | 64 GB  | 19      | 668   | 0     | 1.83   |
 | ADATA     | IMSS314-064GB      | 64 GB  | 1       | 549   | 0     | 1.51   |
 | ADATA     | SU630              | 960 GB | 1       | 494   | 0     | 1.35   |
 | ADATA     | SP900              | 128 GB | 7       | 493   | 0     | 1.35   |
@@ -90,5 +90,5 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | JMicron based SSDs     | 4      | 6       | 1280  | 0     | 3.51   |
 | ADATA     | JMicron/Maxiotek ba... | 3      | 4       | 1145  | 0     | 3.14   |
 | ADATA     | SandForce Driven SSDs  | 7      | 17      | 792   | 26    | 1.79   |
-| ADATA     | Unknown                | 22     | 65      | 334   | 33    | 0.88   |
+| ADATA     | Unknown                | 22     | 65      | 335   | 33    | 0.88   |
 | ADATA     | Silicon Motion base... | 14     | 84      | 217   | 60    | 0.50   |

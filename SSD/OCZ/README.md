@@ -31,7 +31,7 @@ MTBF - avg. MTBF in years per sample.
 | OCZ       | VERTEX PLUS R2     | 64 GB  | 1       | 2045  | 0     | 5.60   |
 | OCZ       | VERTEX PLUS        | 64 GB  | 1       | 1901  | 0     | 5.21   |
 | OCZ       | AGILITY4           | 256 GB | 1       | 1775  | 0     | 4.87   |
-| OCZ       | VERTEX4            | 256 GB | 3       | 1639  | 0     | 4.49   |
+| OCZ       | VERTEX4            | 256 GB | 3       | 1660  | 0     | 4.55   |
 | OCZ       | VERTEX3 MI         | 120 GB | 2       | 2104  | 1     | 3.97   |
 | OCZ       | AGILITY3           | 120 GB | 8       | 1466  | 151   | 3.93   |
 | OCZ       | AGILITY3           | 128 GB | 1       | 1233  | 0     | 3.38   |
@@ -77,7 +77,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| OCZ       | Indilinx Barefoot_2... | 8      | 16      | 1096  | 1     | 2.84   |
+| OCZ       | Indilinx Barefoot_2... | 8      | 16      | 1100  | 1     | 2.85   |
 | OCZ       | SandForce Driven SSDs  | 19     | 45      | 1277  | 77    | 2.64   |
 | OCZ       | Indilinx Barefoot b... | 3      | 5       | 1076  | 23    | 2.59   |
 | OCZ       | Indilinx Barefoot 3... | 6      | 9       | 817   | 3     | 1.95   |

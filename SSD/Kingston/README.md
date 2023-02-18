@@ -56,9 +56,9 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | SKC300S37A240G     | 240 GB | 1       | 583   | 0     | 1.60   |
 | Kingston  | RBU-SMS151S364GG   | 64 GB  | 1       | 549   | 0     | 1.50   |
 | Kingston  | SM2280S3G2240G     | 240 GB | 1       | 548   | 0     | 1.50   |
-| Kingston  | SMS200S3120G       | 120 GB | 14      | 1013  | 13    | 1.36   |
+| Kingston  | SMS200S3120G       | 120 GB | 14      | 1013  | 13    | 1.37   |
 | Kingston  | SUV400S37480G      | 480 GB | 3       | 847   | 4     | 1.18   |
-| Kingston  | SUV500MS120G       | 120 GB | 62      | 424   | 0     | 1.16   |
+| Kingston  | SUV500MS120G       | 120 GB | 62      | 427   | 0     | 1.17   |
 | Kingston  | SQ500S37480G       | 480 GB | 1       | 388   | 0     | 1.06   |
 | Kingston  | SHFS37A240G        | 240 GB | 7       | 381   | 0     | 1.04   |
 | Kingston  | SVP100S2512G       | 512 GB | 1       | 353   | 0     | 0.97   |
@@ -66,13 +66,13 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | SV200S3128G        | 128 GB | 1       | 1746  | 4     | 0.96   |
 | Kingston  | SA400S37960G       | 960 GB | 5       | 348   | 0     | 0.95   |
 | Kingston  | SUV500M8120G       | 120 GB | 1       | 320   | 0     | 0.88   |
+| Kingston  | SUV500MS240G       | 240 GB | 35      | 310   | 0     | 0.85   |
 | Kingston  | SA400S371920G      | 1.9 TB | 1       | 310   | 0     | 0.85   |
 | Kingston  | SUV300S37A120G     | 120 GB | 1       | 309   | 0     | 0.85   |
-| Kingston  | SUV500MS240G       | 240 GB | 35      | 301   | 0     | 0.82   |
-| Kingston  | SA400S37120G       | 120 GB | 91      | 306   | 2     | 0.80   |
+| Kingston  | SA400S37120G       | 120 GB | 91      | 308   | 2     | 0.80   |
 | Kingston  | SKC400S37256G      | 256 GB | 1       | 271   | 0     | 0.74   |
 | Kingston  | SMSM150S3128G      | 128 GB | 1       | 229   | 0     | 0.63   |
-| Kingston  | SA400S37240G       | 240 GB | 132     | 222   | 1     | 0.60   |
+| Kingston  | SA400S37240G       | 240 GB | 132     | 225   | 1     | 0.61   |
 | Kingston  | SA400S37480G       | 480 GB | 30      | 224   | 1     | 0.60   |
 | Kingston  | SHSS37A240G        | 240 GB | 2       | 217   | 0     | 0.60   |
 | Kingston  | SUV500240G         | 240 GB | 3       | 205   | 0     | 0.56   |
@@ -97,11 +97,11 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | SUV500MS-128G      | 128 GB | 1       | 12    | 0     | 0.03   |
 | Kingston  | SKC600MS1024G      | 1 TB   | 3       | 9     | 0     | 0.03   |
 | Kingston  | SKC600MS512G       | 512 GB | 12      | 7     | 0     | 0.02   |
+| Kingston  | SMSM151S3-128G     | 128 GB | 1       | 5     | 0     | 0.01   |
 | Kingston  | OM8P0S3512F-00     | 512 GB | 1       | 4     | 0     | 0.01   |
 | Kingston  | SUV500M8-128GB     | 128 GB | 2       | 3     | 0     | 0.01   |
 | Kingston  | OM8P0S3128B-A0     | 128 GB | 1       | 3     | 0     | 0.01   |
 | Kingston  | RBU-SNS4151S316GG2 | 16 GB  | 1       | 1     | 0     | 0.00   |
-| Kingston  | SMSM151S3-128G     | 128 GB | 1       | 1     | 0     | 0.00   |
 | Kingston  | RBUSC180S3764GJ    | 64 GB  | 1       | 0     | 0     | 0.00   |
 | Kingston  | RBUSNS8180S3512GJ  | 512 GB | 2       | 0     | 0     | 0.00   |
 | Kingston  | RBU-SNS8350DES3... | 128 GB | 2       | 74    | 98    | 0.00   |
@@ -128,7 +128,7 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Kingston  | JMicron/Maxiotek ba... | 4      | 7       | 1457  | 4     | 2.19   |
 | Kingston  | SandForce Driven SSDs  | 16     | 154     | 938   | 40    | 1.90   |
-| Kingston  | SSDNow UV400/500       | 10     | 151     | 439   | 7     | 1.16   |
-| Kingston  | Phison Driven SSDs     | 16     | 296     | 249   | 1     | 0.67   |
+| Kingston  | SSDNow UV400/500       | 10     | 151     | 442   | 7     | 1.17   |
+| Kingston  | Phison Driven SSDs     | 16     | 296     | 250   | 1     | 0.67   |
 | Kingston  | Unknown                | 42     | 94      | 227   | 79    | 0.54   |
 | Kingston  | Silicon Motion base... | 1      | 3       | 67    | 0     | 0.19   |

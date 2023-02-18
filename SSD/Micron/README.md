@@ -35,14 +35,14 @@ MTBF - avg. MTBF in years per sample.
 | Micron    | 1100_MTFDDAK512TBN | 512 GB | 6       | 853   | 1     | 1.80   |
 | Micron    | MTFDDAK120MBB-1... | 120 GB | 1       | 590   | 0     | 1.62   |
 | Micron    | 1300_MTFDDAK256TDL | 256 GB | 4       | 568   | 0     | 1.56   |
+| Micron    | MTFDDAK256MBF-1... | 256 GB | 2       | 472   | 0     | 1.29   |
 | Micron    | 1100_MTFDDAV256TBN | 256 GB | 6       | 493   | 3     | 1.29   |
-| Micron    | MTFDDAK256MBF-1... | 256 GB | 2       | 465   | 0     | 1.28   |
 | Micron    | 5200_MTFDDAK1T9TDN | 1.9 TB | 2       | 446   | 0     | 1.22   |
 | Micron    | MTFDDAK256TBN-1... | 256 GB | 1       | 431   | 0     | 1.18   |
 | Micron    | MTFDDAV256MBF-1... | 256 GB | 2       | 406   | 0     | 1.11   |
 | Micron    | 1100_MTFDDAK256TBN | 256 GB | 5       | 351   | 0     | 0.96   |
 | Micron    | MTFDDAK256MAM-1K1  | 256 GB | 2       | 296   | 0     | 0.81   |
-| Micron    | MTFDDAT064MAM-1J2  | 64 GB  | 2       | 270   | 0     | 0.74   |
+| Micron    | MTFDDAT064MAM-1J2  | 64 GB  | 2       | 277   | 0     | 0.76   |
 | Micron    | 1100_MTFDDAK2T0TBN | 2 TB   | 1       | 247   | 0     | 0.68   |
 | Micron    | C400-MTFDDAK064MAM | 64 GB  | 1       | 225   | 0     | 0.62   |
 | Micron    | 5200_MTFDDAK480TDC | 480 GB | 1       | 200   | 0     | 0.55   |
@@ -84,7 +84,7 @@ MTBF - avg. MTBF in years per sample.
 | Micron    | RealSSD C300/P300      | 1      | 2       | 1551  | 503   | 2.30   |
 | Micron    | 5100 Pro / 5200 SSDs   | 1      | 5       | 736   | 1     | 1.81   |
 | Micron    | Client SSDs            | 15     | 32      | 626   | 1     | 1.60   |
-| Micron    | Unknown                | 13     | 19      | 549   | 250   | 1.03   |
+| Micron    | Unknown                | 13     | 19      | 550   | 250   | 1.04   |
 | Micron    | RealSSD m4/C400/P400   | 5      | 12      | 274   | 85    | 0.74   |
 | Micron    | BX/MX1/2/3/500, M5/... | 4      | 16      | 234   | 71    | 0.62   |
 | Micron    | 5100 Pro / 52x0 / 5... | 4      | 6       | 192   | 0     | 0.53   |

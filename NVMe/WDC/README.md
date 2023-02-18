@@ -20,9 +20,9 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WDS250G2X0C-00L350 | 250 GB | 3       | 895   | 0     | 2.45   |
 | WDC       | CL SN720 SDAQNT... | 512 GB | 2       | 804   | 0     | 2.20   |
 | WDC       | WDS100T2X0C-00L350 | 1 TB   | 2       | 765   | 0     | 2.10   |
+| WDC       | PC SN520 SDAPNU... | 128 GB | 2       | 641   | 0     | 1.76   |
 | WDC       | WDS250G3X0C-00SJG0 | 250 GB | 3       | 561   | 0     | 1.54   |
 | WDC       | PC SN530 SDBPNP... | 512 GB | 2       | 425   | 0     | 1.17   |
-| WDC       | PC SN520 SDAPNU... | 128 GB | 2       | 378   | 0     | 1.04   |
 | WDC       | PC SN720 SDAQNT... | 512 GB | 5       | 375   | 0     | 1.03   |
 | WDC       | WDS256G1X0C-00ENX0 | 256 GB | 1       | 367   | 0     | 1.01   |
 | WDC       | WDS500G1B0C-00S6U0 | 500 GB | 3       | 364   | 0     | 1.00   |
@@ -37,7 +37,7 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | PC SN520 SDAPMU... | 128 GB | 2       | 216   | 0     | 0.59   |
 | WDC       | WDS500G2X0C-00L350 | 500 GB | 2       | 203   | 0     | 0.56   |
 | WDC       | PC SN730 NVMe      | 1 TB   | 2       | 194   | 0     | 0.53   |
-| WDC       | WDS100T3X0C-00SJG0 | 1 TB   | 12      | 172   | 0     | 0.47   |
+| WDC       | WDS100T3X0C-00SJG0 | 1 TB   | 12      | 174   | 0     | 0.48   |
 | WDC       | PC SN530 SDBPNP... | 512 GB | 1       | 166   | 0     | 0.46   |
 | WDC       | PC SN520 SDAPNU... | 256 GB | 1       | 161   | 0     | 0.44   |
 | WDC       | WDBA3V5000ANC-WRSN | 500 GB | 2       | 140   | 0     | 0.39   |
@@ -51,19 +51,19 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WDS200T2B0C-00PXH0 | 2 TB   | 1       | 91    | 0     | 0.25   |
 | WDC       | WDS250G1B0C-00S6U0 | 250 GB | 1       | 83    | 0     | 0.23   |
 | WDC       | WDS250G2B0C-00PXH0 | 250 GB | 7       | 78    | 0     | 0.21   |
+| WDC       | PC SN520 SDAPNU... | 512 GB | 2       | 76    | 0     | 0.21   |
 | WDC       | PC SN530 SDBPNP... | 256 GB | 3       | 71    | 0     | 0.20   |
 | WDC       | PC SN530 SDBPMP... | 256 GB | 1       | 66    | 0     | 0.18   |
 | WDC       | PC SN730 SDBPNT... | 512 GB | 1       | 57    | 0     | 0.16   |
-| WDC       | PC SN520 SDAPNU... | 512 GB | 2       | 53    | 0     | 0.15   |
-| WDC       | PC SN730 SDBQNT... | 512 GB | 6       | 51    | 0     | 0.14   |
+| WDC       | PC SN730 SDBQNT... | 512 GB | 6       | 53    | 0     | 0.15   |
 | WDC       | PC SN720 SDAPNT... | 1 TB   | 1       | 49    | 0     | 0.14   |
 | WDC       | PC SN730 SDBQNT... | 1 TB   | 7       | 49    | 0     | 0.14   |
+| WDC       | WDS500G1X0E-00AFY0 | 500 GB | 3       | 47    | 0     | 0.13   |
 | WDC       | PC SN730 SDBPNT... | 512 GB | 1       | 46    | 0     | 0.13   |
 | WDC       | PC SN530 SDBPNP... | 256 GB | 4       | 36    | 0     | 0.10   |
 | WDC       | WDS100T3XHC-00SJG0 | 1 TB   | 1       | 36    | 0     | 0.10   |
 | WDC       | PC SN720 SDAPNT... | 512 GB | 1       | 36    | 0     | 0.10   |
 | WDC       | WDS512G1X0C-00ENX0 | 512 GB | 1       | 33    | 0     | 0.09   |
-| WDC       | WDS500G1X0E-00AFY0 | 500 GB | 3       | 25    | 0     | 0.07   |
 | WDC       | PC SN530 SDBPMP... | 256 GB | 4       | 24    | 0     | 0.07   |
 | WDC       | WDBRPG5000ANC-WRSN | 500 GB | 3       | 24    | 0     | 0.07   |
 | WDC       | PC SN530 SDBPNP... | 256 GB | 3       | 18    | 0     | 0.05   |

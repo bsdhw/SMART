@@ -29,7 +29,7 @@ MTBF - avg. MTBF in years per sample.
 | Apacer    | 32GB SATA Flash... | 32 GB  | 10      | 645   | 105   | 1.30   |
 | Apacer    | 128GB SATA Flas... | 128 GB | 3       | 396   | 0     | 1.09   |
 | Apacer    | APSDM050GM1AN-T... | 54 GB  | 1       | 364   | 0     | 1.00   |
-| Apacer    | 64GB SATA Flash... | 64 GB  | 10      | 385   | 20    | 0.94   |
+| Apacer    | 64GB SATA Flash... | 64 GB  | 10      | 406   | 20    | 1.00   |
 | Apacer    | 16GB SATA Flash... | 16 GB  | 19      | 471   | 13    | 0.89   |
 | Apacer    | AS350              | 120 GB | 1       | 274   | 0     | 0.75   |
 | Apacer    | AS340              | 240 GB | 5       | 209   | 0     | 0.57   |
@@ -59,7 +59,7 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Apacer    | SSDs                   | 3      | 14      | 547   | 75    | 1.16   |
-| Apacer    | SDM4 Series SSD Module | 2      | 29      | 441   | 16    | 0.90   |
+| Apacer    | SDM4 Series SSD Module | 2      | 29      | 448   | 16    | 0.92   |
 | Apacer    | Unknown                | 12     | 18      | 246   | 1     | 0.54   |
 | Apacer    | AS340 SSDs             | 2      | 6       | 179   | 0     | 0.49   |
 | Apacer    | SDM5/5A/5A-M Series... | 2      | 3       | 569   | 20    | 0.11   |

@@ -36,7 +36,7 @@ MTBF - avg. MTBF in years per sample.
 | PNY       | CS900 1TB SSD      | 1 TB   | 1       | 68    | 0     | 0.19   |
 | PNY       | SSD2SC240G1SA75... | 240 GB | 1       | 53    | 0     | 0.15   |
 | PNY       | SSD2SC240G5LC70... | 240 GB | 1       | 14    | 0     | 0.04   |
-| PNY       | SSD2SC120G1CS17... | 120 GB | 2       | 6     | 0     | 0.02   |
+| PNY       | SSD2SC120G1CS17... | 120 GB | 2       | 7     | 0     | 0.02   |
 
 SSD by Family
 -------------

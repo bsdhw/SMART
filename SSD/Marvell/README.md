@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Marvell   | SATAIII            | 16 GB  | 1       | 822   | 0     | 2.25   |
+| Marvell   | SATAIII            | 16 GB  | 1       | 912   | 0     | 2.50   |

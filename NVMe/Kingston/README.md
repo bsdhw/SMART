@@ -25,10 +25,10 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | RBUSNS8154P3256GJ  | 256 GB | 1       | 207   | 0     | 0.57   |
 | Kingston  | SA1000M8480G       | 480 GB | 1       | 170   | 0     | 0.47   |
 | Kingston  | SKC2500M8500G      | 500 GB | 1       | 163   | 0     | 0.45   |
-| Kingston  | SA2000M8250G       | 250 GB | 10      | 137   | 0     | 0.38   |
+| Kingston  | SA2000M8250G       | 250 GB | 10      | 138   | 0     | 0.38   |
 | Kingston  | OM8PCP3512F-AI1    | 512 GB | 2       | 110   | 0     | 0.30   |
+| Kingston  | OM8PDP3512B-A01    | 512 GB | 7       | 100   | 0     | 0.27   |
 | Kingston  | RBUSNS8154P3256GJ3 | 256 GB | 2       | 98    | 0     | 0.27   |
-| Kingston  | OM8PDP3512B-A01    | 512 GB | 7       | 84    | 0     | 0.23   |
 | Kingston  | SNVSE500G          | 500 GB | 1       | 76    | 0     | 0.21   |
 | Kingston  | RBUSNS8154P3512GJ1 | 512 GB | 1       | 71    | 0     | 0.20   |
 | Kingston  | SNVS1000G          | 1 TB   | 2       | 70    | 0     | 0.19   |
