@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 4a
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Jan 15 19:51:52 2023 KST
+Local Time is:    Fri Feb 17 00:10:41 2023 KST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,9 +62,9 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO----   100   100   000    -    0
-  9 Power_On_Hours          -O----   100   100   000    -    1896
- 12 Power_Cycle_Count       PO----   100   100   000    -    1243
-177 Wear_Leveling_Count     PO----   100   100   000    -    1501742
+  9 Power_On_Hours          -O----   100   100   000    -    1925
+ 12 Power_Cycle_Count       PO----   100   100   000    -    1245
+177 Wear_Leveling_Count     PO----   100   100   000    -    1504818
 179 Used_Rsvd_Blk_Cnt_Tot   PO--CK   100   100   010    -    512
 181 Program_Fail_Cnt_Total  PO----   100   100   000    -    0
 182 Erase_Fail_Count_Total  PO----   100   100   000    -    0
@@ -72,9 +72,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      PO----   100   100   000    -    0
 190 Airflow_Temperature_Cel -O--CK   100   100   000    -    50
 199 UDMA_CRC_Error_Count    PO----   100   100   000    -    0
-235 Unknown_Attribute       PO----   100   100   000    -    313
-241 Total_LBAs_Written      PO----   100   100   000    -    18605
-242 Total_LBAs_Read         PO----   100   100   000    -    38013
+235 Unknown_Attribute       PO----   100   100   000    -    315
+241 Total_LBAs_Written      PO----   100   100   000    -    19453
+242 Total_LBAs_Read         PO----   100   100   000    -    38149
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -112,7 +112,7 @@ Selective Self-tests/Logging not supported
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    42 Celsius
+Current Temperature:                    41 Celsius
 Power Cycle Min/Max Temperature:      ?/ ? Celsius
 Lifetime    Min/Max Temperature:      ?/ ? Celsius
 Under/Over Temperature Limit Count:   0/0

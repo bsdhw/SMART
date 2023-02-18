@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.0.2 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.0.7 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Dec 24 13:20:47 2020 EST
+Local Time is:    Tue May 25 10:41:15 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,7 +59,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       4319
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       7964
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       74
 170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
@@ -69,22 +69,22 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error_Count  0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Drive_Temperature       0x0022   075   075   000    Old_age   Always       -       25 (Min/Max 22/26)
+190 Drive_Temperature       0x0022   072   067   000    Old_age   Always       -       28 (Min/Max 21/34)
 192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       65
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       25
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       28
 197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       363043
-226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       245
-227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       60
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       258805
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       703756
+226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       460
+227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       63
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       477467
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
 234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
 235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2494 (74 65535)
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       363043
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       551061
-243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       497384
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       703756
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1214782
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       946802
 
 SMART Error Log Version: 1
 No Errors Logged

@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.1-PRERELEASE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     LITEON CV1-8B512
@@ -10,10 +10,10 @@ User Capacity:    512,110,190,592 bytes [512 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Mar 15 15:04:54 2022 CET
+Local Time is:    Sat May 21 19:33:14 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,12 +64,12 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    99
- 12 Power_Cycle_Count       PO----   100   100   000    -    1596
+  9 Power_On_Hours          -O--CK   100   100   000    -    105
+ 12 Power_Cycle_Count       PO----   100   100   000    -    1684
 170 Unknown_Attribute       -O--CK   100   100   000    -    0
 171 Unknown_Attribute       PO----   100   100   000    -    0
 172 Unknown_Attribute       PO----   100   100   000    -    0
-173 Unknown_Attribute       PO----   100   100   000    -    18
+173 Unknown_Attribute       PO----   100   100   000    -    19
 174 Unknown_Attribute       PO----   100   100   000    -    44
 178 Used_Rsvd_Blk_Cnt_Chip  -O--CK   100   100   000    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO----   100   100   000    -    112
@@ -78,9 +78,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 194 Temperature_Celsius     -O----   100   100   000    -    45
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
 233 Media_Wearout_Indicator PO----   100   100   000    -    16777215
-241 Total_LBAs_Written      PO----   100   100   000    -    6854
-242 Total_LBAs_Read         PO----   100   100   000    -    5968
-249 Unknown_Attribute       PO----   100   100   000    -    7914
+241 Total_LBAs_Written      PO----   100   100   000    -    7241
+242 Total_LBAs_Read         PO----   100   100   000    -    6202
+249 Unknown_Attribute       PO----   100   100   000    -    8375
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -156,12 +156,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            1596  ---  Lifetime Power-On Resets
-0x01  0x010  4              99  ---  Power-on Hours
-0x01  0x018  6      1489802079  ---  Logical Sectors Written
-0x01  0x020  6       237043060  ---  Number of Write Commands
-0x01  0x028  6      3926354861  ---  Logical Sectors Read
-0x01  0x030  6       205094364  ---  Number of Read Commands
+0x01  0x008  4            1684  ---  Lifetime Power-On Resets
+0x01  0x010  4             105  ---  Power-on Hours
+0x01  0x018  6      2302350231  ---  Logical Sectors Written
+0x01  0x020  6       248612754  ---  Number of Write Commands
+0x01  0x028  6       122089985  ---  Logical Sectors Read
+0x01  0x030  6       216923783  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
@@ -170,7 +170,7 @@ Page  Offset Size        Value Flags Description
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              55  ---  Current Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            6117  ---  Number of Hardware Resets
+0x06  0x008  4            6613  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

@@ -10,7 +10,7 @@ User Capacity:    40,007,761,920 bytes [40.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-6 T13/1410D revision 3a
-Local Time is:    Tue Jan 19 17:04:56 2021 JST
+Local Time is:    Tue Jan 19 22:15:11 2021 JST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     64 (unknown/retired), recommended: 0
@@ -58,26 +58,26 @@ recommended polling time: 	 (   2) minutes.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   100   100   046    -    38687
+  1 Raw_Read_Error_Rate     POSR--   100   100   046    -    83709
   2 Throughput_Performance  P-S---   100   100   030    -    0
-  3 Spin_Up_Time            PO----   095   076   025    -    24064
-  4 Start_Stop_Count        -O--CK   034   034   000    -    39647
+  3 Spin_Up_Time            PO----   096   076   025    -    24320
+  4 Start_Stop_Count        -O--CK   034   034   000    -    39648
   5 Reallocated_Sector_Ct   PO--CK   099   099   024    -    26
-  7 Seek_Error_Rate         POSR--   100   081   047    -    752
+  7 Seek_Error_Rate         POSR--   100   081   047    -    423
   8 Seek_Time_Performance   P-S---   100   100   019    -    0
-  9 Power_On_Seconds        -O--CK   001   001   000    -    32110h+55m+43s
+  9 Power_On_Seconds        -O--CK   001   001   000    -    32116h+04m+09s
  10 Spin_Retry_Count        PO--C-   100   010   020    Past 0
  12 Power_Cycle_Count       -O--CK   001   001   000    -    35078
 192 Emerg_Retract_Cycle_Ct  -O--CK   098   098   000    -    407
-193 Load_Cycle_Count        -O--CK   001   001   000    -    1481369
-194 Temperature_Celsius     -O---K   100   040   000    -    31 (Min/Max 9/67)
-195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    308
+193 Load_Cycle_Count        -O--CK   001   001   000    -    1481570
+194 Temperature_Celsius     -O---K   100   040   000    -    32 (Min/Max 9/67)
+195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    631
 196 Reallocated_Event_Count -O--CK   099   099   000    -    7
 197 Current_Pending_Sector  -O--C-   100   090   000    -    0
 198 Offline_Scan_UNC_SectCt ----C-   097   097   000    -    6
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-200 Write_Error_Count       POSR--   100   100   060    -    8177
-203 Run_Out_Cancel          -O----   097   097   000    -    2619833058114
+200 Write_Error_Count       POSR--   100   100   060    -    17451
+203 Run_Out_Cancel          -O----   097   097   000    -    2619825586823
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Jun  8 05:44:15 2022 EDT
+Local Time is:    Mon Jul 11 06:35:55 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -35,7 +35,7 @@ Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
 					been run.
 Total time to complete Offline 
-data collection: 		(  533) seconds.
+data collection: 		(  534) seconds.
 Offline data collection
 capabilities: 			 (0x1b) SMART execute Offline immediate.
 					Auto Offline data collection on/off support.
@@ -64,17 +64,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    3915
+  9 Power_On_Hours          -O--C-   100   100   000    -    3920
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    445
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    448
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    1267143672240
 170 Unknown_Attribute       PO--C-   100   100   010    -    103088390242
-173 Unknown_Attribute       -O--C-   100   100   000    -    42957602873
+173 Unknown_Attribute       -O--C-   100   100   000    -    42957668409
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    127
-194 Temperature_Celsius     PO---K   076   044   030    -    24 (Min/Max 17/56)
+194 Temperature_Celsius     PO---K   077   044   030    -    23 (Min/Max 17/56)
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -100,7 +100,8 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%      3637         -
+# 1  Short offline       Completed without error       00%      3915         -
+# 2  Short offline       Completed without error       00%      3637         -
 
 Selective Self-tests/Logging not supported
 

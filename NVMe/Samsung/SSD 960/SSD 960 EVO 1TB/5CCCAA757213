@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p4 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-RELEASE-p8 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Samsung SSD 960 EVO 1TB
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Tue Sep  7 20:42:31 2021 CDT
+Local Time is:                      Thu Mar 31 09:08:15 2022 CDT
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -44,15 +44,15 @@ Critical Warning:                   0x00
 Temperature:                        43 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    1%
-Data Units Read:                    3,791,406 [1.94 TB]
-Data Units Written:                 13,224,337 [6.77 TB]
-Host Read Commands:                 81,178,773
-Host Write Commands:                200,233,164
-Controller Busy Time:               420
-Power Cycles:                       1,338
-Power On Hours:                     2,760
-Unsafe Shutdowns:                   182
+Percentage Used:                    5%
+Data Units Read:                    4,350,646 [2.22 TB]
+Data Units Written:                 25,909,387 [13.2 TB]
+Host Read Commands:                 90,246,636
+Host Write Commands:                478,924,827
+Controller Busy Time:               783
+Power Cycles:                       1,370
+Power On Hours:                     6,372
+Unsafe Shutdowns:                   183
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

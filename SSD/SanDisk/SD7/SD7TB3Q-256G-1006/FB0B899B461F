@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p3 amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p4 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 21 00:02:29 2021 CEST
+Local Time is:    Mon Sep 13 01:34:51 2021 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,13 +66,13 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   252   252   002    -    0
   5 Reallocated_Sector_Ct   PO--CK   252   252   005    -    0
-  9 Power_On_Hours          -O--CK   046   046   ---    -    24051
- 12 Power_Cycle_Count       -O--CK   252   252   ---    -    1694
+  9 Power_On_Hours          -O--CK   045   045   ---    -    24315
+ 12 Power_Cycle_Count       -O--CK   252   252   ---    -    1731
 170 Unknown_Attribute       PO--CK   100   100   010    -    0
 171 Unknown_Attribute       -O---K   100   100   ---    -    0
 172 Unknown_Attribute       -O--CK   100   100   ---    -    0
-173 Unknown_Attribute       PO--CK   098   098   005    -    352201539589
-174 Unknown_Attribute       -O--CK   252   252   ---    -    458
+173 Unknown_Attribute       PO--CK   098   098   005    -    356496572421
+174 Unknown_Attribute       -O--CK   252   252   ---    -    469
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
@@ -130,8 +130,8 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       257 (0x0101)
 Device State:                        Active (0)
 Current Temperature:                    25 Celsius
-Power Cycle Min/Max Temperature:     25/27 Celsius
-Lifetime    Min/Max Temperature:     25/27 Celsius
+Power Cycle Min/Max Temperature:     25/30 Celsius
+Lifetime    Min/Max Temperature:     25/30 Celsius
 Specified Max Operating Temperature:    25 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
@@ -143,7 +143,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -10/70 Celsius
 Min/Max Temperature Limit:           -15/90 Celsius
-Temperature History Size (Index):    256 (15)
+Temperature History Size (Index):    256 (210)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -152,11 +152,11 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            1694  ---  Lifetime Power-On Resets
-0x01  0x018  6  11186839107209  ---  Logical Sectors Written
-0x01  0x020  6       136094142  ---  Number of Write Commands
-0x01  0x028  6   9469710155020  ---  Logical Sectors Read
-0x01  0x030  6       114169851  ---  Number of Read Commands
+0x01  0x008  4            1731  ---  Lifetime Power-On Resets
+0x01  0x018  6  11491674097052  ---  Logical Sectors Written
+0x01  0x020  6       137111765  ---  Number of Write Commands
+0x01  0x028  6   9715533430629  ---  Logical Sectors Read
+0x01  0x030  6       114595875  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               2  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -170,7 +170,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            9  Device-to-host register FISes sent due to a COMRESET
 
 
 

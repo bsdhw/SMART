@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p21-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,8 +12,8 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
-SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Nov 17 01:13:11 2021 IST
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
+Local Time is:    Fri Nov 19 21:58:35 2021 IST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -63,11 +63,11 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
   9 Power_On_Hours          ------   100   100   000    -    136
- 12 Power_Cycle_Count       ------   100   100   000    -    466
+ 12 Power_Cycle_Count       ------   100   100   000    -    468
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    48
 163 Initial_Bad_Block_Count ------   100   100   000    -    20
-164 Total_Erase_Count       ------   100   100   000    -    120602
+164 Total_Erase_Count       ------   100   100   000    -    120860
 165 Max_Erase_Count         ------   100   100   000    -    153
 166 Min_Erase_Count         ------   100   100   000    -    53
 167 Average_Erase_Count     ------   100   100   000    -    118
@@ -80,16 +80,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    104
-194 Temperature_Celsius     ------   100   100   000    -    30
+194 Temperature_Celsius     ------   100   100   000    -    28
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    63268
-242 Host_Reads_32MiB        ------   100   100   000    -    40961
-245 TLC_Writes_32MiB        ------   100   100   000    -    120602
+241 Host_Writes_32MiB       ------   100   100   000    -    63399
+242 Host_Reads_32MiB        ------   100   100   000    -    41006
+245 TLC_Writes_32MiB        ------   100   100   000    -    120860
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -136,12 +136,12 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             466  ---  Lifetime Power-On Resets
+0x01  0x008  4             468  ---  Lifetime Power-On Resets
 0x01  0x010  4             136  ---  Power-on Hours
-0x01  0x018  6      4146396707  ---  Logical Sectors Written
-0x01  0x020  6        80762205  ---  Number of Write Commands
-0x01  0x028  6      2684454237  ---  Logical Sectors Read
-0x01  0x030  6        47283177  ---  Number of Read Commands
+0x01  0x018  6      4154950083  ---  Logical Sectors Written
+0x01  0x020  6        80899697  ---  Number of Write Commands
+0x01  0x028  6      2687419508  ---  Logical Sectors Read
+0x01  0x030  6        47358115  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
@@ -149,7 +149,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4             104  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4           59699  ---  Number of Hardware Resets
+0x06  0x008  4           59718  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               3  ---  Percentage Used Endurance Indicator

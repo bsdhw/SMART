@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.0.2 amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.0.7 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Dec 24 13:20:47 2020 EST
+Local Time is:    Tue May 25 10:41:15 2021 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,33 +58,33 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       4225
+  5 Reallocated_Sector_Ct   0x0032   099   099   000    Old_age   Always       -       2
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       7870
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       72
-170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
-171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+170 Available_Reservd_Space 0x0033   099   099   010    Pre-fail  Always       -       0
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       1
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
 174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       64
 175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2534 (72 65535)
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error_Count  0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Drive_Temperature       0x0022   076   076   000    Old_age   Always       -       24 (Min/Max 22/24)
+190 Drive_Temperature       0x0022   073   068   000    Old_age   Always       -       27 (Min/Max 21/32)
 192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       64
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       24
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       27
 197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       310218
-226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       204
-227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       61
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       253150
-232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       650930
+226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       430
+227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       64
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       471813
+232 Available_Reservd_Space 0x0033   099   099   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
 234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
 235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2534 (72 65535)
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       310218
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       495269
-243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       431849
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       650930
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1159561
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       882204
 
 SMART Error Log Version: 1
 No Errors Logged

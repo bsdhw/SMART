@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.5, 3.0 Gb/s
-Local Time is:    Sun Mar 21 01:00:16 2021 PDT
+Local Time is:    Sun Apr 11 01:00:02 2021 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -30,8 +30,9 @@ General SMART Values:
 Offline data collection status:  (0x84)	Offline data collection activity
 					was suspended by an interrupting command from host.
 					Auto Offline Data Collection: Enabled.
-Self-test execution status:      (  39)	The self-test routine was interrupted
-					by the host with a hard or soft reset.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
 Total time to complete Offline 
 data collection: 		(19200) seconds.
 Offline data collection
@@ -67,7 +68,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   4 Start_Stop_Count        -O--CK   100   100   000    -    127
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   051    -    0
-  9 Power_On_Hours          -O--CK   001   001   000    -    108378
+  9 Power_On_Hours          -O--CK   001   001   000    -    108881
  10 Spin_Retry_Count        -O--CK   100   100   051    -    0
  11 Calibration_Retry_Count -O--CK   100   100   051    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    127
@@ -111,24 +112,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Extended offline    Interrupted (host reset)      70%     42779         -
-# 2  Extended offline    Interrupted (host reset)      90%     42757         -
-# 3  Short offline       Completed without error       00%     42687         -
-# 4  Extended offline    Completed without error       00%     42681         -
-# 5  Extended offline    Completed without error       00%     42512         -
-# 6  Short offline       Completed without error       00%     42385         -
-# 7  Extended offline    Completed without error       00%     42345         -
-# 8  Extended offline    Completed without error       00%     42178         -
-# 9  Short offline       Completed without error       00%     42007         -
-#10  Extended offline    Completed without error       00%     42007         -
-#11  Extended offline    Completed without error       00%     41844         -
-#12  Extended offline    Completed without error       00%     41674         -
-#13  Short offline       Completed without error       00%     41668         -
-#14  Extended offline    Completed without error       00%     41506         -
-#15  Short offline       Completed without error       00%     41343         -
-#16  Extended offline    Completed without error       00%     41339         -
-#17  Extended offline    Interrupted (host reset)      20%     41250         -
-#18  Extended offline    Completed without error       00%     41085         -
+# 1  Short offline       Completed without error       00%     43344         -
+# 2  Extended offline    Completed without error       00%     43190         -
+# 3  Extended offline    Completed without error       00%     43185         -
+# 4  Extended offline    Completed without error       00%     43015         -
+# 5  Short offline       Completed without error       00%     43009         -
+# 6  Extended offline    Completed without error       00%     42847         -
+# 7  Extended offline    Interrupted (host reset)      70%     42779         -
+# 8  Extended offline    Interrupted (host reset)      90%     42757         -
+# 9  Short offline       Completed without error       00%     42687         -
+#10  Extended offline    Completed without error       00%     42681         -
+#11  Extended offline    Completed without error       00%     42512         -
+#12  Short offline       Completed without error       00%     42385         -
+#13  Extended offline    Completed without error       00%     42345         -
+#14  Extended offline    Completed without error       00%     42178         -
+#15  Short offline       Completed without error       00%     42007         -
+#16  Extended offline    Completed without error       00%     42007         -
+#17  Extended offline    Completed without error       00%     41844         -
+#18  Extended offline    Completed without error       00%     41674         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -174,7 +175,7 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x000a  2            7  Device-to-host register FISes sent due to a COMRESET
-0x8000  4      5115266  Vendor specific
+0x8000  4      6927811  Vendor specific
 
 
 

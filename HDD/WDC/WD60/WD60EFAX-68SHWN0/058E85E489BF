@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [MidnightBSD 2.0.7 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2021-09-14 r5236 [MidnightBSD 2.1.6 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital Red
@@ -11,10 +11,11 @@ User Capacity:    6,001,175,126,016 bytes [6.00 TB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    5400 rpm
 Form Factor:      3.5 inches
+TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Jun  7 14:50:37 2021 EDT
+Local Time is:    Mon Mar 21 17:19:48 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -29,7 +30,7 @@ Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
 					been run.
 Total time to complete Offline 
-data collection: 		(29160) seconds.
+data collection: 		(60180) seconds.
 Offline data collection
 capabilities: 			 (0x7b) SMART execute Offline immediate.
 					Auto Offline data collection on/off support.
@@ -58,19 +59,19 @@ SCT capabilities: 	       (0x303d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  1 Raw_Read_Error_Rate     0x002f   200   157   051    Pre-fail  Always       -       0
   3 Spin_Up_Time            0x0027   226   225   021    Pre-fail  Always       -       3691
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       20
-  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       28
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       14
   7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   083   083   000    Old_age   Always       -       12799
+  9 Power_On_Hours          0x0032   074   074   000    Old_age   Always       -       19700
  10 Spin_Retry_Count        0x0032   100   253   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   253   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       20
-192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       15
-193 Load_Cycle_Count        0x0032   200   200   000    Old_age   Always       -       6
-194 Temperature_Celsius     0x0022   116   109   000    Old_age   Always       -       34
-196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       28
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       19
+193 Load_Cycle_Count        0x0032   200   200   000    Old_age   Always       -       11
+194 Temperature_Celsius     0x0022   112   104   000    Old_age   Always       -       38
+196 Reallocated_Event_Count 0x0032   186   186   000    Old_age   Always       -       14
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
@@ -80,7 +81,8 @@ SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%     18222         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
