@@ -1,10 +1,10 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       WDS500G1X0E-00AFY0
 Serial Number:                      --
-Firmware Version:                   611110WD
+Firmware Version:                   613200WD
 PCI Vendor/Subsystem ID:            0x15b7
 IEEE OUI Identifier:                0x001b44
 Total NVM Capacity:                 500,107,862,016 [500 GB]
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Wed Jul 28 19:52:34 2021 CEST
+Local Time is:                      Thu Feb 17 19:10:00 2022 CET
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -47,14 +47,14 @@ Temperature:                        49 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    77,433 [39.6 GB]
-Data Units Written:                 2,800,020 [1.43 TB]
-Host Read Commands:                 2,233,149
-Host Write Commands:                40,321,503
-Controller Busy Time:               12
-Power Cycles:                       72
-Power On Hours:                     3,089
-Unsafe Shutdowns:                   36
+Data Units Read:                    124,949 [63.9 GB]
+Data Units Written:                 7,743,701 [3.96 TB]
+Host Read Commands:                 3,825,104
+Host Write Commands:                106,432,072
+Controller Busy Time:               28
+Power Cycles:                       80
+Power On Hours:                     7,858
+Unsafe Shutdowns:                   40
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

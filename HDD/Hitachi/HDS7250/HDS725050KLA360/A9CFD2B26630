@@ -11,7 +11,7 @@ User Capacity:    500,107,862,016 bytes [500 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Sun Oct 24 01:00:07 2021 PDT
+Local Time is:    Sun Nov 28 01:00:07 2021 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -66,11 +66,11 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   100   100   020    -    0
-  9 Power_On_Hours          -O--C-   086   086   000    -    102121
+  9 Power_On_Hours          -O--C-   086   086   000    -    102962
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    3388
-192 Power-Off_Retract_Count -O--CK   075   075   050    -    30956
-193 Load_Cycle_Count        -O--C-   075   075   050    -    30956
+192 Power-Off_Retract_Count -O--CK   075   075   050    -    30985
+193 Load_Cycle_Count        -O--C-   075   075   050    -    30985
 194 Temperature_Celsius     -O----   144   144   000    -    38 (Min/Max 10/56)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
@@ -105,24 +105,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     36417         -
-# 2  Extended offline    Completed without error       00%     36349         -
-# 3  Short offline       Completed without error       00%     36249         -
-# 4  Short offline       Completed without error       00%     36081         -
-# 5  Short offline       Completed without error       00%     35913         -
-# 6  Short offline       Completed without error       00%     35745         -
-# 7  Extended offline    Completed without error       00%     35628         -
-# 8  Short offline       Completed without error       00%     35577         -
-# 9  Short offline       Completed without error       00%     35409         -
-#10  Short offline       Completed without error       00%     35242         -
-#11  Short offline       Completed without error       00%     35074         -
-#12  Short offline       Completed without error       00%     34906         -
-#13  Extended offline    Completed without error       00%     34885         -
-#14  Short offline       Completed without error       00%     34738         -
-#15  Extended offline    Completed without error       00%     34630         -
-#16  Short offline       Completed without error       00%     34570         -
-#17  Short offline       Completed without error       00%     34398         -
-#18  Short offline       Completed without error       00%     34230         -
+# 1  Extended offline    Completed without error       00%     37406         -
+# 2  Short offline       Completed without error       00%     37258         -
+# 3  Short offline       Completed without error       00%     37090         -
+# 4  Short offline       Completed without error       00%     36921         -
+# 5  Short offline       Completed without error       00%     36753         -
+# 6  Short offline       Completed without error       00%     36585         -
+# 7  Short offline       Completed without error       00%     36417         -
+# 8  Extended offline    Completed without error       00%     36349         -
+# 9  Short offline       Completed without error       00%     36249         -
+#10  Short offline       Completed without error       00%     36081         -
+#11  Short offline       Completed without error       00%     35913         -
+#12  Short offline       Completed without error       00%     35745         -
+#13  Extended offline    Completed without error       00%     35628         -
+#14  Short offline       Completed without error       00%     35577         -
+#15  Short offline       Completed without error       00%     35409         -
+#16  Short offline       Completed without error       00%     35242         -
+#17  Short offline       Completed without error       00%     35074         -
+#18  Short offline       Completed without error       00%     34906         -
 
 Warning! SMART Selective Self-Test Log Structure error: invalid SMART checksum.
 SMART Selective self-test log data structure revision number 1
@@ -148,7 +148,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/60 Celsius
 Min/Max Temperature Limit:           -40/65 Celsius
-Temperature History Size (Index):    128 (11)
+Temperature History Size (Index):    128 (44)
 
 SCT Error Recovery Control:
            Read: Disabled

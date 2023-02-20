@@ -1,4 +1,4 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE amd64] (local build)
+smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
 Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            00080d ...
-Local Time is:                      Sun Nov 22 20:10:04 2020 UTC
+Local Time is:                      Sun Jan  3 10:06:20 2021 UTC
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0017):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat
@@ -38,23 +38,23 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        36 Celsius
+Temperature:                        26 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    542,638 [277 GB]
-Data Units Written:                 1,349,776 [691 GB]
-Host Read Commands:                 6,321,199
-Host Write Commands:                15,186,590
-Controller Busy Time:               103
-Power Cycles:                       288
-Power On Hours:                     80
-Unsafe Shutdowns:                   211
+Data Units Read:                    1,014,059 [519 GB]
+Data Units Written:                 2,826,354 [1.44 TB]
+Host Read Commands:                 10,943,279
+Host Write Commands:                31,192,329
+Controller Busy Time:               284
+Power Cycles:                       335
+Power On Hours:                     160
+Unsafe Shutdowns:                   215
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      58
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               36 Celsius
+Temperature Sensor 1:               26 Celsius
 
 Error Information (NVMe Log 0x01, max 64 entries)
 No Errors Logged
