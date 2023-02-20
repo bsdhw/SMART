@@ -28,13 +28,13 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | XF1230-1A0480      | 480 GB | 2       | 1266  | 0     | 3.47   |
 | Seagate   | ST100FN0021        | 100 GB | 1       | 1781  | 1     | 2.44   |
 | Seagate   | ST400FP0021        | 400 GB | 1       | 539   | 0     | 1.48   |
+| Seagate   | BarraCuda SSD Z... | 250 GB | 2       | 525   | 0     | 1.44   |
 | Seagate   | BarraCuda 120 S... | 1 TB   | 1       | 456   | 0     | 1.25   |
-| Seagate   | BarraCuda SSD Z... | 250 GB | 2       | 429   | 0     | 1.18   |
 | Seagate   | ZA240NM10001       | 240 GB | 1       | 243   | 0     | 0.67   |
 | Seagate   | BarraCuda 120 S... | 500 GB | 2       | 233   | 0     | 0.64   |
 | Seagate   | FireCuda 120 SS... | 500 GB | 1       | 221   | 0     | 0.61   |
 | Seagate   | FireCuda 120 SS... | 1 TB   | 2       | 204   | 0     | 0.56   |
-| Seagate   | XA960LE10063       | 960 GB | 2       | 156   | 0     | 0.43   |
+| Seagate   | XA960LE10063       | 960 GB | 2       | 170   | 0     | 0.47   |
 | Seagate   | IronWolf ZA1000... | 1 TB   | 1       | 23    | 0     | 0.06   |
 | Seagate   | FireCuda 120 SS... | 2 TB   | 1       | 9     | 0     | 0.03   |
 | Seagate   | ST-MSATASSD128     | 128 GB | 1       | 1     | 0     | 0.00   |
@@ -55,6 +55,6 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Seagate   | Nytro XF1230 SATA SSD  | 2      | 4       | 1341  | 0     | 3.67   |
-| Seagate   | Unknown                | 13     | 18      | 415   | 1     | 1.00   |
+| Seagate   | Unknown                | 13     | 18      | 426   | 1     | 1.03   |
 | Seagate   | IronWolf 110 SATA SSD  | 1      | 1       | 243   | 0     | 0.67   |
-| Seagate   | Nytro SATA SSD         | 1      | 2       | 156   | 0     | 0.43   |
+| Seagate   | Nytro SATA SSD         | 1      | 2       | 170   | 0     | 0.47   |

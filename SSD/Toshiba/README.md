@@ -57,8 +57,8 @@ MTBF - avg. MTBF in years per sample.
 | Toshiba   | TL100              | 120 GB | 1       | 30    | 0     | 0.08   |
 | Toshiba   | VT180              | 480 GB | 2       | 20    | 0     | 0.06   |
 | Toshiba   | KSG60ZMV256G       | 256 GB | 1       | 12    | 0     | 0.03   |
+| Toshiba   | THNSNK256GVN8 M... | 256 GB | 1       | 678   | 100   | 0.02   |
 | Toshiba   | KSG60ZSE256G SATA  | 256 GB | 1       | 468   | 100   | 0.01   |
-| Toshiba   | THNSNK256GVN8 M... | 256 GB | 1       | 435   | 100   | 0.01   |
 | Toshiba   | THNSNH128GCST      | 128 GB | 1       | 4     | 0     | 0.01   |
 | Toshiba   | THNSNK256GCS8 SATA | 256 GB | 1       | 373   | 100   | 0.01   |
 | Toshiba   | THNSNK128GCS8 SATA | 128 GB | 2       | 206   | 100   | 0.01   |
@@ -84,5 +84,5 @@ MTBF - avg. MTBF in years per sample.
 | Toshiba   | HG3 Series             | 1      | 1       | 826   | 0     | 2.26   |
 | Toshiba   | HG6 Series SSD         | 6      | 15      | 796   | 0     | 2.18   |
 | Toshiba   | JMicron/Maxiotek ba... | 1      | 1       | 692   | 0     | 1.90   |
-| Toshiba   | Unknown                | 25     | 45      | 540   | 29    | 1.36   |
+| Toshiba   | Unknown                | 25     | 45      | 545   | 29    | 1.36   |
 | Toshiba   | OCZ                    | 3      | 4       | 194   | 0     | 0.53   |

@@ -40,14 +40,14 @@ MTBF - avg. MTBF in years per sample.
 | Transcend | 3E128-TS2-550B01   | 100 GB | 4       | 502   | 257   | 0.96   |
 | Transcend | TS64GSSD370        | 64 GB  | 20      | 292   | 0     | 0.80   |
 | Transcend | TS32GMTS400S       | 32 GB  | 3       | 278   | 0     | 0.76   |
-| Transcend | TS120GMTS420S      | 120 GB | 15      | 266   | 0     | 0.73   |
+| Transcend | TS120GMTS420S      | 120 GB | 15      | 267   | 0     | 0.73   |
 | Transcend | TS128GMTS400S      | 128 GB | 3       | 225   | 0     | 0.62   |
 | Transcend | TS120GSSD220S      | 120 GB | 3       | 224   | 0     | 0.62   |
 | Transcend | TS256GSSD452K2     | 256 GB | 4       | 221   | 0     | 0.61   |
 | Transcend | TS16GMTS400        | 16 GB  | 1       | 217   | 0     | 0.60   |
 | Transcend | TS512GSSD370       | 512 GB | 2       | 213   | 0     | 0.58   |
 | Transcend | TS64GMTS400SD      | 64 GB  | 8       | 178   | 0     | 0.49   |
-| Transcend | TS128GMSA230S      | 128 GB | 42      | 169   | 0     | 0.47   |
+| Transcend | TS128GMSA230S      | 128 GB | 42      | 172   | 0     | 0.47   |
 | Transcend | TS240GMTS420S      | 240 GB | 6       | 157   | 0     | 0.43   |
 | Transcend | TS64GSSD370S       | 64 GB  | 6       | 149   | 0     | 0.41   |
 | Transcend | TS32ASTME0000A     | 32 GB  | 1       | 109   | 0     | 0.30   |
@@ -57,7 +57,7 @@ MTBF - avg. MTBF in years per sample.
 | Transcend | TS240GSSD220S      | 240 GB | 2       | 103   | 0     | 0.28   |
 | Transcend | TS256GMSA452T      | 256 GB | 3       | 102   | 0     | 0.28   |
 | Transcend | TS32GSSD370S       | 32 GB  | 12      | 99    | 0     | 0.27   |
-| Transcend | TS256GMTS952T2     | 256 GB | 21      | 93    | 0     | 0.26   |
+| Transcend | TS256GMTS952T2     | 256 GB | 21      | 94    | 0     | 0.26   |
 | Transcend | TS32GMSA370        | 32 GB  | 15      | 85    | 0     | 0.23   |
 | Transcend | TS256GSSD230S      | 256 GB | 4       | 72    | 0     | 0.20   |
 | Transcend | TS120GMTS820S      | 120 GB | 3       | 68    | 0     | 0.19   |
@@ -115,6 +115,6 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Transcend | JMicron/Maxiotek ba... | 4      | 7       | 1152  | 0     | 3.16   |
 | Transcend | JMicron based SSDs     | 1      | 2       | 518   | 0     | 1.42   |
-| Transcend | Unknown                | 25     | 68      | 166   | 16    | 0.43   |
+| Transcend | Unknown                | 25     | 68      | 167   | 16    | 0.43   |
 | Transcend | Silicon Motion base... | 45     | 287     | 138   | 0     | 0.38   |
 | Transcend | SandForce Driven SSDs  | 1      | 2       | 170   | 3     | 0.16   |

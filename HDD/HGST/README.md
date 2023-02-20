@@ -59,9 +59,9 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HUS722T1TALA604    | 1 TB   | 6       | 169   | 0     | 0.47   |
 | HGST      | HTS541075A7E630    | 752 GB | 3       | 775   | 694   | 0.42   |
 | HGST      | HTS545050A7E660    | 500 GB | 1       | 773   | 6     | 0.30   |
+| HGST      | HUS726060ALE614    | 6 TB   | 4       | 109   | 0     | 0.30   |
 | HGST      | HUH721010ALE604    | 10 TB  | 2       | 102   | 0     | 0.28   |
 | HGST      | HUS722T1TALA600    | 1 TB   | 1       | 80    | 0     | 0.22   |
-| HGST      | HUS726060ALE614    | 6 TB   | 4       | 60    | 0     | 0.17   |
 | HGST      | HUS726060ALE610    | 6 TB   | 3       | 48    | 0     | 0.13   |
 | HGST      | HTS545032A7E380    | 320 GB | 4       | 402   | 12    | 0.11   |
 | HGST      | HUS726T6TALE6L1    | 6 TB   | 2       | 21    | 0     | 0.06   |
@@ -88,9 +88,9 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | Deskstar NAS           | 6      | 40      | 1623  | 21    | 4.05   |
 | HGST      | Ultrastar He8          | 2      | 2       | 1299  | 0     | 3.56   |
 | HGST      | Ultrastar DC HC310     | 3      | 12      | 1137  | 0     | 3.12   |
-| HGST      | Travelstar 7K1000      | 2      | 30      | 704   | 179   | 1.72   |
+| HGST      | Travelstar 7K1000      | 2      | 30      | 705   | 179   | 1.72   |
+| HGST      | Ultrastar 7K6000       | 8      | 19      | 585   | 78    | 1.27   |
 | HGST      | Ultrastar HC310/320    | 1      | 9       | 462   | 0     | 1.27   |
-| HGST      | Ultrastar 7K6000       | 8      | 19      | 575   | 78    | 1.25   |
 | HGST      | Travelstar 5K1000      | 2      | 16      | 667   | 394   | 1.17   |
 | HGST      | Travelstar Z7K500      | 5      | 37      | 708   | 345   | 0.97   |
 | HGST      | Ultrastar 7K2          | 4      | 14      | 345   | 2     | 0.84   |

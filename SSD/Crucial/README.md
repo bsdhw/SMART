@@ -35,10 +35,10 @@ MTBF - avg. MTBF in years per sample.
 | Crucial   | CT128M550SSD1      | 128 GB | 2       | 1528  | 2     | 2.62   |
 | Crucial   | CT250MX200SSD3     | 250 GB | 2       | 892   | 0     | 2.45   |
 | Crucial   | CT960M500SSD1      | 960 GB | 2       | 787   | 0     | 2.16   |
-| Crucial   | CT1050MX300SSD4    | 1 TB   | 2       | 1239  | 3     | 1.90   |
+| Crucial   | CT1050MX300SSD4    | 1 TB   | 2       | 1256  | 3     | 1.95   |
 | Crucial   | CT256MX100SSD1     | 256 GB | 9       | 619   | 0     | 1.70   |
 | Crucial   | CT128M550SSD4      | 128 GB | 1       | 610   | 0     | 1.67   |
-| Crucial   | CT275MX300SSD4     | 275 GB | 5       | 633   | 35    | 1.62   |
+| Crucial   | CT275MX300SSD4     | 275 GB | 5       | 636   | 35    | 1.63   |
 | Crucial   | CT240M500SSD1      | 240 GB | 7       | 756   | 234   | 1.49   |
 | Crucial   | CT250MX200SSD4     | 250 GB | 2       | 515   | 0     | 1.41   |
 | Crucial   | CT250MX500SSD4     | 250 GB | 4       | 487   | 0     | 1.34   |
@@ -48,9 +48,9 @@ MTBF - avg. MTBF in years per sample.
 | Crucial   | CT2050MX300SSD1    | 2 TB   | 1       | 369   | 0     | 1.01   |
 | Crucial   | CT525MX300SSD1     | 528 GB | 15      | 574   | 2     | 1.00   |
 | Crucial   | CT525MX300SSD4     | 528 GB | 2       | 370   | 2     | 0.94   |
-| Crucial   | CT120BX500SSD1     | 120 GB | 45      | 328   | 0     | 0.90   |
+| Crucial   | CT120BX500SSD1     | 120 GB | 45      | 334   | 0     | 0.92   |
 | Crucial   | CT500MX200SSD1     | 500 GB | 5       | 300   | 0     | 0.82   |
-| Crucial   | CT250MX500SSD1     | 250 GB | 59      | 273   | 0     | 0.75   |
+| Crucial   | CT250MX500SSD1     | 250 GB | 59      | 275   | 0     | 0.76   |
 | Crucial   | CT500MX500SSD4     | 500 GB | 8       | 267   | 0     | 0.73   |
 | Crucial   | CT275MX300SSD1     | 275 GB | 12      | 579   | 351   | 0.70   |
 | Crucial   | CT120M500SSD1      | 120 GB | 5       | 741   | 4     | 0.67   |
@@ -87,6 +87,6 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Crucial   | Unknown                | 1      | 2       | 1406  | 0     | 3.85   |
 | Crucial   | RealSSD m4/C400/P400   | 8      | 40      | 1541  | 154   | 3.84   |
-| Crucial   | BX/MX1/2/3/500, M5/... | 5      | 13      | 684   | 1     | 1.57   |
-| Crucial   | Client SSDs            | 33     | 393     | 335   | 22    | 0.76   |
+| Crucial   | BX/MX1/2/3/500, M5/... | 5      | 13      | 686   | 1     | 1.58   |
+| Crucial   | Client SSDs            | 33     | 393     | 336   | 22    | 0.76   |
 | Crucial   | BX/MX1/2/3/500, M5/... | 1      | 5       | 741   | 4     | 0.67   |

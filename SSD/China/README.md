@@ -37,7 +37,7 @@ MTBF - avg. MTBF in years per sample.
 | China     | SATA2 32GB SSD     | 32 GB  | 1       | 354   | 0     | 0.97   |
 | China     | SATA SSD           | 64 GB  | 11      | 459   | 10    | 0.93   |
 | China     | DHMSR64GD81BC1QC   | 54 GB  | 2       | 320   | 0     | 0.88   |
-| China     | SATA SSD           | 32 GB  | 18      | 395   | 11    | 0.83   |
+| China     | SATA SSD           | 32 GB  | 18      | 409   | 11    | 0.86   |
 | China     | C500               | 128 GB | 2       | 301   | 0     | 0.83   |
 | China     | G7-240G PLUS       | 240 GB | 1       | 285   | 0     | 0.78   |
 | China     | SK600-32GB         | 32 GB  | 1       | 259   | 0     | 0.71   |
@@ -133,5 +133,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| China     | Phison Driven OEM SSDs | 10     | 142     | 562   | 3     | 1.48   |
+| China     | Phison Driven OEM SSDs | 10     | 142     | 564   | 3     | 1.49   |
 | China     | Unknown                | 86     | 163     | 117   | 1     | 0.31   |

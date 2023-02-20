@@ -21,7 +21,7 @@ MTBF - avg. MTBF in years per sample.
 | Phison    | Sabrent Rocket Q   | 1 TB   | 6       | 504   | 0     | 1.38   |
 | Phison    | ASE8NVME512        | 512 GB | 1       | 427   | 0     | 1.17   |
 | Phison    | PCIe SSD           | 500 GB | 7       | 378   | 0     | 1.04   |
-| Phison    | Sabrent            | 1 TB   | 18      | 308   | 0     | 0.84   |
+| Phison    | Sabrent            | 1 TB   | 18      | 308   | 0     | 0.85   |
 | Phison    | Sabrent Rocket 4.0 | 2 TB   | 1       | 233   | 0     | 0.64   |
 | Phison    | Viper M.2 VPN100   | 256 GB | 1       | 208   | 0     | 0.57   |
 | Phison    | Sabrent Rocket 4.0 | 1 TB   | 5       | 132   | 0     | 0.36   |

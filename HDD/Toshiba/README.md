@@ -44,7 +44,7 @@ MTBF - avg. MTBF in years per sample.
 | Toshiba   | MK1032GAX          | 100 GB | 1       | 830   | 0     | 2.27   |
 | Toshiba   | MK4032GAX          | 40 GB  | 1       | 802   | 0     | 2.20   |
 | Toshiba   | MK2561GSY          | 250 GB | 1       | 794   | 0     | 2.18   |
-| Toshiba   | MG03ACA100         | 1 TB   | 10      | 793   | 0     | 2.17   |
+| Toshiba   | MG03ACA100         | 1 TB   | 10      | 794   | 0     | 2.18   |
 | Toshiba   | MK1002TSKB         | 1 TB   | 1       | 723   | 0     | 1.98   |
 | Toshiba   | HDWN180            | 8 TB   | 12      | 699   | 0     | 1.92   |
 | Toshiba   | DT01ACA050         | 500 GB | 23      | 913   | 13    | 1.90   |
