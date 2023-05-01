@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Apr 21 23:17:28 2023 -05
+Local Time is:    Sun Apr 23 21:22:17 2023 -05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,8 +55,8 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2149
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1752
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2158
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1759
 148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
 149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
 167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
@@ -68,18 +68,18 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
-192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       603
-194 Temperature_Celsius     0x0022   039   058   000    Old_age   Always       -       39 (Min/Max 18/58)
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       604
+194 Temperature_Celsius     0x0022   038   058   000    Old_age   Always       -       38 (Min/Max 18/58)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
 218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
 231 SSD_Life_Left           0x0000   098   098   000    Old_age   Offline      -       98
-233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       6110
-241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       2515
-242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       1875
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       6170
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       2569
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       1882
 244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       26
 245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       52
-246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       378032
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       382560
 
 SMART Error Log not supported
 

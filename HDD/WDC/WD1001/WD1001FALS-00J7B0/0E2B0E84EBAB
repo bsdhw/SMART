@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE-p4 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.5, 3.0 Gb/s
-Local Time is:    Sun Oct 17 01:00:16 2021 PDT
+Local Time is:    Sun Oct 24 01:00:17 2021 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -68,7 +68,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   4 Start_Stop_Count        -O--CK   100   100   000    -    130
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   051    -    0
-  9 Power_On_Hours          -O--CK   001   001   000    -    113389
+  9 Power_On_Hours          -O--CK   001   001   000    -    113556
  10 Spin_Retry_Count        -O--CK   100   100   051    -    0
  11 Calibration_Retry_Count -O--CK   100   100   051    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    130
@@ -112,24 +112,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     47819         -
-# 2  Extended offline    Completed without error       00%     47699         -
-# 3  Short offline       Completed without error       00%     47630         -
-# 4  Extended offline    Completed without error       00%     47532         -
-# 5  Short offline       Completed without error       00%     47450         -
-# 6  Extended offline    Completed without error       00%     47363         -
-# 7  Extended offline    Interrupted (host reset)      20%     47331         -
-# 8  Short offline       Completed without error       00%     47282         -
-# 9  Extended offline    Completed without error       00%     47202         -
-#10  Short offline       Completed without error       00%     47113         -
-#11  Extended offline    Completed without error       00%     47032         -
-#12  Short offline       Completed without error       00%     46943         -
-#13  Extended offline    Completed without error       00%     46862         -
-#14  Short offline       Completed without error       00%     46775         -
-#15  Extended offline    Completed without error       00%     46692         -
-#16  Extended offline    Completed without error       00%     46590         -
-#17  Short offline       Completed without error       00%     46546         -
-#18  Extended offline    Completed without error       00%     46525         -
+# 1  Short offline       Completed without error       00%     47988         -
+# 2  Extended offline    Completed without error       00%     47861         -
+# 3  Short offline       Completed without error       00%     47819         -
+# 4  Extended offline    Completed without error       00%     47699         -
+# 5  Short offline       Completed without error       00%     47630         -
+# 6  Extended offline    Completed without error       00%     47532         -
+# 7  Short offline       Completed without error       00%     47450         -
+# 8  Extended offline    Completed without error       00%     47363         -
+# 9  Extended offline    Interrupted (host reset)      20%     47331         -
+#10  Short offline       Completed without error       00%     47282         -
+#11  Extended offline    Completed without error       00%     47202         -
+#12  Short offline       Completed without error       00%     47113         -
+#13  Extended offline    Completed without error       00%     47032         -
+#14  Short offline       Completed without error       00%     46943         -
+#15  Extended offline    Completed without error       00%     46862         -
+#16  Short offline       Completed without error       00%     46775         -
+#17  Extended offline    Completed without error       00%     46692         -
+#18  Extended offline    Completed without error       00%     46590         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -147,7 +147,7 @@ SCT Version (vendor specific):       258 (0x0102)
 Device State:                        SMART Off-line Data Collection executing in background (4)
 Current Temperature:                    51 Celsius
 Power Cycle Min/Max Temperature:     22/54 Celsius
-Lifetime    Min/Max Temperature:     48/57 Celsius
+Lifetime    Min/Max Temperature:      ?/57 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Temperature History Version:     2
@@ -155,7 +155,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    128 (66)
+Temperature History Size (Index):    128 (21)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -174,8 +174,8 @@ ID      Size     Value  Description
 0x0005  2            0  R_ERR response for non-data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
-0x8000  4       479616  Vendor specific
+0x000a  2           10  Device-to-host register FISes sent due to a COMRESET
+0x8000  4      1083797  Vendor specific
 
 
 

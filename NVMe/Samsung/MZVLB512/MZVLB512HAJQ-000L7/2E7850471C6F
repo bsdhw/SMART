@@ -13,10 +13,10 @@ Controller ID:                      4
 NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
-Namespace 1 Utilization:            38,996,762,624 [38.9 GB]
+Namespace 1 Utilization:            50,387,083,264 [50.3 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sat Feb 25 21:16:27 2023 UTC
+Local Time is:                      Mon Mar 13 21:24:56 2023 CET
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -46,20 +46,20 @@ Temperature:                        33 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    1%
-Data Units Read:                    21,551,924 [11.0 TB]
-Data Units Written:                 26,978,653 [13.8 TB]
-Host Read Commands:                 435,718,254
-Host Write Commands:                1,044,166,074
-Controller Busy Time:               2,095
-Power Cycles:                       1,661
-Power On Hours:                     1,871
-Unsafe Shutdowns:                   219
+Data Units Read:                    21,870,580 [11.1 TB]
+Data Units Written:                 27,188,542 [13.9 TB]
+Host Read Commands:                 439,927,976
+Host Write Commands:                1,046,955,867
+Controller Busy Time:               2,106
+Power Cycles:                       1,689
+Power On Hours:                     1,877
+Unsafe Shutdowns:                   224
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      3,030
+Error Information Log Entries:      3,105
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               33 Celsius
-Temperature Sensor 2:               35 Celsius
+Temperature Sensor 2:               34 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

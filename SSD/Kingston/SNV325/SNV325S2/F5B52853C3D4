@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p1 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Thu Aug 11 06:53:52 2022 EDT
+Local Time is:    Tue Sep  6 06:24:08 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,17 +64,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    3924
+  9 Power_On_Hours          -O--C-   100   100   000    -    3933
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    452
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    457
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    1267143672240
 170 Unknown_Attribute       PO--C-   100   100   010    -    103088390242
 173 Unknown_Attribute       -O--C-   100   100   000    -    42957668409
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    129
-194 Temperature_Celsius     PO---K   075   044   030    -    25 (Min/Max 17/56)
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    132
+194 Temperature_Celsius     PO---K   077   044   030    -    23 (Min/Max 17/56)
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -100,9 +100,10 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%      3923         -
-# 2  Short offline       Completed without error       00%      3915         -
-# 3  Short offline       Completed without error       00%      3637         -
+# 1  Short offline       Completed without error       00%      3924         -
+# 2  Short offline       Completed without error       00%      3923         -
+# 3  Short offline       Completed without error       00%      3915         -
+# 4  Short offline       Completed without error       00%      3637         -
 
 Selective Self-tests/Logging not supported
 

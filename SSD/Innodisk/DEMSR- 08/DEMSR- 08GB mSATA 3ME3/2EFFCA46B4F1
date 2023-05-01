@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Mar 15 22:52:52 2023 UTC
+Local Time is:    Fri Mar 31 21:40:06 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -56,20 +56,20 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   001    -    0
   7 Unknown_SSD_Attribute   ------   000   000   000    -    0
   8 Unknown_SSD_Attribute   ------   000   000   000    -    0
-  9 Power_On_Hours          -O----   176   000   000    -    5552
+  9 Power_On_Hours          -O----   208   000   000    -    5840
  10 Unknown_SSD_Attribute   ------   000   000   000    -    0
- 12 Power_Cycle_Count       -O----   048   000   000    -    560
+ 12 Power_Cycle_Count       -O----   175   000   000    -    687
 163 Unknown_Attribute       ------   000   000   000    -    5
 168 Unknown_Attribute       ------   000   000   000    -    0
-169 Unknown_Attribute       ------   085   000   000    -    85
+169 Unknown_Attribute       ------   083   000   000    -    83
 175 Program_Fail_Count_Chip ------   000   000   000    -    0
-192 Power-Off_Retract_Count ------   000   000   000    -    0
+192 Power-Off_Retract_Count ------   001   000   000    -    1
 194 Temperature_Celsius     ------   030   100   000    -    30 (2 100 0 0 0)
 197 Current_Pending_Sector  -O--C-   000   100   000    -    0
-225 Unknown_SSD_Attribute   ------   000   031   000    -    13106713
+225 Unknown_SSD_Attribute   ------   000   220   000    -    15614866
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
-165 Unknown_Attribute       -O----   077   001   000    -    589
-167 Unknown_Attribute       -O----   175   001   000    -    431
+165 Unknown_Attribute       -O----   072   001   000    -    584
+167 Unknown_Attribute       -O----   242   001   000    -    498
 170 Unknown_Attribute       PO----   100   001   000    -    74
 171 Unknown_Attribute       -O----   000   001   000    -    0
 172 Unknown_Attribute       -O----   000   001   000    -    0
@@ -78,8 +78,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Unknown_Attribute       -O----   100   001   000    -    89569723997848
 232 Available_Reservd_Space PO----   100   001   000    -    0
 235 Unknown_Attribute       -O----   000   000   000    -    0
-241 Total_LBAs_Written      -O----   100   001   000    -    51198
-242 Total_LBAs_Read         -O----   100   001   000    -    6614
+241 Total_LBAs_Written      -O----   100   001   000    -    60995
+242 Total_LBAs_Read         -O----   100   001   000    -    8456
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -119,7 +119,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           14  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           15  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
