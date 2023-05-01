@@ -1,0 +1,83 @@
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       Samsung SSD 960 EVO 250GB
+Serial Number:                      --
+Firmware Version:                   3B7QCXE7
+PCI Vendor/Subsystem ID:            0x144d
+IEEE OUI Identifier:                0x002538
+Total NVM Capacity:                 250,059,350,016 [250 GB]
+Unallocated NVM Capacity:           0
+Controller ID:                      2
+NVMe Version:                       1.2
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
+Namespace 1 Utilization:            166,540,828,672 [166 GB]
+Namespace 1 Formatted LBA Size:     512
+Namespace 1 IEEE EUI-64:            002538 ...
+Local Time is:                      Tue Feb 21 23:48:48 2023 GMT
+Firmware Updates (0x16):            3 Slots, no Reset required
+Optional Admin Commands (0x0007):   Security Format Frmw_DL
+Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+Log Page Attributes (0x03):         S/H_per_NS Cmd_Eff_Lg
+Maximum Data Transfer Size:         512 Pages
+Warning  Comp. Temp. Threshold:     77 Celsius
+Critical Comp. Temp. Threshold:     79 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     6.04W       -        -    0  0  0  0        0       0
+ 1 +     5.09W       -        -    1  1  1  1        0       0
+ 2 +     4.08W       -        -    2  2  2  2        0       0
+ 3 -   0.0400W       -        -    3  3  3  3      210    1500
+ 4 -   0.0050W       -        -    4  4  4  4     2200    6000
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        51 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    12%
+Data Units Read:                    53,444,885 [27.3 TB]
+Data Units Written:                 69,262,488 [35.4 TB]
+Host Read Commands:                 473,284,817
+Host Write Commands:                678,609,306
+Controller Busy Time:               2,863
+Power Cycles:                       2,987
+Power On Hours:                     8,150
+Unsafe Shutdowns:                   465
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      1,015
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+Temperature Sensor 1:               51 Celsius
+Temperature Sensor 2:               68 Celsius
+
+Error Information (NVMe Log 0x01, 16 of 64 entries)
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
+  0       1015     0  0x0c0c  0x4004      -            0     0     -
+  1       1014     0  0x0b0b  0x4004      -            0     0     -
+  2       1013     0  0x0808  0x4004      -            0     0     -
+  3       1012     0  0x0707  0x4004      -            0     0     -
+  4       1011     0  0x050c  0x4004      -            0     0     -
+  5       1010     0  0x040b  0x4004      -            0     0     -
+  6       1009     0  0x0019  0x4212  0x028            0     -     -
+  7       1008     0  0x000d  0x421a  0x028            0     0     -
+  8       1007     0  0x0019  0x4212  0x028            0     -     -
+  9       1006     0  0x0053  0x4212  0x028            0     -     -
+ 10       1005     0  0x001c  0x4212  0x028            0     -     -
+ 11       1004     0  0x0002  0x4004  0x028            0     0     -
+ 12       1003     0  0x000d  0x421a  0x028            0     0     -
+ 13       1002     0  0x001c  0x4212  0x028            0     -     -
+ 14       1001     0  0x0002  0x4004  0x028            0     0     -
+ 15       1000     0  0x000d  0x421a  0x028            0     0     -
+... (48 entries not read)
+
