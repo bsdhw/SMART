@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Dec 30 03:12:15 2022 EST
+Local Time is:    Tue Jan 10 13:15:23 2023 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,7 +60,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       21971
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       22245
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       86
 170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
@@ -75,17 +75,17 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       28
 197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1525177
-226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       983
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1541979
+226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       993
 227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       51
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       1317885
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       1334327
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
 234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
 235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2485 (86 65535)
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1525177
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1627698
-243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1983811
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1541979
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1629020
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       2004023
 
 SMART Error Log Version: 1
 No Errors Logged
