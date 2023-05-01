@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Dec  8 13:28:04 2022 EST
+Local Time is:    Fri Dec 30 03:12:15 2022 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,42 +60,44 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   099   099   000    Old_age   Always       -       2
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       21361
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       74
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       21877
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       84
 170 Available_Reservd_Space 0x0033   099   099   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       1
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       64
-175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2523 (74 65535)
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       72
+175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2522 (84 65535)
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error_Count  0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Drive_Temperature       0x0022   073   066   000    Old_age   Always       -       27 (Min/Max 22/34)
-192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       64
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       27
+190 Drive_Temperature       0x0022   074   071   000    Old_age   Always       -       26 (Min/Max 16/30)
+192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       72
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       26
 197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1446703
-226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       931
-227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       52
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       1281296
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1472351
+226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       952
+227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       51
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       1312231
 232 Available_Reservd_Space 0x0033   099   099   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
 234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
-235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2523 (74 65535)
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1446703
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1569357
-243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1888459
+235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2522 (84 65535)
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1472351
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1572180
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1919589
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     15484         -
-# 2  Short offline       Completed without error       00%     13512         -
-# 3  Short offline       Completed without error       00%     13349         -
-# 4  Short offline       Completed without error       00%      4010         -
+# 1  Short offline       Completed without error       00%     21383         -
+# 2  Short offline       Completed without error       00%     21361         -
+# 3  Short offline       Completed without error       00%     15484         -
+# 4  Short offline       Completed without error       00%     13512         -
+# 5  Short offline       Completed without error       00%     13349         -
+# 6  Short offline       Completed without error       00%      4010         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
