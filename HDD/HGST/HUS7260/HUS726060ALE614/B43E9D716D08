@@ -15,7 +15,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Sep 26 11:59:46 2022 EDT
+Local Time is:    Wed Oct 12 20:59:02 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -30,10 +30,10 @@ Wt Cache Reorder: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x80)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Enabled.
-Self-test execution status:      (  40)	The self-test routine was interrupted
+Self-test execution status:      (  41)	The self-test routine was interrupted
 					by the host with a hard or soft reset.
 Total time to complete Offline 
 data collection: 		(   90) seconds.
@@ -66,23 +66,23 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   016    -    0
   2 Throughput_Performance  --S---   137   137   000    -    104
   3 Spin_Up_Time            POS---   100   100   024    -    0
-  4 Start_Stop_Count        -O--C-   100   100   000    -    139
+  4 Start_Stop_Count        -O--C-   100   100   000    -    150
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         -O-R--   100   100   000    -    0
   8 Seek_Time_Performance   --S---   140   140   000    -    15
-  9 Power_On_Hours          -O--C-   099   099   000    -    7408
+  9 Power_On_Hours          -O--C-   099   099   000    -    7791
  10 Spin_Retry_Count        -O--C-   100   100   000    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    139
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    411
-193 Load_Cycle_Count        -O--C-   100   100   000    -    411
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    150
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    794
+193 Load_Cycle_Count        -O--C-   100   100   000    -    794
 194 Temperature_Celsius     -O----   130   130   000    -    46 (Min/Max 20/54)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O-R--   200   200   000    -    0
 223 Load_Retry_Count        -O-R--   100   100   000    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    98194297053
-242 Total_LBAs_Read         -O--C-   100   100   000    -    5710402116
+241 Total_LBAs_Written      -O--C-   100   100   000    -    98194563581
+242 Total_LBAs_Read         -O--C-   100   100   000    -    5711372756
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -120,25 +120,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Interrupted (host reset)      80%      7404         -
-# 2  Short offline       Interrupted (host reset)      80%      7404         -
-# 3  Short offline       Interrupted (host reset)      80%      7404         -
-# 4  Short offline       Interrupted (host reset)      80%      7404         -
-# 5  Short offline       Interrupted (host reset)      80%      7398         -
-# 6  Short offline       Interrupted (host reset)      80%      7398         -
-# 7  Short offline       Interrupted (host reset)      80%      7397         -
-# 8  Short offline       Interrupted (host reset)      80%      7397         -
-# 9  Short offline       Interrupted (host reset)      80%      7396         -
-#10  Short offline       Interrupted (host reset)      80%      7396         -
-#11  Short offline       Interrupted (host reset)      80%      7396         -
-#12  Short offline       Interrupted (host reset)      80%      7372         -
-#13  Short offline       Interrupted (host reset)      80%      7353         -
-#14  Short offline       Interrupted (host reset)      80%      7352         -
-#15  Short offline       Interrupted (host reset)      80%      7351         -
-#16  Short offline       Interrupted (host reset)      80%      7344         -
-#17  Short offline       Interrupted (host reset)      80%      7326         -
-#18  Short offline       Interrupted (host reset)      80%      7326         -
-#19  Short offline       Interrupted (host reset)      80%      7324         -
+# 1  Short offline       Interrupted (host reset)      90%      7671         -
+# 2  Short offline       Interrupted (host reset)      80%      7619         -
+# 3  Short offline       Interrupted (host reset)      80%      7459         -
+# 4  Short offline       Interrupted (host reset)      80%      7459         -
+# 5  Short offline       Interrupted (host reset)      80%      7455         -
+# 6  Short offline       Interrupted (host reset)      80%      7455         -
+# 7  Short offline       Interrupted (host reset)      80%      7439         -
+# 8  Short offline       Interrupted (host reset)      80%      7439         -
+# 9  Short offline       Interrupted (host reset)      80%      7439         -
+#10  Short offline       Interrupted (host reset)      80%      7434         -
+#11  Short offline       Interrupted (host reset)      80%      7433         -
+#12  Short offline       Interrupted (host reset)      80%      7404         -
+#13  Short offline       Interrupted (host reset)      80%      7404         -
+#14  Short offline       Interrupted (host reset)      80%      7404         -
+#15  Short offline       Interrupted (host reset)      80%      7404         -
+#16  Short offline       Interrupted (host reset)      80%      7398         -
+#17  Short offline       Interrupted (host reset)      80%      7398         -
+#18  Short offline       Interrupted (host reset)      80%      7397         -
+#19  Short offline       Interrupted (host reset)      80%      7397         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -155,7 +155,7 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
 Current Temperature:                    46 Celsius
-Power Cycle Min/Max Temperature:     46/51 Celsius
+Power Cycle Min/Max Temperature:     44/50 Celsius
 Lifetime    Min/Max Temperature:     20/54 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -164,7 +164,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -40/70 Celsius
-Temperature History Size (Index):    128 (108)
+Temperature History Size (Index):    128 (90)
 
 SCT Error Recovery Control:
            Read:     80 (8.0 seconds)
@@ -173,16 +173,16 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             139  ---  Lifetime Power-On Resets
-0x01  0x018  6     98194297053  ---  Logical Sectors Written
-0x01  0x020  6      1633578749  ---  Number of Write Commands
-0x01  0x028  6      5710402116  ---  Logical Sectors Read
-0x01  0x030  6        29618711  ---  Number of Read Commands
-0x01  0x038  6     26669173900  ---  Date and Time TimeStamp
+0x01  0x008  4             150  ---  Lifetime Power-On Resets
+0x01  0x018  6     98194563581  ---  Logical Sectors Written
+0x01  0x020  6      1633593517  ---  Number of Write Commands
+0x01  0x028  6      5711372756  ---  Logical Sectors Read
+0x01  0x030  6        29650800  ---  Number of Read Commands
+0x01  0x038  6     28049511800  ---  Date and Time TimeStamp
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4            4171  ---  Spindle Motor Power-on Hours
-0x03  0x010  4            4171  ---  Head Flying Hours
-0x03  0x018  4             411  ---  Head Load Events
+0x03  0x008  4            4271  ---  Spindle Motor Power-on Hours
+0x03  0x010  4            4271  ---  Head Flying Hours
+0x03  0x018  4             794  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures
@@ -191,8 +191,8 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              46  ---  Current Temperature
-0x05  0x010  1              47  N--  Average Short Term Temperature
-0x05  0x018  1              47  N--  Average Long Term Temperature
+0x05  0x010  1              46  N--  Average Short Term Temperature
+0x05  0x018  1              46  N--  Average Long Term Temperature
 0x05  0x020  1              54  ---  Highest Temperature
 0x05  0x028  1              20  ---  Lowest Temperature
 0x05  0x030  1              52  N--  Highest Average Short Term Temperature
@@ -205,7 +205,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
 0x06  0x008  4               7  ---  Number of Hardware Resets
-0x06  0x010  4             303  ---  Number of ASR Events
+0x06  0x010  4             352  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
                                 |||_ C monitored condition met
                                 ||__ D supports DSN

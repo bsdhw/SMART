@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p1 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Tue Sep  6 06:24:08 2022 EDT
+Local Time is:    Tue Sep 20 05:28:28 2022 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,17 +64,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    3933
+  9 Power_On_Hours          -O--C-   100   100   000    -    3949
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    457
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    460
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    1267143672240
 170 Unknown_Attribute       PO--C-   100   100   010    -    103088390242
-173 Unknown_Attribute       -O--C-   100   100   000    -    42957668409
+173 Unknown_Attribute       -O--C-   100   100   000    -    42957733946
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    132
-194 Temperature_Celsius     PO---K   077   044   030    -    23 (Min/Max 17/56)
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    133
+194 Temperature_Celsius     PO---K   076   044   030    -    24 (Min/Max 17/56)
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count

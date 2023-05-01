@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.5, 3.0 Gb/s
-Local Time is:    Sun Oct 24 01:00:16 2021 PDT
+Local Time is:    Sun Nov 21 01:00:13 2021 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -64,16 +64,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   200   200   051    -    0
-  3 Spin_Up_Time            POS--K   253   253   021    -    7041
-  4 Start_Stop_Count        -O--CK   100   100   000    -    137
+  3 Spin_Up_Time            POS--K   253   253   021    -    7141
+  4 Start_Stop_Count        -O--CK   100   100   000    -    138
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   051    -    0
-  9 Power_On_Hours          -O--CK   001   001   000    -    113559
+  9 Power_On_Hours          -O--CK   001   001   000    -    114228
  10 Spin_Retry_Count        -O--CK   100   100   051    -    0
  11 Calibration_Retry_Count -O--CK   100   100   051    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    137
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    138
 192 Power-Off_Retract_Count -O--CK   200   200   000    -    96
-193 Load_Cycle_Count        -O--CK   200   200   000    -    137
+193 Load_Cycle_Count        -O--CK   200   200   000    -    138
 194 Temperature_Celsius     -O---K   098   090   000    -    52
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
@@ -112,24 +112,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     47991         -
-# 2  Extended offline    Completed without error       00%     47864         -
-# 3  Short offline       Completed without error       00%     47822         -
-# 4  Extended offline    Completed without error       00%     47702         -
-# 5  Short offline       Completed without error       00%     47633         -
-# 6  Extended offline    Completed without error       00%     47534         -
-# 7  Short offline       Completed without error       00%     47453         -
-# 8  Extended offline    Completed without error       00%     47366         -
-# 9  Extended offline    Completed without error       00%     47323         -
-#10  Short offline       Completed without error       00%     47285         -
-#11  Extended offline    Completed without error       00%     47204         -
-#12  Short offline       Completed without error       00%     47116         -
-#13  Extended offline    Completed without error       00%     47034         -
-#14  Short offline       Completed without error       00%     46946         -
-#15  Extended offline    Completed without error       00%     46865         -
-#16  Short offline       Completed without error       00%     46778         -
-#17  Extended offline    Completed without error       00%     46695         -
-#18  Extended offline    Completed without error       00%     46581         -
+# 1  Short offline       Completed without error       00%     48560         -
+# 2  Extended offline    Completed without error       00%     48532         -
+# 3  Short offline       Completed without error       00%     48391         -
+# 4  Extended offline    Completed without error       00%     48366         -
+# 5  Short offline       Completed without error       00%     48212         -
+# 6  Extended offline    Interrupted (host reset)      50%     48198         -
+# 7  Extended offline    Completed without error       00%     48061         -
+# 8  Extended offline    Interrupted (host reset)      90%     48054         -
+# 9  Extended offline    Completed without error       00%     48035         -
+#10  Short offline       Completed without error       00%     47991         -
+#11  Extended offline    Completed without error       00%     47864         -
+#12  Short offline       Completed without error       00%     47822         -
+#13  Extended offline    Completed without error       00%     47702         -
+#14  Short offline       Completed without error       00%     47633         -
+#15  Extended offline    Completed without error       00%     47534         -
+#16  Short offline       Completed without error       00%     47453         -
+#17  Extended offline    Completed without error       00%     47366         -
+#18  Extended offline    Completed without error       00%     47323         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -146,8 +146,8 @@ SCT Status Version:                  2
 SCT Version (vendor specific):       258 (0x0102)
 Device State:                        SMART Off-line Data Collection executing in background (4)
 Current Temperature:                    52 Celsius
-Power Cycle Min/Max Temperature:     23/57 Celsius
-Lifetime    Min/Max Temperature:      ?/60 Celsius
+Power Cycle Min/Max Temperature:     24/54 Celsius
+Lifetime    Min/Max Temperature:     46/60 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Temperature History Version:     2
@@ -155,7 +155,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    128 (98)
+Temperature History Size (Index):    128 (49)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -174,8 +174,8 @@ ID      Size     Value  Description
 0x0005  2            0  R_ERR response for non-data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x000a  2           10  Device-to-host register FISes sent due to a COMRESET
-0x8000  4      1083793  Vendor specific
+0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
+0x8000  4      2182479  Vendor specific
 
 
 

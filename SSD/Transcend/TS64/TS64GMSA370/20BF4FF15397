@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p1 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 27 20:25:19 2022 CEST
+Local Time is:    Fri Sep  2 16:31:35 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -62,34 +62,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    2289
- 12 Power_Cycle_Count       ------   100   100   000    -    91
+  9 Power_On_Hours          ------   100   100   000    -    2297
+ 12 Power_Cycle_Count       ------   100   100   000    -    92
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    44
 163 Initial_Bad_Block_Count ------   100   100   000    -    0
-164 Total_Erase_Count       ------   100   100   000    -    690778
-165 Max_Erase_Count         ------   100   100   000    -    730
-166 Min_Erase_Count         ------   100   100   000    -    629
-167 Average_Erase_Count     ------   100   100   000    -    679
+164 Total_Erase_Count       ------   100   100   000    -    700489
+165 Max_Erase_Count         ------   100   100   000    -    743
+166 Min_Erase_Count         ------   100   100   000    -    642
+167 Average_Erase_Count     ------   100   100   000    -    689
 168 Max_Erase_Count_of_Spec ------   100   100   000    -    3000
 169 Remaining_Lifetime_Perc ------   100   100   000    -    78
 175 Program_Fail_Count_Chip ------   100   100   000    -    0
 176 Erase_Fail_Count_Chip   ------   100   100   000    -    0
-177 Wear_Leveling_Count     ------   100   100   050    -    1657
+177 Wear_Leveling_Count     ------   100   100   050    -    1674
 178 Runtime_Invalid_Blk_Cnt ------   100   100   000    -    0
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
-192 Power-Off_Retract_Count ------   100   100   000    -    26
-194 Temperature_Celsius     ------   100   100   000    -    53
+192 Power-Off_Retract_Count ------   100   100   000    -    27
+194 Temperature_Celsius     ------   100   100   000    -    46
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    696568
-242 Host_Reads_32MiB        ------   100   100   000    -    40338
-245 TLC_Writes_32MiB        ------   100   100   000    -    1381556
+241 Host_Writes_32MiB       ------   100   100   000    -    701971
+242 Host_Reads_32MiB        ------   100   100   000    -    40936
+245 TLC_Writes_32MiB        ------   100   100   000    -    1400978
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -142,20 +142,20 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4              91  ---  Lifetime Power-On Resets
-0x01  0x010  4            2289  ---  Power-on Hours
-0x01  0x018  6     45650316162  ---  Logical Sectors Written
-0x01  0x020  6      2785616464  ---  Number of Write Commands
-0x01  0x028  6      2643597207  ---  Logical Sectors Read
-0x01  0x030  6       186423634  ---  Number of Read Commands
+0x01  0x008  4              92  ---  Lifetime Power-On Resets
+0x01  0x010  4            2297  ---  Power-on Hours
+0x01  0x018  6     46004372834  ---  Logical Sectors Written
+0x01  0x020  6      2799059320  ---  Number of Write Commands
+0x01  0x028  6      2682835345  ---  Logical Sectors Read
+0x01  0x030  6       186921687  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4              26  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4              27  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            6394  ---  Number of Hardware Resets
+0x06  0x008  4            6405  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              22  ---  Percentage Used Endurance Indicator

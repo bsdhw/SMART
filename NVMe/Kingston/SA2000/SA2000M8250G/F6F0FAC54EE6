@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -11,10 +11,10 @@ Controller ID:                      1
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            72,406,253,568 [72.4 GB]
+Namespace 1 Utilization:            72,413,790,208 [72.4 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Wed Jul 28 08:06:35 2021 CEST
+Local Time is:                      Mon Oct 11 16:12:16 2021 CEST
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -44,13 +44,13 @@ Temperature:                        35 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    18%
-Data Units Read:                    758,409 [388 GB]
-Data Units Written:                 62,276,308 [31.8 TB]
-Host Read Commands:                 12,369,183
-Host Write Commands:                974,343,486
-Controller Busy Time:               16,356
-Power Cycles:                       78
-Power On Hours:                     9,252
+Data Units Read:                    781,102 [399 GB]
+Data Units Written:                 62,494,523 [31.9 TB]
+Host Read Commands:                 12,691,146
+Host Write Commands:                977,228,222
+Controller Busy Time:               16,384
+Power Cycles:                       82
+Power On Hours:                     9,263
 Unsafe Shutdowns:                   41
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
