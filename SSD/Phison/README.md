@@ -34,6 +34,7 @@ MTBF - avg. MTBF in years per sample.
 | Phison    | SATA SSD           | 64 GB  | 3       | 95    | 0     | 0.26   |
 | Phison    | NETLIST SSD 8GB... | 8 GB   | 1       | 833   | 8     | 0.25   |
 | Phison    | SATA SSD           | 240 GB | 1       | 35    | 0     | 0.10   |
+| Phison    | SSD S7 64G         | 16 GB  | 1       | 36    | 83    | 0.00   |
 
 SSD by Family
 -------------
@@ -50,4 +51,4 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Phison    | Phison Driven SSDs     | 1      | 1       | 691   | 0     | 1.89   |
 | Phison    | Driven OEM SSDs        | 8      | 67      | 487   | 0     | 1.34   |
-| Phison    | Unknown                | 2      | 2       | 513   | 4     | 0.39   |
+| Phison    | Unknown                | 3      | 3       | 354   | 31    | 0.26   |

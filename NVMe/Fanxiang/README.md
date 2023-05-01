@@ -17,9 +17,9 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| Fanxiang  | S501               | 512 GB | 3       | 106   | 0     | 0.29   |
 | Fanxiang  | S501               | 256 GB | 1       | 64    | 0     | 0.18   |
-| Fanxiang  | S500PRO            | 256 GB | 4       | 30    | 0     | 0.08   |
 | Fanxiang  | S500               | 256 GB | 2       | 23    | 0     | 0.06   |
-| Fanxiang  | S501               | 512 GB | 1       | 4     | 0     | 0.01   |
-| Fanxiang  | S500               | 128 GB | 4       | 1     | 0     | 0.00   |
-| Fanxiang  | S501               | 128 GB | 1       | 0     | 0     | 0.00   |
+| Fanxiang  | S500               | 128 GB | 6       | 21    | 0     | 0.06   |
+| Fanxiang  | S500PRO            | 256 GB | 8       | 17    | 0     | 0.05   |
+| Fanxiang  | S501               | 128 GB | 7       | 6     | 0     | 0.02   |

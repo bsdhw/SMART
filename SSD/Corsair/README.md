@@ -25,15 +25,15 @@ MTBF - avg. MTBF in years per sample.
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Corsair   | Force 3 SSD        | 240 GB | 2       | 2608  | 0     | 7.15   |
 | Corsair   | Force GT           | 240 GB | 1       | 1999  | 0     | 5.48   |
+| Corsair   | Force 3 SSD        | 64 GB  | 5       | 1572  | 0     | 4.31   |
 | Corsair   | Force GS           | 128 GB | 2       | 1279  | 0     | 3.51   |
 | Corsair   | Force 3 SSD        | 180 GB | 1       | 2914  | 2     | 2.66   |
-| Corsair   | Force 3 SSD        | 64 GB  | 4       | 894   | 0     | 2.45   |
 | Corsair   | Force LE SSD       | 120 GB | 1       | 811   | 0     | 2.22   |
-| Corsair   | Force GT           | 120 GB | 2       | 1377  | 2     | 2.16   |
-| Corsair   | Force LS SSD       | 64 GB  | 6       | 1001  | 169   | 1.74   |
+| Corsair   | Force GT           | 120 GB | 3       | 1165  | 2     | 2.12   |
+| Corsair   | Force LS SSD       | 64 GB  | 6       | 1019  | 169   | 1.79   |
 | Corsair   | Force GS           | 180 GB | 2       | 631   | 0     | 1.73   |
+| Corsair   | Force 3 SSD        | 120 GB | 6       | 974   | 169   | 1.50   |
 | Corsair   | CSSD-F60GB2        | 64 GB  | 1       | 516   | 0     | 1.42   |
-| Corsair   | Force 3 SSD        | 120 GB | 6       | 934   | 169   | 1.39   |
 | Corsair   | CMFSSD-256D1       | 256 GB | 1       | 306   | 0     | 0.84   |
 | Corsair   | Force LS SSD       | 120 GB | 3       | 280   | 336   | 0.65   |
 | Corsair   | CSSD-V64GB2        | 64 GB  | 1       | 221   | 0     | 0.61   |
@@ -60,7 +60,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Corsair   | SandForce Driven SSDs  | 14     | 33      | 1043  | 154   | 2.10   |
+| Corsair   | SandForce Driven SSDs  | 14     | 35      | 1137  | 145   | 2.40   |
 | Corsair   | Indilinx Barefoot b... | 2      | 2       | 263   | 0     | 0.72   |
 | Corsair   | Unknown                | 6      | 6       | 591   | 122   | 0.47   |
 | Corsair   | Silicon Motion base... | 1      | 1       | 100   | 0     | 0.28   |

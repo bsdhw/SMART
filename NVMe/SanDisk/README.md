@@ -17,12 +17,19 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| SanDisk   | Ultra 3D NVMe      | 500 GB | 1       | 57    | 0     | 0.16   |
-| SanDisk   | WD Blue SN570      | 250 GB | 3       | 56    | 0     | 0.15   |
-| SanDisk   | WD_BLACK SN770     | 500 GB | 4       | 46    | 0     | 0.13   |
+| SanDisk   | Extreme Pro        | 500 GB | 1       | 1231  | 0     | 3.37   |
+| SanDisk   | WD Blue SN570      | 250 GB | 4       | 119   | 0     | 0.33   |
+| SanDisk   | WD_BLACK SN770     | 1 TB   | 2       | 118   | 0     | 0.32   |
+| SanDisk   | Ultra 3D NVMe      | 500 GB | 2       | 57    | 0     | 0.16   |
+| SanDisk   | WD Blue SN570      | 500 GB | 11      | 52    | 0     | 0.14   |
 | SanDisk   | WD PC SN810 SDC... | 512 GB | 1       | 33    | 0     | 0.09   |
+| SanDisk   | WD_BLACK SN770     | 500 GB | 6       | 32    | 0     | 0.09   |
 | SanDisk   | WD Red SN700       | 4 TB   | 1       | 31    | 0     | 0.09   |
-| SanDisk   | WD Blue SN570      | 500 GB | 5       | 24    | 0     | 0.07   |
-| SanDisk   | WD Blue SN570      | 1 TB   | 4       | 19    | 0     | 0.05   |
+| SanDisk   | WD_BLACK SN770     | 250 GB | 3       | 28    | 0     | 0.08   |
+| SanDisk   | WD Green SN350     | 2 TB   | 2       | 22    | 0     | 0.06   |
+| SanDisk   | WD Blue SN570      | 1 TB   | 7       | 17    | 0     | 0.05   |
 | SanDisk   | WD_BLACK SN850     | 1 TB   | 2       | 7     | 0     | 0.02   |
 | SanDisk   | WD Blue SN570 5... | 500 GB | 1       | 5     | 0     | 0.01   |
+| SanDisk   | WD Red SN700       | 500 GB | 1       | 5     | 0     | 0.01   |
+| SanDisk   | WD_BLACK SN850X    | 2 TB   | 1       | 4     | 0     | 0.01   |
+| SanDisk   | WD_BLACK SN770     | 2 TB   | 1       | 0     | 0     | 0.00   |

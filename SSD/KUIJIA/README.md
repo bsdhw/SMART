@@ -18,3 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | KUIJIA    | DK500-64G          | 64 GB  | 1       | 143   | 0     | 0.39   |
+| KUIJIA    | DK500-256G         | 256 GB | 1       | 89    | 0     | 0.25   |

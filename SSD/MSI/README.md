@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| MSI       | S270               | 240 GB | 1       | 7     | 0     | 0.02   |
+| MSI       | S270               | 240 GB | 1       | 55    | 0     | 0.15   |

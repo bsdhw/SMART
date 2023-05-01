@@ -40,8 +40,9 @@ MTBF - avg. MTBF in years per sample.
 | Lite-On   | CV8-8E128-HP       | 128 GB | 3       | 124   | 672   | 0.31   |
 | Lite-On   | L8H-256V2G         | 256 GB | 1       | 93    | 0     | 0.26   |
 | Lite-On   | LMT-256L9M-11 M... | 256 GB | 1       | 84    | 0     | 0.23   |
-| Lite-On   | CV3-8D128          | 128 GB | 1       | 80    | 0     | 0.22   |
-| Lite-On   | CV8-8E128-11 SATA  | 128 GB | 3       | 70    | 0     | 0.19   |
+| Lite-On   | CV3-8D128          | 128 GB | 1       | 81    | 0     | 0.22   |
+| Lite-On   | CV8-8E128-11 SATA  | 128 GB | 3       | 71    | 0     | 0.20   |
+| Lite-On   | CV8-8E128-11 SATA  | 128 GB | 1       | 61    | 0     | 0.17   |
 | Lite-On   | LSS-32L6G-HP       | 32 GB  | 1       | 59    | 0     | 0.16   |
 | Lite-On   | L8H-256V2G-HP      | 256 GB | 2       | 59    | 0     | 0.16   |
 | Lite-On   | L8H-256V2G-11 M... | 256 GB | 1       | 54    | 0     | 0.15   |
@@ -52,8 +53,8 @@ MTBF - avg. MTBF in years per sample.
 | Lite-On   | LSS-16L6G-HP       | 16 GB  | 1       | 23    | 0     | 0.06   |
 | Lite-On   | CV3-CE128-11 SATA  | 128 GB | 1       | 19    | 0     | 0.05   |
 | Lite-On   | PH4-CE120          | 120 GB | 1       | 17    | 0     | 0.05   |
-| Lite-On   | LMH-128V2M-11 M... | 128 GB | 2       | 11    | 0     | 0.03   |
 | Lite-On   | CS1-SP16-11 M.2... | 16 GB  | 1       | 9     | 0     | 0.03   |
+| Lite-On   | LMH-128V2M-11 M... | 128 GB | 3       | 8     | 0     | 0.02   |
 | Lite-On   | LJH-64V2G-11 M.... | 64 GB  | 1       | 38    | 4     | 0.02   |
 | Lite-On   | CS1-SP32-11 M.2... | 32 GB  | 2       | 12    | 2     | 0.02   |
 | Lite-On   | CV1-8B512          | 512 GB | 1       | 4     | 0     | 0.01   |
@@ -75,5 +76,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Lite-On   | Unknown                | 37     | 51      | 163   | 60    | 0.44   |
-| Lite-On   | Silicon Motion base... | 1      | 2       | 11    | 0     | 0.03   |
+| Lite-On   | Unknown                | 38     | 52      | 161   | 59    | 0.44   |
+| Lite-On   | Silicon Motion base... | 1      | 3       | 8     | 0     | 0.02   |

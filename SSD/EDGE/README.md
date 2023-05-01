@@ -17,4 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| EDGE      | Boost Pro 120GB... | 120 GB | 1       | 2518  | 1020  | 0.01   |
+| EDGE      | SE847-V SSD        | 240 GB | 1       | 107   | 0     | 0.30   |
+| EDGE      | Boost Pro 120GB... | 120 GB | 1       | 2637  | 1020  | 0.01   |

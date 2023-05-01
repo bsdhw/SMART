@@ -17,5 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| Fanxiang  | S101-240GB         | 240 GB | 1       | 237   | 3     | 0.16   |
 | Fanxiang  | S101               | 1 TB   | 1       | 3     | 0     | 0.01   |
+| Fanxiang  | S101               | 512 GB | 1       | 0     | 0     | 0.00   |
 | Fanxiang  | S101               | 2 TB   | 1       | 0     | 0     | 0.00   |

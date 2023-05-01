@@ -18,3 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Silicon   | SATA3 120GB SSD    | 120 GB | 1       | 71    | 0     | 0.20   |
+| Silicon   | SATA3 240GB SSD    | 240 GB | 1       | 15    | 0     | 0.04   |

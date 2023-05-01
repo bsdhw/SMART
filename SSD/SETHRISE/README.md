@@ -17,4 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| SETHRISE  | SSD 512G           | 512 GB | 1       | 27    | 0     | 0.07   |
 | SETHRISE  | SSD 480G           | 480 GB | 1       | 14    | 0     | 0.04   |
