@@ -1,4 +1,4 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p7-HBSD amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p7-HBSD amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -11,10 +11,10 @@ Controller ID:                      1
 NVMe Version:                       <1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
-Namespace 1 Utilization:            249,237,807,104 [249 GB]
+Namespace 1 Utilization:            249,319,661,568 [249 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sat Jan 23 17:40:05 2021 UTC
+Local Time is:                      Thu Feb 23 06:11:35 2023 UTC
 Firmware Updates (0x06):            3 Slots
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -38,18 +38,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        54 Celsius
+Temperature:                        46 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    2%
-Data Units Read:                    5,415,568 [2.77 TB]
-Data Units Written:                 40,139,572 [20.5 TB]
-Host Read Commands:                 622,076,818
-Host Write Commands:                480,175,980
-Controller Busy Time:               737
-Power Cycles:                       27
-Power On Hours:                     35,885
-Unsafe Shutdowns:                   22
+Data Units Read:                    5,451,442 [2.79 TB]
+Data Units Written:                 44,145,912 [22.6 TB]
+Host Read Commands:                 622,832,248
+Host Write Commands:                546,682,580
+Controller Busy Time:               754
+Power Cycles:                       34
+Power On Hours:                     50,637
+Unsafe Shutdowns:                   25
 Media and Data Integrity Errors:    1
 Error Information Log Entries:      2
 

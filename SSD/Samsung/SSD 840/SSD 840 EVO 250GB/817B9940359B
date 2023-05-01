@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sat Feb 11 19:29:42 2023 UTC
+Local Time is:    Sat Mar 11 17:55:46 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,8 +65,8 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   096   096   000    -    15610
- 12 Power_Cycle_Count       -O--CK   092   092   000    -    7997
+  9 Power_On_Hours          -O--CK   096   096   000    -    15803
+ 12 Power_Cycle_Count       -O--CK   092   092   000    -    8078
 177 Wear_Leveling_Count     PO--C-   095   095   000    -    55
 179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   100   100   010    -    0
 181 Program_Fail_Cnt_Total  -O--CK   100   100   010    -    0
@@ -76,8 +76,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 190 Airflow_Temperature_Cel -O--CK   078   051   000    -    22
 195 ECC_Error_Rate          -O-RC-   200   200   000    -    0
 199 CRC_Error_Count         -OSRCK   099   099   000    -    1
-235 POR_Recovery_Count      -O--C-   099   099   000    -    1044
-241 Total_LBAs_Written      -O--CK   099   099   000    -    25943974478
+235 POR_Recovery_Count      -O--C-   099   099   000    -    1052
+241 Total_LBAs_Written      -O--CK   099   099   000    -    26085256666
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -111,24 +111,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%         1         -
-# 2  Short offline       Completed without error       00%         1         -
-# 3  Short offline       Completed without error       00%         0         -
-# 4  Extended offline    Completed without error       00%         0         -
-# 5  Short offline       Completed without error       00%         4         -
-# 6  Short offline       Completed without error       00%         0         -
-# 7  Short offline       Completed without error       00%         2         -
+# 1  Extended offline    Completed without error       00%         1         -
+# 2  Short offline       Completed without error       00%         0         -
+# 3  Short offline       Completed without error       00%         1         -
+# 4  Short offline       Completed without error       00%         1         -
+# 5  Short offline       Completed without error       00%         0         -
+# 6  Extended offline    Completed without error       00%         0         -
+# 7  Short offline       Completed without error       00%         4         -
 # 8  Short offline       Completed without error       00%         0         -
-# 9  Extended offline    Completed without error       00%         0         -
+# 9  Short offline       Completed without error       00%         2         -
 #10  Short offline       Completed without error       00%         0         -
-#11  Short offline       Completed without error       00%         4         -
-#12  Short offline       Completed without error       00%         2         -
-#13  Extended offline    Completed without error       00%         0         -
-#14  Short offline       Completed without error       00%         1         -
-#15  Short offline       Completed without error       00%         0         -
+#11  Extended offline    Completed without error       00%         0         -
+#12  Short offline       Completed without error       00%         0         -
+#13  Short offline       Completed without error       00%         4         -
+#14  Short offline       Completed without error       00%         2         -
+#15  Extended offline    Completed without error       00%         0         -
 #16  Short offline       Completed without error       00%         1         -
 #17  Short offline       Completed without error       00%         0         -
-#18  Short offline       Completed without error       00%         0         -
+#18  Short offline       Completed without error       00%         1         -
+#19  Short offline       Completed without error       00%         0         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -147,14 +148,14 @@ Device State:                        Active (0)
 Current Temperature:                    22 Celsius
 Power Cycle Min/Max Temperature:      ?/ ? Celsius
 Lifetime    Min/Max Temperature:      ?/ ? Celsius
-Under/Over Temperature Limit Count:   0/93008
+Under/Over Temperature Limit Count:   0/94183
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      ?/ ? Celsius
 Min/Max Temperature Limit:            ?/ ? Celsius
-Temperature History Size (Index):    128 (16)
+Temperature History Size (Index):    128 (7)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -174,8 +175,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2          193  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           22  Device-to-host register FISes sent due to a COMRESET
+0x0009  2           44  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

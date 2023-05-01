@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Mar 26 00:55:08 2022 PDT
+Local Time is:    Sat Mar 26 01:21:11 2022 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,14 +64,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
   9 Power_On_Hours          ------   100   100   000    -    2321
  12 Power_Cycle_Count       ------   100   100   000    -    16
-148 Unknown_Attribute       ------   100   100   000    -    305593
+148 Unknown_Attribute       ------   100   100   000    -    305627
 149 Unknown_Attribute       ------   100   100   000    -    3234
 150 Unknown_Attribute       ------   100   100   000    -    3103
-151 Unknown_Attribute       ------   100   100   000    -    3216
-164 Unknown_Attribute       ------   100   100   000    -    170771
+151 Unknown_Attribute       ------   100   100   000    -    3217
+164 Unknown_Attribute       ------   100   100   000    -    170837
 165 Unknown_Attribute       ------   100   100   000    -    131
 166 Unknown_Attribute       ------   100   100   000    -    30
-167 Unknown_Attribute       ------   100   100   000    -    93
+167 Unknown_Attribute       ------   100   100   000    -    94
 159 Unknown_Attribute       ------   100   100   000    -    0
 160 Unknown_Attribute       ------   100   100   000    -    0
 161 Unknown_Attribute       ------   100   100   000    -    112
@@ -82,14 +82,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    12
-194 Temperature_Celsius     ------   100   100   000    -    68 (Min/Max 28/76)
+194 Temperature_Celsius     ------   100   100   000    -    65 (Min/Max 28/76)
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Total_LBAs_Written      ------   100   100   000    -    357341
-242 Total_LBAs_Read         ------   100   100   000    -    3026
-245 Unknown_Attribute       ------   100   100   000    -    1226859
+241 Total_LBAs_Written      ------   100   100   000    -    357381
+242 Total_LBAs_Read         ------   100   100   000    -    3029
+245 Unknown_Attribute       ------   100   100   000    -    1227207
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -144,10 +144,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              16  ---  Lifetime Power-On Resets
 0x01  0x010  4            2321  ---  Power-on Hours
-0x01  0x018  6     23418737249  ---  Logical Sectors Written
-0x01  0x020  6       402288266  ---  Number of Write Commands
-0x01  0x028  6       198371835  ---  Logical Sectors Read
-0x01  0x030  6         6118526  ---  Number of Read Commands
+0x01  0x018  6     23421360577  ---  Logical Sectors Written
+0x01  0x020  6       402337346  ---  Number of Write Commands
+0x01  0x028  6       198524947  ---  Logical Sectors Read
+0x01  0x030  6         6120526  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4              12  ---  Resets Between Cmd Acceptance and Completion

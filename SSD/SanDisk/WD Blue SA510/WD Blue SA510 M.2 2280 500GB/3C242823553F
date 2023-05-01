@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-4, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Feb 22 08:27:54 2023 EST
+Local Time is:    Wed Feb 22 08:33:18 2023 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -83,7 +83,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 232 Available_Reservd_Space PO--CK   100   100   004    -    95
 233 Media_Wearout_Indicator -O--CK   100   100   000    -    0
 234 Unknown_Attribute       -O--CK   100   100   000    -    7473
-241 Total_LBAs_Written      ----CK   253   253   000    -    2208
+241 Total_LBAs_Written      ----CK   253   253   000    -    2209
 242 Total_LBAs_Read         ----CK   253   253   000    -    14
 244 Unknown_Attribute       -O--CK   100   100   000    -    0
                             ||||||_ K auto-keep

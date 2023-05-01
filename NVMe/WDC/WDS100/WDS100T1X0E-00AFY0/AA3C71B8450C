@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Wed Jul  6 16:34:08 2022 JST
+Local Time is:                      Sat Apr 22 18:56:49 2023 JST
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -28,6 +28,10 @@ Namespace 1 Features (0x02):        NA_Fields
 Supported Power States
 St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
  0 +     9.00W    9.00W       -    0  0  0  0        0       0
+ 1 +     4.10W    4.10W       -    0  0  0  0        0       0
+ 2 +     3.50W    3.50W       -    0  0  0  0        0       0
+ 3 -   0.0250W       -        -    3  3  3  3     5000   10000
+ 4 -   0.0050W       -        -    4  4  4  4     5000   45000
 
 Supported LBA Sizes (NSID 0x1)
 Id Fmt  Data  Metadt  Rel_Perf
@@ -43,14 +47,14 @@ Temperature:                        46 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    9,556,868 [4.89 TB]
-Data Units Written:                 11,745,901 [6.01 TB]
-Host Read Commands:                 119,267,263
-Host Write Commands:                217,911,422
-Controller Busy Time:               417
-Power Cycles:                       166
-Power On Hours:                     6,874
-Unsafe Shutdowns:                   28
+Data Units Read:                    15,880,138 [8.13 TB]
+Data Units Written:                 22,337,521 [11.4 TB]
+Host Read Commands:                 195,954,970
+Host Write Commands:                447,337,445
+Controller Busy Time:               761
+Power Cycles:                       202
+Power On Hours:                     10,822
+Unsafe Shutdowns:                   42
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

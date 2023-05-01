@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Mar 28 21:53:24 2023 MSK
+Local Time is:    Fri Apr  7 16:59:58 2023 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     208 (intermediate), recommended: 208
@@ -64,12 +64,12 @@ SCT capabilities: 	       (0x303f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   108   099   006    -    1597336
+  1 Raw_Read_Error_Rate     POSR--   108   099   006    -    1629416
   3 Spin_Up_Time            PO----   100   100   000    -    0
   4 Start_Stop_Count        -O--CK   099   099   020    -    1932
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   079   060   030    -    13187523143
-  9 Power_On_Hours          -O--CK   080   080   000    -    18237
+  7 Seek_Error_Rate         POSR--   079   060   030    -    13187530885
+  9 Power_On_Hours          -O--CK   079   079   000    -    18472
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   099   099   020    -    1932
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
@@ -79,13 +79,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
 190 Airflow_Temperature_Cel -O---K   073   061   045    -    27 (Min/Max 24/28)
 194 Temperature_Celsius     -O---K   027   040   000    -    27 (0 8 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   045   027   000    -    1597336
+195 Hardware_ECC_Recovered  -O-RC-   045   027   000    -    1629416
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    18218h+07m+28.042s
+240 Head_Flying_Hours       ------   100   253   000    -    18453h+15m+37.387s
 241 Total_LBAs_Written      ------   100   253   000    -    3078402754
-242 Total_LBAs_Read         ------   100   253   000    -    1291571727
+242 Total_LBAs_Read         ------   100   253   000    -    1291581967
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -140,7 +140,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    27 Celsius
+Current Temperature:                    26 Celsius
 Power Cycle Min/Max Temperature:     24/28 Celsius
 Lifetime    Min/Max Temperature:      8/39 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -150,7 +150,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        59 minutes
 Min/Max recommended Temperature:     14/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (12)
+Temperature History Size (Index):    128 (123)
 
 SCT Error Recovery Control:
            Read: Disabled

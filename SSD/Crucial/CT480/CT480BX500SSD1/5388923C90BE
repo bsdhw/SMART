@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Apr 21 23:17:28 2023 -05
+Local Time is:    Sun Apr 23 21:22:17 2023 -05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,17 +57,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   000   100   000    Pre-fail  Always       -       0
   5 Reallocate_NAND_Blk_Cnt 0x0032   100   100   010    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2509
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2461
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2512
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2468
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   000   000   000    Old_age   Always       -       0
 173 Ave_Block-Erase_Count   0x0032   003   003   000    Old_age   Always       -       68
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       562
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       563
 180 Unused_Reserve_NAND_Blk 0x0033   100   100   000    Pre-fail  Always       -       228
 183 SATA_Interfac_Downshift 0x0032   100   100   000    Old_age   Always       -       0
 184 Error_Correction_Count  0x0032   100   100   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
-194 Temperature_Celsius     0x0022   057   017   000    Old_age   Always       -       43 (Min/Max 7/83)
+194 Temperature_Celsius     0x0022   059   017   000    Old_age   Always       -       41 (Min/Max 7/83)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_ECC_Cnt 0x0032   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
@@ -75,8 +75,8 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 202 Percent_Lifetime_Remain 0x0030   097   097   001    Old_age   Offline      -       3
 206 Write_Error_Rate        0x000e   000   000   000    Old_age   Always       -       0
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
-246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       15892247580
-247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       496632736
+246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       15893205773
+247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       496662680
 248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       571303328
 
 SMART Error Log Version: 1

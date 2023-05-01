@@ -1,5 +1,5 @@
-smartctl 6.6 2017-11-05 r4594 [MidnightBSD 1.2 amd64] (local build)
-Copyright (C) 2002-17, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 6.5 2016-05-07 r4318 [x86_64-unknown-openbsd6.1] (local build)
+Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     GIGABYTE GP-GSTFS31120GNTD
@@ -10,14 +10,16 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 Device is:        Not in smartctl database [for details use: -P showall]
-ATA Version is:   ACS-4 (minor revision not indicated)
+ATA Version is:   Unknown(0x0ff8) (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jun  3 11:11:58 2020 MSK
+Local Time is:    Wed Jun  3 17:33:09 2020 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
 === START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -54,15 +56,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
   9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       7
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       37
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       39
 168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
 170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       156
 173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       1
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       13
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       14
 194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
 218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
 231 Temperature_Celsius     0x0013   100   100   000    Pre-fail  Always       -       100
-241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       37
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       40
 
 SMART Error Log Version: 1
 No Errors Logged
@@ -81,4 +83,6 @@ Note: revision number not 1 implies that no selective self-test has ever been ru
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
 

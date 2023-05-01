@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       kimtigo SSD 256GB
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Sun Jan 22 17:32:53 2023 EST
+Local Time is:                      Mon Feb 27 13:00:35 2023 EST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -35,18 +35,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        37 Celsius
+Temperature:                        41 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    762,395 [390 GB]
-Data Units Written:                 1,618,165 [828 GB]
-Host Read Commands:                 11,569,882
-Host Write Commands:                25,287,846
-Controller Busy Time:               1,220
-Power Cycles:                       102
-Power On Hours:                     1,869
-Unsafe Shutdowns:                   70
+Data Units Read:                    774,994 [396 GB]
+Data Units Written:                 1,681,944 [861 GB]
+Host Read Commands:                 11,849,986
+Host Write Commands:                26,121,158
+Controller Busy Time:               1,237
+Power Cycles:                       115
+Power On Hours:                     2,038
+Unsafe Shutdowns:                   82
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

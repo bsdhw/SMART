@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sat Feb 11 19:29:42 2023 UTC
+Local Time is:    Sat Mar 11 17:55:46 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,14 +68,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    12862
- 12 Power_Cycle_Count       -O--CK   100   100   001    -    8366
+  9 Power_On_Hours          -O--CK   100   100   001    -    12927
+ 12 Power_Cycle_Count       -O--CK   100   100   001    -    8447
 170 Grown_Failing_Block_Ct  PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   001    -    0
 172 Erase_Fail_Count        -O--CK   100   100   001    -    0
 173 Wear_Leveling_Count     PO--CK   097   097   010    -    115
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    1200
-181 Non4k_Aligned_Access    -O---K   100   100   001    -    3569 684 2885
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    1207
+181 Non4k_Aligned_Access    -O---K   100   100   001    -    3574 684 2890
 183 SATA_Iface_Downshift    -O--CK   100   100   001    -    0
 184 End-to-End_Error        PO--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   001    -    0
@@ -125,22 +125,23 @@ SMART Extended Self-test Log size 3449 not supported
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     12814         -
-# 2  Short offline       Completed without error       00%     12784         -
-# 3  Short offline       Completed without error       00%     12755         -
-# 4  Extended offline    Completed without error       00%     12711         -
-# 5  Short offline       Completed without error       00%     12359         -
-# 6  Short offline       Completed without error       00%     12355         -
-# 7  Short offline       Completed without error       00%     12329         -
-# 8  Extended offline    Completed without error       00%     12287         -
-# 9  Short offline       Completed without error       00%     12200         -
-#10  Short offline       Completed without error       00%     12199         -
-#11  Short offline       Completed without error       00%     12187         -
-#12  Short offline       Completed without error       00%     11792         -
-#13  Short offline       Completed without error       00%     11788         -
-#14  Short offline       Completed without error       00%     11780         -
-#15  Short offline       Completed without error       00%     11778         -
-#16  Vendor (0xff)       Completed without error       00%       933         -
+# 1  Extended offline    Completed without error       00%     12923         -
+# 2  Short offline       Completed without error       00%     12814         -
+# 3  Short offline       Completed without error       00%     12784         -
+# 4  Short offline       Completed without error       00%     12755         -
+# 5  Extended offline    Completed without error       00%     12711         -
+# 6  Short offline       Completed without error       00%     12359         -
+# 7  Short offline       Completed without error       00%     12355         -
+# 8  Short offline       Completed without error       00%     12329         -
+# 9  Extended offline    Completed without error       00%     12287         -
+#10  Short offline       Completed without error       00%     12200         -
+#11  Short offline       Completed without error       00%     12199         -
+#12  Short offline       Completed without error       00%     12187         -
+#13  Short offline       Completed without error       00%     11792         -
+#14  Short offline       Completed without error       00%     11788         -
+#15  Short offline       Completed without error       00%     11780         -
+#16  Short offline       Completed without error       00%     11778         -
+#17  Vendor (0xff)       Completed without error       00%       933         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -165,7 +166,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (247)
+Temperature History Size (Index):    478 (324)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -174,12 +175,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            8366  ---  Lifetime Power-On Resets
-0x01  0x010  4           12862  ---  Power-on Hours
-0x01  0x018  6     38676633587  ---  Logical Sectors Written
-0x01  0x020  6       333312035  ---  Number of Write Commands
-0x01  0x028  6     38955963073  ---  Logical Sectors Read
-0x01  0x030  6       479928383  ---  Number of Read Commands
+0x01  0x008  4            8447  ---  Lifetime Power-On Resets
+0x01  0x010  4           12927  ---  Power-on Hours
+0x01  0x018  6     39065506114  ---  Logical Sectors Written
+0x01  0x020  6       350744680  ---  Number of Write Commands
+0x01  0x028  6     39105389428  ---  Logical Sectors Read
+0x01  0x030  6       482627418  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
@@ -212,5 +213,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           22  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            6  Device-to-host register FISes sent due to a COMRESET
 

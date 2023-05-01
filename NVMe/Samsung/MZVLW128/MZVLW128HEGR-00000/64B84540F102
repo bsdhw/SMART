@@ -13,10 +13,10 @@ Controller ID:                      2
 NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
-Namespace 1 Utilization:            4,909,064,192 [4.90 GB]
+Namespace 1 Utilization:            105,828,696,064 [105 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sun Apr 16 00:11:30 2023 UTC
+Local Time is:                      Sun Apr 30 08:16:28 2023 UTC
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -41,42 +41,42 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        37 Celsius
+Temperature:                        46 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    2%
-Data Units Read:                    17,247,871 [8.83 TB]
-Data Units Written:                 9,416,154 [4.82 TB]
-Host Read Commands:                 152,139,025
-Host Write Commands:                134,440,151
-Controller Busy Time:               784
-Power Cycles:                       2,394
-Power On Hours:                     1,947
-Unsafe Shutdowns:                   177
+Percentage Used:                    3%
+Data Units Read:                    17,616,985 [9.01 TB]
+Data Units Written:                 9,950,596 [5.09 TB]
+Host Read Commands:                 155,642,530
+Host Write Commands:                139,381,964
+Controller Busy Time:               813
+Power Cycles:                       2,447
+Power On Hours:                     1,960
+Unsafe Shutdowns:                   196
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      573
+Error Information Log Entries:      760
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               37 Celsius
-Temperature Sensor 2:               52 Celsius
+Temperature Sensor 1:               46 Celsius
+Temperature Sensor 2:               62 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0        573     0  0x000c  0x4004      -            0     0     -
-  1        572     0  0x0007  0x4004      -            0     0     -
-  2        571     0  0x000c  0x4004      -            0     0     -
-  3        570     0  0x0007  0x4004      -            0     0     -
-  4        569     0  0x000c  0x4004      -            0     0     -
-  5        568     0  0x0007  0x4004      -            0     0     -
-  6        567     0  0x3006  0x4004      -            0     0     -
-  7        566     0  0x3014  0x4004      -            0     0     -
-  8        565     0  0x400d  0x4004      -            0     0     -
-  9        564     0  0x400d  0x4004      -            0     0     -
- 10        563     0  0x4015  0x4004      -            0     0     -
- 11        562     0  0x2004  0x4004      -            0     0     -
- 12        561     0  0x4001  0x4004      -            0     0     -
- 13        560     0  0x4009  0x4004      -            0     0     -
- 14        559     0  0x3015  0x4004      -            0     0     -
- 15        558     0  0x2012  0x4004      -            0     0     -
+  0        760     0  0x000d  0x4004      -            0     0     -
+  1        759     0  0x0007  0x4004      -            0     0     -
+  2        758     0  0x000d  0x4004      -            0     0     -
+  3        757     0  0x0007  0x4004      -            0     0     -
+  4        756     0  0x000d  0x4004      -            0     0     -
+  5        755     0  0x0007  0x4004      -            0     0     -
+  6        754     0  0x000d  0x4004      -            0     0     -
+  7        753     0  0x0007  0x4004      -            0     0     -
+  8        752     0  0x000d  0x4004      -            0     0     -
+  9        751     0  0x0007  0x4004      -            0     0     -
+ 10        750     0  0x000d  0x4004      -            0     0     -
+ 11        749     0  0x0007  0x4004      -            0     0     -
+ 12        748     0  0x000d  0x4004      -            0     0     -
+ 13        747     0  0x0007  0x4004      -            0     0     -
+ 14        746     0  0x000d  0x4004      -            0     0     -
+ 15        745     0  0x0007  0x4004      -            0     0     -
 ... (48 entries not read)
 

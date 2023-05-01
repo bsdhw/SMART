@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jun 15 11:04:09 2022 -04
+Local Time is:    Mon Apr 24 21:24:22 2023 -04
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -28,6 +28,7 @@ Wt Cache Reorder: Unavailable
 
 === START OF READ SMART DATA SECTION ===
 SMART overall-health self-assessment test result: PASSED
+See vendor-specific Attribute list for marginal Attributes.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -62,34 +63,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   000    -    0
   5 Reallocate_NAND_Blk_Cnt -O--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    4171
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    78
+  9 Power_On_Hours          -O--CK   100   100   000    -    11558
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    97
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-173 Ave_Block-Erase_Count   -O--CK   092   092   000    -    83
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    64
+173 Ave_Block-Erase_Count   -O--CK   000   000   000    -    2439
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    82
 180 Unused_Reserve_NAND_Blk PO--CK   100   100   000    -    39
 183 SATA_Interfac_Downshift -O--CK   100   100   000    -    0
 184 Error_Correction_Count  -O--CK   100   100   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   072   059   000    -    28 (Min/Max 23/41)
+194 Temperature_Celsius     -O---K   070   036   000    -    30 (Min/Max 23/64)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_ECC_Cnt -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
-202 Percent_Lifetime_Remain ----CK   092   092   001    -    8
+202 Percent_Lifetime_Remain ----CK   000   000   001    NOW  100
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    20387229750
-247 Host_Program_Page_Count -O--CK   100   100   000    -    637100929
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    258892848
+246 Total_LBAs_Written      -O--CK   100   100   000    -    532508414685
+247 Host_Program_Page_Count -O--CK   100   100   000    -    16640887958
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    5661037136
 249 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    0
-251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    4153651264
-252 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    1
+251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    2415385082
+252 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    55
 253 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
-254 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    8
-223 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
+254 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    860
+223 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    5
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -129,5 +130,5 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            2  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           14  Device-to-host register FISes sent due to a COMRESET
 

@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Mar  2 23:43:22 2023 CET
+Local Time is:    Sat Apr  8 11:12:37 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,15 +60,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    4628
+  9 Power_On_Hours          -O--CK   100   100   050    -    5499
  12 Power_Cycle_Count       -O--CK   100   100   050    -    123
 160 Unknown_Attribute       -O--CK   100   100   050    -    0
 161 Unknown_Attribute       PO--CK   100   100   050    -    100
 163 Unknown_Attribute       -O--CK   100   100   050    -    11
-164 Unknown_Attribute       -O--CK   100   100   050    -    84844
-165 Unknown_Attribute       -O--CK   100   100   050    -    102
-166 Unknown_Attribute       -O--CK   100   100   050    -    43
-167 Unknown_Attribute       -O--CK   100   100   050    -    83
+164 Unknown_Attribute       -O--CK   100   100   050    -    115302
+165 Unknown_Attribute       -O--CK   100   100   050    -    136
+166 Unknown_Attribute       -O--CK   100   100   050    -    73
+167 Unknown_Attribute       -O--CK   100   100   050    -    112
 168 Unknown_Attribute       -O--CK   100   100   050    -    7000
 169 Unknown_Attribute       -O--CK   100   100   050    -    99
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   050    -    0
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Total_LBAs_Written      ----CK   100   100   050    -    88280
-242 Total_LBAs_Read         ----CK   100   100   050    -    6763
-245 Unknown_Attribute       -O--CK   100   100   050    -    458424
+241 Total_LBAs_Written      ----CK   100   100   050    -    104418
+242 Total_LBAs_Read         ----CK   100   100   050    -    6845
+245 Unknown_Attribute       -O--CK   100   100   050    -    654792
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -125,11 +125,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4             123  ---  Lifetime Power-On Resets
-0x01  0x010  4            4628  ---  Power-on Hours
-0x01  0x018  6      1490611173  ---  Logical Sectors Written
-0x01  0x020  6            8400  ---  Number of Write Commands
-0x01  0x028  6       443254821  ---  Logical Sectors Read
-0x01  0x030  6            4314  ---  Number of Read Commands
+0x01  0x010  4            5499  ---  Power-on Hours
+0x01  0x018  6      2548213542  ---  Logical Sectors Written
+0x01  0x020  6        53002877  ---  Number of Write Commands
+0x01  0x028  6       448620237  ---  Logical Sectors Read
+0x01  0x030  6          307660  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               1  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -143,7 +143,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            2  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           20  Device-to-host register FISes sent due to a COMRESET
 
 
 

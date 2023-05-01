@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          2,000,398,934,016 [2.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Sat Mar 25 02:16:28 2023 EDT
+Local Time is:                      Sat Mar 25 02:58:03 2023 EDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -40,25 +40,25 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        44 Celsius
+Temperature:                        45 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    0%
-Data Units Read:                    61,302 [31.3 GB]
-Data Units Written:                 147,081 [75.3 GB]
-Host Read Commands:                 1,277,026
-Host Write Commands:                2,595,479
+Data Units Read:                    62,371 [31.9 GB]
+Data Units Written:                 147,905 [75.7 GB]
+Host Read Commands:                 1,293,417
+Host Write Commands:                2,625,793
 Controller Busy Time:               2
 Power Cycles:                       63
-Power On Hours:                     100
+Power On Hours:                     101
 Unsafe Shutdowns:                   41
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      98
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               44 Celsius
-Temperature Sensor 2:               49 Celsius
-Temperature Sensor 8:               44 Celsius
+Temperature Sensor 1:               45 Celsius
+Temperature Sensor 2:               48 Celsius
+Temperature Sensor 8:               45 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 16 entries)
 No Errors Logged

@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-RELEASE-p8 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       KIOXIA-EXCERIA SSD
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            8ce38e ...
-Local Time is:                      Tue Mar 29 19:50:30 2022 CEST
+Local Time is:                      Sun Mar  5 17:27:27 2023 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,20 +42,20 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        38 Celsius
+Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    0%
-Data Units Read:                    3,480 [1.78 GB]
-Data Units Written:                 60,708 [31.0 GB]
-Host Read Commands:                 87,597
-Host Write Commands:                758,424
-Controller Busy Time:               0
-Power Cycles:                       35
-Power On Hours:                     39
-Unsafe Shutdowns:                   16
+Percentage Used:                    29%
+Data Units Read:                    12,376,646 [6.33 TB]
+Data Units Written:                 44,723,874 [22.8 TB]
+Host Read Commands:                 225,784,520
+Host Write Commands:                882,394,844
+Controller Busy Time:               954
+Power Cycles:                       64
+Power On Hours:                     7,694
+Unsafe Shutdowns:                   24
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      51
+Error Information Log Entries:      184
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 

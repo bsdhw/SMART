@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-RELEASE-p8 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       KIOXIA-EXCERIA SSD
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            8ce38e ...
-Local Time is:                      Tue Mar 29 19:50:30 2022 CEST
+Local Time is:                      Sun Mar  5 17:27:27 2023 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,22 +42,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        43 Celsius
+Temperature:                        46 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    0%
-Data Units Read:                    6,450 [3.30 GB]
-Data Units Written:                 60,848 [31.1 GB]
-Host Read Commands:                 759,186
-Host Write Commands:                758,220
-Controller Busy Time:               0
-Power Cycles:                       36
-Power On Hours:                     39
-Unsafe Shutdowns:                   17
+Percentage Used:                    29%
+Data Units Read:                    12,388,000 [6.34 TB]
+Data Units Written:                 44,724,150 [22.8 TB]
+Host Read Commands:                 226,521,587
+Host Write Commands:                885,447,044
+Controller Busy Time:               939
+Power Cycles:                       65
+Power On Hours:                     7,694
+Unsafe Shutdowns:                   25
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      51
+Error Information Log Entries:      184
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
+Thermal Temp. 1 Transition Count:   45
+Thermal Temp. 1 Total Time:         6273
 
 Error Information (NVMe Log 0x01, 16 of 63 entries)
 No Errors Logged

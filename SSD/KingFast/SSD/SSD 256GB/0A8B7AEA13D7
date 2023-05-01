@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Mar 29 23:23:19 2022 CEST
+Local Time is:    Thu Jul 28 19:26:25 2022 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,22 +62,22 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    5788
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    71
+  9 Power_On_Hours          -O--C-   100   100   000    -    8684
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    90
 161 Unknown_Attribute       -O--C-   100   100   000    -    201
 163 Unknown_Attribute       PO----   100   100   050    -    68
-165 Unknown_Attribute       ------   100   100   000    -    55
+165 Unknown_Attribute       ------   100   100   000    -    80
 166 Unknown_Attribute       ------   100   100   000    -    0
-167 Unknown_Attribute       ------   100   100   000    -    29
+167 Unknown_Attribute       ------   100   100   000    -    50
 172 Unknown_Attribute       -O--C-   100   100   000    -    0
 173 Unknown_Attribute       -O---K   100   100   000    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    29
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    36
 194 Temperature_Celsius     PO---K   067   067   000    -    33 (Min/Max 33/33)
 196 Reallocated_Event_Count ------   100   100   000    -    0
 198 Offline_Uncorrectable   -O--C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    4206
-242 Total_LBAs_Read         -O--C-   100   100   000    -    124
+241 Total_LBAs_Written      -O--C-   100   100   000    -    5789
+242 Total_LBAs_Read         -O--C-   100   100   000    -    132
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -124,10 +124,10 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              71  ---  Lifetime Power-On Resets
-0x01  0x010  4            5788  ---  Power-on Hours
-0x01  0x018  6      8821978715  ---  Logical Sectors Written
-0x01  0x028  6       262068674  ---  Logical Sectors Read
+0x01  0x008  4              90  ---  Lifetime Power-On Resets
+0x01  0x010  4            8684  ---  Power-on Hours
+0x01  0x018  6     12141743539  ---  Logical Sectors Written
+0x01  0x028  6       278025677  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
@@ -135,10 +135,10 @@ Page  Offset Size        Value Flags Description
 0x05  0x020  1              33  ---  Highest Temperature
 0x05  0x028  1              33  ---  Lowest Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             472  ---  Number of Hardware Resets
+0x06  0x008  4             534  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               2  ---  Percentage Used Endurance Indicator
+0x07  0x008  1               5  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

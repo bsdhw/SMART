@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Samsung SSD 970 EVO Plus 250GB
@@ -13,10 +13,10 @@ Controller ID:                      4
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            241,790,291,968 [241 GB]
+Namespace 1 Utilization:            243,446,272,000 [243 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Mon Feb 28 17:34:53 2022 CET
+Local Time is:                      Sun May 22 07:00:31 2022 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,16 +46,16 @@ Temperature:                        52 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    2%
-Data Units Read:                    587,220 [300 GB]
-Data Units Written:                 35,442,354 [18.1 TB]
-Host Read Commands:                 12,578,721
-Host Write Commands:                351,569,314
-Controller Busy Time:               145
+Data Units Read:                    699,533 [358 GB]
+Data Units Written:                 41,646,761 [21.3 TB]
+Host Read Commands:                 14,868,978
+Host Write Commands:                440,890,324
+Controller Busy Time:               182
 Power Cycles:                       73
-Power On Hours:                     8,652
+Power On Hours:                     10,633
 Unsafe Shutdowns:                   45
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      168
+Error Information Log Entries:      177
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               52 Celsius

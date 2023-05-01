@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Feb 27 09:41:51 2023 EST
+Local Time is:    Tue Feb 28 22:48:45 2023 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -51,9 +51,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    1134
+  9 Power_On_Hours          -O--C-   100   100   000    -    1142
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    382
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    386
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 175 Program_Fail_Count_Chip PO----   100   100   010    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    0
@@ -63,10 +63,10 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 160 Initial_Bad_Block_Count ------   100   100   010    -    10
 161 Bad_Block_Count         ------   100   100   010    -    10
 162 Spare_Block_Count       ------   100   100   005    -    242
-163 Max_Erase_Count         ------   100   100   001    -    702
-164 Average_Erase_Count     ------   100   100   001    -    628
-165 Average_Erase_Count     ------   100   100   001    -    628
-241 Total_LBAs_Written      ------   100   100   000    -    1685828408
+163 Max_Erase_Count         ------   100   100   001    -    708
+164 Average_Erase_Count     ------   100   100   001    -    641
+165 Average_Erase_Count     ------   100   100   001    -    641
+241 Total_LBAs_Written      ------   100   100   000    -    1725464328
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

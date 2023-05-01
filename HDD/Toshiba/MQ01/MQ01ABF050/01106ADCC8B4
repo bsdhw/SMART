@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Mar 28 01:59:58 2023 UTC
+Local Time is:    Tue Mar 28 02:05:22 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -75,8 +75,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  12 Power_Cycle_Count       -O--CK   100   100   000    -    492
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    3
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    16
-193 Load_Cycle_Count        -O--CK   078   078   000    -    222544
-194 Temperature_Celsius     -O---K   100   100   000    -    41 (Min/Max 15/55)
+193 Load_Cycle_Count        -O--CK   078   078   000    -    222545
+194 Temperature_Celsius     -O---K   100   100   000    -    43 (Min/Max 15/55)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
@@ -85,7 +85,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 222 Loaded_Hours            -O--CK   016   016   000    -    33783
 223 Load_Retry_Count        -O--CK   100   100   000    -    0
 224 Load_Friction           -O---K   100   100   000    -    0
-226 Load-in_Time            -OS--K   100   100   000    -    264
+226 Load-in_Time            -OS--K   100   100   000    -    256
 240 Head_Flying_Hours       P-----   100   100   001    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -133,8 +133,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        SMART Off-line Data Collection executing in background (4)
-Current Temperature:                    41 Celsius
-Power Cycle Min/Max Temperature:     37/41 Celsius
+Current Temperature:                    43 Celsius
+Power Cycle Min/Max Temperature:     37/43 Celsius
 Lifetime    Min/Max Temperature:     15/55 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -143,7 +143,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/55 Celsius
 Min/Max Temperature Limit:            5/55 Celsius
-Temperature History Size (Index):    478 (216)
+Temperature History Size (Index):    478 (219)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -161,9 +161,9 @@ Page  Offset Size        Value Flags Description
 0x02  =====  =               =  ===  == Free-Fall Statistics (rev 1) ==
 0x02  0x010  4               3  ---  Overlimit Shock Events
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4           12496  ---  Spindle Motor Power-on Hours
+0x03  0x008  4           12497  ---  Spindle Motor Power-on Hours
 0x03  0x010  4           33783  ---  Head Flying Hours
-0x03  0x018  4          222544  ---  Head Load Events
+0x03  0x018  4          222545  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures
@@ -171,7 +171,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               2  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              41  ---  Current Temperature
+0x05  0x008  1              43  ---  Current Temperature
 0x05  0x010  1              34  N--  Average Short Term Temperature
 0x05  0x018  1              34  N--  Average Long Term Temperature
 0x05  0x020  1              55  ---  Highest Temperature

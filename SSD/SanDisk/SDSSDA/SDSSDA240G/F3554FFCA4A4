@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Mar 18 18:27:39 2023 UTC
+Local Time is:    Mon Mar 20 12:10:42 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,8 +61,8 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Retired_Block_Count     -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   000   100   000    -    1132h+00m+00.000s
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    1107
+  9 Power_On_Hours_and_Msec -O--CK   000   100   000    -    1133h+00m+00.000s
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    1112
 165 Unknown_Attribute       -O--CK   100   100   000    -    4441077122249
 166 Unknown_Attribute       -O--CK   100   100   000    -    18
 167 Unknown_Attribute       -O--CK   100   100   000    -    0
@@ -72,7 +72,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
 173 Unknown_SandForce_Attr  -O--CK   100   100   000    -    20
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    273
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    276
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    0
 194 Temperature_Celsius     -O---K   066   038   000    -    34 (Min/Max 0/62)
@@ -82,7 +82,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 233 SandForce_Internal      -O--CK   100   100   000    -    4309
 234 SandForce_Internal      -O--CK   100   100   000    -    11369
 241 Lifetime_Writes_GiB     ----CK   253   253   000    -    6028
-242 Lifetime_Reads_GiB      ----CK   253   253   000    -    4239
+242 Lifetime_Reads_GiB      ----CK   253   253   000    -    4240
 244 Unknown_Attribute       -O--CK   000   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -122,12 +122,12 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1107  ---  Lifetime Power-On Resets
-0x01  0x010  4            1132  ---  Power-on Hours
-0x01  0x018  6      4052058286  ---  Logical Sectors Written
-0x01  0x020  6       113126232  ---  Number of Write Commands
-0x01  0x028  6       301739953  ---  Logical Sectors Read
-0x01  0x030  6       125480193  ---  Number of Read Commands
+0x01  0x008  4            1112  ---  Lifetime Power-On Resets
+0x01  0x010  4            1133  ---  Power-on Hours
+0x01  0x018  6      4052069581  ---  Logical Sectors Written
+0x01  0x020  6       113126545  ---  Number of Write Commands
+0x01  0x028  6       302235609  ---  Logical Sectors Read
+0x01  0x030  6       125485991  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -141,5 +141,5 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            9  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
 

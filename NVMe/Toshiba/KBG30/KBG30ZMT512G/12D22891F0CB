@@ -1,5 +1,5 @@
-smartctl 7.1 2019-12-30 r5022 [FreeBSD 12.2-RELEASE-p1 amd64] (local build)
-Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-BETA2 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       KBG30ZMT512G TOSHIBA
@@ -8,14 +8,16 @@ Firmware Version:                   0106ADLA
 PCI Vendor/Subsystem ID:            0x1179
 IEEE OUI Identifier:                0x00080d
 Controller ID:                      0
+NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            00080d ...
-Local Time is:                      Sun Jan  3 10:06:20 2021 UTC
+Local Time is:                      Fri Feb 19 17:34:27 2021 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0017):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat
+Log Page Attributes (0x02):         Cmd_Eff_Lg
 Maximum Data Transfer Size:         512 Pages
 Warning  Comp. Temp. Threshold:     82 Celsius
 Critical Comp. Temp. Threshold:     85 Celsius
@@ -38,24 +40,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        26 Celsius
+Temperature:                        30 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    1,014,059 [519 GB]
-Data Units Written:                 2,826,354 [1.44 TB]
-Host Read Commands:                 10,943,279
-Host Write Commands:                31,192,329
-Controller Busy Time:               284
-Power Cycles:                       335
-Power On Hours:                     160
-Unsafe Shutdowns:                   215
+Percentage Used:                    2%
+Data Units Read:                    3,181,893 [1.62 TB]
+Data Units Written:                 9,097,789 [4.65 TB]
+Host Read Commands:                 26,958,607
+Host Write Commands:                68,720,266
+Controller Busy Time:               635
+Power Cycles:                       379
+Power On Hours:                     211
+Unsafe Shutdowns:                   221
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      58
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               26 Celsius
+Temperature Sensor 1:               30 Celsius
 
-Error Information (NVMe Log 0x01, max 64 entries)
+Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
 

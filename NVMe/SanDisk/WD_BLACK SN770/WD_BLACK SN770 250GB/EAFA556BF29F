@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Thu Apr  6 15:48:14 2023 CDT
+Local Time is:                      Thu Apr 20 10:17:20 2023 CDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x00df):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp Verify
@@ -44,24 +44,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        33 Celsius
+Temperature:                        38 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    1%
-Data Units Read:                    377,578 [193 GB]
-Data Units Written:                 9,486,422 [4.85 TB]
-Host Read Commands:                 3,366,513
-Host Write Commands:                98,412,811
-Controller Busy Time:               38
-Power Cycles:                       13
-Power On Hours:                     459
-Unsafe Shutdowns:                   7
+Percentage Used:                    2%
+Data Units Read:                    785,617 [402 GB]
+Data Units Written:                 19,218,357 [9.83 TB]
+Host Read Commands:                 7,695,458
+Host Write Commands:                204,647,005
+Controller Busy Time:               78
+Power Cycles:                       25
+Power On Hours:                     785
+Unsafe Shutdowns:                   15
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               49 Celsius
-Temperature Sensor 2:               33 Celsius
+Temperature Sensor 1:               54 Celsius
+Temperature Sensor 2:               38 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged

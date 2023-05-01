@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Mar 23 18:12:54 2023 PDT
+Local Time is:    Thu Mar 23 22:10:38 2023 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,16 +62,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    14773
+  9 Power_On_Hours          -O--C-   100   100   000    -    14777
  12 Power_Cycle_Count       -O--C-   100   100   000    -    14
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 170 Unknown_Attribute       PO----   060   060   010    -    38
-173 Unknown_Attribute       -O--C-   100   100   000    -    131598324
+173 Unknown_Attribute       -O--C-   100   100   000    -    131598325
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    10
 194 Temperature_Celsius     PO---K   067   067   000    -    33 (Min/Max 33/33)
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    36028
+241 Total_LBAs_Written      -O--C-   100   100   000    -    36038
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -119,9 +119,9 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              14  ---  Lifetime Power-On Resets
-0x01  0x010  4           14773  ---  Power-on Hours
-0x01  0x018  6     75556198784  ---  Logical Sectors Written
-0x01  0x028  6      1758169392  ---  Logical Sectors Read
+0x01  0x010  4           14777  ---  Power-on Hours
+0x01  0x018  6     75577508336  ---  Logical Sectors Written
+0x01  0x028  6      1758286072  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==

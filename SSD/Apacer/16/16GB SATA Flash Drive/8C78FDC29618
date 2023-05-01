@@ -11,7 +11,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Unavailable
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Fri Mar 24 13:29:34 2023 UTC
+Local Time is:    Fri Mar 24 15:56:03 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -42,13 +42,13 @@ Error logging capability:        (0x00)	Error logging NOT supported.
 SMART Attributes Data Structure revision number: 1280
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    47
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    49
   9 Power_On_Hours          -O--CK   100   100   000    -    0
 194 Temperature_Celsius     POS---   032   100   000    -    0
 229 Unknown_Attribute       -O----   100   000   000    -    22497685722008
 232 Available_Reservd_Space -O----   100   049   000    -    9028830310448
 233 Media_Wearout_Indicator -O----   100   000   000    -    0
-234 Unknown_Attribute       -O----   100   000   000    -    270582942720
+234 Unknown_Attribute       -O----   100   000   000    -    270582942976
 235 Unknown_Attribute       -O----   100   000   000    -    3758225439
                             ||||||_ K auto-keep
                             |||||__ C event count

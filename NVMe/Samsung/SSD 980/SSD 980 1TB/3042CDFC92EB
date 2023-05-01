@@ -13,10 +13,10 @@ Controller ID:                      5
 NVMe Version:                       1.4
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
-Namespace 1 Utilization:            185,122,828,288 [185 GB]
+Namespace 1 Utilization:            184,435,212,288 [184 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sun Feb 19 13:45:00 2023    
+Local Time is:                      Tue Feb 21 21:41:31 2023    
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0055):     Comp DS_Mngmt Sav/Sel_Feat Timestmp
@@ -43,26 +43,26 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        36 Celsius
+Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    5,720,011 [2.92 TB]
-Data Units Written:                 8,039,722 [4.11 TB]
-Host Read Commands:                 53,573,643
-Host Write Commands:                149,801,674
-Controller Busy Time:               342
-Power Cycles:                       550
-Power On Hours:                     624
-Unsafe Shutdowns:                   65
+Data Units Read:                    5,753,072 [2.94 TB]
+Data Units Written:                 8,084,611 [4.13 TB]
+Host Read Commands:                 53,909,726
+Host Write Commands:                150,798,985
+Controller Busy Time:               346
+Power Cycles:                       553
+Power On Hours:                     627
+Unsafe Shutdowns:                   66
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    602
+Warning  Comp. Temperature Time:    611
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               36 Celsius
-Temperature Sensor 2:               35 Celsius
-Thermal Temp. 2 Transition Count:   19785
-Thermal Temp. 2 Total Time:         28307
+Temperature Sensor 1:               40 Celsius
+Temperature Sensor 2:               40 Celsius
+Thermal Temp. 2 Transition Count:   20063
+Thermal Temp. 2 Total Time:         28706
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

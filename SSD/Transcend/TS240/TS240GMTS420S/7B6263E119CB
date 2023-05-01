@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Silicon Motion based SSDs
@@ -12,10 +12,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      M.2
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Feb 13 10:22:15 2022 CET
+Local Time is:    Thu Mar  9 08:49:15 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,34 +62,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    7307
- 12 Power_Cycle_Count       -O--CK   100   100   050    -    858
+  9 Power_On_Hours          -O--CK   100   100   050    -    16589
+ 12 Power_Cycle_Count       -O--CK   100   100   050    -    1044
 160 Uncorrectable_Error_Cnt -O--CK   100   100   050    -    0
 161 Valid_Spare_Block_Cnt   PO--CK   100   100   050    -    100
 163 Initial_Bad_Block_Count -O--CK   100   100   050    -    64
-164 Total_Erase_Count       -O--CK   100   100   050    -    484886
-165 Max_Erase_Count         -O--CK   100   100   050    -    2306
-166 Min_Erase_Count         -O--CK   100   100   050    -    21
-167 Average_Erase_Count     -O--CK   100   100   050    -    167
+164 Total_Erase_Count       -O--CK   100   100   050    -    1122465
+165 Max_Erase_Count         -O--CK   100   100   050    -    6213
+166 Min_Erase_Count         -O--CK   100   100   050    -    56
+167 Average_Erase_Count     -O--CK   100   100   050    -    388
 168 Max_Erase_Count_of_Spec -O--CK   100   100   050    -    1500
-169 Remaining_Lifetime_Perc -O--CK   100   100   050    -    89
+169 Remaining_Lifetime_Perc -O--CK   100   100   050    -    75
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   050    -    0
 177 Wear_Leveling_Count     -O--CK   100   100   050    -    0
 178 Runtime_Invalid_Blk_Cnt -O--CK   100   100   050    -    0
 181 Program_Fail_Cnt_Total  -O--CK   100   100   050    -    0
 182 Erase_Fail_Count_Total  -O--CK   100   100   050    -    0
-192 Power-Off_Retract_Count -O--CK   100   100   050    -    598
-194 Temperature_Celsius     -O---K   100   100   050    -    57
+192 Power-Off_Retract_Count -O--CK   100   100   050    -    693
+194 Temperature_Celsius     -O---K   100   100   050    -    54
 195 Hardware_ECC_Recovered  -O--CK   100   100   050    -    0
 196 Reallocated_Event_Count -O--CK   100   100   050    -    0
 197 Current_Pending_Sector  -O--CK   100   100   050    -    0
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   050    -    1
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Host_Writes_32MiB       ----CK   100   100   050    -    199975
-242 Host_Reads_32MiB        ----CK   100   100   050    -    82839
-245 TLC_Writes_32MiB        -O--CK   100   100   050    -    132388
+241 Host_Writes_32MiB       ----CK   100   100   050    -    293495
+242 Host_Reads_32MiB        ----CK   100   100   050    -    141722
+245 TLC_Writes_32MiB        -O--CK   100   100   050    -    174586
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -114,7 +114,7 @@ Address    Access  R/W   Size  Description
 0xde       GPL     VS       8  Device vendor specific log
 
 SMART Extended Comprehensive Error Log Version: 1 (1 sectors)
-Device Error Count: 1
+Device Error Count: 5 (device log contains only the most recent 4 errors)
 	CR     = Command Register
 	FEATR  = Features Register
 	COUNT  = Count (was: Sector Count) Register
@@ -130,12 +130,32 @@ Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
 
-Error 1 [0] log entry is empty
+Error 5 [0] log entry is empty
+Error 4 [3] log entry is empty
+Error 3 [2] log entry is empty
+Error 2 [1] occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  04 -- 51 00 00 00 00 00 00 00 00 00 00  Error: ABRT
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  b0 00 d1 01 01 00 00 4f 00 c2 01 40 08     00:00:00.000  SMART READ ATTRIBUTE THRESHOLDS [OBS-4]
+  2f 00 00 01 01 00 00 00 00 00 03 40 08     00:00:00.000  READ LOG EXT
+  2f 00 00 01 01 00 00 00 00 00 00 40 08     00:00:00.000  READ LOG EXT
+  b0 00 d5 01 01 00 00 4f 00 c2 00 40 08     00:00:00.000  SMART READ LOG
+  b0 00 da 00 00 00 00 4f 00 c2 00 40 08     00:00:00.000  SMART RETURN STATUS
+
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Extended offline    Aborted by host               90%      5940         -
+# 1  Extended offline    Completed without error       00%      9133         -
 # 2  Extended offline    Aborted by host               90%      5940         -
-# 3  Extended offline    Completed without error       00%      5940         -
+# 3  Extended offline    Aborted by host               90%      5940         -
+# 4  Extended offline    Completed without error       00%      5940         -
 
 Selective Self-tests/Logging not supported
 
@@ -144,14 +164,14 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             858  ---  Lifetime Power-On Resets
-0x01  0x010  4            7307  ---  Power-on Hours
-0x01  0x018  6       220717553  ---  Logical Sectors Written
-0x01  0x020  6            8786  ---  Number of Write Commands
-0x01  0x028  6      1134029705  ---  Logical Sectors Read
-0x01  0x030  6            6978  ---  Number of Read Commands
+0x01  0x008  4            1044  ---  Lifetime Power-On Resets
+0x01  0x010  4           16589  ---  Power-on Hours
+0x01  0x018  6      2054628483  ---  Logical Sectors Written
+0x01  0x020  6          697643  ---  Number of Write Commands
+0x01  0x028  6       697960745  ---  Logical Sectors Read
+0x01  0x030  6           53580  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              11  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              25  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

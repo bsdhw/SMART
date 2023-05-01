@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          4,000,787,030,016 [4.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Fri Nov 25 07:37:11 2022 UTC
+Local Time is:                      Tue Apr 11 10:27:03 2023 EDT
 Firmware Updates (0x18):            4 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005d):     Comp DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,18 +42,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        37 Celsius
+Temperature:                        35 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    0%
-Data Units Read:                    5,534 [2.83 GB]
-Data Units Written:                 6,189 [3.16 GB]
-Host Read Commands:                 548,598
-Host Write Commands:                197,241
-Controller Busy Time:               0
-Power Cycles:                       7
-Power On Hours:                     26
-Unsafe Shutdowns:                   6
+Data Units Read:                    29,844 [15.2 GB]
+Data Units Written:                 490,182 [250 GB]
+Host Read Commands:                 1,033,496
+Host Write Commands:                58,963,848
+Controller Busy Time:               15
+Power Cycles:                       14
+Power On Hours:                     2,992
+Unsafe Shutdowns:                   13
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

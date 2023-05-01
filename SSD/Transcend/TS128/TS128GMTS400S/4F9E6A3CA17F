@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Feb 22 18:10:41 2023 UTC
+Local Time is:    Fri Feb 24 13:53:44 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -63,8 +63,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    19
- 12 Power_Cycle_Count       ------   100   100   000    -    988
+  9 Power_On_Hours          ------   100   100   000    -    21
+ 12 Power_Cycle_Count       ------   100   100   000    -    991
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    45
 163 Initial_Bad_Block_Count ------   100   100   000    -    0
@@ -88,8 +88,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    2892
-242 Host_Reads_32MiB        ------   100   100   000    -    1982
+241 Host_Writes_32MiB       ------   100   100   000    -    3191
+242 Host_Reads_32MiB        ------   100   100   000    -    2104
 245 TLC_Writes_32MiB        ------   100   100   000    -    5476
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -136,12 +136,12 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             988  ---  Lifetime Power-On Resets
-0x01  0x010  4              19  ---  Power-on Hours
-0x01  0x018  6       189541531  ---  Logical Sectors Written
-0x01  0x020  6         1637238  ---  Number of Write Commands
-0x01  0x028  6       129899626  ---  Logical Sectors Read
-0x01  0x030  6         2886140  ---  Number of Read Commands
+0x01  0x008  4             991  ---  Lifetime Power-On Resets
+0x01  0x010  4              21  ---  Power-on Hours
+0x01  0x018  6       209181883  ---  Logical Sectors Written
+0x01  0x020  6         1922825  ---  Number of Write Commands
+0x01  0x028  6       137927089  ---  Logical Sectors Read
+0x01  0x030  6         3030869  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
@@ -149,7 +149,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4               7  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            1509  ---  Number of Hardware Resets
+0x06  0x008  4            1548  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator

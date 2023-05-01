@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Feb 11 12:48:34 2022 PST
+Local Time is:    Sun Mar 20 01:00:03 2022 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,19 +65,19 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   090   090   000    -    49960
+  9 Power_On_Hours          -O--CK   089   089   000    -    52028
  12 Power_Cycle_Count       -O--CK   098   098   000    -    1805
-177 Wear_Leveling_Count     PO--C-   096   096   000    -    39
+177 Wear_Leveling_Count     PO--C-   096   096   000    -    43
 179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   100   100   010    -    0
 181 Program_Fail_Cnt_Total  -O--CK   100   100   010    -    0
 182 Erase_Fail_Count_Total  -O--CK   100   100   010    -    0
 183 Runtime_Bad_Block       PO--C-   100   100   010    -    0
 187 Uncorrectable_Error_Cnt -O--CK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O--CK   077   052   000    -    23
+190 Airflow_Temperature_Cel -O--CK   072   052   000    -    28
 195 ECC_Error_Rate          -O-RC-   200   200   000    -    0
 199 CRC_Error_Count         -OSRCK   099   099   000    -    1
 235 POR_Recovery_Count      -O--C-   099   099   000    -    516
-241 Total_LBAs_Written      -O--CK   099   099   000    -    46621490859
+241 Total_LBAs_Written      -O--CK   099   099   000    -    47750816619
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -110,16 +110,22 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Extended offline    Completed without error       00%       549         -
-# 2  Short offline       Completed without error       00%       519         -
-# 3  Short offline       Completed without error       00%       349         -
-# 4  Short offline       Completed without error       00%       180         -
-# 5  Extended offline    Completed without error       00%        27         -
-# 6  Short offline       Completed without error       00%        11         -
-# 7  Short offline       Completed without error       00%       588         -
-# 8  Short offline       Completed without error       00%       419         -
-# 9  Extended offline    Completed without error       00%       266         -
-#10  Short offline       Completed without error       00%       250         -
+# 1  Short offline       Completed without error       00%      2563         -
+# 2  Short offline       Completed without error       00%      2395         -
+# 3  Extended offline    Completed without error       00%      2395         -
+# 4  Short offline       Completed without error       00%      1025         -
+# 5  Short offline       Completed without error       00%       856         -
+# 6  Short offline       Completed without error       00%       687         -
+# 7  Extended offline    Completed without error       00%       549         -
+# 8  Short offline       Completed without error       00%       519         -
+# 9  Short offline       Completed without error       00%       349         -
+#10  Short offline       Completed without error       00%       180         -
+#11  Extended offline    Completed without error       00%        27         -
+#12  Short offline       Completed without error       00%        11         -
+#13  Short offline       Completed without error       00%       588         -
+#14  Short offline       Completed without error       00%       419         -
+#15  Extended offline    Completed without error       00%       266         -
+#16  Short offline       Completed without error       00%       250         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -135,17 +141,17 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    23 Celsius
+Current Temperature:                    28 Celsius
 Power Cycle Min/Max Temperature:      ?/ ? Celsius
 Lifetime    Min/Max Temperature:      ?/ ? Celsius
-Under/Over Temperature Limit Count:   0/278330
+Under/Over Temperature Limit Count:   0/283623
 
 SCT Temperature History Version:     2
 Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      ?/ ? Celsius
 Min/Max Temperature Limit:            ?/ ? Celsius
-Temperature History Size (Index):    128 (33)
+Temperature History Size (Index):    128 (30)
 
 SCT Error Recovery Control:
            Read: Disabled

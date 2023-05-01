@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Feb 10 18:56:28 2023 CET
+Local Time is:    Mon Mar 13 21:38:55 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,25 +61,25 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O----   100   100   050    -    0
-  9 Power_On_Hours          ------   100   100   050    -    16823
- 12 Power_Cycle_Count       ------   100   100   050    -    83
+  9 Power_On_Hours          ------   100   100   050    -    17555
+ 12 Power_Cycle_Count       ------   100   100   050    -    86
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    60
 162 Unknown_Attribute       ------   100   100   050    -    1
 163 Unknown_Attribute       ------   100   100   050    -    2
-164 Unknown_Attribute       ------   100   100   050    -    77305
-165 Unknown_Attribute       ------   100   100   050    -    100
-166 Unknown_Attribute       ------   100   100   050    -    48
-167 Unknown_Attribute       ------   100   100   050    -    75
+164 Unknown_Attribute       ------   100   100   050    -    89594
+165 Unknown_Attribute       ------   100   100   050    -    110
+166 Unknown_Attribute       ------   100   100   050    -    56
+167 Unknown_Attribute       ------   100   100   050    -    87
 168 Unknown_Attribute       ------   100   100   050    -    3000
 169 Unknown_Attribute       ------   098   098   050    -    98
-192 Power-Off_Retract_Count ------   100   100   050    -    40
+192 Power-Off_Retract_Count ------   100   100   050    -    43
 194 Temperature_Celsius     ------   100   100   050    -    45
 195 Hardware_ECC_Recovered  ------   100   100   050    -    856
 196 Reallocated_Event_Count ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    257472
-242 Total_LBAs_Read         ------   100   100   050    -    3437
-245 Unknown_Attribute       ------   100   100   050    -    286095
+241 Total_LBAs_Written      ------   100   100   050    -    296079
+242 Total_LBAs_Read         ------   100   100   050    -    4447
+245 Unknown_Attribute       ------   100   100   050    -    330536
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -117,19 +117,19 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              83  ---  Lifetime Power-On Resets
-0x01  0x010  4           16823  ---  Power-on Hours
-0x01  0x018  6      3988841052  ---  Logical Sectors Written
-0x01  0x020  6       183864515  ---  Number of Write Commands
-0x01  0x028  6       225259555  ---  Logical Sectors Read
-0x01  0x030  6         4238785  ---  Number of Read Commands
+0x01  0x008  4              86  ---  Lifetime Power-On Resets
+0x01  0x010  4           17555  ---  Power-on Hours
+0x01  0x018  6      2223978636  ---  Logical Sectors Written
+0x01  0x020  6       205013960  ---  Number of Write Commands
+0x01  0x028  6       291471057  ---  Logical Sectors Read
+0x01  0x030  6         5036987  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              45  ---  Current Temperature
-0x05  0x010  1              69  ---  Average Short Term Temperature
-0x05  0x018  1              14  ---  Average Long Term Temperature
+0x05  0x010  1            -101  ---  Average Short Term Temperature
+0x05  0x018  1            -119  ---  Average Long Term Temperature
 0x05  0x020  1              45  ---  Highest Temperature
 0x05  0x028  1              45  ---  Lowest Temperature
 0x05  0x030  1              -1  ---  Highest Average Short Term Temperature
@@ -141,7 +141,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             437  ---  Number of Hardware Resets
+0x06  0x008  4             462  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               2  ---  Percentage Used Endurance Indicator
@@ -162,7 +162,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  2            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           21  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           12  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

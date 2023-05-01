@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Nov  9 16:58:16 2022 EST
+Local Time is:    Sun Apr 30 23:06:21 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -41,8 +41,8 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       25
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       75
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       35
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       92
 148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
 149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
 167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
@@ -50,22 +50,22 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       37
 170 Bad_Blk_Ct_Erl/Lat      0x0000   100   100   010    Old_age   Offline      -       0/32
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       13 (Average 9)
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       18 (Average 12)
 181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       24
-194 Temperature_Celsius     0x0022   036   039   000    Old_age   Always       -       36 (Min/Max 19/39)
+194 Temperature_Celsius     0x0022   037   039   000    Old_age   Always       -       37 (Min/Max 19/39)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
 218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
-231 SSD_Life_Left           0x0000   099   099   000    Old_age   Offline      -       99
-233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       937
-241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       825
-242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       604
-244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       9
-245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       13
-246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       34056
+231 SSD_Life_Left           0x0000   098   098   000    Old_age   Offline      -       98
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       1215
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       1054
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       740
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       12
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       18
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       43704
 
 SMART Error Log not supported
 

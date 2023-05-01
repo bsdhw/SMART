@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 0
 SATA Version is:  SATA 2.5, 1.5 Gb/s
-Local Time is:    Wed Apr 26 23:05:04 2023    
+Local Time is:    Wed Apr 26 23:23:00 2023    
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     254 (maximum performance), recommended: 254
@@ -64,7 +64,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   100   100   051    -    21
   3 Spin_Up_Time            POS---   252   252   025    -    2625
-  4 Start_Stop_Count        -O--CK   082   082   000    -    19132
+  4 Start_Stop_Count        -O--CK   082   082   000    -    19134
   5 Reallocated_Sector_Ct   PO--CK   045   045   010    -    517
   7 Seek_Error_Rate         POSR--   252   252   051    -    0
   8 Seek_Time_Performance   --S--K   252   252   015    -    0
@@ -73,8 +73,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  12 Power_Cycle_Count       -O--CK   094   094   000    -    7019
 191 G-Sense_Error_Rate      -O--CK   002   002   000    -    999999
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    2710
-194 Temperature_Celsius     -O---K   160   052   000    -    26 (Min/Max 9/62)
-195 Hardware_ECC_Recovered  -O-RC-   001   001   000    -    92392
+194 Temperature_Celsius     -O---K   139   052   000    -    33 (Min/Max 9/62)
+195 Hardware_ECC_Recovered  -O-RC-   001   001   000    -    92395
 196 Reallocated_Event_Count -O--CK   252   252   000    -    0
 197 Current_Pending_Sector  -O--C-   252   100   000    -    0
 198 Offline_Uncorrectable   ----CK   252   252   000    -    0
@@ -82,7 +82,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 200 Multi_Zone_Error_Rate   -O-R--   100   100   000    -    73
 201 Soft_Read_Error_Rate    -O--CK   252   252   000    -    0
 223 Load_Retry_Count        -O--CK   100   100   000    -    732
-225 Load_Cycle_Count        -O--CK   086   086   000    -    143327
+225 Load_Cycle_Count        -O--CK   086   086   000    -    143329
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -135,8 +135,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    26 Celsius
-Power Cycle Min/Max Temperature:     23/26 Celsius
+Current Temperature:                    33 Celsius
+Power Cycle Min/Max Temperature:     23/33 Celsius
 Lifetime    Min/Max Temperature:     10/62 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -145,7 +145,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     15/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (36)
+Temperature History Size (Index):    128 (54)
 
 SMART WRITE LOG does not return COUNT and LBA_LOW register
 SCT (Get) Error Recovery Control command failed
