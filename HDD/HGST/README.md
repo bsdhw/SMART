@@ -23,13 +23,10 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| HGST      | HUS724030ALA640    | 3 TB   | 1       | 2737  | 0     | 7.50   |
 | HGST      | HUS724020ALA640    | 2 TB   | 10      | 2400  | 0     | 6.58   |
 | HGST      | HDN724040ALE640    | 4 TB   | 40      | 2315  | 71    | 5.85   |
 | HGST      | HDN724030ALE640    | 3 TB   | 9       | 2037  | 0     | 5.58   |
 | HGST      | HTE721010A9E630    | 1 TB   | 3       | 1849  | 0     | 5.07   |
-| HGST      | HUH728060ALE600    | 6 TB   | 1       | 1820  | 0     | 4.99   |
-| HGST      | HTS725050A7E635... | 500 GB | 1       | 1625  | 0     | 4.45   |
 | HGST      | HUS726T4TALA6L4    | 4 TB   | 8       | 1557  | 0     | 4.27   |
 | HGST      | HDN726040ALE614    | 4 TB   | 15      | 1509  | 2     | 3.51   |
 | HGST      | HUS726040ALN610    | 4 TB   | 2       | 1239  | 0     | 3.40   |
@@ -39,9 +36,7 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HDN726060ALE614    | 6 TB   | 2       | 1449  | 1     | 2.65   |
 | HGST      | HDN721010ALE604    | 10 TB  | 3       | 916   | 0     | 2.51   |
 | HGST      | HUS726020ALA610    | 2 TB   | 2       | 822   | 0     | 2.25   |
-| HGST      | HUH728080ALE600    | 8 TB   | 1       | 777   | 0     | 2.13   |
 | HGST      | HUS726T4TALN6L4    | 4 TB   | 2       | 754   | 0     | 2.07   |
-| HGST      | HUS722T2TALA600    | 2 TB   | 1       | 700   | 0     | 1.92   |
 | HGST      | HUS726040ALE610    | 4 TB   | 3       | 1030  | 464   | 1.68   |
 | HGST      | HUS726T4TALA6L1    | 4 TB   | 2       | 574   | 0     | 1.57   |
 | HGST      | HTE545032A7E380    | 320 GB | 3       | 521   | 0     | 1.43   |
@@ -52,7 +47,6 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HUS722T2TALA604    | 2 TB   | 6       | 505   | 3     | 1.13   |
 | HGST      | HUS726020ALE610    | 2 TB   | 2       | 380   | 0     | 1.04   |
 | HGST      | HTS725032A7E630    | 320 GB | 8       | 701   | 18    | 1.00   |
-| HGST      | HTS545032A7E680    | 320 GB | 1       | 321   | 0     | 0.88   |
 | HGST      | HTS545050A7E680    | 500 GB | 12      | 371   | 86    | 0.88   |
 | HGST      | HTS725050A7E630    | 500 GB | 26      | 606   | 563   | 0.57   |
 | HGST      | HTS541010B7E610    | 1 TB   | 6       | 177   | 0     | 0.49   |
@@ -60,16 +54,10 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HTS545050A7E380    | 500 GB | 4       | 418   | 657   | 0.48   |
 | HGST      | HUS722T1TALA604    | 1 TB   | 6       | 169   | 0     | 0.47   |
 | HGST      | HTS541075A7E630    | 752 GB | 3       | 881   | 697   | 0.42   |
-| HGST      | HTS545050A7E660    | 500 GB | 1       | 773   | 6     | 0.30   |
 | HGST      | HUH721010ALE604    | 10 TB  | 2       | 102   | 0     | 0.28   |
-| HGST      | HUS722T1TALA600    | 1 TB   | 1       | 80    | 0     | 0.22   |
 | HGST      | HUS726060ALE610    | 6 TB   | 3       | 48    | 0     | 0.13   |
 | HGST      | HTS545032A7E380    | 320 GB | 4       | 402   | 12    | 0.11   |
 | HGST      | HUS726T6TALE6L1    | 6 TB   | 2       | 21    | 0     | 0.06   |
-| HGST      | HUS726040ALA610    | 4 TB   | 1       | 1058  | 78    | 0.04   |
-| HGST      | HTS725025A7E630    | 250 GB | 1       | 43    | 20    | 0.01   |
-| HGST      | HTS541075A9E680    | 752 GB | 1       | 2760  | 2177  | 0.00   |
-| HGST      | HTS541010A7E630    | 1 TB   | 1       | 236   | 1023  | 0.00   |
 | HGST      | HMS5C4040ALE640    | 4 TB   | 10      | 0     | 0     | 0.00   |
 
 HDD by Family
@@ -85,17 +73,16 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| HGST      | Ultrastar 7K4000       | 3      | 16      | 2002  | 0     | 5.49   |
+| HGST      | Ultrastar 7K4000       | 2      | 15      | 1953  | 0     | 5.35   |
 | HGST      | Deskstar NAS           | 6      | 76      | 1941  | 38    | 4.90   |
-| HGST      | Ultrastar He8          | 2      | 2       | 1299  | 0     | 3.56   |
 | HGST      | Ultrastar DC HC310     | 3      | 12      | 1137  | 0     | 3.12   |
 | HGST      | Travelstar 7K1000      | 2      | 32      | 709   | 168   | 1.73   |
-| HGST      | Ultrastar 7K6000       | 8      | 19      | 653   | 78    | 1.46   |
+| HGST      | Ultrastar 7K6000       | 7      | 18      | 630   | 78    | 1.54   |
 | HGST      | Ultrastar HC310/320    | 1      | 9       | 462   | 0     | 1.27   |
-| HGST      | Travelstar 5K1000      | 2      | 17      | 647   | 371   | 1.11   |
-| HGST      | Travelstar Z7K500      | 5      | 42      | 756   | 354   | 1.11   |
-| HGST      | Ultrastar 7K2          | 4      | 14      | 345   | 2     | 0.84   |
-| HGST      | Travelstar Z5K500      | 6      | 25      | 415   | 149   | 0.73   |
-| HGST      | Travelstar Z5K1000     | 3      | 10      | 394   | 312   | 0.42   |
+| HGST      | Travelstar 5K1000      | 1      | 16      | 515   | 258   | 1.18   |
+| HGST      | Travelstar Z7K500      | 3      | 40      | 752   | 371   | 1.05   |
+| HGST      | Ultrastar 7K2          | 2      | 12      | 337   | 2     | 0.80   |
+| HGST      | Travelstar Z5K500      | 4      | 23      | 404   | 161   | 0.75   |
+| HGST      | Travelstar Z5K1000     | 2      | 9       | 412   | 233   | 0.46   |
 | HGST      | Ultrastar He10         | 1      | 2       | 102   | 0     | 0.28   |
 | HGST      | MegaScale 4000         | 2      | 19      | 83    | 0     | 0.23   |

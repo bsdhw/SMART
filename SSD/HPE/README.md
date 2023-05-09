@@ -21,5 +21,4 @@ MTBF - avg. MTBF in years per sample.
 | HPE       | MK000480GWCEV      | 480 GB | 2       | 1275  | 0     | 3.49   |
 | HPE       | MK000960GWCFA      | 960 GB | 2       | 1275  | 0     | 3.49   |
 | HPE       | MK000240GWEZF      | 240 GB | 2       | 882   | 0     | 2.42   |
-| HPE       | MK000480GWUGF      | 480 GB | 1       | 369   | 2     | 0.34   |
 | HPE       | MK000480GWXFF      | 480 GB | 2       | 39    | 0     | 0.11   |

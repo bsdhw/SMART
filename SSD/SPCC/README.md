@@ -4,12 +4,6 @@ SPCC Solid State Drives
 This is a list of all tested SPCC solid state drive models and their MTBFs. See
 more info on reliability test in the [README](https://github.com/bsdhw/SMART).
 
-Contents
---------
-
-1. [ SSD by Model  ](#ssd-by-model)
-2. [ SSD by Family ](#ssd-by-family)
-
 SSD by Model
 ------------
 
@@ -32,22 +26,4 @@ MTBF - avg. MTBF in years per sample.
 | SPCC      | SSD                | 512 GB | 10      | 111   | 0     | 0.31   |
 | SPCC      | SSD                | 128 GB | 29      | 120   | 1     | 0.29   |
 | SPCC      | SSD                | 256 GB | 18      | 101   | 1     | 0.27   |
-| SPCC      | M.2 SSD            | 256 GB | 1       | 178   | 2     | 0.16   |
-| SPCC      | SSD                | 55 GB  | 1       | 18    | 0     | 0.05   |
 | SPCC      | SSD                | 2 TB   | 6       | 0     | 0     | 0.00   |
-
-SSD by Family
--------------
-
-Please take all columns into account when reading the table. Pay attention on the
-number of tested samples and power-on days. Simultaneous high values of both MTBF
-and errors are possible if only rare drives in the subset encounter errors.
-
-Days - avg. days per sample,
-Err  - avg. errors per sample,
-MTBF - avg. MTBF in years per sample.
-
-| MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
-|-----------|------------------------|--------|---------|-------|-------|------|
-| SPCC      | Phison Driven OEM SSDs | 7      | 96      | 257   | 1     | 0.69   |
-| SPCC      | Unknown                | 5      | 14      | 92    | 1     | 0.23   |

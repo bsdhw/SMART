@@ -17,5 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| UDinfo    | M2S-80UB160GB-W... | 160 GB | 1       | 150   | 0     | 0.41   |
 | UDinfo    | M2S                | 120 GB | 3       | 82    | 0     | 0.23   |

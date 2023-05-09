@@ -25,19 +25,12 @@ MTBF - avg. MTBF in years per sample.
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Apple     | SSD SM512E         | 500 GB | 2       | 2341  | 0     | 6.41   |
 | Apple     | SSD TS128C         | 121 GB | 3       | 1519  | 0     | 4.16   |
-| Apple     | SSD SD512E         | 500 GB | 1       | 1056  | 0     | 2.89   |
 | Apple     | SSD SM0512F        | 500 GB | 2       | 812   | 0     | 2.23   |
-| Apple     | SSD SM0128F        | 121 GB | 1       | 746   | 0     | 2.04   |
-| Apple     | SSD SM256C         | 256 GB | 1       | 520   | 0     | 1.43   |
 | Apple     | SSD SM0512G        | 500 GB | 4       | 509   | 0     | 1.40   |
 | Apple     | SSD TS256C         | 256 GB | 2       | 566   | 4     | 1.09   |
-| Apple     | SSD SM1024G        | 1 TB   | 1       | 251   | 0     | 0.69   |
 | Apple     | SSD SD0128F        | 121 GB | 3       | 269   | 1     | 0.44   |
-| Apple     | SSD TS128E         | 121 GB | 1       | 128   | 0     | 0.35   |
-| Apple     | SSD SM128E         | 121 GB | 1       | 95    | 0     | 0.26   |
 | Apple     | SSD SM0128G        | 121 GB | 3       | 73    | 0     | 0.20   |
 | Apple     | SSD SM256E         | 256 GB | 5       | 222   | 25    | 0.17   |
-| Apple     | A45ACXBA9TA        | 512 GB | 1       | 16    | 0     | 0.04   |
 
 SSD by Family
 -------------
@@ -53,7 +46,5 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Apple     | JMicron/Maxiotek ba... | 1      | 3       | 1519  | 0     | 4.16   |
-| Apple     | SD/SM/TS E/F/G SSDs    | 10     | 23      | 549   | 6     | 1.37   |
+| Apple     | SD/SM/TS E/F/G SSDs    | 6      | 19      | 552   | 7     | 1.35   |
 | Apple     | JMicron based SSDs     | 1      | 2       | 566   | 4     | 1.09   |
-| Apple     | Unknown                | 2      | 2       | 268   | 0     | 0.74   |
-| Apple     | MacBook Air SSD        | 1      | 1       | 128   | 0     | 0.35   |

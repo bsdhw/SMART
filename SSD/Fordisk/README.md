@@ -17,5 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Fordisk   | 64G 6.0Gb          | 64 GB  | 1       | 282   | 0     | 0.78   |
 | Fordisk   | 128G 6.0Gbps ND    | 128 GB | 4       | 4     | 0     | 0.01   |
