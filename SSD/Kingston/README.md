@@ -49,10 +49,10 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | SUV400S37480G      | 480 GB | 3       | 847   | 4     | 1.18   |
 | Kingston  | SHFS37A240G        | 240 GB | 8       | 356   | 0     | 0.98   |
 | Kingston  | SUV500MS240G       | 240 GB | 35      | 316   | 0     | 0.87   |
-| Kingston  | SA400S37120G       | 120 GB | 102     | 302   | 1     | 0.79   |
+| Kingston  | SA400S37120G       | 120 GB | 103     | 302   | 1     | 0.79   |
 | Kingston  | SA400S37960G       | 960 GB | 7       | 250   | 0     | 0.69   |
 | Kingston  | SUV500MS480G       | 480 GB | 14      | 235   | 1     | 0.64   |
-| Kingston  | SA400S37240G       | 240 GB | 148     | 229   | 1     | 0.61   |
+| Kingston  | SA400S37240G       | 240 GB | 149     | 230   | 1     | 0.62   |
 | Kingston  | SHSS37A240G        | 240 GB | 2       | 217   | 0     | 0.60   |
 | Kingston  | SUV500240G         | 240 GB | 3       | 205   | 0     | 0.56   |
 | Kingston  | SUV500M8240G       | 240 GB | 3       | 196   | 0     | 0.54   |
@@ -90,5 +90,5 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | JMicron/Maxiotek ba... | 2      | 5       | 1620  | 5     | 2.68   |
 | Kingston  | SandForce Driven SSDs  | 14     | 175     | 961   | 47    | 1.88   |
 | Kingston  | SSDNow UV400/500       | 9      | 155     | 458   | 7     | 1.21   |
-| Kingston  | Phison Driven SSDs     | 13     | 339     | 250   | 1     | 0.67   |
+| Kingston  | Phison Driven SSDs     | 13     | 341     | 250   | 1     | 0.67   |
 | Kingston  | Silicon Motion base... | 4      | 45      | 42    | 0     | 0.12   |

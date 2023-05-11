@@ -22,6 +22,6 @@ MTBF - avg. MTBF in years per sample.
 | Patriot   | Burst              | 480 GB | 2       | 455   | 0     | 1.25   |
 | Patriot   | Burst              | 240 GB | 11      | 366   | 0     | 1.00   |
 | Patriot   | Burst              | 960 GB | 3       | 271   | 0     | 0.74   |
-| Patriot   | Burst              | 120 GB | 15      | 261   | 0     | 0.72   |
+| Patriot   | Burst              | 120 GB | 16      | 262   | 0     | 0.72   |
 | Patriot   | Burst Elite        | 240 GB | 2       | 133   | 0     | 0.36   |
 | Patriot   | Burst Elite        | 120 GB | 6       | 58    | 169   | 0.09   |

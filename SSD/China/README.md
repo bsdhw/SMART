@@ -47,10 +47,11 @@ MTBF - avg. MTBF in years per sample.
 | China     | SSD                | 16 GB  | 2       | 20    | 0     | 0.06   |
 | China     | BK-128GB MSATA SSD | 128 GB | 2       | 19    | 0     | 0.05   |
 | China     | SSE128GMLCT-SBC-2S | 128 GB | 4       | 19    | 0     | 0.05   |
+| China     | SK                 | 64 GB  | 2       | 18    | 0     | 0.05   |
 | China     | SH00M128GB         | 128 GB | 3       | 14    | 3     | 0.04   |
 | China     | SK                 | 128 GB | 2       | 12    | 0     | 0.03   |
+| China     | IM128-P130         | 128 GB | 5       | 6     | 0     | 0.02   |
 | China     | MSATA 64GB SSD     | 64 GB  | 3       | 2     | 0     | 0.01   |
 | China     | 512GB SSD          | 512 GB | 5       | 2     | 0     | 0.01   |
 | China     | MSATA 32GB SSD     | 32 GB  | 6       | 2     | 0     | 0.01   |
 | China     | FPT310M4SSD256G    | 256 GB | 3       | 1     | 0     | 0.00   |
-| China     | IM128-P130         | 128 GB | 4       | 1     | 0     | 0.00   |

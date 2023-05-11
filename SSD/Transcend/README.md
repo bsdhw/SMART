@@ -32,8 +32,8 @@ MTBF - avg. MTBF in years per sample.
 | Transcend | TS128GMTS400       | 128 GB | 2       | 360   | 0     | 0.99   |
 | Transcend | 3E128-TS2-550B01   | 100 GB | 4       | 502   | 257   | 0.96   |
 | Transcend | TS64GSSD370        | 64 GB  | 21      | 295   | 0     | 0.81   |
+| Transcend | TS120GMTS420S      | 120 GB | 19      | 286   | 0     | 0.79   |
 | Transcend | TS32GMTS400S       | 32 GB  | 3       | 278   | 0     | 0.76   |
-| Transcend | TS120GMTS420S      | 120 GB | 18      | 237   | 0     | 0.65   |
 | Transcend | TS240GMTS420S      | 240 GB | 6       | 221   | 0     | 0.61   |
 | Transcend | TS512GSSD370       | 512 GB | 2       | 213   | 0     | 0.58   |
 | Transcend | TS64GMTS400SD      | 64 GB  | 11      | 198   | 0     | 0.54   |
@@ -85,5 +85,5 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Transcend | JMicron/Maxiotek ba... | 2      | 5       | 701   | 0     | 1.92   |
 | Transcend | JMicron based SSDs     | 1      | 2       | 518   | 0     | 1.42   |
-| Transcend | Silicon Motion base... | 33     | 296     | 143   | 0     | 0.39   |
+| Transcend | Silicon Motion base... | 33     | 297     | 146   | 0     | 0.40   |
 | Transcend | SandForce Driven SSDs  | 1      | 2       | 170   | 3     | 0.16   |

@@ -1,7 +1,7 @@
-Lexar NVMe Drives
+China NVMe Drives
 =================
 
-This is a list of all tested Lexar NVMe drive models and their MTBFs. See more
+This is a list of all tested China NVMe drive models and their MTBFs. See more
 info on reliability test in the [README](https://github.com/bsdhw/SMART).
 
 NVME by Model
@@ -17,5 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Lexar     | 256GB SSD          | 256 GB | 7       | 109   | 0     | 0.30   |
-| Lexar     | SSD                | 256 GB | 2       | 57    | 0     | 0.16   |
+| China     | 256GB SSD          | 256 GB | 2       | 0     | 0     | 0.00   |

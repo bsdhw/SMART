@@ -20,6 +20,7 @@ MTBF - avg. MTBF in years per sample.
 | Intel     | SSDPEDMW400G4      | 400 GB | 2       | 1410  | 0     | 3.86   |
 | Intel     | SSDPE2MX450G7      | 450 GB | 2       | 1077  | 0     | 2.95   |
 | Intel     | SSDPED1D280GA      | 280 GB | 2       | 1036  | 0     | 2.84   |
+| Intel     | SSDPEDKX040T7      | 4 TB   | 2       | 998   | 0     | 2.74   |
 | Intel     | SSDPE21D280GA      | 280 GB | 2       | 543   | 0     | 1.49   |
 | Intel     | SSDPEKKW128G8      | 128 GB | 2       | 494   | 0     | 1.35   |
 | Intel     | SSDPEKKW256G8      | 256 GB | 3       | 490   | 0     | 1.34   |

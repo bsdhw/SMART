@@ -44,11 +44,11 @@ MTBF - avg. MTBF in years per sample.
 | SanDisk   | SD8SB8U-256G-1006  | 256 GB | 2       | 616   | 0     | 1.69   |
 | SanDisk   | SSD i100           | 32 GB  | 3       | 1045  | 4     | 1.67   |
 | SanDisk   | SDSSDP128G         | 128 GB | 11      | 572   | 0     | 1.57   |
+| SanDisk   | X400 M.2 2280      | 128 GB | 9       | 565   | 0     | 1.55   |
 | SanDisk   | SD7TB3Q-128G-1006  | 128 GB | 2       | 550   | 0     | 1.51   |
 | SanDisk   | SDSSDHII120G       | 120 GB | 4       | 534   | 0     | 1.46   |
 | SanDisk   | SSD i110           | 32 GB  | 3       | 1121  | 340   | 1.44   |
 | SanDisk   | SDSSDH3500G        | 500 GB | 2       | 524   | 0     | 1.44   |
-| SanDisk   | X400 M.2 2280      | 128 GB | 8       | 523   | 0     | 1.43   |
 | SanDisk   | Ultra II           | 480 GB | 5       | 520   | 0     | 1.42   |
 | SanDisk   | SDSSDA120G         | 120 GB | 32      | 499   | 23    | 1.35   |
 | SanDisk   | X400 M.2 2280      | 256 GB | 5       | 492   | 0     | 1.35   |

@@ -18,8 +18,8 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | SK hynix  | HFS256G3AMNB-2200A | 256 GB | 2       | 1119  | 165   | 2.12   |
-| SK hynix  | SC311 SATA         | 256 GB | 8       | 556   | 0     | 1.53   |
-| SK hynix  | SC311 SATA         | 128 GB | 4       | 539   | 0     | 1.48   |
+| SK hynix  | SC311 SATA         | 256 GB | 9       | 630   | 0     | 1.73   |
+| SK hynix  | SC311 SATA         | 128 GB | 5       | 435   | 0     | 1.19   |
 | SK hynix  | SC311 SATA         | 512 GB | 3       | 420   | 0     | 1.15   |
 | SK hynix  | SC308 SATA         | 256 GB | 5       | 710   | 17    | 0.96   |
 | SK hynix  | SHGS31-250GS-2     | 250 GB | 3       | 343   | 0     | 0.94   |
