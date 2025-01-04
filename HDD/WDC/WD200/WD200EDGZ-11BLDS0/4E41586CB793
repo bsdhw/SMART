@@ -1,0 +1,98 @@
+smartctl 7.4 2023-08-01 r5530 [DragonFly 6.4-RELEASE x86_64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     WDC WD200EDGZ-11BLDS0
+Serial Number:    --
+LU WWN Device Id: 5 000cca ...
+Firmware Version: 85.00A85
+User Capacity:    20,000,588,955,648 bytes [20.0 TB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    7200 rpm
+Form Factor:      3.5 inches
+Device is:        Not in smartctl database 7.3/5528
+ATA Version is:   ACS-5 (minor revision not indicated)
+SATA Version is:  SATA 3.5, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Mon Sep  2 16:03:38 2024 BST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  101) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (2157) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   001    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0004   146   146   054    Old_age   Offline      -       57
+  3 Spin_Up_Time            0x0007   084   084   001    Pre-fail  Always       -       370 (Average 311)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       45
+  5 Reallocated_Sector_Ct   0x0033   100   100   001    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000a   100   100   001    Old_age   Always       -       0
+  8 Seek_Time_Performance   0x0004   140   140   020    Old_age   Offline      -       15
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       5721
+ 10 Spin_Retry_Count        0x0012   100   100   001    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       44
+ 22 Unknown_Attribute       0x0023   100   100   025    Pre-fail  Always       -       6553700
+ 90 Unknown_Attribute       0x0031   100   100   001    Pre-fail  Offline      -       300647710720
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       230
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       230
+194 Temperature_Celsius     0x0002   051   051   000    Old_age   Always       -       33 (Min/Max 11/54)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   100   100   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+

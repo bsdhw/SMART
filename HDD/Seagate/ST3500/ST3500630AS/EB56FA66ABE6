@@ -1,0 +1,188 @@
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Barracuda 7200.10
+Device Model:     ST3500630AS
+Serial Number:    --
+Firmware Version: 3.AAK
+User Capacity:    500,106,780,160 bytes [500 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
+Local Time is:    Wed Sep 20 12:53:53 2023 MSK
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  430) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 ( 163) minutes.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   120   085   006    Pre-fail  Always       -       2261720
+  3 Spin_Up_Time            0x0003   093   092   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       476
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   081   060   030    Pre-fail  Always       -       129193675
+  9 Power_On_Hours          0x0032   001   001   000    Old_age   Always       -       107701
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       467
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   059   048   045    Old_age   Always       -       41 (Min/Max 25/41)
+194 Temperature_Celsius     0x0022   041   052   000    Old_age   Always       -       41 (0 16 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   063   047   000    Old_age   Always       -       157660126
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0000   100   253   000    Old_age   Offline      -       0
+202 Data_Address_Mark_Errs  0x0032   100   253   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+ATA Error Count: 38 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 38 occurred at disk power-on lifetime: 12482 hours (520 days + 2 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  10 51 01 ee 57 38 ea
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  37 00 01 ee 57 38 ea 00      02:32:06.905  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 01 2f 60 38 e0 00      02:32:04.506  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  29 00 01 2f 60 38 e0 00      02:32:04.479  READ MULTIPLE EXT
+  37 00 00 2f 60 38 ea 00      02:32:04.478  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 00 00 00 00 e0 00      02:32:04.478  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 37 occurred at disk power-on lifetime: 12239 hours (509 days + 23 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  10 51 01 ee 57 38 ea
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  37 00 01 ee 57 38 ea 00      05:23:53.100  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 01 2f 60 38 e0 00      05:23:53.100  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  29 00 01 2f 60 38 e0 00      05:23:53.099  READ MULTIPLE EXT
+  37 00 00 2f 60 38 ea 00      05:23:52.811  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 00 00 00 00 e0 00      05:23:52.811  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 36 occurred at disk power-on lifetime: 11719 hours (488 days + 7 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  10 51 01 ee 57 38 ea
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  37 00 01 ee 57 38 ea 00      06:52:18.084  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 01 2f 60 38 e0 00      06:52:18.025  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  29 00 01 2f 60 38 e0 00      06:52:15.630  READ MULTIPLE EXT
+  37 00 00 2f 60 38 ea 00      06:52:15.598  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 00 00 00 00 e0 00      06:52:15.598  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 35 occurred at disk power-on lifetime: 10852 hours (452 days + 4 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  10 51 01 ee 57 38 ea
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  37 00 01 ee 57 38 ea 00      07:15:40.773  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 01 2f 60 38 e0 00      07:15:44.066  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  29 00 01 2f 60 38 e0 00      07:15:44.000  READ MULTIPLE EXT
+  37 00 00 2f 60 38 ea 00      07:15:43.866  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 00 00 00 00 e0 00      07:15:43.740  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+Error 34 occurred at disk power-on lifetime: 10007 hours (416 days + 23 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  10 51 01 ee 57 38 ea
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  37 00 01 ee 57 38 ea 00      01:52:23.547  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 01 2f 60 38 e0 00      01:52:23.282  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  29 00 01 2f 60 38 e0 00      01:52:23.282  READ MULTIPLE EXT
+  37 00 00 2f 60 38 ea 00      01:52:23.282  SET NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+  27 00 00 00 00 00 e0 00      01:52:23.201  READ NATIVE MAX ADDRESS EXT [OBS-ACS-3]
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Extended offline    Completed without error       00%     38895         -
+# 2  Short offline       Completed without error       00%     38892         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

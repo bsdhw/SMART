@@ -1,0 +1,56 @@
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       INTEL SSDPF2NV153TZ
+Serial Number:                      --
+Firmware Version:                   ACV10024
+PCI Vendor/Subsystem ID:            0x8086
+IEEE OUI Identifier:                0x5cd2e4
+Total NVM Capacity:                 15,362,991,415,296 [15.3 TB]
+Unallocated NVM Capacity:           0
+Controller ID:                      0
+NVMe Version:                       1.3
+Number of Namespaces:               128
+Local Time is:                      Sun Feb 15 11:39:54 2099 CST
+Firmware Updates (0x18):            4 Slots, no Reset required
+Optional Admin Commands (0x003e):   Format Frmw_DL NS_Mngmt Self_Test Directvs
+Optional NVM Commands (0x004e):     Wr_Unc DS_Mngmt Wr_Zero Timestmp
+Log Page Attributes (0x1e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg Pers_Ev_Lg
+Maximum Data Transfer Size:         32 Pages
+Warning  Comp. Temp. Threshold:     70 Celsius
+Critical Comp. Temp. Threshold:     80 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +    25.00W       -        -    0  0  0  0        0       0
+ 1 +    20.00W       -        -    0  0  0  0        0       0
+ 2 +    12.00W       -        -    0  0  0  0        0       0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        31 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    0%
+Data Units Read:                    5,206,919,417 [2.66 PB]
+Data Units Written:                 4,358,509 [2.23 TB]
+Host Read Commands:                 20,630,734,904
+Host Write Commands:                41,886,053
+Controller Busy Time:               103
+Power Cycles:                       980
+Power On Hours:                     1,409
+Unsafe Shutdowns:                   114
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      0
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+Error Information (NVMe Log 0x01, 16 of 64 entries)
+No Errors Logged
+
+
+

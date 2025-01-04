@@ -1,0 +1,64 @@
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     KIOXIA-EXCERIA SATA SSD
+Serial Number:    --
+LU WWN Device Id: 5 8ce38e ...
+Firmware Version: SBFA18.3
+User Capacity:    480,103,981,056 bytes [480 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+TRIM Command:     Available
+Device is:        Not in smartctl database 7.3/5528
+ATA Version is:   ACS-4 (minor revision not indicated)
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sun Mar 24 15:36:40 2024 +03
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Total time to complete Offline 
+data collection: 		(   30) seconds.
+Offline data collection
+capabilities: 			 (0x00) 	Offline data collection not supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       380
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       84
+167 Unknown_Attribute       0x0022   100   100   000    Old_age   Always       -       0
+168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
+169 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       0
+173 Unknown_Attribute       0x0012   200   200   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       24
+194 Temperature_Celsius     0x0023   065   060   020    Pre-fail  Always       -       35 (Min/Max 23/40)
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       19235
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+
+
+

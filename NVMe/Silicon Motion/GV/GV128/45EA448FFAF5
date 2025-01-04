@@ -1,0 +1,80 @@
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       GV128
+Serial Number:                      --
+Firmware Version:                   V0714C0
+PCI Vendor/Subsystem ID:            0x126f
+IEEE OUI Identifier:                0x000000
+Controller ID:                      1
+NVMe Version:                       1.3
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
+Namespace 1 Formatted LBA Size:     512
+Local Time is:                      Mon Nov  6 15:58:30 2023 MSK
+Firmware Updates (0x12):            1 Slot, no Reset required
+Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
+Log Page Attributes (0x03):         S/H_per_NS Cmd_Eff_Lg
+Maximum Data Transfer Size:         64 Pages
+Warning  Comp. Temp. Threshold:     83 Celsius
+Critical Comp. Temp. Threshold:     85 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     9.00W       -        -    0  0  0  0    15000       0
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        54 Celsius
+Available Spare:                    97%
+Available Spare Threshold:          10%
+Percentage Used:                    5%
+Data Units Read:                    288,419 [147 GB]
+Data Units Written:                 33,504,769 [17.1 TB]
+Host Read Commands:                 4,714,448
+Host Write Commands:                209,346,318
+Controller Busy Time:               7,628
+Power Cycles:                       25
+Power On Hours:                     4,061
+Unsafe Shutdowns:                   10
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      0
+Warning  Comp. Temperature Time:    1
+Critical Comp. Temperature Time:    0
+
+Error Information (NVMe Log 0x01, 16 of 64 entries)
+No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
+ 0   Short             Completed without error                   5            -     -   -   -    -
+ 1   Short             Completed without error                   5            -     -   -   -    -
+ 2   Short             Completed without error                   5            -     -   -   -    -
+ 3   Short             Completed without error                   5            -     -   -   -    -
+ 4   Short             Completed without error                   5            -     -   -   -    -
+ 5   Short             Completed without error                   5            -     -   -   -    -
+ 6   Short             Completed without error                   4            -     -   -   -    -
+ 7   Short             Completed without error                   4            -     -   -   -    -
+ 8   Short             Completed without error                   4            -     -   -   -    -
+ 9   Short             Completed without error                   4            -     -   -   -    -
+10   Short             Completed without error                   4            -     -   -   -    -
+11   Short             Completed without error                   4            -     -   -   -    -
+12   Short             Completed without error                   4            -     -   -   -    -
+13   Short             Completed without error                   4            -     -   -   -    -
+14   Short             Completed without error                   4            -     -   -   -    -
+15   Short             Completed without error                   4            -     -   -   -    -
+16   Short             Completed without error                   4            -     -   -   -    -
+17   Short             Completed without error                   0            -     -   -   -    -
+18   Short             Completed without error                   0            -     -   -   -    -
+19   Short             Completed without error                   0            -     -   -   -    -
+

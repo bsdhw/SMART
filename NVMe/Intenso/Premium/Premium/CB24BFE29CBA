@@ -1,0 +1,81 @@
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       Intenso Premium
+Serial Number:                      --
+Firmware Version:                   1002A
+PCI Vendor/Subsystem ID:            0x126f
+IEEE OUI Identifier:                0x486834
+Controller ID:                      1
+NVMe Version:                       1.3
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
+Namespace 1 Formatted LBA Size:     512
+Namespace 1 IEEE EUI-64:            486834 ...
+Local Time is:                      Tue May 28 04:16:34 2024 CEST
+Firmware Updates (0x12):            1 Slot, no Reset required
+Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
+Log Page Attributes (0x03):         S/H_per_NS Cmd_Eff_Lg
+Maximum Data Transfer Size:         64 Pages
+Warning  Comp. Temp. Threshold:     83 Celsius
+Critical Comp. Temp. Threshold:     85 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     9.00W       -        -    0  0  0  0        0       0
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        54 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    1%
+Data Units Read:                    334,719 [171 GB]
+Data Units Written:                 7,694,098 [3.93 TB]
+Host Read Commands:                 5,659,436
+Host Write Commands:                79,224,649
+Controller Busy Time:               422
+Power Cycles:                       37
+Power On Hours:                     3,100
+Unsafe Shutdowns:                   32
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      0
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+Error Information (NVMe Log 0x01, 16 of 64 entries)
+No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
+ 0   Short             Completed without error                2993            -     -   -   -    -
+ 1   Short             Completed without error                2993            -     -   -   -    -
+ 2   Short             Completed without error                2993            -     -   -   -    -
+ 3   Short             Completed without error                2993            -     -   -   -    -
+ 4   Short             Completed without error                2993            -     -   -   -    -
+ 5   Short             Completed without error                2993            -     -   -   -    -
+ 6   Short             Completed without error                2993            -     -   -   -    -
+ 7   Short             Completed without error                2993            -     -   -   -    -
+ 8   Short             Completed without error                2993            -     -   -   -    -
+ 9   Short             Completed without error                2993            -     -   -   -    -
+10   Short             Completed without error                2992            -     -   -   -    -
+11   Short             Completed without error                2992            -     -   -   -    -
+12   Short             Completed without error                2692            -     -   -   -    -
+13   Short             Completed without error                2692            -     -   -   -    -
+14   Short             Completed without error                2687            -     -   -   -    -
+15   Short             Completed without error                2687            -     -   -   -    -
+16   Short             Completed without error                2687            -     -   -   -    -
+17   Short             Completed without error                2687            -     -   -   -    -
+18   Short             Completed without error                2687            -     -   -   -    -
+19   Short             Completed without error                2655            -     -   -   -    -
+

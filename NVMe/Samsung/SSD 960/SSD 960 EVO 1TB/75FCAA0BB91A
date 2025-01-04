@@ -1,0 +1,85 @@
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       Samsung SSD 960 EVO 1TB
+Serial Number:                      --
+Firmware Version:                   2B7QCXE7
+PCI Vendor/Subsystem ID:            0x144d
+IEEE OUI Identifier:                0x002538
+Total NVM Capacity:                 1,000,204,886,016 [1.00 TB]
+Unallocated NVM Capacity:           0
+Controller ID:                      2
+NVMe Version:                       1.2
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
+Namespace 1 Utilization:            734,706,311,168 [734 GB]
+Namespace 1 Formatted LBA Size:     512
+Namespace 1 IEEE EUI-64:            002538 ...
+Local Time is:                      Sat Dec 30 02:01:52 2023 CET
+Firmware Updates (0x16):            3 Slots, no Reset required
+Optional Admin Commands (0x0007):   Security Format Frmw_DL
+Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+Log Page Attributes (0x03):         S/H_per_NS Cmd_Eff_Lg
+Maximum Data Transfer Size:         512 Pages
+Warning  Comp. Temp. Threshold:     77 Celsius
+Critical Comp. Temp. Threshold:     79 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     6.04W       -        -    0  0  0  0        0       0
+ 1 +     5.09W       -        -    1  1  1  1        0       0
+ 2 +     4.08W       -        -    2  2  2  2        0       0
+ 3 -   0.0400W       -        -    3  3  3  3      210    1500
+ 4 -   0.0050W       -        -    4  4  4  4     2200    6000
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        47 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    29%
+Data Units Read:                    1,128,485,634 [577 TB]
+Data Units Written:                 712,873,358 [364 TB]
+Host Read Commands:                 9,074,372,865
+Host Write Commands:                6,959,440,526
+Controller Busy Time:               17,636
+Power Cycles:                       1,850
+Power On Hours:                     32,144
+Unsafe Shutdowns:                   415
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      2,223
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+Temperature Sensor 1:               47 Celsius
+Temperature Sensor 2:               71 Celsius
+
+Error Information (NVMe Log 0x01, 16 of 64 entries)
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS  Message
+  0       2223     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  1       2222     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  2       2221     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  3       2220     0  0x0015  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  4       2219     0  0x0013  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  5       2218     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  6       2217     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  7       2216     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  8       2215     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  9       2214     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 10       2213     0  0x0011  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 11       2212     0  0x0013  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 12       2211     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 13       2210     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 14       2209     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 15       2208     0  0x0012  0x4016  0x004            0     1     -  Invalid Namespace or Format
+... (48 entries not read)
+
+Self-tests not supported
+

@@ -1,0 +1,202 @@
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Crucial/Micron Client SSDs
+Device Model:     MTFDDAK256TBN-1AR1ZABHA
+Serial Number:    --
+LU WWN Device Id: 5 00a075 ...
+Firmware Version: HPC0014
+User Capacity:    256,060,514,304 bytes [256 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+TRIM Command:     Available, deterministic, zeroed
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sun Oct  8 15:32:23 2023 EEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  678) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  12) minutes.
+SCT capabilities: 	       (0x0035)	SCT Status supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 32
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocate_NAND_Blk_Cnt 0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       1521
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       175
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 Ave_Block-Erase_Count   0x0032   100   100   005    Old_age   Always       -       11
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       28
+176 Erase_Fail_Count_Chip   0x0022   100   100   000    Old_age   Always       -       1881
+181 Program_Fail_Cnt_Total  0x0022   100   100   000    Old_age   Always       -       1224068301045
+183 SATA_Interfac_Downshift 0x0032   100   100   000    Old_age   Always       -       0
+184 Error_Correction_Count  0x003b   100   100   097    Pre-fail  Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       104
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       203
+194 Temperature_Celsius     0x0022   062   046   000    Old_age   Always       -       38 (Min/Max 17/54)
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+240 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       13861086 (0 0 4)
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       2582064618
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       1918636104
+243 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       112046588
+
+SMART Error Log Version: 1
+ATA Error Count: 104 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 104 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 20 03 00 40  Error: UNC at LBA = 0x00000320 = 800
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 00 08 20 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  ea 00 00 00 00 00 e0 08  12d+13:49:12.704  FLUSH CACHE EXT
+  47 00 01 30 08 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 30 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 00 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+
+Error 103 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 20 03 00 40  Error: WP at LBA = 0x00000320 = 800
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  61 10 08 00 00 00 40 08  12d+13:49:12.704  WRITE FPDMA QUEUED
+  60 00 08 20 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  ea 00 00 00 00 00 e0 08  12d+13:49:12.704  FLUSH CACHE EXT
+  61 00 08 00 00 00 40 08  12d+13:49:12.704  WRITE FPDMA QUEUED
+  47 00 01 30 08 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+
+Error 102 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 20 03 00 40  Error: UNC at LBA = 0x00000320 = 800
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 00 08 20 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  47 00 01 30 08 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 30 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 00 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 13 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+
+Error 101 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 20 03 00 40  Error: UNC at LBA = 0x00000320 = 800
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 00 08 20 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  47 00 01 30 08 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 30 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 00 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+  47 00 01 13 00 00 e0 08  12d+13:49:12.704  READ LOG DMA EXT
+
+Error 100 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 20 03 00 40  Error: UNC at LBA = 0x00000320 = 800
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 00 08 20 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  60 00 08 18 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  60 00 08 10 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  60 00 08 08 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+  60 00 08 00 03 00 40 08  12d+13:49:12.704  READ FPDMA QUEUED
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Vendor (0xff)       Completed without error       00%       722         -
+# 2  Vendor (0xff)       Completed without error       00%       523         -
+# 3  Short offline       Completed without error       00%         0         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+

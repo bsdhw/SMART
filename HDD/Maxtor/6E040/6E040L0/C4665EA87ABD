@@ -1,0 +1,198 @@
+smartctl 7.3 2022-02-28 r5338 [NetBSD 9.3_STABLE sparc64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Maxtor DiamondMax Plus 8
+Device Model:     Maxtor 6E040L0
+Serial Number:    --
+Firmware Version: NAR61HA0
+User Capacity:    40,020,664,320 bytes [40.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-7 T13/1532D revision 0
+Local Time is:    Wed Sep 20 17:06:42 2023 CEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		( 1021) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  17) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  3 Spin_Up_Time            0x0027   220   220   063    Pre-fail  Always       -       11410
+  4 Start_Stop_Count        0x0032   253   253   000    Old_age   Always       -       84
+  5 Reallocated_Sector_Ct   0x0033   253   253   063    Pre-fail  Always       -       0
+  6 Read_Channel_Margin     0x0001   253   253   100    Pre-fail  Offline      -       0
+  7 Seek_Error_Rate         0x000a   253   252   000    Old_age   Always       -       0
+  8 Seek_Time_Performance   0x0027   250   236   187    Pre-fail  Always       -       58988
+  9 Power_On_Minutes        0x0032   075   075   000    Old_age   Always       -       584h+36m
+ 10 Spin_Retry_Count        0x002b   253   252   157    Pre-fail  Always       -       0
+ 11 Calibration_Retry_Count 0x002b   253   252   223    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   253   253   000    Old_age   Always       -       100
+192 Power-Off_Retract_Count 0x0032   253   253   000    Old_age   Always       -       70
+193 Load_Cycle_Count        0x0032   253   253   000    Old_age   Always       -       742
+194 Temperature_Celsius     0x0032   253   253   000    Old_age   Always       -       35
+195 Hardware_ECC_Recovered  0x000a   253   252   000    Old_age   Always       -       1315
+196 Reallocated_Event_Count 0x0008   253   253   000    Old_age   Offline      -       0
+197 Current_Pending_Sector  0x0008   253   253   000    Old_age   Offline      -       0
+198 Offline_Uncorrectable   0x0008   253   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0008   199   199   000    Old_age   Offline      -       0
+200 Multi_Zone_Error_Rate   0x000a   253   252   000    Old_age   Always       -       0
+201 Soft_Read_Error_Rate    0x000a   253   252   000    Old_age   Always       -       0
+202 Data_Address_Mark_Errs  0x000a   253   248   000    Old_age   Always       -       0
+203 Run_Out_Cancel          0x000b   253   252   180    Pre-fail  Always       -       2
+204 Soft_ECC_Correction     0x000a   253   252   000    Old_age   Always       -       0
+205 Thermal_Asperity_Rate   0x000a   253   252   000    Old_age   Always       -       0
+207 Spin_High_Current       0x002a   253   252   000    Old_age   Always       -       0
+208 Spin_Buzz               0x002a   253   252   000    Old_age   Always       -       0
+209 Offline_Seek_Performnce 0x0024   188   184   000    Old_age   Offline      -       0
+ 99 Unknown_Attribute       0x0004   253   253   000    Old_age   Offline      -       0
+100 Unknown_Attribute       0x0004   253   253   000    Old_age   Offline      -       0
+101 Unknown_Attribute       0x0004   253   253   000    Old_age   Offline      -       0
+
+SMART Error Log Version: 1
+Warning: ATA error count 3204 inconsistent with error log pointer 5
+
+ATA Error Count: 3204 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 3204 occurred at disk power-on lifetime: 24494 hours (1020 days + 14 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 17 53 fd e2  Error: UNC 8 sectors at LBA = 0x02fd5317 = 50156311
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 17 53 fd e2 00  33d+11:23:42.704  READ DMA
+  c8 00 08 0f 53 fd e2 00  33d+11:23:42.688  READ DMA
+  c8 00 08 07 53 fd e2 00  33d+11:23:42.688  READ DMA
+  c8 00 08 ff 52 fd e2 00  33d+11:23:42.688  READ DMA
+  c8 00 08 f7 52 fd e2 00  33d+11:23:42.688  READ DMA
+
+Error 3203 occurred at disk power-on lifetime: 24494 hours (1020 days + 14 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 38 cf 52 fd e2  Error: UNC 56 sectors at LBA = 0x02fd52cf = 50156239
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 80 cf 52 fd e2 00  33d+11:23:40.448  READ DMA
+  c8 00 80 4f 52 fd e2 00  33d+11:23:40.448  READ DMA
+  c8 00 80 cf 51 fd e2 00  33d+11:23:40.448  READ DMA
+  c8 00 80 4f 51 fd e2 00  33d+11:23:40.448  READ DMA
+  c8 00 80 cf 50 fd e2 00  33d+11:23:40.448  READ DMA
+
+Error 3202 occurred at disk power-on lifetime: 24494 hours (1020 days + 14 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 17 53 fd e2  Error: UNC 8 sectors at LBA = 0x02fd5317 = 50156311
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 17 53 fd e2 00  33d+11:09:27.040  READ DMA
+  ca 00 08 07 d3 22 e2 00  33d+11:09:27.024  WRITE DMA
+  ca 00 08 e7 31 60 e0 00  33d+11:09:27.024  WRITE DMA
+  ca 00 08 2f 00 5e e0 00  33d+11:09:27.024  WRITE DMA
+  ca 00 80 27 c3 5c e3 00  33d+11:09:27.024  WRITE DMA
+
+Error 3201 occurred at disk power-on lifetime: 24494 hours (1020 days + 14 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 17 53 fd e2  Error: UNC 8 sectors at LBA = 0x02fd5317 = 50156311
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 17 53 fd e2 00  33d+11:09:24.832  READ DMA
+  ca 00 08 07 d3 22 e2 00  33d+11:09:24.816  WRITE DMA
+  ca 00 10 c7 1b 60 e0 00  33d+11:09:24.816  WRITE DMA
+  ca 00 08 47 00 5e e0 00  33d+11:09:24.816  WRITE DMA
+  c8 00 01 00 00 00 e0 00  33d+11:09:24.816  READ DMA
+
+Error 3200 occurred at disk power-on lifetime: 24494 hours (1020 days + 14 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 08 17 53 fd e2  Error: UNC 8 sectors at LBA = 0x02fd5317 = 50156311
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c8 00 08 17 53 fd e2 00  33d+11:09:22.576  READ DMA
+  ca 00 08 07 d3 22 e2 00  33d+11:09:22.576  WRITE DMA
+  ca 00 08 2f 1b 60 e0 00  33d+11:09:22.576  WRITE DMA
+  ca 00 38 bf 33 5f e0 00  33d+11:09:22.576  WRITE DMA
+  c8 00 08 1f 4c 34 e0 00  33d+11:09:22.560  READ DMA
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

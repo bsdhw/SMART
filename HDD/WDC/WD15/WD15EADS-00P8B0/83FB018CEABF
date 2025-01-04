@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital Caviar Green
@@ -9,10 +9,10 @@ LU WWN Device Id: 5 0014ee ...
 Firmware Version: 01.00A01
 User Capacity:    1,500,301,910,016 bytes [1.50 TB]
 Sector Size:      512 bytes logical/physical
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun May 29 01:00:06 2022 PDT
+Local Time is:    Sun Sep  8 01:00:08 2024 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -27,11 +27,12 @@ Wt Cache Reorder: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x85)	Offline data collection activity
-					was aborted by an interrupting command from host.
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Enabled.
-Self-test execution status:      ( 249)	Self-test routine in progress...
-					90% of test remaining.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
 Total time to complete Offline 
 data collection: 		(32280) seconds.
 Offline data collection
@@ -63,17 +64,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   200   200   051    -    0
-  3 Spin_Up_Time            POS--K   181   179   021    -    5916
-  4 Start_Stop_Count        -O--CK   099   099   000    -    1859
+  3 Spin_Up_Time            POS--K   186   179   021    -    5666
+  4 Start_Stop_Count        -O--CK   099   099   000    -    1879
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   000    -    0
-  9 Power_On_Hours          -O--CK   057   057   000    -    31481
+  9 Power_On_Hours          -O--CK   030   030   000    -    51255
  10 Spin_Retry_Count        -O--CK   100   100   000    -    0
  11 Calibration_Retry_Count -O--CK   100   100   000    -    0
- 12 Power_Cycle_Count       -O--CK   099   099   000    -    1856
-192 Power-Off_Retract_Count -O--CK   199   199   000    -    781
-193 Load_Cycle_Count        -O--CK   001   001   000    -    599931
-194 Temperature_Celsius     -O---K   117   107   000    -    33
+ 12 Power_Cycle_Count       -O--CK   099   099   000    -    1876
+192 Power-Off_Retract_Count -O--CK   199   199   000    -    795
+193 Load_Cycle_Count        -O--CK   001   001   000    -    1525089
+194 Temperature_Celsius     -O---K   110   103   000    -    40
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
 198 Offline_Uncorrectable   ----CK   200   200   000    -    0
@@ -111,24 +112,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     31313         -
-# 2  Extended offline    Completed without error       00%     31167         -
-# 3  Short offline       Completed without error       00%     30997         -
-# 4  Short offline       Completed without error       00%     30829         -
-# 5  Short offline       Completed without error       00%     30661         -
-# 6  Extended offline    Completed without error       00%     30650         -
-# 7  Short offline       Completed without error       00%     30480         -
-# 8  Short offline       Completed without error       00%     30312         -
-# 9  Short offline       Completed without error       00%     30144         -
-#10  Extended offline    Completed without error       00%     29997         -
-#11  Short offline       Completed without error       00%     29827         -
-#12  Short offline       Completed without error       00%     29659         -
-#13  Short offline       Completed without error       00%     29492         -
-#14  Extended offline    Completed without error       00%     29482         -
-#15  Short offline       Completed without error       00%     29316         -
-#16  Short offline       Completed without error       00%     29148         -
-#17  Short offline       Completed without error       00%     28980         -
-#18  Extended offline    Completed without error       00%     28831         -
+# 1  Short offline       Completed without error       00%     51109         -
+# 2  Short offline       Completed without error       00%     50942         -
+# 3  Short offline       Completed without error       00%     50775         -
+# 4  Extended offline    Completed without error       00%     50761         -
+# 5  Short offline       Completed without error       00%     50592         -
+# 6  Short offline       Completed without error       00%     50425         -
+# 7  Short offline       Completed without error       00%     50258         -
+# 8  Extended offline    Completed without error       00%     50115         -
+# 9  Short offline       Completed without error       00%     49949         -
+#10  Short offline       Completed without error       00%     49775         -
+#11  Extended offline    Completed without error       00%     49600         -
+#12  Short offline       Completed without error       00%     49593         -
+#13  Short offline       Completed without error       00%     49277         -
+#14  Short offline       Completed without error       00%     49096         -
+#15  Extended offline    Completed without error       00%     48935         -
+#16  Short offline       Completed without error       00%     48782         -
+#17  Short offline       Completed without error       00%     48598         -
+#18  Extended offline    Completed without error       00%     48289         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -143,10 +144,10 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 SCT Status Version:                  2
 SCT Version (vendor specific):       258 (0x0102)
-Device State:                        DST executing in background (3)
-Current Temperature:                    33 Celsius
-Power Cycle Min/Max Temperature:     22/42 Celsius
-Lifetime    Min/Max Temperature:      ?/43 Celsius
+Device State:                        Active (0)
+Current Temperature:                    40 Celsius
+Power Cycle Min/Max Temperature:     33/47 Celsius
+Lifetime    Min/Max Temperature:     40/47 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Temperature History Version:     2
@@ -154,7 +155,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (417)
+Temperature History Size (Index):    478 (189)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -173,9 +174,9 @@ ID      Size     Value  Description
 0x0005  2            0  R_ERR response for non-data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x000a  2            9  Device-to-host register FISes sent due to a COMRESET
+0x000a  2            3  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
-0x8000  4     11519760  Vendor specific
+0x8000  4      3944530  Vendor specific
 
 
 

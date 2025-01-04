@@ -1,0 +1,58 @@
+smartctl 7.3 2022-02-28 r5338 [NetBSD 10.0 i386] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Medalist 2110, 3221, 4321, 6531, and 8641
+Device Model:     ST33221A
+Serial Number:    --
+Firmware Version: 3.10
+User Capacity:    3,228,696,576 bytes [3.22 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ATA/ATAPI-4 (minor revision not indicated)
+Local Time is:    Mon May  6 12:54:00 2024 EEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
+Total time to complete Offline 
+data collection: 		( 2400) seconds.
+Offline data collection
+capabilities: 			 (0x03) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					No Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x00)	Error logging NOT supported.
+					No General Purpose Logging support.
+
+SMART Attributes Data Structure revision number: 5
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000a   116   096   000    Old_age   Always       -       239699309
+  3 Spin_Up_Time            0x0006   078   075   000    Old_age   Always       -       0
+  4 Start_Stop_Count        0x0013   095   095   020    Pre-fail  Always       -       5856
+  5 Reallocated_Sector_Ct   0x0013   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   070   060   030    Pre-fail  Always       -       92464212
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0013   096   096   020    Pre-fail  Always       -       4156
+199 UDMA_CRC_Error_Count    0x000a   200   195   000    Old_age   Always       -       88
+
+Read SMART Error Log failed: request failed, error code 0x02
+
+SMART Self-test Log not supported
+
+Selective Self-tests/Logging not supported
+

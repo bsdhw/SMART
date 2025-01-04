@@ -1,0 +1,61 @@
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p12 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       TS256GMTE652T2
+Serial Number:                      --
+Firmware Version:                   52B9T7OA
+PCI Vendor/Subsystem ID:            0x1d79
+IEEE OUI Identifier:                0x000000
+Controller ID:                      1
+NVMe Version:                       1.3
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
+Namespace 1 Utilization:            206,447,058,944 [206 GB]
+Namespace 1 Formatted LBA Size:     512
+Local Time is:                      Sat Aug 10 08:16:47 2024 CEST
+Firmware Updates (0x14):            2 Slots, no Reset required
+Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
+Log Page Attributes (0x0f):         S/H_per_NS Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg
+Maximum Data Transfer Size:         32 Pages
+Warning  Comp. Temp. Threshold:     85 Celsius
+Critical Comp. Temp. Threshold:     90 Celsius
+
+Supported Power States
+St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+ 0 +     9.00W       -        -    0  0  0  0        0       0
+
+Supported LBA Sizes (NSID 0x1)
+Id Fmt  Data  Metadt  Rel_Perf
+ 0 +     512       0         0
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        50 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    43%
+Data Units Read:                    1,639,860 [839 GB]
+Data Units Written:                 117,155,071 [59.9 TB]
+Host Read Commands:                 39,676,507
+Host Write Commands:                1,032,958,828
+Controller Busy Time:               38,414
+Power Cycles:                       27
+Power On Hours:                     18,618
+Unsafe Shutdowns:                   22
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      0
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+Error Information (NVMe Log 0x01, 16 of 256 entries)
+No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+No Self-tests Logged
+

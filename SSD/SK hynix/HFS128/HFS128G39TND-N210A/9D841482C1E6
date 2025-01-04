@@ -1,0 +1,196 @@
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.5 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     SK hynix SATA SSDs
+Device Model:     HFS128G39TND-N210A
+Serial Number:    --
+Firmware Version: 30001P10
+User Capacity:    128,035,676,160 bytes [128 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      M.2
+TRIM Command:     Available, deterministic
+Device is:        In smartctl database 7.3/5528
+ATA Version is:   ACS-2 (minor revision not indicated)
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Mon May 27 22:04:25 2024 CEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (  32)	The self-test routine was interrupted
+					by the host with a hard or soft reset.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x19) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+
+SMART Attributes Data Structure revision number: 0
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   166   153   006    Pre-fail  Always       -       0
+  5 Retired_Block_Count     0x0032   100   100   036    Old_age   Always       -       5
+  9 Power_On_Hours          0x0032   089   089   000    Old_age   Always       -       10282
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       1554
+100 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       27718900
+168 Min_Erase_Count         0x0032   023   023   000    Old_age   Always       -       817
+169 Max_Erase_Count         0x0032   017   017   000    Old_age   Always       -       885
+171 Program_Fail_Count      0x0032   253   253   000    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   253   253   000    Old_age   Always       -       0
+174 Unexpect_Power_Loss_Ct  0x0030   100   100   000    Old_age   Offline      -       73
+175 Program_Fail_Count_Chip 0x0032   253   253   000    Old_age   Always       -       0
+176 Unused_Rsvd_Blk_Cnt_Tot 0x0032   253   253   000    Old_age   Always       -       0
+177 Wear_Leveling_Count     0x0032   021   021   000    Old_age   Always       -       848
+178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   000    Old_age   Always       -       208
+179 Used_Rsvd_Blk_Cnt_Tot   0x0032   100   100   000    Old_age   Always       -       431
+180 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       2209
+184 End-to-End_Error        0x0032   100   100   000    Old_age   Always       -       1326
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       1399
+188 Command_Timeout         0x0032   253   253   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0002   036   000   000    Old_age   Always       -       36 (Min/Max 10/53)
+195 Hardware_ECC_Recovered  0x0032   100   091   000    Old_age   Always       -       4311110
+196 Reallocated_Event_Count 0x0032   100   100   036    Old_age   Always       -       5
+198 Offline_Uncorrectable   0x0032   100   100   000    Old_age   Always       -       152
+199 UDMA_CRC_Error_Count    0x0032   253   253   000    Old_age   Always       -       0
+204 Soft_ECC_Correction     0x000e   003   001   000    Old_age   Always       -       8496
+212 Phy_Error_Count         0x0032   253   253   000    Old_age   Always       -       0
+234 Unknown_SK_hynix_Attrib 0x0032   100   100   000    Old_age   Always       -       117074
+241 Total_Writes_GB         0x0032   100   100   000    Old_age   Always       -       32892
+242 Total_Reads_GB          0x0032   100   100   000    Old_age   Always       -       3087
+250 Read_Retry_Count        0x0032   095   095   000    Old_age   Always       -       214854686
+
+SMART Error Log Version: 1
+ATA Error Count: 181 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 181 occurred at disk power-on lifetime: 10085 hours (420 days + 5 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 41 00 00 00 00 00  Error: UNC at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 20 e8 3c 9e 3d 40 40      01:28:14.740  READ FPDMA QUEUED
+  2f 00 01 10 00 00 00 00      01:28:14.730  READ LOG EXT
+  60 20 e0 3c 9e 3d 40 40      01:28:14.710  READ FPDMA QUEUED
+  2f 00 01 10 00 00 00 00      01:28:14.710  READ LOG EXT
+  60 20 d8 3c 9e 3d 40 40      01:28:14.690  READ FPDMA QUEUED
+
+Error 180 occurred at disk power-on lifetime: 10085 hours (420 days + 5 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 41 00 00 00 00 00  Error: UNC at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 20 e0 3c 9e 3d 40 40      01:28:14.710  READ FPDMA QUEUED
+  2f 00 01 10 00 00 00 00      01:28:14.710  READ LOG EXT
+  60 20 d8 3c 9e 3d 40 40      01:28:14.690  READ FPDMA QUEUED
+  2f 00 01 10 00 00 00 00      01:28:14.690  READ LOG EXT
+  60 20 d0 3c 9e 3d 40 40      01:28:14.670  READ FPDMA QUEUED
+
+Error 179 occurred at disk power-on lifetime: 10085 hours (420 days + 5 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 41 00 00 00 00 00  Error: UNC at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 20 d8 3c 9e 3d 40 40      01:28:14.690  READ FPDMA QUEUED
+  2f 00 01 10 00 00 00 00      01:28:14.690  READ LOG EXT
+  60 20 d0 3c 9e 3d 40 40      01:28:14.670  READ FPDMA QUEUED
+  2f 00 01 10 00 00 00 00      01:28:14.670  READ LOG EXT
+  60 20 c8 3c 9e 3d 40 40      01:28:14.650  READ FPDMA QUEUED
+
+Error 178 occurred at disk power-on lifetime: 10085 hours (420 days + 5 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 41 00 00 00 00 00  Error: UNC at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 20 d0 3c 9e 3d 40 40      01:28:14.670  READ FPDMA QUEUED
+  2f 00 01 10 00 00 00 00      01:28:14.670  READ LOG EXT
+  60 20 c8 3c 9e 3d 40 40      01:28:14.650  READ FPDMA QUEUED
+  61 20 c0 00 0a 25 40 40      01:28:13.810  WRITE FPDMA QUEUED
+  61 20 b8 40 0f 25 40 40      01:28:13.810  WRITE FPDMA QUEUED
+
+Error 177 occurred at disk power-on lifetime: 10085 hours (420 days + 5 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 41 00 00 00 00 00  Error: UNC at LBA = 0x00000000 = 0
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  60 20 c8 3c 9e 3d 40 40      01:28:14.650  READ FPDMA QUEUED
+  61 20 c0 00 0a 25 40 40      01:28:13.810  WRITE FPDMA QUEUED
+  61 20 b8 40 0f 25 40 40      01:28:13.810  WRITE FPDMA QUEUED
+  61 20 b0 80 89 c2 40 40      01:28:13.590  WRITE FPDMA QUEUED
+  61 20 a8 40 89 c2 40 40      01:28:13.590  WRITE FPDMA QUEUED
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+
+
+

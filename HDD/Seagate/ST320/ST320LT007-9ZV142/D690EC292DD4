@@ -1,0 +1,121 @@
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.5 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Seagate Momentus Thin
+Device Model:     ST320LT007-9ZV142
+Serial Number:    --
+LU WWN Device Id: 5 000c50 ...
+Firmware Version: 0004LVM1
+User Capacity:    320,072,933,376 bytes [320 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    7242 rpm
+Device is:        In smartctl database 7.3/5528
+ATA Version is:   ATA8-ACS T13/1699-D revision 4
+SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
+Local Time is:    Mon Mar 11 11:47:13 2024 CET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x73) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  62) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   2) minutes.
+SCT capabilities: 	       (0x303b)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   108   099   034    Pre-fail  Always       -       19147248
+  3 Spin_Up_Time            0x0003   098   098   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1064
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   076   060   030    Pre-fail  Always       -       47697038106
+  9 Power_On_Hours          0x0032   077   077   000    Old_age   Always       -       20366 (57 103 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1064
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   098   000    Old_age   Always       -       23
+189 High_Fly_Writes         0x003a   098   098   000    Old_age   Always       -       2
+190 Airflow_Temperature_Cel 0x0022   061   046   045    Old_age   Always       -       39 (Min/Max 22/42)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       1270
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       0
+193 Load_Cycle_Count        0x0032   001   001   000    Old_age   Always       -       905689
+194 Temperature_Celsius     0x0022   039   054   000    Old_age   Always       -       39 (0 14 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   048   037   000    Old_age   Always       -       19147248
+196 Reallocated_Event_Count 0x000f   078   078   030    Pre-fail  Always       -       19743 (40618 0)
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+250 Read_Error_Retry_Rate   0x0000   001   001   000    Old_age   Offline      -       94627
+251 Unknown_Attribute       0x0000   001   001   000    Old_age   Offline      -       23489
+252 Unknown_Attribute       0x0000   100   001   000    Old_age   Offline      -       8092
+254 Free_Fall_Sensor        0x0032   100   100   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Vendor (0x50)       Aborted by host               10%      2741         -
+# 2  Short offline       Completed without error       00%      2741         -
+# 3  Vendor (0x50)       Completed without error       00%      2740         -
+# 4  Short offline       Completed without error       00%      2740         -
+# 5  Vendor (0x50)       Completed without error       00%      2733         -
+# 6  Short offline       Completed without error       00%      2733         -
+# 7  Vendor (0x50)       Completed without error       00%      2728         -
+# 8  Short offline       Completed without error       00%      2728         -
+# 9  Vendor (0x50)       Completed without error       00%      2720         -
+#10  Short offline       Completed without error       00%      2720         -
+#11  Short offline       Aborted by host               90%      2719         -
+#12  Vendor (0x50)       Completed without error       00%         0         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+
+
+
