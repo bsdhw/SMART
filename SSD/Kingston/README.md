@@ -29,63 +29,63 @@ MTBF - avg. MTBF in years per sample.
 | Kingston  | SUV300S37A240G     | 240 GB | 2       | 1135  | 0     | 3.11   |
 | Kingston  | SKC400S37512G      | 512 GB | 2       | 1059  | 0     | 2.90   |
 | Kingston  | SH103S3120G        | 120 GB | 9       | 1172  | 3     | 2.83   |
+| Kingston  | SMS200S330G        | 32 GB  | 15      | 1207  | 2     | 2.40   |
 | Kingston  | SNV425S264GB       | 64 GB  | 2       | 882   | 3     | 2.40   |
-| Kingston  | SMS200S330G        | 32 GB  | 15      | 1197  | 2     | 2.36   |
 | Kingston  | SUV500M8480G       | 480 GB | 2       | 860   | 0     | 2.36   |
+| Kingston  | SHFS37A120G        | 120 GB | 20      | 1119  | 2     | 2.32   |
 | Kingston  | SH103S3240G        | 240 GB | 6       | 1129  | 302   | 2.29   |
-| Kingston  | SHFS37A120G        | 120 GB | 20      | 1092  | 2     | 2.25   |
 | Kingston  | SNV425S2128GB      | 128 GB | 4       | 1585  | 4     | 2.15   |
-| Kingston  | SV300S37A120G      | 120 GB | 88      | 926   | 3     | 2.09   |
-| Kingston  | SMS200S360G        | 64 GB  | 27      | 1241  | 89    | 2.02   |
-| Kingston  | SUV400S37240G      | 240 GB | 18      | 734   | 1     | 1.92   |
+| Kingston  | SV300S37A120G      | 120 GB | 88      | 933   | 3     | 2.11   |
+| Kingston  | SMS200S360G        | 64 GB  | 27      | 1276  | 89    | 2.09   |
+| Kingston  | SUV400S37240G      | 240 GB | 18      | 775   | 1     | 2.00   |
+| Kingston  | SM2280S3G2120G     | 120 GB | 4       | 708   | 0     | 1.94   |
 | Kingston  | SV300S37A480G      | 480 GB | 2       | 695   | 0     | 1.91   |
-| Kingston  | SM2280S3120G       | 120 GB | 4       | 683   | 0     | 1.87   |
-| Kingston  | SV300S37A240G      | 240 GB | 22      | 777   | 2     | 1.85   |
+| Kingston  | SM2280S3120G       | 120 GB | 4       | 687   | 0     | 1.88   |
+| Kingston  | SV300S37A240G      | 240 GB | 22      | 779   | 2     | 1.85   |
 | Kingston  | SMS100S232G        | 32 GB  | 2       | 624   | 0     | 1.71   |
+| Kingston  | SUV400S37120G      | 120 GB | 29      | 738   | 88    | 1.71   |
+| Kingston  | SUV500MS120G       | 120 GB | 76      | 609   | 0     | 1.67   |
 | Kingston  | SUV500120G         | 120 GB | 3       | 608   | 0     | 1.67   |
-| Kingston  | SUV400S37120G      | 120 GB | 29      | 715   | 88    | 1.65   |
 | Kingston  | SS200S330G         | 32 GB  | 5       | 551   | 0     | 1.51   |
-| Kingston  | SM2280S3G2120G     | 120 GB | 4       | 550   | 0     | 1.51   |
-| Kingston  | SUV500MS120G       | 120 GB | 76      | 544   | 0     | 1.49   |
-| Kingston  | SV300S37A60G       | 64 GB  | 25      | 1075  | 36    | 1.44   |
-| Kingston  | SMS200S3120G       | 120 GB | 17      | 1220  | 11    | 1.35   |
+| Kingston  | SV300S37A60G       | 64 GB  | 25      | 1089  | 36    | 1.49   |
+| Kingston  | SMS200S3120G       | 120 GB | 17      | 1241  | 11    | 1.41   |
 | Kingston  | SUV400S37480G      | 480 GB | 3       | 847   | 4     | 1.18   |
+| Kingston  | SHFS37A240G        | 240 GB | 10      | 414   | 0     | 1.13   |
 | Kingston  | SVP200S37A120G     | 120 GB | 3       | 996   | 2     | 1.10   |
 | Kingston  | SUV500M8120G       | 120 GB | 2       | 396   | 0     | 1.09   |
-| Kingston  | SA400S37120G       | 120 GB | 155     | 393   | 1     | 1.05   |
-| Kingston  | SUV500MS240G       | 240 GB | 41      | 369   | 0     | 1.01   |
-| Kingston  | SHFS37A240G        | 240 GB | 10      | 366   | 0     | 1.00   |
+| Kingston  | SA400S37120G       | 120 GB | 155     | 400   | 1     | 1.07   |
+| Kingston  | SUV500MS240G       | 240 GB | 41      | 370   | 0     | 1.01   |
 | Kingston  | RBUSNS8180DS3128GH | 128 GB | 4       | 358   | 0     | 0.98   |
 | Kingston  | SUV500240G         | 240 GB | 4       | 282   | 0     | 0.77   |
-| Kingston  | SA400S37480G       | 480 GB | 90      | 261   | 1     | 0.69   |
+| Kingston  | SA400S37480G       | 480 GB | 90      | 281   | 1     | 0.75   |
+| Kingston  | SA400S37240G       | 240 GB | 223     | 270   | 1     | 0.70   |
 | Kingston  | SA400S37960G       | 960 GB | 23      | 236   | 0     | 0.65   |
+| Kingston  | SA400M8240G        | 240 GB | 19      | 232   | 0     | 0.64   |
 | Kingston  | SUV500MS480G       | 480 GB | 14      | 235   | 1     | 0.64   |
-| Kingston  | SA400S37240G       | 240 GB | 223     | 244   | 1     | 0.63   |
-| Kingston  | SA400M8240G        | 240 GB | 19      | 210   | 0     | 0.58   |
 | Kingston  | SUV500M8240G       | 240 GB | 3       | 196   | 0     | 0.54   |
+| Kingston  | SA400S371920G      | 1.9 TB | 2       | 184   | 0     | 0.50   |
 | Kingston  | SEDC600M7680G      | 7 TB   | 2       | 176   | 0     | 0.48   |
-| Kingston  | SQ500S37240G       | 240 GB | 2       | 172   | 0     | 0.47   |
+| Kingston  | SQ500S37240G       | 240 GB | 2       | 175   | 0     | 0.48   |
+| Kingston  | SQ500S37120G       | 120 GB | 5       | 163   | 0     | 0.45   |
 | Kingston  | SHSS37A240G        | 240 GB | 3       | 155   | 0     | 0.43   |
-| Kingston  | SA400S371920G      | 1.9 TB | 2       | 155   | 0     | 0.43   |
 | Kingston  | SA400M8120G        | 120 GB | 12      | 154   | 0     | 0.42   |
 | Kingston  | SEDC500M480G       | 480 GB | 7       | 169   | 1     | 0.40   |
-| Kingston  | SQ500S37120G       | 120 GB | 5       | 114   | 0     | 0.32   |
 | Kingston  | OM8P0S3256B-A0     | 256 GB | 4       | 93    | 0     | 0.26   |
+| Kingston  | SKC600MS256G       | 256 GB | 70      | 85    | 1     | 0.23   |
 | Kingston  | SMS200S3240G       | 240 GB | 2       | 84    | 0     | 0.23   |
-| Kingston  | SA400S37-120GB     | 120 GB | 2       | 69    | 0     | 0.19   |
-| Kingston  | SKC600MS1024G      | 1 TB   | 7       | 66    | 0     | 0.18   |
-| Kingston  | SKC600MS256G       | 256 GB | 70      | 60    | 1     | 0.16   |
-| Kingston  | SKC600MS512G       | 512 GB | 25      | 53    | 0     | 0.15   |
-| Kingston  | SKC600256G         | 256 GB | 6       | 41    | 0     | 0.11   |
+| Kingston  | SKC600MS1024G      | 1 TB   | 7       | 81    | 0     | 0.22   |
+| Kingston  | SA400S37-120GB     | 120 GB | 2       | 76    | 0     | 0.21   |
+| Kingston  | SKC600MS512G       | 512 GB | 25      | 63    | 0     | 0.17   |
+| Kingston  | SKC600256G         | 256 GB | 6       | 43    | 0     | 0.12   |
 | Kingston  | SKC600512G         | 512 GB | 3       | 32    | 0     | 0.09   |
 | Kingston  | HyperX Fury 3D ... | 480 GB | 2       | 31    | 0     | 0.09   |
+| Kingston  | SEDC450R480G       | 480 GB | 3       | 5     | 0     | 0.01   |
 | Kingston  | SUV500M8-128GB     | 128 GB | 2       | 3     | 0     | 0.01   |
 | Kingston  | RBU-SNS8350DES3... | 128 GB | 4       | 226   | 97    | 0.01   |
+| Kingston  | SKC600MS-128G      | 128 GB | 2       | 1     | 0     | 0.00   |
 | Kingston  | RBUSNS8180S3512GJ  | 512 GB | 2       | 0     | 0     | 0.00   |
-| Kingston  | SKC600MS-128G      | 128 GB | 2       | 0     | 0     | 0.00   |
-| Kingston  | SEDC450R480G       | 480 GB | 3       | 0     | 0     | 0.00   |
-| Kingston  | SNS4151S316G       | 16 GB  | 5       | 357   | 1022  | 0.00   |
-| Kingston  | SNS4151S316GD      | 16 GB  | 6       | 188   | 1024  | 0.00   |
+| Kingston  | SNS4151S316G       | 16 GB  | 5       | 417   | 1022  | 0.00   |
+| Kingston  | SNS4151S316GD      | 16 GB  | 6       | 189   | 1024  | 0.00   |
 
 SSD by Family
 -------------
@@ -101,7 +101,7 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Kingston  | JMicron/Maxiotek ba... | 2      | 6       | 1351  | 4     | 2.23   |
-| Kingston  | SandForce Driven SSDs  | 15     | 257     | 994   | 46    | 1.95   |
-| Kingston  | SSDNow UV400/500       | 11     | 195     | 524   | 14    | 1.36   |
-| Kingston  | Phison Driven SSDs     | 16     | 556     | 296   | 1     | 0.78   |
-| Kingston  | Silicon Motion base... | 5      | 111     | 57    | 1     | 0.16   |
+| Kingston  | SandForce Driven SSDs  | 15     | 257     | 1007  | 46    | 1.98   |
+| Kingston  | SSDNow UV400/500       | 11     | 195     | 557   | 14    | 1.45   |
+| Kingston  | Phison Driven SSDs     | 16     | 556     | 313   | 1     | 0.83   |
+| Kingston  | Silicon Motion base... | 5      | 111     | 76    | 1     | 0.21   |

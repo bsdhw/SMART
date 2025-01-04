@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Gigabyte  | GP-GSM2NE3128GNTD  | 128 GB | 5       | 210   | 0     | 0.58   |
-| Gigabyte  | GP-GSM2NE3256GNTD  |        | 11      | 117   | 0     | 0.32   |
+| Gigabyte  | GP-GSM2NE3128GNTD  | 128 GB | 5       | 213   | 0     | 0.58   |
+| Gigabyte  | GP-GSM2NE3256GNTD  |        | 11      | 128   | 0     | 0.35   |

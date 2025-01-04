@@ -18,4 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | CWdisk    | 1TB                | 1 TB   | 3       | 17    | 0     | 0.05   |
-| CWdisk    | 128G               | 128 GB | 2       | 1     | 0     | 0.00   |
+| CWdisk    | 128G               | 128 GB | 2       | 5     | 0     | 0.02   |

@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| HGST      | HUSMR7632BDP301    |        | 2       | 22    | 0     | 0.06   |
+| HGST      | HUSMR7632BDP301    |        | 2       | 199   | 0     | 0.55   |

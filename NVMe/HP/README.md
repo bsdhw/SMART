@@ -18,8 +18,8 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | HP        | SSD EX920          | 256 GB | 2       | 709   | 0     | 1.94   |
+| HP        | SSD EX900          | 120 GB | 4       | 472   | 0     | 1.30   |
 | HP        | SSD EX920          | 512 GB | 2       | 379   | 0     | 1.04   |
-| HP        | SSD EX900          | 120 GB | 4       | 378   | 0     | 1.04   |
-| HP        | SSD EX900          | 250 GB | 6       | 186   | 0     | 0.51   |
+| HP        | SSD EX900          | 250 GB | 6       | 188   | 0     | 0.52   |
 | HP        | SSD EX950          | 512 GB | 10      | 102   | 0     | 0.28   |
-| HP        | SSD EX900          | 500 GB | 3       | 34    | 0     | 0.10   |
+| HP        | SSD EX900          | 500 GB | 3       | 35    | 0     | 0.10   |

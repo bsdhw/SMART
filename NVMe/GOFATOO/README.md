@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| GOFATOO   | 512GB SSD          | 512 GB | 4       | 12    | 0     | 0.03   |
+| GOFATOO   | 512GB SSD          | 512 GB | 4       | 17    | 0     | 0.05   |

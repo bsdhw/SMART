@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| BIWIN     | SSD                | 128 GB | 39      | 340   | 7     | 0.87   |
+| BIWIN     | SSD                | 128 GB | 39      | 375   | 7     | 0.96   |
 | BIWIN     | SSD                | 256 GB | 3       | 110   | 0     | 0.30   |

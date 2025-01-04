@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Kingsand  | T600 128G          | 128 GB | 3       | 1     | 0     | 0.01   |
+| Kingsand  | T600 128G          | 128 GB | 4       | 2     | 0     | 0.01   |

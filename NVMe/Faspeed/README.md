@@ -17,6 +17,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Faspeed   | P8-512G            | 512 GB | 3       | 5     | 0     | 0.01   |
+| Faspeed   | P8-512G            | 512 GB | 3       | 13    | 0     | 0.04   |
 | Faspeed   | P8-256G PLUS       | 256 GB | 3       | 4     | 0     | 0.01   |
-| Faspeed   | P8-128G            |        | 4       | 1     | 0     | 0.00   |
+| Faspeed   | P8-128G            |        | 4       | 1     | 0     | 0.01   |

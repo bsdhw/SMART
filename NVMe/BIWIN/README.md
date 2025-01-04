@@ -18,5 +18,5 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | BIWIN     | SSD                | 1 TB   | 3       | 66    | 0     | 0.18   |
-| BIWIN     | NA80Y1M10-256G     | 256 GB | 3       | 28    | 0     | 0.08   |
-| BIWIN     | NA80Y1M10-512G     | 512 GB | 7       | 11    | 0     | 0.03   |
+| BIWIN     | NA80Y1M10-256G     | 256 GB | 3       | 35    | 0     | 0.10   |
+| BIWIN     | NA80Y1M10-512G     | 512 GB | 7       | 12    | 0     | 0.03   |

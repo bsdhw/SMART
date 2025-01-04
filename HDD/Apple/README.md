@@ -23,7 +23,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Apple     | HDD HTS541010A9... | 1 TB   | 7       | 905   | 1     | 2.17   |
+| Apple     | HDD HTS541010A9... | 1 TB   | 7       | 907   | 1     | 2.17   |
 | Apple     | HDD HTS541010A9... | 1 TB   | 2       | 392   | 0     | 1.07   |
 | Apple     | HDD HTS547550A9... | 500 GB | 6       | 424   | 405   | 1.00   |
 | Apple     | HDD HTS545050A7... | 500 GB | 10      | 373   | 3     | 0.98   |
@@ -41,6 +41,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Apple     | Travelstar 5K1000      | 2      | 9       | 791   | 1     | 1.92   |
+| Apple     | Travelstar 5K1000      | 2      | 9       | 793   | 1     | 1.93   |
 | Apple     | HGST Travelstar 5K750  | 1      | 6       | 424   | 405   | 1.00   |
 | Apple     | HGST Travelstar Z5K500 | 1      | 10      | 373   | 3     | 0.98   |
