@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| TCSUNBOW  | M1                 | 32 GB  | 5       | 552   | 0     | 1.51   |
+| TCSUNBOW  | M1                 | 32 GB  | 6       | 460   | 0     | 1.26   |

@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Inland    | SATA SSD           | 128 GB | 1       | 121   | 0     | 0.33   |
+| Inland    | SATA SSD           | 128 GB | 2       | 273   | 0     | 0.75   |

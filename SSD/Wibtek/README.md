@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Wibtek    | W800S 256GB SSD    | 256 GB | 1       | 1     | 0     | 0.00   |
+| Wibtek    | W800S 256GB SSD    | 256 GB | 2       | 172   | 0     | 0.47   |

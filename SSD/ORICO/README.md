@@ -18,4 +18,5 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | ORICO     | M200               | 128 GB | 2       | 226   | 0     | 0.62   |
+| ORICO     | SSD                | 128 GB | 2       | 29    | 0     | 0.08   |
 | ORICO     | H110-120GB-PU-EP   | 120 GB | 2       | 3     | 0     | 0.01   |

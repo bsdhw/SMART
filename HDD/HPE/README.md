@@ -25,8 +25,9 @@ MTBF - avg. MTBF in years per sample.
 |-----------|--------------------|--------|---------|-------|-------|------|
 | HPE       | MB4000GCWLV        | 4 TB   | 9       | 1662  | 0     | 4.55   |
 | HPE       | MB4000GVYZK        | 4 TB   | 8       | 1005  | 0     | 2.76   |
-| HPE       | MB0500GCEHE        | 500 GB | 6       | 659   | 2     | 1.70   |
+| HPE       | MB0500GCEHE        | 500 GB | 8       | 633   | 35    | 1.47   |
 | HPE       | MM2000GEFRA        | 2 TB   | 6       | 239   | 0     | 0.66   |
+| HPE       | MM1000GBKAL        | 1 TB   | 4       | 1883  | 1518  | 0.00   |
 
 HDD by Family
 -------------
@@ -42,4 +43,5 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | HPE       | Proliant HardDrive     | 3      | 23      | 1062  | 0     | 2.91   |
-| HPE       | WDC Enterprise         | 1      | 6       | 659   | 2     | 1.70   |
+| HPE       | WDC Enterprise         | 1      | 8       | 633   | 35    | 1.47   |
+| HPE       | Seagate Constellati... | 1      | 4       | 1883  | 1518  | 0.00   |

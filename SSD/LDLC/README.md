@@ -17,6 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| LDLC      | SSD                | 120 GB | 1       | 113   | 0     | 0.31   |
-| LDLC      | SSD                | 64 GB  | 1       | 53    | 0     | 0.15   |
-| LDLC      | SSD                | 128 GB | 1       | 6     | 0     | 0.02   |
+| LDLC      | SSD                | 120 GB | 2       | 62    | 1516  | 0.16   |

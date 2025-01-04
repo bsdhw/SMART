@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Timetec   | 35TTFP6PCIE-256G   | 256 GB | 1       | 110   | 0     | 0.30   |
+| Timetec   | 35TTFP6PCIE-256G   | 256 GB | 2       | 90    | 0     | 0.25   |

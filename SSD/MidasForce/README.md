@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| MidasF... | SSD                | 256 GB | 1       | 32    | 0     | 0.09   |
-| MidasF... | SSD                | 120 GB | 1       | 22    | 4     | 0.01   |
+| MidasF... | SSD                | 512 GB | 2       | 222   | 0     | 0.61   |
+| MidasF... | SSD                | 256 GB | 3       | 114   | 0     | 0.31   |

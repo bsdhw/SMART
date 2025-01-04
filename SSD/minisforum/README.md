@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| minisf... | SSD                | 128 GB | 4       | 201   | 0     | 0.55   |
-| minisf... | SSD                | 256 GB | 10      | 99    | 0     | 0.27   |
+| minisf... | SSD                | 128 GB | 6       | 329   | 0     | 0.90   |
+| minisf... | SSD                | 256 GB | 12      | 125   | 0     | 0.34   |

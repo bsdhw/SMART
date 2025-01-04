@@ -18,4 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Seagate   | BarraCuda Q5 ZP... | 500 GB | 2       | 227   | 0     | 0.62   |
-| Seagate   | FireCuda 520 SS... | 500 GB | 6       | 103   | 0     | 0.28   |
+| Seagate   | FireCuda 520 SS... | 500 GB | 7       | 205   | 0     | 0.56   |

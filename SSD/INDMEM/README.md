@@ -18,3 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | INDMEM    | SSD mSATA          | 128 GB | 2       | 88    | 15    | 0.01   |
+| INDMEM    | M.2 2280           | 64 GB  | 2       | 3     | 0     | 0.01   |

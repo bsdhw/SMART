@@ -17,12 +17,21 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| SanDisk   | WD Blue SN570      | 250 GB | 4       | 119   | 0     | 0.33   |
-| SanDisk   | WD_BLACK SN770     | 1 TB   | 2       | 118   | 0     | 0.32   |
+| SanDisk   | WD Blue SN570      | 250 GB | 10      | 111   | 0     | 0.31   |
+| SanDisk   | WD_BLACK SN770     | 250 GB | 4       | 109   | 0     | 0.30   |
+| SanDisk   | WD Red SN700       | 250 GB | 5       | 77    | 0     | 0.21   |
 | SanDisk   | Ultra 3D NVMe      | 500 GB | 2       | 57    | 0     | 0.16   |
-| SanDisk   | WD Blue SN570      | 500 GB | 11      | 52    | 0     | 0.14   |
-| SanDisk   | WD_BLACK SN770     | 500 GB | 6       | 32    | 0     | 0.09   |
-| SanDisk   | WD_BLACK SN770     | 250 GB | 3       | 28    | 0     | 0.08   |
+| SanDisk   | WD Blue SN570      | 500 GB | 27      | 55    | 0     | 0.15   |
+| SanDisk   | WD_BLACK SN770     | 500 GB | 12      | 48    | 0     | 0.13   |
+| SanDisk   | WD Blue SN580      | 500 GB | 2       | 47    | 0     | 0.13   |
+| SanDisk   | WD_BLACK SN770     | 1 TB   | 15      | 46    | 0     | 0.13   |
+| SanDisk   | WD_BLACK SN850X    | 2 TB   | 2       | 43    | 0     | 0.12   |
+| SanDisk   | WD Blue SN570 5... | 500 GB | 2       | 34    | 0     | 0.10   |
+| SanDisk   | WD Blue SN570      | 1 TB   | 11      | 26    | 0     | 0.07   |
 | SanDisk   | WD Green SN350     | 2 TB   | 2       | 22    | 0     | 0.06   |
-| SanDisk   | WD Blue SN570      | 1 TB   | 7       | 17    | 0     | 0.05   |
+| SanDisk   | WD PC SN740 SDD... |        | 2       | 13    | 0     | 0.04   |
 | SanDisk   | WD_BLACK SN850     | 1 TB   | 2       | 7     | 0     | 0.02   |
+| SanDisk   | WD_BLACK SN850X    | 1 TB   | 2       | 6     | 0     | 0.02   |
+| SanDisk   | WD Red SN700       | 500 GB | 6       | 5     | 0     | 0.01   |
+| SanDisk   | WD_BLACK SN770     | 2 TB   | 4       | 2     | 0     | 0.01   |
+| SanDisk   | WD PC SN740 SDD... | 256 GB | 2       | 1     | 0     | 0.00   |

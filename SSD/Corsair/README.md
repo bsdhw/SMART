@@ -18,10 +18,12 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Corsair   | Force 3 SSD        | 240 GB | 2       | 2608  | 0     | 7.15   |
+| Corsair   | Force GS           | 128 GB | 3       | 1622  | 0     | 4.45   |
 | Corsair   | Force 3 SSD        | 64 GB  | 5       | 1572  | 0     | 4.31   |
-| Corsair   | Force GS           | 128 GB | 2       | 1279  | 0     | 3.51   |
-| Corsair   | Force GT           | 120 GB | 3       | 1165  | 2     | 2.12   |
-| Corsair   | Force LS SSD       | 64 GB  | 6       | 1019  | 169   | 1.79   |
-| Corsair   | Force GS           | 180 GB | 2       | 631   | 0     | 1.73   |
-| Corsair   | Force 3 SSD        | 120 GB | 6       | 974   | 169   | 1.50   |
+| Corsair   | Force GT           | 240 GB | 2       | 1033  | 0     | 2.83   |
+| Corsair   | Force LS SSD       | 64 GB  | 9       | 986   | 113   | 2.03   |
+| Corsair   | Force GT           | 120 GB | 5       | 1345  | 2     | 1.97   |
+| Corsair   | Force GS           | 180 GB | 3       | 1289  | 2     | 1.63   |
+| Corsair   | Force 3 SSD        | 120 GB | 8       | 923   | 129   | 1.50   |
 | Corsair   | Force LS SSD       | 120 GB | 3       | 280   | 336   | 0.65   |
+| Corsair   | Force LS SSD       | 240 GB | 2       | 483   | 1007  | 0.00   |

@@ -23,12 +23,17 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Innodisk  | DEMSR- 08GB mSA... | 8 GB   | 3       | 876   | 0     | 2.40   |
-| Innodisk  | DEMSR- 16GB mSA... | 16 GB  | 6       | 492   | 0     | 1.35   |
-| Innodisk  | Corp. - mSATA 3ME3 | 32 GB  | 3       | 215   | 0     | 0.59   |
-| Innodisk  | DEM24-16GM41BC1... | 16 GB  | 2       | 202   | 0     | 0.55   |
-| Innodisk  | DEMSR- 08GB mSA... | 8 GB   | 15      | 188   | 0     | 0.52   |
-| Innodisk  | M.2 (S80) 3MG2-P   | 992 GB | 2       | 5     | 0     | 0.02   |
+| Innodisk  | DEMSR- 08GB mSA... | 8 GB   | 10      | 871   | 0     | 2.39   |
+| Innodisk  | mSATA 3TE7         | 32 GB  | 2       | 610   | 0     | 1.67   |
+| Innodisk  | DEMSR- 32GB mSA... | 32 GB  | 3       | 557   | 0     | 1.53   |
+| Innodisk  | DEM24-32GM41BC1... | 32 GB  | 3       | 457   | 0     | 1.25   |
+| Innodisk  | DEMSR- 16GB mSA... | 16 GB  | 10      | 437   | 0     | 1.20   |
+| Innodisk  | Corp. - mSATA 3ME3 | 32 GB  | 11      | 280   | 0     | 0.77   |
+| Innodisk  | DEMSR- 08GB mSA... | 8 GB   | 23      | 219   | 0     | 0.60   |
+| Innodisk  | M.2 (S80) 3MG2-P   | 248 GB | 3       | 189   | 0     | 0.52   |
+| Innodisk  | DEM24-16GM41BC1... | 16 GB  | 5       | 162   | 0     | 0.44   |
+| Innodisk  | 2.5" SATA SSD 3... | 32 GB  | 2       | 25    | 0     | 0.07   |
+| Innodisk  | SATA Slim 3ME4     | 16 GB  | 2       | 24    | 0     | 0.07   |
 
 SSD by Family
 -------------
@@ -43,5 +48,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Innodisk  | 1IE3/3IE3/3ME3/3IE4... | 1      | 3       | 215   | 0     | 0.59   |
-| Innodisk  | 3IE2/3ME2/3MG2/3SE2... | 1      | 2       | 5     | 0     | 0.02   |
+| Innodisk  | 1IE3/3IE3/3ME3/3IE4... | 2      | 13      | 241   | 0     | 0.66   |
+| Innodisk  | 3IE2/3ME2/3MG2/3SE2... | 1      | 3       | 189   | 0     | 0.52   |
+| Innodisk  | 3IE2/3ME2/3MG2/3SE2... | 1      | 2       | 25    | 0     | 0.07   |

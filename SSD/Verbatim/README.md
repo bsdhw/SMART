@@ -17,5 +17,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Verbatim  | Vi550 S3 SSD       | 512 GB | 7       | 146   | 0     | 0.40   |
-| Verbatim  | Vi550 S3           | 256 GB | 5       | 7     | 0     | 0.02   |
+| Verbatim  | Vi550 S3 SSD       | 512 GB | 9       | 131   | 0     | 0.36   |
+| Verbatim  | Vi550 S3           | 1 TB   | 13      | 79    | 0     | 0.22   |
+| Verbatim  | Vi560              | 512 GB | 2       | 14    | 0     | 0.04   |

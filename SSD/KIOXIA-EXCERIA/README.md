@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| KIOXIA... | SATA SSD           | 240 GB | 2       | 250   | 0     | 0.69   |
-| KIOXIA... | SATA SSD           | 480 GB | 2       | 34    | 0     | 0.09   |
+| KIOXIA... | SATA SSD           | 240 GB | 3       | 170   | 0     | 0.47   |
+| KIOXIA... | SATA SSD           | 480 GB | 5       | 149   | 0     | 0.41   |

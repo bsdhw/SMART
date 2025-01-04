@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Pccooler  | MSATA 128G         | 128 GB | 2       | 176   | 0     | 0.48   |
+| Pccooler  | MSATA 128G         | 128 GB | 4       | 396   | 0     | 1.09   |

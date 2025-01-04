@@ -23,22 +23,27 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| OCZ       | VERTEX PLUS R2     | 64 GB  | 2       | 2891  | 0     | 7.92   |
 | OCZ       | AGILITY            | 32 GB  | 2       | 2269  | 0     | 6.22   |
+| OCZ       | VERTEX2            | 64 GB  | 2       | 2218  | 0     | 6.08   |
 | OCZ       | VERTEX4            | 256 GB | 3       | 1660  | 0     | 4.55   |
+| OCZ       | VERTEX2            | 120 GB | 3       | 1489  | 0     | 4.08   |
 | OCZ       | VERTEX3 MI         | 120 GB | 2       | 2104  | 1     | 3.97   |
-| OCZ       | AGILITY3           | 120 GB | 10      | 1238  | 121   | 3.32   |
-| OCZ       | VERTEX3            | 64 GB  | 4       | 1741  | 8     | 2.97   |
+| OCZ       | VERTEX3            | 64 GB  | 7       | 1790  | 5     | 3.88   |
+| OCZ       | AGILITY3           | 120 GB | 15      | 1459  | 127   | 3.24   |
+| OCZ       | AGILITY3           | 240 GB | 3       | 1449  | 5     | 2.64   |
 | OCZ       | VERTEX4            | 128 GB | 5       | 1130  | 1     | 2.61   |
-| OCZ       | AGILITY3           | 64 GB  | 6       | 1028  | 1     | 2.36   |
-| OCZ       | VERTEX3            | 120 GB | 8       | 1218  | 21    | 2.09   |
+| OCZ       | AGILITY3           | 64 GB  | 9       | 969   | 1     | 2.35   |
+| OCZ       | VERTEX3            | 120 GB | 10      | 1294  | 19    | 2.23   |
 | OCZ       | VERTEX460A         | 120 GB | 2       | 752   | 0     | 2.06   |
 | OCZ       | ARC100             | 240 GB | 3       | 726   | 0     | 1.99   |
+| OCZ       | TRION150           | 240 GB | 5       | 667   | 0     | 1.83   |
+| OCZ       | VERTEX2            | 55 GB  | 2       | 630   | 0     | 1.73   |
+| OCZ       | TRION150           | 480 GB | 2       | 625   | 0     | 1.71   |
 | OCZ       | VERTEX3            | 240 GB | 2       | 1232  | 511   | 1.48   |
-| OCZ       | VERTEX2            | 120 GB | 2       | 455   | 0     | 1.25   |
-| OCZ       | TRION100           | 240 GB | 2       | 422   | 0     | 1.16   |
+| OCZ       | TRION100           | 240 GB | 3       | 448   | 0     | 1.23   |
 | OCZ       | AGILITY4           | 128 GB | 4       | 368   | 1     | 0.95   |
-| OCZ       | TRION150           | 240 GB | 2       | 338   | 0     | 0.93   |
-| OCZ       | AGILITY3           | 240 GB | 2       | 893   | 7     | 0.45   |
+| OCZ       | SOLID3             | 64 GB  | 2       | 269   | 0     | 0.74   |
 | OCZ       | VERTEX-TURBO       | 32 GB  | 2       | 298   | 56    | 0.09   |
 
 SSD by Family
@@ -54,8 +59,8 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
+| OCZ       | Indilinx Barefoot_2... | 4      | 14      | 1277  | 1     | 3.31   |
 | OCZ       | Indilinx Barefoot b... | 2      | 4       | 1284  | 28    | 3.15   |
-| OCZ       | Indilinx Barefoot_2... | 3      | 12      | 1008  | 1     | 2.54   |
-| OCZ       | SandForce Driven SSDs  | 8      | 36      | 1239  | 68    | 2.51   |
+| OCZ       | SandForce Driven SSDs  | 11     | 57      | 1365  | 56    | 2.94   |
 | OCZ       | Indilinx Barefoot 3... | 2      | 5       | 736   | 0     | 2.02   |
-| OCZ       | OCZ/Toshiba Trion SSDs | 2      | 4       | 380   | 0     | 1.04   |
+| OCZ       | OCZ/Toshiba Trion SSDs | 3      | 10      | 593   | 0     | 1.63   |

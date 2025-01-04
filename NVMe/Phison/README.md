@@ -17,9 +17,15 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Phison    | Sabrent Rocket Q   | 1 TB   | 6       | 504   | 0     | 1.38   |
-| Phison    | PCIe SSD           | 500 GB | 8       | 333   | 0     | 0.91   |
-| Phison    | Sabrent            | 1 TB   | 19      | 325   | 0     | 0.89   |
-| Phison    | Sabrent Rocket 4.0 | 1 TB   | 5       | 132   | 0     | 0.36   |
+| Phison    | Sabrent Rocket Q   | 1 TB   | 9       | 418   | 0     | 1.15   |
+| Phison    | Sabrent            | 1 TB   | 24      | 329   | 0     | 0.90   |
+| Phison    | Viper M.2 VPN100   | 1 TB   | 2       | 265   | 0     | 0.73   |
+| Phison    | Sabrent Rocket 4.0 | 500 GB | 4       | 178   | 0     | 0.49   |
+| Phison    | PCIe SSD           | 250 GB | 27      | 148   | 0     | 0.41   |
+| Phison    | Sabrent Rocket 4.0 | 1 TB   | 6       | 114   | 0     | 0.31   |
+| Phison    | 311CD0512GB        | 512 GB | 2       | 82    | 0     | 0.22   |
 | Phison    | minisforum         | 512 GB | 2       | 28    | 0     | 0.08   |
+| Phison    | YSO256GTLCW-E3C-2  | 256 GB | 5       | 10    | 0     | 0.03   |
+| Phison    | YSO128GTLCW-E3C-2  | 128 GB | 7       | 6     | 0     | 0.02   |
 | Phison    | Sabrent SB-1342... | 512 GB | 2       | 6     | 0     | 0.02   |
+| Phison    | ESO512GYLCT-EP3-2L | 512 GB | 2       | 3     | 0     | 0.01   |

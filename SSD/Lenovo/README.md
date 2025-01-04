@@ -17,7 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Lenovo    | SSDSC2BB120G6N ... | 120 GB | 1       | 2171  | 0     | 5.95   |
-| Lenovo    | LS510-mSATA-240GB  | 240 GB | 1       | 490   | 0     | 1.34   |
-| Lenovo    | SSD SL700 240G     | 240 GB | 1       | 350   | 0     | 0.96   |
-| Lenovo    | SSD SL700 120G     | 120 GB | 1       | 50    | 0     | 0.14   |
+| Lenovo    | SSD SL700 120G     | 120 GB | 2       | 185   | 0     | 0.51   |
