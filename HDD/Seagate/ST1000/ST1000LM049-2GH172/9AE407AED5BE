@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.0-STABLE amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Seagate Barracuda Pro Compute
@@ -12,10 +12,10 @@ Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    7200 rpm
 Form Factor:      2.5 inches
 TRIM Command:     Available
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jan 25 21:32:00 2022 MSK
+Local Time is:    Thu May  2 21:28:58 2024 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,29 +65,29 @@ SCT capabilities: 	       (0x3035)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   082   064   006    -    173267509
+  1 Raw_Read_Error_Rate     POSR--   079   064   006    -    71505919
   3 Spin_Up_Time            PO----   099   099   000    -    0
-  4 Start_Stop_Count        -O--CK   095   095   020    -    6067
+  4 Start_Stop_Count        -O--CK   088   088   020    -    12651
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   080   060   045    -    99863814
-  9 Power_On_Hours          -O--CK   095   095   000    -    4403 (75 81 0)
+  7 Seek_Error_Rate         POSR--   081   060   045    -    115528386
+  9 Power_On_Hours          -O--CK   092   092   000    -    7692 (206 192 0)
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   097   097   020    -    3522
+ 12 Power_Cycle_Count       -O--CK   094   094   020    -    6772
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-188 Command_Timeout         -O--CK   100   099   000    -    4
+188 Command_Timeout         -O--CK   100   099   000    -    10
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   057   047   040    -    43 (Min/Max 40/43)
-191 G-Sense_Error_Rate      -O--CK   100   100   000    -    31
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    299
-193 Load_Cycle_Count        -O--CK   087   087   000    -    26507
-194 Temperature_Celsius     -O---K   043   053   000    -    43 (0 2 0 0 0)
+190 Airflow_Temperature_Cel -O---K   053   046   040    -    47 (Min/Max 44/47)
+191 G-Sense_Error_Rate      -O--CK   100   100   000    -    41
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    335
+193 Load_Cycle_Count        -O--CK   075   075   000    -    50448
+194 Temperature_Celsius     -O---K   047   054   000    -    47 (0 2 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    1837 (78 33 0)
-241 Total_LBAs_Written      ------   100   253   000    -    17245475750
-242 Total_LBAs_Read         ------   100   253   000    -    15407380158
+240 Head_Flying_Hours       ------   100   253   000    -    2495 (46 77 0)
+241 Total_LBAs_Written      ------   100   253   000    -    21226701775
+242 Total_LBAs_Read         ------   100   253   000    -    18649799807
 254 Free_Fall_Sensor        -O--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -153,9 +153,9 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    44 Celsius
-Power Cycle Min/Max Temperature:     40/44 Celsius
-Lifetime    Min/Max Temperature:      2/53 Celsius
+Current Temperature:                    47 Celsius
+Power Cycle Min/Max Temperature:     44/47 Celsius
+Lifetime    Min/Max Temperature:      2/54 Celsius
 Specified Max Operating Temperature:    36 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -164,31 +164,31 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        30 minutes
 Min/Max recommended Temperature:     14/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (85)
+Temperature History Size (Index):    128 (127)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            3522  ---  Lifetime Power-On Resets
-0x01  0x010  4            4403  ---  Power-on Hours
-0x01  0x018  6     17268988334  ---  Logical Sectors Written
-0x01  0x020  6        98946718  ---  Number of Write Commands
-0x01  0x028  6     15411809063  ---  Logical Sectors Read
-0x01  0x030  6       106724092  ---  Number of Read Commands
+0x01  0x008  4            6772  ---  Lifetime Power-On Resets
+0x01  0x010  4            7692  ---  Power-on Hours
+0x01  0x018  6     21250214359  ---  Logical Sectors Written
+0x01  0x020  6       119319504  ---  Number of Write Commands
+0x01  0x028  6     18654227794  ---  Logical Sectors Read
+0x01  0x030  6       126849411  ---  Number of Read Commands
 0x01  0x038  6               -  ---  Date and Time TimeStamp
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4            1158  ---  Spindle Motor Power-on Hours
-0x03  0x010  4             139  ---  Head Flying Hours
-0x03  0x018  4           26507  ---  Head Load Events
+0x03  0x008  4            3568  ---  Spindle Motor Power-on Hours
+0x03  0x010  4             362  ---  Head Flying Hours
+0x03  0x018  4           50448  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures
 0x03  0x038  4               0  ---  Number of Realloc. Candidate Logical Sectors
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
-0x04  0x008  4              20  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4               4  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x008  4              24  ---  Number of Reported Uncorrectable Errors
+0x04  0x010  4              10  ---  Resets Between Cmd Acceptance and Completion
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

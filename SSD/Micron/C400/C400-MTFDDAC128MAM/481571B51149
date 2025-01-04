@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p10 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Mar 25 00:10:23 2024 EDT
+Local Time is:    Tue May 21 00:21:16 2024 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,14 +68,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    26353
- 12 Power_Cycle_Count       -O--CK   100   100   001    -    95
+  9 Power_On_Hours          -O--CK   100   100   001    -    27722
+ 12 Power_Cycle_Count       -O--CK   100   100   001    -    96
 170 Grown_Failing_Block_Ct  PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   001    -    0
 172 Erase_Fail_Count        -O--CK   100   100   001    -    0
-173 Wear_Leveling_Count     PO--CK   097   097   010    -    93
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    90
-181 Non4k_Aligned_Access    -O---K   100   100   001    -    8564 8087 477
+173 Wear_Leveling_Count     PO--CK   096   096   010    -    126
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    91
+181 Non4k_Aligned_Access    -O---K   100   100   001    -    8912 8433 479
 183 SATA_Iface_Downshift    -O--CK   100   100   001    -    0
 184 End-to-End_Error        PO--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   001    -    0
@@ -87,7 +87,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--CK   100   100   001    -    0
 198 Offline_Uncorrectable   ----CK   100   100   001    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   001    -    0
-202 Perc_Rated_Life_Used    ---RC-   097   097   001    -    3
+202 Perc_Rated_Life_Used    ---RC-   096   096   001    -    4
 206 Write_Error_Rate        -OSR--   100   100   001    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -149,7 +149,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (62)
+Temperature History Size (Index):    478 (425)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -158,12 +158,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4              95  ---  Lifetime Power-On Resets
-0x01  0x010  4           26353  ---  Power-on Hours
-0x01  0x018  6     15326299492  ---  Logical Sectors Written
-0x01  0x020  6       515817052  ---  Number of Write Commands
-0x01  0x028  6      1519744246  ---  Logical Sectors Read
-0x01  0x030  6        35033595  ---  Number of Read Commands
+0x01  0x008  4              96  ---  Lifetime Power-On Resets
+0x01  0x010  4           27722  ---  Power-on Hours
+0x01  0x018  6     23228511234  ---  Logical Sectors Written
+0x01  0x020  6       590005814  ---  Number of Write Commands
+0x01  0x028  6      1943035641  ---  Logical Sectors Read
+0x01  0x030  6        41038404  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

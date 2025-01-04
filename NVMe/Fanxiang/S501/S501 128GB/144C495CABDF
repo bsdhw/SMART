@@ -1,21 +1,24 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p2 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Fanxiang S501 128GB
 Serial Number:                      --
-Firmware Version:                   V0808A0
+Firmware Version:                   T1103F0L
 PCI Vendor/Subsystem ID:            0x126f
-IEEE OUI Identifier:                0x000000
+IEEE OUI Identifier:                0x000001
+Total NVM Capacity:                 128,035,676,160 [128 GB]
+Unallocated NVM Capacity:           0
 Controller ID:                      1
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Fri Sep  1 18:46:47 2023 UTC
+Namespace 1 IEEE EUI-64:            000001 ...
+Local Time is:                      Sun Oct 29 21:27:03 2023 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
-Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
-Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
+Optional Admin Commands (0x0007):   Security Format Frmw_DL
+Optional NVM Commands (0x0014):     DS_Mngmt Sav/Sel_Feat
 Log Page Attributes (0x03):         S/H_per_NS Cmd_Eff_Lg
 Maximum Data Transfer Size:         64 Pages
 Warning  Comp. Temp. Threshold:     83 Celsius
@@ -23,7 +26,7 @@ Critical Comp. Temp. Threshold:     85 Celsius
 
 Supported Power States
 St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
- 0 +     6.00W       -        -    0  0  0  0    15000       0
+ 0 +     6.00W       -        -    0  0  0  0        0       0
 
 Supported LBA Sizes (NSID 0x1)
 Id Fmt  Data  Metadt  Rel_Perf
@@ -37,15 +40,15 @@ Critical Warning:                   0x00
 Temperature:                        48 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    5%
-Data Units Read:                    25,821 [13.2 GB]
-Data Units Written:                 13,861,551 [7.09 TB]
-Host Read Commands:                 1,271,104
-Host Write Commands:                399,796,949
-Controller Busy Time:               306
-Power Cycles:                       18
-Power On Hours:                     3,738
-Unsafe Shutdowns:                   14
+Percentage Used:                    4%
+Data Units Read:                    27,951 [14.3 GB]
+Data Units Written:                 11,322,026 [5.79 TB]
+Host Read Commands:                 471,555
+Host Write Commands:                317,028,879
+Controller Busy Time:               373
+Power Cycles:                       32
+Power On Hours:                     7,947
+Unsafe Shutdowns:                   11
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
@@ -54,20 +57,5 @@ Critical Comp. Temperature Time:    0
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
 
-Self-test Log (NVMe Log 0x06)
-Self-test status: No self-test in progress
-Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
- 0   Short             Completed without error                1306            -     -   -   -    -
- 1   Short             Completed without error                 905            -     -   -   -    -
- 2   Short             Completed without error                   0            -     -   -   -    -
- 3   Short             Completed without error                   0            -     -   -   -    -
- 4   Short             Completed without error                   0            -     -   -   -    -
- 5   Short             Completed without error                   0            -     -   -   -    -
- 6   Short             Completed without error                   0            -     -   -   -    -
- 7   Short             Completed without error                   0            -     -   -   -    -
- 8   Short             Completed without error                   0            -     -   -   -    -
- 9   Short             Completed without error                   0            -     -   -   -    -
-10   Short             Completed without error                   0            -     -   -   -    -
-11   Short             Completed without error                   0            -     -   -   -    -
-12   Short             Completed without error                   0            -     -   -   -    -
+Self-tests not supported
 

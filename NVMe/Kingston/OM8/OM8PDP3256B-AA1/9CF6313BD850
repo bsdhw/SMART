@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Mon Jan  9 01:49:19 2023 -04
+Local Time is:                      Sun May 21 01:50:03 2023 -04
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,20 +42,20 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        52 Celsius
+Temperature:                        58 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    0%
-Data Units Read:                    1,474,830 [755 GB]
-Data Units Written:                 2,100,437 [1.07 TB]
-Host Read Commands:                 26,095,669
-Host Write Commands:                44,317,278
-Controller Busy Time:               124
-Power Cycles:                       221
-Power On Hours:                     511
-Unsafe Shutdowns:                   53
+Percentage Used:                    1%
+Data Units Read:                    4,881,441 [2.49 TB]
+Data Units Written:                 6,820,210 [3.49 TB]
+Host Read Commands:                 109,294,711
+Host Write Commands:                179,902,739
+Controller Busy Time:               1,163
+Power Cycles:                       491
+Power On Hours:                     1,997
+Unsafe Shutdowns:                   86
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      465
+Error Information Log Entries:      781
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 

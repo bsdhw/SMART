@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SK hynix SATA SSDs
@@ -11,10 +11,10 @@ Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
 Form Factor:      M.2
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Mar 25 19:00:51 2023 MST
+Local Time is:    Sat Oct 14 09:45:09 2023 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,15 +60,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   166   166   006    -    0
   5 Retired_Block_Count     -O--CK   253   100   036    -    0
-  9 Power_On_Hours          -O--CK   077   077   000    -    20989
+  9 Power_On_Hours          -O--CK   071   071   000    -    25819
  12 Power_Cycle_Count       -O--CK   100   100   020    -    1691
-100 Total_Erase_Count       -O--CK   099   099   000    -    47125904
+100 Total_Erase_Count       -O--CK   099   099   000    -    54540980
 171 Program_Fail_Count      -O--CK   253   253   000    -    0
 172 Erase_Fail_Count        -O--CK   253   253   000    -    0
 174 Unexpect_Power_Loss_Ct  ----CK   100   100   000    -    274
 175 Program_Fail_Count_Chip -O--CK   253   253   000    -    0
 176 Unused_Rsvd_Blk_Cnt_Tot -O--CK   253   253   000    -    0
-177 Wear_Leveling_Count     -O--CK   033   033   000    -    715
+177 Wear_Leveling_Count     -O--CK   023   023   000    -    827
 178 Used_Rsvd_Blk_Cnt_Chip  -O--CK   100   100   000    -    30
 179 Used_Rsvd_Blk_Cnt_Tot   -O--CK   100   100   000    -    224
 180 Erase_Fail_Count        -O--CK   100   100   000    -    5216
@@ -78,16 +78,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   253   253   000    -    0
 188 Command_Timeout         -O--CK   253   253   000    -    0
 191 Unknown_SK_hynix_Attrib -O--CK   253   253   000    -    0
-194 Temperature_Celsius     -O----   037   000   000    -    37 (Min/Max 0/68)
+194 Temperature_Celsius     -O----   038   000   000    -    38 (Min/Max 0/68)
 195 Hardware_ECC_Recovered  -O--CK   253   253   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   253   253   000    -    0
 201 Percent_Lifetime_Remain -OSR--   100   100   000    -    0
-204 Soft_ECC_Correction     -OSR--   001   001   000    -    14659
-231 SSD_Life_Left           PO--CK   034   034   010    -    67
-234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    387623770304
-241 Total_Writes_GB         -O--CK   100   100   000    -    42170331008
-242 Total_Reads_GB          -O--CK   100   100   000    -    26049104905
-250 Read_Retry_Count        -O--CK   100   100   000    -    27862473
+204 Soft_ECC_Correction     -OSR--   001   001   000    -    53117
+231 SSD_Life_Left           PO--CK   023   023   010    -    78
+234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    448842600704
+241 Total_Writes_GB         -O--CK   100   100   000    -    49428435024
+242 Total_Reads_GB          -O--CK   100   100   000    -    26301635266
+250 Read_Retry_Count        -O--CK   100   100   000    -    28507238
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -189,5 +189,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2           65  Device-to-host register FISes sent due to a COMRESET
+0x000a  2         1931  Device-to-host register FISes sent due to a COMRESET
 

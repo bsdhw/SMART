@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Indilinx Barefoot based SSDs
@@ -10,9 +10,9 @@ User Capacity:    256,060,514,304 bytes [256 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
-Local Time is:    Wed Feb  1 18:00:33 2023 CET
+Local Time is:    Tue Sep 19 14:39:47 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -58,23 +58,23 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   ---   ---   ---    -    7
-  9 Power_On_Hours          ------   ---   ---   ---    -    7351
- 12 Power_Cycle_Count       ------   ---   ---   ---    -    2862
+  9 Power_On_Hours          ------   ---   ---   ---    -    7359
+ 12 Power_Cycle_Count       ------   ---   ---   ---    -    2866
 184 Initial_Bad_Block_Count ------   ---   ---   ---    -    101
 195 Program_Failure_Blk_Ct  ------   ---   ---   ---    -    0
 196 Erase_Failure_Blk_Ct    ------   ---   ---   ---    -    0
 197 Read_Failure_Blk_Ct     ------   ---   ---   ---    -    0
-198 Read_Sectors_Tot_Ct     ------   ---   ---   ---    -    18575454961
-199 Write_Sectors_Tot_Ct    ------   ---   ---   ---    -    19325007545
-200 Read_Commands_Tot_Ct    ------   ---   ---   ---    -    299791304
-201 Write_Commands_Tot_Ct   ------   ---   ---   ---    -    278171839
-202 Error_Bits_Flash_Tot_Ct ------   ---   ---   ---    -    7279628
-203 Corr_Read_Errors_Tot_Ct ------   ---   ---   ---    -    6789679
+198 Read_Sectors_Tot_Ct     ------   ---   ---   ---    -    18580309942
+199 Write_Sectors_Tot_Ct    ------   ---   ---   ---    -    19355314817
+200 Read_Commands_Tot_Ct    ------   ---   ---   ---    -    299939741
+201 Write_Commands_Tot_Ct   ------   ---   ---   ---    -    278905491
+202 Error_Bits_Flash_Tot_Ct ------   ---   ---   ---    -    7283617
+203 Corr_Read_Errors_Tot_Ct ------   ---   ---   ---    -    6792850
 204 Bad_Block_Full_Flag     ------   ---   ---   ---    -    0
 205 Max_PE_Count_Spec       ------   ---   ---   ---    -    10000
 206 Min_Erase_Count         ------   ---   ---   ---    -    1847
 207 Max_Erase_Count         ------   ---   ---   ---    -    5557
-208 Average_Erase_Count     ------   ---   ---   ---    -    3506
+208 Average_Erase_Count     ------   ---   ---   ---    -    3508
 209 Remaining_Lifetime_Perc ------   ---   ---   ---    -    65
 211 SATA_Error_Ct_CRC       ------   ---   ---   ---    -    0
 212 SATA_Error_Ct_Handshake ------   ---   ---   ---    -    0

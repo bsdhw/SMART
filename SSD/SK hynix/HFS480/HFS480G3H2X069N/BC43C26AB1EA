@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Jun 10 18:49:29 2024 -03
+Local Time is:    Fri Jun 14 20:43:43 2024 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,24 +66,24 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -OSR--   100   100   006    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   002    -    0
-  9 Power_On_Hours          -O--CK   094   094   000    -    5597
- 12 Power_Cycle_Count       -O--CK   100   100   020    -    49
+  9 Power_On_Hours          -O--CK   094   094   000    -    5695
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    51
  13 Read_Soft_Error_Rate    -OSR-K   100   100   000    -    0
-173 Unknown_Attribute       -O--CK   099   099   000    -    141
-175 Program_Fail_Count_Chip -O--CK   099   099   000    -    109
+173 Unknown_Attribute       -O--CK   099   099   000    -    150
+175 Program_Fail_Count_Chip -O--CK   099   099   000    -    117
 179 Used_Rsvd_Blk_Cnt_Tot   PO--CK   100   100   002    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot ----C-   100   100   000    -    731
 181 Program_Fail_Cnt_Total  -O--CK   100   100   000    -    0
 182 Erase_Fail_Count_Total  -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O----   060   046   000    -    40 (Min/Max 25/54)
+194 Temperature_Celsius     -O----   056   046   000    -    44 (Min/Max 25/54)
 195 Hardware_ECC_Recovered  -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   100   100   000    -    0
 201 Unknown_SSD_Attribute   PO--CK   100   100   050    -    0
 202 Unknown_SSD_Attribute   PO--CK   100   100   050    -    0
-233 Media_Wearout_Indicator -O--CK   100   100   000    -    18575
-235 Unknown_Attribute       -O--CK   100   100   000    -    18575
-241 Total_LBAs_Written      -O--CK   100   100   000    -    56415
+233 Media_Wearout_Indicator -O--CK   100   100   000    -    19705
+235 Unknown_Attribute       -O--CK   100   100   000    -    19705
+241 Total_LBAs_Written      -O--CK   100   100   000    -    60414
 245 Unknown_Attribute       PO--CK   099   099   001    -    99
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -124,8 +124,8 @@ Selective Self-tests/Logging not supported
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    40 Celsius
-Power Cycle Min/Max Temperature:     39/50 Celsius
+Current Temperature:                    44 Celsius
+Power Cycle Min/Max Temperature:     35/44 Celsius
 Lifetime    Min/Max Temperature:     25/54 Celsius
 Specified Max Operating Temperature:    65 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -136,7 +136,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -20/65 Celsius
 Min/Max Temperature Limit:           -20/125 Celsius
-Temperature History Size (Index):    192 (182)
+Temperature History Size (Index):    192 (73)
 
 SCT Error Recovery Control:
            Read:     80 (8.0 seconds)
@@ -145,20 +145,20 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              49  ---  Lifetime Power-On Resets
-0x01  0x010  4            5597  ---  Power-on Hours
-0x01  0x018  6     38956052326  ---  Logical Sectors Written
-0x01  0x020  6       379874827  ---  Number of Write Commands
-0x01  0x028  6      1009277846  ---  Logical Sectors Read
-0x01  0x030  6        11671124  ---  Number of Read Commands
-0x01  0x038  6   1716440358841  ---  Date and Time TimeStamp
+0x01  0x008  4              51  ---  Lifetime Power-On Resets
+0x01  0x010  4            5695  ---  Power-on Hours
+0x01  0x018  6     41325206998  ---  Logical Sectors Written
+0x01  0x020  6       395257781  ---  Number of Write Commands
+0x01  0x028  6      1042235784  ---  Logical Sectors Read
+0x01  0x030  6        12146117  ---  Number of Read Commands
+0x01  0x038  6   1716791159771  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              40  ---  Current Temperature
-0x05  0x010  1              41  ---  Average Short Term Temperature
-0x05  0x018  1              42  ---  Average Long Term Temperature
+0x05  0x008  1              44  ---  Current Temperature
+0x05  0x010  1              44  ---  Average Short Term Temperature
+0x05  0x018  1               -  ---  Average Long Term Temperature
 0x05  0x020  1              54  ---  Highest Temperature
 0x05  0x028  1              25  ---  Lowest Temperature
 0x05  0x030  1              48  ---  Highest Average Short Term Temperature
@@ -170,7 +170,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1             -20  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             249  ---  Number of Hardware Resets
+0x06  0x008  4             263  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               1  ---  Percentage Used Endurance Indicator

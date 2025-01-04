@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p6 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,7 +10,7 @@ User Capacity:    80,026,361,856 bytes [80.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Mon Nov  4 20:52:48 2024 CST
+Local Time is:    Sun Nov 24 15:13:02 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -57,26 +57,26 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   2 Throughput_Performance  P-S---   100   100   050    -    0
-  3 Spin_Up_Time            POS--K   100   100   001    -    1732
-  4 Start_Stop_Count        -O--CK   100   100   000    -    2427
+  3 Spin_Up_Time            POS--K   100   100   001    -    1730
+  4 Start_Stop_Count        -O--CK   100   100   000    -    2443
   5 Reallocated_Sector_Ct   PO--CK   100   100   050    -    0
   7 Seek_Error_Rate         PO-R--   100   100   050    -    0
   8 Seek_Time_Performance   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   093   093   000    -    2851
+  9 Power_On_Hours          -O--CK   092   092   000    -    3302
  10 Spin_Retry_Count        PO--CK   148   100   030    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    2296
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    241
-193 Load_Cycle_Count        -O--CK   094   094   000    -    69635
-194 Temperature_Celsius     -O---K   100   100   000    -    35 (Min/Max -8/57)
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    2312
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    242
+193 Load_Cycle_Count        -O--CK   090   090   000    -    107886
+194 Temperature_Celsius     -O---K   100   100   000    -    22 (Min/Max -8/57)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   200   200   000    -    34
-220 Disk_Shift              -O----   100   100   000    -    4234
-222 Loaded_Hours            -O--CK   095   095   000    -    2143
+220 Disk_Shift              -O----   100   100   000    -    4235
+222 Loaded_Hours            -O--CK   095   095   000    -    2342
 223 Load_Retry_Count        -O--CK   100   100   000    -    0
 224 Load_Friction           -O---K   100   100   000    -    0
-226 Load-in_Time            -OS--K   100   100   000    -    394
+226 Load-in_Time            -OS--K   100   100   000    -    391
 240 Head_Flying_Hours       P-----   100   100   001    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -282,8 +282,8 @@ ID      Size     Value  Description
 0x0006  4            0  R_ERR response for device-to-host non-data FIS
 0x0007  4            0  R_ERR response for host-to-device non-data FIS
 0x0008  4            0  Device-to-host non-data FIS retries
-0x0009  4            3  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           16  Device-to-host register FISes sent due to a COMRESET
+0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            4  Device-to-host register FISes sent due to a COMRESET
 0x000b  4            0  CRC errors within host-to-device FIS
 0x000d  4            0  Non-CRC errors within host-to-device FIS
 0x000f  4            0  R_ERR response for host-to-device data FIS, CRC

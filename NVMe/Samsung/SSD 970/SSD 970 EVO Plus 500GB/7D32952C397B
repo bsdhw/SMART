@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,10 +13,10 @@ Controller ID:                      4
 NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
-Namespace 1 Utilization:            56,770,129,920 [56.7 GB]
+Namespace 1 Utilization:            229,776,879,616 [229 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Wed Jan 10 23:00:30 2024 CET
+Local Time is:                      Sun May 12 23:48:54 2024 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,24 +42,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        45 Celsius
+Temperature:                        47 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    9,555 [4.89 GB]
-Data Units Written:                 202,905 [103 GB]
-Host Read Commands:                 302,762
-Host Write Commands:                12,677,400
-Controller Busy Time:               5
+Data Units Read:                    16,440 [8.41 GB]
+Data Units Written:                 841,911 [431 GB]
+Host Read Commands:                 741,546
+Host Write Commands:                43,421,288
+Controller Busy Time:               15
 Power Cycles:                       22
-Power On Hours:                     502
+Power On Hours:                     3,454
 Unsafe Shutdowns:                   3
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      21
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               45 Celsius
-Temperature Sensor 2:               45 Celsius
+Temperature Sensor 1:               47 Celsius
+Temperature Sensor 2:               47 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

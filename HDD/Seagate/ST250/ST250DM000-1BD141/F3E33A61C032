@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Seagate Barracuda 7200.14 (AF)
@@ -10,10 +10,10 @@ Firmware Version: KC45
 User Capacity:    250,059,350,016 bytes [250 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    7200 rpm
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun May 22 23:22:07 2022 +05
+Local Time is:    Wed Oct 25 22:05:54 2023 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,28 +59,28 @@ SCT capabilities: 	       (0x303f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   119   096   006    Pre-fail  Always       -       217119736
-  3 Spin_Up_Time            0x0003   098   097   000    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0032   094   094   020    Old_age   Always       -       6213
+  1 Raw_Read_Error_Rate     0x000f   112   096   006    Pre-fail  Always       -       44658040
+  3 Spin_Up_Time            0x0003   100   097   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   091   091   020    Old_age   Always       -       10188
   5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
-  7 Seek_Error_Rate         0x000f   085   060   030    Pre-fail  Always       -       339354082
-  9 Power_On_Hours          0x0032   062   062   000    Old_age   Always       -       34135
+  7 Seek_Error_Rate         0x000f   085   060   030    Pre-fail  Always       -       369650229
+  9 Power_On_Hours          0x0032   051   051   000    Old_age   Always       -       43451
  10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   097   097   020    Old_age   Always       -       4085
-183 Runtime_Bad_Block       0x0032   099   099   000    Old_age   Always       -       1
+ 12 Power_Cycle_Count       0x0032   096   096   020    Old_age   Always       -       4337
+183 Runtime_Bad_Block       0x0032   098   098   000    Old_age   Always       -       2
 184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   001   001   000    Old_age   Always       -       407
 188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0 0 1
 189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0022   063   051   045    Old_age   Always       -       37 (Min/Max 21/37)
-194 Temperature_Celsius     0x0022   037   049   000    Old_age   Always       -       37 (0 15 0 0 0)
-195 Hardware_ECC_Recovered  0x001a   053   030   000    Old_age   Always       -       217119736
+190 Airflow_Temperature_Cel 0x0022   067   051   045    Old_age   Always       -       33 (Min/Max 17/36)
+194 Temperature_Celsius     0x0022   033   049   000    Old_age   Always       -       33 (0 14 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   048   030   000    Old_age   Always       -       44658040
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       1
-240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       24571h+35m+25.906s
-241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       2029940191
-242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       1995235082
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       28785h+17m+29.838s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       613334677
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       935419298
 
 SMART Error Log Version: 1
 ATA Error Count: 399 (device log contains only the most recent five errors)
@@ -198,6 +198,8 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
 
 
 

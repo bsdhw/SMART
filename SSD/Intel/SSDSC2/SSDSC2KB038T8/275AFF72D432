@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu May 23 03:24:36 2024 MSK
+Local Time is:    Thu May 23 03:34:15 2024 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -85,14 +85,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 225 Host_Writes_32MiB       -O--CK   100   100   000    -    1071723
 226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    276
 227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    98
-228 Workload_Minutes        -O--CK   100   100   000    -    958141
+228 Workload_Minutes        -O--CK   100   100   000    -    958150
 232 Available_Reservd_Space PO--CK   100   100   010    -    0
 233 Media_Wearout_Indicator -O--CK   100   100   000    -    0
 234 Thermal_Throttle_Status -O--CK   100   100   000    -    0/0
 235 Power_Loss_Cap_Test     PO--CK   100   100   010    -    2271 (47 65535)
 241 Host_Writes_32MiB       -O--CK   100   100   000    -    1071723
 242 Host_Reads_32MiB        -O--CK   100   100   000    -    70253744
-243 NAND_Writes_32MiB       -O--CK   100   100   000    -    3639487
+243 NAND_Writes_32MiB       -O--CK   100   100   000    -    3639512
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -184,7 +184,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/73 Celsius
 Min/Max Temperature Limit:            0/73 Celsius
-Temperature History Size (Index):    478 (460)
+Temperature History Size (Index):    478 (469)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -198,7 +198,7 @@ Page  Offset Size        Value Flags Description
 0x01  0x020  6       198226473  ---  Number of Write Commands
 0x01  0x028  6   4604149379745  ---  Logical Sectors Read
 0x01  0x030  6        42728877  ---  Number of Read Commands
-0x01  0x038  6      1653920257  ---  Date and Time TimeStamp
+0x01  0x038  6      1654439230  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       GV128
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Fri Dec  2 09:36:27 2022 EST
+Local Time is:                      Sun Oct 15 08:08:46 2023 EDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -42,15 +42,15 @@ Critical Warning:                   0x00
 Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    25,822 [13.2 GB]
-Data Units Written:                 72,561 [37.1 GB]
-Host Read Commands:                 449,714
-Host Write Commands:                2,754,355
-Controller Busy Time:               12
-Power Cycles:                       17
-Power On Hours:                     60
-Unsafe Shutdowns:                   7
+Percentage Used:                    10%
+Data Units Read:                    69,977 [35.8 GB]
+Data Units Written:                 26,589,579 [13.6 TB]
+Host Read Commands:                 2,521,403
+Host Write Commands:                552,905,821
+Controller Busy Time:               221
+Power Cycles:                       40
+Power On Hours:                     2,775
+Unsafe Shutdowns:                   22
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
@@ -58,4 +58,6 @@ Critical Comp. Temperature Time:    0
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
+
+Self-tests not supported
 

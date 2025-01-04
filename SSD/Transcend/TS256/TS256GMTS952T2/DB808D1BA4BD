@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p8 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     TS256GMTS952T2
@@ -10,10 +10,10 @@ User Capacity:    256,060,514,304 bytes [256 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database 7.3/5319
+Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Oct 13 17:50:49 2023 CEST
+Local Time is:    Sun Dec  3 07:30:47 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,34 +62,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    8871
+  9 Power_On_Hours          ------   100   100   000    -    9811
  12 Power_Cycle_Count       ------   100   100   000    -    25
-148 Unknown_Attribute       ------   100   100   000    -    251020
-149 Unknown_Attribute       ------   100   100   000    -    2667
-150 Unknown_Attribute       ------   100   100   000    -    2505
-151 Unknown_Attribute       ------   100   100   000    -    2642
-164 Unknown_Attribute       ------   100   100   000    -    138059
-165 Unknown_Attribute       ------   100   100   000    -    136
-166 Unknown_Attribute       ------   100   100   000    -    36
-167 Unknown_Attribute       ------   100   100   000    -    75
+148 Unknown_Attribute       ------   100   100   000    -    293760
+149 Unknown_Attribute       ------   100   100   000    -    3107
+150 Unknown_Attribute       ------   100   100   000    -    3012
+151 Unknown_Attribute       ------   100   100   000    -    3092
+164 Unknown_Attribute       ------   100   100   000    -    165306
+165 Unknown_Attribute       ------   100   100   000    -    148
+166 Unknown_Attribute       ------   100   100   000    -    47
+167 Unknown_Attribute       ------   100   100   000    -    89
 159 Unknown_Attribute       ------   100   100   000    -    0
 160 Unknown_Attribute       ------   100   100   000    -    0
 161 Unknown_Attribute       ------   100   100   000    -    134
 163 Unknown_Attribute       ------   100   100   000    -    15
 168 Unknown_Attribute       ------   100   100   000    -    3000
 169 Unknown_Attribute       ------   100   100   000    -    98
-177 Wear_Leveling_Count     ------   100   100   050    -    87
+177 Wear_Leveling_Count     ------   100   100   050    -    190
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    17
-194 Temperature_Celsius     ------   100   100   000    -    50 (Min/Max 23/67)
+194 Temperature_Celsius     ------   100   100   000    -    52 (Min/Max 23/67)
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Total_LBAs_Written      ------   100   100   000    -    284441
-242 Total_LBAs_Read         ------   100   100   000    -    599
-245 Unknown_Attribute       ------   100   100   000    -    997795
+241 Total_LBAs_Written      ------   100   100   000    -    334429
+242 Total_LBAs_Read         ------   100   100   000    -    639
+245 Unknown_Attribute       ------   100   100   000    -    1184517
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -139,16 +139,16 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              25  ---  Lifetime Power-On Resets
-0x01  0x010  4            8871  ---  Power-on Hours
-0x01  0x018  6     18641131549  ---  Logical Sectors Written
-0x01  0x020  6       539805471  ---  Number of Write Commands
-0x01  0x028  6        39317158  ---  Logical Sectors Read
-0x01  0x030  6         1309695  ---  Number of Read Commands
+0x01  0x010  4            9811  ---  Power-on Hours
+0x01  0x018  6     21917187296  ---  Logical Sectors Written
+0x01  0x020  6       621700034  ---  Number of Write Commands
+0x01  0x028  6        41895457  ---  Logical Sectors Read
+0x01  0x030  6         1381005  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4              17  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            1508  ---  Number of Hardware Resets
+0x06  0x008  4            1613  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               2  ---  Percentage Used Endurance Indicator

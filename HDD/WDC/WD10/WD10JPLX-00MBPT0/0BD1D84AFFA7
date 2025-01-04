@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Oct 26 22:10:21 2022 EDT
+Local Time is:    Tue May  2 23:09:23 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,18 +59,18 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   062    Pre-fail  Always       -       0
   2 Throughput_Performance  0x0005   100   100   040    Pre-fail  Offline      -       0
-  3 Spin_Up_Time            0x0007   253   253   033    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       919
+  3 Spin_Up_Time            0x0007   205   205   033    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       1001
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   100   100   040    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       313
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       347
  10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       152
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       168
 191 G-Sense_Error_Rate      0x000a   100   100   000    Old_age   Always       -       0
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       8
-193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       4231
-194 Temperature_Celsius     0x0002   130   130   000    Old_age   Always       -       46 (Min/Max 22/58)
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       4397
+194 Temperature_Celsius     0x0002   136   136   000    Old_age   Always       -       44 (Min/Max 22/58)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0

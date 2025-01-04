@@ -14,12 +14,14 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Jul 24 21:04:12 2023 MSK
+Local Time is:    Tue Jul 25 10:25:19 2023 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
 === START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -57,8 +59,8 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       4
-  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       5269h+00m+00.000s
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       751
+  9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       5270h+00m+00.000s
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       752
 170 Available_Reservd_Space 0x0033   094   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
@@ -66,25 +68,26 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       2
 184 End-to-End_Error        0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   035   100   000    Old_age   Always       -       35 (Min/Max 12/51)
+190 Airflow_Temperature_Cel 0x0032   028   100   000    Old_age   Always       -       28 (Min/Max 12/51)
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       23
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       4
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215268
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215287
 226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       65535
 227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       20
 228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       65535
 232 Available_Reservd_Space 0x0033   094   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   068   100   000    Old_age   Always       -       0
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215268
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       307303
-249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       239451
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215287
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       307341
+249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       239454
 
 SMART Error Log not supported
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Aborted by host               00%      5269         -
-# 2  Short offline       Completed without error       00%      5269         -
+# 1  Short offline       Aborted by host               00%      5270         -
+# 2  Short offline       Aborted by host               00%      5270         -
+# 3  Short offline       Completed without error       00%      5269         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS

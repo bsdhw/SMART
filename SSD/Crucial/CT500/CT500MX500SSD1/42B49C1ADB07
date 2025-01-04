@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Feb  3 12:10:34 2024 CET
+Local Time is:    Sat Feb  3 14:24:58 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -62,7 +62,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   000    Pre-fail  Always       -       0
   5 Reallocate_NAND_Blk_Cnt 0x0032   100   100   010    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2443
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2446
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       560
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
@@ -82,7 +82,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 210 Success_RAIN_Recov_Cnt  0x0032   100   100   000    Old_age   Always       -       0
 246 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       979515526
 247 Host_Program_Page_Count 0x0032   100   100   000    Old_age   Always       -       8592200
-248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       6100795
+248 FTL_Program_Page_Count  0x0032   100   100   000    Old_age   Always       -       6100820
 
 SMART Error Log Version: 1
 No Errors Logged

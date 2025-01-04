@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     SSD 128GB
@@ -9,10 +9,10 @@ User Capacity:    128,035,676,160 bytes [128 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available
-Device is:        Not in smartctl database 7.3/5319
+Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Jun 26 20:48:34 2023 CEST
+Local Time is:    Tue Feb  6 19:28:22 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,34 +60,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    5858
- 12 Power_Cycle_Count       -O--CK   100   100   050    -    37
+  9 Power_On_Hours          -O--CK   100   100   050    -    10861
+ 12 Power_Cycle_Count       -O--CK   100   100   050    -    71
 160 Unknown_Attribute       -O--CK   100   100   050    -    0
 161 Unknown_Attribute       PO--CK   100   100   050    -    100
 163 Unknown_Attribute       -O--CK   100   100   050    -    10
-164 Unknown_Attribute       -O--CK   100   100   050    -    50202
-165 Unknown_Attribute       -O--CK   100   100   050    -    161
-166 Unknown_Attribute       -O--CK   100   100   050    -    36
-167 Unknown_Attribute       -O--CK   100   100   050    -    99
+164 Unknown_Attribute       -O--CK   100   100   050    -    106359
+165 Unknown_Attribute       -O--CK   100   100   050    -    305
+166 Unknown_Attribute       -O--CK   100   100   050    -    89
+167 Unknown_Attribute       -O--CK   100   100   050    -    211
 168 Unknown_Attribute       -O--CK   100   100   050    -    5050
-169 Unknown_Attribute       -O--CK   100   100   050    -    99
+169 Unknown_Attribute       -O--CK   100   100   050    -    96
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   050    -    0
 177 Wear_Leveling_Count     -O--CK   100   100   050    -    0
 178 Used_Rsvd_Blk_Cnt_Chip  -O--CK   100   100   050    -    0
 181 Program_Fail_Cnt_Total  -O--CK   100   100   050    -    0
 182 Erase_Fail_Count_Total  -O--CK   100   100   050    -    0
-192 Power-Off_Retract_Count -O--CK   100   100   050    -    23
-194 Temperature_Celsius     -O---K   100   100   050    -    45
-195 Hardware_ECC_Recovered  -O--CK   100   100   050    -    5154
+192 Power-Off_Retract_Count -O--CK   100   100   050    -    44
+194 Temperature_Celsius     -O---K   100   100   050    -    30
+195 Hardware_ECC_Recovered  -O--CK   100   100   050    -    14917
 196 Reallocated_Event_Count -O--CK   100   100   050    -    0
 197 Current_Pending_Sector  -O--CK   100   100   050    -    0
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   050    -    0
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Total_LBAs_Written      ----CK   100   100   050    -    110826
-242 Total_LBAs_Read         ----CK   100   100   050    -    493
-245 Unknown_Attribute       -O--CK   100   100   050    -    401369
+241 Total_LBAs_Written      ----CK   100   100   050    -    221550
+242 Total_LBAs_Read         ----CK   100   100   050    -    1194
+245 Unknown_Attribute       -O--CK   100   100   050    -    864655
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -123,8 +123,8 @@ Selective Self-tests/Logging not supported
 SCT Status Version:                  3
 SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
-Current Temperature:                    45 Celsius
-Power Cycle Min/Max Temperature:     45/45 Celsius
+Current Temperature:                    30 Celsius
+Power Cycle Min/Max Temperature:     30/30 Celsius
 Lifetime    Min/Max Temperature:     18/54 Celsius
 Specified Max Operating Temperature:   100 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -136,14 +136,14 @@ SCT Error Recovery Control command not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              37  ---  Lifetime Power-On Resets
-0x01  0x010  4            5858  ---  Power-on Hours
-0x01  0x018  6      2968145754  ---  Logical Sectors Written
-0x01  0x020  6       417505989  ---  Number of Write Commands
-0x01  0x028  6        32338153  ---  Logical Sectors Read
-0x01  0x030  6         1738062  ---  Number of Read Commands
+0x01  0x008  4              71  ---  Lifetime Power-On Resets
+0x01  0x010  4           10861  ---  Power-on Hours
+0x01  0x018  6      1634626634  ---  Logical Sectors Written
+0x01  0x020  6       794557223  ---  Number of Write Commands
+0x01  0x028  6        78299553  ---  Logical Sectors Read
+0x01  0x030  6         4011927  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               3  ---  Percentage Used Endurance Indicator
+0x07  0x008  1               8  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

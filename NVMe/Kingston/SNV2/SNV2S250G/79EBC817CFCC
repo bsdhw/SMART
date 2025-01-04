@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p10 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Wed Feb 28 22:37:00 2024 UTC
+Local Time is:                      Fri Apr 26 20:04:11 2024 UTC
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0016):   Format Frmw_DL Self_Test
 Optional NVM Commands (0x009f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Verify
@@ -39,17 +39,17 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        55 Celsius
+Temperature:                        63 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    50%
-Data Units Read:                    17,874,342 [9.15 TB]
-Data Units Written:                 211,576,283 [108 TB]
-Host Read Commands:                 103,538,112
-Host Write Commands:                1,870,544,687
-Controller Busy Time:               109,726
-Power Cycles:                       85
-Power On Hours:                     9,149
+Percentage Used:                    61%
+Data Units Read:                    18,899,246 [9.67 TB]
+Data Units Written:                 258,628,770 [132 TB]
+Host Read Commands:                 111,595,768
+Host Write Commands:                2,353,822,911
+Controller Busy Time:               125,130
+Power Cycles:                       86
+Power On Hours:                     10,526
 Unsafe Shutdowns:                   23
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0

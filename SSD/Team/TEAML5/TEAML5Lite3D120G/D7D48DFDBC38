@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p10 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Apr  3 21:47:57 2024 MDT
+Local Time is:    Mon May  6 11:53:15 2024 MDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,15 +61,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    22259
- 12 Power_Cycle_Count       -O--CK   100   100   050    -    151
+  9 Power_On_Hours          -O--CK   100   100   050    -    23035
+ 12 Power_Cycle_Count       -O--CK   100   100   050    -    152
 160 Uncorrectable_Error_Cnt -O--CK   100   100   050    -    0
 161 Valid_Spare_Block_Cnt   PO--CK   100   100   050    -    100
 163 Initial_Bad_Block_Count -O--CK   100   100   050    -    23
-164 Total_Erase_Count       -O--CK   100   100   050    -    1339487
-165 Max_Erase_Count         -O--CK   100   100   050    -    6367
-166 Min_Erase_Count         -O--CK   100   100   050    -    311
-167 Average_Erase_Count     -O--CK   100   100   050    -    921
+164 Total_Erase_Count       -O--CK   100   100   050    -    1350779
+165 Max_Erase_Count         -O--CK   100   100   050    -    6403
+166 Min_Erase_Count         -O--CK   100   100   050    -    314
+167 Average_Erase_Count     -O--CK   100   100   050    -    929
 168 Max_Erase_Count_of_Spec -O--CK   100   100   050    -    5050
 169 Remaining_Lifetime_Perc -O--CK   100   100   050    -    82
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
@@ -86,9 +86,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   050    -    1
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Host_Writes_32MiB       ----CK   100   100   050    -    546215
-242 Host_Reads_32MiB        ----CK   100   100   050    -    35262
-245 TLC_Writes_32MiB        -O--CK   100   100   050    -    1776016
+241 Host_Writes_32MiB       ----CK   100   100   050    -    549898
+242 Host_Reads_32MiB        ----CK   100   100   050    -    35912
+245 TLC_Writes_32MiB        -O--CK   100   100   050    -    1793746
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -147,12 +147,12 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             151  ---  Lifetime Power-On Resets
-0x01  0x010  4           22259  ---  Power-on Hours
-0x01  0x018  6      1437019117  ---  Logical Sectors Written
-0x01  0x020  6           22256  ---  Number of Write Commands
-0x01  0x028  6      2310931719  ---  Logical Sectors Read
-0x01  0x030  6            7929  ---  Number of Read Commands
+0x01  0x008  4             152  ---  Lifetime Power-On Resets
+0x01  0x010  4           23035  ---  Power-on Hours
+0x01  0x018  6      1678424413  ---  Logical Sectors Written
+0x01  0x020  6         5701362  ---  Number of Write Commands
+0x01  0x028  6      2353538989  ---  Logical Sectors Read
+0x01  0x030  6         1581369  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              18  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

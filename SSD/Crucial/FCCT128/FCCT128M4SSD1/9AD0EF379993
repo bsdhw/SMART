@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Aug 21 16:39:34 2023 GMT
+Local Time is:    Sun Aug 27 20:59:43 2023 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -67,14 +67,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    2867
+  9 Power_On_Hours          -O--CK   100   100   001    -    3015
  12 Power_Cycle_Count       -O--CK   100   100   001    -    1232
 170 Unknown_Attribute       PO--CK   100   100   010    -    0
 171 Unknown_Attribute       -O--CK   100   100   001    -    0
 172 Unknown_Attribute       -O--CK   100   100   001    -    0
 173 Unknown_Attribute       PO--CK   100   100   010    -    16
 174 Unknown_Attribute       -O--CK   100   100   001    -    72
-181 Program_Fail_Cnt_Total  -O---K   100   100   001    -    2211930833064
+181 Program_Fail_Cnt_Total  -O---K   100   100   001    -    2220520898729
 183 Runtime_Bad_Block       -O--CK   100   100   001    -    0
 184 End-to-End_Error        PO--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   001    -    0
@@ -148,7 +148,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (289)
+Temperature History Size (Index):    478 (255)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -158,11 +158,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4            1232  ---  Lifetime Power-On Resets
-0x01  0x010  4            2867  ---  Power-on Hours
-0x01  0x018  6      3655583950  ---  Logical Sectors Written
-0x01  0x020  6        57014811  ---  Number of Write Commands
-0x01  0x028  6      3919980498  ---  Logical Sectors Read
-0x01  0x030  6        67853005  ---  Number of Read Commands
+0x01  0x010  4            3015  ---  Power-on Hours
+0x01  0x018  6      3737196535  ---  Logical Sectors Written
+0x01  0x020  6        58339290  ---  Number of Write Commands
+0x01  0x028  6      3926755980  ---  Logical Sectors Read
+0x01  0x030  6        68042401  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
@@ -195,5 +195,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           33  Device-to-host register FISes sent due to a COMRESET
 

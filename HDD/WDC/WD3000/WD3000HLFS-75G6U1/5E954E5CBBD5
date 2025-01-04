@@ -1,5 +1,5 @@
-smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 i386] (local build)
-Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2020-12-30 r5155 [OpenBSD 7.0 i386] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital VelociRaptor
@@ -10,10 +10,10 @@ Firmware Version: 04.04V03
 User Capacity:    300,069,052,416 bytes [300 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    10000 rpm
-Device is:        In smartctl database 7.3/5528
+Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.5, 3.0 Gb/s
-Local Time is:    Fri Jan 19 22:40:21 2024 EST
+Local Time is:    Sun Jan 21 12:10:13 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -21,8 +21,8 @@ SMART support is: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x84)	Offline data collection activity
-					was suspended by an interrupting command from host.
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Enabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -58,24 +58,24 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000f   200   200   051    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0003   199   198   021    Pre-fail  Always       -       3008
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       179
+  3 Spin_Up_Time            0x0003   202   198   021    Pre-fail  Always       -       2858
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       194
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   068   068   000    Old_age   Always       -       24062
+  9 Power_On_Hours          0x0032   068   068   000    Old_age   Always       -       24069
  10 Spin_Retry_Count        0x0012   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0012   100   100   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       174
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       188
 192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       36
-193 Load_Cycle_Count        0x0032   200   200   000    Old_age   Always       -       179
-194 Temperature_Celsius     0x0022   101   079   000    Old_age   Always       -       46
+193 Load_Cycle_Count        0x0032   200   200   000    Old_age   Always       -       194
+194 Temperature_Celsius     0x0022   105   079   000    Old_age   Always       -       42
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0012   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   200   200   000    Old_age   Offline      -       0
 200 Multi_Zone_Error_Rate   0x0008   200   200   000    Old_age   Offline      -       0
-240 Head_Flying_Hours       0x0032   069   069   000    Old_age   Always       -       23113
-241 Total_LBAs_Written      0x0032   200   200   000    Old_age   Always       -       26579847462
-242 Total_LBAs_Read         0x0032   200   200   000    Old_age   Always       -       70348832637
+240 Head_Flying_Hours       0x0032   069   069   000    Old_age   Always       -       23118
+241 Total_LBAs_Written      0x0032   200   200   000    Old_age   Always       -       26604838154
+242 Total_LBAs_Read         0x0032   200   200   000    Old_age   Always       -       70352200926
 
 SMART Error Log Version: 1
 No Errors Logged
@@ -97,6 +97,4 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
-
-The above only provides legacy SMART information - try 'smartctl -x' for more
 

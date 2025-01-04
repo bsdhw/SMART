@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       KINGSTON OM8PDP3512B-A01
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Fri Sep 30 21:33:26 2022 UTC
+Local Time is:                      Thu Dec 12 13:20:46 2024 UTC
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -42,23 +42,29 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        55 Celsius
+Temperature:                        41 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    3%
-Data Units Read:                    1,198,964 [613 GB]
-Data Units Written:                 54,197,850 [27.7 TB]
-Host Read Commands:                 18,179,295
-Host Write Commands:                524,602,663
-Controller Busy Time:               536
-Power Cycles:                       71
-Power On Hours:                     11,907
-Unsafe Shutdowns:                   36
+Percentage Used:                    5%
+Data Units Read:                    3,801,018 [1.94 TB]
+Data Units Written:                 84,463,986 [43.2 TB]
+Host Read Commands:                 76,202,542
+Host Write Commands:                945,405,733
+Controller Busy Time:               1,042
+Power Cycles:                       273
+Power On Hours:                     23,475
+Unsafe Shutdowns:                   182
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      58
+Error Information Log Entries:      913
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 
+Warning: NVMe Get Log truncated to 0x200 bytes, 0x200 bytes zero filled
 Error Information (NVMe Log 0x01, 16 of 16 entries)
 No Errors Logged
+
+Warning: NVMe Get Log truncated to 0x200 bytes, 0x034 bytes zero filled
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+No Self-tests Logged
 

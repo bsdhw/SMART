@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p2 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Intel 525 Series SSDs
@@ -11,10 +11,10 @@ User Capacity:    30,016,659,456 bytes [30.0 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Feb 21 10:13:32 2022 CET
+Local Time is:    Mon Aug 28 10:23:15 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,27 +64,27 @@ SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    40502h+38m+41.340s
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    81
+  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    53765h+47m+48.110s
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    98
 170 Available_Reservd_Space PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    39
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    40
 183 SATA_Downshift_Count    -O--CK   100   100   000    -    0
 184 End-to-End_Error        PO--CK   100   100   090    -    0
 187 Uncorrectable_Error_Cnt -O--CK   100   100   050    -    0
 190 Airflow_Temperature_Cel -O---K   054   094   000    -    54 (Min/Max 22/94)
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    39
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    40
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
-225 Host_Writes_32MiB       -O--CK   100   100   000    -    331537
+225 Host_Writes_32MiB       -O--CK   100   100   000    -    518197
 226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    65535
-227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    9
+227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    6
 228 Workload_Minutes        -O--CK   100   100   000    -    65535
 232 Available_Reservd_Space PO--CK   100   100   010    -    0
-233 Media_Wearout_Indicator -O--CK   098   098   000    -    0
-241 Host_Writes_32MiB       -O--CK   100   100   000    -    331537
-242 Host_Reads_32MiB        -O--CK   100   100   000    -    36610
-249 NAND_Writes_1GiB        PO--C-   100   100   000    -    8228
+233 Media_Wearout_Indicator -O--CK   097   097   000    -    0
+241 Host_Writes_32MiB       -O--CK   100   100   000    -    518197
+242 Host_Reads_32MiB        -O--CK   100   100   000    -    38064
+249 NAND_Writes_1GiB        PO--C-   100   100   000    -    11596
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -112,7 +112,8 @@ SMART Extended Comprehensive Error Log (GP Log 0x03) not supported
 SMART Error Log not supported
 
 SMART Extended Self-test Log Version: 0 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%     50935         -
 
 SMART Selective self-test log data structure revision number 0
 Note: revision number not 1 implies that no selective self-test has ever been run
@@ -130,7 +131,7 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
 Current Temperature:                    54 Celsius
-Power Cycle Min/Max Temperature:     51/63 Celsius
+Power Cycle Min/Max Temperature:     49/63 Celsius
 Lifetime    Min/Max Temperature:     22/94 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -139,7 +140,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/ 0 Celsius
-Temperature History Size (Index):    20580 (114)
+Temperature History Size (Index):    24932 (227)
 Invalid Temperature History Size or Index
 
 SCT Error Recovery Control command not supported
@@ -147,16 +148,16 @@ SCT Error Recovery Control command not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4              92  ---  Lifetime Power-On Resets
-0x01  0x010  4           40509  ---  Power-on Hours
-0x01  0x018  6     21816544811  ---  Logical Sectors Written
-0x01  0x028  6      2474790405  ---  Logical Sectors Read
+0x01  0x008  4             109  ---  Lifetime Power-On Resets
+0x01  0x010  4           53772  ---  Power-on Hours
+0x01  0x018  6     34049478525  ---  Logical Sectors Written
+0x01  0x028  6      2570083117  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4            1262  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4            1550  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            1262  ---  Number of Hardware Resets
-0x06  0x010  4            1177  ---  Number of ASR Events
+0x06  0x008  4            1550  ---  Number of Hardware Resets
+0x06  0x010  4            1361  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             255  ---  Percentage Used Endurance Indicator
@@ -174,8 +175,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2           17  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           16  Device-to-host register FISes sent due to a COMRESET
+0x0009  2            7  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2            8  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

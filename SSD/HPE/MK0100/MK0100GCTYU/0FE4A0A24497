@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Sep 17 16:52:01 2023 EDT
+Local Time is:    Sun Nov 12 05:56:53 2023 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -29,11 +29,12 @@ Wt Cache Reorder: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x03)	Offline data collection activity
-					is in progress.
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Disabled.
-Self-test execution status:      ( 246)	Self-test routine in progress...
-					60% of test remaining.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
 Total time to complete Offline 
 data collection: 		(    2) seconds.
 Offline data collection
@@ -64,13 +65,13 @@ SCT capabilities: 	       (0x0039)	SCT Status supported.
 SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   130   130   039    -    9607918
+  1 Raw_Read_Error_Rate     POSR--   130   130   039    -    263273
   5 Reallocated_Sector_Ct   PO--CK   100   100   001    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    69858
+  9 Power_On_Hours          -O--CK   100   100   000    -    71185
 173 Unknown_Attribute       PO--CK   090   090   001    -    0
-175 Program_Fail_Count_Chip PO--CK   100   100   010    -    1606807388783
-180 Unused_Rsvd_Blk_Cnt_Tot PO-RCK   130   130   039    -    2569258278
-194 Temperature_Celsius     -O---K   100   100   000    -    27
+175 Program_Fail_Count_Chip PO--CK   100   100   010    -    1636388635243
+180 Unused_Rsvd_Blk_Cnt_Tot PO-RCK   130   130   039    -    3866625
+194 Temperature_Celsius     -O---K   100   100   000    -    24
 196 Reallocated_Event_Count PO--CK   100   100   010    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -109,31 +110,31 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (2 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%      1660         -
-# 2  Short offline       Completed without error       00%      1493         -
-# 3  Short offline       Completed without error       00%      1325         -
-# 4  Short offline       Completed without error       00%      1158         -
-# 5  Short offline       Completed without error       00%      1013         -
-# 6  Short offline       Completed without error       00%       846         -
-# 7  Short offline       Completed without error       00%       678         -
-# 8  Short offline       Completed without error       00%       511         -
-# 9  Short offline       Completed without error       00%       344         -
-#10  Short offline       Completed without error       00%       230         -
-#11  Extended offline    Completed without error       00%     64969         -
-#12  Short offline       Completed without error       00%     63869         -
-#13  Extended offline    Completed without error       00%     63846         -
-#14  Short offline       Completed without error       00%     63829         -
-#15  Short offline       Completed without error       00%     61731         -
-#16  Short offline       Completed without error       00%     58450         -
-#17  Short offline       Completed without error       00%     56872         -
-#18  Short offline       Completed without error       00%     56721         -
-#19  Short offline       Completed without error       00%     56553         -
-#20  Short offline       Completed without error       00%     56386         -
-#21  Short offline       Completed without error       00%     56345         -
-#22  Short offline       Completed without error       00%     56321         -
-#23  Short offline       Completed without error       00%     56297         -
-#24  Short offline       Completed without error       00%     56140         -
-#25  Short offline       Completed without error       00%     55854         -
+# 1  Short offline       Completed without error       00%      4322         -
+# 2  Short offline       Completed without error       00%      1660         -
+# 3  Short offline       Completed without error       00%      1493         -
+# 4  Short offline       Completed without error       00%      1325         -
+# 5  Short offline       Completed without error       00%      1158         -
+# 6  Short offline       Completed without error       00%      1013         -
+# 7  Short offline       Completed without error       00%       846         -
+# 8  Short offline       Completed without error       00%       678         -
+# 9  Short offline       Completed without error       00%       511         -
+#10  Short offline       Completed without error       00%       344         -
+#11  Short offline       Completed without error       00%       230         -
+#12  Extended offline    Completed without error       00%     64969         -
+#13  Short offline       Completed without error       00%     63869         -
+#14  Extended offline    Completed without error       00%     63846         -
+#15  Short offline       Completed without error       00%     63829         -
+#16  Short offline       Completed without error       00%     61731         -
+#17  Short offline       Completed without error       00%     58450         -
+#18  Short offline       Completed without error       00%     56872         -
+#19  Short offline       Completed without error       00%     56721         -
+#20  Short offline       Completed without error       00%     56553         -
+#21  Short offline       Completed without error       00%     56386         -
+#22  Short offline       Completed without error       00%     56345         -
+#23  Short offline       Completed without error       00%     56321         -
+#24  Short offline       Completed without error       00%     56297         -
+#25  Short offline       Completed without error       00%     56140         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -148,9 +149,9 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
-Device State:                        SMART Off-line Data Collection executing in background (4)
-Current Temperature:                    27 Celsius
-Power Cycle Min/Max Temperature:     22/36 Celsius
+Device State:                        Active (0)
+Current Temperature:                    24 Celsius
+Power Cycle Min/Max Temperature:     24/25 Celsius
 Lifetime    Min/Max Temperature:     11/47 Celsius
 Specified Max Operating Temperature:    55 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -160,7 +161,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/55 Celsius
 Min/Max Temperature Limit:            0/55 Celsius
-Temperature History Size (Index):    478 (384)
+Temperature History Size (Index):    478 (203)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -169,18 +170,18 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             282  ---  Lifetime Power-On Resets
-0x01  0x018  6    799574877896  ---  Logical Sectors Written
-0x01  0x020  6      8971649292  ---  Number of Write Commands
-0x01  0x028  6    581726770625  ---  Logical Sectors Read
-0x01  0x030  6      5889002169  ---  Number of Read Commands
+0x01  0x008  4             289  ---  Lifetime Power-On Resets
+0x01  0x018  6    806465933840  ---  Logical Sectors Written
+0x01  0x020  6      9054634959  ---  Number of Write Commands
+0x01  0x028  6    581757661967  ---  Logical Sectors Read
+0x01  0x030  6      5889801041  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              27  ---  Current Temperature
-0x05  0x010  1              25  ---  Average Short Term Temperature
-0x05  0x018  1              27  ---  Average Long Term Temperature
+0x05  0x008  1              24  ---  Current Temperature
+0x05  0x010  1              24  ---  Average Short Term Temperature
+0x05  0x018  1              25  ---  Average Long Term Temperature
 0x05  0x020  1              47  ---  Highest Temperature
 0x05  0x028  1              17  ---  Lowest Temperature
 0x05  0x030  1              42  ---  Highest Average Short Term Temperature
@@ -192,8 +193,8 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            5190  ---  Number of Hardware Resets
-0x06  0x010  4            1860  ---  Number of ASR Events
+0x06  0x008  4            5278  ---  Number of Hardware Resets
+0x06  0x010  4            1919  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              10  ---  Percentage Used Endurance Indicator
@@ -209,7 +210,7 @@ ID      Size     Value  Description
 0x0003  4            0  R_ERR response for device-to-host data FIS
 0x0004  4            0  R_ERR response for host-to-device data FIS
 0x0006  4            0  R_ERR response for device-to-host non-data FIS
-0x000a  4           18  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
 0x000b  4            0  CRC errors within host-to-device FIS
 0x000d  4            0  Non-CRC errors within host-to-device FIS
 

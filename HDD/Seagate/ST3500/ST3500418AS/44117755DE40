@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Tue Oct 22 15:05:28 2024 CEST
+Local Time is:    Mon Nov  4 12:28:49 2024 CET
 
 ==> WARNING: A firmware update for this drive may be available,
 see the following Seagate web pages:
@@ -68,24 +68,24 @@ SCT capabilities: 	       (0x103f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR-K   117   099   006    -    142364697
+  1 Raw_Read_Error_Rate     POSR-K   118   099   006    -    168182023
   3 Spin_Up_Time            PO---K   097   097   000    -    0
-  4 Start_Stop_Count        -O--CK   095   095   020    -    5449
-  5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    1
-  7 Seek_Error_Rate         POSR-K   084   060   030    -    254007496
-  9 Power_On_Hours          -O--CK   085   085   000    -    13572
+  4 Start_Stop_Count        -O--CK   095   095   020    -    5451
+  5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    2
+  7 Seek_Error_Rate         POSR-K   084   060   030    -    254341622
+  9 Power_On_Hours          -O--CK   085   085   000    -    13882
  10 Spin_Retry_Count        PO--CK   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   098   098   020    -    2722
-180 Unknown_HDD_Attribute   PO-R-K   100   100   000    -    1417004805
+ 12 Power_Cycle_Count       -O--CK   098   098   020    -    2723
+180 Unknown_HDD_Attribute   PO-R-K   100   100   000    -    4265405770
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   099   000    -    9
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   070   056   045    -    30 (Min/Max 29/30)
+190 Airflow_Temperature_Cel -O---K   070   056   045    -    30 (Min/Max 26/31)
 194 Temperature_Celsius     -O---K   030   044   000    -    30 (0 17 0 0 0)
-195 Hardware_ECC_Recovered  -O-RCK   030   027   000    -    142364697
-196 Reallocated_Event_Count -O--CK   100   100   036    -    1
+195 Hardware_ECC_Recovered  -O-RCK   028   027   000    -    168182023
+196 Reallocated_Event_Count -O--CK   100   100   036    -    2
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   200   200   000    -    0
@@ -143,7 +143,7 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
 Current Temperature:                    30 Celsius
-Power Cycle Min/Max Temperature:     29/30 Celsius
+Power Cycle Min/Max Temperature:     25/31 Celsius
 Lifetime    Min/Max Temperature:     17/44 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -152,7 +152,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        59 minutes
 Min/Max recommended Temperature:     14/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (58)
+Temperature History Size (Index):    128 (119)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -164,7 +164,7 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x000a  2           15  Device-to-host register FISes sent due to a COMRESET
+0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
 0x0001  2            0  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS

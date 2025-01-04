@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 14.0-CURRENT amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Sabrent
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,024,209,543,168 [1.02 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Fri Mar 19 06:59:59 2021 MDT
+Local Time is:                      Sat Jun 17 09:20:50 2023 CDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0054):     DS_Mngmt Sav/Sel_Feat Timestmp
@@ -42,20 +42,20 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        39 Celsius
+Temperature:                        28 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    1%
-Data Units Read:                    24,112,136 [12.3 TB]
-Data Units Written:                 22,265,280 [11.3 TB]
-Host Read Commands:                 222,635,011
-Host Write Commands:                270,032,349
-Controller Busy Time:               720
-Power Cycles:                       279
-Power On Hours:                     4,410
-Unsafe Shutdowns:                   42
+Percentage Used:                    6%
+Data Units Read:                    70,693,658 [36.1 TB]
+Data Units Written:                 105,291,087 [53.9 TB]
+Host Read Commands:                 691,858,658
+Host Write Commands:                2,338,852,140
+Controller Busy Time:               2,763
+Power Cycles:                       419
+Power On Hours:                     22,715
+Unsafe Shutdowns:                   89
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      1,032
+Error Information Log Entries:      2,078
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 

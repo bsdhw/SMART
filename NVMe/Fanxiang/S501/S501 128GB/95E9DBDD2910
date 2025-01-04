@@ -12,7 +12,7 @@ NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Sat Apr 22 19:28:42 2023 CDT
+Local Time is:                      Tue Jun 20 20:45:20 2023 CDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -37,15 +37,15 @@ Critical Warning:                   0x00
 Temperature:                        48 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    1%
-Data Units Read:                    22,573 [11.5 GB]
-Data Units Written:                 3,464,159 [1.77 TB]
-Host Read Commands:                 888,999
-Host Write Commands:                94,525,834
-Controller Busy Time:               40
-Power Cycles:                       32
-Power On Hours:                     482
-Unsafe Shutdowns:                   23
+Percentage Used:                    3%
+Data Units Read:                    37,403 [19.1 GB]
+Data Units Written:                 9,566,112 [4.89 TB]
+Host Read Commands:                 1,485,873
+Host Write Commands:                220,635,189
+Controller Busy Time:               133
+Power Cycles:                       40
+Power On Hours:                     1,384
+Unsafe Shutdowns:                   29
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

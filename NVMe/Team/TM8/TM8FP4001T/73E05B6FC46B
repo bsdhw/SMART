@@ -12,7 +12,7 @@ NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,024,209,543,168 [1.02 TB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Sat Feb 17 22:30:38 2024 UTC
+Local Time is:                      Sat Feb 17 23:14:11 2024 CST
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0014):     DS_Mngmt Sav/Sel_Feat
@@ -38,18 +38,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        37 Celsius
+Temperature:                        41 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          32%
 Percentage Used:                    0%
-Data Units Read:                    16,920,839 [8.66 TB]
-Data Units Written:                 26,829,155 [13.7 TB]
-Host Read Commands:                 94,033,549
-Host Write Commands:                200,319,543
+Data Units Read:                    16,921,058 [8.66 TB]
+Data Units Written:                 26,843,108 [13.7 TB]
+Host Read Commands:                 94,048,649
+Host Write Commands:                200,428,164
 Controller Busy Time:               0
-Power Cycles:                       120
-Power On Hours:                     3,139
-Unsafe Shutdowns:                   60
+Power Cycles:                       123
+Power On Hours:                     3,145
+Unsafe Shutdowns:                   63
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

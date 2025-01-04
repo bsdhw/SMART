@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Oct  6 17:51:19 2024 CEST
+Local Time is:    Mon Oct  7 18:51:53 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -69,7 +69,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    40594
+  9 Power_On_Hours          -O--C-   100   100   000    -    40619
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
  12 Power_Cycle_Count       -O--C-   100   100   000    -    674
 167 Unknown_Attribute       -O---K   100   100   000    -    0
@@ -80,14 +80,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO--CK   100   100   020    -    556
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    589
-194 Temperature_Celsius     -O---K   051   051   030    -    49 (Min/Max 46/53)
+194 Temperature_Celsius     -O---K   052   052   030    -    48 (Min/Max 46/53)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 231 Unknown_SSD_Attribute   PO--CK   082   082   005    -    18
-233 Media_Wearout_Indicator -O--CK   100   100   000    -    79908785408
-234 Unknown_Attribute       -O--CK   100   100   000    -    70433713280
+233 Media_Wearout_Indicator -O--CK   100   100   000    -    79934340352
+234 Unknown_Attribute       -O--CK   100   100   000    -    70440413568
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-241 Total_LBAs_Written      -O--CK   100   100   000    -    41322669118
-242 Total_LBAs_Read         -O--CK   100   100   000    -    3090284262
+241 Total_LBAs_Written      -O--CK   100   100   000    -    41344108719
+242 Total_LBAs_Read         -O--CK   100   100   000    -    3091490318
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -142,7 +142,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -127/127 Celsius
 Min/Max Temperature Limit:           -127/127 Celsius
-Temperature History Size (Index):    478 (377)
+Temperature History Size (Index):    478 (252)
 
 SCT Error Recovery Control:
            Read:     70 (7.0 seconds)
@@ -152,11 +152,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             674  ---  Lifetime Power-On Resets
-0x01  0x018  6     41322669118  ---  Logical Sectors Written
-0x01  0x020  6       808083921  ---  Number of Write Commands
-0x01  0x028  6      3090284262  ---  Logical Sectors Read
-0x01  0x030  6        47637918  ---  Number of Read Commands
-0x01  0x038  6    146138400000  ---  Date and Time TimeStamp
+0x01  0x018  6     41344108719  ---  Logical Sectors Written
+0x01  0x020  6       808363317  ---  Number of Write Commands
+0x01  0x028  6      3091490318  ---  Logical Sectors Read
+0x01  0x030  6        47694320  ---  Number of Read Commands
+0x01  0x038  6    146228400000  ---  Date and Time TimeStamp
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              27  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

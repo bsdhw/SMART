@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jun 27 08:34:51 2023 CDT
+Local Time is:    Tue Jun 27 08:41:24 2023 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -67,11 +67,11 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count_Total  0x0032   100   100   010    Old_age   Always       -       0
 183 Runtime_Bad_Block       0x0013   092   092   010    Pre-fail  Always       -       354
 187 Uncorrectable_Error_Cnt 0x0032   099   099   000    Old_age   Always       -       71
-190 Airflow_Temperature_Cel 0x0032   069   057   000    Old_age   Always       -       31
+190 Airflow_Temperature_Cel 0x0032   066   057   000    Old_age   Always       -       34
 195 ECC_Error_Rate          0x001a   199   199   000    Old_age   Always       -       71
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
 235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       260
-241 Total_LBAs_Written      0x0032   099   099   000    Old_age   Always       -       1214143251
+241 Total_LBAs_Written      0x0032   099   099   000    Old_age   Always       -       1214144019
 
 SMART Error Log Version: 1
 No Errors Logged

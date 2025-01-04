@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.2-RELEASE amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,7 +10,7 @@ User Capacity:    500,107,862,016 bytes [500 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Sun Dec  1 14:37:08 2024 CET
+Local Time is:    Thu Dec  5 15:44:55 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -58,17 +58,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   108   100   006    -    20373004
   3 Spin_Up_Time            PO----   093   092   000    -    0
-  4 Start_Stop_Count        -O--CK   100   100   020    -    123
+  4 Start_Stop_Count        -O--CK   100   100   020    -    144
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   066   060   030    -    4007615
-  9 Power_On_Hours          -O--CK   100   100   000    -    108
+  7 Seek_Error_Rate         POSR--   067   060   030    -    5647381
+  9 Power_On_Hours          -O--CK   100   100   000    -    149
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   020    -    135
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    157
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   056   042   045    Past 44 (Min/Max 23/44)
-194 Temperature_Celsius     -O---K   044   058   000    -    44 (0 17 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   074   063   000    -    234750085
+190 Airflow_Temperature_Cel -O---K   060   042   045    Past 40 (Min/Max 40/40)
+194 Temperature_Celsius     -O---K   040   058   000    -    40 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  -O-RC-   077   063   000    -    208044841
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0

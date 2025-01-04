@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       PNY CS1030 250GB SSD
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Sun Mar 12 23:01:49 2023 PDT
+Local Time is:                      Mon Nov 13 22:51:39 2023 PST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -45,21 +45,29 @@ Critical Warning:                   0x00
 Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    0%
-Data Units Read:                    8,801 [4.50 GB]
-Data Units Written:                 2,134,090 [1.09 TB]
-Host Read Commands:                 440,746
-Host Write Commands:                94,134,120
-Controller Busy Time:               141
-Power Cycles:                       6
-Power On Hours:                     1,472
-Unsafe Shutdowns:                   3
+Percentage Used:                    6%
+Data Units Read:                    35,699 [18.2 GB]
+Data Units Written:                 15,339,018 [7.85 TB]
+Host Read Commands:                 1,648,951
+Host Write Commands:                536,010,037
+Controller Busy Time:               952
+Power Cycles:                       20
+Power On Hours:                     7,410
+Unsafe Shutdowns:                   11
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    0
+Warning  Comp. Temperature Time:    6
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               58 Celsius
+Temperature Sensor 1:               59 Celsius
+Thermal Temp. 1 Transition Count:   28
+Thermal Temp. 2 Transition Count:   3
+Thermal Temp. 1 Total Time:         42277
+Thermal Temp. 2 Total Time:         31384
 
 Error Information (NVMe Log 0x01, 16 of 16 entries)
 No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+No Self-tests Logged
 

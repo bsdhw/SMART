@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA/ATAPI-7 T13/1532D revision 4a
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat May 18 21:49:27 2024 CEST
+Local Time is:    Mon May 20 16:05:06 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,12 +63,12 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    1014
+  9 Power_On_Hours          -O--CK   100   100   000    -    1015
  12 Power_Cycle_Count       PO----   100   100   000    -    2317
 170 Unknown_Attribute       -O--CK   100   100   000    -    0
 171 Unknown_Attribute       PO----   100   100   000    -    0
 172 Unknown_Attribute       PO----   100   100   000    -    0
-173 Unknown_Attribute       PO----   100   100   000    -    334172
+173 Unknown_Attribute       PO----   100   100   000    -    334478
 174 Unknown_Attribute       PO----   100   100   000    -    1533
 178 Used_Rsvd_Blk_Cnt_Chip  -O--CK   100   100   000    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO----   100   100   010    -    800
@@ -76,9 +76,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 194 Temperature_Celsius     PO----   100   100   000    -    50
 199 UDMA_CRC_Error_Count    PO----   100   100   000    -    1
-233 Media_Wearout_Indicator PO----   100   100   000    -    20885
-241 Total_LBAs_Written      PO----   100   100   000    -    349032
-242 Total_LBAs_Read         PO----   100   100   000    -    632488
+233 Media_Wearout_Indicator PO----   100   100   000    -    20904
+241 Total_LBAs_Written      PO----   100   100   000    -    349846
+242 Total_LBAs_Read         PO----   100   100   000    -    632528
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

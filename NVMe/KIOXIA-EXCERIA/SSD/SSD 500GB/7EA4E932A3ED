@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            8ce38e ...
-Local Time is:                      Sun Mar 19 18:38:25 2023 CET
+Local Time is:                      Thu May 18 22:45:33 2023 CEST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -45,17 +45,17 @@ Critical Warning:                   0x00
 Temperature:                        47 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
-Percentage Used:                    29%
-Data Units Read:                    12,398,236 [6.34 TB]
-Data Units Written:                 44,908,349 [22.9 TB]
-Host Read Commands:                 226,691,659
-Host Write Commands:                888,339,324
-Controller Busy Time:               944
-Power Cycles:                       77
-Power On Hours:                     7,972
-Unsafe Shutdowns:                   31
+Percentage Used:                    31%
+Data Units Read:                    17,349,150 [8.88 TB]
+Data Units Written:                 48,014,430 [24.5 TB]
+Host Read Commands:                 284,165,881
+Host Write Commands:                1,052,174,485
+Controller Busy Time:               1,062
+Power Cycles:                       78
+Power On Hours:                     9,411
+Unsafe Shutdowns:                   32
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      215
+Error Information Log Entries:      223
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Thermal Temp. 1 Transition Count:   45

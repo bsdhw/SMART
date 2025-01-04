@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.4-STABLE amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SAMSUNG SpinPoint M6
@@ -9,10 +9,10 @@ LU WWN Device Id: 5 0f0000 ...
 Firmware Version: 2SS00_01
 User Capacity:    320,072,933,376 bytes [320 GB]
 Sector Size:      512 bytes logical/physical
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 0
 SATA Version is:  SATA 2.5, 1.5 Gb/s
-Local Time is:    Fri Oct 22 15:36:06 2021 CEST
+Local Time is:    Fri Oct 25 11:15:18 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -62,17 +62,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   100   100   051    -    0
-  3 Spin_Up_Time            POS---   252   252   025    -    3000
-  4 Start_Stop_Count        -O--CK   100   100   000    -    314
+  3 Spin_Up_Time            POS---   252   252   025    -    2875
+  4 Start_Stop_Count        -O--CK   100   100   000    -    372
   5 Reallocated_Sector_Ct   PO--CK   099   099   010    -    11
   7 Seek_Error_Rate         -OSR--   252   252   051    -    0
   8 Seek_Time_Performance   --S--K   252   252   015    -    0
-  9 Power_On_Hours          -O--CK   099   099   000    -    714
+  9 Power_On_Hours          -O--CK   097   097   000    -    1668
  10 Spin_Retry_Count        -O--CK   252   252   051    -    0
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    232
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    290
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    3
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    211
-194 Temperature_Celsius     -O---K   163   130   000    -    25 (Min/Max 15/41)
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    269
+194 Temperature_Celsius     -O---K   139   130   000    -    33 (Min/Max 15/41)
 195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    0
 196 Reallocated_Event_Count -O--CK   252   252   000    -    0
 197 Current_Pending_Sector  -O--C-   252   252   000    -    0
@@ -80,8 +80,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 199 UDMA_CRC_Error_Count    -OS-CK   200   200   000    -    0
 200 Multi_Zone_Error_Rate   -O-R--   100   100   000    -    0
 201 Soft_Read_Error_Rate    -O--CK   252   252   000    -    0
-223 Load_Retry_Count        -O--CK   100   100   000    -    8
-225 Load_Cycle_Count        -O--CK   099   099   000    -    17622
+223 Load_Retry_Count        -O--CK   100   100   000    -    9
+225 Load_Cycle_Count        -O--CK   098   098   000    -    21160
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -128,8 +128,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    25 Celsius
-Power Cycle Min/Max Temperature:     17/25 Celsius
+Current Temperature:                    33 Celsius
+Power Cycle Min/Max Temperature:     19/38 Celsius
 Lifetime    Min/Max Temperature:     16/47 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -138,7 +138,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     15/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    128 (110)
+Temperature History Size (Index):    128 (95)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -157,6 +157,4 @@ ID      Size     Value  Description
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x8001  2            0  Vendor specific
-
-
 

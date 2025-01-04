@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon May 27 05:59:25 2024 UTC
+Local Time is:    Mon May 27 15:25:55 2024 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,35 +60,35 @@ SMART Attributes Data Structure revision number: 18
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Runtime_Bad_Block       ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    56294
- 12 Power_Cycle_Count       ------   100   100   000    -    342
-100 Total_Blocks_Erased     ------   100   100   000    -    567285376
+  9 Power_On_Hours          ------   100   100   000    -    56302
+ 12 Power_Cycle_Count       ------   100   100   000    -    343
+100 Total_Blocks_Erased     ------   100   100   000    -    567343264
 171 Avail_OP_Block_Count    ------   087   000   000    -    11700
 174 Pwr_Cycle_Ct_Unplanned  ------   061   100   000    -    212
 184 Factory_Bad_Block_Count ------   012   100   000    -    1612
 187 Total_Unc_NAND_Reads    ------   100   100   000    -    0
-190 Temperature_Celsius     ------   048   073   000    -    48
+190 Temperature_Celsius     ------   051   073   000    -    51
 195 Total_Prog_Failures     ------   000   100   000    -    0
 196 Total_Erase_Failures    ------   000   100   000    -    0
 197 Total_Unc_Read_Failures ------   000   100   000    -    0
-198 Host_Reads_GiB          ------   100   100   000    -    190897
-199 Host_Writes_GiB         ------   100   100   000    -    200414
-202 Total_Read_Bits_Corr_Ct ------   100   100   000    -    4168074283
+198 Host_Reads_GiB          ------   100   100   000    -    190898
+199 Host_Writes_GiB         ------   100   100   000    -    200417
+202 Total_Read_Bits_Corr_Ct ------   100   100   000    -    4170383250
 205 Max_Rated_PE_Count      ------   100   100   000    -    10000
 206 Min_Erase_Count         ------   000   100   000    -    0
 207 Max_Erase_Count         ------   073   100   000    -    2199
 208 Average_Erase_Count     ------   069   100   000    -    2094
 210 SATA_CRC_Error_Count    ------   100   100   000    -    264
 211 SATA_UNC_Count          ------   100   100   000    -    0
-212 NAND_Reads_with_Retry   ------   100   100   000    -    510572
-213 Simple_Rd_Rtry_Attempts ------   100   100   000    -    295480
-214 Adaptv_Rd_Rtry_Attempts ------   100   100   000    -    215092
-221 Int_Data_Path_Prot_Unc  ------   100   100   000    -    13142664
+212 NAND_Reads_with_Retry   ------   100   100   000    -    510622
+213 Simple_Rd_Rtry_Attempts ------   100   100   000    -    295509
+214 Adaptv_Rd_Rtry_Attempts ------   100   100   000    -    215113
+221 Int_Data_Path_Prot_Unc  ------   100   100   000    -    13144424
 222 RAID_Recovery_Count     ------   100   100   000    -    0
 230 SuperCap_Charge_Status  ------   001   100   000    -    1
 233 Remaining_Lifetime_Perc ------   080   000   000    -    80
-249 Total_NAND_Prog_Ct_GiB  ------   100   100   000    -    1128663
-251 Total_NAND_Read_Ct_GiB  ------   100   100   000    -    783553
+249 Total_NAND_Prog_Ct_GiB  ------   100   100   000    -    1128754
+251 Total_NAND_Read_Ct_GiB  ------   100   100   000    -    783570
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

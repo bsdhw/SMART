@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [NetBSD 9.3 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.5 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Seagate Samsung SpinPoint M8 (AF)
@@ -11,15 +11,17 @@ User Capacity:    750,156,374,016 bytes [750 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    5400 rpm
 Form Factor:      2.5 inches
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Apr 21 13:22:39 2023 CDT
+Local Time is:    Fri Jul 19 12:23:59 2024 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
 === START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -58,32 +60,32 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   051    Pre-fail  Always       -       3
   2 Throughput_Performance  0x0027   252   252   000    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0023   092   091   025    Pre-fail  Always       -       2611
-  4 Start_Stop_Count        0x0032   099   099   000    Old_age   Always       -       1460
+  3 Spin_Up_Time            0x0023   092   091   025    Pre-fail  Always       -       2575
+  4 Start_Stop_Count        0x0032   099   099   000    Old_age   Always       -       1629
   5 Reallocated_Sector_Ct   0x0033   252   252   010    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002f   252   252   051    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0025   252   252   015    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       1929
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2559
  10 Spin_Retry_Count        0x0033   252   252   051    Pre-fail  Always       -       0
- 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       161
- 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       1474
-181 Program_Fail_Cnt_Total  0x0022   100   100   000    Old_age   Always       -       1392540
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       173
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       1668
+181 Program_Fail_Cnt_Total  0x0022   100   100   000    Old_age   Always       -       4794371
 183 Runtime_Bad_Block       0x0032   252   252   010    Old_age   Always       -       0
 184 End-to-End_Error        0x0033   085   085   048    Pre-fail  Always       -       16
 186 Unknown_Attribute       0x0032   252   252   000    Old_age   Always       -       0
 187 Reported_Uncorrect      0x0032   252   252   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   252   252   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0002   070   054   040    Old_age   Always       -       30 (Min/Max 14/46)
-191 G-Sense_Error_Rate      0x0022   100   100   000    Old_age   Always       -       236
+190 Airflow_Temperature_Cel 0x0002   074   054   040    Old_age   Always       -       26 (Min/Max 14/46)
+191 G-Sense_Error_Rate      0x0022   100   100   000    Old_age   Always       -       260
 192 Power-Off_Retract_Count 0x0022   252   252   000    Old_age   Always       -       0
-193 Load_Cycle_Count        0x0032   098   098   000    Old_age   Always       -       26569
-194 Temperature_Celsius     0x0002   064   054   000    Old_age   Always       -       30 (Min/Max 14/46)
+193 Load_Cycle_Count        0x0032   091   091   000    Old_age   Always       -       91939
+194 Temperature_Celsius     0x0002   064   054   000    Old_age   Always       -       26 (Min/Max 14/46)
 195 Hardware_ECC_Recovered  0x003a   100   100   000    Old_age   Always       -       0
 196 Reallocated_Event_Count 0x0032   252   252   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   252   252   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   252   252   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0036   200   200   000    Old_age   Always       -       0
-200 Multi_Zone_Error_Rate   0x002a   100   100   000    Old_age   Always       -       3740
+200 Multi_Zone_Error_Rate   0x002a   100   100   000    Old_age   Always       -       4825
 
 SMART Error Log Version: 1
 No Errors Logged
@@ -105,4 +107,8 @@ Note: revision number not 1 implies that no selective self-test has ever been ru
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+
+
 

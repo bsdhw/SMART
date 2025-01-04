@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Feb 13 02:03:46 2024 +03
+Local Time is:    Tue Feb 13 02:13:41 2024 +03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,8 +68,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            PO----   098   098   000    -    0
   4 Start_Stop_Count        -O--CK   099   099   020    -    1862
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   075   060   045    -    32800987
-  9 Power_On_Hours          -O--CK   093   093   000    -    6813h+45m+56.747s
+  7 Seek_Error_Rate         POSR--   075   060   045    -    32801014
+  9 Power_On_Hours          -O--CK   093   093   000    -    6813h+55m+51.637s
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   099   099   020    -    1695
 183 Runtime_Bad_Block       -O--CK   098   098   000    -    2
@@ -80,13 +80,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 190 Airflow_Temperature_Cel -O---K   064   058   040    -    36 (Min/Max 35/36)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    0
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    221
-193 Load_Cycle_Count        -O--CK   082   082   000    -    36774
+193 Load_Cycle_Count        -O--CK   082   082   000    -    36776
 194 Temperature_Celsius     -O---K   036   042   000    -    36 (0 12 0 0 0)
 195 Hardware_ECC_Recovered  -O-RC-   080   064   000    -    103363924
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    4333h+49m+37.175s
+240 Head_Flying_Hours       ------   100   253   000    -    4333h+50m+07.495s
 241 Total_LBAs_Written      ------   100   253   000    -    11045810675
 242 Total_LBAs_Read         ------   100   253   000    -    14073244940
                             ||||||_ K auto-keep
@@ -198,7 +198,7 @@ Page  Offset Size        Value Flags Description
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
 0x03  0x008  4            6558  ---  Spindle Motor Power-on Hours
 0x03  0x010  4            4275  ---  Head Flying Hours
-0x03  0x018  4           36775  ---  Head Load Events
+0x03  0x018  4           36777  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               4  ---  Number of Mechanical Start Failures

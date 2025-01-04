@@ -12,7 +12,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 1.5 Gb/s (current: 1.5 Gb/s)
-Local Time is:    Wed May 31 09:06:12 2023 +07
+Local Time is:    Tue Jun  6 09:32:34 2023 +07
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -48,20 +48,20 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  12 Power_Cycle_Count       ------   100   100   050    -    134
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    98
-162 Unknown_Attribute       ------   100   100   050    -    83
+162 Unknown_Attribute       ------   100   100   050    -    85
 163 Unknown_Attribute       ------   100   100   050    -    8
-164 Unknown_Attribute       ------   100   100   050    -    4294206
-165 Unknown_Attribute       ------   100   100   050    -    4132
-166 Unknown_Attribute       ------   100   100   050    -    4068
-167 Unknown_Attribute       ------   100   100   050    -    4093
+164 Unknown_Attribute       ------   100   100   050    -    4386611
+165 Unknown_Attribute       ------   100   100   050    -    4213
+166 Unknown_Attribute       ------   100   100   050    -    4148
+167 Unknown_Attribute       ------   100   100   050    -    4181
 192 Power-Off_Retract_Count ------   100   100   050    -    0
 194 Temperature_Celsius     ------   100   100   000    -    38 (Min/Max 19/58)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    11061448
-196 Reallocated_Event_Count ------   100   100   050    -    22128
+195 Hardware_ECC_Recovered  ------   100   100   050    -    11847600
+196 Reallocated_Event_Count ------   100   100   050    -    22728
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    177467
-242 Total_LBAs_Read         ------   100   100   050    -    6221
+241 Total_LBAs_Written      ------   100   100   050    -    185765
+242 Total_LBAs_Read         ------   100   100   050    -    6249
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5236
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun Jun  4 19:29:16 2023 PDT
+Local Time is:    Wed Jun  7 06:18:32 2023 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -59,11 +59,11 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    14614528
-  9 Power_On_Hours          -O--C-   100   100   000    -    18241
+  9 Power_On_Hours          -O--C-   100   100   000    -    18300
  12 Power_Cycle_Count       -O--C-   100   100   000    -    510
 168 Unknown_Attribute       -O--C-   100   100   000    -    51
 170 Unknown_Attribute       PO----   100   100   010    -    34359738383
-173 Unknown_Attribute       -O--C-   100   100   000    -    560353955
+173 Unknown_Attribute       -O--C-   100   100   000    -    564679343
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    191
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
                             ||||||_ K auto-keep

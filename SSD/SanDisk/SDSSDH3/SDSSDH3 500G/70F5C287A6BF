@@ -13,8 +13,8 @@ Form Factor:      2.5 inches
 TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
-SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Aug 18 11:12:41 2024 CEST
+SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Fri Aug 30 22:11:01 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -22,7 +22,7 @@ APM level is:     128 (minimum power consumption without standby)
 Rd look-ahead is: Enabled
 Write cache is:   Enabled
 DSN feature is:   Unavailable
-ATA Security is:  Disabled, NOT FROZEN [SEC1]
+ATA Security is:  Disabled, frozen [SEC2]
 Wt Cache Reorder: Unavailable
 
 === START OF READ SMART DATA SECTION ===
@@ -60,9 +60,9 @@ SMART Attributes Data Structure revision number: 4
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   ---    -    0
-  9 Power_On_Hours          -O--CK   100   100   ---    -    6420
- 12 Power_Cycle_Count       -O--CK   100   100   ---    -    1517
-165 Unknown_Attribute       -O--CK   100   100   ---    -    352295585288
+  9 Power_On_Hours          -O--CK   100   100   ---    -    6483
+ 12 Power_Cycle_Count       -O--CK   100   100   ---    -    1533
+165 Unknown_Attribute       -O--CK   100   100   ---    -    352295978511
 166 Unknown_Attribute       -O--CK   100   100   ---    -    2
 167 Unknown_Attribute       -O--CK   100   100   ---    -    192
 168 Unknown_Attribute       -O--CK   100   100   ---    -    21
@@ -75,14 +75,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 184 End-to-End_Error        -O--CK   100   100   ---    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
 188 Command_Timeout         -O--CK   100   100   ---    -    16
-194 Temperature_Celsius     -O---K   069   047   ---    -    31 (Min/Max 15/47)
+194 Temperature_Celsius     -O---K   067   047   ---    -    33 (Min/Max 15/47)
 199 UDMA_CRC_Error_Count    -O--CK   100   100   ---    -    0
-230 Unknown_SSD_Attribute   -O--CK   003   003   ---    -    3332912710408
+230 Unknown_SSD_Attribute   -O--CK   003   003   ---    -    3341502645002
 232 Available_Reservd_Space PO--CK   100   100   004    -    100
-233 Media_Wearout_Indicator -O--CK   100   100   ---    -    5958
-234 Unknown_Attribute       -O--CK   100   100   ---    -    15929
-241 Total_LBAs_Written      ----CK   253   253   ---    -    12250
-242 Total_LBAs_Read         ----CK   253   253   ---    -    8588
+233 Media_Wearout_Indicator -O--CK   100   100   ---    -    5959
+234 Unknown_Attribute       -O--CK   100   100   ---    -    16002
+241 Total_LBAs_Written      ----CK   253   253   ---    -    12319
+242 Total_LBAs_Read         ----CK   253   253   ---    -    8591
 244 Unknown_Attribute       -O--CK   000   100   ---    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -125,12 +125,12 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1517  ---  Lifetime Power-On Resets
-0x01  0x010  4            6420  ---  Power-on Hours
-0x01  0x018  6     25690540031  ---  Logical Sectors Written
-0x01  0x020  6       339740342  ---  Number of Write Commands
-0x01  0x028  6     18010629695  ---  Logical Sectors Read
-0x01  0x030  6   1610787637654  ---  Number of Read Commands
+0x01  0x008  4            1533  ---  Lifetime Power-On Resets
+0x01  0x010  4            6483  ---  Power-on Hours
+0x01  0x018  6     25834867947  ---  Logical Sectors Written
+0x01  0x020  6       341314981  ---  Number of Write Commands
+0x01  0x028  6     18017131941  ---  Logical Sectors Read
+0x01  0x030  6   1610787822434  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               1  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -144,5 +144,5 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            6  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            7  Device-to-host register FISes sent due to a COMRESET
 

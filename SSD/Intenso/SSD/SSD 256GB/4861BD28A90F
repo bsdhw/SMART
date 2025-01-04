@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat May 27 13:05:43 2023 CEST
+Local Time is:    Tue Jul 11 16:24:24 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -56,15 +56,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0032   100   100   050    Old_age   Always       -       0
   5 Reallocated_Sector_Ct   0x0032   100   100   050    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       15
- 12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       43
+  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       17
+ 12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       71
 160 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       0
 161 Unknown_Attribute       0x0033   100   100   050    Pre-fail  Always       -       100
 163 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       10
-164 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       143
-165 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       2
+164 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       183
+165 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       3
 166 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       1
-167 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       1
+167 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       2
 168 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       5050
 169 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       100
 175 Program_Fail_Count_Chip 0x0032   100   100   050    Old_age   Always       -       0
@@ -73,7 +73,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   050    Old_age   Always       -       0
 181 Program_Fail_Cnt_Total  0x0032   100   100   050    Old_age   Always       -       0
 182 Erase_Fail_Count_Total  0x0032   100   100   050    Old_age   Always       -       0
-192 Power-Off_Retract_Count 0x0032   100   100   050    Old_age   Always       -       13
+192 Power-Off_Retract_Count 0x0032   100   100   050    Old_age   Always       -       16
 194 Temperature_Celsius     0x0022   100   100   050    Old_age   Always       -       40
 195 Hardware_ECC_Recovered  0x0032   100   100   050    Old_age   Always       -       0
 196 Reallocated_Event_Count 0x0032   100   100   050    Old_age   Always       -       0
@@ -81,9 +81,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 198 Offline_Uncorrectable   0x0032   100   100   050    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x0032   100   100   050    Old_age   Always       -       0
 232 Available_Reservd_Space 0x0032   100   100   050    Old_age   Always       -       100
-241 Total_LBAs_Written      0x0030   100   100   050    Old_age   Offline      -       4585
-242 Total_LBAs_Read         0x0030   100   100   050    Old_age   Offline      -       1838
-245 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       3036
+241 Total_LBAs_Written      0x0030   100   100   050    Old_age   Offline      -       5232
+242 Total_LBAs_Read         0x0030   100   100   050    Old_age   Offline      -       2649
+245 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       3894
 
 SMART Error Log Version: 1
 No Errors Logged

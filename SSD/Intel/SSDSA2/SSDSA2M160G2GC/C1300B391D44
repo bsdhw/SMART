@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p20-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Intel X18-M/X25-M/X25-V G2 SSDs
@@ -11,10 +11,10 @@ User Capacity:    160,041,885,696 bytes [160 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic, zeroed
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Oct  4 12:14:29 2021 UTC
+Local Time is:    Sun Jun  4 16:31:13 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -22,7 +22,7 @@ APM feature is:   Unavailable
 Rd look-ahead is: Enabled
 Write cache is:   Enabled
 DSN feature is:   Unavailable
-ATA Security is:  Disabled, frozen [SEC2]
+ATA Security is:  Disabled, NOT FROZEN [SEC1]
 Wt Cache Reorder: Unavailable
 
 === START OF READ SMART DATA SECTION ===
@@ -64,15 +64,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   3 Spin_Up_Time            -----K   100   100   000    -    0
   4 Start_Stop_Count        ----CK   100   100   000    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   000    -    22
-  9 Power_On_Hours          -O--CK   100   100   000    -    14386
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    3575
-192 Unsafe_Shutdown_Count   -O--CK   100   100   000    -    219
-225 Host_Writes_32MiB       ----CK   100   100   000    -    628560
-226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    8568221
+  9 Power_On_Hours          -O--CK   100   100   000    -    24194
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    3593
+192 Unsafe_Shutdown_Count   -O--CK   100   100   000    -    235
+225 Host_Writes_32MiB       ----CK   100   100   000    -    1046500
+226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    8570596
 227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    1
-228 Workload_Minutes        -O--CK   100   100   000    -    3426809859
+228 Workload_Minutes        -O--CK   100   100   000    -    3427398367
 232 Available_Reservd_Space PO--CK   100   100   010    -    0
-233 Media_Wearout_Indicator -O--CK   097   097   000    -    0
+233 Media_Wearout_Indicator -O--CK   095   095   000    -    0
 184 End-to-End_Error        PO--CK   100   100   090    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -124,8 +124,8 @@ ID      Size     Value  Description
 0x0004  4            0  R_ERR response for host-to-device data FIS
 0x0007  4            0  R_ERR response for host-to-device non-data FIS
 0x0008  4            0  Device-to-host non-data FIS retries
-0x0009  4           11  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           12  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           44  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           45  Device-to-host register FISes sent due to a COMRESET
 0x000b  4            0  CRC errors within host-to-device FIS
 0x000d  4            0  Non-CRC errors within host-to-device FIS
 0x000f  4            0  R_ERR response for host-to-device data FIS, CRC

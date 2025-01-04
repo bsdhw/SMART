@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p8 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Mar  5 01:23:21 2023 CET
+Local Time is:    Mon Jul 24 13:14:01 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -46,23 +46,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   ------   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    372
+ 12 Power_Cycle_Count       ------   100   100   050    -    373
 160 Uncorrectable_Error_Cnt ------   100   100   050    -    128
 161 Valid_Spare_Block_Cnt   ------   100   100   050    -    191
-162 Unknown_Attribute       ------   100   100   050    -    165
+162 Unknown_Attribute       ------   100   100   050    -    176
 163 Initial_Bad_Block_Count ------   100   100   050    -    7
-164 Total_Erase_Count       ------   100   100   050    -    1423112
-165 Max_Erase_Count         ------   100   100   050    -    715
-166 Min_Erase_Count         ------   100   100   050    -    650
-167 Average_Erase_Count     ------   100   100   050    -    680
+164 Total_Erase_Count       ------   100   100   050    -    2887805
+165 Max_Erase_Count         ------   100   100   050    -    1417
+166 Min_Erase_Count         ------   100   100   050    -    1352
+167 Average_Erase_Count     ------   100   100   050    -    1381
 192 Power-Off_Retract_Count ------   100   100   050    -    0
 194 Temperature_Celsius     ------   100   100   000    -    40 (Min/Max 40/40)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    9963381
-196 Reallocated_Event_Count ------   100   100   050    -    140
+195 Hardware_ECC_Recovered  ------   100   100   050    -    34196108
+196 Reallocated_Event_Count ------   100   100   050    -    144
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    1
-241 Host_Writes_32MiB       ------   100   100   050    -    52290
-242 Host_Reads_32MiB        ------   100   100   050    -    19544
+241 Host_Writes_32MiB       ------   100   100   050    -    107464
+242 Host_Reads_32MiB        ------   100   100   050    -    19645
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

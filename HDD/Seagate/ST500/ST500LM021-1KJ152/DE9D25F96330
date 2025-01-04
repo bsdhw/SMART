@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p10 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jun  7 12:51:23 2024 CST
+Local Time is:    Mon Oct 14 12:45:51 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,24 +65,24 @@ SCT capabilities: 	       (0x1031)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   114   099   034    -    72048832
+  1 Raw_Read_Error_Rate     POSR--   118   099   034    -    199011152
   3 Spin_Up_Time            PO----   098   098   000    -    0
   4 Start_Stop_Count        -O--CK   037   037   020    -    65535
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   087   060   030    -    4912645933
-  9 Power_On_Hours          -O--CK   079   079   000    -    19105 (59 104 0)
+  7 Seek_Error_Rate         POSR--   087   060   030    -    4931967343
+  9 Power_On_Hours          -O--CK   078   078   000    -    19794 (98 26 0)
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   098   098   020    -    2828
+ 12 Power_Cycle_Count       -O--CK   097   097   020    -    3108
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   076   076   000    -    24
 188 Command_Timeout         -O--CK   100   098   000    -    146031902780
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   059   045   045    Past 41 (Min/Max 39/41 #243)
-191 G-Sense_Error_Rate      -O--CK   100   100   000    -    462
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    21
-193 Load_Cycle_Count        -O--CK   001   001   000    -    336232
-194 Temperature_Celsius     -O---K   041   055   000    -    41 (128 0 0 0 0)
-196 Reallocated_Event_Count POSR--   079   079   030    -    18635 (16878 0)
+190 Airflow_Temperature_Cel -O---K   071   045   045    Past 29 (0 243 29 25 0)
+191 G-Sense_Error_Rate      -O--CK   100   100   000    -    463
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    22
+193 Load_Cycle_Count        -O--CK   001   001   000    -    345548
+194 Temperature_Celsius     -O---K   029   055   000    -    29 (128 0 0 0 0)
+196 Reallocated_Event_Count POSR--   078   078   030    -    19300 (63118 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
@@ -294,10 +294,10 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    41 Celsius
-Power Cycle Min/Max Temperature:     39/41 Celsius
+Current Temperature:                    29 Celsius
+Power Cycle Min/Max Temperature:     25/29 Celsius
 Lifetime    Min/Max Temperature:      9/55 Celsius
-Under/Over Temperature Limit Count:   0/2
+Under/Over Temperature Limit Count:   0/1
 Vendor specific:
 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -307,7 +307,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        11 minutes
 Min/Max recommended Temperature:      0/ 0 Celsius
 Min/Max Temperature Limit:            0/ 0 Celsius
-Temperature History Size (Index):    128 (93)
+Temperature History Size (Index):    128 (2)
 
 SCT Error Recovery Control command not supported
 

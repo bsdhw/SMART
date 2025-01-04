@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Dec 13 10:29:40 2023 CET
+Local Time is:    Wed Dec 13 11:45:38 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,9 +61,9 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O----   100   100   000    -    0
-  9 Power_On_Hours          -O----   100   100   000    -    42947
+  9 Power_On_Hours          -O----   100   100   000    -    42948
  12 Power_Cycle_Count       -O----   100   100   000    -    37
-165 Total_Write/Erase_Count -O----   100   100   000    -    347521
+165 Total_Write/Erase_Count -O----   100   100   000    -    347553
 171 Program_Fail_Count      -O----   100   100   000    -    0
 172 Erase_Fail_Count        -O----   100   100   000    -    0
 173 Avg_Write/Erase_Count   -O----   100   100   000    -    88
@@ -72,9 +72,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 194 Temperature_Celsius     -O---K   072   028   000    -    28 (Min/Max 16/41)
 230 Perc_Write/Erase_Count  -O----   100   100   000    -    293
 232 Perc_Avail_Resrvd_Space PO----   100   100   005    -    0
-234 Perc_Write/Erase_Ct_BC  -O----   100   100   000    -    6541
-241 Total_LBAs_Written      -O----   100   100   000    -    33376702658
-242 Total_LBAs_Read         -O----   100   100   000    -    309034295
+234 Perc_Write/Erase_Ct_BC  -O----   100   100   000    -    6542
+241 Total_LBAs_Written      -O----   100   100   000    -    33378664586
+242 Total_LBAs_Read         -O----   100   100   000    -    309139527
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

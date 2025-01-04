@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jun 26 18:03:46 2024 UTC
+Local Time is:    Wed Jun 26 18:07:30 2024 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,11 +64,11 @@ SCT capabilities: 	       (0x1031)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   113   099   034    -    55985664
+  1 Raw_Read_Error_Rate     POSR--   113   099   034    -    57261824
   3 Spin_Up_Time            PO----   099   099   000    -    0
   4 Start_Stop_Count        -O--CK   092   092   020    -    8680
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   079   060   030    -    17523752900
+  7 Seek_Error_Rate         POSR--   079   060   030    -    17523754184
   9 Power_On_Hours          -O--CK   086   086   000    -    12605
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   092   092   020    -    8559
@@ -79,7 +79,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 190 Airflow_Temperature_Cel -O---K   065   058   045    -    35 (Min/Max 35/35)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    482
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    94
-193 Load_Cycle_Count        -O--CK   036   036   000    -    128219
+193 Load_Cycle_Count        -O--CK   036   036   000    -    128221
 194 Temperature_Celsius     -O---K   035   042   000    -    35 (0 11 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0

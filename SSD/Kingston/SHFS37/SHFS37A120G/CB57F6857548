@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jul 14 20:54:24 2023 EEST
+Local Time is:    Mon Jul 17 23:39:53 2023 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,7 +65,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   120   120   050    -    0/0
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   061   061   000    -    34341h+37m+51.960s
+  9 Power_On_Hours_and_Msec -O--CK   061   061   000    -    34416h+20m+27.430s
  12 Power_Cycle_Count       -O--CK   098   098   000    -    2704
 171 Program_Fail_Count      -O-R--   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
@@ -82,9 +82,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 204 Soft_ECC_Correct_Rate   --SRC-   120   120   000    -    0/0
 230 Life_Curve_Status       PO--C-   100   100   000    -    100
 231 SSD_Life_Left           PO--C-   095   095   010    -    1
-233 SandForce_Internal      -O--CK   000   000   000    -    29406
-234 SandForce_Internal      -O--CK   000   000   000    -    18699
-241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    18699
+233 SandForce_Internal      -O--CK   000   000   000    -    29460
+234 SandForce_Internal      -O--CK   000   000   000    -    18753
+241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    18753
 242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    24861
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -147,9 +147,9 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4            2704  ---  Lifetime Power-On Resets
-0x01  0x010  4           34341  ---  Power-on Hours
-0x01  0x018  6     39215554292  ---  Logical Sectors Written
-0x01  0x028  6     52138233548  ---  Logical Sectors Read
+0x01  0x010  4           34416  ---  Power-on Hours
+0x01  0x018  6     39328016604  ---  Logical Sectors Written
+0x01  0x028  6     52138260228  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4            2091  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

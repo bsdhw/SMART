@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,10 +10,10 @@ User Capacity:    81,964,302,336 bytes [81.9 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 0
-Local Time is:    Sun Mar 12 09:25:24 2023 UTC
+Local Time is:    Wed Jul 26 13:02:40 2023    
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
-AAM feature is:   Disabled
+AAM level is:     128 (quiet), recommended: 192
 APM feature is:   Disabled
 Rd look-ahead is: Enabled
 Write cache is:   Enabled
@@ -57,20 +57,20 @@ SCT capabilities: 	       (0x0021)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  3 Spin_Up_Time            POS--K   227   227   063    -    9186
-  4 Start_Stop_Count        -O--CK   249   249   000    -    8384
+  3 Spin_Up_Time            POS--K   227   227   063    -    7052
+  4 Start_Stop_Count        -O--CK   249   249   000    -    8515
   5 Reallocated_Sector_Ct   PO--CK   253   253   063    -    3
   6 Read_Channel_Margin     P-----   253   253   100    -    0
   7 Seek_Error_Rate         -O-R--   253   241   000    -    0
-  8 Seek_Time_Performance   POS--K   248   235   187    -    40406
-  9 Power_On_Minutes        -O--CK   178   178   000    -    1043h+10m
+  8 Seek_Time_Performance   POS--K   249   235   187    -    41091
+  9 Power_On_Minutes        -O--CK   176   176   000    -    657h+29m
  10 Spin_Retry_Count        PO-R-K   253   252   157    -    0
  11 Calibration_Retry_Count PO-R-K   253   252   223    -    0
- 12 Power_Cycle_Count       -O--CK   230   230   000    -    9228
+ 12 Power_Cycle_Count       -O--CK   230   230   000    -    9359
 192 Power-Off_Retract_Count -O--CK   253   253   000    -    0
 193 Load_Cycle_Count        -O--CK   253   253   000    -    0
-194 Temperature_Celsius     -O--CK   043   253   000    -    50
-195 Hardware_ECC_Recovered  -O-R--   253   252   000    -    631
+194 Temperature_Celsius     -O--CK   043   253   000    -    56
+195 Hardware_ECC_Recovered  -O-R--   253   252   000    -    1053
 196 Reallocated_Event_Count ---R--   253   253   000    -    0
 197 Current_Pending_Sector  ---R--   253   253   000    -    0
 198 Offline_Uncorrectable   ---R--   253   253   000    -    0
@@ -280,8 +280,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    50 Celsius
-Power Cycle Min/Max Temperature:     --/50 Celsius
+Current Temperature:                    56 Celsius
+Power Cycle Min/Max Temperature:     --/56 Celsius
 Lifetime    Min/Max Temperature:     --/62 Celsius
 
 SCT Temperature History Version:     2

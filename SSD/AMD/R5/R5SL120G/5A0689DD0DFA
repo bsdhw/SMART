@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,15 +12,13 @@ Form Factor:      2.5 inches
 TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
-SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Aug  1 20:29:00 2022 MSK
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
+Local Time is:    Tue Aug  8 13:00:19 2023 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
 === START OF READ SMART DATA SECTION ===
-SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
-Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -56,24 +54,24 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0032   100   100   050    Old_age   Always       -       0
   5 Reallocated_Sector_Ct   0x0032   100   100   050    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       180
- 12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       71
+  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       4229
+ 12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       918
 160 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       0
 161 Unknown_Attribute       0x0033   100   100   050    Pre-fail  Always       -       100
 163 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       42
-164 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       7328
-165 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       39
-166 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       2
-167 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       4
+164 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       170591
+165 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       116
+166 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       26
+167 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       102
 168 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       5050
-169 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       100
+169 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       98
 175 Program_Fail_Count_Chip 0x0032   100   100   050    Old_age   Always       -       0
 176 Erase_Fail_Count_Chip   0x0032   100   100   050    Old_age   Always       -       0
 177 Wear_Leveling_Count     0x0032   100   100   050    Old_age   Always       -       0
 178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   050    Old_age   Always       -       0
 181 Program_Fail_Cnt_Total  0x0032   100   100   050    Old_age   Always       -       0
 182 Erase_Fail_Count_Total  0x0032   100   100   050    Old_age   Always       -       0
-192 Power-Off_Retract_Count 0x0032   100   100   050    Old_age   Always       -       28
+192 Power-Off_Retract_Count 0x0032   100   100   050    Old_age   Always       -       160
 194 Temperature_Celsius     0x0022   100   100   050    Old_age   Always       -       35
 195 Hardware_ECC_Recovered  0x0032   100   100   050    Old_age   Always       -       0
 196 Reallocated_Event_Count 0x0032   100   100   050    Old_age   Always       -       0
@@ -81,9 +79,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 198 Offline_Uncorrectable   0x0032   100   100   050    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x0032   100   100   050    Old_age   Always       -       0
 232 Available_Reservd_Space 0x0032   100   100   050    Old_age   Always       -       100
-241 Total_LBAs_Written      0x0030   100   100   050    Old_age   Offline      -       12684
-242 Total_LBAs_Read         0x0030   100   100   050    Old_age   Offline      -       3793
-245 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       4972
+241 Total_LBAs_Written      0x0030   100   100   050    Old_age   Offline      -       223971
+242 Total_LBAs_Read         0x0030   100   100   050    Old_age   Offline      -       92784
+245 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       74827
 
 SMART Error Log Version: 1
 No Errors Logged

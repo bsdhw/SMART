@@ -1,4 +1,4 @@
-smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.0.0 amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.1.0 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Wed Mar 29 15:58:20 2023 EDT
+Local Time is:                      Tue Aug  1 16:02:29 2023 EDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,15 +46,15 @@ Critical Warning:                   0x00
 Temperature:                        43 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    1%
-Data Units Read:                    4,345,152 [2.22 TB]
-Data Units Written:                 30,810,889 [15.7 TB]
-Host Read Commands:                 38,153,492
-Host Write Commands:                1,070,381,555
-Controller Busy Time:               1,280
-Power Cycles:                       17
-Power On Hours:                     13,464
-Unsafe Shutdowns:                   7
+Percentage Used:                    2%
+Data Units Read:                    4,798,992 [2.45 TB]
+Data Units Written:                 42,406,931 [21.7 TB]
+Host Read Commands:                 42,563,611
+Host Write Commands:                1,347,806,562
+Controller Busy Time:               1,670
+Power Cycles:                       19
+Power On Hours:                     16,429
+Unsafe Shutdowns:                   8
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      1
 Warning  Comp. Temperature Time:    0

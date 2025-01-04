@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.0-RELEASE-p2 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.0-RELEASE-p6 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Dec 16 21:45:05 2023 CET
+Local Time is:    Sun Jun  2 20:28:33 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,14 +68,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    10670
- 12 Power_Cycle_Count       -O--CK   100   100   001    -    3903
+  9 Power_On_Hours          -O--CK   100   100   001    -    12711
+ 12 Power_Cycle_Count       -O--CK   100   100   001    -    4114
 170 Grown_Failing_Block_Ct  PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   001    -    0
 172 Erase_Fail_Count        -O--CK   100   100   001    -    0
-173 Wear_Leveling_Count     PO--CK   095   095   010    -    162
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    770
-181 Non4k_Aligned_Access    -O---K   100   100   001    -    3773 1771 2001
+173 Wear_Leveling_Count     PO--CK   095   095   010    -    166
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    813
+181 Non4k_Aligned_Access    -O---K   100   100   001    -    3777 1773 2003
 183 SATA_Iface_Downshift    -O--CK   100   100   001    -    0
 184 End-to-End_Error        PO--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   001    -    0
@@ -125,27 +125,27 @@ SMART Extended Self-test Log size 3449 not supported
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Vendor (0xff)       Completed without error       00%     10661         -
-# 2  Vendor (0xff)       Completed without error       00%     10648         -
-# 3  Vendor (0xff)       Completed without error       00%     10636         -
-# 4  Vendor (0xff)       Completed without error       00%     10624         -
-# 5  Vendor (0xff)       Completed without error       00%     10611         -
-# 6  Vendor (0xff)       Completed without error       00%     10599         -
-# 7  Vendor (0xff)       Completed without error       00%     10587         -
-# 8  Vendor (0xff)       Completed without error       00%     10574         -
-# 9  Vendor (0xff)       Completed without error       00%     10562         -
-#10  Vendor (0xff)       Completed without error       00%     10550         -
-#11  Vendor (0xff)       Completed without error       00%     10537         -
-#12  Vendor (0xff)       Completed without error       00%     10525         -
-#13  Vendor (0xff)       Completed without error       00%     10517         -
-#14  Vendor (0xff)       Completed without error       00%     10504         -
-#15  Vendor (0xff)       Completed without error       00%     10486         -
-#16  Vendor (0xff)       Completed without error       00%     10474         -
-#17  Vendor (0xff)       Completed without error       00%     10442         -
-#18  Vendor (0xff)       Completed without error       00%     10430         -
-#19  Vendor (0xff)       Completed without error       00%     10417         -
-#20  Vendor (0xff)       Completed without error       00%     10405         -
-#21  Vendor (0xff)       Completed without error       00%     10393         -
+# 1  Vendor (0xff)       Completed without error       00%     12700         -
+# 2  Vendor (0xff)       Completed without error       00%     12688         -
+# 3  Vendor (0xff)       Completed without error       00%     12676         -
+# 4  Vendor (0xff)       Completed without error       00%     12654         -
+# 5  Vendor (0xff)       Completed without error       00%     12642         -
+# 6  Vendor (0xff)       Completed without error       00%     12630         -
+# 7  Vendor (0xff)       Completed without error       00%     12617         -
+# 8  Vendor (0xff)       Completed without error       00%     12592         -
+# 9  Vendor (0xff)       Completed without error       00%     12580         -
+#10  Vendor (0xff)       Completed without error       00%     12568         -
+#11  Vendor (0xff)       Completed without error       00%     12555         -
+#12  Vendor (0xff)       Completed without error       00%     12548         -
+#13  Vendor (0xff)       Completed without error       00%     12535         -
+#14  Vendor (0xff)       Completed without error       00%     12523         -
+#15  Vendor (0xff)       Completed without error       00%     12511         -
+#16  Vendor (0xff)       Completed without error       00%     12498         -
+#17  Vendor (0xff)       Completed without error       00%     12492         -
+#18  Vendor (0xff)       Completed without error       00%     12473         -
+#19  Vendor (0xff)       Completed without error       00%     12460         -
+#20  Vendor (0xff)       Completed without error       00%     12446         -
+#21  Vendor (0xff)       Completed without error       00%     12434         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -170,7 +170,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (47)
+Temperature History Size (Index):    478 (403)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -179,12 +179,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            3903  ---  Lifetime Power-On Resets
-0x01  0x010  4           10670  ---  Power-on Hours
-0x01  0x018  6     10560049131  ---  Logical Sectors Written
-0x01  0x020  6       187012211  ---  Number of Write Commands
-0x01  0x028  6     14171834374  ---  Logical Sectors Read
-0x01  0x030  6       239971462  ---  Number of Read Commands
+0x01  0x008  4            4114  ---  Lifetime Power-On Resets
+0x01  0x010  4           12711  ---  Power-on Hours
+0x01  0x018  6     11030796025  ---  Logical Sectors Written
+0x01  0x020  6       191216150  ---  Number of Write Commands
+0x01  0x028  6     14374859989  ---  Logical Sectors Read
+0x01  0x030  6       242876196  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
@@ -217,7 +217,7 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           33  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            5  Device-to-host register FISes sent due to a COMRESET
 
 
 

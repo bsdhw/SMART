@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 i386] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.6 i386] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Fujitsu MHV
@@ -8,9 +8,9 @@ Serial Number:    --
 Firmware Version: 00840096
 User Capacity:    40,007,761,920 bytes [40.0 GB]
 Sector Size:      512 bytes logical/physical
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-6 T13/1410D revision 3a
-Local Time is:    Tue Jul 18 20:44:00 2023 MSK
+Local Time is:    Thu Dec 12 20:09:18 2024 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -54,26 +54,26 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   100   100   046    Pre-fail  Always       -       142370
+  1 Raw_Read_Error_Rate     0x000f   100   100   046    Pre-fail  Always       -       3718
   2 Throughput_Performance  0x0005   100   100   030    Pre-fail  Offline      -       12124160
   3 Spin_Up_Time            0x0003   100   100   025    Pre-fail  Always       -       1
-  4 Start_Stop_Count        0x0032   099   099   000    Old_age   Always       -       3468
+  4 Start_Stop_Count        0x0032   099   099   000    Old_age   Always       -       3476
   5 Reallocated_Sector_Ct   0x0033   100   100   024    Pre-fail  Always       -       0 (2000 0)
-  7 Seek_Error_Rate         0x000f   100   100   047    Pre-fail  Always       -       3535
+  7 Seek_Error_Rate         0x000f   100   100   047    Pre-fail  Always       -       4070
   8 Seek_Time_Performance   0x0005   100   100   019    Pre-fail  Offline      -       0
-  9 Power_On_Seconds        0x0032   070   070   000    Old_age   Always       -       15140h+40m+51s
+  9 Power_On_Seconds        0x0032   070   070   000    Old_age   Always       -       15141h+12m+57s
  10 Spin_Retry_Count        0x0013   100   100   020    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2368
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2370
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       128
-193 Load_Cycle_Count        0x0032   084   084   000    Old_age   Always       -       321699
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       37 (Min/Max 10/48)
-195 Hardware_ECC_Recovered  0x001a   100   100   000    Old_age   Always       -       8
+193 Load_Cycle_Count        0x0032   084   084   000    Old_age   Always       -       321713
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       40 (Min/Max 10/48)
+195 Hardware_ECC_Recovered  0x001a   100   100   000    Old_age   Always       -       0
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0 (0 7008)
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
-200 Multi_Zone_Error_Rate   0x000f   100   100   060    Pre-fail  Always       -       21896
-203 Run_Out_Cancel          0x0002   100   100   000    Old_age   Always       -       429544701689
+200 Multi_Zone_Error_Rate   0x000f   100   100   060    Pre-fail  Always       -       21445
+203 Run_Out_Cancel          0x0002   100   100   000    Old_age   Always       -       429546929779
 
 SMART Error Log Version: 1
 No Errors Logged
@@ -91,4 +91,6 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
 

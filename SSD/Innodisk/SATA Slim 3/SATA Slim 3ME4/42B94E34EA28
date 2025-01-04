@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Feb  7 02:37:14 2024 UTC
+Local Time is:    Wed Feb  7 00:16:42 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -50,15 +50,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Later_Bad_Block         -O--C-   100   100   001    -    0
   7 Seek_Error_Rate         ------   000   000   000    -    0
   8 Seek_Time_Performance   ------   000   000   000    -    0
-  9 Power_On_Hours          -O--C-   000   000   000    -    33
+  9 Power_On_Hours          -O--C-   000   000   000    -    36
  10 Spin_Retry_Count        ------   000   000   000    -    0
- 12 Power_Cycle_Count       -O--C-   011   000   000    -    11
+ 12 Power_Cycle_Count       -O--C-   013   000   000    -    13
 163 Total_Bad_Block_Count   ------   000   000   000    -    19
 168 SATA_PHY_Error_Count    ------   000   000   000    -    0
 169 Remaining_Lifetime_Perc ------   100   000   000    -    100
 175 Bad_Cluster_Table_Count ------   000   000   000    -    0
 192 Power-Off_Retract_Count -O--C-   000   000   000    -    5
-194 Temperature_Celsius     -O----   052   100   000    -    52 (3 53 0 50 0)
+194 Temperature_Celsius     -O----   061   100   000    -    61 (3 61 0 59 0)
 197 Current_Pending_Sector  ------   000   000   000    -    0
 225 Data_Log_Write_Count    ------   000   000   000    -    0
 240 Write_Head              ------   000   000   000    -    0
@@ -73,8 +73,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Flash_ID                ------   100   100   000    -    0x517693943a98
 232 Spares_Remaining_Perc   PO--C-   000   000   000    -    0
 235 Later_Bad_Blk_Inf_R/W/E -O----   000   000   000    -    0 0 0
-241 Host_Writes_32MiB       -O----   100   100   000    -    840
-242 Host_Reads_32MiB        -O----   100   100   000    -    630
+241 Host_Writes_32MiB       -O----   100   100   000    -    863
+242 Host_Reads_32MiB        -O----   100   100   000    -    687
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

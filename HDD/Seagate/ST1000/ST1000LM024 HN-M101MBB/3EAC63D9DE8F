@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jan 10 23:06:06 2024 CET
+Local Time is:    Wed Jan 10 23:31:24 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -81,9 +81,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--CK   252   252   000    -    0
 198 Offline_Uncorrectable   ----CK   252   252   000    -    0
 199 UDMA_CRC_Error_Count    -OS-CK   200   200   000    -    0
-200 Multi_Zone_Error_Rate   -O-R-K   100   100   000    -    66334
+200 Multi_Zone_Error_Rate   -O-R-K   100   100   000    -    66335
 223 Load_Retry_Count        -O--CK   100   100   000    -    77
-225 Load_Cycle_Count        -O--CK   063   063   000    -    374893
+225 Load_Cycle_Count        -O--CK   063   063   000    -    374921
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -131,7 +131,7 @@ SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
 Current Temperature:                    38 Celsius
-Power Cycle Min/Max Temperature:     23/38 Celsius
+Power Cycle Min/Max Temperature:     23/39 Celsius
 Lifetime    Min/Max Temperature:     10/48 Celsius
 Specified Max Operating Temperature:    80 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -141,7 +141,7 @@ Temperature Sampling Period:         5 minutes
 Temperature Logging Interval:        5 minutes
 Min/Max recommended Temperature:     -5/80 Celsius
 Min/Max Temperature Limit:           -10/85 Celsius
-Temperature History Size (Index):    128 (8)
+Temperature History Size (Index):    128 (13)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -161,8 +161,8 @@ ID      Size     Value  Description
 0x0006  4            0  R_ERR response for device-to-host non-data FIS
 0x0007  4            0  R_ERR response for host-to-device non-data FIS
 0x0008  4            0  Device-to-host non-data FIS retries
-0x0009  4           18  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           18  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           23  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           23  Device-to-host register FISes sent due to a COMRESET
 0x000b  4            0  CRC errors within host-to-device FIS
 0x000d  4            0  Non-CRC errors within host-to-device FIS
 0x000f  4            0  R_ERR response for host-to-device data FIS, CRC
@@ -175,16 +175,16 @@ ID      Size     Value  Description
 0x8e03  4            0  Vendor specific
 0x8e04  4            0  Vendor specific
 0x8e05  4            0  Vendor specific
-0x8e06  4        35123  Vendor specific
-0x8e07  4       120268  Vendor specific
-0x8e08  4           71  Vendor specific
-0x8e09  4        28771  Vendor specific
-0x8e0a  4       142516  Vendor specific
-0x8e0b  4    238114816  Vendor specific
-0x8e0c  4       419857  Vendor specific
-0x8e0d  4        33760  Vendor specific
-0x8e0e  4        43490  Vendor specific
-0x8e0f  4     67802112  Vendor specific
-0x8e10  4       173960  Vendor specific
-0x8e11  4            4  Vendor specific
+0x8e06  4        49020  Vendor specific
+0x8e07  4       245588  Vendor specific
+0x8e08  4          117  Vendor specific
+0x8e09  4       205811  Vendor specific
+0x8e0a  4       560685  Vendor specific
+0x8e0b  4    487826048  Vendor specific
+0x8e0c  4      1304940  Vendor specific
+0x8e0d  4       257408  Vendor specific
+0x8e0e  4       125745  Vendor specific
+0x8e0f  4    508298880  Vendor specific
+0x8e10  4       502980  Vendor specific
+0x8e11  4            5  Vendor specific
 

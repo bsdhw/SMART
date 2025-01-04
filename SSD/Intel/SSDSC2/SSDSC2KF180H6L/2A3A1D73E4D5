@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed May 22 15:27:11 2024 BST
+Local Time is:    Wed May 22 16:03:40 2024 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -24,12 +24,11 @@ SMART overall-health self-assessment test result: PASSED
 Warning: This result is based on an Attribute check.
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x05)	Offline data collection activity
+					was aborted by an interrupting command from host.
 					Auto Offline Data Collection: Disabled.
-Self-test execution status:      (   0)	The previous self-test routine completed
-					without error or no self-test has ever 
-					been run.
+Self-test execution status:      ( 246)	Self-test routine in progress...
+					60% of test remaining.
 Total time to complete Offline 
 data collection: 		(    0) seconds.
 Offline data collection
@@ -69,19 +68,19 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error        0x0033   100   100   097    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   038   059   000    Old_age   Always       -       38 (Min/Max 22/59)
+190 Airflow_Temperature_Cel 0x0032   045   059   000    Old_age   Always       -       45 (Min/Max 22/59)
 192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       221
-194 Temperature_Celsius     0x0032   038   059   000    Old_age   Always       -       38 (Min/Max 22/59)
+194 Temperature_Celsius     0x0032   045   059   000    Old_age   Always       -       45 (Min/Max 22/59)
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
-225 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       13466
+225 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       13467
 226 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       0
 227 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       0
 228 Power-off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       0
 232 Available_Reservd_Space 0x0033   099   099   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0033   094   094   001    Pre-fail  Always       -       0
 236 Unknown_Attribute       0x0033   099   099   001    Pre-fail  Always       -       0
-241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       13466
-242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       21300
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       13467
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       21301
 249 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       9618
 
 SMART Error Log Version: 1
@@ -89,15 +88,15 @@ No Errors Logged
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Extended offline    Self-test routine in progress 90%      1563         -
-# 2  Extended offline    Self-test routine in progress 90%      1563         -
-# 3  Extended offline    Self-test routine in progress 90%      1563         -
-# 4  Extended offline    Self-test routine in progress 90%      1563         -
-# 5  Extended offline    Self-test routine in progress 90%      1563         -
-# 6  Extended offline    Self-test routine in progress 90%      1563         -
-# 7  Extended offline    Self-test routine in progress 90%      1563         -
-# 8  Extended offline    Self-test routine in progress 90%      1563         -
-# 9  Extended offline    Self-test routine in progress 90%      1563         -
+# 1  Extended offline    Self-test routine in progress 60%      1566         -
+# 2  Extended offline    Self-test routine in progress 60%      1566         -
+# 3  Extended offline    Self-test routine in progress 60%      1566         -
+# 4  Extended offline    Self-test routine in progress 60%      1566         -
+# 5  Extended offline    Self-test routine in progress 60%      1566         -
+# 6  Extended offline    Self-test routine in progress 60%      1566         -
+# 7  Extended offline    Self-test routine in progress 60%      1566         -
+# 8  Extended offline    Self-test routine in progress 60%      1566         -
+# 9  Extended offline    Completed without error       00%      1566         -
 #10  Extended offline    Self-test routine in progress 90%      1563         -
 #11  Extended offline    Self-test routine in progress 90%      1563         -
 #12  Extended offline    Self-test routine in progress 90%      1563         -

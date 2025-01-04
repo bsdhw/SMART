@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,10 +13,10 @@ Controller ID:                      5
 NVMe Version:                       1.4
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
-Namespace 1 Utilization:            154,077,720,576 [154 GB]
+Namespace 1 Utilization:            155,650,007,040 [155 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Wed Jan  3 00:01:51 2024 UTC
+Local Time is:                      Tue Feb  6 15:38:19 2024 EET
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0055):     Comp DS_Mngmt Sav/Sel_Feat Timestmp
@@ -43,24 +43,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        37 Celsius
+Temperature:                        41 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    5%
-Data Units Read:                    3,969,436 [2.03 TB]
-Data Units Written:                 42,601,764 [21.8 TB]
-Host Read Commands:                 40,552,920
-Host Write Commands:                515,455,617
-Controller Busy Time:               496
-Power Cycles:                       162
-Power On Hours:                     2,255
-Unsafe Shutdowns:                   128
+Data Units Read:                    4,105,418 [2.10 TB]
+Data Units Written:                 43,296,316 [22.1 TB]
+Host Read Commands:                 42,015,923
+Host Write Commands:                526,443,934
+Controller Busy Time:               500
+Power Cycles:                       180
+Power On Hours:                     3,078
+Unsafe Shutdowns:                   140
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    7040
 Critical Comp. Temperature Time:    1131
-Temperature Sensor 1:               37 Celsius
-Temperature Sensor 2:               46 Celsius
+Temperature Sensor 1:               41 Celsius
+Temperature Sensor 2:               48 Celsius
 Thermal Temp. 1 Transition Count:   24
 Thermal Temp. 2 Transition Count:   76834
 Thermal Temp. 1 Total Time:         445

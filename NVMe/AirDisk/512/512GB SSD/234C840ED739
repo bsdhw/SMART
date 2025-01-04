@@ -13,10 +13,10 @@ Controller ID:                      0
 NVMe Version:                       1.4
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
-Namespace 1 Utilization:            353,549,476,352 [353 GB]
+Namespace 1 Utilization:            474,458,811,904 [474 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            3a5a27 ...
-Local Time is:                      Thu Jun 22 18:55:34 2023 EDT
+Local Time is:                      Sun Jun 25 13:22:11 2023 EDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -46,20 +46,20 @@ Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    523,166 [267 GB]
-Data Units Written:                 1,094,514 [560 GB]
-Host Read Commands:                 10,412,104
-Host Write Commands:                23,701,106
-Controller Busy Time:               38
-Power Cycles:                       57
-Power On Hours:                     249
+Data Units Read:                    530,508 [271 GB]
+Data Units Written:                 1,324,970 [678 GB]
+Host Read Commands:                 10,559,019
+Host Write Commands:                29,395,296
+Controller Busy Time:               45
+Power Cycles:                       58
+Power On Hours:                     315
 Unsafe Shutdowns:                   21
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               44 Celsius
-Temperature Sensor 2:               44 Celsius
+Temperature Sensor 2:               43 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

@@ -10,7 +10,7 @@ User Capacity:    80,060,424,192 bytes [80.0 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 0
-Local Time is:    Tue Sep 10 18:31:26 2024 ACST
+Local Time is:    Sun Sep 15 10:14:09 2024 ACST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     254 (maximum performance), recommended: 254
@@ -56,17 +56,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   100   100   051    -    0
-  3 Spin_Up_Time            POS---   100   100   025    -    4096
-  4 Start_Stop_Count        -O--CK   080   080   000    -    21121
+  3 Spin_Up_Time            POS---   100   100   025    -    4160
+  4 Start_Stop_Count        -O--CK   080   080   000    -    21124
   5 Reallocated_Sector_Ct   PO--CK   100   100   011    -    0
   7 Seek_Error_Rate         POSR--   100   100   051    -    0
   8 Seek_Time_Performance   P-S--K   100   100   015    -    0
-  9 Power_On_Half_Minutes   -O--CK   097   097   000    -    18534h+18m
+  9 Power_On_Half_Minutes   -O--CK   097   097   000    -    18534h+36m
  10 Spin_Retry_Count        PO--CK   100   100   051    -    2
  11 Calibration_Retry_Count -O--C-   100   100   000    -    0
- 12 Power_Cycle_Count       -O--CK   090   090   000    -    10629
-194 Temperature_Celsius     -O---K   148   079   000    -    30
-195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    855870
+ 12 Power_Cycle_Count       -O--CK   090   090   000    -    10632
+194 Temperature_Celsius     -O---K   193   079   000    -    15
+195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    207857
 196 Reallocated_Event_Count -O--CK   098   098   000    -    6
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Total_Offl_Uncorrectabl ----CK   098   098   000    -    6

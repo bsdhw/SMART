@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Dec 11 13:21:42 2024 EST
+Local Time is:    Sat Dec 14 10:06:54 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,12 +63,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    70
+  9 Power_On_Hours          -O--C-   100   100   000    -    139
  12 Power_Cycle_Count       -O--C-   100   100   000    -    19
 160 Unknown_Attribute       ------   100   100   000    -    0
 161 Unknown_Attribute       -O--C-   100   100   000    -    68
 163 Unknown_Attribute       PO----   100   100   050    -    70
-164 Unknown_Attribute       ------   100   100   000    -    10522
+164 Unknown_Attribute       ------   100   100   000    -    11850
 165 Unknown_Attribute       ------   100   100   000    -    6
 166 Unknown_Attribute       ------   100   100   000    -    1
 167 Unknown_Attribute       ------   100   100   000    -    2
@@ -78,9 +78,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 194 Temperature_Celsius     PO---K   100   100   000    -    38
 196 Reallocated_Event_Count ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    349
-242 Total_LBAs_Read         -O--C-   100   100   000    -    33
-249 Unknown_Attribute       -O--C-   100   100   000    -    14
+241 Total_LBAs_Written      -O--C-   100   100   000    -    2517
+242 Total_LBAs_Read         -O--C-   100   100   000    -    64
+249 Unknown_Attribute       -O--C-   100   100   000    -    98
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -105,13 +105,13 @@ Address    Access  R/W   Size  Description
 0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
 
 Warning! SMART Extended Comprehensive Error Log Structure error: invalid SMART checksum.
-SMART Extended Comprehensive Error Log Version: 4 (64 sectors)
-Invalid Error Log index = 0x609e (reserved = 0x21)
-Device Error Count: 63041 (possibly also invalid)
+SMART Extended Comprehensive Error Log Version: 109 (64 sectors)
+Invalid Error Log index = 0x2000 (reserved = 0x31)
+Device Error Count: 11265 (possibly also invalid)
 
 Warning! SMART Extended Self-test Log Structure error: invalid SMART checksum.
-SMART Extended Self-test Log Version: 254 (1 sectors)
-Invalid Self-test Log index = 0x058b (reserved = 0x48)
+SMART Extended Self-test Log Version: 7 (1 sectors)
+Invalid Self-test Log index = 0x6603 (reserved = 0xf1)
 SMART Selective self-test log data structure revision number 0
 Note: revision number not 1 implies that no selective self-test has ever been run
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -130,19 +130,19 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 3) ==
 0x01  0x008  4              19  ---  Lifetime Power-On Resets
-0x01  0x010  4              70  ---  Power-on Hours
-0x01  0x018  6        22908796  ---  Logical Sectors Written
-0x01  0x028  6         2220296  ---  Logical Sectors Read
+0x01  0x010  4             139  ---  Power-on Hours
+0x01  0x018  6       165003959  ---  Logical Sectors Written
+0x01  0x028  6         4203579  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1             -56  ---  Current Temperature
+0x05  0x008  1             -51  ---  Current Temperature
 0x05  0x020  1               0  ---  Highest Temperature
 0x05  0x028  1               0  ---  Lowest Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              38  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              44  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -152,5 +152,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2           18  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           39  Device-to-host register FISes sent due to a COMRESET
 

@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000000 ...
-Local Time is:                      Thu Dec  7 12:41:16 2023 UTC
+Local Time is:                      Fri Dec 29 12:27:36 2023 UTC
 Firmware Updates (0x1a):            5 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -45,20 +45,20 @@ Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          1%
 Percentage Used:                    0%
-Data Units Read:                    872,153 [446 GB]
-Data Units Written:                 292,676 [149 GB]
-Host Read Commands:                 30,395,403
-Host Write Commands:                4,196,187
-Controller Busy Time:               29
+Data Units Read:                    877,447 [449 GB]
+Data Units Written:                 1,758,916 [900 GB]
+Host Read Commands:                 30,563,274
+Host Write Commands:                16,899,655
+Controller Busy Time:               67
 Power Cycles:                       27
-Power On Hours:                     57
+Power On Hours:                     584
 Unsafe Shutdowns:                   7
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               44 Celsius
-Temperature Sensor 2:               43 Celsius
+Temperature Sensor 2:               42 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

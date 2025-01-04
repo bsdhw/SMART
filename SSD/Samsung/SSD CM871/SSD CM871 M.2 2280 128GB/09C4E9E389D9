@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jul 29 18:08:49 2023 UTC
+Local Time is:    Mon Jul 31 14:53:13 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,11 +60,11 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   096   096   000    -    19564
- 12 Power_Cycle_Count       PO--CK   096   096   000    -    3741
+  9 Power_On_Hours          -O--CK   096   096   000    -    19569
+ 12 Power_Cycle_Count       PO--CK   096   096   000    -    3745
 175 Program_Fail_Count_Chip PO--CK   100   100   010    -    0
 176 Erase_Fail_Count_Chip   PO--CK   100   100   010    -    0
-177 Wear_Leveling_Count     PO--C-   039   039   005    -    1280
+177 Wear_Leveling_Count     PO--C-   039   039   005    -    1281
 178 Used_Rsvd_Blk_Cnt_Chip  PO--C-   100   100   010    -    0
 179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   100   100   010    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   100   100   010    -    1066
@@ -72,8 +72,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count_Total  PO--CK   100   100   010    -    0
 187 Reported_Uncorrect      PO--CK   100   100   000    -    0
 195 Hardware_ECC_Recovered  PO-RC-   200   200   000    -    0
-241 Total_LBAs_Written      PO--CK   099   099   000    -    155668425596
-242 Total_LBAs_Read         PO--CK   099   099   000    -    10662520758
+241 Total_LBAs_Written      PO--CK   099   099   000    -    155688790379
+242 Total_LBAs_Read         PO--CK   099   099   000    -    10665687986
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -144,8 +144,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2           30  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           30  Device-to-host register FISes sent due to a COMRESET
+0x0009  2           35  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           35  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

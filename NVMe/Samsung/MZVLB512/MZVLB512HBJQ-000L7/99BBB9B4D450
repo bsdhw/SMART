@@ -16,7 +16,7 @@ Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Utilization:            78,322,368,512 [78.3 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sun Jul 16 19:34:34 2023    
+Local Time is:                      Sun Jul 16 19:54:19 2023    
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -59,7 +59,7 @@ Error Information Log Entries:      4,694
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               26 Celsius
-Temperature Sensor 2:               25 Celsius
+Temperature Sensor 2:               30 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

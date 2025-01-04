@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Sep 30 14:11:20 2023 CEST
+Local Time is:    Fri Oct  6 12:12:54 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -50,20 +50,20 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--C-   100   100   001    -    0
   7 Unknown_SSD_Attribute   ------   000   000   000    -    0
   8 Unknown_SSD_Attribute   ------   000   000   000    -    0
-  9 Power_On_Hours          -O--C-   172   000   000    -    2841
+  9 Power_On_Hours          -O--C-   017   000   000    -    2983
  10 Unknown_SSD_Attribute   ------   000   000   000    -    0
- 12 Power_Cycle_Count       -O--C-   253   000   000    -    554
+ 12 Power_Cycle_Count       -O--C-   253   000   000    -    556
 163 Unknown_Attribute       ------   000   000   000    -    11
 168 Unknown_Attribute       ------   000   000   000    -    0
 169 Unknown_Attribute       ------   100   000   000    -    100
 175 Program_Fail_Count_Chip ------   000   000   000    -    0
-192 Power-Off_Retract_Count -O--C-   000   000   000    -    131
-194 Temperature_Celsius     -O----   055   100   000    -    55 (3 58 0 42 0)
+192 Power-Off_Retract_Count -O--C-   000   000   000    -    132
+194 Temperature_Celsius     -O----   054   100   000    -    54 (3 57 0 47 0)
 197 Current_Pending_Sector  ------   000   000   000    -    0
 225 Unknown_SSD_Attribute   ------   000   000   000    -    0
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
-165 Unknown_Attribute       -O--C-   047   100   000    -    47
-167 Unknown_Attribute       -O--C-   000   100   000    -    13
+165 Unknown_Attribute       -O--C-   065   100   000    -    65
+167 Unknown_Attribute       -O--C-   000   100   000    -    17
 170 Unknown_Attribute       PO--C-   100   100   010    -    141
 171 Unknown_Attribute       -O--C-   000   100   000    -    0
 172 Unknown_Attribute       -O--C-   000   100   000    -    0
@@ -72,8 +72,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Unknown_Attribute       ------   100   100   000    -    89569723955864
 232 Available_Reservd_Space PO--C-   000   000   000    -    0
 235 Unknown_Attribute       -O----   000   000   000    -    0
-241 Total_LBAs_Written      -O----   100   100   000    -    7827
-242 Total_LBAs_Read         -O----   100   100   000    -    7697
+241 Total_LBAs_Written      -O----   100   100   000    -    10766
+242 Total_LBAs_Read         -O----   100   100   000    -    7767
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

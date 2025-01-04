@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       SSD 128GB
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Wed Apr  5 20:39:55 2023 HKT
+Local Time is:                      Wed Jun 12 19:23:52 2024 HKT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -38,20 +38,22 @@ Critical Warning:                   0x00
 Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    9,035 [4.62 GB]
-Data Units Written:                 225,423 [115 GB]
-Host Read Commands:                 275,558
-Host Write Commands:                3,452,682
-Controller Busy Time:               383
-Power Cycles:                       29
-Power On Hours:                     434
-Unsafe Shutdowns:                   22
+Percentage Used:                    11%
+Data Units Read:                    7,645,882 [3.91 TB]
+Data Units Written:                 56,836,945 [29.1 TB]
+Host Read Commands:                 36,278,530
+Host Write Commands:                610,983,780
+Controller Busy Time:               34,590
+Power Cycles:                       61
+Power On Hours:                     10,728
+Unsafe Shutdowns:                   41
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    3090
-Critical Comp. Temperature Time:    7810
+Warning  Comp. Temperature Time:    44129
+Critical Comp. Temperature Time:    180018
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
+
+Self-tests not supported
 

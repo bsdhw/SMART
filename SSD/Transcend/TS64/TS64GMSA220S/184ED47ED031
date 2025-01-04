@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Dec 15 15:25:05 2024 CET
+Local Time is:    Mon Dec 16 15:17:42 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,17 +62,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    45
+  9 Power_On_Hours          -O--CK   100   100   050    -    68
  12 Power_Cycle_Count       -O--CK   100   100   050    -    17
 160 Unknown_Attribute       -O--CK   100   100   050    -    0
 161 Unknown_Attribute       PO--CK   100   100   050    -    100
 163 Unknown_Attribute       -O--CK   100   100   050    -    19
-164 Unknown_Attribute       -O--CK   100   100   050    -    17676
-165 Unknown_Attribute       -O--CK   100   100   050    -    55
+164 Unknown_Attribute       -O--CK   100   100   050    -    27895
+165 Unknown_Attribute       -O--CK   100   100   050    -    92
 166 Unknown_Attribute       -O--CK   100   100   050    -    1
-167 Unknown_Attribute       -O--CK   100   100   050    -    35
+167 Unknown_Attribute       -O--CK   100   100   050    -    55
 168 Unknown_Attribute       -O--CK   100   100   050    -    1000
-169 Unknown_Attribute       -O--CK   100   100   050    -    97
+169 Unknown_Attribute       -O--CK   100   100   050    -    95
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   050    -    0
 177 Wear_Leveling_Count     -O--CK   100   100   050    -    0
@@ -80,16 +80,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  -O--CK   100   100   050    -    0
 182 Erase_Fail_Count_Total  -O--CK   100   100   050    -    0
 192 Power-Off_Retract_Count -O--CK   100   100   050    -    10
-194 Temperature_Celsius     -O---K   100   100   050    -    46
+194 Temperature_Celsius     -O---K   100   100   050    -    45
 195 Hardware_ECC_Recovered  -O--CK   100   100   050    -    0
 196 Reallocated_Event_Count -O--CK   100   100   050    -    0
 197 Current_Pending_Sector  -O--CK   100   100   050    -    0
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   050    -    0
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Total_LBAs_Written      ----CK   100   100   050    -    36121
-242 Total_LBAs_Read         ----CK   100   100   050    -    356
-245 Unknown_Attribute       -O--CK   100   100   050    -    27847
+241 Total_LBAs_Written      ----CK   100   100   050    -    59613
+242 Total_LBAs_Read         ----CK   100   100   050    -    458
+245 Unknown_Attribute       -O--CK   100   100   050    -    47544
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -125,9 +125,9 @@ Selective Self-tests/Logging not supported
 SCT Status Version:                  3
 SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
-Current Temperature:                    46 Celsius
-Power Cycle Min/Max Temperature:     46/46 Celsius
-Lifetime    Min/Max Temperature:     23/45 Celsius
+Current Temperature:                    45 Celsius
+Power Cycle Min/Max Temperature:     45/45 Celsius
+Lifetime    Min/Max Temperature:     23/46 Celsius
 Specified Max Operating Temperature:   100 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -139,13 +139,13 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              17  ---  Lifetime Power-On Resets
-0x01  0x010  4              45  ---  Power-on Hours
-0x01  0x018  6      2367282655  ---  Logical Sectors Written
-0x01  0x020  6        34276147  ---  Number of Write Commands
-0x01  0x028  6        23336616  ---  Logical Sectors Read
-0x01  0x030  6          509184  ---  Number of Read Commands
+0x01  0x010  4              68  ---  Power-on Hours
+0x01  0x018  6      3906845432  ---  Logical Sectors Written
+0x01  0x020  6        55777720  ---  Number of Write Commands
+0x01  0x028  6        30069564  ---  Logical Sectors Read
+0x01  0x030  6          655767  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               9  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              15  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

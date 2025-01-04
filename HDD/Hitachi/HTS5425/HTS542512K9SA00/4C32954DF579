@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 3f
 SATA Version is:  SATA 2.5, 1.5 Gb/s
-Local Time is:    Wed Oct  9 20:29:43 2024 AST
+Local Time is:    Thu Oct 10 14:21:27 2024 AST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,17 +59,17 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   1 Raw_Read_Error_Rate     0x000b   100   100   062    Pre-fail  Always       -       0
   2 Throughput_Performance  0x0005   100   100   040    Pre-fail  Offline      -       0
   3 Spin_Up_Time            0x0007   253   253   033    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0012   098   098   000    Old_age   Always       -       3507
+  4 Start_Stop_Count        0x0012   098   098   000    Old_age   Always       -       3510
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   100   100   040    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0012   094   094   000    Old_age   Always       -       2791
+  9 Power_On_Hours          0x0012   094   094   000    Old_age   Always       -       2800
  10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       2885
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       2888
 191 G-Sense_Error_Rate      0x000a   100   100   000    Old_age   Always       -       0
 192 Power-Off_Retract_Count 0x0032   099   099   000    Old_age   Always       -       459067
-193 Load_Cycle_Count        0x0012   096   096   000    Old_age   Always       -       42963
-194 Temperature_Celsius     0x0002   137   137   000    Old_age   Always       -       40 (Min/Max 16/52)
+193 Load_Cycle_Count        0x0012   096   096   000    Old_age   Always       -       42991
+194 Temperature_Celsius     0x0002   134   134   000    Old_age   Always       -       41 (Min/Max 16/52)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       1
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0

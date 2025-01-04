@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       WDS250G2X0C-00L350
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Sat Jul 23 18:29:39 2022 EDT
+Local Time is:                      Sun Jun  9 15:03:51 2024 EDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -43,18 +43,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        41 Celsius
+Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    1%
-Data Units Read:                    1,069,329 [547 GB]
-Data Units Written:                 4,078,624 [2.08 TB]
-Host Read Commands:                 31,117,194
-Host Write Commands:                75,061,208
-Controller Busy Time:               76
-Power Cycles:                       161
-Power On Hours:                     34,552
-Unsafe Shutdowns:                   112
+Percentage Used:                    12%
+Data Units Read:                    27,242,027 [13.9 TB]
+Data Units Written:                 49,400,917 [25.2 TB]
+Host Read Commands:                 75,465,048
+Host Write Commands:                471,293,452
+Controller Busy Time:               524
+Power Cycles:                       179
+Power On Hours:                     50,920
+Unsafe Shutdowns:                   124
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
@@ -62,4 +62,8 @@ Critical Comp. Temperature Time:    0
 
 Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+No Self-tests Logged
 

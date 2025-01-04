@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Dec 27 00:42:40 2023 MST
+Local Time is:    Thu Jan  4 19:54:50 2024 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,9 +62,9 @@ SCT capabilities: 	       (0x0021)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   084   084   050    -    166808060
+  1 Raw_Read_Error_Rate     POSR--   094   094   050    -    159219629
   5 Reallocated_Sector_Ct   PO--CK   100   100   003    -    0
-  9 Power_On_Hours          -O--CK   062   062   000    -    33412 (143 116 0)
+  9 Power_On_Hours          -O--CK   062   062   000    -    33623 (193 104 0)
  12 Power_Cycle_Count       -O--CK   079   079   000    -    22442
 171 Unknown_Attribute       -O--CK   000   000   000    -    0
 172 Unknown_Attribute       -O--CK   000   000   000    -    0
@@ -73,17 +73,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  -O--CK   000   000   000    -    0
 182 Erase_Fail_Count_Total  -O--CK   000   000   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   025   047   000    -    25 (Min/Max 3/47)
-195 Hardware_ECC_Recovered  --SRC-   120   120   000    -    166808060
+194 Temperature_Celsius     -O---K   026   047   000    -    26 (Min/Max 3/47)
+195 Hardware_ECC_Recovered  --SRC-   120   120   000    -    159219629
 196 Reallocated_Event_Count PO--CK   100   100   003    -    0
-201 Unknown_SSD_Attribute   --SRC-   120   120   000    -    166808060
-204 Soft_ECC_Correction     --SRC-   120   120   000    -    166808060
+201 Unknown_SSD_Attribute   --SRC-   120   120   000    -    159219629
+204 Soft_ECC_Correction     --SRC-   120   120   000    -    159219629
 230 Unknown_SSD_Attribute   PO--C-   100   100   000    -    100
 231 Unknown_SSD_Attribute   PO--C-   091   091   010    -    0
-233 Media_Wearout_Indicator ------   000   000   000    -    46809
-234 Unknown_Attribute       -O--CK   000   000   000    -    78378
-241 Total_LBAs_Written      -O--CK   000   000   000    -    78378
-242 Total_LBAs_Read         -O--CK   000   000   000    -    31414
+233 Media_Wearout_Indicator ------   000   000   000    -    47432
+234 Unknown_Attribute       -O--CK   000   000   000    -    78806
+241 Total_LBAs_Written      -O--CK   000   000   000    -    78806
+242 Total_LBAs_Read         -O--CK   000   000   000    -    31487
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -126,7 +126,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
-Current Temperature:                    25 Celsius
+Current Temperature:                    26 Celsius
 Power Cycle Min/Max Temperature:     24/26 Celsius
 Lifetime    Min/Max Temperature:      3/47 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -136,7 +136,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:     -67/92 Celsius
 Min/Max Temperature Limit:           -56/-36 Celsius
-Temperature History Size (Index):    11349 (427)
+Temperature History Size (Index):    11349 (391)
 Invalid Temperature History Size or Index
 
 SCT Error Recovery Control command not supported

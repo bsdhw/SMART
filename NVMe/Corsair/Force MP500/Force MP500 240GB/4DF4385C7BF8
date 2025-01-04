@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Force MP500
@@ -12,7 +12,7 @@ NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          240,057,409,536 [240 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Tue Mar 14 13:50:54 2023 CDT
+Local Time is:                      Mon Oct 30 15:24:32 2023 CDT
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -39,18 +39,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        63 Celsius
+Temperature:                        46 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          1%
-Percentage Used:                    13%
-Data Units Read:                    18,172,941 [9.30 TB]
-Data Units Written:                 178,307,048 [91.2 TB]
-Host Read Commands:                 78,964,821
-Host Write Commands:                2,245,292,104
-Controller Busy Time:               474,635
-Power Cycles:                       214
-Power On Hours:                     35,161
-Unsafe Shutdowns:                   114
+Percentage Used:                    19%
+Data Units Read:                    19,332,452 [9.89 TB]
+Data Units Written:                 281,309,169 [144 TB]
+Host Read Commands:                 102,758,966
+Host Write Commands:                3,291,235,101
+Controller Busy Time:               599,113
+Power Cycles:                       224
+Power On Hours:                     39,224
+Unsafe Shutdowns:                   124
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      1,302
 Warning  Comp. Temperature Time:    0
@@ -58,22 +58,24 @@ Critical Comp. Temperature Time:    0
 Temperature Sensor 2:               73 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
-Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0       1302     0  0x0027  0x4004      -            0     1     -
-  1       1301     0  0x0026  0x4004      -            0     1     -
-  2       1300     0  0x0025  0x4004      -   4294967423     1     -
-  3       1299     0  0x0024  0x4004      -            3     1     -
-  4       1298     0  0x0005  0x4004      -          208     1     -
-  5       1297     0  0x0004  0x4004      -            3     1     -
-  6       1296     0  0x0001  0x4004      -            6     1     -
-  7       1295     0  0x0027  0x4004      -            0     1     -
-  8       1294     0  0x0026  0x4004      -            0     1     -
-  9       1293     0  0x0025  0x4004      -   4294967423     1     -
- 10       1292     0  0x0024  0x4004      -            3     1     -
- 11       1291     0  0x0005  0x4004      -          208     1     -
- 12       1290     0  0x0004  0x4004      -            3     1     -
- 13       1289     0  0x0001  0x4004      -            6     1     -
- 14       1288     0  0x0027  0x4004      -            0     1     -
- 15       1287     0  0x0026  0x4004      -            0     1     -
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS  Message
+  0       1302     0  0x0027  0x4004      -            0     1     -  Invalid Field in Command
+  1       1301     0  0x0026  0x4004      -            0     1     -  Invalid Field in Command
+  2       1300     0  0x0025  0x4004      -   4294967423     1     -  Invalid Field in Command
+  3       1299     0  0x0024  0x4004      -            3     1     -  Invalid Field in Command
+  4       1298     0  0x0005  0x4004      -          208     1     -  Invalid Field in Command
+  5       1297     0  0x0004  0x4004      -            3     1     -  Invalid Field in Command
+  6       1296     0  0x0001  0x4004      -            6     1     -  Invalid Field in Command
+  7       1295     0  0x0027  0x4004      -            0     1     -  Invalid Field in Command
+  8       1294     0  0x0026  0x4004      -            0     1     -  Invalid Field in Command
+  9       1293     0  0x0025  0x4004      -   4294967423     1     -  Invalid Field in Command
+ 10       1292     0  0x0024  0x4004      -            3     1     -  Invalid Field in Command
+ 11       1291     0  0x0005  0x4004      -          208     1     -  Invalid Field in Command
+ 12       1290     0  0x0004  0x4004      -            3     1     -  Invalid Field in Command
+ 13       1289     0  0x0001  0x4004      -            6     1     -  Invalid Field in Command
+ 14       1288     0  0x0027  0x4004      -            0     1     -  Invalid Field in Command
+ 15       1287     0  0x0026  0x4004      -            0     1     -  Invalid Field in Command
 ... (48 entries not read)
+
+Self-tests not supported
 

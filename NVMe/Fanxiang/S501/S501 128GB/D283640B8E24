@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Fanxiang S501 128GB
@@ -12,7 +12,7 @@ NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Sat Apr 22 10:54:59 2023 CEST
+Local Time is:                      Tue Nov  7 16:37:48 2023 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -37,20 +37,24 @@ Critical Warning:                   0x00
 Temperature:                        48 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    7,730 [3.95 GB]
-Data Units Written:                 261,488 [133 GB]
-Host Read Commands:                 260,088
-Host Write Commands:                7,365,492
-Controller Busy Time:               11
-Power Cycles:                       12
-Power On Hours:                     89
-Unsafe Shutdowns:                   7
+Percentage Used:                    24%
+Data Units Read:                    2,675,341 [1.36 TB]
+Data Units Written:                 35,939,834 [18.4 TB]
+Host Read Commands:                 43,651,940
+Host Write Commands:                666,172,837
+Controller Busy Time:               775
+Power Cycles:                       23
+Power On Hours:                     723
+Unsafe Shutdowns:                   15
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    0
+Warning  Comp. Temperature Time:    13
 Critical Comp. Temperature Time:    0
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+No Self-tests Logged
 

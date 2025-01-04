@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     BHT WR202I0064G E70215F5
@@ -9,10 +9,10 @@ User Capacity:    62,537,072,640 bytes [62.5 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic
-Device is:        Not in smartctl database 7.3/5319
+Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun Jan 29 10:05:52 2023 CET
+Local Time is:    Tue Dec 17 21:09:56 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -57,14 +57,14 @@ recommended polling time: 	 (  18) minutes.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--CK   100   100   000    -    177
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    19
+  9 Power_On_Hours          -O--CK   100   100   000    -    16686
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    25
 173 Unknown_Attribute       -O--CK   100   100   000    -    0
-188 Command_Timeout         -O--CK   100   100   000    -    94
+188 Command_Timeout         -O--CK   100   100   000    -    204
 194 Temperature_Celsius     -O---K   100   120   000    -    32
 199 UDMA_CRC_Error_Count    PO--CK   100   100   000    -    0
-241 Total_LBAs_Written      -O--CK   100   100   000    -    131
-242 Total_LBAs_Read         -O--CK   100   100   000    -    33
+241 Total_LBAs_Written      -O--CK   100   100   000    -    8344
+242 Total_LBAs_Read         -O--CK   100   100   000    -    231
 234 Unknown_Attribute       -O--CK   100   100   000    -    0
 235 Unknown_Attribute       -O--CK   100   100   000    -    0
 236 Unknown_Attribute       -O--CK   100   100   000    -    0
@@ -73,7 +73,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 244 Unknown_Attribute       -O--CK   100   100   000    -    0
 245 Unknown_Attribute       -O--CK   100   100   000    -    0
 246 Unknown_Attribute       -O--CK   100   100   000    -    0
-247 Unknown_Attribute       -O--CK   100   100   000    -    1028
+247 Unknown_Attribute       -O--CK   100   100   000    -    1285
 248 Unknown_Attribute       -O--CK   100   100   000    -    1
                             ||||||_ K auto-keep
                             |||||__ C event count

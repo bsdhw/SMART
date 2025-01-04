@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Sep 27 14:57:08 2024 CEST
+Local Time is:    Mon Sep 30 20:00:20 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,7 +60,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0033   097   097   000    Pre-fail  Always       -       2649
+ 12 Power_Cycle_Count       0x0033   097   097   000    Pre-fail  Always       -       2664
 175 Program_Fail_Count_Chip 0x0033   100   100   010    Pre-fail  Always       -       0
 176 Erase_Fail_Count_Chip   0x0033   100   100   010    Pre-fail  Always       -       0
 177 Wear_Leveling_Count     0x0013   096   096   005    Pre-fail  Always       -       71
@@ -71,8 +71,8 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count_Total  0x0033   100   100   010    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0033   100   100   000    Pre-fail  Always       -       0
 195 ECC_Error_Rate          0x001b   200   200   000    Pre-fail  Always       -       0
-241 Total_LBAs_Written      0x0033   099   099   000    Pre-fail  Always       -       13432884760
-242 Total_LBAs_Read         0x0033   099   099   000    Pre-fail  Always       -       14114027194
+241 Total_LBAs_Written      0x0033   099   099   000    Pre-fail  Always       -       13546468576
+242 Total_LBAs_Read         0x0033   099   099   000    Pre-fail  Always       -       14139719181
 
 SMART Error Log Version: 1
 No Errors Logged

@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p2 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p6 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -10,7 +10,7 @@ User Capacity:    160,041,885,696 bytes [160 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Mon Sep 30 15:32:20 2024 CDT
+Local Time is:    Fri Dec 27 13:41:20 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -28,9 +28,8 @@ General SMART Values:
 Offline data collection status:  (0x82)	Offline data collection activity
 					was completed without error.
 					Auto Offline Data Collection: Enabled.
-Self-test execution status:      (   0)	The previous self-test routine completed
-					without error or no self-test has ever 
-					been run.
+Self-test execution status:      ( 121)	The previous self-test completed having
+					the read element of the test failed.
 Total time to complete Offline 
 data collection: 		(  430) seconds.
 Offline data collection
@@ -55,19 +54,19 @@ recommended polling time: 	 (  54) minutes.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   114   096   006    -    77547838
+  1 Raw_Read_Error_Rate     POSR--   099   091   006    -    181072346
   3 Spin_Up_Time            PO----   097   097   000    -    0
-  4 Start_Stop_Count        -O--CK   093   093   020    -    7820
+  4 Start_Stop_Count        -O--CK   093   093   020    -    7914
   5 Reallocated_Sector_Ct   PO--CK   100   100   036    -    0
-  7 Seek_Error_Rate         POSR--   081   060   030    -    137326625
-  9 Power_On_Hours          -O--CK   051   051   000    -    43306
+  7 Seek_Error_Rate         POSR--   083   060   030    -    202132762
+  9 Power_On_Hours          -O--CK   049   049   000    -    45293
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   093   093   020    -    7800
+ 12 Power_Cycle_Count       -O--CK   093   093   020    -    7894
 187 Reported_Uncorrect      -O--CK   001   001   000    -    1654
 189 High_Fly_Writes         -O-RCK   096   096   000    -    4
-190 Airflow_Temperature_Cel -O---K   054   047   045    -    46 (Min/Max 46/48)
-194 Temperature_Celsius     -O---K   046   053   000    -    46 (0 18 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   079   059   000    -    177534061
+190 Airflow_Temperature_Cel -O---K   053   047   045    -    47 (Min/Max 36/48)
+194 Temperature_Celsius     -O---K   047   053   000    -    47 (0 18 0 0 0)
+195 Hardware_ECC_Recovered  -O-RC-   064   057   000    -    54607794
 197 Current_Pending_Sector  -O--C-   001   001   000    -    4294967295
 198 Offline_Uncorrectable   ----C-   001   001   000    -    4294967295
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
@@ -260,6 +259,8 @@ Error 2176 [15] occurred at disk power-on lifetime: 42147 hours (1756 days + 3 h
   25 00 00 00 80 00 00 e1 00 03 90 e0 00     00:01:01.969  READ DMA EXT
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed: read failure       90%     44135         240518566951
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -280,7 +281,7 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x000a  2           34  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           62  Device-to-host register FISes sent due to a COMRESET
 0x0001  2            0  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS

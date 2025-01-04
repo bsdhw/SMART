@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Jun 19 17:02:02 2023 UTC
+Local Time is:    Fri Jun 23 16:36:03 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -59,25 +59,25 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    5409
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    21
+  9 Power_On_Hours          -O--C-   100   100   000    -    5502
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    23
  14 Unknown_Attribute       -O--C-   100   100   000    -    138018816
  15 Unknown_Attribute       -O--C-   100   100   000    -    125045424
  16 Unknown_Attribute       -O--C-   100   100   000    -    93
  17 Unknown_Attribute       -O--C-   100   100   000    -    81
-100 Unknown_Attribute       -O--C-   100   100   000    -    16448694
+100 Unknown_Attribute       -O--C-   100   100   000    -    16471626
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 170 Unknown_Attribute       PO----   087   087   010    -    52
-173 Unknown_Attribute       -O--C-   100   100   000    -    127961885
-174 Unknown_Attribute       -O--C-   100   100   000    -    8
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    8
+173 Unknown_Attribute       -O--C-   100   100   000    -    128158500
+174 Unknown_Attribute       -O--C-   100   100   000    -    9
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    9
 194 Temperature_Celsius     PO---K   070   070   000    -    30
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    34
-234 Unknown_Attribute       PO-R--   100   100   000    -    17754937
-235 Unknown_Attribute       PO-R--   100   100   000    -    83041936
-241 Total_LBAs_Written      -O--CK   000   000   000    -    19599273
-242 Total_LBAs_Read         -O--C-   100   100   000    -    17754937
+234 Unknown_Attribute       PO-R--   100   100   000    -    17765670
+235 Unknown_Attribute       PO-R--   100   100   000    -    83184091
+241 Total_LBAs_Written      -O--CK   000   000   000    -    19708117
+242 Total_LBAs_Read         -O--C-   100   100   000    -    17765670
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -128,8 +128,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           57  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           58  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           11  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           12  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

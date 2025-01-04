@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Dec  9 12:44:49 2023 PST
+Local Time is:    Tue Apr  9 11:59:39 2024 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,12 +61,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   166   166   006    -    0
   5 Retired_Block_Count     -O--CK   253   100   036    -    0
-  9 Power_On_Hours          -O--CK   064   064   000    -    32525
- 12 Power_Cycle_Count       -O--CK   100   100   020    -    151
-100 Total_Erase_Count       -O--CK   100   100   000    -    7399559
+  9 Power_On_Hours          -O--CK   062   062   000    -    33976
+ 12 Power_Cycle_Count       -O--CK   100   100   020    -    156
+100 Total_Erase_Count       -O--CK   100   100   000    -    7399751
 171 Program_Fail_Count      -O--CK   253   253   000    -    0
 172 Erase_Fail_Count        -O--CK   253   253   000    -    0
-174 Unexpect_Power_Loss_Ct  ----CK   100   100   000    -    92
+174 Unexpect_Power_Loss_Ct  ----CK   100   100   000    -    97
 175 Program_Fail_Count_Chip -O--CK   253   253   000    -    0
 176 Unused_Rsvd_Blk_Cnt_Tot -O--CK   253   253   000    -    0
 177 Wear_Leveling_Count     -O--CK   093   093   000    -    226
@@ -79,7 +79,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   253   253   000    -    0
 188 Command_Timeout         -O--CK   253   253   000    -    0
 191 Unknown_SK_hynix_Attrib -O--CK   253   253   000    -    0
-194 Temperature_Celsius     -O----   031   000   000    -    31 (Min/Max 19/70)
+194 Temperature_Celsius     -O----   034   000   000    -    34 (Min/Max 19/70)
 195 Hardware_ECC_Recovered  -O--CK   253   253   000    -    0
 201 Percent_Lifetime_Remain -OSR--   100   100   000    -    0
 204 Soft_ECC_Correction     -OSR--   100   100   000    -    0
@@ -112,7 +112,7 @@ Address    Access  R/W   Size  Description
 0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
 
 SMART Extended Comprehensive Error Log Version: 1 (5 sectors)
-Device Error Count: 2519 (device log contains only the most recent 20 errors)
+Device Error Count: 2579 (device log contains only the most recent 20 errors)
 	CR     = Command Register
 	FEATR  = Features Register
 	COUNT  = Count (was: Sector Count) Register
@@ -128,7 +128,7 @@ Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
 
-Error 2519 [18] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2579 [18] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -139,13 +139,13 @@ Error 2519 [18] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  00 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:57.250  NOP [Abort queued commands]
-  00 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:57.250  NOP [Abort queued commands]
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:44.720  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:44.720  IDENTIFY DEVICE
-  f5 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:43.580  SECURITY FREEZE LOCK
+  00 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:53.900  NOP [Abort queued commands]
+  00 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:53.900  NOP [Abort queued commands]
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:41.180  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:41.180  IDENTIFY DEVICE
+  f5 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:40.040  SECURITY FREEZE LOCK
 
-Error 2518 [17] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2578 [17] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -156,13 +156,13 @@ Error 2518 [17] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:44.720  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:44.720  IDENTIFY DEVICE
-  f5 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:43.580  SECURITY FREEZE LOCK
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:43.420  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:42.550  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:41.180  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:41.180  IDENTIFY DEVICE
+  f5 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:40.040  SECURITY FREEZE LOCK
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:39.880  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:39.020  IDENTIFY DEVICE
 
-Error 2517 [16] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2577 [16] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -173,13 +173,13 @@ Error 2517 [16] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:44.720  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:44.720  IDENTIFY DEVICE
-  f5 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:43.580  SECURITY FREEZE LOCK
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:43.420  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:42.550  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:41.180  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:41.180  IDENTIFY DEVICE
+  f5 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:40.040  SECURITY FREEZE LOCK
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:39.880  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:39.020  IDENTIFY DEVICE
 
-Error 2516 [15] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2576 [15] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -190,13 +190,13 @@ Error 2516 [15] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.930  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.930  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.600  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.280  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.280  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:36.450  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:36.450  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:36.120  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.800  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.800  IDENTIFY DEVICE
 
-Error 2515 [14] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2575 [14] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -207,13 +207,13 @@ Error 2515 [14] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.930  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.930  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.600  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.280  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.280  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:36.450  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:36.450  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:36.120  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.800  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.800  IDENTIFY DEVICE
 
-Error 2514 [13] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2574 [13] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -224,13 +224,13 @@ Error 2514 [13] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ef 00 10 00 06 00 00 00 00 00 00 00 00  2d+19:30:39.050  SET FEATURES [Enable SATA feature]
-  ef 00 90 00 06 00 00 00 00 00 00 00 00  2d+19:30:39.000  SET FEATURES [Disable SATA feature]
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.000  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:39.000  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:38.850  IDENTIFY DEVICE
+  ef 00 10 00 06 00 00 00 00 00 00 00 00 28d+09:25:35.570  SET FEATURES [Enable SATA feature]
+  ef 00 90 00 06 00 00 00 00 00 00 00 00 28d+09:25:35.520  SET FEATURES [Disable SATA feature]
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.520  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.520  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.380  IDENTIFY DEVICE
 
-Error 2513 [12] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2573 [12] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -241,13 +241,13 @@ Error 2513 [12] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  b1 00 c1 00 00 00 00 00 00 00 00 00 00  2d+19:30:38.840  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
-  f5 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:38.840  SECURITY FREEZE LOCK
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:38.800  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 00  2d+19:30:38.800  IDENTIFY DEVICE
-  ef 00 03 00 45 00 00 00 00 00 00 00 00  2d+19:30:38.800  SET FEATURES [Set transfer mode]
+  b1 00 c1 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.370  DEVICE CONFIGURATION FREEZE LOCK [OBS-ACS-3]
+  f5 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.370  SECURITY FREEZE LOCK
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.330  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 00 28d+09:25:35.330  IDENTIFY DEVICE
+  ef 00 03 00 45 00 00 00 00 00 00 00 00 28d+09:25:35.330  SET FEATURES [Set transfer mode]
 
-Error 2512 [11] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 hours)
+Error 2572 [11] occurred at disk power-on lifetime: 33904 hours (1412 days + 16 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -258,11 +258,11 @@ Error 2512 [11] occurred at disk power-on lifetime: 32051 hours (1335 days + 11 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  e1 00 00 00 00 00 00 00 00 00 00 40 40  2d+19:30:31.590  IDLE IMMEDIATE
-  e5 00 00 00 00 00 00 00 00 00 00 40 40  2d+19:30:31.590  CHECK POWER MODE
-  60 00 01 00 88 00 00 0e e7 c2 af 40 40  1d+18:19:03.250  READ FPDMA QUEUED
-  60 00 01 00 80 00 00 00 00 00 00 40 40  1d+18:19:03.250  READ FPDMA QUEUED
-  60 00 01 00 78 00 00 0e e7 c2 af 40 40  1d+18:19:03.250  READ FPDMA QUEUED
+  e1 00 00 00 00 00 00 00 00 00 00 40 40 28d+09:25:27.440  IDLE IMMEDIATE
+  e5 00 00 00 00 00 00 00 00 00 00 40 40 28d+09:25:27.440  CHECK POWER MODE
+  60 00 01 00 88 00 00 0e e7 c2 af 40 40 27d+20:37:43.030  READ FPDMA QUEUED
+  60 00 01 00 80 00 00 00 00 00 00 40 40 27d+20:37:43.030  READ FPDMA QUEUED
+  60 00 01 00 78 00 00 0e e7 c2 af 40 40 27d+20:37:43.030  READ FPDMA QUEUED
 
 SMART Extended Self-test Log Version: 1 (2 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
@@ -299,5 +299,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2           54  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           36  Device-to-host register FISes sent due to a COMRESET
 

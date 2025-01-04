@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     JAJMS600M256G
@@ -10,10 +10,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      mSATA
 TRIM Command:     Available
-Device is:        Not in smartctl database 7.3/5319
+Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed May  4 00:18:09 2022 EDT
+Local Time is:    Sun May 19 12:43:07 2024 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,34 +60,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    2
- 12 Power_Cycle_Count       -O--CK   100   100   050    -    5
+  9 Power_On_Hours          -O--CK   100   100   050    -    17644
+ 12 Power_Cycle_Count       -O--CK   100   100   050    -    56
 160 Unknown_Attribute       -O--CK   100   100   050    -    0
 161 Unknown_Attribute       PO--CK   100   100   050    -    100
 163 Unknown_Attribute       -O--CK   100   100   050    -    10
-164 Unknown_Attribute       -O--CK   100   100   050    -    0
-165 Unknown_Attribute       -O--CK   100   100   050    -    0
-166 Unknown_Attribute       -O--CK   100   100   050    -    0
-167 Unknown_Attribute       -O--CK   100   100   050    -    0
+164 Unknown_Attribute       -O--CK   100   100   050    -    152266
+165 Unknown_Attribute       -O--CK   100   100   050    -    583
+166 Unknown_Attribute       -O--CK   100   100   050    -    432
+167 Unknown_Attribute       -O--CK   100   100   050    -    512
 168 Unknown_Attribute       -O--CK   100   100   050    -    5050
-169 Unknown_Attribute       -O--CK   100   100   050    -    100
+169 Unknown_Attribute       -O--CK   100   100   050    -    90
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   050    -    0
 177 Wear_Leveling_Count     -O--CK   100   100   050    -    0
 178 Used_Rsvd_Blk_Cnt_Chip  -O--CK   100   100   050    -    0
 181 Program_Fail_Cnt_Total  -O--CK   100   100   050    -    0
 182 Erase_Fail_Count_Total  -O--CK   100   100   050    -    0
-192 Power-Off_Retract_Count -O--CK   100   100   050    -    5
-194 Temperature_Celsius     -O---K   100   100   050    -    44
+192 Power-Off_Retract_Count -O--CK   100   100   050    -    49
+194 Temperature_Celsius     -O---K   100   100   050    -    53
 195 Hardware_ECC_Recovered  -O--CK   100   100   050    -    0
 196 Reallocated_Event_Count -O--CK   100   100   050    -    0
 197 Current_Pending_Sector  -O--CK   100   100   050    -    0
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   050    -    0
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Total_LBAs_Written      ----CK   100   100   050    -    164
-242 Total_LBAs_Read         ----CK   100   100   050    -    9
-245 Unknown_Attribute       -O--CK   100   100   050    -    0
+241 Total_LBAs_Written      ----CK   100   100   050    -    824399
+242 Total_LBAs_Read         ----CK   100   100   050    -    19610
+245 Unknown_Attribute       -O--CK   100   100   050    -    3795184
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -125,14 +125,14 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4               5  ---  Lifetime Power-On Resets
-0x01  0x010  4               2  ---  Power-on Hours
-0x01  0x018  6        10790395  ---  Logical Sectors Written
-0x01  0x020  6          236228  ---  Number of Write Commands
-0x01  0x028  6          628886  ---  Logical Sectors Read
-0x01  0x030  6           14713  ---  Number of Read Commands
+0x01  0x008  4              56  ---  Lifetime Power-On Resets
+0x01  0x010  4           17644  ---  Power-on Hours
+0x01  0x018  6      2488227169  ---  Logical Sectors Written
+0x01  0x020  6      1635556831  ---  Number of Write Commands
+0x01  0x028  6      1285198766  ---  Logical Sectors Read
+0x01  0x030  6        34999882  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              15  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

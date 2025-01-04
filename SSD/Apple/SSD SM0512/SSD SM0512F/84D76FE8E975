@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Oct 19 20:42:01 2023 CEST
+Local Time is:    Thu Oct 19 20:51:56 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -65,8 +65,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  12 Power_Cycle_Count       -O--CK   077   077   000    -    22525
 169 Unknown_Apple_Attrib    PO--C-   253   253   010    -    3956352753152
 173 Wear_Leveling_Count     -O--CK   187   187   100    -    463882092779
-174 Host_Reads_MiB          -O---K   099   099   000    -    18817810
-175 Host_Writes_MiB         -O---K   099   099   000    -    38195859
+174 Host_Reads_MiB          -O---K   099   099   000    -    18817812
+175 Host_Writes_MiB         -O---K   099   099   000    -    38195900
 192 Power-Off_Retract_Count -O--C-   099   099   000    -    145
 194 Temperature_Celsius     -O---K   062   062   000    -    38 (Min/Max 10/69)
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
@@ -132,10 +132,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4           22525  ---  Lifetime Power-On Resets
 0x01  0x010  4           15020  ---  Power-on Hours
-0x01  0x018  6     78225120887  ---  Logical Sectors Written
-0x01  0x020  6      1011610672  ---  Number of Write Commands
-0x01  0x028  6     38538875628  ---  Logical Sectors Read
-0x01  0x030  6      1253582435  ---  Number of Read Commands
+0x01  0x018  6     78225203684  ---  Logical Sectors Written
+0x01  0x020  6      1011612032  ---  Number of Write Commands
+0x01  0x028  6     38538880444  ---  Logical Sectors Read
+0x01  0x030  6      1253582508  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

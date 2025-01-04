@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p2 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun Sep 10 17:03:19 2023 CEST
+Local Time is:    Mon May 13 15:01:01 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,25 +65,25 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   120   120   050    -    0/0
+  1 Raw_Read_Error_Rate     POSR--   108   108   050    -    0/20263253
   5 Retired_Block_Count     PO--CK   094   094   003    -    1152
-  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    14514h+46m+05.040s
- 12 Power_Cycle_Count       -O--CK   098   098   000    -    2507
+  9 Power_On_Hours_and_Msec -O--CK   100   100   000    -    20256h+49m+16.730s
+ 12 Power_Cycle_Count       -O--CK   098   098   000    -    2544
 171 Program_Fail_Count      ------   000   000   000    -    0
 172 Erase_Fail_Count        ------   000   000   000    -    0
-174 Unexpect_Power_Loss_Ct  ----CK   000   000   000    -    140
+174 Unexpect_Power_Loss_Ct  ----CK   000   000   000    -    153
 177 Wear_Range_Delta        ------   000   000   ---    -    1
 181 Program_Fail_Count      ------   000   000   000    -    0
 182 Erase_Fail_Count        ------   000   000   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 194 Temperature_Celsius     -O---K   034   047   000    -    34 (Min/Max 0/47)
-195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/0
+195 ECC_Uncorr_Error_Count  --SRC-   108   108   000    -    0/20263253
 196 Reallocated_Event_Count PO--CK   100   100   003    -    0
 231 SSD_Life_Left           PO--C-   090   090   010    -    1
-233 SandForce_Internal      ------   000   000   000    -    2432
-234 SandForce_Internal      ------   000   000   000    -    3456
-241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    3456
-242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    9152
+233 SandForce_Internal      ------   000   000   000    -    3136
+234 SandForce_Internal      ------   000   000   000    -    5504
+241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    5504
+242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    11200
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

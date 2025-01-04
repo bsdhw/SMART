@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p8 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p10 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Samsung SSD 960 EVO 250GB
@@ -13,10 +13,10 @@ Controller ID:                      2
 NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            229,565,743,104 [229 GB]
+Namespace 1 Utilization:            248,321,396,736 [248 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Thu Jul 13 11:01:40 2023 MDT
+Local Time is:                      Tue Feb 20 11:49:54 2024 MST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -45,14 +45,14 @@ Critical Warning:                   0x00
 Temperature:                        44 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    1%
-Data Units Read:                    2,258,417 [1.15 TB]
-Data Units Written:                 7,053,828 [3.61 TB]
-Host Read Commands:                 39,773,051
-Host Write Commands:                217,270,724
-Controller Busy Time:               288
-Power Cycles:                       333
-Power On Hours:                     2,762
+Percentage Used:                    8%
+Data Units Read:                    2,271,607 [1.16 TB]
+Data Units Written:                 13,093,098 [6.70 TB]
+Host Read Commands:                 40,553,061
+Host Write Commands:                584,099,145
+Controller Busy Time:               516
+Power Cycles:                       335
+Power On Hours:                     7,102
 Unsafe Shutdowns:                   52
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      174
@@ -62,22 +62,24 @@ Temperature Sensor 1:               44 Celsius
 Temperature Sensor 2:               58 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
-Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0        174     0  0x0011  0x4212  0x028            0     0     -
-  1        173     0  0x000a  0x4212  0x028            0     0     -
-  2        172     0  0x003b  0x4212  0x028            0     0     -
-  3        171     0  0x0049  0x4212  0x028            0     0     -
-  4        170     0  0x000b  0x4212  0x028            0     0     -
-  5        169     0  0x0046  0x4212  0x028            0     0     -
-  6        168     0  0x0026  0x4212  0x028            0     0     -
-  7        167     0  0x001a  0x4212  0x028            0     0     -
-  8        166     0  0x0056  0x4212  0x028            0     0     -
-  9        165     0  0x0064  0x4212  0x028            0     0     -
- 10        164     0  0x0033  0x4212  0x028            0     0     -
- 11        163     0  0x003e  0x4212  0x028            0     0     -
- 12        162     0  0x0065  0x4212  0x028            0     0     -
- 13        161     0  0x0045  0x4212  0x028            0     0     -
- 14        160     0  0x005b  0x4212  0x028            0     0     -
- 15        159     0  0x000a  0x4212  0x028            0     0     -
+Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS  Message
+  0        174     0  0x0011  0x4212  0x028            0     0     -  Invalid Log Page
+  1        173     0  0x000a  0x4212  0x028            0     0     -  Invalid Log Page
+  2        172     0  0x003b  0x4212  0x028            0     0     -  Invalid Log Page
+  3        171     0  0x0049  0x4212  0x028            0     0     -  Invalid Log Page
+  4        170     0  0x000b  0x4212  0x028            0     0     -  Invalid Log Page
+  5        169     0  0x0046  0x4212  0x028            0     0     -  Invalid Log Page
+  6        168     0  0x0026  0x4212  0x028            0     0     -  Invalid Log Page
+  7        167     0  0x001a  0x4212  0x028            0     0     -  Invalid Log Page
+  8        166     0  0x0056  0x4212  0x028            0     0     -  Invalid Log Page
+  9        165     0  0x0064  0x4212  0x028            0     0     -  Invalid Log Page
+ 10        164     0  0x0033  0x4212  0x028            0     0     -  Invalid Log Page
+ 11        163     0  0x003e  0x4212  0x028            0     0     -  Invalid Log Page
+ 12        162     0  0x0065  0x4212  0x028            0     0     -  Invalid Log Page
+ 13        161     0  0x0045  0x4212  0x028            0     0     -  Invalid Log Page
+ 14        160     0  0x005b  0x4212  0x028            0     0     -  Invalid Log Page
+ 15        159     0  0x000a  0x4212  0x028            0     0     -  Invalid Log Page
 ... (48 entries not read)
+
+Self-tests not supported
 

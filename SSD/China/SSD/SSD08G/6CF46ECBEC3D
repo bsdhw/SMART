@@ -12,7 +12,7 @@ TRIM Command:     Unavailable
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Jun 19 12:33:09 2024 +07
+Local Time is:    Thu Jun 20 11:28:24 2024 +07
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -45,23 +45,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   ------   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    33
+ 12 Power_Cycle_Count       ------   100   100   050    -    35
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    79
-162 Unknown_Attribute       ------   100   100   050    -    64
+162 Unknown_Attribute       ------   100   100   050    -    65
 163 Unknown_Attribute       ------   100   100   050    -    10
-164 Unknown_Attribute       ------   100   100   050    -    21768
+164 Unknown_Attribute       ------   100   100   050    -    29815
 165 Unknown_Attribute       ------   100   100   050    -    69
-166 Unknown_Attribute       ------   100   100   050    -    1
-167 Unknown_Attribute       ------   100   100   050    -    21
+166 Unknown_Attribute       ------   100   100   050    -    2
+167 Unknown_Attribute       ------   100   100   050    -    28
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    58 (Min/Max 10/60)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    62133
+194 Temperature_Celsius     ------   100   100   000    -    56 (Min/Max 10/60)
+195 Hardware_ECC_Recovered  ------   100   100   050    -    69134
 196 Reallocated_Event_Count ------   100   100   050    -    78
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    1688
-242 Total_LBAs_Read         ------   100   100   050    -    344
+241 Total_LBAs_Written      ------   100   100   050    -    2011
+242 Total_LBAs_Read         ------   100   100   050    -    400
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

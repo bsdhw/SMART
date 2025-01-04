@@ -13,7 +13,7 @@ Form Factor:      3.5 inches
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 published, ANSI INCITS 529-2018
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Oct 29 15:31:18 2024    
+Local Time is:    Thu Oct 31 19:50:49 2024    
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -72,7 +72,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   000    -    0
   8 Seek_Time_Performance   --S--K   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   096   096   000    -    3404
+  9 Power_On_Hours          -O--CK   096   096   000    -    3456
  10 Spin_Retry_Count        -O--CK   100   100   000    -    0
  11 Calibration_Retry_Count -O--CK   100   100   000    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    1
@@ -164,7 +164,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/65 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (477)
+Temperature History Size (Index):    478 (267)
 
 SCT Error Recovery Control:
            Read:     70 (7.0 seconds)
@@ -174,17 +174,17 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 3) ==
 0x01  0x008  4               1  -D-  Lifetime Power-On Resets
-0x01  0x010  4            3404  -D-  Power-on Hours
-0x01  0x018  6     62211631605  -D-  Logical Sectors Written
-0x01  0x020  6       360446700  -D-  Number of Write Commands
-0x01  0x028  6     10385793400  -D-  Logical Sectors Read
-0x01  0x030  6        69123226  -D-  Number of Read Commands
-0x01  0x038  6      3664465408  -D-  Date and Time TimeStamp
+0x01  0x010  4            3456  -D-  Power-on Hours
+0x01  0x018  6     62693050949  -D-  Logical Sectors Written
+0x01  0x020  6       365309776  -D-  Number of Write Commands
+0x01  0x028  6     10605160552  -D-  Logical Sectors Read
+0x01  0x030  6        70316086  -D-  Number of Read Commands
+0x01  0x038  6      3851665408  -D-  Date and Time TimeStamp
 0x02  =====  =               =  ===  == Free-Fall Statistics (rev 1) ==
 0x02  0x010  4               0  -D-  Overlimit Shock Events
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4            3379  -D-  Spindle Motor Power-on Hours
-0x03  0x010  4            3378  -D-  Head Flying Hours
+0x03  0x008  4            3431  -D-  Spindle Motor Power-on Hours
+0x03  0x010  4            3430  -D-  Head Flying Hours
 0x03  0x018  4               3  -D-  Head Load Events
 0x03  0x020  4               0  -D-  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  -D-  Read Recovery Attempts
@@ -196,7 +196,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4               0  -D-  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              40  ---  Current Temperature
-0x05  0x010  1              39  -D-  Average Short Term Temperature
+0x05  0x010  1              40  -D-  Average Short Term Temperature
 0x05  0x018  1              39  -D-  Average Long Term Temperature
 0x05  0x020  1              45  -D-  Highest Temperature
 0x05  0x028  1              34  -D-  Lowest Temperature
@@ -226,8 +226,8 @@ Page  Offset Size        Value Flags Description
 0xff  0x078  7               0  -D-  Vendor Specific
 0xff  0x080  7               7  -D-  Vendor Specific
 0xff  0x088  7               0  -D-  Vendor Specific
-0xff  0x090  7            4973  -D-  Vendor Specific
-0xff  0x098  7           12254  -D-  Vendor Specific
+0xff  0x090  7            4971  -D-  Vendor Specific
+0xff  0x098  7           12262  -D-  Vendor Specific
 0xff  0x0a0  7             100  -D-  Vendor Specific
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
@@ -252,7 +252,7 @@ ID      Size     Value  Description
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
-0x8000  4     12255845  Vendor specific
+0x8000  4     12444026  Vendor specific
 
 
 

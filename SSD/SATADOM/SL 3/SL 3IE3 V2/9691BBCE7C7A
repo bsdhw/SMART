@@ -15,7 +15,7 @@ TRIM Command:     Unavailable
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Jul  8 15:37:29 2024 PDT
+Local Time is:    Tue Jul 30 09:53:50 2024 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -57,9 +57,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Later_Bad_Block         PO--C-   100   100   001    -    0
   7 Seek_Error_Rate         ------   000   000   000    -    0
   8 Seek_Time_Performance   ------   000   000   000    -    0
-  9 Power_On_Hours          -O----   244   000   000    -    10228
+  9 Power_On_Hours          -O----   222   000   000    -    10718
  10 Spin_Retry_Count        ------   000   000   000    -    0
- 12 Power_Cycle_Count       -O----   135   000   000    -    135
+ 12 Power_Cycle_Count       -O----   142   000   000    -    142
 163 Total_Bad_Block_Count   ------   000   000   000    -    46
 168 SATA_PHY_Error_Count    ------   000   000   000    -    0
 233 Media_Wearout_Indicator ------   099   000   000    -    99
@@ -131,7 +131,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            5  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            4  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

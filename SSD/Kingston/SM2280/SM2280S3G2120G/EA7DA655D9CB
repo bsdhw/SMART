@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p19-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     KINGSTON SM2280S3G2120G
@@ -10,10 +10,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      M.2
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Sep  3 11:33:00 2021 MDT
+Local Time is:    Tue May 30 10:40:39 2023 MDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,27 +66,27 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    26827
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    21
+  9 Power_On_Hours          -O--C-   100   100   000    -    42019
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    47
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 170 Unknown_Attribute       PO----   100   100   010    -    338
-173 Unknown_Attribute       -O--C-   100   100   000    -    20840844
+173 Unknown_Attribute       -O--C-   100   100   000    -    97912393
 175 Program_Fail_Count_Chip PO--C-   100   100   050    -    0
 187 Reported_Uncorrect      -O--C-   100   100   000    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    12
-194 Temperature_Celsius     PO---K   057   038   030    -    43 (Min/Max 29/62)
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    30
+194 Temperature_Celsius     PO---K   055   034   030    -    45 (Min/Max 29/66)
 196 Reallocated_Event_Count -O----   100   100   010    -    0
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
-231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    90
-233 Media_Wearout_Indicator PO-R--   100   100   000    -    5105
+231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    51
+233 Media_Wearout_Indicator PO-R--   100   100   000    -    90045
 240 Unknown_SSD_Attribute   PO--C-   100   100   000    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    31100
-242 Total_LBAs_Read         -O--C-   100   100   000    -    7554
-244 Unknown_Attribute       -O----   100   100   000    -    318
-245 Unknown_Attribute       -O----   100   100   000    -    396
-246 Unknown_Attribute       -O--C-   100   100   000    -    10747664
+241 Total_LBAs_Written      -O--C-   100   100   000    -    102180
+242 Total_LBAs_Read         -O--C-   100   100   000    -    7701
+244 Unknown_Attribute       -O----   100   100   000    -    1494
+245 Unknown_Attribute       -O----   100   100   000    -    1609
+246 Unknown_Attribute       -O--C-   100   100   000    -    50370496
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -134,13 +134,13 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4              21  ---  Lifetime Power-On Resets
-0x01  0x018  6     65221676249  ---  Logical Sectors Written
-0x01  0x020  6      1321992615  ---  Number of Write Commands
-0x01  0x028  6     15843697605  ---  Logical Sectors Read
-0x01  0x030  6       110839614  ---  Number of Read Commands
+0x01  0x008  4              47  ---  Lifetime Power-On Resets
+0x01  0x018  6    214288975869  ---  Logical Sectors Written
+0x01  0x020  6      3589284950  ---  Number of Write Commands
+0x01  0x028  6     16151873878  ---  Logical Sectors Read
+0x01  0x030  6       118706416  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
-0x04  0x008  4            1649  ---  Number of Reported Uncorrectable Errors
+0x04  0x008  4           10273  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               1  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              32  ---  Current Temperature
@@ -157,7 +157,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               5  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             117  ---  Number of Hardware Resets
+0x06  0x008  4             443  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               5  ---  Percentage Used Endurance Indicator
@@ -175,8 +175,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4          113  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4          131  Device-to-host register FISes sent due to a COMRESET
+0x0009  4          439  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4          478  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

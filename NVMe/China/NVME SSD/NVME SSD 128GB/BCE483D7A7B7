@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            486834 ...
-Local Time is:                      Fri Jan  5 07:05:50 2024 AEDT
+Local Time is:                      Mon Jul 22 23:28:53 2024 AEST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0015):     Comp DS_Mngmt Sav/Sel_Feat
@@ -38,15 +38,15 @@ Critical Warning:                   0x00
 Temperature:                        55 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    49,933 [25.5 GB]
-Data Units Written:                 224,235 [114 GB]
-Host Read Commands:                 1,192,741
-Host Write Commands:                9,915,242
-Controller Busy Time:               22
-Power Cycles:                       33
-Power On Hours:                     63
-Unsafe Shutdowns:                   18
+Percentage Used:                    68%
+Data Units Read:                    4,076,744 [2.08 TB]
+Data Units Written:                 116,765,778 [59.7 TB]
+Host Read Commands:                 81,282,330
+Host Write Commands:                1,189,252,214
+Controller Busy Time:               33,127
+Power Cycles:                       50
+Power On Hours:                     3,545
+Unsafe Shutdowns:                   33
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
@@ -58,24 +58,24 @@ No Errors Logged
 Self-test Log (NVMe Log 0x06)
 Self-test status: No self-test in progress
 Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
- 0   Extended          Completed without error                  57            -     -   -   -    -
- 1   Extended          Completed without error                  57            -     -   -   -    -
- 2   Extended          Completed without error                  57            -     -   -   -    -
- 3   Extended          Completed without error                  57            -     -   -   -    -
- 4   Extended          Completed without error                  56            -     -   -   -    -
- 5   Extended          Completed without error                  56            -     -   -   -    -
- 6   Extended          Completed without error                  54            -     -   -   -    -
- 7   Extended          Completed without error                  54            -     -   -   -    -
- 8   Extended          Completed without error                  53            -     -   -   -    -
- 9   Extended          Completed without error                  53            -     -   -   -    -
-10   Extended          Completed without error                  53            -     -   -   -    -
-11   Extended          Completed without error                  32            -     -   -   -    -
-12   Extended          Completed without error                  32            -     -   -   -    -
-13   Extended          Completed without error                  32            -     -   -   -    -
-14   Extended          Completed without error                  31            -     -   -   -    -
-15   Extended          Completed without error                  31            -     -   -   -    -
-16   Extended          Completed without error                  30            -     -   -   -    -
-17   Extended          Completed without error                  30            -     -   -   -    -
-18   Extended          Completed without error                  29            -     -   -   -    -
-19   Extended          Completed without error                   3            -     -   -   -    -
+ 0   Extended          Completed without error                2719            -     -   -   -    -
+ 1   Extended          Completed without error                 506            -     -   -   -    -
+ 2   Extended          Completed without error                 420            -     -   -   -    -
+ 3   Extended          Completed without error                 414            -     -   -   -    -
+ 4   Extended          Completed without error                 414            -     -   -   -    -
+ 5   Extended          Completed without error                 414            -     -   -   -    -
+ 6   Extended          Completed without error                 414            -     -   -   -    -
+ 7   Extended          Completed without error                 397            -     -   -   -    -
+ 8   Extended          Completed without error                 381            -     -   -   -    -
+ 9   Extended          Completed without error                 321            -     -   -   -    -
+10   Extended          Completed without error                 174            -     -   -   -    -
+11   Extended          Completed without error                 171            -     -   -   -    -
+12   Extended          Completed without error                 171            -     -   -   -    -
+13   Extended          Completed without error                 171            -     -   -   -    -
+14   Extended          Completed without error                 146            -     -   -   -    -
+15   Extended          Completed without error                 107            -     -   -   -    -
+16   Extended          Completed without error                  57            -     -   -   -    -
+17   Extended          Completed without error                  57            -     -   -   -    -
+18   Extended          Completed without error                  57            -     -   -   -    -
+19   Extended          Completed without error                  57            -     -   -   -    -
 

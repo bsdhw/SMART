@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       KINGSTON SNVS250G
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Wed Apr 26 22:09:29 2023 +05
+Local Time is:                      Sun Oct 29 01:44:44 2023 +05
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0016):   Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -39,23 +39,27 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        70 Celsius
+Temperature:                        73 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    32%
-Data Units Read:                    319,433 [163 GB]
-Data Units Written:                 33,779,084 [17.2 TB]
-Host Read Commands:                 6,419,946
-Host Write Commands:                575,084,047
-Controller Busy Time:               3,765
-Power Cycles:                       3
-Power On Hours:                     3,157
-Unsafe Shutdowns:                   2
+Percentage Used:                    94%
+Data Units Read:                    2,082,960 [1.06 TB]
+Data Units Written:                 114,656,720 [58.7 TB]
+Host Read Commands:                 28,614,917
+Host Write Commands:                1,523,105,465
+Controller Busy Time:               10,130
+Power Cycles:                       5
+Power On Hours:                     7,283
+Unsafe Shutdowns:                   4
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    27
+Warning  Comp. Temperature Time:    267
 Critical Comp. Temperature Time:    0
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+No Self-tests Logged
 

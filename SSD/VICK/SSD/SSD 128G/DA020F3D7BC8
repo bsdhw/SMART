@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jan 26 17:08:18 2024 CET
+Local Time is:    Fri Jan 26 23:53:02 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,20 +63,20 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    4536
+  9 Power_On_Hours          -O--C-   100   100   000    -    4542
  12 Power_Cycle_Count       -O--C-   100   100   000    -    138
 161 Unknown_Attribute       -O--C-   100   100   000    -    59
 163 Unknown_Attribute       PO----   100   100   050    -    90
-165 Unknown_Attribute       ------   100   100   000    -    17
+165 Unknown_Attribute       ------   100   100   000    -    23
 166 Unknown_Attribute       ------   100   100   000    -    0
-167 Unknown_Attribute       ------   100   100   000    -    13
+167 Unknown_Attribute       ------   100   100   000    -    16
 172 Unknown_Attribute       -O--C-   100   100   000    -    0
 173 Unknown_Attribute       -O---K   100   100   000    -    0
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    91
 194 Temperature_Celsius     PO---K   067   067   000    -    33 (Min/Max 33/33)
 195 Hardware_ECC_Recovered  PO-R--   100   100   050    -    0
 198 Offline_Uncorrectable   -O--C-   100   100   000    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    529
+241 Total_LBAs_Written      -O--C-   100   100   000    -    632
 242 Total_LBAs_Read         -O--C-   100   100   000    -    818
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -125,9 +125,9 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4             138  ---  Lifetime Power-On Resets
-0x01  0x010  4            4536  ---  Power-on Hours
-0x01  0x018  6      1111213165  ---  Logical Sectors Written
-0x01  0x028  6      1716957369  ---  Logical Sectors Read
+0x01  0x010  4            4542  ---  Power-on Hours
+0x01  0x018  6      1326313747  ---  Logical Sectors Written
+0x01  0x028  6      1716963273  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==

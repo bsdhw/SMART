@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Sep 13 20:57:22 2022 CDT
+Local Time is:    Sun May 21 12:02:31 2023 CDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,13 +62,13 @@ SMART Attributes Data Structure revision number: 5
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          PO--CK   100   100   010    -    907
- 12 Power_Cycle_Count       PO--CK   100   100   010    -    98
+  9 Power_On_Hours          PO--CK   100   100   010    -    6891
+ 12 Power_Cycle_Count       PO--CK   100   100   010    -    130
 161 Unknown_Attribute       PO--CK   100   100   010    -    0
-164 Unknown_Attribute       PO--CK   100   100   010    -    37231
-165 Unknown_Attribute       PO--CK   100   100   010    -    90
+164 Unknown_Attribute       PO--CK   100   100   010    -    339535
+165 Unknown_Attribute       PO--CK   100   100   010    -    753
 166 Unknown_Attribute       PO--CK   100   100   010    -    0
-167 Unknown_Attribute       PO--CK   100   100   010    -    76
+167 Unknown_Attribute       PO--CK   100   100   010    -    701
 169 Unknown_Attribute       PO--CK   100   100   010    -    0
 176 Erase_Fail_Count_Chip   PO--CK   100   100   010    -    0
 177 Wear_Leveling_Count     PO--CK   100   100   010    -    0
@@ -77,8 +77,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 194 Temperature_Celsius     PO--CK   100   100   010    -    48
 195 Hardware_ECC_Recovered  PO--CK   100   100   010    -    0
 199 UDMA_CRC_Error_Count    PO--CK   100   100   010    -    0
-241 Total_LBAs_Written      PO--CK   100   100   010    -    852
-242 Total_LBAs_Read         PO--CK   100   100   010    -    5
+241 Total_LBAs_Written      PO--CK   100   100   010    -    8082
+242 Total_LBAs_Read         PO--CK   100   100   010    -    16
 243 Unknown_Attribute       PO--CK   100   100   010    -    0
 244 Unknown_Attribute       PO--CK   100   100   010    -    0
 245 Unknown_Attribute       PO--CK   100   100   010    -    0

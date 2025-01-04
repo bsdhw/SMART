@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Phison Driven OEM SSDs
@@ -12,10 +12,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      M.2
 TRIM Command:     Available
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Apr  8 08:54:04 2023 GMT
+Local Time is:    Sat Jan 27 23:23:41 2024 GMT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,12 +64,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   000    -    0
   5 Retired_Block_Count     PO--CK   084   084   000    -    48
-  9 Power_On_Hours          -O--CK   100   100   000    -    22060
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    484
+  9 Power_On_Hours          -O--CK   100   100   000    -    25221
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    492
 171 Unknown_Attribute       -O---K   100   100   000    -    0
 172 Unknown_Attribute       -O--CK   100   100   000    -    0
-173 MaxAvgErase_Ct          PO-RC-   069   069   000    -    50 (Average 532)
-174 Unknown_Attribute       -O--C-   100   100   000    -    19
+173 MaxAvgErase_Ct          PO-RC-   051   051   000    -    268 (Average 761)
+174 Unknown_Attribute       -O--C-   100   100   000    -    20
 194 Temperature_Celsius     -O---K   070   070   000    -    30
 196 Not_In_Use              -O--CK   100   100   000    -    48
 218 CRC_Error_Count         ------   100   100   000    -    0
@@ -122,7 +122,7 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               5  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              12  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -137,8 +137,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4            3  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            4  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           28  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           29  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

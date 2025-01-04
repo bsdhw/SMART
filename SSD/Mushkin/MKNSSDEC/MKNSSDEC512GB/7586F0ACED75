@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p2 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SandForce Driven SSDs
@@ -11,10 +11,10 @@ User Capacity:    512,110,190,592 bytes [512 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic, zeroed
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Oct 11 06:47:00 2022 EDT
+Local Time is:    Sat Sep 16 21:01:08 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -29,13 +29,14 @@ Wt Cache Reorder: Unavailable
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x05)	Offline data collection activity
-					was aborted by an interrupting command from host.
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
 					Auto Offline Data Collection: Disabled.
-Self-test execution status:      (  25)	The self-test routine was aborted by
-					the host.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
 Total time to complete Offline 
-data collection: 		( 3600) seconds.
+data collection: 		(    0) seconds.
 Offline data collection
 capabilities: 			 (0x71) SMART execute Offline immediate.
 					No Auto Offline data collection support.
@@ -63,7 +64,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0/0
   5 Retired_Block_Count     ------   100   100   000    -    1
   9 Power_On_Hours_and_Msec ------   100   100   000    -    21027h+00m+00.000s
- 12 Power_Cycle_Count       ------   100   100   000    -    307
+ 12 Power_Cycle_Count       ------   100   100   000    -    331
 160 Unknown_Attribute       ------   100   100   000    -    812
 161 Unknown_Attribute       ------   100   100   000    -    104
 163 Unknown_Attribute       ------   100   100   000    -    51
@@ -80,7 +81,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Count      ------   100   100   000    -    0
 182 Erase_Fail_Count        ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    146
-194 Temperature_Celsius     ------   100   100   000    -    29
+194 Temperature_Celsius     ------   100   100   000    -    35
 195 ECC_Uncorr_Error_Count  ------   100   100   000    -    0/1457221
 196 Reallocated_Event_Count ------   100   100   016    -    9
 197 Current_Pending_Sector  ------   100   100   000    -    0
@@ -116,8 +117,7 @@ SMART Extended Comprehensive Error Log Version: 1 (1 sectors)
 No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
-Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Abort offline test  Aborted by host               90%     20996         -
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -135,12 +135,12 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             307  ---  Lifetime Power-On Resets
+0x01  0x008  4             331  ---  Lifetime Power-On Resets
 0x01  0x010  4           21027  ---  Power-on Hours
 0x01  0x018  6      4020091317  ---  Logical Sectors Written
 0x01  0x020  6      2085382707  ---  Number of Write Commands
-0x01  0x028  6        18245625  ---  Logical Sectors Read
-0x01  0x030  6      1160325908  ---  Number of Read Commands
+0x01  0x028  6        18256007  ---  Logical Sectors Read
+0x01  0x030  6      1160327156  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
@@ -148,7 +148,7 @@ Page  Offset Size        Value Flags Description
 0x04  0x010  4             183  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (empty) ==
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4          118787  ---  Number of Hardware Resets
+0x06  0x008  4          118860  ---  Number of Hardware Resets
 0x06  0x018  4              57  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               8  ---  Percentage Used Endurance Indicator
@@ -159,4 +159,6 @@ Page  Offset Size        Value Flags Description
 Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11) not supported
+
+
 

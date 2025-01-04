@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jun 25 22:48:43 2024    
+Local Time is:    Wed Jun 26 01:29:17 2024 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,7 +63,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    10415
+  9 Power_On_Hours          -O--C-   100   100   000    -    10416
  12 Power_Cycle_Count       -O--C-   100   100   000    -    7305
 161 Unknown_Attribute       -O--C-   100   100   000    -    319
 163 Unknown_Attribute       PO----   100   100   050    -    19
@@ -143,9 +143,9 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4            7305  ---  Lifetime Power-On Resets
-0x01  0x010  4           10415  ---  Power-on Hours
+0x01  0x010  4           10416  ---  Power-on Hours
 0x01  0x018  6     65675183495  ---  Logical Sectors Written
-0x01  0x028  6     41257962508  ---  Logical Sectors Read
+0x01  0x028  6     41258175176  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
@@ -170,8 +170,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           76  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           77  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           96  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           97  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

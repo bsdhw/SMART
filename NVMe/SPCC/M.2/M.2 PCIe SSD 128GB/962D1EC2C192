@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p8 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Tue Feb 14 13:09:50 2023 EST
+Local Time is:                      Wed Jun 28 22:33:05 2023 EDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0014):     DS_Mngmt Sav/Sel_Feat
@@ -37,18 +37,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        33 Celsius
+Temperature:                        41 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    33,047 [16.9 GB]
-Data Units Written:                 839,827 [429 GB]
-Host Read Commands:                 831,643
-Host Write Commands:                13,789,461
-Controller Busy Time:               1,496
-Power Cycles:                       27
-Power On Hours:                     832
-Unsafe Shutdowns:                   22
+Data Units Read:                    129,771 [66.4 GB]
+Data Units Written:                 4,263,015 [2.18 TB]
+Host Read Commands:                 3,169,097
+Host Write Commands:                71,652,611
+Controller Busy Time:               6,341
+Power Cycles:                       38
+Power On Hours:                     3,683
+Unsafe Shutdowns:                   29
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

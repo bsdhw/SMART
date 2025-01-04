@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p10 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Sat Mar 30 08:40:57 2024 PDT
+Local Time is:                      Fri Apr  5 14:21:48 2024 PDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x00df):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp Verify
@@ -44,24 +44,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        45 Celsius
+Temperature:                        41 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    2,620,986 [1.34 TB]
-Data Units Written:                 3,562,124 [1.82 TB]
-Host Read Commands:                 30,349,035
-Host Write Commands:                36,710,494
-Controller Busy Time:               29
+Data Units Read:                    2,633,093 [1.34 TB]
+Data Units Written:                 4,384,044 [2.24 TB]
+Host Read Commands:                 30,531,389
+Host Write Commands:                44,885,796
+Controller Busy Time:               37
 Power Cycles:                       101
-Power On Hours:                     169
+Power On Hours:                     319
 Unsafe Shutdowns:                   58
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               62 Celsius
-Temperature Sensor 2:               45 Celsius
+Temperature Sensor 1:               57 Celsius
+Temperature Sensor 2:               41 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged
@@ -69,5 +69,8 @@ No Errors Logged
 Self-test Log (NVMe Log 0x06)
 Self-test status: No self-test in progress
 Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
- 0   Extended          Completed without error                 132            -     -   -   -    -
+ 0   Extended          Completed without error                 223            -     -   -   -    -
+ 1   Extended          Completed without error                 223            -     -   -   -    -
+ 2   Extended          Completed without error                 185            -     -   -   -    -
+ 3   Extended          Completed without error                 132            -     -   -   -    -
 

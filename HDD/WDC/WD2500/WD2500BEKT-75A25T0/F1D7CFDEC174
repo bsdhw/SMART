@@ -13,7 +13,7 @@ Rotation Rate:    7200 rpm
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun Feb 18 21:57:54 2024 CET
+Local Time is:    Sun Feb 18 22:43:35 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -63,22 +63,22 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   4 Start_Stop_Count        0x0032   099   099   000    Old_age   Always       -       1763
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002e   100   253   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   098   098   000    Old_age   Always       -       1683
+  9 Power_On_Hours          0x0032   098   098   000    Old_age   Always       -       1684
  10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
  12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       1762
 191 G-Sense_Error_Rate      0x0032   001   001   000    Old_age   Always       -       218
 192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       252
 193 Load_Cycle_Count        0x0032   190   190   000    Old_age   Always       -       30074
-194 Temperature_Celsius     0x0022   103   089   000    Old_age   Always       -       40
+194 Temperature_Celsius     0x0022   100   089   000    Old_age   Always       -       43
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
 200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
 240 Head_Flying_Hours       0x0032   098   098   000    Old_age   Always       -       1600
-241 Total_LBAs_Written      0x0032   200   200   000    Old_age   Always       -       3308030915
-242 Total_LBAs_Read         0x0032   200   200   000    Old_age   Always       -       3301725322
+241 Total_LBAs_Written      0x0032   200   200   000    Old_age   Always       -       3315422535
+242 Total_LBAs_Read         0x0032   200   200   000    Old_age   Always       -       3302384224
 254 Free_Fall_Sensor        0x0032   001   001   000    Old_age   Always       -       933
 
 SMART Error Log Version: 1

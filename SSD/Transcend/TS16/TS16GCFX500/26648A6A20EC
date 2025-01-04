@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -11,7 +11,7 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-7 (minor revision not indicated)
-Local Time is:    Sat Nov 25 20:28:05 2023 CST
+Local Time is:    Sun Feb 11 12:49:32 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -47,7 +47,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
   7 Unknown_SSD_Attribute   ------   100   100   000    -    0
   8 Unknown_SSD_Attribute   ------   100   100   000    -    0
- 12 Power_Cycle_Count       ------   100   100   000    -    47
+ 12 Power_Cycle_Count       ------   100   100   000    -    60
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   000    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0

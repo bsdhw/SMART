@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.2 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Oct 27 22:42:54 2024 CET
+Local Time is:    Sat Nov  2 15:38:13 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,33 +60,33 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
   2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
-  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       1029
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       1731
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       1020
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       1767
   5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0032   088   088   000    Old_age   Always       -       4937
- 10 Spin_Retry_Count        0x0033   134   100   030    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1290
+  9 Power_On_Hours          0x0032   088   088   000    Old_age   Always       -       4966
+ 10 Spin_Retry_Count        0x0033   135   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1325
 161 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
-191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       165
-192 Power-Off_Retract_Count 0x0032   099   099   000    Old_age   Always       -       27459738
-193 Load_Cycle_Count        0x0032   066   066   000    Old_age   Always       -       343153
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       42 (Min/Max 12/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       168
+192 Power-Off_Retract_Count 0x0032   099   099   000    Old_age   Always       -       27525275
+193 Load_Cycle_Count        0x0032   066   066   000    Old_age   Always       -       344200
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       37 (Min/Max 12/44)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
-197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       8
 198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
 220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       0
-222 Loaded_Hours            0x0032   091   091   000    Old_age   Always       -       3947
+222 Loaded_Hours            0x0032   091   091   000    Old_age   Always       -       3973
 223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
 224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
-226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       255
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       261
 240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
-254 Free_Fall_Sensor        0x0032   100   100   000    Old_age   Always       -       419
+254 Free_Fall_Sensor        0x0032   100   100   000    Old_age   Always       -       420
 
 SMART Error Log Version: 1
-ATA Error Count: 21734 (device log contains only the most recent five errors)
+ATA Error Count: 21978 (device log contains only the most recent five errors)
 	CR = Command Register [HEX]
 	FR = Features Register [HEX]
 	SC = Sector Count Register [HEX]
@@ -101,90 +101,90 @@ Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
 
-Error 21734 occurred at disk power-on lifetime: 4887 hours (203 days + 15 hours)
+Error 21978 occurred at disk power-on lifetime: 4940 hours (205 days + 20 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER ST SC SN CL CH DH
   -- -- -- -- -- -- --
-  40 41 70 18 f3 3c 40  Error: UNC at LBA = 0x003cf318 = 3994392
+  40 41 08 78 bb c7 40  Error: WP at LBA = 0x00c7bb78 = 13089656
 
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
-  60 40 70 f8 f2 3c 40 00      00:04:57.929  READ FPDMA QUEUED
-  ea 00 00 00 00 00 a0 00      00:04:57.105  FLUSH CACHE EXT
-  61 08 60 50 6b 6c 40 00      00:04:57.105  WRITE FPDMA QUEUED
-  61 08 58 a0 ef 71 40 00      00:04:57.105  WRITE FPDMA QUEUED
-  60 01 50 09 81 18 40 00      00:04:57.090  READ FPDMA QUEUED
+  61 20 90 60 a5 fd 40 00      00:00:30.166  WRITE FPDMA QUEUED
+  60 20 c8 00 28 5d 40 00      00:00:29.676  READ FPDMA QUEUED
+  61 20 20 80 e5 4a 40 00      00:00:29.156  WRITE FPDMA QUEUED
+  61 20 18 a0 e5 4a 40 00      00:00:29.156  WRITE FPDMA QUEUED
+  60 20 e8 94 8e c8 40 00      00:00:28.962  READ FPDMA QUEUED
 
-Error 21733 occurred at disk power-on lifetime: 4887 hours (203 days + 15 hours)
+Error 21977 occurred at disk power-on lifetime: 4940 hours (205 days + 20 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER ST SC SN CL CH DH
   -- -- -- -- -- -- --
-  40 41 18 18 f3 3c 40  Error: UNC at LBA = 0x003cf318 = 3994392
+  40 41 70 78 bb c7 40  Error: WP at LBA = 0x00c7bb78 = 13089656
 
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
-  60 40 18 f8 f2 3c 40 00      00:04:53.167  READ FPDMA QUEUED
-  60 08 10 ca 7d 18 40 00      00:04:53.156  READ FPDMA QUEUED
-  60 20 08 37 55 34 40 00      00:04:53.147  READ FPDMA QUEUED
-  60 40 f8 7a cc 2c 40 00      00:04:53.143  READ FPDMA QUEUED
-  ef 90 03 00 00 00 a0 00      00:04:53.132  SET FEATURES [Disable SATA feature]
+  61 04 18 80 08 b8 40 00      00:00:27.136  WRITE FPDMA QUEUED
+  61 04 e8 80 3b b8 40 00      00:00:27.136  WRITE FPDMA QUEUED
+  61 20 38 80 f1 59 40 00      00:00:25.116  WRITE FPDMA QUEUED
+  61 20 48 40 f5 59 40 00      00:00:25.116  WRITE FPDMA QUEUED
+  61 20 40 a0 e7 59 40 00      00:00:25.116  WRITE FPDMA QUEUED
 
-Error 21732 occurred at disk power-on lifetime: 4887 hours (203 days + 15 hours)
+Error 21976 occurred at disk power-on lifetime: 4940 hours (205 days + 20 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER ST SC SN CL CH DH
   -- -- -- -- -- -- --
-  40 41 e8 18 f3 3c 40  Error: UNC at LBA = 0x003cf318 = 3994392
+  40 41 78 78 bb c7 40  Error: UNC at LBA = 0x00c7bb78 = 13089656
 
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
-  60 40 e8 f0 f2 3c 40 00      00:04:49.241  READ FPDMA QUEUED
-  61 08 e0 c0 6a 6c 40 00      00:04:48.408  WRITE FPDMA QUEUED
-  ea 00 00 00 00 00 a0 00      00:04:48.389  FLUSH CACHE EXT
-  61 08 d0 d0 6a 6c 40 00      00:04:48.389  WRITE FPDMA QUEUED
-  60 40 c8 d2 7d 18 40 00      00:04:48.383  READ FPDMA QUEUED
+  60 08 78 78 bb c7 40 00      02:37:48.138  READ FPDMA QUEUED
+  61 08 68 70 7c 71 40 00      02:37:48.138  WRITE FPDMA QUEUED
+  61 08 48 d0 7c 70 40 00      02:37:48.138  WRITE FPDMA QUEUED
+  61 08 18 70 7c 71 40 00      02:37:48.137  WRITE FPDMA QUEUED
+  61 08 00 70 7c 71 40 00      02:37:48.134  WRITE FPDMA QUEUED
 
-Error 21731 occurred at disk power-on lifetime: 4887 hours (203 days + 15 hours)
+Error 21975 occurred at disk power-on lifetime: 4940 hours (205 days + 20 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER ST SC SN CL CH DH
   -- -- -- -- -- -- --
-  40 41 a0 18 f3 3c 40  Error: UNC at LBA = 0x003cf318 = 3994392
+  40 41 e0 78 bb c7 40  Error: WP at LBA = 0x00c7bb78 = 13089656
 
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
-  60 40 a0 f0 f2 3c 40 00      00:04:44.459  READ FPDMA QUEUED
-  61 08 98 e0 a3 ea 40 00      00:04:43.649  WRITE FPDMA QUEUED
-  61 08 90 98 04 0e 40 00      00:04:43.648  WRITE FPDMA QUEUED
-  61 08 88 f0 a1 10 40 00      00:04:43.648  WRITE FPDMA QUEUED
-  61 08 80 18 2b 71 40 00      00:04:43.648  WRITE FPDMA QUEUED
+  61 04 b0 60 5b c8 40 00      02:37:47.967  WRITE FPDMA QUEUED
+  61 20 a8 c0 a8 ea 40 00      02:37:46.950  WRITE FPDMA QUEUED
+  60 08 e0 78 bb c7 40 00      02:37:44.237  READ FPDMA QUEUED
+  61 08 e8 70 7c 71 40 00      02:37:44.237  WRITE FPDMA QUEUED
+  61 08 28 d0 7c 70 40 00      02:37:44.237  WRITE FPDMA QUEUED
 
-Error 21730 occurred at disk power-on lifetime: 4887 hours (203 days + 15 hours)
+Error 21974 occurred at disk power-on lifetime: 4940 hours (205 days + 20 hours)
   When the command that caused the error occurred, the device was active or idle.
 
   After command completion occurred, registers were:
   ER ST SC SN CL CH DH
   -- -- -- -- -- -- --
-  40 41 38 18 f3 3c 40  Error: UNC at LBA = 0x003cf318 = 3994392
+  40 41 10 78 bb c7 40  Error: UNC at LBA = 0x00c7bb78 = 13089656
 
   Commands leading to the command that caused the error were:
   CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
   -- -- -- -- -- -- -- --  ----------------  --------------------
-  60 40 38 f0 f2 3c 40 00      00:04:39.693  READ FPDMA QUEUED
-  61 08 30 70 6c 70 40 00      00:04:39.652  WRITE FPDMA QUEUED
-  ea 00 00 00 00 00 a0 00      00:04:39.641  FLUSH CACHE EXT
-  61 10 20 50 6b 6c 40 00      00:04:39.630  WRITE FPDMA QUEUED
-  60 04 18 0a 81 18 40 00      00:04:38.838  READ FPDMA QUEUED
+  60 08 10 78 bb c7 40 00      02:37:40.359  READ FPDMA QUEUED
+  61 08 58 70 7c 71 40 00      02:37:40.359  WRITE FPDMA QUEUED
+  61 08 08 d0 7c 70 40 00      02:37:40.359  WRITE FPDMA QUEUED
+  61 08 f0 70 7c 71 40 00      02:37:40.359  WRITE FPDMA QUEUED
+  61 08 40 70 7c 71 40 00      02:37:40.355  WRITE FPDMA QUEUED
 
 SMART Self-test log structure revision number 1
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]

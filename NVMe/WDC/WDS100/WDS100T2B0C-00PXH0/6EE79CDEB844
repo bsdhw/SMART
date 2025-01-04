@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 13.0-RELEASE amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       WDC WDS100T2B0C-00PXH0
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Thu Apr 14 08:21:13 2022 EDT
+Local Time is:                      Sat Jun  3 00:23:15 2023    
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -43,20 +43,20 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        36 Celsius
+Temperature:                        38 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    1%
-Data Units Read:                    46,047,053 [23.5 TB]
-Data Units Written:                 45,811,804 [23.4 TB]
-Host Read Commands:                 406,484,680
-Host Write Commands:                404,698,336
-Controller Busy Time:               1,243
-Power Cycles:                       1,198
-Power On Hours:                     10,884
-Unsafe Shutdowns:                   591
+Data Units Read:                    61,603,891 [31.5 TB]
+Data Units Written:                 70,869,215 [36.2 TB]
+Host Read Commands:                 639,555,594
+Host Write Commands:                604,169,607
+Controller Busy Time:               1,870
+Power Cycles:                       8,381
+Power On Hours:                     17,157
+Unsafe Shutdowns:                   7,264
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      54,353
+Error Information Log Entries:      76,608
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 

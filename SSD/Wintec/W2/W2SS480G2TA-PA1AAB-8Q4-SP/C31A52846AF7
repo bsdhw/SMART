@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jan 30 08:23:20 2024 EST
+Local Time is:    Wed Jan 31 21:15:05 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,16 +61,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    2177
+  9 Power_On_Hours          -O--C-   100   100   000    -    2214
  12 Power_Cycle_Count       -O--C-   100   100   000    -    29
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 170 Unknown_Attribute       PO----   100   100   010    -    667
 173 Unknown_Attribute       -O--C-   100   100   000    -    393240
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    19
-194 Temperature_Celsius     PO---K   108   078   057    -    19 (Min/Max 18/49)
+194 Temperature_Celsius     PO---K   106   078   057    -    21 (Min/Max 18/49)
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    100
-241 Total_LBAs_Written      -O--C-   100   100   000    -    2201
+241 Total_LBAs_Written      -O--C-   100   100   000    -    2208
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -117,22 +117,22 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              29  ---  Lifetime Power-On Resets
-0x01  0x010  4            2177  ---  Power-on Hours
-0x01  0x018  6      4616042849  ---  Logical Sectors Written
-0x01  0x020  6        34225942  ---  Number of Write Commands
-0x01  0x028  6     15669344766  ---  Logical Sectors Read
-0x01  0x030  6       759686203  ---  Number of Read Commands
+0x01  0x010  4            2214  ---  Power-on Hours
+0x01  0x018  6      4631268281  ---  Logical Sectors Written
+0x01  0x020  6        34436783  ---  Number of Write Commands
+0x01  0x028  6     15670756786  ---  Logical Sectors Read
+0x01  0x030  6       759733181  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              19  ---  Current Temperature
-0x05  0x010  1              20  ---  Average Short Term Temperature
+0x05  0x008  1              21  ---  Current Temperature
+0x05  0x010  1              19  ---  Average Short Term Temperature
 0x05  0x018  1              24  ---  Average Long Term Temperature
 0x05  0x020  1              49  ---  Highest Temperature
 0x05  0x028  1              18  ---  Lowest Temperature
 0x05  0x030  1              39  ---  Highest Average Short Term Temperature
-0x05  0x038  1              20  ---  Lowest Average Short Term Temperature
+0x05  0x038  1              18  ---  Lowest Average Short Term Temperature
 0x05  0x040  1              24  ---  Highest Average Long Term Temperature
 0x05  0x048  1              23  ---  Lowest Average Long Term Temperature
 0x05  0x050  4               0  ---  Time in Over-Temperature
@@ -140,7 +140,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4              95  ---  Number of Hardware Resets
+0x06  0x008  4             107  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
@@ -158,8 +158,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           11  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           12  Device-to-host register FISes sent due to a COMRESET
+0x0009  4           23  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4           24  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

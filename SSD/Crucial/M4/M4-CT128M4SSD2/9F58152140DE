@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Dec 30 01:06:18 2023 MST
+Local Time is:    Mon Jan  1 03:01:00 2024 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,14 +68,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    91650
+  9 Power_On_Hours          -O--CK   100   100   001    -    91700
  12 Power_Cycle_Count       -O--CK   100   100   001    -    130
 170 Grown_Failing_Block_Ct  PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   001    -    0
 172 Erase_Fail_Count        -O--CK   100   100   001    -    0
-173 Wear_Leveling_Count     PO--CK   091   091   010    -    281
+173 Wear_Leveling_Count     PO--CK   091   091   010    -    283
 174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    0
-181 Non4k_Aligned_Access    -O---K   100   100   001    -    3141 2661 480
+181 Non4k_Aligned_Access    -O---K   100   100   001    -    3179 2698 480
 183 SATA_Iface_Downshift    -O--CK   100   100   001    -    0
 184 End-to-End_Error        PO--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   001    -    0
@@ -149,7 +149,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (345)
+Temperature History Size (Index):    478 (18)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -159,11 +159,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             130  ---  Lifetime Power-On Resets
-0x01  0x010  4           91650  ---  Power-on Hours
-0x01  0x018  6     34880123589  ---  Logical Sectors Written
-0x01  0x020  6      1041341799  ---  Number of Write Commands
-0x01  0x028  6     11313314882  ---  Logical Sectors Read
-0x01  0x030  6       188976570  ---  Number of Read Commands
+0x01  0x010  4           91700  ---  Power-on Hours
+0x01  0x018  6     35218540752  ---  Logical Sectors Written
+0x01  0x020  6      1046134100  ---  Number of Write Commands
+0x01  0x028  6     11314274130  ---  Logical Sectors Read
+0x01  0x030  6       188998272  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

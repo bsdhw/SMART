@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Wed Jun 12 19:47:02 2024 EDT
+Local Time is:                      Mon Jun 24 23:36:46 2024 EDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0014):     DS_Mngmt Sav/Sel_Feat
@@ -41,22 +41,22 @@ Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    90%
-Data Units Read:                    16,302,331 [8.34 TB]
-Data Units Written:                 445,145,098 [227 TB]
-Host Read Commands:                 188,755,583
-Host Write Commands:                5,291,102,987
-Controller Busy Time:               104,226
-Power Cycles:                       159
-Power On Hours:                     17,306
-Unsafe Shutdowns:                   80
+Data Units Read:                    17,035,645 [8.72 TB]
+Data Units Written:                 448,027,782 [229 TB]
+Host Read Commands:                 196,769,381
+Host Write Commands:                5,320,638,592
+Controller Busy Time:               107,171
+Power Cycles:                       161
+Power On Hours:                     17,598
+Unsafe Shutdowns:                   81
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    31967
-Critical Comp. Temperature Time:    22679
-Thermal Temp. 1 Transition Count:   6679
-Thermal Temp. 2 Transition Count:   456
-Thermal Temp. 1 Total Time:         2736746
-Thermal Temp. 2 Total Time:         2802434
+Warning  Comp. Temperature Time:    32152
+Critical Comp. Temperature Time:    22721
+Thermal Temp. 1 Transition Count:   7415
+Thermal Temp. 2 Transition Count:   558
+Thermal Temp. 1 Total Time:         2881145
+Thermal Temp. 2 Total Time:         2909357
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

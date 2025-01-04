@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jan  6 19:34:27 2024 EST
+Local Time is:    Sat Jan  6 19:40:25 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -75,17 +75,17 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       27
 197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       179453
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       179454
 226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       61
 227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       43
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       170233
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       170239
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
 234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
 235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2203 (5 65535)
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       179453
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       179454
 242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       135945
-243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       443965
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       443972
 
 SMART Error Log Version: 1
 No Errors Logged

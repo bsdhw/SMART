@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Dec  6 20:02:47 2023 CET
+Local Time is:    Mon Mar 25 19:11:47 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -56,14 +56,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x001a   200   200   000    Old_age   Always       -       0
   5 Reallocated_Sector_Ct   0x0033   100   100   000    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       1264
- 12 Power_Cycle_Count       0x0032   097   097   000    Old_age   Always       -       3000
+  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       1311
+ 12 Power_Cycle_Count       0x0032   096   096   000    Old_age   Always       -       3154
 169 Unknown_Apple_Attrib    0x0013   253   253   010    Pre-fail  Always       -       725887222240
-173 Wear_Leveling_Count     0x0032   196   196   100    Old_age   Always       -       236231327845
-174 Host_Reads_MiB          0x0022   099   099   000    Old_age   Always       -       9384887
-175 Host_Writes_MiB         0x0022   099   099   000    Old_age   Always       -       9622553
-192 Power-Off_Retract_Count 0x0012   099   099   000    Old_age   Always       -       643
-194 Temperature_Celsius     0x0022   051   027   000    Old_age   Always       -       49 (Min/Max 21/73)
+173 Wear_Leveling_Count     0x0032   196   196   100    Old_age   Always       -       249116491881
+174 Host_Reads_MiB          0x0022   099   099   000    Old_age   Always       -       9890477
+175 Host_Writes_MiB         0x0022   099   099   000    Old_age   Always       -       9934940
+192 Power-Off_Retract_Count 0x0012   099   099   000    Old_age   Always       -       658
+194 Temperature_Celsius     0x0022   050   027   000    Old_age   Always       -       50 (Min/Max 21/73)
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x001a   200   200   000    Old_age   Always       -       0
 

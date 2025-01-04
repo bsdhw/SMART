@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-STABLE amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-STABLE amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       SKHynix_HFS512GDE9X084N
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            ace42e ...
-Local Time is:                      Sat Aug 19 12:20:06 2023 EEST
+Local Time is:                      Tue Nov 21 06:24:20 2023    
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -40,27 +40,31 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        46 Celsius
+Temperature:                        42 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    1%
-Data Units Read:                    53,944,674 [27.6 TB]
-Data Units Written:                 39,206,116 [20.0 TB]
-Host Read Commands:                 455,620,164
-Host Write Commands:                410,256,751
-Controller Busy Time:               780
-Power Cycles:                       1,679
-Power On Hours:                     3,988
-Unsafe Shutdowns:                   226
+Data Units Read:                    77,928,286 [39.8 TB]
+Data Units Written:                 53,492,972 [27.3 TB]
+Host Read Commands:                 628,214,540
+Host Write Commands:                535,155,532
+Controller Busy Time:               1,116
+Power Cycles:                       2,244
+Power On Hours:                     5,081
+Unsafe Shutdowns:                   280
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               39 Celsius
-Temperature Sensor 2:               41 Celsius
+Temperature Sensor 1:               35 Celsius
+Temperature Sensor 2:               37 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+No Self-tests Logged
 
 
 

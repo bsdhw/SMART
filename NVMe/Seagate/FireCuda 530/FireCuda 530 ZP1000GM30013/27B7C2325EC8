@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Thu Jan 11 16:57:35 2024 CET
+Local Time is:                      Mon Jan 29 18:45:23 2024 CET
 Firmware Updates (0x18):            4 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005d):     Comp DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,14 +46,14 @@ Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    0%
-Data Units Read:                    449,865 [230 GB]
-Data Units Written:                 1,353,925 [693 GB]
-Host Read Commands:                 7,513,661
-Host Write Commands:                17,178,613
-Controller Busy Time:               1,114
-Power Cycles:                       51
-Power On Hours:                     3,262
-Unsafe Shutdowns:                   38
+Data Units Read:                    620,822 [317 GB]
+Data Units Written:                 5,706,335 [2.92 TB]
+Host Read Commands:                 11,059,106
+Host Write Commands:                56,340,229
+Controller Busy Time:               1,250
+Power Cycles:                       177
+Power On Hours:                     3,691
+Unsafe Shutdowns:                   161
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      156
 Warning  Comp. Temperature Time:    0
@@ -64,5 +64,6 @@ No Errors Logged
 
 Self-test Log (NVMe Log 0x06)
 Self-test status: No self-test in progress
-No Self-tests Logged
+Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
+ 0   Short             Completed without error                3691            -     -   -   -    -
 

@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     PNY CS900 1TB SSD
@@ -11,10 +11,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available
-Device is:        Not in smartctl database 7.3/5319
+Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jun 14 13:25:31 2023 CDT
+Local Time is:    Thu Dec 28 19:38:21 2023 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,16 +57,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       122
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       114
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       608
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       426
 168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
 170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       287
-173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       1
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       24
+173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       327716
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       223
 194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
 218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
-231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       100
-241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       135
+231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       99
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       5168
 
 SMART Error Log Version: 1
 No Errors Logged
@@ -86,5 +86,5 @@ Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
 
-
+The above only provides legacy SMART information - try 'smartctl -x' for more
 

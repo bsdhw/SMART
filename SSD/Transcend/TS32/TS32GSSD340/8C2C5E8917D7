@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Feb 21 21:21:39 2024 PST
+Local Time is:    Wed Feb 21 21:24:21 2024 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -84,11 +84,11 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 194 Temperature_Celsius     -O---K   065   065   030    -    35 (Min/Max 22/52)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 231 Unknown_JMF_Attribute   PO--CK   085   085   005    -    15
-233 Unknown_JMF_Attribute   -O--CK   100   100   000    -    29231823168
-234 Unknown_JMF_Attribute   -O--CK   100   100   000    -    26689984640
+233 Unknown_JMF_Attribute   -O--CK   100   100   000    -    29231831232
+234 Unknown_JMF_Attribute   -O--CK   100   100   000    -    26689987456
 240 Unknown_JMF_Attribute   PO--C-   100   100   050    -    0
-241 Total_LBAs_Written      -O--CK   100   100   000    -    31534604205
-242 Total_LBAs_Read         -O--CK   100   100   000    -    3844143284
+241 Total_LBAs_Written      -O--CK   100   100   000    -    31534614213
+242 Total_LBAs_Read         -O--CK   100   100   000    -    3844144372
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

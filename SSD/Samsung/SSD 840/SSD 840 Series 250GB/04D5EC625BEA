@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Nov 12 00:44:30 2024 CST
+Local Time is:    Mon Nov 18 23:47:57 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,7 +64,7 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   089   089   000    -    54164
+  9 Power_On_Hours          -O--CK   089   089   000    -    54331
  12 Power_Cycle_Count       -O--CK   099   099   000    -    288
 177 Wear_Leveling_Count     PO--C-   080   080   000    -    232
 179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   100   100   010    -    0
@@ -133,7 +133,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/70 Celsius
-Temperature History Size (Index):    128 (70)
+Temperature History Size (Index):    128 (48)
 
 SCT Error Recovery Control:
            Read: Disabled

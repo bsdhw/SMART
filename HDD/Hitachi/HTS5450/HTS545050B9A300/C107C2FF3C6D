@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p5 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Hitachi Travelstar 5K500.B
@@ -11,10 +11,10 @@ User Capacity:    500,107,862,016 bytes [500 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    5400 rpm
 Form Factor:      2.5 inches
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Wed Jan 18 09:04:36 2023 CET
+Local Time is:    Fri Dec 27 07:29:32 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,22 +65,22 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   075   062    -    0
   2 Throughput_Performance  P-S--K   100   100   040    -    0
-  3 Spin_Up_Time            PO---K   232   100   033    -    2
-  4 Start_Stop_Count        -O--CK   097   097   000    -    4989
+  3 Spin_Up_Time            PO---K   141   100   033    -    2
+  4 Start_Stop_Count        -O--CK   097   097   000    -    5001
   5 Reallocated_Sector_Ct   PO--CK   059   056   005    -    3103 (0 1738)
   7 Seek_Error_Rate         POSR-K   100   100   067    -    0
   8 Seek_Time_Performance   P-S--K   100   100   040    -    0
-  9 Power_On_Hours          -O--CK   079   079   000    -    9505
+  9 Power_On_Hours          -O--CK   040   040   000    -    26515
  10 Spin_Retry_Count        PO--CK   100   100   060    -    0
- 12 Power_Cycle_Count       -O--CK   098   098   000    -    4727
+ 12 Power_Cycle_Count       -O--CK   097   097   000    -    4739
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
 184 End-to-End_Error        PO--CK   100   100   097    -    0
-187 Reported_Uncorrect      -O--CK   100   100   000    -    281470717947710
-188 Command_Timeout         -O--CK   100   001   000    -    330726837163
-190 Airflow_Temperature_Cel -O---K   070   054   045    -    30 (Min/Max 28/30)
+187 Reported_Uncorrect      -O--CK   098   100   000    -    281470721224512
+188 Command_Timeout         -O--CK   100   001   000    -    330726837165
+190 Airflow_Temperature_Cel -O---K   071   054   045    -    29 (Min/Max 25/33)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    57
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    6094941
-193 Load_Cycle_Count        -O--CK   001   001   000    -    1097261
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    6422626
+193 Load_Cycle_Count        -O--CK   001   001   000    -    5163898
 196 Reallocated_Event_Count -O--CK   056   056   000    -    2395
 197 Current_Pending_Sector  -O--CK   098   093   000    -    530
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
@@ -211,10 +211,10 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    30 Celsius
-Power Cycle Min/Max Temperature:     28/30 Celsius
+Current Temperature:                    29 Celsius
+Power Cycle Min/Max Temperature:     25/33 Celsius
 Lifetime    Min/Max Temperature:     12/46 Celsius
-Specified Max Operating Temperature:    29 Celsius
+Specified Max Operating Temperature:    30 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Temperature History Version:     2
@@ -222,7 +222,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/60 Celsius
 Min/Max Temperature Limit:           -40/65 Celsius
-Temperature History Size (Index):    478 (166)
+Temperature History Size (Index):    478 (259)
 
 SCT Error Recovery Control:
            Read:     85 (8.5 seconds)
@@ -237,8 +237,8 @@ ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
 0x0002  2            0  R_ERR response for data FIS
 0x0005  2            0  R_ERR response for non-data FIS
-0x0009  2            5  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            5  Device-to-host register FISes sent due to a COMRESET
+0x0009  2          127  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2          127  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 

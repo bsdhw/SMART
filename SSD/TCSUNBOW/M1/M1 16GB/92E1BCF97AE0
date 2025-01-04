@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [FreeBSD 12.1-RELEASE-p12-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE-p1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     TCSUNBOW M1 16GB
@@ -9,10 +9,10 @@ User Capacity:    16,013,852,672 bytes [16.0 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 1.5 Gb/s (current: 1.5 Gb/s)
-Local Time is:    Wed Feb 24 23:38:01 2021 GMT
+Local Time is:    Fri Aug  4 07:56:14 2023 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -45,23 +45,23 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   050    -    0
   5 Reallocated_Sector_Ct   ------   100   100   050    -    0
- 12 Power_Cycle_Count       ------   100   100   050    -    73
+ 12 Power_Cycle_Count       ------   100   100   050    -    103
 160 Unknown_Attribute       ------   100   100   050    -    0
 161 Unknown_Attribute       ------   100   100   050    -    50
-162 Unknown_Attribute       ------   100   100   050    -    27
+162 Unknown_Attribute       ------   100   100   050    -    25
 163 Unknown_Attribute       ------   100   100   050    -    3
-164 Unknown_Attribute       ------   100   100   050    -    798673
-165 Unknown_Attribute       ------   100   100   050    -    823
-166 Unknown_Attribute       ------   100   100   050    -    759
-167 Unknown_Attribute       ------   100   100   050    -    788
+164 Unknown_Attribute       ------   100   100   050    -    1619009
+165 Unknown_Attribute       ------   100   100   050    -    1646
+166 Unknown_Attribute       ------   100   100   050    -    1564
+167 Unknown_Attribute       ------   100   100   050    -    1598
 192 Power-Off_Retract_Count ------   100   100   050    -    0
-194 Temperature_Celsius     ------   100   100   000    -    55 (Min/Max 18/67)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    31
+194 Temperature_Celsius     ------   100   100   000    -    56 (Min/Max 18/67)
+195 Hardware_ECC_Recovered  ------   100   100   050    -    34
 196 Reallocated_Event_Count ------   100   100   050    -    0
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
-241 Total_LBAs_Written      ------   100   100   050    -    131423
-242 Total_LBAs_Read         ------   100   100   050    -    3244
+241 Total_LBAs_Written      ------   100   100   050    -    253016
+242 Total_LBAs_Read         ------   100   100   050    -    4216
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jan 11 20:37:05 2024 +03
+Local Time is:    Fri Jan 12 09:03:23 2024 +03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,15 +61,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    4
+  9 Power_On_Hours          -O--CK   100   100   050    -    16
  12 Power_Cycle_Count       -O--CK   100   100   050    -    52
 160 Unknown_Attribute       -O--CK   100   100   050    -    0
 161 Unknown_Attribute       PO--CK   100   100   050    -    100
 163 Unknown_Attribute       -O--CK   100   100   050    -    10
-164 Unknown_Attribute       -O--CK   100   100   050    -    879
-165 Unknown_Attribute       -O--CK   100   100   050    -    3
+164 Unknown_Attribute       -O--CK   100   100   050    -    1233
+165 Unknown_Attribute       -O--CK   100   100   050    -    4
 166 Unknown_Attribute       -O--CK   100   100   050    -    1
-167 Unknown_Attribute       -O--CK   100   100   050    -    1
+167 Unknown_Attribute       -O--CK   100   100   050    -    2
 168 Unknown_Attribute       -O--CK   100   100   050    -    5050
 169 Unknown_Attribute       -O--CK   100   100   050    -    100
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--CK   100   100   050    -    0
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Total_LBAs_Written      ----CK   100   100   050    -    2387
-242 Total_LBAs_Read         ----CK   100   100   050    -    205
-245 Unknown_Attribute       -O--CK   100   100   050    -    612
+241 Total_LBAs_Written      ----CK   100   100   050    -    3188
+242 Total_LBAs_Read         ----CK   100   100   050    -    232
+245 Unknown_Attribute       -O--CK   100   100   050    -    1080
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -137,11 +137,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              52  ---  Lifetime Power-On Resets
-0x01  0x010  4               4  ---  Power-on Hours
-0x01  0x018  6       156460792  ---  Logical Sectors Written
-0x01  0x020  6         1266607  ---  Number of Write Commands
-0x01  0x028  6        13490337  ---  Logical Sectors Read
-0x01  0x030  6          183358  ---  Number of Read Commands
+0x01  0x010  4              16  ---  Power-on Hours
+0x01  0x018  6       208958100  ---  Logical Sectors Written
+0x01  0x020  6         2047556  ---  Number of Write Commands
+0x01  0x028  6        15266513  ---  Logical Sectors Read
+0x01  0x030  6          260790  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

@@ -1,5 +1,5 @@
-smartctl 7.2 2020-12-30 r5155 [OpenBSD 7.0 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Seagate Momentus 7200.4
@@ -11,10 +11,10 @@ User Capacity:    320,072,933,376 bytes [320 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    7200 rpm
 Form Factor:      2.5 inches
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Fri Jun 17 02:05:07 2022 CEST
+Local Time is:    Sun Aug 11 21:14:14 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -22,6 +22,7 @@ SMART support is: Enabled
 SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
 Warning: This result is based on an Attribute check.
+See vendor-specific Attribute list for marginal Attributes.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -58,25 +59,25 @@ SCT capabilities: 	       (0x103f)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   117   090   006    Pre-fail  Always       -       135467577
+  1 Raw_Read_Error_Rate     0x000f   110   090   006    Pre-fail  Always       -       27199421
   3 Spin_Up_Time            0x0002   098   097   000    Old_age   Always       -       0
-  4 Start_Stop_Count        0x0033   097   097   000    Pre-fail  Always       -       3460
+  4 Start_Stop_Count        0x0033   097   097   000    Pre-fail  Always       -       4031
   5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
-  7 Seek_Error_Rate         0x000f   078   060   030    Pre-fail  Always       -       34834333730
-  9 Power_On_Hours          0x0032   083   083   000    Old_age   Always       -       15249
+  7 Seek_Error_Rate         0x000f   078   060   030    Pre-fail  Always       -       39181022869
+  9 Power_On_Hours          0x0032   067   067   000    Old_age   Always       -       29362
  10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0033   097   037   020    Pre-fail  Always       -       3452
+ 12 Power_Cycle_Count       0x0033   097   037   020    Pre-fail  Always       -       4026
 183 Runtime_Bad_Block       0x0032   100   253   000    Old_age   Always       -       0
 184 End-to-End_Error        0x0033   100   100   097    Pre-fail  Always       -       0
-187 Reported_Uncorrect      0x0032   001   001   000    Old_age   Always       -       367
+187 Reported_Uncorrect      0x0032   001   001   000    Old_age   Always       -       368
 188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       7
 189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0022   063   046   045    Old_age   Always       -       37 (Min/Max 27/37)
-191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       212
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       271
-193 Load_Cycle_Count        0x0032   078   078   000    Old_age   Always       -       45259
-194 Temperature_Celsius     0x0022   037   054   000    Old_age   Always       -       37 (0 5 0 0 0)
-195 Hardware_ECC_Recovered  0x001a   054   049   000    Old_age   Always       -       135467577
+190 Airflow_Temperature_Cel 0x0022   055   042   045    Old_age   Always   In_the_past 45 (Min/Max 27/45 #8)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       215
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       649
+193 Load_Cycle_Count        0x0032   074   074   000    Old_age   Always       -       53048
+194 Temperature_Celsius     0x0022   045   058   000    Old_age   Always       -       45 (0 5 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   052   048   000    Old_age   Always       -       27199421
 196 Reallocated_Event_Count 0x0033   100   100   036    Pre-fail  Always       -       0
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0

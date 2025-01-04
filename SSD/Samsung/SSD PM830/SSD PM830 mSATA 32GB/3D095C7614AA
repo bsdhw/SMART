@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Oct 27 12:45:05 2023 PDT
+Local Time is:    Wed Nov  8 14:55:18 2023 PST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -60,11 +60,11 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   090   090   000    -    49526
+  9 Power_On_Hours          -O--CK   090   090   000    -    49819
  12 Power_Cycle_Count       -O--CK   099   099   000    -    176
 175 Program_Fail_Count_Chip -O--CK   100   100   010    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   010    -    0
-177 Wear_Leveling_Count     PO--C-   029   029   010    -    2563
+177 Wear_Leveling_Count     PO--C-   028   028   010    -    2601
 178 Used_Rsvd_Blk_Cnt_Chip  PO--C-   090   090   010    -    40
 179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   091   091   010    -    68
 180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   091   091   010    -    748
@@ -76,8 +76,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 CRC_Error_Count         -OSRCK   253   253   000    -    0
 232 Available_Reservd_Space PO--C-   090   090   000    -    368
-241 Total_LBAs_Written      -O--CK   099   099   000    -    88501143731
-242 Total_LBAs_Read         -O--CK   099   099   000    -    20166944487
+241 Total_LBAs_Written      -O--CK   099   099   000    -    90208680152
+242 Total_LBAs_Read         -O--CK   099   099   000    -    20202430015
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

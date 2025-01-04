@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Aug  2 08:17:29 2024 CEST
+Local Time is:    Fri Aug  2 08:50:10 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,7 +58,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000a   100   100   000    Old_age   Always       -       0
   9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       6418
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       108
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       110
 168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
 169 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       32
 170 Bad_Blk_Ct_Lat/Erl      0x0013   100   100   010    Pre-fail  Always       -       0/25
@@ -68,10 +68,10 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 196 Not_In_Use              0x0000   100   100   000    Old_age   Offline      -       16
 218 CRC_Error_Count         0x0000   100   100   000    Old_age   Offline      -       0
 231 SSD_Life_Left           0x0013   100   100   000    Pre-fail  Always       -       85
-233 Flash_Writes_GiB        0x0013   100   100   000    Pre-fail  Always       -       17905424
-241 Lifetime_Writes_GiB     0x0012   100   100   000    Old_age   Always       -       6827637
-242 Lifetime_Reads_GiB      0x0012   100   100   000    Old_age   Always       -       2286794
-246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       7498106
+233 Flash_Writes_GiB        0x0013   100   100   000    Pre-fail  Always       -       17905859
+241 Lifetime_Writes_GiB     0x0012   100   100   000    Old_age   Always       -       6828009
+242 Lifetime_Reads_GiB      0x0012   100   100   000    Old_age   Always       -       2287458
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       7498318
 
 SMART Error Log Version: 1
 No Errors Logged

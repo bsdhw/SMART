@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.1 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     HDE721064SLA360
@@ -9,10 +9,10 @@ Firmware Version: ST0BA36A
 User Capacity:    640,135,028,736 bytes [640 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    7200 rpm
-Device is:        Not in smartctl database 7.3/5319
+Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Jun  6 13:20:22 2022 EDT
+Local Time is:    Tue Nov  7 11:23:43 2023 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,17 +58,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
   2 Throughput_Performance  0x0005   130   130   054    Pre-fail  Offline      -       121
-  3 Spin_Up_Time            0x0007   144   144   024    Pre-fail  Always       -       275 (Average 315)
-  4 Start_Stop_Count        0x0012   078   078   000    Old_age   Always       -       89646
+  3 Spin_Up_Time            0x0007   183   183   024    Pre-fail  Always       -       209 (Average 254)
+  4 Start_Stop_Count        0x0012   078   078   000    Old_age   Always       -       90262
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       3
   7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   125   125   020    Pre-fail  Offline      -       33
-  9 Power_On_Hours          0x0012   095   095   000    Old_age   Always       -       41266
+  9 Power_On_Hours          0x0012   093   093   000    Old_age   Always       -       53648
  10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   084   084   000    Old_age   Always       -       66435
-192 Power-Off_Retract_Count 0x0032   025   025   000    Old_age   Always       -       90430
-193 Load_Cycle_Count        0x0012   025   025   000    Old_age   Always       -       90430
-194 Temperature_Celsius     0x0002   157   157   000    Old_age   Always       -       38 (Min/Max 17/46)
+ 12 Power_Cycle_Count       0x0032   084   084   000    Old_age   Always       -       67046
+192 Power-Off_Retract_Count 0x0032   024   024   000    Old_age   Always       -       91561
+193 Load_Cycle_Count        0x0012   024   024   000    Old_age   Always       -       91561
+194 Temperature_Celsius     0x0002   153   153   000    Old_age   Always       -       39 (Min/Max 17/50)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       3
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
@@ -190,6 +190,8 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
 
 
 

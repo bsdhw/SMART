@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Nov  9 03:35:03 2024 CET
+Local Time is:    Sat Nov  9 04:01:16 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -56,7 +56,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   001    -    0
   7 Unknown_SSD_Attribute   ------   000   000   000    -    0
   8 Unknown_SSD_Attribute   ------   000   000   000    -    0
-  9 Power_On_Hours          -O----   247   000   000    -    11255
+  9 Power_On_Hours          -O----   248   000   000    -    11256
  10 Unknown_SSD_Attribute   ------   000   000   000    -    0
  12 Power_Cycle_Count       -O----   096   000   000    -    1376
 163 Unknown_Attribute       ------   000   000   000    -    13
@@ -66,7 +66,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 192 Power-Off_Retract_Count ------   000   000   000    -    0
 194 Temperature_Celsius     ------   030   100   000    -    30 (2 100 0 0 0)
 197 Current_Pending_Sector  -O--C-   000   100   000    -    0
-225 Unknown_SSD_Attribute   ------   000   164   000    -    971513
+225 Unknown_SSD_Attribute   ------   000   012   000    -    971808
 240 Unknown_SSD_Attribute   ------   000   000   000    -    0
 165 Unknown_Attribute       -O----   047   001   000    -    47
 167 Unknown_Attribute       -O----   031   001   000    -    31
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 229 Unknown_Attribute       -O----   100   001   000    -    89569723955864
 232 Available_Reservd_Space PO----   100   001   000    -    0
 235 Unknown_Attribute       -O----   000   000   000    -    0
-241 Total_LBAs_Written      -O----   100   001   000    -    3794
+241 Total_LBAs_Written      -O----   100   001   000    -    3796
 242 Total_LBAs_Read         -O----   100   001   000    -    19601
                             ||||||_ K auto-keep
                             |||||__ C event count

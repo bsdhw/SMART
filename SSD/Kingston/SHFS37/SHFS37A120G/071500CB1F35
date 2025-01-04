@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jun 20 09:33:02 2023 CEST
+Local Time is:    Tue Jun 20 09:42:24 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,9 +63,9 @@ SCT capabilities: 	       (0x0025)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     -O--CK   095   095   050    -    2/4178628
+  1 Raw_Read_Error_Rate     -O--CK   095   095   050    -    2/4180079
   5 Retired_Block_Count     PO--CK   100   100   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   025   025   000    -    66168h+20m+55.020s
+  9 Power_On_Hours_and_Msec -O--CK   025   025   000    -    66168h+30m+16.800s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    159
 171 Program_Fail_Count      -O-R--   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
@@ -76,13 +76,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--C-   100   100   000    -    0
 189 Airflow_Temperature_Cel ------   032   041   000    -    32 (Min/Max 21/41)
 194 Temperature_Celsius     -O---K   032   041   000    -    32 (Min/Max 21/41)
-195 ECC_Uncorr_Error_Count  --SRC-   098   098   000    -    2/4178628
+195 ECC_Uncorr_Error_Count  --SRC-   098   098   000    -    2/4180079
 196 Reallocated_Event_Count PO--CK   100   100   003    -    0
-201 Unc_Soft_Read_Err_Rate  --SRC-   098   098   000    -    2/4178628
-204 Soft_ECC_Correct_Rate   --SRC-   098   098   000    -    2/4178628
+201 Unc_Soft_Read_Err_Rate  --SRC-   098   098   000    -    2/4180079
+204 Soft_ECC_Correct_Rate   --SRC-   098   098   000    -    2/4180079
 230 Life_Curve_Status       PO--C-   100   100   000    -    100
 231 SSD_Life_Left           ------   093   093   011    -    111669149696
-233 SandForce_Internal      -O--CK   000   000   000    -    38373
+233 SandForce_Internal      -O--CK   000   000   000    -    38374
 234 SandForce_Internal      -O--CK   000   000   000    -    28023
 241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    28023
 242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    1355
@@ -159,7 +159,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/85 Celsius
-Temperature History Size (Index):    478 (14)
+Temperature History Size (Index):    478 (15)
 
 SCT Error Recovery Control command not supported
 
@@ -168,8 +168,8 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             159  ---  Lifetime Power-On Resets
 0x01  0x010  4           66168  ---  Power-on Hours
-0x01  0x018  6     58769482315  ---  Logical Sectors Written
-0x01  0x028  6      2842629984  ---  Logical Sectors Read
+0x01  0x018  6     58769673384  ---  Logical Sectors Written
+0x01  0x028  6      2842631435  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4              19  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               5  ---  Resets Between Cmd Acceptance and Completion

@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p10 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Feb 11 20:22:03 2024 PST
+Local Time is:    Mon Mar 18 08:14:30 2024 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,8 +64,8 @@ SMART Attributes Data Structure revision number: 4
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   ---    -    0
-  9 Power_On_Hours          -O--CK   253   100   ---    -    64535
- 12 Power_Cycle_Count       -O--CK   100   100   ---    -    419
+  9 Power_On_Hours          -O--CK   253   100   ---    -    65115
+ 12 Power_Cycle_Count       -O--CK   100   100   ---    -    440
 175 Program_Fail_Count_Chip -O--CK   100   100   ---    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   ---    -    0
 177 Wear_Leveling_Count     -O--CK   100   100   ---    -    3
@@ -76,9 +76,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count_Total  -O--CK   100   100   ---    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
 195 Hardware_ECC_Recovered  -O--CK   100   100   ---    -    0
-230 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    168384496179493
-241 Total_LBAs_Written      ----CK   253   253   ---    -    129230917740
-242 Total_LBAs_Read         ----CK   253   253   ---    -    138751388854
+230 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    168461805590839
+241 Total_LBAs_Written      ----CK   253   253   ---    -    129278732740
+242 Total_LBAs_Read         ----CK   253   253   ---    -    138757826643
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -116,10 +116,10 @@ Selective Self-tests/Logging not supported
 SCT Status Version:                  3
 SCT Version (vendor specific):       257 (0x0101)
 Device State:                        Active (0)
-Current Temperature:                    30 Celsius
-Power Cycle Min/Max Temperature:     30/31 Celsius
-Lifetime    Min/Max Temperature:     30/31 Celsius
-Specified Max Operating Temperature:    30 Celsius
+Current Temperature:                    31 Celsius
+Power Cycle Min/Max Temperature:     27/35 Celsius
+Lifetime    Min/Max Temperature:     27/35 Celsius
+Specified Max Operating Temperature:    31 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -130,7 +130,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -10/70 Celsius
 Min/Max Temperature Limit:           -15/90 Celsius
-Temperature History Size (Index):    256 (193)
+Temperature History Size (Index):    256 (111)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -139,11 +139,11 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             419  ---  Lifetime Power-On Resets
-0x01  0x018  6    129230853972  ---  Logical Sectors Written
-0x01  0x020  6            9723  ---  Number of Write Commands
-0x01  0x028  6    138751383638  ---  Logical Sectors Read
-0x01  0x030  6            7784  ---  Number of Read Commands
+0x01  0x008  4             440  ---  Lifetime Power-On Resets
+0x01  0x018  6    129278540652  ---  Logical Sectors Written
+0x01  0x020  6          234640  ---  Number of Write Commands
+0x01  0x028  6    138757826643  ---  Logical Sectors Read
+0x01  0x030  6           26178  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              18  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -157,7 +157,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            9  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
 
 
 

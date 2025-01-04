@@ -1,4 +1,4 @@
-smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.0.0 amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.1.0 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database [for details use: -P showall]
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Mar 28 17:59:33 2023 EDT
+Local Time is:    Sat Aug 19 16:50:15 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,25 +55,25 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       2456
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       11
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       5872
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       19
  16 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       6187
  17 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       6187
 168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
 170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       198
-173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       196618
-174 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       8
-177 Wear_Leveling_Count     0x0000   100   100   000    Old_age   Offline      -       0
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       8
-194 Temperature_Celsius     0x0023   100   084   000    Pre-fail  Always       -       27 (Min/Max 21/43)
+173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       393251
+174 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       13
+177 Wear_Leveling_Count     0x0000   100   100   000    Old_age   Offline      -       1
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       13
+194 Temperature_Celsius     0x0023   103   084   000    Pre-fail  Always       -       24 (Min/Max 19/43)
 218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
 231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       99
 232 Available_Reservd_Space 0x0013   100   100   000    Pre-fail  Always       -       0
-233 Media_Wearout_Indicator 0x000b   100   100   000    Pre-fail  Always       -       1717
-234 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       7435467792
-235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       3600975808
-241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       1266
-242 Total_LBAs_Read         0x0012   100   100   000    Old_age   Always       -       3023
+233 Media_Wearout_Indicator 0x000b   100   100   000    Pre-fail  Always       -       2964
+234 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       16402761896
+235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       6217801920
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       2034
+242 Total_LBAs_Read         0x0012   100   100   000    Old_age   Always       -       6700
 
 SMART Error Log Version: 1
 No Errors Logged

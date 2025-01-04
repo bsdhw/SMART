@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jan  6 19:34:27 2024 EST
+Local Time is:    Sat Jan  6 19:40:25 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -73,14 +73,14 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
 202 Exception_Mode_Status   0x0033   100   100   010    Pre-fail  Always       -       0
 235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       10
-241 Total_LBAs_Written      0x0032   098   098   000    Old_age   Always       -       3163925456672
-242 Total_LBAs_Read         0x0032   098   098   000    Old_age   Always       -       4236312347640
+241 Total_LBAs_Written      0x0032   098   098   000    Old_age   Always       -       3163925786872
+242 Total_LBAs_Read         0x0032   098   098   000    Old_age   Always       -       4236312348992
 243 SATA_Downshift_Ct       0x0032   100   100   000    Old_age   Always       -       0
 244 Thermal_Throttle_St     0x0032   100   100   000    Old_age   Always       -       0
 245 Timed_Workld_Media_Wear 0x0032   100   100   000    Old_age   Always       -       65535
 246 Timed_Workld_RdWr_Ratio 0x0032   100   100   000    Old_age   Always       -       65535
 247 Timed_Workld_Timer      0x0032   100   100   000    Old_age   Always       -       65535
-251 NAND_Writes             0x0032   100   100   000    Old_age   Always       -       4792961850368
+251 NAND_Writes             0x0032   100   100   000    Old_age   Always       -       4792962295808
 
 SMART Error Log Version: 1
 No Errors Logged

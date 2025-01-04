@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.1-RELEASE-p22-HBSD amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     SAMSUNG SpinPoint P80 SD
@@ -8,9 +8,9 @@ Serial Number:    --
 Firmware Version: ZH100-47
 User Capacity:    80,026,361,856 bytes [80.0 GB]
 Sector Size:      512 bytes logical/physical
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 4a
-Local Time is:    Sun May  5 20:02:36 2024 CEST
+Local Time is:    Thu May 30 21:46:51 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM level is:     254 (maximum performance), recommended: 254
@@ -65,14 +65,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--CK   253   253   010    -    0
   7 Seek_Error_Rate         POSR--   253   253   051    -    0
   8 Seek_Time_Performance   P-S--K   253   253   015    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    28183
+  9 Power_On_Hours          -O--CK   100   100   000    -    28787
  10 Spin_Retry_Count        PO--CK   253   253   051    -    0
  11 Calibration_Retry_Count -O--C-   253   253   000    -    0
  12 Power_Cycle_Count       -O--CK   100   100   000    -    815
 187 Reported_Uncorrect      -O--CK   253   253   000    -    0
-190 Airflow_Temperature_Cel -O---K   076   064   000    -    54
-194 Temperature_Celsius     -O---K   076   064   000    -    54
-195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    59920442
+190 Airflow_Temperature_Cel -O---K   073   064   000    -    55
+194 Temperature_Celsius     -O---K   073   064   000    -    55
+195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    80116222
 196 Reallocated_Event_Count -O--CK   253   253   000    -    0
 197 Current_Pending_Sector  -O--C-   253   253   000    -    0
 198 Offline_Uncorrectable   ----CK   253   253   000    -    0
@@ -101,6 +101,8 @@ Address    Access  R/W   Size  Description
 
 SMART Extended Comprehensive Error Log Version: 1 (2 sectors)
 Invalid Error Log index = 0x0800 (reserved = 0x00)
+Device Error Count: 200 (possibly also invalid)
+
 SMART Extended Self-test Log (GP Log 0x07) not supported
 
 SMART Self-test log structure revision number 1
@@ -123,8 +125,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    54 Celsius
-Power Cycle Min/Max Temperature:     --/55 Celsius
+Current Temperature:                    55 Celsius
+Power Cycle Min/Max Temperature:     --/57 Celsius
 Lifetime    Min/Max Temperature:     --/60 Celsius
 
 SCT Temperature History Version:     2
@@ -132,7 +134,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     10/55 Celsius
 Min/Max Temperature Limit:            5/60 Celsius
-Temperature History Size (Index):    128 (50)
+Temperature History Size (Index):    128 (77)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -145,7 +147,7 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           84  Device-to-host register FISes sent due to a COMRESET
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  2            0  Transition from drive PhyRdy to drive PhyNRdy
 0x000b  2            0  CRC errors within host-to-device FIS

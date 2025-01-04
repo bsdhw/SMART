@@ -14,7 +14,7 @@ Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
 Namespace 1 Utilization:            19,967,569,920 [19.9 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            0026b7 ...
-Local Time is:                      Sat Jul 15 12:17:33 2023 UTC
+Local Time is:                      Sat Jul 15 12:24:51 2023 UTC
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp

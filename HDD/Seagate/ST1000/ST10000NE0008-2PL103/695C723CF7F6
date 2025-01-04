@@ -1,4 +1,4 @@
-smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.0.0 amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.1.0 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Mar 29 15:58:19 2023 EDT
+Local Time is:    Tue Aug  1 16:02:29 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,28 +59,28 @@ SCT capabilities: 	       (0x50bd)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  1 Raw_Read_Error_Rate     0x000f   083   064   044    Pre-fail  Always       -       199650694
-  3 Spin_Up_Time            0x0003   094   094   000    Pre-fail  Always       -       0
-  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       6
+  1 Raw_Read_Error_Rate     0x000f   067   064   044    Pre-fail  Always       -       5040848
+  3 Spin_Up_Time            0x0003   091   091   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       8
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  7 Seek_Error_Rate         0x000f   085   060   045    Pre-fail  Always       -       341633736
-  9 Power_On_Hours          0x0032   090   090   000    Old_age   Always       -       8835
+  7 Seek_Error_Rate         0x000f   087   060   045    Pre-fail  Always       -       476395427
+  9 Power_On_Hours          0x0032   087   087   000    Old_age   Always       -       11833
  10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       6
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       8
  18 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0022   053   040   040    Old_age   Always   In_the_past 47 (Min/Max 43/58)
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1
-193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       379
+190 Airflow_Temperature_Cel 0x0022   053   040   040    Old_age   Always   In_the_past 47 (Min/Max 31/54)
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       2
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       507
 194 Temperature_Celsius     0x0022   047   060   000    Old_age   Always       -       47 (0 27 0 0 0)
 197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
 200 Multi_Zone_Error_Rate   0x0023   100   100   001    Pre-fail  Always       -       0
-240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       8793 (22 70 0)
-241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       37429758990
-242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       29920913715
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       11771 (136 254 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       59784868638
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       46207518703
 
 SMART Error Log Version: 1
 No Errors Logged

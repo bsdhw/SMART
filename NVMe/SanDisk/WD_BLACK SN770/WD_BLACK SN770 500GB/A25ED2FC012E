@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p6 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       WD_BLACK SN770 500GB
@@ -15,11 +15,11 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Sat Mar  4 12:52:15 2023 EST
+Local Time is:                      Sat Oct 28 09:00:36 2023 EDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x00df):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp Verify
-Log Page Attributes (0x7e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg Pers_Ev_Lg *Other*
+Log Page Attributes (0x7e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg Pers_Ev_Lg Log0_FISE_MI Telmtry_Ar_4
 Maximum Data Transfer Size:         256 Pages
 Warning  Comp. Temp. Threshold:     84 Celsius
 Critical Comp. Temp. Threshold:     88 Celsius
@@ -44,25 +44,30 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        37 Celsius
+Temperature:                        32 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    2,629 [1.34 GB]
-Data Units Written:                 137,374 [70.3 GB]
-Host Read Commands:                 83,613
-Host Write Commands:                2,387,063
-Controller Busy Time:               1
-Power Cycles:                       38
-Power On Hours:                     9
-Unsafe Shutdowns:                   27
+Percentage Used:                    11%
+Data Units Read:                    165,195 [84.5 GB]
+Data Units Written:                 171,708,509 [87.9 TB]
+Host Read Commands:                 1,570,008
+Host Write Commands:                2,110,852,586
+Controller Busy Time:               501
+Power Cycles:                       74
+Power On Hours:                     5,712
+Unsafe Shutdowns:                   53
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               57 Celsius
-Temperature Sensor 2:               34 Celsius
+Temperature Sensor 1:               50 Celsius
+Temperature Sensor 2:               32 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged
+
+Self-test Log (NVMe Log 0x06)
+Self-test status: No self-test in progress
+Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
+ 0   Short             Aborted: Self-test command             4056            -     -   -   -    -
 

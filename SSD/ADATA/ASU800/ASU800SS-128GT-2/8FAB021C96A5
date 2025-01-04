@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 14 12:54:56 2024 CEST
+Local Time is:    Mon Oct 14 13:33:57 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,17 +65,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    1550
+  9 Power_On_Hours          ------   100   100   000    -    1551
  12 Power_Cycle_Count       ------   100   100   000    -    43
 160 Unknown_Attribute       ------   100   100   000    -    0
 161 Unknown_Attribute       ------   100   100   000    -    104
 163 Unknown_Attribute       ------   100   100   000    -    13
-148 Unknown_Attribute       ------   100   100   000    -    286324
-149 Unknown_Attribute       ------   100   100   000    -    3841
+148 Unknown_Attribute       ------   100   100   000    -    286450
+149 Unknown_Attribute       ------   100   100   000    -    3843
 150 Unknown_Attribute       ------   100   100   000    -    3651
-151 Unknown_Attribute       ------   100   100   000    -    3817
-164 Unknown_Attribute       ------   100   100   000    -    34962
-165 Unknown_Attribute       ------   100   100   000    -    35
+151 Unknown_Attribute       ------   100   100   000    -    3819
+164 Unknown_Attribute       ------   100   100   000    -    35048
+165 Unknown_Attribute       ------   100   100   000    -    36
 166 Unknown_Attribute       ------   100   100   000    -    11
 167 Unknown_Attribute       ------   100   100   000    -    25
 159 Unknown_Attribute       ------   100   100   000    -    0
@@ -86,13 +86,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 187 Reported_Uncorrect      ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    23
-194 Temperature_Celsius     ------   100   100   000    -    26
+194 Temperature_Celsius     ------   100   100   000    -    35
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Total_LBAs_Written      ------   100   100   000    -    90623
-242 Total_LBAs_Read         ------   100   100   000    -    224459
-245 Unknown_Attribute       ------   100   100   000    -    69924
+241 Total_LBAs_Written      ------   100   100   000    -    90873
+242 Total_LBAs_Read         ------   100   100   000    -    224555
+245 Unknown_Attribute       ------   100   100   000    -    70096
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -141,8 +141,8 @@ SCT Status Version:                  3
 SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
 Current Temperature:                     0 Celsius
-Power Cycle Min/Max Temperature:     -1/ 0 Celsius
-Lifetime    Min/Max Temperature:      0/ 0 Celsius
+Power Cycle Min/Max Temperature:     26/40 Celsius
+Lifetime    Min/Max Temperature:      0/40 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Temperature History Version:     2
@@ -150,7 +150,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/100 Celsius
-Temperature History Size (Index):    128 (1)
+Temperature History Size (Index):    128 (37)
 
 SCT Error Recovery Control command not supported
 
@@ -158,11 +158,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              43  ---  Lifetime Power-On Resets
-0x01  0x010  4            1550  ---  Power-on Hours
-0x01  0x018  6      1644115875  ---  Logical Sectors Written
-0x01  0x020  6       127086362  ---  Number of Write Commands
-0x01  0x028  6      1825259439  ---  Logical Sectors Read
-0x01  0x030  6        16036606  ---  Number of Read Commands
+0x01  0x010  4            1551  ---  Power-on Hours
+0x01  0x018  6      1660488403  ---  Logical Sectors Written
+0x01  0x020  6       127210804  ---  Number of Write Commands
+0x01  0x028  6      1831545119  ---  Logical Sectors Read
+0x01  0x030  6        16143281  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4              24  ---  Resets Between Cmd Acceptance and Completion

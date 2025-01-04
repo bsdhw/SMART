@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p3 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       SPCC M.2 PCIe SSD
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            010000 ...
-Local Time is:                      Fri Nov 18 16:00:27 2022 PST
+Local Time is:                      Sun Nov 19 00:43:36 2023 PST
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -36,23 +36,25 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        54 Celsius
+Temperature:                        56 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    1,108,049 [567 GB]
-Data Units Written:                 3,309,954 [1.69 TB]
-Host Read Commands:                 9,689,078
-Host Write Commands:                64,221,128
-Controller Busy Time:               2,437
-Power Cycles:                       112
-Power On Hours:                     3,624
-Unsafe Shutdowns:                   58
+Data Units Read:                    1,309,068 [670 GB]
+Data Units Written:                 8,275,263 [4.23 TB]
+Host Read Commands:                 15,837,077
+Host Write Commands:                152,680,283
+Controller Busy Time:               5,580
+Power Cycles:                       177
+Power On Hours:                     11,639
+Unsafe Shutdowns:                   67
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    15
+Warning  Comp. Temperature Time:    24
 Critical Comp. Temperature Time:    0
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
+
+Self-tests not supported
 

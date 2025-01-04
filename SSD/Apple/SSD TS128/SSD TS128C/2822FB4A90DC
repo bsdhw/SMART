@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Mon Aug  7 17:58:49 2023 CST
+Local Time is:    Wed Aug  9 12:35:09 2023 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -64,9 +64,9 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   5 Reallocated_Sector_Ct   0x0013   100   100   050    Pre-fail  Always       -       0
   7 Unknown_JMF_Attribute   0x000b   100   100   050    Pre-fail  Always       -       0
   8 Unknown_JMF_Attribute   0x0005   100   100   050    Pre-fail  Offline      -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       2141
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       2151
  10 Unknown_JMF_Attribute   0x0013   100   100   050    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       4807
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       4814
 167 Unknown_JMF_Attribute   0x0022   100   100   000    Old_age   Always       -       0
 168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
 169 Unknown_JMF_Attribute   0x0013   100   100   010    Pre-fail  Always       -       919218029866
