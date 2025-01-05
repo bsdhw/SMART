@@ -29,7 +29,7 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | SP900              | 64 GB  | 3       | 1342  | 0     | 3.68   |
 | ADATA     | SP600              | 128 GB | 4       | 1155  | 0     | 3.16   |
 | ADATA     | SP600              | 32 GB  | 4       | 1428  | 2     | 2.82   |
-| ADATA     | IM2S3134N-064GM    | 64 GB  | 58      | 928   | 0     | 2.54   |
+| ADATA     | IM2S3134N-064GM    | 64 GB  | 58      | 929   | 0     | 2.55   |
 | ADATA     | SSD S510           | 64 GB  | 2       | 908   | 0     | 2.49   |
 | ADATA     | SP920SS            | 128 GB | 2       | 816   | 0     | 2.24   |
 | ADATA     | SP900              | 128 GB | 8       | 756   | 0     | 2.07   |

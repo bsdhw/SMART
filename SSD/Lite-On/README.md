@@ -25,7 +25,7 @@ MTBF - avg. MTBF in years per sample.
 | Lite-On   | CV3-8D128-11 SATA  | 128 GB | 2       | 267   | 0     | 0.73   |
 | Lite-On   | IT LCS-128L9S-HP   | 128 GB | 3       | 161   | 0     | 0.44   |
 | Lite-On   | LCH-128V2S         | 128 GB | 3       | 156   | 0     | 0.43   |
-| Lite-On   | LCH-256V2S-HP      | 256 GB | 3       | 149   | 0     | 0.41   |
+| Lite-On   | LCH-256V2S-HP      | 256 GB | 3       | 154   | 0     | 0.42   |
 | Lite-On   | LCS-128M6S         | 128 GB | 2       | 136   | 0     | 0.37   |
 | Lite-On   | CV3-8D128-HP       | 128 GB | 2       | 118   | 0     | 0.32   |
 | Lite-On   | L8H-256V2G         | 256 GB | 2       | 113   | 0     | 0.31   |

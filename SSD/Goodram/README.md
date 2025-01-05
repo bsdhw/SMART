@@ -31,7 +31,7 @@ MTBF - avg. MTBF in years per sample.
 | Goodram   | SSD                | 120 GB | 8       | 624   | 0     | 1.71   |
 | Goodram   | SSDPR-CL100-120-G2 | 120 GB | 3       | 461   | 0     | 1.26   |
 | Goodram   | SSDPR-CX400-256    | 256 GB | 4       | 233   | 0     | 0.64   |
-| Goodram   | SSDPR-CL100-120-G3 | 120 GB | 12      | 88    | 0     | 0.24   |
+| Goodram   | SSDPR-CL100-120-G3 | 120 GB | 12      | 90    | 0     | 0.25   |
 | Goodram   | SSDPR-CX400-128-G2 | 128 GB | 2       | 80    | 0     | 0.22   |
 | Goodram   | SSDPR-CX400-512-G2 | 512 GB | 4       | 74    | 0     | 0.20   |
 | Goodram   | SSDPR-CL100-240-G3 | 240 GB | 3       | 39    | 0     | 0.11   |

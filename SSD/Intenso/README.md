@@ -23,13 +23,13 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Intenso   | JAJMS600M128G      | 128 GB | 2       | 591   | 0     | 1.62   |
+| Intenso   | JAJMS600M128G      | 128 GB | 2       | 819   | 0     | 2.24   |
 | Intenso   | JAJMS600M256G      | 256 GB | 5       | 588   | 0     | 1.61   |
 | Intenso   | SSD Sata III       | 120 GB | 6       | 568   | 0     | 1.56   |
 | Intenso   | SSD SATAIII        | 120 GB | 10      | 338   | 1     | 0.93   |
-| Intenso   | SSD                | 128 GB | 30      | 258   | 1     | 0.66   |
+| Intenso   | SSD                | 128 GB | 30      | 261   | 1     | 0.66   |
 | Intenso   | SSD                | 256 GB | 7       | 178   | 0     | 0.49   |
-| Intenso   | SSD                | 120 GB | 13      | 158   | 0     | 0.44   |
+| Intenso   | SSD                | 120 GB | 13      | 159   | 0     | 0.44   |
 | Intenso   | IONN SSD           | 256 GB | 3       | 149   | 0     | 0.41   |
 | Intenso   | SSD Sata III       | 250 GB | 2       | 138   | 0     | 0.38   |
 | Intenso   | SSD                | 512 GB | 4       | 115   | 0     | 0.32   |
@@ -51,5 +51,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| Intenso   | Phison Driven OEM SSDs | 2      | 32      | 247   | 1     | 0.63   |
-| Intenso   | Silicon Motion base... | 5      | 32      | 138   | 0     | 0.38   |
+| Intenso   | Phison Driven OEM SSDs | 2      | 32      | 249   | 1     | 0.63   |
+| Intenso   | Silicon Motion base... | 5      | 32      | 139   | 0     | 0.38   |

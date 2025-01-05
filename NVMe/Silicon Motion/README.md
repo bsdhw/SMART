@@ -21,8 +21,8 @@ MTBF - avg. MTBF in years per sample.
 | Silico... | 128GB              | 128 GB | 4       | 193   | 0     | 0.53   |
 | Silico... | 512GB              | 512 GB | 2       | 188   | 0     | 0.52   |
 | Silico... | NE-256             | 256 GB | 5       | 135   | 0     | 0.37   |
-| Silico... | GV128              | 128 GB | 11      | 130   | 0     | 0.36   |
-| Silico... | BKHD Nvme 128G     | 128 GB | 4       | 99    | 0     | 0.27   |
+| Silico... | GV128              | 128 GB | 11      | 133   | 0     | 0.36   |
+| Silico... | BKHD Nvme 128G     | 128 GB | 4       | 129   | 0     | 0.35   |
 | Silico... | GV256              | 256 GB | 2       | 74    | 0     | 0.20   |
 | Silico... | GV-128-2242        | 128 GB | 2       | 49    | 0     | 0.14   |
 | Silico... | BKKJ PCIE 512G     | 512 GB | 2       | 39    | 0     | 0.11   |
