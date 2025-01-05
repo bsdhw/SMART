@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Dec 27 14:06:16 2024 MST
+Local Time is:    Sun Dec 29 09:56:48 2024 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,16 +62,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    14477
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    216
+  9 Power_On_Hours          -O--C-   100   100   000    -    14516
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    461
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 170 Unknown_Attribute       PO----   080   080   010    -    31
-173 Unknown_Attribute       -O--C-   100   100   000    -    277156002
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    201
+173 Unknown_Attribute       -O--C-   100   100   000    -    281874672
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    445
 194 Temperature_Celsius     PO---K   067   067   000    -    33 (Min/Max 33/33)
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    35912
+241 Total_LBAs_Written      -O--C-   100   100   000    -    36636
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -99,7 +99,9 @@ SMART Extended Comprehensive Error Log Version: 1 (64 sectors)
 No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Conveyance offline  Completed without error       00%     14493         -
+# 2  Short offline       Completed without error       00%     14493         -
 
 SMART Selective self-test log data structure revision number 0
 Note: revision number not 1 implies that no selective self-test has ever been run
@@ -118,10 +120,10 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             216  ---  Lifetime Power-On Resets
-0x01  0x010  4           14477  ---  Power-on Hours
-0x01  0x018  6     75314675188  ---  Logical Sectors Written
-0x01  0x028  6      5320293729  ---  Logical Sectors Read
+0x01  0x008  4             461  ---  Lifetime Power-On Resets
+0x01  0x010  4           14516  ---  Power-on Hours
+0x01  0x018  6     76831267884  ---  Logical Sectors Written
+0x01  0x028  6      5661014483  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==

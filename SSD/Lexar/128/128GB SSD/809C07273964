@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Sep 23 21:11:13 2024 CDT
+Local Time is:    Wed Dec 11 13:08:37 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -25,8 +25,8 @@ SMART overall-health self-assessment test result: PASSED
 Warning: This result is based on an Attribute check.
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
 					Auto Offline Data Collection: Disabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
@@ -61,37 +61,38 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 New_Bad_Blk_Cnt         0x0013   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       11280
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       461
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       12940
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       527
 167 SSD_Protect_mode        0x0022   100   100   000    Old_age   Always       -       0
 168 SATA_PHY_Error_Cnt      0x0012   100   100   000    Old_age   Always       -       0
 169 Bad_Block_Cnt           0x0013   096   096   010    Pre-fail  Always       -       4194320
 171 Program_Fail_Cnt        0x0032   000   000   000    Old_age   Always       -       0
 172 Erase_Fail_Cnt          0x0032   000   000   000    Old_age   Always       -       0
-173 Erase_Cnt               0x0012   200   200   000    Old_age   Always       -       6369556956882
+173 Erase_Cnt               0x0012   200   200   000    Old_age   Always       -       6399622317785
 175 Bad_Cluster_Cnt         0x0022   100   100   010    Old_age   Always       -       0
 177 Read_Retry_Cnt          0x0012   100   100   000    Old_age   Always       -       0
 180 Spare_Blk_Cnt_Left      0x0033   100   100   000    Pre-fail  Always       -       1636
 187 Reported_Uncorrect      0x0032   100   000   000    Old_age   Always       -       0
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       174
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       216
 194 Temperature_Celsius     0x0022   048   048   000    Old_age   Always       -       48 (Min/Max 48/48)
 199 UDMA_CRC_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
-206 Min_Erase_Cnt           0x0032   200   200   000    Old_age   Always       -       1483
-207 Max_Erase_Cnt           0x0032   200   200   000    Old_age   Always       -       1838
-208 Avg_Erase_Cnt           0x0032   200   200   000    Old_age   Always       -       1746
-209 SLC_Min_Erase_Cnt       0x0032   200   200   000    Old_age   Always       -       3124
-210 SLC_Max_Erase_Cnt       0x0032   200   200   000    Old_age   Always       -       4384
-211 SLC_Avg_Erase_Cnt       0x0032   200   200   000    Old_age   Always       -       3399
+206 Min_Erase_Cnt           0x0032   200   200   000    Old_age   Always       -       1490
+207 Max_Erase_Cnt           0x0032   200   200   000    Old_age   Always       -       1847
+208 Avg_Erase_Cnt           0x0032   200   200   000    Old_age   Always       -       1753
+209 SLC_Min_Erase_Cnt       0x0032   200   200   000    Old_age   Always       -       4088
+210 SLC_Max_Erase_Cnt       0x0032   200   200   000    Old_age   Always       -       4824
+211 SLC_Avg_Erase_Cnt       0x0032   200   200   000    Old_age   Always       -       4004
 231 SSD_Life_Left           0x0023   010   010   005    Pre-fail  Always       -       116
-241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       93887
-242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       39446
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       94178
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       39554
 245 Bit_Error_Cnt           0x0032   100   100   000    Old_age   Always       -       0
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Aborted by host               00%     11418         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS

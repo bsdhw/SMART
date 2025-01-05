@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Jun 21 21:10:57 2024 CEST
+Local Time is:    Sun Jun 23 18:10:09 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -67,29 +67,29 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    53
 163 Initial_Bad_Block_Count ------   100   100   000    -    15
-164 Total_Erase_Count       ------   100   100   000    -    1978578
+164 Total_Erase_Count       ------   100   100   000    -    1979252
 165 Max_Erase_Count         ------   100   100   000    -    1981
-166 Min_Erase_Count         ------   100   100   000    -    1879
-167 Average_Erase_Count     ------   100   100   000    -    1928
+166 Min_Erase_Count         ------   100   100   000    -    1880
+167 Average_Erase_Count     ------   100   100   000    -    1929
 168 Max_Erase_Count_of_Spec ------   100   100   000    -    3000
 169 Remaining_Lifetime_Perc ------   100   100   000    -    36
 175 Program_Fail_Count_Chip ------   100   100   000    -    0
 176 Erase_Fail_Count_Chip   ------   100   100   000    -    0
-177 Wear_Leveling_Count     ------   100   100   050    -    4389
+177 Wear_Leveling_Count     ------   100   100   050    -    4391
 178 Runtime_Invalid_Blk_Cnt ------   100   100   000    -    0
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    35
-194 Temperature_Celsius     ------   100   100   000    -    35
+194 Temperature_Celsius     ------   100   100   000    -    37
 195 Hardware_ECC_Recovered  ------   100   100   000    -    4432
 196 Reallocated_Event_Count ------   100   100   016    -    0
 197 Current_Pending_Sector  ------   100   100   000    -    0
 198 Offline_Uncorrectable   ------   100   100   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    508759
-242 Host_Reads_32MiB        ------   100   100   000    -    12093
-245 TLC_Writes_32MiB        ------   100   100   000    -    3957156
+241 Host_Writes_32MiB       ------   100   100   000    -    508986
+242 Host_Reads_32MiB        ------   100   100   000    -    12150
+245 TLC_Writes_32MiB        ------   100   100   000    -    3958504
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -137,10 +137,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4              61  ---  Lifetime Power-On Resets
 0x01  0x010  4           11566  ---  Power-on Hours
-0x01  0x018  6      3277296423  ---  Logical Sectors Written
-0x01  0x020  6      1170392999  ---  Number of Write Commands
-0x01  0x028  6       792557938  ---  Logical Sectors Read
-0x01  0x030  6        25925203  ---  Number of Read Commands
+0x01  0x018  6      3292158991  ---  Logical Sectors Written
+0x01  0x020  6      1170792761  ---  Number of Write Commands
+0x01  0x028  6       796327058  ---  Logical Sectors Read
+0x01  0x030  6        26094436  ---  Number of Read Commands
 0x02  =====  =               =  ===  == Free-Fall Statistics (empty) ==
 0x03  =====  =               =  ===  == Rotating Media Statistics (empty) ==
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==

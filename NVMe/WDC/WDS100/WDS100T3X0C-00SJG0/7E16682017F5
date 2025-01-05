@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,000,204,886,016 [1.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Tue Aug  1 00:00:05 2023 +07
+Local Time is:                      Fri Sep  1 00:00:10 2023 +07
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,14 +46,14 @@ Critical Warning:                   0x00
 Temperature:                        59 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    8%
-Data Units Read:                    44,267,576 [22.6 TB]
-Data Units Written:                 53,454,395 [27.3 TB]
-Host Read Commands:                 885,144,642
-Host Write Commands:                1,500,519,653
-Controller Busy Time:               2,861
+Percentage Used:                    9%
+Data Units Read:                    47,144,905 [24.1 TB]
+Data Units Written:                 55,147,542 [28.2 TB]
+Host Read Commands:                 940,201,314
+Host Write Commands:                1,569,243,866
+Controller Busy Time:               3,036
 Power Cycles:                       26
-Power On Hours:                     19,965
+Power On Hours:                     20,703
 Unsafe Shutdowns:                   11
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      1

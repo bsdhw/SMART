@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p6 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.2-RELEASE amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Nov 30 16:55:49 2024 CET
+Local Time is:    Tue Dec  3 22:19:36 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,7 +68,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    96825
+  9 Power_On_Hours          -O--CK   100   100   001    -    96903
  12 Power_Cycle_Count       -O--CK   100   100   001    -    138
 170 Grown_Failing_Block_Ct  PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   001    -    0
@@ -125,11 +125,17 @@ SMART Extended Self-test Log size 3449 not supported
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Vendor (0xff)       Completed without error       00%     31288         -
-# 2  Vendor (0xff)       Completed without error       00%     31286         -
-# 3  Extended offline    Completed without error       00%     31130         -
-# 4  Extended offline    Completed without error       00%     23831         -
-# 5  Extended offline    Completed without error       00%     22941         -
+# 1  Vendor (0xff)       Completed without error       00%     31363         -
+# 2  Vendor (0xff)       Completed without error       00%     31350         -
+# 3  Vendor (0xff)       Completed without error       00%     31338         -
+# 4  Vendor (0xff)       Completed without error       00%     31325         -
+# 5  Vendor (0xff)       Completed without error       00%     31313         -
+# 6  Vendor (0xff)       Completed without error       00%     31301         -
+# 7  Vendor (0xff)       Completed without error       00%     31288         -
+# 8  Vendor (0xff)       Completed without error       00%     31286         -
+# 9  Extended offline    Completed without error       00%     31130         -
+#10  Extended offline    Completed without error       00%     23831         -
+#11  Extended offline    Completed without error       00%     22941         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -154,7 +160,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (147)
+Temperature History Size (Index):    478 (381)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -164,11 +170,11 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             138  ---  Lifetime Power-On Resets
-0x01  0x010  4           96825  ---  Power-on Hours
-0x01  0x018  6     19857874586  ---  Logical Sectors Written
-0x01  0x020  6      1606200473  ---  Number of Write Commands
-0x01  0x028  6      1830205543  ---  Logical Sectors Read
-0x01  0x030  6        41251364  ---  Number of Read Commands
+0x01  0x010  4           96903  ---  Power-on Hours
+0x01  0x018  6     19857895970  ---  Logical Sectors Written
+0x01  0x020  6      1606201354  ---  Number of Write Commands
+0x01  0x028  6      1830289740  ---  Logical Sectors Read
+0x01  0x030  6        41252982  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
@@ -201,7 +207,7 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4            2  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           11  Device-to-host register FISes sent due to a COMRESET
 
 
 

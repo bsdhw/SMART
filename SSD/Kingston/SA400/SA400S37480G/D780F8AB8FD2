@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p2 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Aug  7 22:28:48 2024 -03
+Local Time is:    Sun Sep 29 09:52:52 2024 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,8 +63,8 @@ SMART Attributes Data Structure revision number: 5
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    3645
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    64
+  9 Power_On_Hours          -O--CK   100   100   000    -    4904
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    72
 148 Unknown_Attribute       ------   100   100   000    -    0
 149 Unknown_Attribute       ------   100   100   000    -    0
 167 Write_Protect_Mode      ------   100   100   000    -    0
@@ -77,17 +77,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count        ------   100   100   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 192 Unsafe_Shutdown_Count   -O--C-   100   100   000    -    30
-194 Temperature_Celsius     -O---K   030   034   000    -    30 (Min/Max 28/34)
+194 Temperature_Celsius     -O---K   032   035   000    -    32 (Min/Max 28/35)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    0
 199 SATA_CRC_Error_Count    -O--CK   100   100   000    -    0
 218 CRC_Error_Count         -O--CK   100   100   000    -    0
-231 SSD_Life_Left           ------   096   096   000    -    96
-233 Flash_Writes_GiB        -O--CK   100   100   000    -    55404
-241 Lifetime_Writes_GiB     -O--CK   100   100   000    -    11948
-242 Lifetime_Reads_GiB      -O--CK   100   100   000    -    1325
-244 Average_Erase_Count     ------   100   100   000    -    73
-245 Max_Erase_Count         ------   100   100   000    -    120
-246 Total_Erase_Count       ------   100   100   000    -    111746
+231 SSD_Life_Left           ------   092   092   000    -    92
+233 Flash_Writes_GiB        -O--CK   100   100   000    -    107756
+241 Lifetime_Writes_GiB     -O--CK   100   100   000    -    17192
+242 Lifetime_Reads_GiB      -O--CK   100   100   000    -    1398
+244 Average_Erase_Count     ------   100   100   000    -    120
+245 Max_Erase_Count         ------   100   100   000    -    208
+246 Total_Erase_Count       ------   100   100   000    -    181898
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

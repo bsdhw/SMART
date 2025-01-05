@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2, ACS-3 T13/2161-D revision 3b
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Mar 27 01:00:05 2022 PDT
+Local Time is:    Sun Apr  3 01:00:05 2022 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,12 +62,12 @@ SCT capabilities: 	       (0x1085)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   117   099   006    -    119616944
+  1 Raw_Read_Error_Rate     POSR--   120   099   006    -    243237760
   3 Spin_Up_Time            PO----   092   091   000    -    0
   4 Start_Stop_Count        -O--CK   100   100   020    -    42
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   082   060   030    -    194299260
-  9 Power_On_Hours          -O--CK   040   040   000    -    53355
+  7 Seek_Error_Rate         POSR--   082   060   030    -    196802470
+  9 Power_On_Hours          -O--CK   039   039   000    -    53523
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
  12 Power_Cycle_Count       -O--CK   100   100   020    -    42
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
@@ -75,17 +75,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    0 0 0
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   073   056   045    -    27 (Min/Max 20/39)
+190 Airflow_Temperature_Cel -O---K   074   056   045    -    26 (Min/Max 20/39)
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    0
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    0
-193 Load_Cycle_Count        -O--CK   047   047   000    -    106888
-194 Temperature_Celsius     -O---K   027   044   000    -    27 (0 9 0 0 0)
+193 Load_Cycle_Count        -O--CK   047   047   000    -    106918
+194 Temperature_Celsius     -O---K   026   044   000    -    26 (0 9 0 0 0)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
-240 Head_Flying_Hours       ------   100   253   000    -    49574h+21m+01.271s
-241 Total_LBAs_Written      ------   100   253   000    -    15447129810
-242 Total_LBAs_Read         ------   100   253   000    -    1630646022380
+240 Head_Flying_Hours       ------   100   253   000    -    49597h+21m+49.239s
+241 Total_LBAs_Written      ------   100   253   000    -    15504333914
+242 Total_LBAs_Read         ------   100   253   000    -    1647942737245
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -130,25 +130,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     53203         -
-# 2  Short offline       Completed without error       00%     53034         -
-# 3  Short offline       Completed without error       00%     52866         -
-# 4  Extended offline    Completed without error       00%     52864         -
-# 5  Short offline       Completed without error       00%     52689         -
-# 6  Short offline       Completed without error       00%     52520         -
-# 7  Short offline       Completed without error       00%     52351         -
-# 8  Extended offline    Completed without error       00%     52210         -
-# 9  Short offline       Completed without error       00%     52183         -
-#10  Short offline       Completed without error       00%     52013         -
-#11  Short offline       Completed without error       00%     51844         -
-#12  Extended offline    Completed without error       00%     51689         -
-#13  Short offline       Completed without error       00%     51675         -
-#14  Short offline       Completed without error       00%     51555         -
-#15  Short offline       Completed without error       00%     51386         -
-#16  Extended offline    Completed without error       00%     51231         -
-#17  Short offline       Completed without error       00%     51217         -
-#18  Short offline       Completed without error       00%     50889         -
-#19  Extended offline    Completed without error       00%     50876         -
+# 1  Short offline       Completed without error       00%     53522         -
+# 2  Extended offline    Completed without error       00%     53383         -
+# 3  Short offline       Completed without error       00%     53203         -
+# 4  Short offline       Completed without error       00%     53034         -
+# 5  Short offline       Completed without error       00%     52866         -
+# 6  Extended offline    Completed without error       00%     52864         -
+# 7  Short offline       Completed without error       00%     52689         -
+# 8  Short offline       Completed without error       00%     52520         -
+# 9  Short offline       Completed without error       00%     52351         -
+#10  Extended offline    Completed without error       00%     52210         -
+#11  Short offline       Completed without error       00%     52183         -
+#12  Short offline       Completed without error       00%     52013         -
+#13  Short offline       Completed without error       00%     51844         -
+#14  Extended offline    Completed without error       00%     51689         -
+#15  Short offline       Completed without error       00%     51675         -
+#16  Short offline       Completed without error       00%     51555         -
+#17  Short offline       Completed without error       00%     51386         -
+#18  Extended offline    Completed without error       00%     51231         -
+#19  Short offline       Completed without error       00%     51217         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -164,7 +164,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    30 Celsius
+Current Temperature:                    28 Celsius
 Power Cycle Min/Max Temperature:     22/39 Celsius
 Lifetime    Min/Max Temperature:      9/44 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -177,16 +177,16 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4              42  ---  Lifetime Power-On Resets
-0x01  0x010  4           53355  ---  Power-on Hours
-0x01  0x018  6     15448397826  ---  Logical Sectors Written
-0x01  0x020  6       153741845  ---  Number of Write Commands
-0x01  0x028  6    312793013290  ---  Logical Sectors Read
-0x01  0x030  6      1986478816  ---  Number of Read Commands
+0x01  0x010  4           53523  ---  Power-on Hours
+0x01  0x018  6     15505601938  ---  Logical Sectors Written
+0x01  0x020  6       154629515  ---  Number of Write Commands
+0x01  0x028  6    312911919882  ---  Logical Sectors Read
+0x01  0x030  6      1998997502  ---  Number of Read Commands
 0x01  0x038  6               -  ---  Date and Time TimeStamp
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4           53355  ---  Spindle Motor Power-on Hours
+0x03  0x008  4           53523  ---  Spindle Motor Power-on Hours
 0x03  0x010  4             169  ---  Head Flying Hours
-0x03  0x018  4          106888  ---  Head Load Events
+0x03  0x018  4          106918  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures
