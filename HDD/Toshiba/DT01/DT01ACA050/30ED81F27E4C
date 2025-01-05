@@ -14,7 +14,7 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Nov  9 08:17:37 2024 -03
+Local Time is:    Sun Dec  1 13:08:23 2024 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -59,21 +59,21 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
-  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       70
-  3 Spin_Up_Time            0x0007   125   125   024    Pre-fail  Always       -       185 (Average 181)
-  4 Start_Stop_Count        0x0012   099   099   000    Old_age   Always       -       5210
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       71
+  3 Spin_Up_Time            0x0007   124   124   024    Pre-fail  Always       -       184 (Average 185)
+  4 Start_Stop_Count        0x0012   099   099   000    Old_age   Always       -       5239
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       2
   7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
   8 Seek_Time_Performance   0x0005   110   110   020    Pre-fail  Offline      -       36
-  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       18725
+  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       18882
  10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
- 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       4826
-192 Power-Off_Retract_Count 0x0032   096   096   000    Old_age   Always       -       5252
-193 Load_Cycle_Count        0x0012   096   096   000    Old_age   Always       -       5257
-194 Temperature_Celsius     0x0002   187   187   000    Old_age   Always       -       32 (Min/Max 12/55)
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       4854
+192 Power-Off_Retract_Count 0x0032   096   096   000    Old_age   Always       -       5286
+193 Load_Cycle_Count        0x0012   096   096   000    Old_age   Always       -       5291
+194 Temperature_Celsius     0x0002   157   157   000    Old_age   Always       -       38 (Min/Max 12/55)
 196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       2
 197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       8
-198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       8
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       265
 
 SMART Error Log Version: 1

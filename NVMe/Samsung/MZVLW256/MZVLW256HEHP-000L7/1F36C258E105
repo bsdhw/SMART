@@ -16,7 +16,7 @@ Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Utilization:            252,909,588,480 [252 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Tue Sep 19 20:09:39 2023 CEST
+Local Time is:                      Wed Sep 20 10:09:59 2023 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -41,24 +41,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        39 Celsius
+Temperature:                        40 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    94%
-Data Units Read:                    6,620,409 [3.38 TB]
-Data Units Written:                 66,696,189 [34.1 TB]
-Host Read Commands:                 106,562,949
-Host Write Commands:                1,355,696,948
-Controller Busy Time:               9,400
-Power Cycles:                       287
-Power On Hours:                     12,982
+Data Units Read:                    6,625,144 [3.39 TB]
+Data Units Written:                 66,767,806 [34.1 TB]
+Host Read Commands:                 106,704,941
+Host Write Commands:                1,357,212,056
+Controller Busy Time:               9,405
+Power Cycles:                       288
+Power On Hours:                     12,994
 Unsafe Shutdowns:                   121
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      204
 Warning  Comp. Temperature Time:    13
 Critical Comp. Temperature Time:    1
-Temperature Sensor 1:               39 Celsius
-Temperature Sensor 2:               54 Celsius
+Temperature Sensor 1:               40 Celsius
+Temperature Sensor 2:               50 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS  Message

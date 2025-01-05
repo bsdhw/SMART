@@ -12,7 +12,7 @@ Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sun Sep 11 01:00:06 2022 PDT
+Local Time is:    Sun Oct 23 01:00:05 2022 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -30,9 +30,8 @@ General SMART Values:
 Offline data collection status:  (0x82)	Offline data collection activity
 					was completed without error.
 					Auto Offline Data Collection: Enabled.
-Self-test execution status:      (   0)	The previous self-test routine completed
-					without error or no self-test has ever 
-					been run.
+Self-test execution status:      ( 248)	Self-test routine in progress...
+					80% of test remaining.
 Total time to complete Offline 
 data collection: 		(32280) seconds.
 Offline data collection
@@ -68,12 +67,12 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   4 Start_Stop_Count        -O--CK   099   099   000    -    1862
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
   7 Seek_Error_Rate         -OSR-K   200   200   000    -    0
-  9 Power_On_Hours          -O--CK   054   054   000    -    33984
+  9 Power_On_Hours          -O--CK   053   053   000    -    34986
  10 Spin_Retry_Count        -O--CK   100   100   000    -    0
  11 Calibration_Retry_Count -O--CK   100   100   000    -    0
  12 Power_Cycle_Count       -O--CK   099   099   000    -    1859
 192 Power-Off_Retract_Count -O--CK   199   199   000    -    782
-193 Load_Cycle_Count        -O--CK   001   001   000    -    652572
+193 Load_Cycle_Count        -O--CK   001   001   000    -    674999
 194 Temperature_Celsius     -O---K   118   106   000    -    32
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--CK   200   200   000    -    0
@@ -112,24 +111,24 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     33831         -
-# 2  Short offline       Completed without error       00%     33663         -
-# 3  Extended offline    Completed without error       00%     33655         -
-# 4  Short offline       Completed without error       00%     33333         -
-# 5  Short offline       Completed without error       00%     33165         -
-# 6  Short offline       Completed without error       00%     32997         -
-# 7  Extended offline    Completed without error       00%     32986         -
-# 8  Short offline       Completed without error       00%     32816         -
-# 9  Short offline       Completed without error       00%     32650         -
-#10  Short offline       Completed without error       00%     32482         -
-#11  Extended offline    Completed without error       00%     32336         -
-#12  Short offline       Completed without error       00%     32166         -
-#13  Short offline       Completed without error       00%     31998         -
-#14  Short offline       Completed without error       00%     31830         -
-#15  Extended offline    Completed without error       00%     31819         -
-#16  Short offline       Completed without error       00%     31649         -
-#17  Short offline       Completed without error       00%     31481         -
-#18  Short offline       Completed without error       00%     31313         -
+# 1  Short offline       Completed without error       00%     34653         -
+# 2  Short offline       Completed without error       00%     34485         -
+# 3  Short offline       Completed without error       00%     34317         -
+# 4  Extended offline    Completed without error       00%     34170         -
+# 5  Short offline       Completed without error       00%     33999         -
+# 6  Short offline       Completed without error       00%     33831         -
+# 7  Short offline       Completed without error       00%     33663         -
+# 8  Extended offline    Completed without error       00%     33655         -
+# 9  Short offline       Completed without error       00%     33333         -
+#10  Short offline       Completed without error       00%     33165         -
+#11  Short offline       Completed without error       00%     32997         -
+#12  Extended offline    Completed without error       00%     32986         -
+#13  Short offline       Completed without error       00%     32816         -
+#14  Short offline       Completed without error       00%     32650         -
+#15  Short offline       Completed without error       00%     32482         -
+#16  Extended offline    Completed without error       00%     32336         -
+#17  Short offline       Completed without error       00%     32166         -
+#18  Short offline       Completed without error       00%     31998         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -144,7 +143,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 SCT Status Version:                  2
 SCT Version (vendor specific):       258 (0x0102)
-Device State:                        Active (0)
+Device State:                        DST executing in background (3)
 Current Temperature:                    32 Celsius
 Power Cycle Min/Max Temperature:     27/44 Celsius
 Lifetime    Min/Max Temperature:     32/44 Celsius
@@ -155,7 +154,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -41/85 Celsius
-Temperature History Size (Index):    478 (199)
+Temperature History Size (Index):    478 (338)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -176,7 +175,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
-0x8000  4      4282298  Vendor specific
+0x8000  4      7907371  Vendor specific
 
 
 

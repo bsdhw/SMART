@@ -11,7 +11,7 @@ User Capacity:    120,034,123,776 bytes [120 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
-Local Time is:    Mon Oct  2 03:28:18 2023    
+Local Time is:    Mon Oct  2 03:44:40 2023    
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -61,17 +61,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   062    -    0
   2 Throughput_Performance  P-S---   100   100   040    -    0
   3 Spin_Up_Time            POS---   253   253   033    -    1
-  4 Start_Stop_Count        -O--C-   094   094   000    -    10247
+  4 Start_Stop_Count        -O--C-   094   094   000    -    10249
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
   7 Seek_Error_Rate         PO-R--   100   100   067    -    0
   8 Seek_Time_Performance   P-S---   100   100   040    -    0
   9 Power_On_Hours          -O--C-   075   075   000    -    11327
  10 Spin_Retry_Count        PO--C-   100   100   060    -    0
- 12 Power_Cycle_Count       -O--CK   097   097   000    -    5789
+ 12 Power_Cycle_Count       -O--CK   097   097   000    -    5790
 191 G-Sense_Error_Rate      -O-R--   100   100   000    -    0
 192 Power-Off_Retract_Count -O--CK   098   098   000    -    481
-193 Load_Cycle_Count        -O--C-   042   042   000    -    581613
-194 Temperature_Celsius     -O----   166   166   000    -    33 (Min/Max 14/60)
+193 Load_Cycle_Count        -O--C-   042   042   000    -    581616
+194 Temperature_Celsius     -O----   157   157   000    -    35 (Min/Max 14/60)
 196 Reallocated_Event_Count -O--CK   100   100   000    -    40
 197 Current_Pending_Sector  -O---K   100   100   000    -    0
 198 Offline_Uncorrectable   ---R--   100   100   000    -    0

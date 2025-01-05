@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Wed Nov 22 19:54:25 2023 CET
+Local Time is:    Sun Nov 26 16:08:16 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,10 +60,10 @@ recommended polling time: 	 (   2) minutes.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--C-   100   100   000    -    37583
+  9 Power_On_Hours          -O--C-   100   100   000    -    37675
  12 Power_Cycle_Count       -O--C-   100   100   000    -    150
-163 Unknown_Attribute       ------   100   100   000    -    4374
-164 Unknown_Attribute       ------   100   100   000    -    1693
+163 Unknown_Attribute       ------   100   100   000    -    4380
+164 Unknown_Attribute       ------   100   100   000    -    1700
 166 Unknown_Attribute       ------   100   100   000    -    0
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
@@ -71,7 +71,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    28
 194 Temperature_Celsius     PO---K   070   070   000    -    30
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    49
-241 Total_LBAs_Written      -O--C-   100   100   000    -    50722847250
+241 Total_LBAs_Written      -O--C-   100   100   000    -    50940930042
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -122,7 +122,7 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              50  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              51  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Sat Jun  8 17:00:53 2024 CDT
+Local Time is:                      Wed Aug 14 18:39:25 2024 CDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0014):     DS_Mngmt Sav/Sel_Feat
@@ -40,22 +40,22 @@ Critical Warning:                   0x00
 Temperature:                        45 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    12%
-Data Units Read:                    1,335,151 [683 GB]
-Data Units Written:                 30,560,364 [15.6 TB]
-Host Read Commands:                 32,947,633
-Host Write Commands:                582,278,722
-Controller Busy Time:               10,324
+Percentage Used:                    14%
+Data Units Read:                    1,820,549 [932 GB]
+Data Units Written:                 34,210,783 [17.5 TB]
+Host Read Commands:                 45,563,990
+Host Write Commands:                622,432,273
+Controller Busy Time:               11,414
 Power Cycles:                       18
-Power On Hours:                     6,960
+Power On Hours:                     8,567
 Unsafe Shutdowns:                   16
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    1584
 Critical Comp. Temperature Time:    46
-Thermal Temp. 1 Transition Count:   1257
+Thermal Temp. 1 Transition Count:   1261
 Thermal Temp. 2 Transition Count:   59
-Thermal Temp. 1 Total Time:         2476656
+Thermal Temp. 1 Total Time:         2476761
 Thermal Temp. 2 Total Time:         359468
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)

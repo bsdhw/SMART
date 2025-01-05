@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p3 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 17 19:39:47 2024 CEST
+Local Time is:    Sun Oct 20 15:43:01 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,34 +63,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    10247
- 12 Power_Cycle_Count       ------   100   100   000    -    158
-148 Total_SLC_Erase_Ct      ------   100   100   000    -    1261541
-149 Max_SLC_Erase_Ct        ------   100   100   000    -    23845
-150 Min_SLC_Erase_Ct        ------   100   100   000    -    23655
-151 Average_SLC_Erase_Ct    ------   100   100   000    -    23802
-164 Total_Erase_Count       ------   100   100   000    -    896945
-165 Max_Erase_Count         ------   100   100   000    -    1007
-166 Min_Erase_Count         ------   100   100   000    -    909
-167 Average_Erase_Count     ------   100   100   000    -    972
+  9 Power_On_Hours          ------   100   100   000    -    10672
+ 12 Power_Cycle_Count       ------   100   100   000    -    159
+148 Total_SLC_Erase_Ct      ------   100   100   000    -    1315882
+149 Max_SLC_Erase_Ct        ------   100   100   000    -    24851
+150 Min_SLC_Erase_Ct        ------   100   100   000    -    24683
+151 Average_SLC_Erase_Ct    ------   100   100   000    -    24827
+164 Total_Erase_Count       ------   100   100   000    -    1165766
+165 Max_Erase_Count         ------   100   100   000    -    1301
+166 Min_Erase_Count         ------   100   100   000    -    1202
+167 Average_Erase_Count     ------   100   100   000    -    1264
 159 DRAM_1_Bit_Error_Count  ------   100   100   000    -    0
 160 Uncorrectable_Error_Cnt ------   100   100   000    -    0
 161 Valid_Spare_Block_Cnt   ------   100   100   000    -    69
 163 Initial_Bad_Block_Count ------   100   100   000    -    10
 168 Max_Erase_Count_of_Spec ------   100   100   000    -    3000
-169 Remaining_Lifetime_Perc ------   100   100   000    -    68
-177 Wear_Leveling_Count     ------   100   100   050    -    995
+169 Remaining_Lifetime_Perc ------   100   100   000    -    58
+177 Wear_Leveling_Count     ------   100   100   050    -    1392
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    97
-194 Temperature_Celsius     ------   100   100   000    -    51 (Min/Max 10/68)
+194 Temperature_Celsius     ------   100   100   000    -    50 (Min/Max 10/76)
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    2
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Host_Writes_32MiB       ------   100   100   000    -    2072598
-242 Host_Reads_32MiB        ------   100   100   000    -    49059
-245 TLC_Writes_32MiB        ------   100   100   000    -    5928564
+241 Host_Writes_32MiB       ------   100   100   000    -    2513975
+242 Host_Reads_32MiB        ------   100   100   000    -    51329
+245 TLC_Writes_32MiB        ------   100   100   000    -    7219770
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -145,20 +145,20 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             158  ---  Lifetime Power-On Resets
-0x01  0x010  4           10247  ---  Power-on Hours
-0x01  0x018  6    135829844749  ---  Logical Sectors Written
-0x01  0x020  6      3418712445  ---  Number of Write Commands
-0x01  0x028  6      3215143106  ---  Logical Sectors Read
-0x01  0x030  6        60158778  ---  Number of Read Commands
+0x01  0x008  4             159  ---  Lifetime Power-On Resets
+0x01  0x010  4           10672  ---  Power-on Hours
+0x01  0x018  6    164755909829  ---  Logical Sectors Written
+0x01  0x020  6      3612720994  ---  Number of Write Commands
+0x01  0x028  6      3363933524  ---  Logical Sectors Read
+0x01  0x030  6        63670126  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4              97  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            1792  ---  Number of Hardware Resets
+0x06  0x008  4            1846  ---  Number of Hardware Resets
 0x06  0x018  4               2  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              32  ---  Percentage Used Endurance Indicator
+0x07  0x008  1              42  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
