@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Wintec    | W2SS480G2TA-PA1... | 480 GB | 3       | 205   | 0     | 0.56   |
+| Wintec    | W2SS480G2TA-PA1... | 480 GB | 3       | 228   | 0     | 0.62   |

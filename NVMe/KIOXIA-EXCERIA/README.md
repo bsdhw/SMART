@@ -17,6 +17,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| KIOXIA... | SSD                | 500 GB | 5       | 261   | 0     | 0.72   |
+| KIOXIA... | SSD                | 500 GB | 5       | 348   | 0     | 0.95   |
 | KIOXIA... | G2 SSD             | 500 GB | 2       | 255   | 0     | 0.70   |
 | KIOXIA... | PLUS G3 SSD        | 1 TB   | 2       | 51    | 0     | 0.14   |

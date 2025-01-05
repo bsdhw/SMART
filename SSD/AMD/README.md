@@ -17,6 +17,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| AMD       | R3SL120G           | 120 GB | 4       | 805   | 1     | 2.06   |
+| AMD       | R3SL120G           | 120 GB | 4       | 807   | 1     | 2.07   |
 | AMD       | R5SL240G           | 240 GB | 3       | 150   | 7     | 0.30   |
 | AMD       | R5SL120G           | 120 GB | 5       | 65    | 0     | 0.18   |

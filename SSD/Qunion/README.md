@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Qunion    | SSD 128G           | 128 GB | 2       | 138   | 1     | 0.36   |
+| Qunion    | SSD 128G           | 128 GB | 2       | 155   | 1     | 0.40   |

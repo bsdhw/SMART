@@ -17,7 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Kston     | SSD                | 32 GB  | 6       | 555   | 0     | 1.52   |
+| Kston     | SSD                | 32 GB  | 6       | 578   | 0     | 1.59   |
 | Kston     | SSD                | 64 GB  | 10      | 527   | 0     | 1.44   |
 | Kston     | SSD                | 128 GB | 12      | 378   | 1     | 0.98   |
 | Kston     | SSD                | 256 GB | 2       | 1     | 0     | 0.00   |

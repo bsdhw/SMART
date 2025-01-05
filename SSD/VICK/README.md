@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| VICK      | SSD 256G           | 256 GB | 2       | 461   | 0     | 1.26   |
+| VICK      | SSD 256G           | 256 GB | 2       | 548   | 0     | 1.50   |

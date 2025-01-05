@@ -26,4 +26,4 @@ MTBF - avg. MTBF in years per sample.
 | KIOXIA    | KBG40ZNS128G NVMe  | 128 GB | 3       | 102   | 0     | 0.28   |
 | KIOXIA    | KBG40ZNV256G       | 256 GB | 2       | 64    | 0     | 0.18   |
 | KIOXIA    | KBG50ZNV256G       | 256 GB | 2       | 50    | 0     | 0.14   |
-| KIOXIA    | KBG50ZNV512G       | 512 GB | 4       | 33    | 0     | 0.09   |
+| KIOXIA    | KBG50ZNV512G       | 512 GB | 4       | 34    | 0     | 0.09   |

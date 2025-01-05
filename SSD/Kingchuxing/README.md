@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Kingch... | SSD                | 64 GB  | 3       | 40    | 0     | 0.11   |
+| Kingch... | SSD                | 64 GB  | 3       | 41    | 0     | 0.11   |
