@@ -53,7 +53,7 @@ MTBF - avg. MTBF in years per sample.
 | Intel     | SSDSC2BB150G7      | 150 GB | 12      | 1357  | 1     | 3.26   |
 | Intel     | SSDSC2BW180A3L     | 180 GB | 4       | 1188  | 0     | 3.26   |
 | Intel     | SSDSC2BB960G7R     | 960 GB | 6       | 1177  | 0     | 3.23   |
-| Intel     | SSDSC2BB120G4      | 120 GB | 17      | 1243  | 1     | 3.21   |
+| Intel     | SSDSC2BB120G4      | 120 GB | 17      | 1246  | 1     | 3.22   |
 | Intel     | SSDSC2CT180A4      | 180 GB | 4       | 1469  | 1     | 3.05   |
 | Intel     | SSDSC2BB120G7R     | 120 GB | 7       | 1104  | 0     | 3.03   |
 | Intel     | SSDSC2CT080A4      | 80 GB  | 2       | 1226  | 1     | 3.03   |
@@ -87,7 +87,7 @@ MTBF - avg. MTBF in years per sample.
 | Intel     | SSDSC2CW120A3      | 120 GB | 11      | 1786  | 648   | 1.21   |
 | Intel     | SSDSC2BP480G4      | 480 GB | 3       | 439   | 0     | 1.20   |
 | Intel     | SSDSCKKW256G8      | 256 GB | 3       | 436   | 0     | 1.20   |
-| Intel     | SSDSC2BF180A4L     | 180 GB | 15      | 575   | 2     | 1.19   |
+| Intel     | SSDSC2BF180A4L     | 180 GB | 15      | 577   | 2     | 1.19   |
 | Intel     | SSDSA2BW160G3H     | 160 GB | 6       | 550   | 8     | 1.16   |
 | Intel     | SSDSA2M080G2GC     | 80 GB  | 13      | 1851  | 8     | 1.14   |
 | Intel     | SSDSC2BW180A3H     | 180 GB | 2       | 397   | 0     | 1.09   |
@@ -99,8 +99,8 @@ MTBF - avg. MTBF in years per sample.
 | Intel     | SSDSC2BA100G3C     | 100 GB | 2       | 247   | 0     | 0.68   |
 | Intel     | SSDSC2BW180H6      | 180 GB | 2       | 247   | 0     | 0.68   |
 | Intel     | SSDSA2M160G2GC     | 160 GB | 6       | 1241  | 9     | 0.61   |
+| Intel     | SSDSA2M120G2GC     | 120 GB | 2       | 1568  | 7     | 0.59   |
 | Intel     | SSDSC2KF128G8 SATA | 128 GB | 2       | 214   | 0     | 0.59   |
-| Intel     | SSDSA2M120G2GC     | 120 GB | 2       | 1560  | 7     | 0.59   |
 | Intel     | SSDSA2BW160G3L     | 160 GB | 2       | 211   | 0     | 0.58   |
 | Intel     | SSDSCKKF256G8 SATA | 256 GB | 4       | 236   | 1     | 0.57   |
 | Intel     | SSDSC2KB019T8      | 1.9 TB | 5       | 338   | 49    | 0.56   |

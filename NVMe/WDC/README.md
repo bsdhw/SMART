@@ -31,7 +31,7 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | PC SN720 SDAQNT... | 512 GB | 5       | 375   | 0     | 1.03   |
 | WDC       | WDS500G1B0C-00S6U0 | 500 GB | 3       | 364   | 0     | 1.00   |
 | WDC       | WDS100T1X0E-00AFY0 | 1 TB   | 5       | 325   | 0     | 0.89   |
-| WDC       | WDS100T3X0C-00SJG0 | 1 TB   | 13      | 303   | 0     | 0.83   |
+| WDC       | WDS100T3X0C-00SJG0 | 1 TB   | 13      | 305   | 0     | 0.84   |
 | WDC       | PC SN520 NVMe      | 512 GB | 2       | 297   | 0     | 0.81   |
 | WDC       | WDS500G3X0C-00SJG0 | 500 GB | 19      | 296   | 0     | 0.81   |
 | WDC       | PC SN520 SDAPMU... | 128 GB | 4       | 288   | 0     | 0.79   |

@@ -77,7 +77,7 @@ MTBF - avg. MTBF in years per sample.
 | SanDisk   | SD8TB8U512G1001    | 512 GB | 2       | 489   | 0     | 1.34   |
 | SanDisk   | SSD i100           | 24 GB  | 2       | 484   | 0     | 1.33   |
 | SanDisk   | SSD PLUS 240 GB    | 240 GB | 7       | 509   | 1     | 1.22   |
-| SanDisk   | SSD PLUS           | 120 GB | 45      | 447   | 1     | 1.20   |
+| SanDisk   | SSD PLUS           | 120 GB | 45      | 448   | 1     | 1.21   |
 | SanDisk   | SD7TB3Q-256G-1006  | 256 GB | 5       | 430   | 0     | 1.18   |
 | SanDisk   | SD9SN8W-256G-1006  | 256 GB | 2       | 426   | 0     | 1.17   |
 | SanDisk   | SD6SB1M-128G-1006  | 128 GB | 2       | 407   | 0     | 1.12   |

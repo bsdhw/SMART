@@ -658,6 +658,7 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD3000F9YZ-09N20L0 | 3 TB   | B827C34D16B6 | 1982  | 0     | 5.43   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | C13786C1B54D | 1979  | 0     | 5.42   |
 | HP        | MB1000GCEEK        | 1 TB   | 1FF08C0E7526 | 1978  | 0     | 5.42   |
+| WDC       | WD80EFZX-68UW8N0   | 8 TB   | 7E834C8E9520 | 1971  | 0     | 5.40   |
 | Toshiba   | MQ01ABD100H        | 1 TB   | E352007C55A3 | 1970  | 0     | 5.40   |
 | Samsung   | HD103SJ            | 1 TB   | D54E6CA0296B | 1970  | 0     | 5.40   |
 | HGST      | HDN724040ALE640    | 4 TB   | 939474E33D95 | 1967  | 0     | 5.39   |
@@ -682,10 +683,11 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD40EFRX-68WT0N0   | 4 TB   | A840737BDFAD | 1946  | 0     | 5.33   |
 | Seagate   | ST1000DM003-1CH162 | 1 TB   | 6092140BC056 | 1946  | 0     | 5.33   |
 | WDC       | WD10EZEX-08WN4A0   | 1 TB   | 4D7EFF1F3538 | 1944  | 0     | 5.33   |
+| WDC       | WD80EFZX-68UW8N0   | 8 TB   | 190EDF80708A | 1943  | 0     | 5.33   |
+| WDC       | WD80EFZX-68UW8N0   | 8 TB   | 7EC4145202D8 | 1943  | 0     | 5.33   |
 | Seagate   | ST1000DM003-1ER162 | 1 TB   | 17BAFDABDC6B | 1943  | 0     | 5.32   |
 | Toshiba   | DT01ACA100         | 1 TB   | EE4AA8A0E670 | 1942  | 0     | 5.32   |
 | WDC       | WD10EZEX-08M2NA0   | 1 TB   | F5F7D4F18146 | 1941  | 0     | 5.32   |
-| WDC       | WD80EFZX-68UW8N0   | 8 TB   | 7E834C8E9520 | 1941  | 0     | 5.32   |
 | HGST      | HTS725050A7E630    | 500 GB | BA80F7DC7542 | 1938  | 0     | 5.31   |
 | Hitachi   | HDT725025VLA380    | 250 GB | FD6EF0270D0A | 1933  | 0     | 5.30   |
 | WDC       | WD40EFRX-68WT0N0   | 4 TB   | CA27004DB6FC | 1933  | 0     | 5.30   |
@@ -703,8 +705,6 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD30EFRX-68EUZN0   | 3 TB   | B5E233021D4E | 1920  | 0     | 5.26   |
 | WDC       | WD30EFRX-68EUZN0   | 3 TB   | A7E2D035EBD9 | 1920  | 0     | 5.26   |
 | Hitachi   | HDS721010CLA332    | 1 TB   | 9415E9678A89 | 1918  | 0     | 5.26   |
-| WDC       | WD80EFZX-68UW8N0   | 8 TB   | 190EDF80708A | 1913  | 0     | 5.24   |
-| WDC       | WD80EFZX-68UW8N0   | 8 TB   | 7EC4145202D8 | 1913  | 0     | 5.24   |
 | HGST      | HUS724020ALA640    | 2 TB   | 900F9FCF0579 | 1912  | 0     | 5.24   |
 | HGST      | HDN726040ALE614    | 4 TB   | 093C30407DCE | 1910  | 0     | 5.23   |
 | HGST      | HDN726040ALE614    | 4 TB   | 660FF571F393 | 1910  | 0     | 5.23   |
@@ -819,7 +819,10 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD60EFRX-68L0BN1   | 6 TB   | D173BDFB1C90 | 1763  | 0     | 4.83   |
 | Toshiba   | MG03ACA200         | 2 TB   | 08FD2CA6855F | 1763  | 0     | 4.83   |
 | Samsung   | HD103UJ            | 1 TB   | 78F0D4C569C9 | 1762  | 0     | 4.83   |
+| WDC       | WD80EFAX-68LHPN0   | 8 TB   | BA25B7D37C7C | 1757  | 0     | 4.82   |
 | HGST      | HUS724020ALA640    | 2 TB   | C0DB9882FB97 | 1757  | 0     | 4.81   |
+| WDC       | WD80EMAZ-00WJTA0   | 8 TB   | 5AAEC768026E | 1757  | 0     | 4.81   |
+| WDC       | WD80EMAZ-00WJTA0   | 8 TB   | C3099E4975D8 | 1756  | 0     | 4.81   |
 | Hitachi   | HUA723030ALA640    | 3 TB   | A7CB05626E61 | 1753  | 0     | 4.80   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | 1298F784B0C8 | 1753  | 0     | 4.80   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | 5BE7F199E92D | 1752  | 0     | 4.80   |
@@ -845,11 +848,8 @@ MTBF - avg. MTBF in years per sample.
 | HP        | FB160C4081         | 160 GB | C063E855CCF5 | 3473  | 1     | 4.76   |
 | WDC       | WD20EZRZ-00Z5HB0   | 2 TB   | 5BE9F40A0ADD | 1736  | 0     | 4.76   |
 | WDC       | WD40EFRX-68N32N0   | 4 TB   | C64E81A272E2 | 1731  | 0     | 4.74   |
-| WDC       | WD80EFAX-68LHPN0   | 8 TB   | BA25B7D37C7C | 1727  | 0     | 4.73   |
 | WDC       | WD10JPVX-22JC3T0   | 1 TB   | 6233175ED603 | 1727  | 0     | 4.73   |
-| WDC       | WD80EMAZ-00WJTA0   | 8 TB   | 5AAEC768026E | 1727  | 0     | 4.73   |
 | Seagate   | ST1000DM003-1CH162 | 1 TB   | E76FD51837EB | 1727  | 0     | 4.73   |
-| WDC       | WD80EMAZ-00WJTA0   | 8 TB   | C3099E4975D8 | 1726  | 0     | 4.73   |
 | WDC       | WD30EFRX-68EUZN0   | 3 TB   | AE7F64C8D08C | 1722  | 0     | 4.72   |
 | Seagate   | ST3500312CS        | 500 GB | 18227291185E | 1722  | 0     | 4.72   |
 | Seagate   | ST3500418AS        | 500 GB | 81E7519171DA | 1722  | 0     | 4.72   |
@@ -1055,8 +1055,13 @@ MTBF - avg. MTBF in years per sample.
 | Hitachi   | HTS725032A9A364    | 320 GB | CE42DD7AEB77 | 2998  | 1     | 4.11   |
 | Seagate   | ST4000DM000-1F2168 | 4 TB   | 4BF7A568E9DE | 1498  | 0     | 4.10   |
 | WDC       | WD20PURX-64P6ZY0   | 2 TB   | CBD830DB4AC8 | 1497  | 0     | 4.10   |
+| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | BB401AF0132E | 1496  | 0     | 4.10   |
 | Seagate   | ST4000VN000-1H4168 | 4 TB   | 5B50D71CCE20 | 1496  | 0     | 4.10   |
+| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | E01E31C2C7E5 | 1495  | 0     | 4.10   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | 7FD60123289B | 1495  | 0     | 4.10   |
+| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | 733B6903B2F2 | 1495  | 0     | 4.10   |
+| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | C80BF67B4B54 | 1494  | 0     | 4.09   |
+| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | 2C106047BD4A | 1494  | 0     | 4.09   |
 | WDC       | WD10EZRX-00L4HB0   | 1 TB   | EEDB071FB8B0 | 1492  | 0     | 4.09   |
 | WDC       | WD30EFRX-68EUZN0   | 3 TB   | F3731F368387 | 1491  | 0     | 4.09   |
 | WDC       | WD80EFZX-68UW8N0   | 8 TB   | 9AD727707936 | 1486  | 0     | 4.07   |
@@ -1238,6 +1243,7 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD20EFRX-68EUZN0   | 2 TB   | C2C25A946E93 | 1302  | 0     | 3.57   |
 | Seagate   | ST500DM002-1SB10A  | 500 GB | 4A3B3615BD36 | 1302  | 0     | 3.57   |
 | Hitachi   | HTS545050B9A300    | 500 GB | 2D9FEFE8AA35 | 2600  | 1     | 3.56   |
+| WDC       | WD80EMAZ-00WJTA0   | 8 TB   | ABC65C8CE003 | 1299  | 0     | 3.56   |
 | WDC       | WD20EFRX-68EUZN0   | 2 TB   | 0D4853CE5D99 | 2595  | 1     | 3.56   |
 | HGST      | HDN728080ALE604    | 8 TB   | DAB64A9CA8B6 | 1296  | 0     | 3.55   |
 | HGST      | HDN728080ALE604    | 8 TB   | 75AC018B9AAF | 1296  | 0     | 3.55   |
@@ -1268,16 +1274,10 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD40EFRX-68N32N0   | 4 TB   | 6B89CDD82392 | 1279  | 0     | 3.50   |
 | WDC       | WD20EFRX-68EUZN0   | 2 TB   | 8BCCF776B9EA | 1278  | 0     | 3.50   |
 | WDC       | WD20EFRX-68EUZN0   | 2 TB   | 84C5CAB32A52 | 1278  | 0     | 3.50   |
-| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | BB401AF0132E | 1278  | 0     | 3.50   |
 | Seagate   | ST1000LM035-1RK172 | 1 TB   | 7D73B11453D1 | 1277  | 0     | 3.50   |
 | Toshiba   | DT01ACA100         | 1 TB   | F4FEB2A19428 | 1277  | 0     | 3.50   |
-| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | E01E31C2C7E5 | 1277  | 0     | 3.50   |
-| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | 733B6903B2F2 | 1276  | 0     | 3.50   |
-| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | C80BF67B4B54 | 1275  | 0     | 3.50   |
-| WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | 2C106047BD4A | 1275  | 0     | 3.49   |
 | Samsung   | HM321HI            | 320 GB | 5523E6E39BAE | 1274  | 0     | 3.49   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | 432548D2A040 | 1274  | 0     | 3.49   |
-| WDC       | WD80EMAZ-00WJTA0   | 8 TB   | ABC65C8CE003 | 1269  | 0     | 3.48   |
 | WDC       | WD10JFCX-68N6GN0   | 1 TB   | 6F755636D4A7 | 1269  | 0     | 3.48   |
 | WDC       | WD4003FFBX-68MU3N0 | 4 TB   | CE2B58110678 | 1266  | 0     | 3.47   |
 | WDC       | WD5000LPVX-22V0TT0 | 500 GB | 5BAD749EC2F9 | 1266  | 0     | 3.47   |
@@ -1446,14 +1446,15 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD40EFRX-68WT0N0   | 4 TB   | D69988FF26C2 | 2213  | 1     | 3.03   |
 | WDC       | WD20EZRZ-00Z5HB0   | 2 TB   | ADAF74465B4A | 1104  | 0     | 3.03   |
 | Toshiba   | DT01ACA200         | 2 TB   | 0F06976F94FA | 1103  | 0     | 3.02   |
+| Hitachi   | HDS721010CLA630    | 1 TB   | 500AC2CB9D7B | 1103  | 0     | 3.02   |
 | HGST      | HUH721212ALE601    | 12 TB  | 3424B7DF148D | 1103  | 0     | 3.02   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | CE8B60BE8B92 | 1102  | 0     | 3.02   |
 | Seagate   | ST500LT012-1DG142  | 500 GB | A2BA638C6D6E | 1102  | 0     | 3.02   |
 | Seagate   | ST250DM000-1BD141  | 250 GB | 54DF68C5075D | 1102  | 0     | 3.02   |
 | Toshiba   | DT01ACA300         | 3 TB   | FE5B92AD8DCB | 1101  | 0     | 3.02   |
 | Seagate   | ST10000DM0004-2... | 10 TB  | 4DBE36461243 | 1101  | 0     | 3.02   |
+| Toshiba   | MK6475GSX          | 640 GB | 88405CA14431 | 1100  | 0     | 3.02   |
 | Seagate   | ST500LT012-1DG142  | 500 GB | 1FDC0DBCCCB0 | 1099  | 0     | 3.01   |
-| Toshiba   | MK6475GSX          | 640 GB | 88405CA14431 | 1098  | 0     | 3.01   |
 | WDC       | WD1003FZEX-00K3CA0 | 1 TB   | 5428D3E35870 | 1096  | 0     | 3.00   |
 | WDC       | WD5001AALS-00L3B2  | 500 GB | 89441A417224 | 1095  | 0     | 3.00   |
 | Seagate   | ST4000DM000-1F2168 | 4 TB   | EBA794F4EFAB | 1093  | 0     | 3.00   |
@@ -1557,13 +1558,13 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD60EFRX-68L0BN1   | 6 TB   | 6B93295A6940 | 1032  | 0     | 2.83   |
 | WDC       | WD60EFRX-68L0BN1   | 6 TB   | F8E9B4E7316F | 1032  | 0     | 2.83   |
 | WDC       | WD60EFRX-68L0BN1   | 6 TB   | 07FAA7B44982 | 1032  | 0     | 2.83   |
-| Hitachi   | HDS721010CLA630    | 1 TB   | 500AC2CB9D7B | 1031  | 0     | 2.83   |
 | WDC       | WD20EFRX-68AX9N0   | 2 TB   | 6A552EF76DBD | 1030  | 0     | 2.82   |
 | WDC       | WD10EZRX-00L4HB0   | 1 TB   | 198128F1B099 | 1029  | 0     | 2.82   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | 4FD9008098E2 | 1029  | 0     | 2.82   |
 | WDC       | WD5003ABYX-18WERA0 | 500 GB | 80F6EA647E89 | 1028  | 0     | 2.82   |
 | WDC       | WD1600AAJS-22L7A0  | 160 GB | 1FCB2BC66D0E | 1026  | 0     | 2.81   |
 | Hitachi   | HDS724040ALE640    | 4 TB   | 1DBDF61EE15E | 1025  | 0     | 2.81   |
+| WDC       | WD120EMAZ-11BLFA0  | 12 TB  | 5CA4A56EEBCD | 1024  | 0     | 2.81   |
 | Toshiba   | MC04ACA400E        | 4 TB   | 58CDB783646B | 1023  | 0     | 2.80   |
 | Toshiba   | MC04ACA400E        | 4 TB   | 984864E3415E | 1023  | 0     | 2.80   |
 | WDC       | WD10EZEX-08WN4A0   | 1 TB   | A071A7CAC2CC | 1023  | 0     | 2.80   |
@@ -1638,11 +1639,11 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST500DM002-1BD142  | 500 GB | FF969A5C3E51 | 996   | 0     | 2.73   |
 | Samsung   | HD103SI            | 1 TB   | 9E56EBAE5BAE | 996   | 0     | 2.73   |
 | Seagate   | ST2000DM008-2FR102 | 2 TB   | 7F29201A9415 | 996   | 0     | 2.73   |
-| WDC       | WD120EMAZ-11BLFA0  | 12 TB  | 5CA4A56EEBCD | 994   | 0     | 2.73   |
 | Toshiba   | DT01ACA200         | 2 TB   | AB9A9A586892 | 994   | 0     | 2.72   |
 | Toshiba   | DT01ACA200         | 2 TB   | 70A8C3F1CF83 | 994   | 0     | 2.72   |
 | WDC       | WD20EFRX-68EUZN0   | 2 TB   | AEDE5F8B8795 | 994   | 0     | 2.72   |
 | WDC       | WD60EFRX-68L0BN1   | 6 TB   | B9950B23E567 | 993   | 0     | 2.72   |
+| Toshiba   | MG03ACA100         | 1 TB   | 61D986D41F2A | 992   | 0     | 2.72   |
 | WDC       | WD10EZEX-22MFCA0   | 1 TB   | 6DFA04275B36 | 991   | 0     | 2.72   |
 | WDC       | WD5000LPLX-75ZNTT0 | 500 GB | 32B27535BDBB | 991   | 0     | 2.72   |
 | Seagate   | ST1000LM048-2E7172 | 1 TB   | 864E5E8CA873 | 990   | 0     | 2.71   |
@@ -1655,7 +1656,6 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST500DM002-1BD142  | 500 GB | F80324D4A367 | 982   | 0     | 2.69   |
 | Seagate   | ST380013AS         | 80 GB  | B61552FBF183 | 2943  | 2     | 2.69   |
 | Seagate   | ST2000DM001-1CH164 | 2 TB   | CF592321257D | 980   | 0     | 2.69   |
-| Toshiba   | MG03ACA100         | 1 TB   | 61D986D41F2A | 980   | 0     | 2.69   |
 | ExcelStor | J8160              | 164 GB | E19161617BF3 | 980   | 0     | 2.68   |
 | WDC       | WD1600AAJS-60WAA0  | 160 GB | 570E2F694156 | 980   | 0     | 2.68   |
 | Seagate   | ST500DM002-1BD142  | 500 GB | F6B8D9199D85 | 979   | 0     | 2.68   |
@@ -1757,6 +1757,7 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST1000DM003-9YN162 | 1 TB   | 03B154E4DF3D | 1803  | 1     | 2.47   |
 | Toshiba   | HDWN180            | 8 TB   | 3F4CBB889513 | 901   | 0     | 2.47   |
 | Toshiba   | DT01ACA200         | 2 TB   | 0658DA275C45 | 900   | 0     | 2.47   |
+| Seagate   | ST4000LM024-2AN17V | 4 TB   | 8FCC54402C4B | 898   | 0     | 2.46   |
 | Hitachi   | HDS5C3030ALA630    | 3 TB   | 444E563EF5D4 | 2695  | 2     | 2.46   |
 | Seagate   | ST2000NM0033-9Z... | 2 TB   | A743B98F5937 | 897   | 0     | 2.46   |
 | WDC       | WD2500AAJS-75M0A0  | 250 GB | 1557F9B181AA | 896   | 0     | 2.46   |
@@ -1802,7 +1803,6 @@ MTBF - avg. MTBF in years per sample.
 | Hitachi   | HUA723020ALA641    | 2 TB   | A0BE63856B17 | 869   | 0     | 2.38   |
 | Seagate   | ST1000DM003-1CH162 | 1 TB   | B0FA83D0F36B | 869   | 0     | 2.38   |
 | Samsung   | HD103SJ            | 1 TB   | 5B99C9ECC0B3 | 2606  | 2     | 2.38   |
-| Seagate   | ST4000LM024-2AN17V | 4 TB   | 8FCC54402C4B | 868   | 0     | 2.38   |
 | Seagate   | ST1000NM0018-2F... | 1 TB   | AFF483F67DFC | 868   | 0     | 2.38   |
 | WDC       | WD40EFRX-68WT0N0   | 4 TB   | FBD99DC925D0 | 2603  | 2     | 2.38   |
 | WDC       | WD2503ABYX-01WERA1 | 256 GB | 4EA9084CDB18 | 866   | 0     | 2.37   |
@@ -1962,6 +1962,7 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST9320325AS        | 320 GB | E65C30C4AD17 | 787   | 0     | 2.16   |
 | WDC       | WD1200BEVT-22ZCT0  | 120 GB | 7A03DA5A0FA4 | 786   | 0     | 2.15   |
 | Samsung   | HD161HJ            | 160 GB | FCC788EC1251 | 786   | 0     | 2.15   |
+| HGST      | HTS721010A9E630    | 1 TB   | D4FFD2BDD5EF | 785   | 0     | 2.15   |
 | Seagate   | ST3250318AS        | 250 GB | 60774FEDCE8B | 784   | 0     | 2.15   |
 | Seagate   | ST3500414CS        | 500 GB | 1562039181BF | 783   | 0     | 2.15   |
 | HGST      | HTS545050A7E680    | 500 GB | CCC8F37CFB7E | 783   | 0     | 2.15   |
@@ -2063,7 +2064,6 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD10EZEX-08WN4A0   | 1 TB   | DEEAF7BCBD96 | 740   | 0     | 2.03   |
 | WDC       | WD30EFRX-68AX9N0   | 3 TB   | FE252C3A4B2A | 2219  | 2     | 2.03   |
 | WDC       | WD10EZEX-08WN4A0   | 1 TB   | B28CB814FAEF | 739   | 0     | 2.03   |
-| HGST      | HTS721010A9E630    | 1 TB   | D4FFD2BDD5EF | 739   | 0     | 2.03   |
 | Toshiba   | MQ01ABD100         | 1 TB   | 967FFE6641F6 | 739   | 0     | 2.03   |
 | WDC       | WD10JPVX-60JC3T0   | 1 TB   | F9F0F2D4EDD9 | 1478  | 1     | 2.03   |
 | WDC       | WD1600JS-60MHB5    | 160 GB | 8E80684EDDEE | 739   | 0     | 2.03   |
@@ -2112,6 +2112,7 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST10000DM0004-1... | 10 TB  | 376986A9911F | 716   | 0     | 1.96   |
 | Seagate   | ST3000NM0005-1V... | 3 TB   | 35A739D90257 | 716   | 0     | 1.96   |
 | WDC       | WD40EFRX-68WT0N0   | 4 TB   | 87AFE4EC24D9 | 2146  | 2     | 1.96   |
+| WDC       | WD120EMFZ-11A6JA0  | 12 TB  | A9F9FBA8D6FE | 715   | 0     | 1.96   |
 | Samsung   | HD322HJ            | 320 GB | 42E3947DB3B5 | 714   | 0     | 1.96   |
 | Seagate   | ST9500420AS        | 500 GB | DF7318F4F764 | 713   | 0     | 1.96   |
 | WDC       | WD10JPVX-22JC3T0   | 1 TB   | 3B3D0A21217B | 713   | 0     | 1.96   |
@@ -2166,7 +2167,6 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD40EFRX-68N32N0   | 4 TB   | 7B5B5603D8E0 | 685   | 0     | 1.88   |
 | WDC       | WD40EFRX-68N32N0   | 4 TB   | AF5227506E62 | 685   | 0     | 1.88   |
 | WDC       | WD40EFRX-68N32N0   | 4 TB   | E933F00BC004 | 685   | 0     | 1.88   |
-| WDC       | WD120EMFZ-11A6JA0  | 12 TB  | A9F9FBA8D6FE | 685   | 0     | 1.88   |
 | Seagate   | ST1000LM035-1RK172 | 1 TB   | 8AB97C167CA6 | 685   | 0     | 1.88   |
 | Seagate   | ST8000VN004-2M2101 | 8 TB   | 6780B40AF1B5 | 683   | 0     | 1.87   |
 | WDC       | WD8004FRYZ-01VAEB0 | 8 TB   | 11D2018D4AFB | 683   | 0     | 1.87   |
@@ -2703,6 +2703,7 @@ MTBF - avg. MTBF in years per sample.
 | HPE       | MM2000GEFRA        | 2 TB   | 119501ADC75E | 463   | 0     | 1.27   |
 | HPE       | MM2000GEFRA        | 2 TB   | 938D592BA491 | 463   | 0     | 1.27   |
 | HPE       | MM2000GEFRA        | 2 TB   | F1A5AC553AAB | 462   | 0     | 1.27   |
+| Seagate   | ST1000LM024 HN-... | 1 TB   | DFF1134118E8 | 462   | 0     | 1.27   |
 | WDC       | WD10EZEX-75WN4A0   | 1 TB   | 84526D27489A | 461   | 0     | 1.27   |
 | HGST      | HDN726040ALE614    | 4 TB   | 0A82821CCE49 | 461   | 0     | 1.26   |
 | WDC       | WD10EZEX-22MFCA0   | 1 TB   | A0BC98CF4063 | 461   | 0     | 1.26   |
@@ -2715,7 +2716,6 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD10PURX-64E5EY0   | 1 TB   | CD4C5EED03F3 | 917   | 1     | 1.26   |
 | Samsung   | HD322HJ            | 320 GB | 86BEA870D66D | 458   | 0     | 1.26   |
 | Seagate   | ST3250410AS        | 250 GB | 2C4876420B18 | 458   | 0     | 1.26   |
-| Seagate   | ST1000LM024 HN-... | 1 TB   | DFF1134118E8 | 457   | 0     | 1.25   |
 | Hitachi   | HTS545050A7E380    | 500 GB | 00FAF6806A4F | 457   | 0     | 1.25   |
 | Seagate   | ST6000DM003-2CY186 | 6 TB   | 345E1E33DBAC | 456   | 0     | 1.25   |
 | WDC       | WD4002FYYZ-01B7CB0 | 4 TB   | 799CDDAAF060 | 455   | 0     | 1.25   |
@@ -3204,6 +3204,7 @@ MTBF - avg. MTBF in years per sample.
 | Apple     | HDD HTS541010A9... | 1 TB   | 1F9332881ABC | 295   | 0     | 0.81   |
 | Seagate   | ST3250823AS        | 250 GB | 683994F4F6B2 | 2661  | 8     | 0.81   |
 | WDC       | WD1002FAEX-00Y9A0  | 1 TB   | C084D0E88421 | 295   | 0     | 0.81   |
+| Toshiba   | MQ01ABF050         | 500 GB | F85F8D9C747B | 295   | 0     | 0.81   |
 | WDC       | WD1600AAJS-00YZCA0 | 160 GB | 24E567AFBCE1 | 2658  | 8     | 0.81   |
 | Samsung   | HD103SJ            | 1 TB   | A3515AB4D493 | 295   | 0     | 0.81   |
 | Toshiba   | MK3261GSYN         | 320 GB | 5EE11E5F0E39 | 294   | 0     | 0.81   |
@@ -3244,7 +3245,6 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HTS721010A9E630    | 1 TB   | 4353A2B42203 | 282   | 0     | 0.77   |
 | WDC       | WD60EZRZ-00GZ5B1   | 6 TB   | 0C23DCD91D4E | 282   | 0     | 0.77   |
 | Toshiba   | MQ01ABF050         | 500 GB | FB849EDDDDEE | 281   | 0     | 0.77   |
-| Toshiba   | MQ01ABF050         | 500 GB | F85F8D9C747B | 281   | 0     | 0.77   |
 | Toshiba   | MG08ACA16TE        | 16 TB  | 29A7B80D7576 | 281   | 0     | 0.77   |
 | Toshiba   | MG08ACA16TE        | 16 TB  | ACDF9D6F05D2 | 281   | 0     | 0.77   |
 | Toshiba   | MG08ACA16TE        | 16 TB  | EA7C1EBE1ACE | 281   | 0     | 0.77   |
@@ -3603,6 +3603,7 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST8000DM004-2CX188 | 8 TB   | F7545CCB3E11 | 195   | 0     | 0.54   |
 | Seagate   | ST4000NM0035-1V... | 4 TB   | 7AB716668F01 | 195   | 0     | 0.53   |
 | WDC       | WD10EZEX-00RKKA0   | 1 TB   | 642E1B065A00 | 1755  | 8     | 0.53   |
+| WDC       | WD20EFZX-68AWUN0   | 2 TB   | C9D74FB23291 | 194   | 0     | 0.53   |
 | WDC       | WD20EFAX-68FB5N0   | 2 TB   | ED3EC7A2DEDD | 194   | 0     | 0.53   |
 | Seagate   | ST2000LM003 HN-... | 2 TB   | 39EE1F841450 | 194   | 0     | 0.53   |
 | Seagate   | ST3500418AS        | 500 GB | 472C6E65DACF | 1360  | 6     | 0.53   |
@@ -3881,6 +3882,7 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HTS541075A9E680    | 752 GB | 9AF9A2624684 | 146   | 0     | 0.40   |
 | WDC       | WD5000LPCX-00VHAT0 | 500 GB | C03DE00B5DDD | 146   | 0     | 0.40   |
 | WDC       | WD800AAJS-00WAA0   | 80 GB  | C688CF42A6A2 | 145   | 0     | 0.40   |
+| Seagate   | ST9500325AS        | 500 GB | FDF903431AD5 | 436   | 2     | 0.40   |
 | WDC       | WD10EALX-009BA0    | 1 TB   | CA3A0525D46D | 145   | 0     | 0.40   |
 | Toshiba   | MG09ACA18TE        | 18 TB  | A138F900FD06 | 145   | 0     | 0.40   |
 | Toshiba   | MG09ACA18TE        | 18 TB  | FA6C4225582A | 145   | 0     | 0.40   |
@@ -3894,7 +3896,6 @@ MTBF - avg. MTBF in years per sample.
 | Toshiba   | MQ01ABF050         | 500 GB | 3349619F4C54 | 143   | 0     | 0.39   |
 | WDC       | WD1600AAJS-75M0A0  | 160 GB | 9E70DC14A895 | 1147  | 7     | 0.39   |
 | WDC       | WD20EARS-00MVWB0   | 2 TB   | A25DB40EB7E4 | 143   | 0     | 0.39   |
-| Seagate   | ST9500325AS        | 500 GB | FDF903431AD5 | 429   | 2     | 0.39   |
 | Seagate   | ST1000LM014-1EJ164 | 1 TB   | 0353B5F5F285 | 143   | 0     | 0.39   |
 | Seagate   | ST3160815AS        | 160 GB | A9901DA14784 | 143   | 0     | 0.39   |
 | WDC       | WD5003ABYX-18WERA0 | 500 GB | 87B4F743239A | 1283  | 8     | 0.39   |
@@ -3920,8 +3921,10 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST1000LM048-2E7172 | 1 TB   | AD0E1E9636CE | 137   | 0     | 0.38   |
 | WDC       | WD20SPZX-22UA7T0   | 2 TB   | 66F6515F6B5F | 137   | 0     | 0.38   |
 | Seagate   | ST9500325AS        | 500 GB | 44BC0F7E2B3D | 274   | 1     | 0.38   |
+| Seagate   | ST2000DM008-2FR102 | 2 TB   | 89FE89A5867C | 137   | 0     | 0.38   |
 | WDC       | WD10EZEX-08M2NA0   | 1 TB   | 47AE35DB94F7 | 821   | 5     | 0.38   |
 | Seagate   | ST1000LM035-1RK172 | 1 TB   | B1D8E55D2F09 | 136   | 0     | 0.37   |
+| Seagate   | ST2000DM008-2FR102 | 2 TB   | 938445048CC4 | 135   | 0     | 0.37   |
 | Hitachi   | HTS541680J9SA00    | 80 GB  | D8FFD08FE485 | 135   | 0     | 0.37   |
 | Seagate   | ST2000NM0008-2F... | 2 TB   | 62DDDC8A82EC | 135   | 0     | 0.37   |
 | Toshiba   | DT01ACA100         | 1 TB   | 3545EC8A7AF6 | 135   | 0     | 0.37   |
@@ -3990,7 +3993,6 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST2000LM007-1R8174 | 2 TB   | D4B243F9DEE8 | 124   | 0     | 0.34   |
 | HGST      | HTS541010A9E680    | 1 TB   | AA87822FC5FA | 124   | 0     | 0.34   |
 | WDC       | WD3200AAKS-75L9A0  | 320 GB | 1B392A70B4A2 | 870   | 6     | 0.34   |
-| WDC       | WD20EFZX-68AWUN0   | 2 TB   | C9D74FB23291 | 124   | 0     | 0.34   |
 | WDC       | WD10SPZX-60Z10T0   | 1 TB   | 15E838624161 | 247   | 1     | 0.34   |
 | WDC       | WD10SPZX-24Z10     | 1 TB   | F3DE566EC337 | 123   | 0     | 0.34   |
 | WDC       | WD6400AAKS-22A7B0  | 640 GB | 820DAFA35553 | 1113  | 8     | 0.34   |
@@ -4010,6 +4012,7 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST3500413AS        | 500 GB | CA050AC4A655 | 601   | 4     | 0.33   |
 | Toshiba   | MK5065GSX          | 500 GB | EC5FA6395C0C | 361   | 2     | 0.33   |
 | WDC       | WD60EFRX-68L0BN1   | 6 TB   | 01FA8438879B | 1082  | 8     | 0.33   |
+| Seagate   | ST2000DM008-2FR102 | 2 TB   | EA8F70B8AB8D | 120   | 0     | 0.33   |
 | WDC       | WD80EZAZ-11TDBA0   | 8 TB   | D64659726D2D | 120   | 0     | 0.33   |
 | Seagate   | ST1000LM049-2GH172 | 1 TB   | C2232571994B | 120   | 0     | 0.33   |
 | WDC       | WD2503ABYX-01WERA1 | 256 GB | 640B93309B39 | 119   | 0     | 0.33   |
@@ -4225,13 +4228,11 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST1000NM0008-2F... | 1 TB   | 81730F7F3924 | 88    | 0     | 0.24   |
 | Seagate   | ST2000DM001-9YN164 | 2 TB   | BFA41F838C29 | 88    | 0     | 0.24   |
 | WDC       | WD2500AAJS-75M0A0  | 250 GB | 7CA72FFE1C41 | 2988  | 33    | 0.24   |
-| Seagate   | ST2000DM008-2FR102 | 2 TB   | 89FE89A5867C | 87    | 0     | 0.24   |
 | Seagate   | ST1000DM010-2EP102 | 1 TB   | F87C1E0CB7B1 | 87    | 0     | 0.24   |
 | HGST      | HUS724040ALA640    | 4 TB   | DF1D3ED20B44 | 87    | 0     | 0.24   |
 | WDC       | WD5000AAKX-60U6AA0 | 500 GB | 38E98096C46D | 1918  | 21    | 0.24   |
 | WDC       | WD5000AVCS-632DY1  | 500 GB | 327F3EEF5D0B | 86    | 0     | 0.24   |
 | WDC       | WD10EARS-003BB1    | 1 TB   | 10BF4FF20C97 | 781   | 8     | 0.24   |
-| Seagate   | ST2000DM008-2FR102 | 2 TB   | 938445048CC4 | 86    | 0     | 0.24   |
 | Seagate   | ST3500630AS        | 500 GB | 69AAD38BBB48 | 86    | 0     | 0.24   |
 | HGST      | HTS545050A7E680    | 500 GB | E12BC110DA63 | 86    | 0     | 0.24   |
 | Hitachi   | HDS723020BLA642    | 2 TB   | 568D5B4F065C | 2326  | 26    | 0.24   |
@@ -4327,7 +4328,6 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST4000NM002A-2H... | 4 TB   | D8C081703D56 | 71    | 0     | 0.20   |
 | Seagate   | ST3500418AS        | 500 GB | F5408AF43FF0 | 1996  | 27    | 0.20   |
 | WDC       | WD3200BPVT-55ZEST0 | 320 GB | 80E88365AE4E | 142   | 1     | 0.20   |
-| Seagate   | ST2000DM008-2FR102 | 2 TB   | EA8F70B8AB8D | 70    | 0     | 0.19   |
 | WDC       | WD40EFRX-68WT0N0   | 4 TB   | 60322F4DC27F | 991   | 13    | 0.19   |
 | Seagate   | ST4000VN008-2DR166 | 4 TB   | E3E6485ADCE7 | 70    | 0     | 0.19   |
 | Toshiba   | HDWD130            | 3 TB   | EEC43D7FAB64 | 140   | 1     | 0.19   |
@@ -4339,8 +4339,8 @@ MTBF - avg. MTBF in years per sample.
 | WDC       | WD6400AAKS-22A7B0  | 640 GB | A99644AAE443 | 696   | 9     | 0.19   |
 | Hitachi   | HTS545025B9A300    | 250 GB | 244C617D6375 | 69    | 0     | 0.19   |
 | WDC       | WD5000LUCT-63RC2Y0 | 500 GB | 1B6243D8EF88 | 69    | 0     | 0.19   |
+| Seagate   | ST5000DM000-1FK178 | 5 TB   | 20519AA239DB | 2639  | 37    | 0.19   |
 | Hitachi   | HDS723020BLA642    | 2 TB   | 0B75FB803B8D | 3123  | 44    | 0.19   |
-| Seagate   | ST5000DM000-1FK178 | 5 TB   | 20519AA239DB | 2633  | 37    | 0.19   |
 | WDC       | WD10EZEX-08M2NA0   | 1 TB   | 203F65E39280 | 1104  | 15    | 0.19   |
 | Seagate   | ST1000NM0033-9Z... | 1 TB   | 012ACA6108F3 | 69    | 0     | 0.19   |
 | Seagate   | ST1000NM0033-9Z... | 1 TB   | 2DCDCE2F6D5F | 68    | 0     | 0.19   |
@@ -5282,6 +5282,7 @@ MTBF - avg. MTBF in years per sample.
 | Hitachi   | HTS725050A7E630    | 500 GB | 54AA87B6AAF4 | 1384  | 1028  | 0.00   |
 | Seagate   | ST3250310AS        | 250 GB | 4DA4536C8DE6 | 1351  | 1011  | 0.00   |
 | WDC       | WD2503ABYX-01WERA1 | 256 GB | CC02ED1D0682 | 1290  | 965   | 0.00   |
+| HGST      | HTS725050A7E630    | 500 GB | F92D06F74098 | 1369  | 1025  | 0.00   |
 | Samsung   | HD161HJ            | 160 GB | 18A4BEDE69D0 | 1358  | 1018  | 0.00   |
 | WDC       | WD2005FBYZ-01YCBB3 | 2 TB   | 5C24E83C111C | 1     | 0     | 0.00   |
 | Seagate   | ST3500312CS        | 500 GB | 428C626EC437 | 1260  | 948   | 0.00   |
@@ -5300,7 +5301,6 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HTS545050A7E380    | 500 GB | B7A9499D8045 | 1306  | 1058  | 0.00   |
 | Seagate   | ST2000NM0033-9Z... | 2 TB   | 0060104D4A59 | 1240  | 1012  | 0.00   |
 | Seagate   | ST4000NM0033-9Z... | 4 TB   | 45593FF79A27 | 2285  | 1874  | 0.00   |
-| HGST      | HTS725050A7E630    | 500 GB | F92D06F74098 | 1247  | 1025  | 0.00   |
 | Samsung   | HM160HI            | 160 GB | 219B9E44CC56 | 1276  | 1052  | 0.00   |
 | Seagate   | ST9500420AS        | 500 GB | 7D8C7F4F84D4 | 1838  | 1534  | 0.00   |
 | HPE       | MM1000GBKAL        | 1 TB   | 38175C0428E4 | 1883  | 1574  | 0.00   |
@@ -5321,6 +5321,7 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST500LT012-9WS142  | 500 GB | 3237BB0AAABD | 1122  | 1009  | 0.00   |
 | Seagate   | ST500LM021-1KJ152  | 500 GB | 341C370BA757 | 1114  | 1011  | 0.00   |
 | Seagate   | ST500VT000-1DK142  | 500 GB | C8381FA0D307 | 969   | 885   | 0.00   |
+| HGST      | HTS721010A9E630    | 1 TB   | 28799E339182 | 1116  | 1026  | 0.00   |
 | Seagate   | ST31000524AS       | 1 TB   | 1E35A73128F1 | 2044  | 1880  | 0.00   |
 | WDC       | WD1600AAJS-60WAA0  | 160 GB | 903DFDE63B38 | 1094  | 1007  | 0.00   |
 | HGST      | HUS728T8TALE6L4    | 8 TB   | 9132031A4543 | 1     | 0     | 0.00   |
@@ -5329,7 +5330,6 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | ST1000DM003-1CH162 | 1 TB   | 070EC0E5C5EC | 709   | 659   | 0.00   |
 | Samsung   | HD501LJ            | 500 GB | 4DE413FA6B9A | 1093  | 1017  | 0.00   |
 | Hitachi   | HTS727550A9E364    | 500 GB | 157BEF953BD5 | 1113  | 1036  | 0.00   |
-| HGST      | HTS721010A9E630    | 1 TB   | 28799E339182 | 1100  | 1026  | 0.00   |
 | Hitachi   | HTS543232L9SA02    | 320 GB | 823008396ECF | 1241  | 1157  | 0.00   |
 | WDC       | WD5000AAKX-603CA0  | 500 GB | 18021C0AFD24 | 1090  | 1019  | 0.00   |
 | Hitachi   | HDS721050CLA660    | 500 GB | 5A5505928703 | 1080  | 1015  | 0.00   |

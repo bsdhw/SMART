@@ -21,7 +21,7 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | MZ7PC128HAFU-000H1 | 128 GB | 2       | 2013  | 0     | 5.52   |
 | Samsung   | MZMTE512HMHP-000MV | 512 GB | 2       | 1756  | 0     | 4.81   |
 | Samsung   | SSD 830 Series     | 256 GB | 7       | 1674  | 0     | 4.59   |
-| Samsung   | SSD 850 PRO        | 128 GB | 22      | 1626  | 0     | 4.46   |
+| Samsung   | SSD 850 PRO        | 128 GB | 22      | 1629  | 0     | 4.47   |
 | Samsung   | MZ7PD256HCGM-000H7 | 256 GB | 6       | 1587  | 0     | 4.35   |
 | Samsung   | SSD 840 EVO        | 120 GB | 48      | 1703  | 12    | 4.11   |
 | Samsung   | MZ-5EA2000-0D3     | 200 GB | 4       | 1481  | 0     | 4.06   |
@@ -74,14 +74,14 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | MZ7KM240HMHQ-00005 | 240 GB | 3       | 818   | 0     | 2.24   |
 | Samsung   | MZ7TE128HMGR-000L1 | 128 GB | 7       | 808   | 0     | 2.22   |
 | Samsung   | SSD 850 EVO M.2    | 250 GB | 12      | 778   | 0     | 2.13   |
+| Samsung   | SSD 850 EVO mSATA  | 500 GB | 5       | 764   | 0     | 2.09   |
 | Samsung   | SSD 850 EVO        | 2 TB   | 2       | 759   | 0     | 2.08   |
 | Samsung   | SSD 850 EVO mSATA  | 120 GB | 7       | 1197  | 9     | 2.08   |
 | Samsung   | MZYLN256HCHP-000L2 | 256 GB | 2       | 758   | 0     | 2.08   |
-| Samsung   | MZ7PD128HCFV-000H1 | 128 GB | 4       | 744   | 0     | 2.04   |
+| Samsung   | MZ7PD128HCFV-000H1 | 128 GB | 4       | 748   | 0     | 2.05   |
 | Samsung   | SSD 840 EVO        | 1 TB   | 7       | 739   | 0     | 2.03   |
 | Samsung   | SSD RBX Series ... | 64 GB  | 2       | 739   | 0     | 2.03   |
 | Samsung   | MZ7LN256HMJP-00000 | 256 GB | 4       | 736   | 0     | 2.02   |
-| Samsung   | SSD 850 EVO mSATA  | 500 GB | 5       | 728   | 0     | 2.00   |
 | Samsung   | MZ7LN256HMJP-000H1 | 256 GB | 9       | 723   | 0     | 1.98   |
 | Samsung   | Portable SSD T5    | 1 TB   | 2       | 707   | 0     | 1.94   |
 | Samsung   | SSD PM871b 2.5 7mm | 128 GB | 2       | 700   | 0     | 1.92   |
@@ -105,7 +105,7 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | SSD 840 Series     | 500 GB | 4       | 686   | 1     | 1.52   |
 | Samsung   | SSD 840 EVO 120... | 120 GB | 3       | 539   | 0     | 1.48   |
 | Samsung   | SSD 860 EVO        | 4 TB   | 2       | 527   | 0     | 1.45   |
-| Samsung   | SSD 860 EVO        | 500 GB | 104     | 535   | 10    | 1.43   |
+| Samsung   | SSD 860 EVO        | 500 GB | 104     | 536   | 10    | 1.43   |
 | Samsung   | MZYLF128HCHP-000L2 | 128 GB | 4       | 513   | 0     | 1.41   |
 | Samsung   | SSD 850 EVO M.2    | 120 GB | 2       | 488   | 0     | 1.34   |
 | Samsung   | MZ7LN128HAHQ-000H1 | 128 GB | 2       | 482   | 0     | 1.32   |
@@ -120,7 +120,7 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | SSD 850            | 120 GB | 3       | 432   | 0     | 1.19   |
 | Samsung   | 470 Series SSD     | 64 GB  | 3       | 431   | 1     | 1.18   |
 | Samsung   | MZ7LH480HAHQ-00005 | 480 GB | 2       | 417   | 0     | 1.14   |
-| Samsung   | SSD 860 EVO mSATA  | 500 GB | 12      | 413   | 0     | 1.13   |
+| Samsung   | SSD 860 EVO mSATA  | 500 GB | 12      | 414   | 0     | 1.14   |
 | Samsung   | SSD 870 QVO        | 2 TB   | 20      | 412   | 0     | 1.13   |
 | Samsung   | SSD PM810 2.5" 7mm | 128 GB | 2       | 885   | 8     | 1.13   |
 | Samsung   | SSD PM830 mSATA    | 128 GB | 3       | 411   | 0     | 1.13   |
@@ -129,7 +129,7 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | MZ7LM240HMHQ-00005 | 240 GB | 2       | 385   | 0     | 1.05   |
 | Samsung   | SSD 860 EVO M.2    | 250 GB | 25      | 382   | 0     | 1.05   |
 | Samsung   | Portable SSD T5    | 500 GB | 4       | 376   | 0     | 1.03   |
-| Samsung   | SSD 860 EVO        | 1 TB   | 60      | 366   | 1     | 1.00   |
+| Samsung   | SSD 860 EVO        | 1 TB   | 60      | 368   | 1     | 1.01   |
 | Samsung   | SSD 860 EVO M.2    | 1 TB   | 9       | 365   | 0     | 1.00   |
 | Samsung   | MZ7L33T8HBNA-00... | 3.8 TB | 2       | 364   | 0     | 1.00   |
 | Samsung   | SSD 860 PRO        | 512 GB | 17      | 363   | 0     | 1.00   |

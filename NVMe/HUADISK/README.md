@@ -1,7 +1,7 @@
-China NVMe Drives
-=================
+HUADISK NVMe Drives
+===================
 
-This is a list of all tested China NVMe drive models and their MTBFs. See more
+This is a list of all tested HUADISK NVMe drive models and their MTBFs. See more
 info on reliability test in the [README](https://github.com/bsdhw/SMART).
 
 NVME by Model
@@ -17,7 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| China     | 512GB SSD          | 512 GB | 44      | 82    | 1     | 0.23   |
-| China     | 256GB SSD          | 256 GB | 7       | 74    | 0     | 0.20   |
-| China     | NVME SSD           | 128 GB | 11      | 50    | 0     | 0.14   |
-| China     | GW M2 SSD          | 512 GB | 3       | 13    | 0     | 0.04   |
+| HUADISK   | HYV512X3(HXY)      | 512 GB | 2       | 110   | 0     | 0.30   |
+| HUADISK   | HYV256X3(HXY)      | 256 GB | 8       | 39    | 0     | 0.11   |
+| HUADISK   | HYV128X3(HXY)      | 128 GB | 9       | 19    | 0     | 0.05   |
+| HUADISK   | KPART512GBC2DVT    | 512 GB | 7       | 1     | 0     | 0.00   |

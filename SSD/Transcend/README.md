@@ -41,8 +41,8 @@ MTBF - avg. MTBF in years per sample.
 | Transcend | TS120GSSD220S      | 120 GB | 11      | 292   | 1     | 0.79   |
 | Transcend | TS128GMSA230S      | 128 GB | 74      | 265   | 1     | 0.70   |
 | Transcend | TS128GMTS400       | 128 GB | 3       | 246   | 0     | 0.67   |
+| Transcend | TS256GMTS952T2     | 256 GB | 38      | 240   | 0     | 0.66   |
 | Transcend | TS32GMTS400S       | 32 GB  | 4       | 239   | 0     | 0.66   |
-| Transcend | TS256GMTS952T2     | 256 GB | 38      | 238   | 0     | 0.65   |
 | Transcend | TS512GSSD230S      | 512 GB | 3       | 217   | 0     | 0.60   |
 | Transcend | TS64GMTS400SD      | 64 GB  | 15      | 216   | 0     | 0.59   |
 | Transcend | TS512GSSD370       | 512 GB | 2       | 213   | 0     | 0.58   |

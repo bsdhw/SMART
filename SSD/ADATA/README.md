@@ -37,7 +37,7 @@ MTBF - avg. MTBF in years per sample.
 | ADATA     | SU655              | 240 GB | 2       | 393   | 0     | 1.08   |
 | ADATA     | SU750              | 256 GB | 3       | 381   | 0     | 1.04   |
 | ADATA     | SP900              | 256 GB | 2       | 614   | 212   | 0.85   |
-| ADATA     | SU800              | 256 GB | 14      | 301   | 144   | 0.82   |
+| ADATA     | SU800              | 256 GB | 14      | 302   | 144   | 0.82   |
 | ADATA     | SU630              | 240 GB | 20      | 303   | 1     | 0.78   |
 | ADATA     | SU650              | 960 GB | 2       | 358   | 145   | 0.76   |
 | ADATA     | ASU800SS-128GT-2   | 128 GB | 3       | 274   | 0     | 0.75   |
