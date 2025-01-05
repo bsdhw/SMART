@@ -11,10 +11,10 @@ Controller ID:                      1
 NVMe Version:                       <1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
-Namespace 1 Utilization:            16,198,565,888 [16.1 GB]
+Namespace 1 Utilization:            16,574,054,400 [16.5 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sun Jul 30 06:30:12 2023 UTC
+Local Time is:                      Tue Aug  8 10:10:57 2023 UTC
 Firmware Updates (0x06):            3 Slots
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -38,18 +38,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        36 Celsius
+Temperature:                        38 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    6%
-Data Units Read:                    93,673,214 [47.9 TB]
-Data Units Written:                 159,313,903 [81.5 TB]
-Host Read Commands:                 1,076,098,191
-Host Write Commands:                2,506,191,447
-Controller Busy Time:               6,976
-Power Cycles:                       1,606
-Power On Hours:                     55,069
-Unsafe Shutdowns:                   225
+Data Units Read:                    93,677,991 [47.9 TB]
+Data Units Written:                 159,454,364 [81.6 TB]
+Host Read Commands:                 1,076,229,798
+Host Write Commands:                2,508,468,532
+Controller Busy Time:               6,993
+Power Cycles:                       1,610
+Power On Hours:                     55,288
+Unsafe Shutdowns:                   228
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      19,578
 

@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Apr 28 11:37:02 2024 +07
+Local Time is:    Fri May 24 17:19:26 2024 +07
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,16 +66,16 @@ SMART Attributes Data Structure revision number: 20
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 New_Bad_Blk_Cnt         PO--C-   100   100   010    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    8499
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    29
-164 Unknown_Attribute       ------   100   100   000    -    8255087708434
-165 Unknown_Attribute       ------   100   100   000    -    2450
-166 Unknown_Attribute       ------   100   100   000    -    1922
-167 SSD_Protect_mode        -O---K   100   100   000    -    2322
-194 Temperature_Celsius     -O---K   047   047   000    -    47 (Min/Max 17/48)
-199 UDMA_CRC_Error_Count    -O--C-   100   100   000    -    197
-241 Total_LBAs_Written      -O--CK   100   100   000    -    1750030
-242 Total_LBAs_Read         -O--CK   100   100   000    -    219715
+  9 Power_On_Hours          -O--C-   100   100   000    -    9094
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    39
+164 Unknown_Attribute       ------   100   100   000    -    8276564773172
+165 Unknown_Attribute       ------   100   100   000    -    2484
+166 Unknown_Attribute       ------   100   100   000    -    1927
+167 SSD_Protect_mode        -O---K   100   100   000    -    2356
+194 Temperature_Celsius     -O---K   046   046   000    -    46 (Min/Max 17/48)
+199 UDMA_CRC_Error_Count    -O--C-   100   100   000    -    207
+241 Total_LBAs_Written      -O--CK   100   100   000    -    1770050
+242 Total_LBAs_Read         -O--CK   100   100   000    -    219962
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -102,7 +102,7 @@ Address    Access  R/W   Size  Description
 0xe1       GPL,SL  R/W      1  SCT Data Transfer
 
 SMART Extended Comprehensive Error Log Version: 1 (64 sectors)
-Device Error Count: 196
+Device Error Count: 206
 	CR     = Command Register
 	FEATR  = Features Register
 	COUNT  = Count (was: Sector Count) Register
@@ -118,141 +118,141 @@ Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
 
-Error 196 [195] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 206 [205] occurred at disk power-on lifetime: 9092 hours (378 days + 20 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 68 00 00 04 27 38 60 40 08
+  84 -- 41 00 10 00 00 0a 90 f8 d0 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:08:03.100  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:08:03.100  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:08:03.100  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:08:03.100  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:08:03.100  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:42:07.300  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:42:07.200  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:42:07.200  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:42:07.200  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:42:07.100  FLUSH CACHE EXT
 
-Error 195 [194] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 205 [204] occurred at disk power-on lifetime: 9092 hours (378 days + 20 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 68 00 00 03 db 99 f0 40 08  Error: ABRT
+  84 -- 41 00 10 00 00 0a 9c 67 78 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ef 00 02 00 00 00 00 00 00 00 00 40 80     06:03:16.200  SET FEATURES [Enable write cache]
-  ef 00 aa 00 00 00 00 00 00 00 00 40 80     06:03:16.200  SET FEATURES [Enable read look-ahead]
-  c6 00 00 00 01 00 00 00 00 00 00 40 80     06:03:16.200  SET MULTIPLE MODE
-  ef 00 10 00 02 00 00 00 00 00 00 40 80     06:03:16.200  SET FEATURES [Enable SATA feature]
-  ef 00 03 00 46 00 00 00 00 00 00 40 80     06:03:16.200  SET FEATURES [Set transfer mode]
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:41:54.100  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:41:54.000  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:41:53.500  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:41:53.500  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:41:53.500  FLUSH CACHE EXT
 
-Error 194 [193] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 204 [203] occurred at disk power-on lifetime: 9085 hours (378 days + 13 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 28 00 00 04 d1 61 b0 40 08  Error: ABRT
+  84 -- 41 00 b8 00 00 06 2b 5a c0 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ef 00 02 00 00 00 00 00 00 00 00 40 80     06:00:36.100  SET FEATURES [Enable write cache]
-  ef 00 aa 00 00 00 00 00 00 00 00 40 80     06:00:36.100  SET FEATURES [Enable read look-ahead]
-  c6 00 00 00 01 00 00 00 00 00 00 40 80     06:00:36.100  SET MULTIPLE MODE
-  ef 00 10 00 02 00 00 00 00 00 00 40 80     06:00:36.100  SET FEATURES [Enable SATA feature]
-  ef 00 03 00 46 00 00 00 00 00 00 40 80     06:00:36.100  SET FEATURES [Set transfer mode]
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:20:37.900  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:20:37.900  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:20:37.800  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:20:37.800  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:20:37.700  FLUSH CACHE EXT
 
-Error 193 [192] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 203 [202] occurred at disk power-on lifetime: 9079 hours (378 days + 7 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 58 00 00 04 e7 12 e0 40 08
+  84 -- 41 00 c0 00 00 06 3e c4 90 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:59:32.600  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:59:32.600  FLUSH CACHE EXT
-  ca 00 00 00 00 00 00 00 db 22 f0 43 80     05:59:32.600  WRITE DMA
-  ef 00 02 00 00 00 00 00 00 00 00 40 80     05:59:32.600  SET FEATURES [Enable write cache]
-  ef 00 aa 00 00 00 00 00 00 00 00 40 80     05:59:32.600  SET FEATURES [Enable read look-ahead]
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:02:58.800  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:02:58.700  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:02:58.500  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:02:58.500  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     08:02:58.500  FLUSH CACHE EXT
 
-Error 192 [191] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 202 [201] occurred at disk power-on lifetime: 9072 hours (378 days + 0 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 d0 00 00 04 39 3c 18 40 08
+  84 -- 41 00 58 00 00 06 2f 91 20 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:59:00.300  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:59:00.300  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:59:00.300  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:59:00.300  FLUSH CACHE EXT
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:59:00.300  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:44:25.500  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:44:25.400  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:44:25.200  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:44:25.200  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:44:25.200  FLUSH CACHE EXT
 
-Error 191 [190] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 201 [200] occurred at disk power-on lifetime: 9059 hours (377 days + 11 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 40 00 00 04 e0 ed 18 40 08  Error: ICRC, ABRT 64 sectors at LBA = 0x04e0ed18 = 81849624
+  84 -- 41 00 d0 00 00 04 0d 20 60 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  c8 00 00 00 10 00 00 00 08 2a 10 41 80     05:57:57.400  READ DMA
-  ea 00 00 00 00 00 00 00 00 00 00 40 80     05:57:57.400  FLUSH CACHE EXT
-  ef 00 02 00 00 00 00 00 00 00 00 40 80     05:57:57.400  SET FEATURES [Enable write cache]
-  ef 00 aa 00 00 00 00 00 00 00 00 40 80     05:57:57.400  SET FEATURES [Enable read look-ahead]
-  c6 00 00 00 01 00 00 00 00 00 00 40 80     05:57:57.400  SET MULTIPLE MODE
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:08:48.400  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:08:48.400  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:08:48.400  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:08:48.300  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     07:08:48.200  FLUSH CACHE EXT
 
-Error 190 [189] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 200 [199] occurred at disk power-on lifetime: 9053 hours (377 days + 5 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 50 00 00 03 da ff f0 40 08  Error: ABRT
+  84 -- 41 00 30 00 00 07 f4 61 d0 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ef 00 02 00 00 00 00 00 00 00 00 40 80     05:56:54.600  SET FEATURES [Enable write cache]
-  ef 00 aa 00 00 00 00 00 00 00 00 40 80     05:56:54.600  SET FEATURES [Enable read look-ahead]
-  c6 00 00 00 01 00 00 00 00 00 00 40 80     05:56:54.600  SET MULTIPLE MODE
-  ef 00 10 00 02 00 00 00 00 00 00 40 80     05:56:54.600  SET FEATURES [Enable SATA feature]
-  ef 00 03 00 46 00 00 00 00 00 00 40 80     05:56:54.600  SET FEATURES [Set transfer mode]
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:51:30.800  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:51:30.800  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:51:30.700  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:51:29.600  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:51:29.600  FLUSH CACHE EXT
 
-Error 189 [188] occurred at disk power-on lifetime: 8499 hours (354 days + 3 hours)
+Error 199 [198] occurred at disk power-on lifetime: 9052 hours (377 days + 4 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  84 -- 41 00 48 00 00 04 95 9b 18 40 08  Error: ABRT
+  84 -- 41 00 00 00 00 06 3c 0f 88 40 08
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  ef 00 02 00 00 00 00 00 00 00 00 40 80     05:55:47.300  SET FEATURES [Enable write cache]
-  ef 00 aa 00 00 00 00 00 00 00 00 40 80     05:55:47.300  SET FEATURES [Enable read look-ahead]
-  c6 00 00 00 01 00 00 00 00 00 00 40 80     05:55:47.300  SET MULTIPLE MODE
-  ef 00 10 00 02 00 00 00 00 00 00 40 80     05:55:47.300  SET FEATURES [Enable SATA feature]
-  ef 00 03 00 46 00 00 00 00 00 00 40 80     05:55:47.300  SET FEATURES [Set transfer mode]
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:50:10.500  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:50:10.400  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:50:10.300  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:50:10.300  FLUSH CACHE EXT
+  ea 00 00 00 00 00 00 00 00 00 00 40 80     06:50:10.200  FLUSH CACHE EXT
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
@@ -281,20 +281,20 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -127/127 Celsius
 Min/Max Temperature Limit:           -127/127 Celsius
-Temperature History Size (Index):    478 (351)
+Temperature History Size (Index):    478 (64)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              29  ---  Lifetime Power-On Resets
-0x01  0x010  4            8499  ---  Power-on Hours
-0x01  0x018  6    114690012306  ---  Logical Sectors Written
-0x01  0x020  6      2145585696  ---  Number of Write Commands
-0x01  0x028  6     14399265346  ---  Logical Sectors Read
-0x01  0x030  6       170746807  ---  Number of Read Commands
-0x01  0x038  6   7830257128236  ---  Date and Time TimeStamp
+0x01  0x008  4              39  ---  Lifetime Power-On Resets
+0x01  0x010  4            9094  ---  Power-on Hours
+0x01  0x018  6    116002007259  ---  Logical Sectors Written
+0x01  0x020  6      2159570853  ---  Number of Write Commands
+0x01  0x028  6     14415451622  ---  Logical Sectors Read
+0x01  0x030  6       171370488  ---  Number of Read Commands
+0x01  0x038  6   8382154973924  ---  Date and Time TimeStamp
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             255  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -305,14 +305,14 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x0001  2          197  Command failed due to ICRC error
+0x0001  2          207  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           19  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            8  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

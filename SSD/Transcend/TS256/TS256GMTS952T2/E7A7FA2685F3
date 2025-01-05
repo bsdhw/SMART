@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri May 24 17:39:11 2024 CEST
+Local Time is:    Sat Jul 13 08:44:59 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,34 +62,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     ------   100   100   000    -    0
   5 Reallocated_Sector_Ct   ------   100   100   000    -    0
-  9 Power_On_Hours          ------   100   100   000    -    4617
+  9 Power_On_Hours          ------   100   100   000    -    5443
  12 Power_Cycle_Count       ------   100   100   000    -    12
-148 Unknown_Attribute       ------   100   100   000    -    406951
-149 Unknown_Attribute       ------   100   100   000    -    4310
-150 Unknown_Attribute       ------   100   100   000    -    4214
-151 Unknown_Attribute       ------   100   100   000    -    4283
-164 Unknown_Attribute       ------   100   100   000    -    338224
-165 Unknown_Attribute       ------   100   100   000    -    237
-166 Unknown_Attribute       ------   100   100   000    -    136
-167 Unknown_Attribute       ------   100   100   000    -    186
+148 Unknown_Attribute       ------   100   100   000    -    455677
+149 Unknown_Attribute       ------   100   100   000    -    4812
+150 Unknown_Attribute       ------   100   100   000    -    4623
+151 Unknown_Attribute       ------   100   100   000    -    4796
+164 Unknown_Attribute       ------   100   100   000    -    375944
+165 Unknown_Attribute       ------   100   100   000    -    258
+166 Unknown_Attribute       ------   100   100   000    -    157
+167 Unknown_Attribute       ------   100   100   000    -    206
 159 Unknown_Attribute       ------   100   100   000    -    0
 160 Unknown_Attribute       ------   100   100   000    -    0
 161 Unknown_Attribute       ------   100   100   000    -    112
 163 Unknown_Attribute       ------   100   100   000    -    39
 168 Unknown_Attribute       ------   100   100   000    -    3000
 169 Unknown_Attribute       ------   100   100   000    -    94
-177 Wear_Leveling_Count     ------   100   100   050    -    1273
+177 Wear_Leveling_Count     ------   100   100   050    -    1483
 181 Program_Fail_Cnt_Total  ------   100   100   000    -    0
 182 Erase_Fail_Count_Total  ------   100   100   000    -    0
 192 Power-Off_Retract_Count ------   100   100   000    -    5
-194 Temperature_Celsius     ------   100   100   000    -    55 (Min/Max 21/76)
+194 Temperature_Celsius     ------   100   100   000    -    59 (Min/Max 21/76)
 195 Hardware_ECC_Recovered  ------   100   100   000    -    0
 196 Reallocated_Event_Count ------   100   100   016    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    0
 232 Available_Reservd_Space ------   100   100   000    -    100
-241 Total_LBAs_Written      ------   100   100   000    -    490878
-242 Total_LBAs_Read         ------   100   100   000    -    1544
-245 Unknown_Attribute       ------   100   100   000    -    2132434
+241 Total_LBAs_Written      ------   100   100   000    -    552495
+242 Total_LBAs_Read         ------   100   100   000    -    1641
+245 Unknown_Attribute       ------   100   100   000    -    2375263
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -141,16 +141,16 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              12  ---  Lifetime Power-On Resets
-0x01  0x010  4            4617  ---  Power-on Hours
-0x01  0x018  6     32170214251  ---  Logical Sectors Written
-0x01  0x020  6       523611021  ---  Number of Write Commands
-0x01  0x028  6       101246152  ---  Logical Sectors Read
-0x01  0x030  6         2245454  ---  Number of Read Commands
+0x01  0x010  4            5443  ---  Power-on Hours
+0x01  0x018  6     36208369453  ---  Logical Sectors Written
+0x01  0x020  6       548896044  ---  Number of Write Commands
+0x01  0x028  6       107552729  ---  Logical Sectors Read
+0x01  0x030  6         2388785  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               5  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            3746  ---  Number of Hardware Resets
+0x06  0x008  4            3810  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               6  ---  Percentage Used Endurance Indicator

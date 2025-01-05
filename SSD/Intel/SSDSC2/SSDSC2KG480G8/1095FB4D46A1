@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.1.0 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [MidnightBSD 3.2.0 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Intel S4510/S4610/S4500/S4600 Series SSDs
@@ -12,10 +12,10 @@ Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available, deterministic, zeroed
-Device is:        In smartctl database [for details use: -P show]
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 19 16:50:15 2023 EDT
+Local Time is:    Mon Nov 11 16:43:17 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,44 +60,46 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       27549
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       94
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       35481
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       114
 170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       80
-175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2465 (94 65535)
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       95
+175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2511 (114 65535)
 183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       0
 184 End-to-End_Error_Count  0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Drive_Temperature       0x0022   076   071   000    Old_age   Always       -       24 (Min/Max 16/29)
-192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       80
-194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       24
+190 Drive_Temperature       0x0022   075   072   000    Old_age   Always       -       25 (Min/Max 18/29)
+192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       95
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       25
 197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1809808
-226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       1146
-227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       47
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       1652528
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       2256380
+226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       1474
+227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       44
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       2128060
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   099   099   000    Old_age   Always       -       0
 234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
-235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2465 (94 65535)
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1809808
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1656878
-243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       2326797
+235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2511 (114 65535)
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       2256380
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1778378
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       2980871
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     21480         -
-# 2  Short offline       Completed without error       00%     21455         -
-# 3  Short offline       Completed without error       00%     15579         -
-# 4  Short offline       Completed without error       00%     13443         -
-# 5  Short offline       Completed without error       00%     12910         -
-# 6  Short offline       Completed without error       00%      4104         -
+# 1  Short offline       Completed without error       00%     29290         -
+# 2  Short offline       Completed without error       00%     27977         -
+# 3  Short offline       Completed without error       00%     21480         -
+# 4  Short offline       Completed without error       00%     21455         -
+# 5  Short offline       Completed without error       00%     15579         -
+# 6  Short offline       Completed without error       00%     13443         -
+# 7  Short offline       Completed without error       00%     12910         -
+# 8  Short offline       Completed without error       00%      4104         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -110,5 +112,5 @@ Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
 
-
+The above only provides legacy SMART information - try 'smartctl -x' for more
 

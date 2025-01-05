@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Dec 21 09:28:22 2023 UTC
+Local Time is:    Mon Jan 15 08:59:01 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,8 +62,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   000    -    0
   5 Reallocate_NAND_Blk_Cnt -O--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    759
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    16
+  9 Power_On_Hours          -O--CK   100   100   000    -    860
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    19
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
 173 Ave_Block-Erase_Count   -O--CK   100   100   000    -    3
@@ -80,12 +80,12 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain ----CK   100   100   001    -    0
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    448600804
-247 Host_Program_Page_Count -O--CK   100   100   000    -    14018775
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    2804736
+246 Total_LBAs_Written      -O--CK   100   100   000    -    528788809
+247 Host_Program_Page_Count -O--CK   100   100   000    -    16524650
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    3210240
 249 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    0
-251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    107497587
+251 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    132656501
 252 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 253 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
 254 Unkn_CrucialMicron_Attr -O--CK   100   100   000    -    0
@@ -129,7 +129,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            5  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            2  Device-to-host register FISes sent due to a COMRESET
 
 
 

@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.6 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Oct  3 18:19:04 2024 +08
+Local Time is:    Fri Oct 25 14:04:51 2024 +08
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,11 +58,11 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0003   100   100   000    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0002   100   100   000    Old_age   Always       -       129
- 12 Power_Cycle_Count       0x0003   100   100   000    Pre-fail  Always       -       2032
+  9 Power_On_Hours          0x0002   100   100   000    Old_age   Always       -       132
+ 12 Power_Cycle_Count       0x0003   100   100   000    Pre-fail  Always       -       2102
 175 Program_Fail_Count_Chip 0x0003   100   100   000    Pre-fail  Always       -       0
 176 Erase_Fail_Count_Chip   0x0003   100   100   000    Pre-fail  Always       -       0
-177 Wear_Leveling_Count     0x0003   100   100   000    Pre-fail  Always       -       52
+177 Wear_Leveling_Count     0x0003   100   100   000    Pre-fail  Always       -       56
 178 Used_Rsvd_Blk_Cnt_Chip  0x0003   100   100   000    Pre-fail  Always       -       0
 179 Used_Rsvd_Blk_Cnt_Tot   0x0003   100   100   000    Pre-fail  Always       -       0
 180 Unused_Rsvd_Blk_Cnt_Tot 0x0003   100   100   000    Pre-fail  Always       -       155
@@ -70,17 +70,20 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count_Total  0x0003   100   100   000    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0003   100   100   000    Pre-fail  Always       -       0
 195 Hardware_ECC_Recovered  0x0003   100   100   000    Pre-fail  Always       -       0
-241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       133861
-242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       228042
+241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       143176
+242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       233941
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%         0         -
+# 1  Extended offline    Completed without error       00%       132         -
+# 2  Short offline       Completed without error       00%         0         -
 
 Selective Self-tests/Logging not supported
 
 The above only provides legacy SMART information - try 'smartctl -x' for more
+
+
 

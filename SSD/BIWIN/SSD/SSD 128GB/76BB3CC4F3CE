@@ -12,7 +12,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Jul  2 16:45:55 2024 BST
+Local Time is:    Tue Jul  2 16:52:05 2024 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -73,10 +73,10 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 195 Hardware_ECC_Recovered  0x0000   100   100   000    Old_age   Offline      -       3735
 196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       0
 231 Unknown_SSD_Attribute   0x0000   100   100   000    Old_age   Offline      -       0
-234 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       15803
+234 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       15804
 235 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       8984
-241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       9200096
-242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       16183047
+241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       9200508
+242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       16183810
 
 SMART Error Log Version: 1
 No Errors Logged

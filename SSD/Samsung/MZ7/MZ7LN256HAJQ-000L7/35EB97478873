@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3, ATA8-ACS T13/1699-D revision 4c
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Feb 22 21:29:03 2024 CET
+Local Time is:    Thu Feb 22 21:42:23 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -76,7 +76,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 180 Unused_Rsvd_Blk_Cnt_Tot PO--C-   100   100   010    -    616
 184 End-to-End_Error        PO--CK   100   100   097    -    0
 187 Uncorrectable_Error_Cnt -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O--CK   061   049   000    -    39 (Min/Max 13/51)
+194 Temperature_Celsius     -O--CK   068   049   000    -    32 (Min/Max 13/51)
 199 CRC_Error_Count         -OSRCK   100   100   000    -    0
 233 Media_Wearout_Indicator PO--C-   099   099   001    -    16637404
 234 Unknown_Samsung_Attr    -O--CK   100   100   000    -    0
@@ -135,7 +135,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        Active (0)
-Current Temperature:                    39 Celsius
+Current Temperature:                    33 Celsius
 Power Cycle Min/Max Temperature:     32/39 Celsius
 Lifetime    Min/Max Temperature:     16/51 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -145,7 +145,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/70 Celsius
-Temperature History Size (Index):    128 (83)
+Temperature History Size (Index):    128 (84)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -156,15 +156,15 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4             261  ---  Lifetime Power-On Resets
 0x01  0x010  4            3710  ---  Power-on Hours
-0x01  0x018  6      5405820810  ---  Logical Sectors Written
+0x01  0x018  6      5405972737  ---  Logical Sectors Written
 0x01  0x020  6               0  ---  Number of Write Commands
-0x01  0x028  6      3775117744  ---  Logical Sectors Read
+0x01  0x028  6      3775117840  ---  Logical Sectors Read
 0x01  0x030  6               0  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              39  ---  Current Temperature
+0x05  0x008  1              32  ---  Current Temperature
 0x05  0x020  1              51  ---  Highest Temperature
 0x05  0x028  1              16  ---  Lowest Temperature
 0x05  0x058  1              55  ---  Specified Maximum Operating Temperature

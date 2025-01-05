@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Nov  7 20:31:37 2023 MSK
+Local Time is:    Thu Nov  9 22:53:44 2023 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,16 +60,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    10963
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    6604
+  9 Power_On_Hours          -O--C-   100   100   000    -    10965
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    6608
 168 SATA_Phy_Error_Count    -O--C-   100   100   000    -    2
 170 Bad_Blk_Ct_Lat/Erl      PO----   100   100   010    -    0/147
 173 MaxAvgErase_Ct          -O--C-   100   100   000    -    229 (Average 190)
-192 Unsafe_Shutdown_Count   -O--C-   100   100   000    -    464
+192 Unsafe_Shutdown_Count   -O--C-   100   100   000    -    466
 194 Temperature_Celsius     PO---K   100   100   020    -    30
 218 CRC_Error_Count         PO-R--   100   100   050    -    25120
 231 SSD_Life_Left           PO--C-   100   100   000    -    93
-241 Lifetime_Writes_GiB     -O--C-   100   100   000    -    12629
+241 Lifetime_Writes_GiB     -O--C-   100   100   000    -    12634
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

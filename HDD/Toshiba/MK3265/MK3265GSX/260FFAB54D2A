@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.0-STABLE amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p4 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Mar 19 21:29:05 2024 +03
+Local Time is:    Fri Sep 13 00:15:43 2024 +03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -64,19 +64,19 @@ SMART Attributes Data Structure revision number: 128
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  3 Spin_Up_Time            POS--K   100   100   001    -    1193
+  3 Spin_Up_Time            POS--K   100   100   001    -    1177
   5 Reallocated_Sector_Ct   PO--CK   100   100   050    -    1
-  9 Power_On_Hours          -O--CK   091   091   000    -    231708
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    2683
+  9 Power_On_Hours          -O--CK   089   089   000    -    287834
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    3040
 191 G-Sense_Error_Rate      -O--CK   100   100   000    -    2186
-192 Power-Off_Retract_Count -O--CK   100   100   000    -    204
-193 Load_Cycle_Count        -O--CK   098   098   000    -    25930
-194 Temperature_Celsius     -O---K   100   100   000    -    21 (Min/Max 0/58)
-199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    37312370
-200 Multi_Zone_Error_Rate   -O--CK   100   100   000    -    140882253
-240 Head_Flying_Hours       -O--CK   093   093   000    -    182307
-241 Total_LBAs_Written      -O--CK   100   100   000    -    10475544724
-242 Total_LBAs_Read         -O--CK   100   100   000    -    14463300861
+192 Power-Off_Retract_Count -O--CK   100   100   000    -    211
+193 Load_Cycle_Count        -O--CK   097   097   000    -    32217
+194 Temperature_Celsius     -O---K   100   100   000    -    29 (Min/Max 0/58)
+199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    39229903
+200 Multi_Zone_Error_Rate   -O--CK   100   100   000    -    141447469
+240 Head_Flying_Hours       -O--CK   093   093   000    -    185242
+241 Total_LBAs_Written      -O--CK   100   100   000    -    11295340727
+242 Total_LBAs_Read         -O--CK   100   100   000    -    16487746333
 254 Free_Fall_Sensor        -O--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -256,8 +256,9 @@ Error 50 [49] occurred at disk power-on lifetime: 862 hours (35 days + 22 hours)
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%      2284         -
-# 2  Short offline       Completed without error       00%         0         -
+# 1  Short offline       Completed without error       00%      3863         -
+# 2  Short offline       Completed without error       00%      2284         -
+# 3  Short offline       Completed without error       00%         0         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -273,10 +274,10 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  2
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    21 Celsius
-Power Cycle Min/Max Temperature:     19/21 Celsius
+Current Temperature:                    29 Celsius
+Power Cycle Min/Max Temperature:     26/30 Celsius
 Lifetime    Min/Max Temperature:      0/58 Celsius
-Specified Max Operating Temperature:    40 Celsius
+Specified Max Operating Temperature:    38 Celsius
 Under/Over Temperature Limit Count:  20/0
 
 SCT Temperature History Version:     2
@@ -284,7 +285,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:     15/55 Celsius
 Min/Max Temperature Limit:           10/60 Celsius
-Temperature History Size (Index):    478 (280)
+Temperature History Size (Index):    478 (227)
 
 SCT Error Recovery Control:
            Read: Disabled

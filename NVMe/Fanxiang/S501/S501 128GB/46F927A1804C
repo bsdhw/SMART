@@ -1,5 +1,5 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p2 amd64] (local build)
-Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.2 2021-09-14 r5236 [FreeBSD 13.1-RELEASE-p9 amd64] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Number:                       Fanxiang S501 128GB
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            00e04c ...
-Local Time is:                      Tue Oct  3 21:23:48 2023 NZDT
+Local Time is:                      Wed Aug 28 20:46:50 2024 NZST
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -43,14 +43,14 @@ Temperature:                        54 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          32%
 Percentage Used:                    0%
-Data Units Read:                    18,010 [9.22 GB]
-Data Units Written:                 2,015,578 [1.03 TB]
-Host Read Commands:                 542,653
-Host Write Commands:                25,851,675
+Data Units Read:                    51,349 [26.2 GB]
+Data Units Written:                 2,792,057 [1.42 TB]
+Host Read Commands:                 1,128,818
+Host Write Commands:                36,932,019
 Controller Busy Time:               0
-Power Cycles:                       15
-Power On Hours:                     1,158
-Unsafe Shutdowns:                   6
+Power Cycles:                       59
+Power On Hours:                     1,721
+Unsafe Shutdowns:                   24
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
@@ -59,7 +59,5 @@ Critical Comp. Temperature Time:    0
 Error Information (NVMe Log 0x01, 8 of 8 entries)
 No Errors Logged
 
-Self-test Log (NVMe Log 0x06)
-Self-test status: No self-test in progress
-No Self-tests Logged
+
 

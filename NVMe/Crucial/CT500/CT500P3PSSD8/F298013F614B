@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          500,107,862,016 [500 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Fri Sep 29 19:39:41 2023 EDT
+Local Time is:                      Sat Sep 30 17:26:26 2023 EDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -40,25 +40,25 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        23 Celsius
+Temperature:                        25 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    0%
-Data Units Read:                    129,797 [66.4 GB]
-Data Units Written:                 111,886 [57.2 GB]
-Host Read Commands:                 825,233
-Host Write Commands:                1,002,061
-Controller Busy Time:               1
-Power Cycles:                       46
-Power On Hours:                     6
-Unsafe Shutdowns:                   33
+Data Units Read:                    146,263 [74.8 GB]
+Data Units Written:                 198,181 [101 GB]
+Host Read Commands:                 1,124,049
+Host Write Commands:                3,051,089
+Controller Busy Time:               2
+Power Cycles:                       52
+Power On Hours:                     27
+Unsafe Shutdowns:                   35
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      48
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               23 Celsius
-Temperature Sensor 2:               31 Celsius
-Temperature Sensor 8:               23 Celsius
+Temperature Sensor 1:               25 Celsius
+Temperature Sensor 2:               33 Celsius
+Temperature Sensor 8:               25 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 16 entries)
 No Errors Logged

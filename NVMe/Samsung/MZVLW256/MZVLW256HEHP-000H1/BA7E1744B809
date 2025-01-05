@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -16,7 +16,7 @@ Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Utilization:            249,158,381,568 [249 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Thu Nov 16 15:53:22 2023 CET
+Local Time is:                      Thu Apr 11 10:18:33 2024 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -42,42 +42,42 @@ SMART overall-health self-assessment test result: FAILED!
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x04
-Temperature:                        53 Celsius
+Temperature:                        55 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          5%
 Percentage Used:                    255%
-Data Units Read:                    95,001,738 [48.6 TB]
-Data Units Written:                 440,878,993 [225 TB]
-Host Read Commands:                 372,740,852
-Host Write Commands:                4,794,146,718
-Controller Busy Time:               45,625
-Power Cycles:                       946
-Power On Hours:                     17,800
-Unsafe Shutdowns:                   108
+Data Units Read:                    95,036,475 [48.6 TB]
+Data Units Written:                 535,467,882 [274 TB]
+Host Read Commands:                 373,818,547
+Host Write Commands:                5,508,308,587
+Controller Busy Time:               77,049
+Power Cycles:                       953
+Power On Hours:                     20,659
+Unsafe Shutdowns:                   115
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      396
+Error Information Log Entries:      401
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               53 Celsius
+Temperature Sensor 1:               55 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS  Message
-  0        396     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  1        395     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  2        394     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  3        393     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  4        392     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  5        391     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  6        390     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  7        389     0  0x0034  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  8        388     0  0x002a  0x4016  0x004            0     1     -  Invalid Namespace or Format
-  9        387     0  0x0028  0x4016  0x004            0     1     -  Invalid Namespace or Format
- 10        386     0  0x001e  0x4016  0x004            0     1     -  Invalid Namespace or Format
- 11        385     0  0x001c  0x4016  0x004            0     1     -  Invalid Namespace or Format
- 12        384     0  0x001b  0x4016  0x004            0     1     -  Invalid Namespace or Format
- 13        383     0  0x0018  0x4016  0x004            0     1     -  Invalid Namespace or Format
- 14        382     0  0x0017  0x4016  0x004            0     1     -  Invalid Namespace or Format
- 15        381     0  0x0015  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  0        401     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  1        400     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  2        399     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  3        398     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  4        397     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  5        396     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  6        395     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  7        394     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  8        393     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+  9        392     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 10        391     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 11        390     0  0x0010  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 12        389     0  0x0034  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 13        388     0  0x002a  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 14        387     0  0x0028  0x4016  0x004            0     1     -  Invalid Namespace or Format
+ 15        386     0  0x001e  0x4016  0x004            0     1     -  Invalid Namespace or Format
 ... (48 entries not read)
 
 Self-tests not supported

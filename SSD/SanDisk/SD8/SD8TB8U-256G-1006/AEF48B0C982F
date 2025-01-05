@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE-p1 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun May 28 11:47:30 2023 -05
+Local Time is:    Wed Aug  2 22:46:06 2023 -05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,13 +63,13 @@ SCT capabilities: 	       (0x003d)	SCT Status supported.
 SMART Attributes Data Structure revision number: 32
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    86
+  1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    92
   5 Reallocated_Sector_Ct   PO--CK   100   100   005    -    0
-  9 Power_On_Hours          -O--CK   100   100   ---    -    21012
- 12 Power_Cycle_Count       -O--CK   100   100   ---    -    254
+  9 Power_On_Hours          -O--CK   100   100   ---    -    22606
+ 12 Power_Cycle_Count       -O--CK   100   100   ---    -    259
 171 Unknown_Attribute       -O--CK   100   100   ---    -    0
 172 Unknown_Attribute       -O--CK   100   100   ---    -    0
-173 Unknown_Attribute       -O--CK   048   048   005    -    367
+173 Unknown_Attribute       -O--CK   035   035   005    -    458
 174 Unknown_Attribute       -O--CK   100   100   ---    -    54
 176 Erase_Fail_Count_Chip   -O---K   100   100   ---    -    2176
 181 Program_Fail_Cnt_Total  -O---K   100   088   ---    -    9448174
@@ -77,16 +77,16 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 184 End-to-End_Error        PO-RCK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
 188 Command_Timeout         -O--CK   100   100   ---    -    1
-194 Temperature_Celsius     -O---K   034   040   ---    -    34 (Min/Max 19/40)
+194 Temperature_Celsius     -O---K   032   040   ---    -    32 (Min/Max 19/40)
 198 Offline_Uncorrectable   ----CK   100   100   ---    -    0
-199 UDMA_CRC_Error_Count    -O--CK   100   100   ---    -    20
-201 Unknown_SSD_Attribute   PO---K   048   048   005    -    223338299759
-230 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    75996310942762
-241 Total_LBAs_Written      -O--CK   100   100   ---    -    3414976
-242 Total_LBAs_Read         -O--CK   100   100   ---    -    350846
-243 Unknown_Attribute       -O--CK   100   100   ---    -    12934966
+199 UDMA_CRC_Error_Count    -O--CK   100   100   ---    -    21
+201 Unknown_SSD_Attribute   PO---K   035   035   005    -    279172874698
+230 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    91604460257578
+241 Total_LBAs_Written      -O--CK   100   100   ---    -    3824505
+242 Total_LBAs_Read         -O--CK   100   100   ---    -    351840
+243 Unknown_Attribute       -O--CK   100   100   ---    -    15869276
 244 Unknown_Attribute       -O--CK   000   100   ---    -    0
-249 Unknown_Attribute       -O--CK   100   100   ---    -    91970
+249 Unknown_Attribute       -O--CK   100   100   ---    -    114669
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -139,10 +139,10 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       257 (0x0101)
 Device State:                        Active (0)
-Current Temperature:                    34 Celsius
-Power Cycle Min/Max Temperature:     31/37 Celsius
-Lifetime    Min/Max Temperature:     31/37 Celsius
-Specified Max Operating Temperature:    34 Celsius
+Current Temperature:                    32 Celsius
+Power Cycle Min/Max Temperature:     29/36 Celsius
+Lifetime    Min/Max Temperature:     29/36 Celsius
+Specified Max Operating Temperature:    32 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -153,7 +153,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -15/90 Celsius
-Temperature History Size (Index):    256 (242)
+Temperature History Size (Index):    256 (183)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -162,12 +162,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             254  -D-  Lifetime Power-On Resets
-0x01  0x010  4           21012  -D-  Power-on Hours
+0x01  0x008  4             259  -D-  Lifetime Power-On Resets
+0x01  0x010  4           22606  -D-  Power-on Hours
 0x01  0x018  6               0  -D-  Logical Sectors Written
-0x01  0x020  6         3414976  -D-  Number of Write Commands
-0x01  0x028  6          350846  -D-  Logical Sectors Read
-0x01  0x030  6        12934966  -D-  Number of Read Commands
+0x01  0x020  6         3824505  -D-  Number of Write Commands
+0x01  0x028  6          351840  -D-  Logical Sectors Read
+0x01  0x030  6        15869276  -D-  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  -D-  Number of Reported Uncorrectable Errors
 0x04  0x010  4               1  -D-  Resets Between Cmd Acceptance and Completion
@@ -179,11 +179,11 @@ Page  Offset Size        Value Flags Description
 0x05  0x058  1              70  -D-  Specified Maximum Operating Temperature
 0x05  0x068  1               0  -D-  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            1212  -D-  Number of Hardware Resets
-0x06  0x010  4             348  -D-  Number of ASR Events
+0x06  0x008  4            1263  -D-  Number of Hardware Resets
+0x06  0x010  4             357  -D-  Number of ASR Events
 0x06  0x018  4               0  -D-  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              52  ND-  Percentage Used Endurance Indicator
+0x07  0x008  1              65  ND-  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value

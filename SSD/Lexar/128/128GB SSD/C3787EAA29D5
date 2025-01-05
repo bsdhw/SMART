@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Jun 11 06:30:09 2023 UTC
+Local Time is:    Thu Jun 29 10:00:45 2023 HST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -66,30 +66,30 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 New_Bad_Blk_Cnt         PO--C-   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    911
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    130
+  9 Power_On_Hours          -O--C-   100   100   000    -    1357
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    131
 167 SSD_Protect_mode        -O---K   100   100   000    -    0
 168 SATA_PHY_Error_Cnt      -O--C-   100   100   000    -    0
 169 Bad_Block_Cnt           PO--C-   093   093   010    -    6815770
 171 Program_Fail_Cnt        -O--CK   000   000   000    -    0
 172 Erase_Fail_Cnt          -O--CK   000   000   000    -    0
-173 Erase_Cnt               -O--C-   200   200   000    -    77323501684
+173 Erase_Cnt               -O--C-   200   200   000    -    511123259632
 175 Bad_Cluster_Cnt         -O---K   100   100   010    -    0
 177 Read_Retry_Cnt          -O--C-   100   100   000    -    0
 180 Spare_Blk_Cnt_Left      PO--CK   100   100   000    -    1596
 187 Reported_Uncorrect      -O--CK   100   000   000    -    0
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    91
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    92
 194 Temperature_Celsius     -O---K   048   048   000    -    48 (Min/Max 48/48)
 199 UDMA_CRC_Error_Count    -O--C-   100   100   000    -    0
-206 Min_Erase_Cnt           -O--CK   200   200   000    -    18
-207 Max_Erase_Cnt           -O--CK   200   200   000    -    215
-208 Avg_Erase_Cnt           -O--CK   200   200   000    -    116
-209 SLC_Min_Erase_Cnt       -O--CK   200   200   000    -    34
-210 SLC_Max_Erase_Cnt       -O--CK   200   200   000    -    173
-211 SLC_Avg_Erase_Cnt       -O--CK   200   200   000    -    102
-231 SSD_Life_Left           PO---K   093   093   005    -    7
-241 Total_LBAs_Written      -O--CK   100   100   000    -    2362
-242 Total_LBAs_Read         -O--CK   100   100   000    -    408
+206 Min_Erase_Cnt           -O--CK   200   200   000    -    119
+207 Max_Erase_Cnt           -O--CK   200   200   000    -    338
+208 Avg_Erase_Cnt           -O--CK   200   200   000    -    240
+209 SLC_Min_Erase_Cnt       -O--CK   200   200   000    -    211
+210 SLC_Max_Erase_Cnt       -O--CK   200   200   000    -    277
+211 SLC_Avg_Erase_Cnt       -O--CK   200   200   000    -    245
+231 SSD_Life_Left           PO---K   084   084   005    -    16
+241 Total_LBAs_Written      -O--CK   100   100   000    -    4079
+242 Total_LBAs_Read         -O--CK   100   100   000    -    409
 245 Bit_Error_Cnt           -O--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -163,22 +163,22 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -127/127 Celsius
 Min/Max Temperature Limit:           -127/127 Celsius
-Temperature History Size (Index):    478 (264)
+Temperature History Size (Index):    478 (4)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4             130  ---  Lifetime Power-On Resets
-0x01  0x010  4             911  ---  Power-on Hours
-0x01  0x018  6      4953956499  ---  Logical Sectors Written
-0x01  0x020  6        81068113  ---  Number of Write Commands
-0x01  0x028  6       857414006  ---  Logical Sectors Read
-0x01  0x030  6         8636629  ---  Number of Read Commands
-0x01  0x038  6    840800486920  ---  Date and Time TimeStamp
+0x01  0x008  4             131  ---  Lifetime Power-On Resets
+0x01  0x010  4            1357  ---  Power-on Hours
+0x01  0x018  6      8554420299  ---  Logical Sectors Written
+0x01  0x020  6       135346260  ---  Number of Write Commands
+0x01  0x028  6       859543243  ---  Logical Sectors Read
+0x01  0x030  6         8704903  ---  Number of Read Commands
+0x01  0x038  6   1250425749340  ---  Date and Time TimeStamp
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              28  N--  Percentage Used Endurance Indicator
+0x07  0x008  1              45  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -194,7 +194,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           52  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           12  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

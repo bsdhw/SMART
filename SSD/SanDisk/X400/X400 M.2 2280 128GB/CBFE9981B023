@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Apr 22 15:19:24 2024 CEST
+Local Time is:    Mon Apr 22 15:55:30 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,7 +64,7 @@ SMART Attributes Data Structure revision number: 4
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   -O--CK   100   100   ---    -    0
-  9 Power_On_Hours          -O--CK   100   100   ---    -    36350
+  9 Power_On_Hours          -O--CK   100   100   ---    -    36351
  12 Power_Cycle_Count       -O--CK   100   100   ---    -    1041
 175 Program_Fail_Count_Chip -O--CK   100   100   ---    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   ---    -    0
@@ -75,13 +75,13 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 181 Program_Fail_Cnt_Total  -O--CK   100   100   ---    -    0
 182 Erase_Fail_Count_Total  -O--CK   100   100   ---    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
-194 Temperature_Celsius     -O---K   060   061   ---    -    40 (Min/Max 18/61)
+194 Temperature_Celsius     -O---K   057   061   ---    -    43 (Min/Max 18/61)
 195 Hardware_ECC_Recovered  -O--CK   100   100   ---    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   ---    -    1
-230 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    112491940713002
+230 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    112496235680298
 238 Unknown_Attribute       -O--CK   000   100   ---    -    0
-241 Total_LBAs_Written      ----CK   253   253   ---    -    60868173794
-242 Total_LBAs_Read         ----CK   253   253   ---    -    35728745280
+241 Total_LBAs_Written      ----CK   253   253   ---    -    60869068626
+242 Total_LBAs_Read         ----CK   253   253   ---    -    35728746016
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -120,10 +120,10 @@ Selective Self-tests/Logging not supported
 SCT Status Version:                  3
 SCT Version (vendor specific):       257 (0x0101)
 Device State:                        Active (0)
-Current Temperature:                    43 Celsius
+Current Temperature:                    44 Celsius
 Power Cycle Min/Max Temperature:     34/57 Celsius
 Lifetime    Min/Max Temperature:     34/57 Celsius
-Specified Max Operating Temperature:    43 Celsius
+Specified Max Operating Temperature:    44 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -134,7 +134,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -10/70 Celsius
 Min/Max Temperature Limit:           -15/90 Celsius
-Temperature History Size (Index):    256 (197)
+Temperature History Size (Index):    256 (208)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -145,10 +145,10 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4            1041  ---  Lifetime Power-On Resets
 0x01  0x010  4            3680  ---  Power-on Hours
-0x01  0x018  6     60868173794  ---  Logical Sectors Written
-0x01  0x020  6      1095481893  ---  Number of Write Commands
-0x01  0x028  6     35728745280  ---  Logical Sectors Read
-0x01  0x030  6      1183442332  ---  Number of Read Commands
+0x01  0x018  6     60869068626  ---  Logical Sectors Written
+0x01  0x020  6      1095490127  ---  Number of Write Commands
+0x01  0x028  6     35728746016  ---  Logical Sectors Read
+0x01  0x030  6      1183442378  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1             146  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met

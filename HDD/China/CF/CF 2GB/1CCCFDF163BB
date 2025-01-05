@@ -9,7 +9,7 @@ User Capacity:    2,097,930,240 bytes [2.09 GB]
 Sector Size:      512 bytes logical/physical
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA/ATAPI-5 (minor revision not indicated)
-Local Time is:    Wed Jan 31 21:15:05 2024 EST
+Local Time is:    Tue Feb  6 02:54:44 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -46,7 +46,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 203 Run_Out_Cancel          -O----   100   100   000    -    0
 204 Soft_ECC_Correction     -O----   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O----   100   100   000    -    0
-232 Available_Reservd_Space -O----   100   100   000    -    542794
+232 Available_Reservd_Space -O----   100   100   000    -    543660
  12 Power_Cycle_Count       -O----   100   100   000    -    24
                             ||||||_ K auto-keep
                             |||||__ C event count

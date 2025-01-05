@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE-p4 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Oct 29 04:10:26 2023 CET
+Local Time is:    Tue Nov  7 07:38:55 2023 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -64,18 +64,18 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   199   199   ---    -    14627
   5 Reallocated_Sector_Ct   PO--CK   099   099   ---    -    10240
-  9 Power_On_Hours          -O--CK   098   098   ---    -    5674
- 12 Power_Cycle_Count       -O--CK   089   089   ---    -    10997
+  9 Power_On_Hours          -O--CK   098   098   ---    -    5701
+ 12 Power_Cycle_Count       -O--CK   089   089   ---    -    11006
 170 Unknown_Attribute       PO--C-   077   077   ---    -    1566
 171 Unknown_Attribute       -O--CK   099   099   ---    -    5
 172 Unknown_Attribute       -O--CK   100   100   ---    -    0
-173 Unknown_Attribute       PO--C-   094   094   ---    -    200
+173 Unknown_Attribute       PO--C-   094   094   ---    -    201
 174 Unknown_Attribute       -O--CK   099   099   ---    -    919
 183 Runtime_Bad_Block       -O--CK   100   100   ---    -    0
 184 End-to-End_Error        PO--CK   100   100   ---    -    0
 187 Reported_Uncorrect      -O--CK   099   099   ---    -    2
-188 Command_Timeout         -O--CK   099   099   ---    -    181
-190 Airflow_Temperature_Cel -O---K   054   018   ---    -    46
+188 Command_Timeout         -O--CK   099   099   ---    -    207
+190 Airflow_Temperature_Cel -O---K   059   018   ---    -    41
 191 Unknown_SSD_Attribute   -O--CK   100   100   ---    -    0
 196 Reallocated_Event_Count -O----   099   099   ---    -    5
 198 Offline_Uncorrectable   ----CK   100   100   ---    -    0
@@ -173,8 +173,8 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       256 (0x0100)
 Device State:                        SCT command executing in background (5)
-Current Temperature:                    43 Celsius
-Power Cycle Min/Max Temperature:     43/43 Celsius
+Current Temperature:                    22 Celsius
+Power Cycle Min/Max Temperature:     22/22 Celsius
 Lifetime    Min/Max Temperature:      0/70 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -203,8 +203,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  2           27  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           27  Device-to-host register FISes sent due to a COMRESET
+0x0009  2           34  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           34  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC

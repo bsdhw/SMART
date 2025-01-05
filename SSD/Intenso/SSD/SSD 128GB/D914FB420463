@@ -1,5 +1,5 @@
-smartctl 7.2 2021-09-14 r5236 [FreeBSD 12.3-RELEASE-p11 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 12.4-RELEASE-p6 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Device Model:     INTENSO
@@ -10,10 +10,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 23 11:55:17 2023 CEST
+Local Time is:    Tue Aug  6 15:37:28 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,17 +60,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    14457
+  9 Power_On_Hours          -O--CK   100   100   050    -    21328
  12 Power_Cycle_Count       -O--CK   100   100   050    -    81
 160 Unknown_Attribute       -O--CK   100   100   050    -    0
 161 Unknown_Attribute       PO--CK   100   100   050    -    100
 163 Unknown_Attribute       -O--CK   100   100   050    -    10
-164 Unknown_Attribute       -O--CK   100   100   050    -    137652
-165 Unknown_Attribute       -O--CK   100   100   050    -    1711
-166 Unknown_Attribute       -O--CK   100   100   050    -    2
-167 Unknown_Attribute       -O--CK   100   100   050    -    220
+164 Unknown_Attribute       -O--CK   100   100   050    -    191110
+165 Unknown_Attribute       -O--CK   100   100   050    -    2185
+166 Unknown_Attribute       -O--CK   100   100   050    -    10
+167 Unknown_Attribute       -O--CK   100   100   050    -    306
 168 Unknown_Attribute       -O--CK   100   100   050    -    5050
-169 Unknown_Attribute       -O--CK   100   100   050    -    96
+169 Unknown_Attribute       -O--CK   100   100   050    -    94
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   050    -    0
 177 Wear_Leveling_Count     -O--CK   100   100   050    -    0
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   050    -    0
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Total_LBAs_Written      ----CK   100   100   050    -    193136
-242 Total_LBAs_Read         ----CK   100   100   050    -    94232
-245 Unknown_Attribute       -O--CK   100   100   050    -    102039
+241 Total_LBAs_Written      ----CK   100   100   050    -    269803
+242 Total_LBAs_Read         ----CK   100   100   050    -    170095
+245 Unknown_Attribute       -O--CK   100   100   050    -    112380
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -125,13 +125,13 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              81  ---  Lifetime Power-On Resets
-0x01  0x010  4           14457  ---  Power-on Hours
-0x01  0x018  6      4067427848  ---  Logical Sectors Written
-0x01  0x020  6        84950793  ---  Number of Write Commands
-0x01  0x028  6      1880642291  ---  Logical Sectors Read
-0x01  0x030  6        11010287  ---  Number of Read Commands
+0x01  0x010  4           21328  ---  Power-on Hours
+0x01  0x018  6       501941822  ---  Logical Sectors Written
+0x01  0x020  6       255244810  ---  Number of Write Commands
+0x01  0x028  6      2557473991  ---  Logical Sectors Read
+0x01  0x030  6        67264929  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               4  ---  Percentage Used Endurance Indicator
+0x07  0x008  1               6  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -143,7 +143,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            2  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           14  Device-to-host register FISes sent due to a COMRESET
 
 
 

@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Mar 15 10:02:01 2024 PDT
+Local Time is:    Mon Mar 25 22:18:07 2024 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -68,14 +68,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   001    -    39534
- 12 Power_Cycle_Count       -O--CK   100   100   001    -    1976
+  9 Power_On_Hours          -O--CK   100   100   001    -    39787
+ 12 Power_Cycle_Count       -O--CK   100   100   001    -    1977
 170 Grown_Failing_Block_Ct  PO--CK   100   100   010    -    0
 171 Program_Fail_Count      -O--CK   100   100   001    -    0
 172 Erase_Fail_Count        -O--CK   100   100   001    -    0
-173 Wear_Leveling_Count     PO--CK   082   082   010    -    563
+173 Wear_Leveling_Count     PO--CK   082   082   010    -    567
 174 Unexpect_Power_Loss_Ct  -O--CK   100   100   001    -    1
-181 Non4k_Aligned_Access    -O---K   100   100   001    -    9575 8690 884
+181 Non4k_Aligned_Access    -O---K   100   100   001    -    9652 8763 888
 183 SATA_Iface_Downshift    -O--CK   100   100   001    -    0
 184 End-to-End_Error        PO--CK   100   100   050    -    0
 187 Reported_Uncorrect      -O--CK   100   100   001    -    0
@@ -149,7 +149,7 @@ Temperature Sampling Period:         10 minutes
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (298)
+Temperature History Size (Index):    478 (71)
 
 SCT Error Recovery Control:
            Read:     40 (4.0 seconds)
@@ -158,12 +158,12 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4            1976  ---  Lifetime Power-On Resets
-0x01  0x010  4           39534  ---  Power-on Hours
-0x01  0x018  6     64560314049  ---  Logical Sectors Written
-0x01  0x020  6       686516864  ---  Number of Write Commands
-0x01  0x028  6      7722251237  ---  Logical Sectors Read
-0x01  0x030  6       175082329  ---  Number of Read Commands
+0x01  0x008  4            1977  ---  Lifetime Power-On Resets
+0x01  0x010  4           39787  ---  Power-on Hours
+0x01  0x018  6     65107095409  ---  Logical Sectors Written
+0x01  0x020  6       690885339  ---  Number of Write Commands
+0x01  0x028  6      7733683459  ---  Logical Sectors Read
+0x01  0x030  6       175358873  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
@@ -196,5 +196,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4            2  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            5  Device-to-host register FISes sent due to a COMRESET
 

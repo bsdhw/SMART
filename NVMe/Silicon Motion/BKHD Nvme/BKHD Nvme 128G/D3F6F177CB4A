@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          128,035,676,160 [128 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            000001 ...
-Local Time is:                      Fri Jan 12 11:55:53 2024 UTC
+Local Time is:                      Sat Feb 17 03:41:44 2024 UTC
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0014):     DS_Mngmt Sav/Sel_Feat
@@ -40,23 +40,23 @@ Critical Warning:                   0x00
 Temperature:                        45 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    3,718,047 [1.90 TB]
-Data Units Written:                 4,298,289 [2.20 TB]
-Host Read Commands:                 32,328,145
-Host Write Commands:                42,355,866
-Controller Busy Time:               3,606
-Power Cycles:                       343
-Power On Hours:                     853
-Unsafe Shutdowns:                   217
+Percentage Used:                    1%
+Data Units Read:                    3,988,221 [2.04 TB]
+Data Units Written:                 6,034,220 [3.08 TB]
+Host Read Commands:                 36,765,917
+Host Write Commands:                64,462,332
+Controller Busy Time:               5,780
+Power Cycles:                       418
+Power On Hours:                     1,663
+Unsafe Shutdowns:                   279
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
-Warning  Comp. Temperature Time:    214
+Warning  Comp. Temperature Time:    218
 Critical Comp. Temperature Time:    160
-Thermal Temp. 1 Transition Count:   358
-Thermal Temp. 2 Transition Count:   63
-Thermal Temp. 1 Total Time:         38667
-Thermal Temp. 2 Total Time:         31644
+Thermal Temp. 1 Transition Count:   380
+Thermal Temp. 2 Transition Count:   64
+Thermal Temp. 1 Total Time:         39782
+Thermal Temp. 2 Total Time:         34283
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

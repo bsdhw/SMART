@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.0-RELEASE amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital Scorpio Blue Serial ATA
@@ -9,9 +9,9 @@ LU WWN Device Id: 5 0014ee ...
 Firmware Version: 01.01A01
 User Capacity:    250,059,350,016 bytes [250 GB]
 Sector Size:      512 bytes logical/physical
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
-Local Time is:    Fri May 24 03:30:34 2024 CEST
+Local Time is:    Sat Jul 13 12:42:01 2024    
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Disabled
@@ -63,17 +63,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   200   200   051    -    0
-  3 Spin_Up_Time            PO----   189   186   021    -    1533
-  4 Start_Stop_Count        -O--CK   001   001   000    -    106430
+  3 Spin_Up_Time            PO----   189   186   021    -    1508
+  4 Start_Stop_Count        -O--CK   001   001   000    -    106666
   5 Reallocated_Sector_Ct   PO--CK   200   200   140    -    0
-  7 Seek_Error_Rate         POSR--   100   253   051    -    0
-  9 Power_On_Hours          -O--CK   083   083   000    -    13128
+  7 Seek_Error_Rate         POSR--   200   200   051    -    0
+  9 Power_On_Hours          -O--CK   082   082   000    -    13287
  10 Spin_Retry_Count        PO--C-   100   100   051    -    0
  11 Calibration_Retry_Count -O--C-   100   100   051    -    0
- 12 Power_Cycle_Count       -O--CK   097   097   000    -    3373
-192 Power-Off_Retract_Count -O--CK   199   199   000    -    753
-193 Load_Cycle_Count        -O--CK   118   118   000    -    247634
-194 Temperature_Celsius     -O---K   102   085   000    -    45
+ 12 Power_Cycle_Count       -O--CK   097   097   000    -    3586
+192 Power-Off_Retract_Count -O--CK   199   199   000    -    860
+193 Load_Cycle_Count        -O--CK   117   117   000    -    251659
+194 Temperature_Celsius     -O---K   101   085   000    -    46
 196 Reallocated_Event_Count -O--CK   200   200   000    -    0
 197 Current_Pending_Sector  -O--C-   200   200   000    -    0
 198 Offline_Uncorrectable   ----C-   100   253   000    -    0
@@ -107,7 +107,37 @@ Address    Access  R/W   Size  Description
 0xe1       GPL,SL  R/W      1  SCT Data Transfer
 
 SMART Extended Comprehensive Error Log Version: 1 (6 sectors)
-No Errors Logged
+Device Error Count: 1
+	CR     = Command Register
+	FEATR  = Features Register
+	COUNT  = Count (was: Sector Count) Register
+	LBA_48 = Upper bytes of LBA High/Mid/Low Registers ]  ATA-8
+	LH     = LBA High (was: Cylinder High) Register    ]   LBA
+	LM     = LBA Mid (was: Cylinder Low) Register      ] Register
+	LL     = LBA Low (was: Sector Number) Register     ]
+	DV     = Device (was: Device/Head) Register
+	DC     = Device Control Register
+	ER     = Error register
+	ST     = Status register
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 1 [0] occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  40 -- 00 01 01 00 51 00 00 40 01 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  00 3d 61 27 21 00 00 00 00 00 00 00 00     00:00:00.000  NOP [Reserved subcommand] [OBS-ACS-2]
+  00 68 c8 00 28 27 3c 01 21 60 00 00 00     00:00:04.208  NOP [Reserved subcommand] [OBS-ACS-2]
+  00 3a 61 27 21 00 60 00 f0 08 00 00 00     00:42:44.412  NOP [Reserved subcommand] [OBS-ACS-2]
+  00 50 00 00 08 27 39 00 21 61 00 00 00     00:00:02.136  NOP [Abort queued commands]
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
@@ -127,8 +157,8 @@ SCT Status Version:                  2
 SCT Version (vendor specific):       258 (0x0102)
 Device State:                        Active (0)
 Current Temperature:                    46 Celsius
-Power Cycle Min/Max Temperature:     45/46 Celsius
-Lifetime    Min/Max Temperature:     21/62 Celsius
+Power Cycle Min/Max Temperature:     26/46 Celsius
+Lifetime    Min/Max Temperature:     28/62 Celsius
 Under/Over Temperature Limit Count:   0/0
 Vendor specific:
 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -139,7 +169,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      5/60 Celsius
 Min/Max Temperature Limit:            1/85 Celsius
-Temperature History Size (Index):    128 (40)
+Temperature History Size (Index):    128 (96)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -158,6 +188,6 @@ ID      Size     Value  Description
 0x0005  2            0  R_ERR response for non-data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x000a  2           18  Device-to-host register FISes sent due to a COMRESET
-0x8000  4          743  Vendor specific
+0x000a  2           26  Device-to-host register FISes sent due to a COMRESET
+0x8000  4         2506  Vendor specific
 

@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jan 10 16:20:55 2024 JST
+Local Time is:    Fri Jun  7 16:43:46 2024 JST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -65,30 +65,30 @@ SMART Attributes Data Structure revision number: 20
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   ------+  100   100   050    -    0
-  9 Power_On_Hours          ------+  100   100   000    -    6213
- 12 Power_Cycle_Count       ------+  100   100   000    -    83
+  9 Power_On_Hours          ------+  100   100   000    -    9309
+ 12 Power_Cycle_Count       ------+  100   100   000    -    86
 167 Unknown_Attribute       ------+  100   100   000    -    0
 168 Unknown_Attribute       ------+  100   100   000    -    0
 169 Unknown_Attribute       ------+  100   100   010    -    131076
 171 Unknown_Attribute       ------+  100   100   000    -    23
 172 Unknown_Attribute       ------+  100   100   000    -    0
-173 Unknown_Attribute       ------+  200   200   000    -    266306519179
+173 Unknown_Attribute       ------+  200   200   000    -    266319364379
 175 Program_Fail_Count_Chip ------+  100   100   010    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot ------+  100   100   000    -    122
-187 Reported_Uncorrect      ------+  100   000   000    -    75
-192 Power-Off_Retract_Count ------+  100   100   000    -    81
-194 Temperature_Celsius     ------+  030   030   000    -    30 (Min/Max 25/36)
+187 Reported_Uncorrect      ------+  100   000   000    -    110
+192 Power-Off_Retract_Count ------+  100   100   000    -    84
+194 Temperature_Celsius     ------+  031   031   000    -    31 (Min/Max 25/36)
 206 Unknown_SSD_Attribute   ------+  200   200   000    -    62
-207 Unknown_SSD_Attribute   ------+  200   200   000    -    283
-208 Unknown_SSD_Attribute   ------+  200   200   000    -    139
+207 Unknown_SSD_Attribute   ------+  200   200   000    -    479
+208 Unknown_SSD_Attribute   ------+  200   200   000    -    283
 209 Unknown_SSD_Attribute   ------+  200   200   000    -    1
-210 Unknown_Attribute       ------+  200   200   000    -    225
-211 Unknown_Attribute       ------+  200   200   000    -    122
-231 Unknown_SSD_Attribute   ------+  096   096   005    -    4
-233 Media_Wearout_Indicator ------+  100   100   000    -    36001
-234 Unknown_Attribute       ------+  100   100   005    -    7500193
-241 Total_LBAs_Written      ------+  100   100   000    -    6525
-242 Total_LBAs_Read         ------+  100   100   000    -    2574
+210 Unknown_Attribute       ------+  200   200   000    -    518
+211 Unknown_Attribute       ------+  200   200   000    -    299
+231 Unknown_SSD_Attribute   ------+  091   091   005    -    9
+233 Media_Wearout_Indicator ------+  100   100   000    -    74490
+234 Unknown_Attribute       ------+  100   100   005    -    16541516
+241 Total_LBAs_Written      ------+  100   100   000    -    13111
+242 Total_LBAs_Read         ------+  100   100   000    -    2582
 245 Unknown_Attribute       ------+  100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -116,7 +116,7 @@ Address    Access  R/W   Size  Description
 0xe1       GPL,SL  R/W      1  SCT Data Transfer
 
 SMART Extended Comprehensive Error Log Version: 1 (64 sectors)
-Device Error Count: 75
+Device Error Count: 110
 	CR     = Command Register
 	FEATR  = Features Register
 	COUNT  = Count (was: Sector Count) Register
@@ -132,24 +132,24 @@ Powered_Up_Time is measured from power on, and printed as
 DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
 SS=sec, and sss=millisec. It "wraps" after 49.710 days.
 
-Error 75 [74] occurred at disk power-on lifetime: 5781 hours (240 days + 21 hours)
+Error 110 [109] occurred at disk power-on lifetime: 9146 hours (381 days + 2 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 41 00 01 00 00 1d cf 2f fe 40 00  Error: UNC at LBA = 0x1dcf2ffe = 500117502
+  40 -- 41 00 01 00 00 01 08 28 00 40 00  Error: UNC at LBA = 0x01082800 = 17311744
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  60 00 00 00 28 00 00 00 33 15 88 00 00  3d+07:20:15.500  READ FPDMA QUEUED
-  00 00 00 00 00 00 00 00 33 15 88 40 ff  3d+07:20:15.000  NOP [Abort queued commands]
-  60 00 00 00 08 00 00 00 33 15 88 00 00  3d+07:19:52.500  READ FPDMA QUEUED
-  ec 00 00 00 00 00 00 00 00 00 00 00 ff  3d+07:19:52.000  IDENTIFY DEVICE
-  60 00 00 00 e8 00 00 00 33 15 88 00 00  3d+07:19:29.500  READ FPDMA QUEUED
+  60 00 00 00 20 00 00 00 33 15 88 00 00  4d+21:35:59.804  READ FPDMA QUEUED
+  00 00 00 00 00 00 00 00 33 15 88 40 ff  4d+21:35:59.304  NOP [Abort queued commands]
+  60 00 00 00 00 00 00 00 33 15 88 00 00  4d+21:35:36.904  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff  4d+21:35:36.304  IDENTIFY DEVICE
+  60 00 00 00 e0 00 00 00 33 15 88 00 00  4d+21:35:13.904  READ FPDMA QUEUED
 
-Error 74 [73] occurred at disk power-on lifetime: 5781 hours (240 days + 21 hours)
+Error 109 [108] occurred at disk power-on lifetime: 9146 hours (381 days + 2 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -160,13 +160,13 @@ Error 74 [73] occurred at disk power-on lifetime: 5781 hours (240 days + 21 hour
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  60 00 00 00 08 00 00 00 33 15 88 00 00  3d+07:19:52.500  READ FPDMA QUEUED
-  ec 00 00 00 00 00 00 00 00 00 00 00 ff  3d+07:19:52.000  IDENTIFY DEVICE
-  60 00 00 00 e8 00 00 00 33 15 88 00 00  3d+07:19:29.500  READ FPDMA QUEUED
-  ec 00 00 00 00 00 00 00 00 00 00 00 ff  3d+07:19:29.000  IDENTIFY DEVICE
-  00 00 00 00 00 00 00 00 33 15 88 40 12  3d+07:19:06.500  NOP [Abort queued commands]
+  60 00 00 00 00 00 00 00 33 15 88 00 00  4d+21:35:36.904  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff  4d+21:35:36.304  IDENTIFY DEVICE
+  60 00 00 00 e0 00 00 00 33 15 88 00 00  4d+21:35:13.904  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff  4d+21:35:13.304  IDENTIFY DEVICE
+  00 00 00 00 00 00 00 00 33 15 88 40 11  4d+21:34:50.904  NOP [Abort queued commands]
 
-Error 73 [72] occurred at disk power-on lifetime: 5781 hours (240 days + 21 hours)
+Error 108 [107] occurred at disk power-on lifetime: 9146 hours (381 days + 2 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -177,81 +177,64 @@ Error 73 [72] occurred at disk power-on lifetime: 5781 hours (240 days + 21 hour
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  60 00 00 00 e8 00 00 00 33 15 88 00 00  3d+07:19:29.500  READ FPDMA QUEUED
-  ec 00 00 00 00 00 00 00 00 00 00 00 ff  3d+07:19:29.000  IDENTIFY DEVICE
-  00 00 00 00 00 00 00 00 33 15 88 40 12  3d+07:19:06.500  NOP [Abort queued commands]
-  b0 00 d5 00 01 00 00 00 c2 4f e0 00 80  3d+07:19:06.000  SMART READ LOG
-  ec 00 00 00 00 00 00 00 00 00 00 00 ff  3d+07:19:06.000  IDENTIFY DEVICE
+  60 00 00 00 e0 00 00 00 33 15 88 00 00  4d+21:35:13.904  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff  4d+21:35:13.304  IDENTIFY DEVICE
+  00 00 00 00 00 00 00 00 33 15 88 40 11  4d+21:34:50.904  NOP [Abort queued commands]
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 80  4d+21:34:50.304  SMART READ LOG
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff  4d+21:34:50.304  IDENTIFY DEVICE
 
-Error 72 [71] occurred at disk power-on lifetime: 5781 hours (240 days + 21 hours)
+Error 107 [106] occurred at disk power-on lifetime: 9146 hours (381 days + 2 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 41 00 b8 00 00 00 33 26 00 40 00  Error: 
+  40 -- 41 00 b0 00 00 00 33 26 00 40 00  Error: 
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  00 00 00 00 00 00 00 00 33 15 88 40 12  3d+07:19:06.500  NOP [Abort queued commands]
-  b0 00 d5 00 01 00 00 00 c2 4f e0 00 80  3d+07:19:06.000  SMART READ LOG
-  ec 00 00 00 00 00 00 00 00 00 00 00 ff  3d+07:19:06.000  IDENTIFY DEVICE
-  60 00 00 00 30 00 00 00 33 15 88 00 80  3d+07:18:04.600  READ FPDMA QUEUED
-  ec 00 00 00 00 00 00 00 00 00 00 00 80  3d+07:18:04.100  IDENTIFY DEVICE
+  00 00 00 00 00 00 00 00 33 15 88 40 11  4d+21:34:50.904  NOP [Abort queued commands]
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 80  4d+21:34:50.304  SMART READ LOG
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff  4d+21:34:50.304  IDENTIFY DEVICE
+  60 00 00 00 28 00 00 00 33 15 88 00 80  4d+21:33:49.104  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 80  4d+21:33:48.604  IDENTIFY DEVICE
 
-Error 71 [70] occurred at disk power-on lifetime: 5781 hours (240 days + 21 hours)
+Error 106 [105] occurred at disk power-on lifetime: 9146 hours (381 days + 2 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 41 00 01 00 00 1d cf 2f ff 40 00  Error: UNC at LBA = 0x1dcf2fff = 500117503
+  40 -- 41 00 01 00 00 01 08 28 01 40 00  Error: UNC at LBA = 0x01082801 = 17311745
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  60 00 00 00 30 00 00 00 33 15 88 00 80  3d+07:18:04.600  READ FPDMA QUEUED
-  ec 00 00 00 00 00 00 00 00 00 00 00 80  3d+07:18:04.100  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 80  3d+07:18:04.100  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 80  3d+07:18:04.100  IDENTIFY DEVICE
-  ec 00 00 00 00 00 00 00 00 00 00 00 80  3d+07:18:04.100  IDENTIFY DEVICE
+  60 00 00 00 28 00 00 00 33 15 88 00 80  4d+21:33:49.104  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 80  4d+21:33:48.604  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 80  4d+21:33:48.604  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 80  4d+21:33:48.604  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00 00 00 00 00 80  4d+21:33:48.604  IDENTIFY DEVICE
 
-Error 70 [69] occurred at disk power-on lifetime: 5600 hours (233 days + 8 hours)
+Error 105 [104] occurred at disk power-on lifetime: 8053 hours (335 days + 13 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
   ER -- ST COUNT  LBA_48  LH LM LL DV DC
   -- -- -- == -- == == == -- -- -- -- --
-  40 -- 41 02 00 00 00 00 33 28 00 40 00  Error: UNC at LBA = 0x00332800 = 3352576
+  40 -- 41 00 04 00 00 1d cf 2f c1 40 00  Error: UNC at LBA = 0x1dcf2fc1 = 500117441
 
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  60 00 00 00 98 00 00 00 33 15 88 00 00     00:51:03.800  READ FPDMA QUEUED
-  60 00 00 00 28 00 00 00 33 15 88 40 ff     00:51:03.200  READ FPDMA QUEUED
-  60 00 00 00 70 00 00 00 33 15 88 00 00     00:50:40.800  READ FPDMA QUEUED
-  b0 00 da 00 00 00 00 00 c2 4f 00 00 ff     00:50:40.200  SMART RETURN STATUS
-  60 00 00 00 58 00 00 00 33 15 88 00 00     00:50:28.100  READ FPDMA QUEUED
+  60 00 00 00 d8 00 00 00 33 15 88 00 00 14d+23:24:36.300  READ FPDMA QUEUED
+  60 00 00 00 78 00 00 00 33 15 88 00 ff 14d+23:24:35.800  READ FPDMA QUEUED
+  60 00 00 00 c0 00 00 00 33 15 88 00 00 14d+23:24:13.300  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff 14d+23:24:12.800  IDENTIFY DEVICE
+  60 00 00 00 90 00 00 00 33 15 88 00 00 14d+23:23:50.300  READ FPDMA QUEUED
 
-Error 69 [68] occurred at disk power-on lifetime: 5600 hours (233 days + 8 hours)
-  When the command that caused the error occurred, the device was in an unknown state.
-
-  After command completion occurred, registers were:
-  ER -- ST COUNT  LBA_48  LH LM LL DV DC
-  -- -- -- == -- == == == -- -- -- -- --
-  40 -- 41 00 01 00 00 1d cf 2f ff 40 00  Error: UNC at LBA = 0x1dcf2fff = 500117503
-
-  Commands leading to the command that caused the error were:
-  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
-  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  60 00 00 00 70 00 00 00 33 15 88 00 00     00:50:40.800  READ FPDMA QUEUED
-  b0 00 da 00 00 00 00 00 c2 4f 00 00 ff     00:50:40.200  SMART RETURN STATUS
-  60 00 00 00 58 00 00 00 33 15 88 00 00     00:50:28.100  READ FPDMA QUEUED
-  60 00 00 00 c8 00 00 00 33 15 88 00 ff     00:50:27.600  READ FPDMA QUEUED
-  60 00 00 00 28 00 00 00 33 15 88 40 80     00:50:05.100  READ FPDMA QUEUED
-
-Error 68 [67] occurred at disk power-on lifetime: 5600 hours (233 days + 8 hours)
+Error 104 [103] occurred at disk power-on lifetime: 8053 hours (335 days + 13 hours)
   When the command that caused the error occurred, the device was in an unknown state.
 
   After command completion occurred, registers were:
@@ -262,14 +245,32 @@ Error 68 [67] occurred at disk power-on lifetime: 5600 hours (233 days + 8 hours
   Commands leading to the command that caused the error were:
   CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
   -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
-  60 00 00 00 58 00 00 00 33 15 88 00 00     00:50:28.100  READ FPDMA QUEUED
-  60 00 00 00 c8 00 00 00 33 15 88 00 ff     00:50:27.600  READ FPDMA QUEUED
-  60 00 00 00 28 00 00 00 33 15 88 40 80     00:50:05.100  READ FPDMA QUEUED
-  2f 00 00 00 01 00 00 00 00 00 e0 40 80     00:50:04.600  READ LOG EXT
-  b0 00 da 00 00 00 00 00 c2 4f 00 00 80     00:50:04.600  SMART RETURN STATUS
+  60 00 00 00 c0 00 00 00 33 15 88 00 00 14d+23:24:13.300  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff 14d+23:24:12.800  IDENTIFY DEVICE
+  60 00 00 00 90 00 00 00 33 15 88 00 00 14d+23:23:50.300  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff 14d+23:23:49.800  IDENTIFY DEVICE
+  60 00 00 00 78 00 00 00 33 15 88 00 80 14d+23:23:27.300  READ FPDMA QUEUED
+
+Error 103 [102] occurred at disk power-on lifetime: 8053 hours (335 days + 13 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  40 -- 41 00 04 00 00 1d cf 2f c1 40 00  Error: UNC at LBA = 0x1dcf2fc1 = 500117441
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  60 00 00 00 90 00 00 00 33 15 88 00 00 14d+23:23:50.300  READ FPDMA QUEUED
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff 14d+23:23:49.800  IDENTIFY DEVICE
+  60 00 00 00 78 00 00 00 33 15 88 00 80 14d+23:23:27.300  READ FPDMA QUEUED
+  b0 00 d5 00 01 00 00 00 c2 4f e0 00 80 14d+23:23:26.800  SMART READ LOG
+  ec 00 00 00 00 00 00 00 00 00 00 00 ff 14d+23:23:26.800  IDENTIFY DEVICE
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%      6249         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -285,7 +286,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
 Device State:                        Active (0)
-Current Temperature:                    30 Celsius
+Current Temperature:                    31 Celsius
 Power Cycle Min/Max Temperature:      ?/33 Celsius
 Lifetime    Min/Max Temperature:      ?/ ? Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -295,22 +296,22 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -127/127 Celsius
 Min/Max Temperature Limit:           -127/127 Celsius
-Temperature History Size (Index):    478 (62)
+Temperature History Size (Index):    478 (453)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              83  ---  Lifetime Power-On Resets
-0x01  0x010  4            6213  ---  Power-on Hours
-0x01  0x018  6     13685018855  ---  Logical Sectors Written
-0x01  0x020  6       438397016  ---  Number of Write Commands
-0x01  0x028  6      5399184868  ---  Logical Sectors Read
-0x01  0x030  6        15845652  ---  Number of Read Commands
-0x01  0x038  6   5510506298288  ---  Date and Time TimeStamp
+0x01  0x008  4              86  ---  Lifetime Power-On Resets
+0x01  0x010  4            9309  ---  Power-on Hours
+0x01  0x018  6     27496338974  ---  Logical Sectors Written
+0x01  0x020  6       627259958  ---  Number of Write Commands
+0x01  0x028  6      5415746856  ---  Logical Sectors Read
+0x01  0x030  6        16397801  ---  Number of Read Commands
+0x01  0x038  6   8382159457024  ---  Date and Time TimeStamp
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              18  N--  Percentage Used Endurance Indicator
+0x07  0x008  1              31  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -319,14 +320,14 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x0001  2           75  Command failed due to ICRC error
+0x0001  2          110  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           38  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           24  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

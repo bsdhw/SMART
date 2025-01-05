@@ -12,7 +12,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 4a
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Nov 12 16:09:40 2024 EST
+Local Time is:    Sat Nov 30 19:04:10 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,20 +58,20 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
   9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       3864
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       454
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       455
 170 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 171 Unknown_Attribute       0x0003   100   100   000    Pre-fail  Always       -       0
 172 Unknown_Attribute       0x0003   100   100   000    Pre-fail  Always       -       0
-173 Unknown_Attribute       0x0003   100   100   000    Pre-fail  Always       -       1035561
+173 Unknown_Attribute       0x0003   100   100   000    Pre-fail  Always       -       1035575
 174 Unknown_Attribute       0x0003   100   100   000    Pre-fail  Always       -       35
 178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   000    Old_age   Always       -       0
 180 Unused_Rsvd_Blk_Cnt_Tot 0x0033   100   100   010    Pre-fail  Always       -       960
 184 End-to-End_Error        0x0033   100   100   000    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
 199 UDMA_CRC_Error_Count    0x0003   100   100   000    Pre-fail  Always       -       0
-233 Media_Wearout_Indicator 0x0003   100   100   000    Pre-fail  Always       -       32615
-241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       521847
-242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       442437
+233 Media_Wearout_Indicator 0x0003   100   100   000    Pre-fail  Always       -       32618
+241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       521898
+242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       442514
 
 SMART Error Log Version: 0
 No Errors Logged

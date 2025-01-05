@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            00a075 ...
-Local Time is:                      Wed May  3 18:04:02 2023 UTC
+Local Time is:                      Wed May  3 19:02:15 2023 UTC
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x00d7):     Comp Wr_Unc DS_Mngmt Sav/Sel_Feat Timestmp Verify
@@ -43,13 +43,13 @@ Temperature:                        35 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          50%
 Percentage Used:                    0%
-Data Units Read:                    411,914 [210 GB]
-Data Units Written:                 498,863 [255 GB]
-Host Read Commands:                 4,082,420
-Host Write Commands:                4,271,203
+Data Units Read:                    414,003 [211 GB]
+Data Units Written:                 500,908 [256 GB]
+Host Read Commands:                 4,109,509
+Host Write Commands:                4,317,538
 Controller Busy Time:               5
-Power Cycles:                       198
-Power On Hours:                     48
+Power Cycles:                       199
+Power On Hours:                     49
 Unsafe Shutdowns:                   172
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0

@@ -15,7 +15,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 1.5 Gb/s)
-Local Time is:    Wed Sep 20 07:06:59 2023 +06
+Local Time is:    Wed Sep 20 07:13:43 2023 +06
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain ----CK   100   100   001    -    0
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    591064458
-247 Host_Program_Page_Count -O--CK   100   100   000    -    5874946
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    3120372
+246 Total_LBAs_Written      -O--CK   100   100   000    -    591225065
+247 Host_Program_Page_Count -O--CK   100   100   000    -    5876477
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    3121231
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -145,7 +145,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/100 Celsius
 Min/Max Temperature Limit:            0/100 Celsius
-Temperature History Size (Index):    128 (5)
+Temperature History Size (Index):    128 (12)
 
 SCT Error Recovery Control command not supported
 
@@ -154,11 +154,11 @@ Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              29  ---  Lifetime Power-On Resets
 0x01  0x010  4            1265  ---  Power-on Hours
-0x01  0x018  6       591064458  ---  Logical Sectors Written
-0x01  0x020  6         8154684  ---  Number of Write Commands
-0x01  0x028  6        75665871  ---  Logical Sectors Read
-0x01  0x030  6         1488214  ---  Number of Read Commands
-0x01  0x038  6       259540826  ---  Date and Time TimeStamp
+0x01  0x018  6       591225065  ---  Logical Sectors Written
+0x01  0x020  6         8156975  ---  Number of Write Commands
+0x01  0x028  6        75745631  ---  Logical Sectors Read
+0x01  0x030  6         1490257  ---  Number of Read Commands
+0x01  0x038  6       259941894  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               8  ---  Resets Between Cmd Acceptance and Completion

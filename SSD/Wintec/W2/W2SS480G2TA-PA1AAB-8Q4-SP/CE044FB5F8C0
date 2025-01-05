@@ -13,7 +13,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jan 31 21:15:05 2024 EST
+Local Time is:    Tue Feb  6 02:54:44 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,16 +61,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    2214
+  9 Power_On_Hours          -O--C-   100   100   000    -    2340
  12 Power_Cycle_Count       -O--C-   100   100   000    -    28
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 170 Unknown_Attribute       PO----   100   100   010    -    603
 173 Unknown_Attribute       -O--C-   100   100   000    -    458782
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    18
-194 Temperature_Celsius     PO---K   106   081   057    -    21 (Min/Max 17/46)
+194 Temperature_Celsius     PO---K   108   081   057    -    19 (Min/Max 17/46)
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    100
-241 Total_LBAs_Written      -O--C-   100   100   000    -    2487
+241 Total_LBAs_Written      -O--C-   100   100   000    -    2503
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -117,17 +117,17 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              28  ---  Lifetime Power-On Resets
-0x01  0x010  4            2214  ---  Power-on Hours
-0x01  0x018  6      5215809565  ---  Logical Sectors Written
-0x01  0x020  6        27560237  ---  Number of Write Commands
-0x01  0x028  6     15527543235  ---  Logical Sectors Read
-0x01  0x030  6       766218346  ---  Number of Read Commands
+0x01  0x010  4            2340  ---  Power-on Hours
+0x01  0x018  6      5250147237  ---  Logical Sectors Written
+0x01  0x020  6        28217223  ---  Number of Write Commands
+0x01  0x028  6     15528482395  ---  Logical Sectors Read
+0x01  0x030  6       766271554  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              21  ---  Current Temperature
-0x05  0x010  1              18  ---  Average Short Term Temperature
+0x05  0x008  1              19  ---  Current Temperature
+0x05  0x010  1              19  ---  Average Short Term Temperature
 0x05  0x018  1              23  ---  Average Long Term Temperature
 0x05  0x020  1              46  ---  Highest Temperature
 0x05  0x028  1              17  ---  Lowest Temperature

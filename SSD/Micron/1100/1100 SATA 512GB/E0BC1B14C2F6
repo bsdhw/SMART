@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Nov  8 15:04:12 2024 MST
+Local Time is:    Mon Nov 11 04:04:15 2024 UTC
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -31,14 +31,14 @@ SMART overall-health self-assessment test result: PASSED
 See vendor-specific Attribute list for marginal Attributes.
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
+Offline data collection status:  (0x04)	Offline data collection activity
+					was suspended by an interrupting command from host.
 					Auto Offline Data Collection: Disabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
 					been run.
 Total time to complete Offline 
-data collection: 		( 1357) seconds.
+data collection: 		( 1318) seconds.
 Offline data collection
 capabilities: 			 (0x7b) SMART execute Offline immediate.
 					Auto Offline data collection on/off support.
@@ -67,13 +67,13 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocate_NAND_Blk_Cnt PO--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    25873
- 12 Power_Cycle_Count       PO--CK   100   100   001    -    77
+  9 Power_On_Hours          -O--CK   100   100   000    -    25927
+ 12 Power_Cycle_Count       PO--CK   100   100   001    -    81
 181 Program_Fail_Cnt_Total  PO--CK   100   100   001    -    0
 182 Erase_Fail_Count_Total  PO--CK   100   100   001    -    0
-177 Wear_Leveling_Count     PO--CK   091   091   010    -    146
+177 Wear_Leveling_Count     PO--CK   091   091   010    -    147
 187 Reported_Uncorrect      PO--CK   100   100   001    -    0
-194 Temperature_Celsius     -O---K   062   031   000    -    38 (Min/Max 20/69)
+194 Temperature_Celsius     -O---K   055   031   000    -    45 (Min/Max 20/69)
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
 238 Unknown_Attribute       ----CK   091   091   000    -    9
 175 Program_Fail_Count_Chip PO--CK   100   100   000    -    0
@@ -81,8 +81,8 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 178 Used_Rsvd_Blk_Cnt_Chip  PO--CK   100   100   000    -    0
 180 Unused_Reserve_NAND_Blk PO--CK   000   000   000    -    2479
 195 Cumulativ_Corrected_ECC POSR-K   100   000   050    Past 0
-241 Total_LBAs_Written      PO--CK   100   100   000    -    68902575956
-242 Total_LBAs_Read         PO--CK   100   100   000    -    6090282085
+241 Total_LBAs_Written      PO--CK   100   100   000    -    68980009996
+242 Total_LBAs_Read         PO--CK   100   100   000    -    6095637939
 179 Used_Rsvd_Blk_Cnt_Tot   PO--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -128,25 +128,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Vendor (0xff)       Completed without error       00%     25867         -
-# 2  Vendor (0xff)       Completed without error       00%     25737         -
-# 3  Vendor (0xff)       Completed without error       00%     25573         -
-# 4  Vendor (0xff)       Completed without error       00%     16147         -
-# 5  Vendor (0xff)       Completed without error       00%     15866         -
-# 6  Vendor (0xff)       Completed without error       00%     15329         -
-# 7  Vendor (0xff)       Completed without error       00%     14748         -
-# 8  Vendor (0xff)       Completed without error       00%     14158         -
-# 9  Vendor (0xff)       Completed without error       00%     13617         -
-#10  Vendor (0xff)       Completed without error       00%     13528         -
-#11  Vendor (0xff)       Completed without error       00%     13361         -
-#12  Vendor (0xff)       Completed without error       00%     13194         -
-#13  Vendor (0xff)       Completed without error       00%     12803         -
-#14  Vendor (0xff)       Completed without error       00%     12639         -
-#15  Vendor (0xff)       Completed without error       00%     12067         -
-#16  Vendor (0xff)       Completed without error       00%     11488         -
-#17  Vendor (0xff)       Completed without error       00%     10950         -
-#18  Vendor (0xff)       Completed without error       00%     10871         -
-#19  Vendor (0xff)       Completed without error       00%      2091         -
+# 1  Vendor (0xff)       Completed without error       00%     25921         -
+# 2  Vendor (0xff)       Completed without error       00%     25867         -
+# 3  Vendor (0xff)       Completed without error       00%     25737         -
+# 4  Vendor (0xff)       Completed without error       00%     25573         -
+# 5  Vendor (0xff)       Completed without error       00%     16147         -
+# 6  Vendor (0xff)       Completed without error       00%     15866         -
+# 7  Vendor (0xff)       Completed without error       00%     15329         -
+# 8  Vendor (0xff)       Completed without error       00%     14748         -
+# 9  Vendor (0xff)       Completed without error       00%     14158         -
+#10  Vendor (0xff)       Completed without error       00%     13617         -
+#11  Vendor (0xff)       Completed without error       00%     13528         -
+#12  Vendor (0xff)       Completed without error       00%     13361         -
+#13  Vendor (0xff)       Completed without error       00%     13194         -
+#14  Vendor (0xff)       Completed without error       00%     12803         -
+#15  Vendor (0xff)       Completed without error       00%     12639         -
+#16  Vendor (0xff)       Completed without error       00%     12067         -
+#17  Vendor (0xff)       Completed without error       00%     11488         -
+#18  Vendor (0xff)       Completed without error       00%     10950         -
+#19  Vendor (0xff)       Completed without error       00%     10871         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -161,9 +161,9 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 SCT Status Version:                  3
 SCT Version (vendor specific):       1 (0x0001)
-Device State:                        Active (0)
-Current Temperature:                    38 Celsius
-Power Cycle Min/Max Temperature:     31/44 Celsius
+Device State:                        SMART Off-line Data Collection executing in background (4)
+Current Temperature:                    45 Celsius
+Power Cycle Min/Max Temperature:     25/51 Celsius
 Lifetime    Min/Max Temperature:     20/69 Celsius
 Under/Over Temperature Limit Count:   0/0
 
@@ -172,25 +172,25 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (197)
+Temperature History Size (Index):    478 (89)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              77  ---  Lifetime Power-On Resets
-0x01  0x010  4           25873  ---  Power-on Hours
-0x01  0x018  6     68902575956  ---  Logical Sectors Written
-0x01  0x020  6       523014145  ---  Number of Write Commands
-0x01  0x028  6      6090282085  ---  Logical Sectors Read
-0x01  0x030  6         8292536  ---  Number of Read Commands
+0x01  0x008  4              81  ---  Lifetime Power-On Resets
+0x01  0x010  4           25927  ---  Power-on Hours
+0x01  0x018  6     68980010020  ---  Logical Sectors Written
+0x01  0x020  6       524590050  ---  Number of Write Commands
+0x01  0x028  6      6095637939  ---  Logical Sectors Read
+0x01  0x030  6         8445124  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4             139  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4             142  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              38  ---  Current Temperature
-0x05  0x010  1              33  ---  Average Short Term Temperature
+0x05  0x008  1              45  ---  Current Temperature
+0x05  0x010  1              37  ---  Average Short Term Temperature
 0x05  0x018  1               -  ---  Average Long Term Temperature
 0x05  0x020  1              69  ---  Highest Temperature
 0x05  0x028  1              20  ---  Lowest Temperature
@@ -203,8 +203,8 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            3472  ---  Number of Hardware Resets
-0x06  0x010  4            2782  ---  Number of ASR Events
+0x06  0x008  4            3487  ---  Number of Hardware Resets
+0x06  0x010  4            2784  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               9  N--  Percentage Used Endurance Indicator
@@ -217,7 +217,7 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            6  Device-to-host register FISes sent due to a COMRESET
 
 
 

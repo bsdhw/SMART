@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat May 13 10:17:38 2023 EDT
+Local Time is:    Tue May 16 21:16:02 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,10 +61,10 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   050    -    0
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    8
-  9 Power_On_Hours          -O--CK   100   100   000    -    1573
+  9 Power_On_Hours          -O--CK   100   100   000    -    1656
  12 Power_Cycle_Count       -O--CK   100   100   000    -    88
 161 Unknown_Attribute       -O--CK   100   100   050    -    319
-162 Unknown_Attribute       -O--CK   100   100   000    -    5154
+162 Unknown_Attribute       -O--CK   100   100   000    -    5295
 163 Unknown_Attribute       -O--CK   100   100   000    -    3000
 164 Unknown_Attribute       -O--CK   100   100   000    -    6
 166 Unknown_Attribute       -O--CK   100   100   000    -    820
@@ -75,19 +75,19 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 172 Unknown_Attribute       -O--CK   100   100   000    -    0
 174 Unknown_Attribute       -O--CK   100   100   000    -    64
 175 Program_Fail_Count_Chip -O--CK   100   100   000    -    1
-181 Program_Fail_Cnt_Total  -O---K   100   100   000    -    329114
+181 Program_Fail_Cnt_Total  -O---K   100   100   000    -    336811
 187 Reported_Uncorrect      -O--CK   100   100   000    -    1
-194 Temperature_Celsius     -O---K   100   100   000    -    58
+194 Temperature_Celsius     -O---K   100   100   000    -    57
 195 Hardware_ECC_Recovered  -O-RCK   100   100   000    -    637867
 196 Reallocated_Event_Count -O--CK   100   100   000    -    1
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    1
 206 Unknown_SSD_Attribute   -O--CK   100   100   000    -    1
 207 Unknown_SSD_Attribute   -O--CK   100   100   000    -    11
 232 Available_Reservd_Space -O--CK   100   100   000    -    75
-241 Total_LBAs_Written      -O--CK   100   100   000    -    1877
-242 Total_LBAs_Read         -O--CK   100   100   000    -    124
+241 Total_LBAs_Written      -O--CK   100   100   000    -    1943
+242 Total_LBAs_Read         -O--CK   100   100   000    -    131
 249 Unknown_Attribute       -O--CK   100   100   000    -    367
-250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    2007
+250 Read_Error_Retry_Rate   -O--CK   100   100   000    -    2074
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -289,17 +289,17 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              88  ---  Lifetime Power-On Resets
-0x01  0x010  4            1573  ---  Power-on Hours
-0x01  0x018  6      3937495008  ---  Logical Sectors Written
-0x01  0x020  6        57929993  ---  Number of Write Commands
-0x01  0x028  6       261828430  ---  Logical Sectors Read
-0x01  0x030  6         8688380  ---  Number of Read Commands
-0x01  0x038  6      5665824055  ---  Date and Time TimeStamp
+0x01  0x010  4            1656  ---  Power-on Hours
+0x01  0x018  6      4075379032  ---  Logical Sectors Written
+0x01  0x020  6        60257784  ---  Number of Write Commands
+0x01  0x028  6       275189202  ---  Logical Sectors Read
+0x01  0x030  6         9136990  ---  Number of Read Commands
+0x01  0x038  6      5957858433  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4            5492  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4              13  ---  Resets Between Cmd Acceptance and Completion
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             535  ---  Number of Hardware Resets
+0x06  0x008  4             544  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  ---  Percentage Used Endurance Indicator
@@ -312,5 +312,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           54  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           63  Device-to-host register FISes sent due to a COMRESET
 

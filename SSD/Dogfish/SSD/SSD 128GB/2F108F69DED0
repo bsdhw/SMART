@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri Jan  5 17:33:03 2024 EST
+Local Time is:    Mon Jan 29 22:35:47 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,17 +61,17 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -O--CK   100   100   050    -    0
   5 Reallocated_Sector_Ct   -O--CK   100   100   050    -    0
-  9 Power_On_Hours          -O--CK   100   100   050    -    588
+  9 Power_On_Hours          -O--CK   100   100   050    -    1171
  12 Power_Cycle_Count       -O--CK   100   100   050    -    41
 160 Unknown_Attribute       -O--CK   100   100   050    -    0
 161 Unknown_Attribute       PO--CK   100   100   050    -    100
 163 Unknown_Attribute       -O--CK   100   100   050    -    36
-164 Unknown_Attribute       -O--CK   100   100   050    -    81511
-165 Unknown_Attribute       -O--CK   100   100   050    -    250
-166 Unknown_Attribute       -O--CK   100   100   050    -    2
-167 Unknown_Attribute       -O--CK   100   100   050    -    41
+164 Unknown_Attribute       -O--CK   100   100   050    -    356623
+165 Unknown_Attribute       -O--CK   100   100   050    -    668
+166 Unknown_Attribute       -O--CK   100   100   050    -    6
+167 Unknown_Attribute       -O--CK   100   100   050    -    181
 168 Unknown_Attribute       -O--CK   100   100   050    -    5050
-169 Unknown_Attribute       -O--CK   100   100   050    -    100
+169 Unknown_Attribute       -O--CK   100   100   050    -    97
 175 Program_Fail_Count_Chip -O--CK   100   100   050    -    0
 176 Erase_Fail_Count_Chip   -O--CK   100   100   050    -    0
 177 Wear_Leveling_Count     -O--CK   100   100   050    -    0
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 197 Current_Pending_Sector  -O--CK   100   100   050    -    0
 198 Offline_Uncorrectable   -O--CK   100   100   050    -    0
 232 Available_Reservd_Space -O--CK   100   100   050    -    100
-241 Total_LBAs_Written      ----CK   100   100   050    -    128906
-242 Total_LBAs_Read         ----CK   100   100   050    -    5181
-245 Unknown_Attribute       -O--CK   100   100   050    -    77262
+241 Total_LBAs_Written      ----CK   100   100   050    -    330606
+242 Total_LBAs_Read         ----CK   100   100   050    -    7253
+245 Unknown_Attribute       -O--CK   100   100   050    -    506798
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -137,13 +137,13 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              41  ---  Lifetime Power-On Resets
-0x01  0x010  4             588  ---  Power-on Hours
-0x01  0x018  6      4153031767  ---  Logical Sectors Written
-0x01  0x020  6       109914237  ---  Number of Write Commands
-0x01  0x028  6       339544462  ---  Logical Sectors Read
-0x01  0x030  6         3800440  ---  Number of Read Commands
+0x01  0x010  4            1171  ---  Power-on Hours
+0x01  0x018  6       191819207  ---  Logical Sectors Written
+0x01  0x020  6       253787678  ---  Number of Write Commands
+0x01  0x028  6       475366703  ---  Logical Sectors Read
+0x01  0x030  6         7002994  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1               2  ---  Percentage Used Endurance Indicator
+0x07  0x008  1               6  ---  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -155,5 +155,5 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4           11  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           14  Device-to-host register FISes sent due to a COMRESET
 

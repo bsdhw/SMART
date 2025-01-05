@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Dec 28 19:38:21 2023 CST
+Local Time is:    Wed Jan 24 23:26:12 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -27,9 +27,8 @@ General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
 					was never started.
 					Auto Offline Data Collection: Disabled.
-Self-test execution status:      (   0)	The previous self-test routine completed
-					without error or no self-test has ever 
-					been run.
+Self-test execution status:      (  16)	The self-test routine was aborted by
+					the host.
 Total time to complete Offline 
 data collection: 		(65535) seconds.
 Offline data collection
@@ -57,22 +56,23 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       608
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       426
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       898
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       563
 168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
 170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       287
-173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       327716
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       223
+173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       458789
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       340
 194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
 218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
 231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       99
-241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       5168
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       6894
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
-No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Aborted by host               00%       876         -
 
 SMART Selective self-test log data structure revision number 0
 Note: revision number not 1 implies that no selective self-test has ever been run

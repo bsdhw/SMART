@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p1 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sat Feb  3 12:07:01 2024 CET
+Local Time is:    Mon Feb  5 22:20:18 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,7 +61,7 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   ---   ---   ---    -    1095216686180
   9 Power_On_Hours          -O--C-   ---   ---   ---    -    1310745700
- 12 Power_Cycle_Count       -O--C-   ---   ---   ---    -    71263332
+ 12 Power_Cycle_Count       -O--C-   ---   ---   ---    -    71853156
 168 Unknown_Attribute       -O--C-   100   100   000    -    121
 170 Unknown_Attribute       PO----   076   076   010    -    240518168676
 173 Unknown_Attribute       -O--C-   100   100   000    -    36701276
@@ -128,8 +128,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4            5  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4            7  Device-to-host register FISes sent due to a COMRESET
+0x0009  4            2  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

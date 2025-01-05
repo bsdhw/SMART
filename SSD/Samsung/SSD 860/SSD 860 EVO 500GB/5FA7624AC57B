@@ -1,4 +1,4 @@
-smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.1.0 amd64] (local build)
+smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.1.1 amd64] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Aug  1 16:02:28 2023 EDT
+Local Time is:    Sat Jan  6 01:00:04 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -58,18 +58,18 @@ SMART Attributes Data Structure revision number: 1
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   090   090   000    Old_age   Always       -       47228
- 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       101
+  9 Power_On_Hours          0x0032   089   089   000    Old_age   Always       -       51006
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       102
 177 Wear_Leveling_Count     0x0013   097   097   000    Pre-fail  Always       -       39
 179 Used_Rsvd_Blk_Cnt_Tot   0x0013   100   100   010    Pre-fail  Always       -       0
 181 Program_Fail_Cnt_Total  0x0032   100   100   010    Old_age   Always       -       0
 182 Erase_Fail_Count_Total  0x0032   100   100   010    Old_age   Always       -       0
 183 Runtime_Bad_Block       0x0013   100   100   010    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   078   056   000    Old_age   Always       -       22
+190 Airflow_Temperature_Cel 0x0032   076   056   000    Old_age   Always       -       24
 195 ECC_Error_Rate          0x001a   200   200   000    Old_age   Always       -       0
 199 CRC_Error_Count         0x003e   099   099   000    Old_age   Always       -       52
-235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       54
+235 POR_Recovery_Count      0x0012   099   099   000    Old_age   Always       -       55
 241 Total_LBAs_Written      0x0032   099   099   000    Old_age   Always       -       64024008991
 
 SMART Error Log Version: 1

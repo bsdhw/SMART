@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Jul 11 15:08:17 2024 CEST
+Local Time is:    Fri Sep  6 12:49:01 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -62,34 +62,34 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0000   100   100   000    Old_age   Offline      -       0
   5 Reallocated_Sector_Ct   0x0000   100   100   000    Old_age   Offline      -       0
-  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       8540
- 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       3721
-148 Total_SLC_Erase_Ct      0x0000   100   100   000    Old_age   Offline      -       2027
-149 Max_SLC_Erase_Ct        0x0000   100   100   000    Old_age   Offline      -       179
+  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       8843
+ 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       3814
+148 Total_SLC_Erase_Ct      0x0000   100   100   000    Old_age   Offline      -       2208
+149 Max_SLC_Erase_Ct        0x0000   100   100   000    Old_age   Offline      -       192
 150 Min_SLC_Erase_Ct        0x0000   100   100   000    Old_age   Offline      -       0
-151 Average_SLC_Erase_Ct    0x0000   100   100   000    Old_age   Offline      -       126
+151 Average_SLC_Erase_Ct    0x0000   100   100   000    Old_age   Offline      -       138
 159 DRAM_1_Bit_Error_Count  0x0000   100   100   000    Old_age   Offline      -       0
 160 Uncorrectable_Error_Cnt 0x0000   100   100   000    Old_age   Offline      -       0
 161 Valid_Spare_Block_Cnt   0x0000   100   100   000    Old_age   Offline      -       23
 163 Initial_Bad_Block_Count 0x0000   100   100   000    Old_age   Offline      -       14
-164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       101210
-165 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       245
-166 Min_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       145
-167 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       196
+164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       111874
+165 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       264
+166 Min_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       164
+167 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       216
 168 Max_Erase_Count_of_Spec 0x0000   100   100   000    Old_age   Offline      -       3000
-169 Remaining_Lifetime_Perc 0x0000   100   100   000    Old_age   Offline      -       94
-177 Wear_Leveling_Count     0x0000   100   100   050    Old_age   Offline      -       298
+169 Remaining_Lifetime_Perc 0x0000   100   100   000    Old_age   Offline      -       93
+177 Wear_Leveling_Count     0x0000   100   100   050    Old_age   Offline      -       357
 181 Program_Fail_Cnt_Total  0x0000   100   100   000    Old_age   Offline      -       0
 182 Erase_Fail_Count_Total  0x0000   100   100   000    Old_age   Offline      -       0
 187 Reported_Uncorrect      0x0000   100   100   000    Old_age   Offline      -       0
-192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       104
-194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       54
+192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       106
+194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       56
 196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       0
 199 UDMA_CRC_Error_Count    0x0000   100   100   050    Old_age   Offline      -       0
 232 Available_Reservd_Space 0x0000   100   100   000    Old_age   Offline      -       100
-241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       415274
-242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       440676
-245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       1619360
+241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       449336
+242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       446611
+245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       1789984
 
 SMART Error Log Version: 1
 Invalid Error Log index = 0x06 (valid range is from 1 to 5)
@@ -97,7 +97,7 @@ ATA Error Count: 0 (possibly also invalid)
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Offline             Completed without error       00%        92         -
+# 1  Offline             Completed without error       00%       139         -
 # 2  Short offline       Completed without error       00%       225         -
 # 3  Extended offline    Completed without error       00%        13         -
 # 4  Short offline       Completed without error       00%        13         -

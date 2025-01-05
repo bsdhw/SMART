@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu May  2 13:12:27 2024 AEST
+Local Time is:    Sun Jun 16 07:19:54 2024 AEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -22,7 +22,7 @@ APM feature is:   Unavailable
 Rd look-ahead is: Enabled
 Write cache is:   Enabled
 DSN feature is:   Unavailable
-ATA Security is:  Disabled, frozen [SEC2]
+ATA Security is:  Disabled, NOT FROZEN [SEC1]
 Wt Cache Reorder: Enabled
 
 === START OF READ SMART DATA SECTION ===
@@ -64,10 +64,10 @@ SCT capabilities: 	       (0x0035)	SCT Status supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   100   100   050    -    70
+  1 Raw_Read_Error_Rate     POSR--   100   100   050    -    78
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    4
-  9 Power_On_Hours          -O--CK   100   100   000    -    15602
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    127
+  9 Power_On_Hours          -O--CK   100   100   000    -    16675
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    129
 170 Unknown_Attribute       PO--CK   100   100   010    -    20
 171 Unknown_Attribute       -O--CK   100   100   000    -    0
 172 Unknown_Attribute       -O--CK   100   100   000    -    0
@@ -78,10 +78,10 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 183 Runtime_Bad_Block       -O--CK   100   100   000    -    0
 184 End-to-End_Error        -O--CK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
-188 Command_Timeout         -O--CK   100   100   000    -    13
+188 Command_Timeout         -O--CK   100   100   000    -    15
 190 Airflow_Temperature_Cel -O---K   065   054   000    -    35 (Min/Max 18/46)
 194 Temperature_Celsius     -O---K   065   054   000    -    35 (Min/Max 18/46)
-195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    817364911275
+195 Hardware_ECC_Recovered  -O-RC-   100   100   000    -    507823377043
 196 Reallocated_Event_Count PO--CK   100   100   000    -    20
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
@@ -130,25 +130,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Vendor (0xff)       Completed without error       00%     15591         -
-# 2  Vendor (0xff)       Completed without error       00%     15577         -
-# 3  Vendor (0xff)       Completed without error       00%     15560         -
-# 4  Vendor (0xff)       Completed without error       00%     15547         -
-# 5  Vendor (0xff)       Completed without error       00%     15533         -
-# 6  Vendor (0xff)       Completed without error       00%     15520         -
-# 7  Vendor (0xff)       Completed without error       00%     15503         -
-# 8  Vendor (0xff)       Completed without error       00%     15490         -
-# 9  Vendor (0xff)       Completed without error       00%     15477         -
-#10  Vendor (0xff)       Completed without error       00%     15464         -
-#11  Vendor (0xff)       Completed without error       00%     15452         -
-#12  Vendor (0xff)       Completed without error       00%     15438         -
-#13  Vendor (0xff)       Completed without error       00%     15425         -
-#14  Vendor (0xff)       Completed without error       00%     15412         -
-#15  Vendor (0xff)       Completed without error       00%     15400         -
-#16  Vendor (0xff)       Completed without error       00%     15387         -
-#17  Vendor (0xff)       Completed without error       00%     15374         -
-#18  Vendor (0xff)       Completed without error       00%     15360         -
-#19  Vendor (0xff)       Completed without error       00%     15348         -
+# 1  Vendor (0xff)       Completed without error       00%     16668         -
+# 2  Vendor (0xff)       Completed without error       00%     16656         -
+# 3  Vendor (0xff)       Completed without error       00%     16643         -
+# 4  Vendor (0xff)       Completed without error       00%     16631         -
+# 5  Vendor (0xff)       Completed without error       00%     16618         -
+# 6  Vendor (0xff)       Completed without error       00%     16606         -
+# 7  Vendor (0xff)       Completed without error       00%     16593         -
+# 8  Vendor (0xff)       Completed without error       00%     16581         -
+# 9  Vendor (0xff)       Completed without error       00%     16568         -
+#10  Vendor (0xff)       Completed without error       00%     16556         -
+#11  Vendor (0xff)       Completed without error       00%     16543         -
+#12  Vendor (0xff)       Completed without error       00%     16531         -
+#13  Vendor (0xff)       Completed without error       00%     16518         -
+#14  Vendor (0xff)       Completed without error       00%     16506         -
+#15  Vendor (0xff)       Completed without error       00%     16493         -
+#16  Vendor (0xff)       Completed without error       00%     16480         -
+#17  Vendor (0xff)       Completed without error       00%     16467         -
+#18  Vendor (0xff)       Completed without error       00%     16455         -
+#19  Vendor (0xff)       Completed without error       00%     16443         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -175,25 +175,25 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (456)
+Temperature History Size (Index):    478 (179)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             127  ---  Lifetime Power-On Resets
-0x01  0x010  4           15602  ---  Power-on Hours
+0x01  0x008  4             129  ---  Lifetime Power-On Resets
+0x01  0x010  4           16675  ---  Power-on Hours
 0x01  0x018  6      7484601762  ---  Logical Sectors Written
 0x01  0x020  6       177941201  ---  Number of Write Commands
-0x01  0x028  6      1623973766  ---  Logical Sectors Read
-0x01  0x030  6        32804666  ---  Number of Read Commands
+0x01  0x028  6      1623984491  ---  Logical Sectors Read
+0x01  0x030  6        32804926  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4              13  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4              15  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              35  ---  Current Temperature
-0x05  0x010  1              34  ---  Average Short Term Temperature
+0x05  0x010  1              32  ---  Average Short Term Temperature
 0x05  0x018  1              34  ---  Average Long Term Temperature
 0x05  0x020  1              46  ---  Highest Temperature
 0x05  0x028  1              15  ---  Lowest Temperature
@@ -206,7 +206,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               -  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             118  ---  Number of Hardware Resets
+0x06  0x008  4             123  ---  Number of Hardware Resets
 0x06  0x010  4               0  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
@@ -220,7 +220,7 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           58  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            2  Device-to-host register FISes sent due to a COMRESET
 
 
 

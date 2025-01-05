@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          2,000,398,934,016 [2.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            001b44 ...
-Local Time is:                      Thu Feb  8 21:13:27 2024 CST
+Local Time is:                      Fri Mar 15 09:16:49 2024 CDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x00df):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp Verify
@@ -44,24 +44,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        45 Celsius
+Temperature:                        46 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    2,395,723 [1.22 TB]
-Data Units Written:                 26,281,527 [13.4 TB]
-Host Read Commands:                 36,276,618
-Host Write Commands:                228,779,840
-Controller Busy Time:               970
-Power Cycles:                       10
-Power On Hours:                     686
-Unsafe Shutdowns:                   6
+Data Units Read:                    2,401,330 [1.22 TB]
+Data Units Written:                 27,560,567 [14.1 TB]
+Host Read Commands:                 36,487,207
+Host Write Commands:                246,166,967
+Controller Busy Time:               996
+Power Cycles:                       12
+Power On Hours:                     1,537
+Unsafe Shutdowns:                   8
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               66 Celsius
-Temperature Sensor 2:               39 Celsius
+Temperature Sensor 1:               67 Celsius
+Temperature Sensor 2:               40 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 256 entries)
 No Errors Logged

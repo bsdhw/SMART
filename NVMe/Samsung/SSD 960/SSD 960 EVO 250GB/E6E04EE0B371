@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.0-STABLE amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p7 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,10 +13,10 @@ Controller ID:                      2
 NVMe Version:                       1.2
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            132,925,280,256 [132 GB]
+Namespace 1 Utilization:            133,554,184,192 [133 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Sun May 14 12:29:33 2023 CEST
+Local Time is:                      Sun May 14 13:32:28 2023 CEST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
@@ -46,16 +46,16 @@ Temperature:                        43 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    14%
-Data Units Read:                    74,709,057 [38.2 TB]
-Data Units Written:                 77,575,810 [39.7 TB]
-Host Read Commands:                 1,421,425,982
-Host Write Commands:                1,038,420,248
-Controller Busy Time:               3,634
+Data Units Read:                    74,730,188 [38.2 TB]
+Data Units Written:                 77,677,976 [39.7 TB]
+Host Read Commands:                 1,421,696,826
+Host Write Commands:                1,040,260,893
+Controller Busy Time:               3,635
 Power Cycles:                       2,818
-Power On Hours:                     12,950
+Power On Hours:                     12,951
 Unsafe Shutdowns:                   631
 Media and Data Integrity Errors:    0
-Error Information Log Entries:      10,913
+Error Information Log Entries:      10,921
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
 Temperature Sensor 1:               43 Celsius
@@ -63,21 +63,21 @@ Temperature Sensor 2:               57 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 Num   ErrCount  SQId   CmdId  Status  PELoc          LBA  NSID    VS
-  0      10913     0  0x0012  0x421a  0x028            0     0     -
-  1      10912     0  0x0012  0x421a  0x028            0     0     -
-  2      10911     0  0x0012  0x421a  0x028            0     0     -
-  3      10910     0  0x0012  0x421a  0x028            0     0     -
-  4      10909     0  0x0012  0x421a  0x028            0     0     -
-  5      10908     0  0x0012  0x421a  0x028            0     0     -
-  6      10907     0  0x0012  0x421a  0x028            0     0     -
-  7      10906     0  0x0012  0x421a  0x028            0     0     -
-  8      10905     0  0x0012  0x421a  0x028            0     0     -
-  9      10904     0  0x0012  0x421a  0x028            0     0     -
- 10      10903     0  0x0012  0x421a  0x028            0     0     -
- 11      10902     0  0x0012  0x421a  0x028            0     0     -
- 12      10901     0  0x0012  0x421a  0x028            0     0     -
- 13      10900     0  0x0012  0x421a  0x028            0     0     -
- 14      10899     0  0x0010  0x421a  0x028            0     0     -
- 15      10898     0  0x0012  0x421a  0x028            0     0     -
+  0      10921     0  0x0012  0x421a  0x028            0     0     -
+  1      10920     0  0x0012  0x421a  0x028            0     0     -
+  2      10919     0  0x0012  0x421a  0x028            0     0     -
+  3      10918     0  0x0012  0x421a  0x028            0     0     -
+  4      10917     0  0x0012  0x421a  0x028            0     0     -
+  5      10916     0  0x0012  0x421a  0x028            0     0     -
+  6      10915     0  0x0012  0x421a  0x028            0     0     -
+  7      10914     0  0x0012  0x421a  0x028            0     0     -
+  8      10913     0  0x0012  0x421a  0x028            0     0     -
+  9      10912     0  0x0012  0x421a  0x028            0     0     -
+ 10      10911     0  0x0012  0x421a  0x028            0     0     -
+ 11      10910     0  0x0012  0x421a  0x028            0     0     -
+ 12      10909     0  0x0012  0x421a  0x028            0     0     -
+ 13      10908     0  0x0012  0x421a  0x028            0     0     -
+ 14      10907     0  0x0012  0x421a  0x028            0     0     -
+ 15      10906     0  0x0012  0x421a  0x028            0     0     -
 ... (48 entries not read)
 

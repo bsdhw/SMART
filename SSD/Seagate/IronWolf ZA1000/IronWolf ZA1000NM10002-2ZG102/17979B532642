@@ -1,7 +1,8 @@
-smartctl 7.2 2021-09-14 r5236 [MidnightBSD 3.1.0 amd64] (local build)
-Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [MidnightBSD 3.2.0 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
+Model Family:     Seagate IronWolf (Pro) 125 SSDs
 Device Model:     Seagate IronWolf ZA1000NM10002-2ZG102
 Serial Number:    --
 LU WWN Device Id: 5 000c50 ...
@@ -11,10 +12,10 @@ Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 Form Factor:      2.5 inches
 TRIM Command:     Available, deterministic, zeroed
-Device is:        Not in smartctl database [for details use: -P showall]
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Aug 19 16:50:15 2023 EDT
+Local Time is:    Mon Nov 11 16:43:17 2024 EST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -55,32 +56,33 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       5872
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       19
- 16 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       6187
- 17 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       6187
-168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
-170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       198
-173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       393251
-174 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       13
-177 Wear_Leveling_Count     0x0000   100   100   000    Old_age   Offline      -       1
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       13
-194 Temperature_Celsius     0x0023   103   084   000    Pre-fail  Always       -       24 (Min/Max 19/43)
-218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
-231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       99
-232 Available_Reservd_Space 0x0013   100   100   000    Pre-fail  Always       -       0
-233 Media_Wearout_Indicator 0x000b   100   100   000    Pre-fail  Always       -       2964
-234 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       16402761896
-235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       6217801920
-241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       2034
-242 Total_LBAs_Read         0x0012   100   100   000    Old_age   Always       -       6700
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       10696
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       23
+ 16 Spare_Blocks_Available  0x0012   100   100   000    Old_age   Always       -       6187
+ 17 Spare_Blocks_Remaining  0x0012   100   100   000    Old_age   Always       -       6187
+168 SATA_PHY_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+170 Early/Later_Bad_Blck_Ct 0x0003   100   100   010    Pre-fail  Always       -       0 0 198
+173 Max/Avg/Min_Erase_Ct    0x0012   100   100   000    Old_age   Always       -       1 13 43
+174 Unexpect_Power_Loss_Ct  0x0012   100   100   000    Old_age   Always       -       15
+177 Wear_Range_Delta        0x0000   100   100   000    Old_age   Offline      -       0 0 1
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       15
+194 Temperature_Celsius     0x0023   105   084   000    Pre-fail  Always       -       22 (Min/Max 18/43)
+218 SATA_CRC_Error_Count    0x000b   100   100   050    Pre-fail  Always       -       0
+231 SSD_Life_Left           0x0013   100   100   000    Pre-fail  Always       -       99
+232 Read_Failure_Blk_Ct     0x0013   100   100   000    Pre-fail  Always       -       0x000000000000
+233 Flash_Writes_GiB        0x000b   100   100   000    Pre-fail  Always       -       5412
+234 NAND_Reads_Sectors      0x000b   100   100   000    Pre-fail  Always       -       18589406912
+235 Flash_Writes_Sectors    0x000b   100   100   000    Pre-fail  Always       -       11351030528
+241 Host_Writes_GiB         0x0012   100   100   000    Old_age   Always       -       4277
+242 Host_Reads_GiB          0x0012   100   100   000    Old_age   Always       -       7632
 
 SMART Error Log Version: 1
 No Errors Logged
 
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%         0         -
+# 1  Short offline       Completed without error       00%      6312         -
+# 2  Short offline       Completed without error       00%         0         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -92,6 +94,8 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
 
 
 

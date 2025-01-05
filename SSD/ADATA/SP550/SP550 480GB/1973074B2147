@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 amd64] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Silicon Motion based SSDs
@@ -10,10 +10,10 @@ User Capacity:    480,103,981,056 bytes [480 GB]
 Sector Size:      512 bytes logical/physical
 Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic, zeroed
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue May  2 00:00:08 2023 EDT
+Local Time is:    Sat Oct 21 19:23:40 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,15 +60,15 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0000   100   100   000    Old_age   Offline      -       0
   5 Reallocated_Sector_Ct   0x0000   100   100   000    Old_age   Offline      -       94
-  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       133
- 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       417
-160 Uncorrectable_Error_Cnt 0x0000   100   100   000    Old_age   Offline      -       481
+  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       141
+ 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       437
+160 Uncorrectable_Error_Cnt 0x0000   100   100   000    Old_age   Offline      -       503
 161 Valid_Spare_Block_Cnt   0x0000   100   100   000    Old_age   Offline      -       134
 163 Initial_Bad_Block_Count 0x0000   100   100   000    Old_age   Offline      -       48
-164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       28461
-165 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       33
+164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       30021
+165 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       34
 166 Min_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       4
-167 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       14
+167 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       15
 168 Max_Erase_Count_of_Spec 0x0000   100   100   000    Old_age   Offline      -       1000
 169 Remaining_Lifetime_Perc 0x0000   100   100   000    Old_age   Offline      -       99
 175 Program_Fail_Count_Chip 0x0000   100   100   000    Old_age   Offline      -       0
@@ -78,16 +78,16 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 181 Program_Fail_Cnt_Total  0x0000   100   100   000    Old_age   Offline      -       0
 182 Erase_Fail_Count_Total  0x0000   100   100   000    Old_age   Offline      -       0
 192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       24
-194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       42
+194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       44
 195 Hardware_ECC_Recovered  0x0000   100   100   000    Old_age   Offline      -       0
 196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       385
 197 Current_Pending_Sector  0x0000   100   100   000    Old_age   Offline      -       0
 198 Offline_Uncorrectable   0x0000   100   100   000    Old_age   Offline      -       385
 199 UDMA_CRC_Error_Count    0x0000   100   100   050    Old_age   Offline      -       9
 232 Available_Reservd_Space 0x0000   100   100   000    Old_age   Offline      -       77
-241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       216234
-242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       154859
-245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       227688
+241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       230663
+242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       165996
+245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       240168
 
 SMART Error Log Version: 1
 Warning: ATA error count 0 inconsistent with error log pointer 1
@@ -123,7 +123,7 @@ Error 0 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
 Warning! SMART Self-Test Log Structure error: invalid SMART checksum.
 SMART Self-test log structure revision number 1
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Offline             Completed without error       00%       133         -
+# 1  Offline             Completed without error       00%       141         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -136,4 +136,6 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
 

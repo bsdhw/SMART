@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2, ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Aug 17 18:46:12 2023 EDT
+Local Time is:    Fri Aug 18 18:42:52 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -67,12 +67,12 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR-K   100   100   000    -    8
   5 Reallocate_NAND_Blk_Cnt PO--CK   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    26490
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    134
+  9 Power_On_Hours          -O--CK   100   100   000    -    26514
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    135
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
-173 Ave_Block-Erase_Count   -O--CK   079   079   000    -    647
-174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    104
+173 Ave_Block-Erase_Count   -O--CK   079   079   000    -    651
+174 Unexpect_Power_Loss_Ct  -O--CK   100   100   000    -    105
 180 Unused_Reserve_NAND_Blk PO--CK   000   000   000    -    4403
 183 SATA_Interfac_Downshift -O--CK   100   100   000    -    0
 184 Error_Correction_Count  -O--CK   100   100   000    -    0
@@ -85,9 +85,9 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 202 Percent_Lifetime_Remain P---CK   079   079   000    -    21
 206 Write_Error_Rate        -OSR--   100   100   000    -    0
 210 Success_RAIN_Recov_Cnt  -O--CK   100   100   000    -    0
-246 Total_LBAs_Written      -O--CK   100   100   000    -    148283174069
-247 Host_Program_Page_Count -O--CK   100   100   000    -    634582718
-248 FTL_Program_Page_Count  -O--CK   100   100   000    -    3807264171
+246 Total_LBAs_Written      -O--CK   100   100   000    -    148406943457
+247 Host_Program_Page_Count -O--CK   100   100   000    -    638595457
+248 FTL_Program_Page_Count  -O--CK   100   100   000    -    3920645614
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -155,22 +155,22 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:           -5/75 Celsius
-Temperature History Size (Index):    478 (361)
+Temperature History Size (Index):    478 (362)
 
 SCT Error Recovery Control command not supported
 
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             134  ---  Lifetime Power-On Resets
-0x01  0x010  4           26490  ---  Power-on Hours
-0x01  0x018  6    148283174069  ---  Logical Sectors Written
-0x01  0x020  6      1683101884  ---  Number of Write Commands
-0x01  0x028  6      8396467295  ---  Logical Sectors Read
-0x01  0x030  6       113204387  ---  Number of Read Commands
+0x01  0x008  4             135  ---  Lifetime Power-On Resets
+0x01  0x010  4           26514  ---  Power-on Hours
+0x01  0x018  6    148406943457  ---  Logical Sectors Written
+0x01  0x020  6      1685514023  ---  Number of Write Commands
+0x01  0x028  6      8401829633  ---  Logical Sectors Read
+0x01  0x030  6       113350720  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
-0x04  0x010  4              52  ---  Resets Between Cmd Acceptance and Completion
+0x04  0x010  4              53  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
 0x05  0x008  1              37  ---  Current Temperature
 0x05  0x010  1              37  ---  Average Short Term Temperature
@@ -200,5 +200,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
-0x000a  4           24  Device-to-host register FISes sent due to a COMRESET
+0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
 

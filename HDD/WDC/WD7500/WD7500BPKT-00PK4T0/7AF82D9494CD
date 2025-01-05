@@ -1,5 +1,5 @@
-smartctl 7.3 2022-02-28 r5338 [OpenBSD 7.3 i386] (local build)
-Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 i386] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
 Model Family:     Western Digital Scorpio Black (AF)
@@ -10,10 +10,10 @@ Firmware Version: 01.01A01
 User Capacity:    750,156,374,016 bytes [750 GB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Rotation Rate:    7200 rpm
-Device is:        In smartctl database 7.3/5319
+Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Sat May  6 18:33:41 2023 EDT
+Local Time is:    Sat Oct 21 16:36:30 2023 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,17 +57,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
-  3 Spin_Up_Time            0x0027   195   191   021    Pre-fail  Always       -       1233
-  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       641
+  3 Spin_Up_Time            0x0027   195   191   021    Pre-fail  Always       -       1225
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       661
   5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
   7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       992
+  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       1035
  10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       641
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       661
 192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       71
-193 Load_Cycle_Count        0x0032   198   198   000    Old_age   Always       -       8054
-194 Temperature_Celsius     0x0022   100   092   000    Old_age   Always       -       47
+193 Load_Cycle_Count        0x0032   198   198   000    Old_age   Always       -       8411
+194 Temperature_Celsius     0x0022   108   092   000    Old_age   Always       -       39
 196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
@@ -90,4 +90,6 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
 

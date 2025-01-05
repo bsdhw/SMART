@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p3 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Sep  3 18:35:44 2024 CEST
+Local Time is:    Tue Oct 22 08:04:19 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -69,25 +69,25 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
   7 Unknown_SSD_Attribute   PO-R--   100   100   050    -    0
   8 Unknown_SSD_Attribute   P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    13665
+  9 Power_On_Hours          -O--C-   100   100   000    -    14828
  10 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    70
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    74
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 169 Unknown_Attribute       PO--C-   100   100   010    -    0
 170 Unknown_Attribute       PO--C-   100   100   010    -    0
-173 Unknown_Attribute       -O--C-   168   168   000    -    34390475092
+173 Unknown_Attribute       -O--C-   166   166   000    -    34392506742
 175 Program_Fail_Count_Chip PO--C-   100   100   010    -    0
 180 Unused_Rsvd_Blk_Cnt_Tot PO--CK   100   100   020    -    556
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    33
-194 Temperature_Celsius     -O---K   063   063   030    -    37 (Min/Max 34/39)
+194 Temperature_Celsius     -O---K   066   066   030    -    34 (Min/Max 34/37)
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
-231 Unknown_SSD_Attribute   PO--CK   089   089   005    -    11
-233 Media_Wearout_Indicator -O--CK   100   100   000    -    44899454464
-234 Unknown_Attribute       -O--CK   100   100   000    -    42870725952
+231 Unknown_SSD_Attribute   PO--CK   088   088   005    -    12
+233 Media_Wearout_Indicator -O--CK   100   100   000    -    49390377728
+234 Unknown_Attribute       -O--CK   100   100   000    -    47658263744
 240 Unknown_SSD_Attribute   PO--C-   100   100   050    -    0
-241 Total_LBAs_Written      -O--CK   100   100   000    -    18348625440
-242 Total_LBAs_Read         -O--CK   100   100   000    -    1219471843
+241 Total_LBAs_Written      -O--CK   100   100   000    -    21638510325
+242 Total_LBAs_Read         -O--CK   100   100   000    -    2194694535
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -142,7 +142,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:     -127/127 Celsius
 Min/Max Temperature Limit:           -127/127 Celsius
-Temperature History Size (Index):    478 (425)
+Temperature History Size (Index):    478 (27)
 
 SCT Error Recovery Control:
            Read:     70 (7.0 seconds)
@@ -151,14 +151,14 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4              70  ---  Lifetime Power-On Resets
-0x01  0x018  6     18348625440  ---  Logical Sectors Written
-0x01  0x020  6       395186285  ---  Number of Write Commands
-0x01  0x028  6      1219471843  ---  Logical Sectors Read
-0x01  0x030  6        17575567  ---  Number of Read Commands
-0x01  0x038  6     49194000000  ---  Date and Time TimeStamp
+0x01  0x008  4              74  ---  Lifetime Power-On Resets
+0x01  0x018  6     21638510325  ---  Logical Sectors Written
+0x01  0x020  6       443251733  ---  Number of Write Commands
+0x01  0x028  6      2194694535  ---  Logical Sectors Read
+0x01  0x030  6        42798810  ---  Number of Read Commands
+0x01  0x038  6     53380800000  ---  Date and Time TimeStamp
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
-0x07  0x008  1              18  N--  Percentage Used Endurance Indicator
+0x07  0x008  1              20  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
                                 |___ N normalized value
@@ -174,7 +174,7 @@ ID      Size     Value  Description
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
 0x0009  4            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4          127  Device-to-host register FISes sent due to a COMRESET
+0x000a  4          139  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

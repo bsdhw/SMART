@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3 T13/2161-D revision 4
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Fri May 12 23:27:14 2023 -03
+Local Time is:    Fri May 12 23:38:32 2023 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,7 +57,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   1 Raw_Read_Error_Rate     0x002f   100   100   000    Pre-fail  Always       -       0
   5 Reallocated_Sector_Ct   0x0032   100   100   010    Old_age   Always       -       0
   9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       309
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       177
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       178
 171 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 173 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       7
@@ -78,7 +78,7 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 247 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       46046732
 248 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       71704064
 249 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
-251 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       1377153243
+251 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       1377402618
 252 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 253 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
 
