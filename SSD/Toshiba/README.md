@@ -43,7 +43,7 @@ MTBF - avg. MTBF in years per sample.
 | Toshiba   | VT180              | 480 GB | 2       | 20    | 0     | 0.06   |
 | Toshiba   | TL100              | 120 GB | 2       | 19    | 0     | 0.05   |
 | Toshiba   | THNSNK128GVN8 M... | 128 GB | 2       | 878   | 100   | 0.02   |
-| Toshiba   | THNSNK256GVN8 M... | 256 GB | 2       | 669   | 100   | 0.02   |
+| Toshiba   | THNSNK256GVN8 M... | 256 GB | 2       | 671   | 100   | 0.02   |
 | Toshiba   | THNSNK128GCS8 SATA | 128 GB | 4       | 503   | 100   | 0.01   |
 
 SSD by Family

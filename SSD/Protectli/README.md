@@ -19,7 +19,7 @@ MTBF - avg. MTBF in years per sample.
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Protectli | 16GB mSATA         | 16 GB  | 2       | 728   | 0     | 2.00   |
 | Protectli | 32GB mSATA         | 32 GB  | 14      | 367   | 0     | 1.01   |
-| Protectli | 240GB mSATA        | 240 GB | 14      | 336   | 0     | 0.92   |
+| Protectli | 240GB mSATA        | 240 GB | 14      | 351   | 0     | 0.96   |
 | Protectli | 480GB mSATA        | 480 GB | 5       | 311   | 0     | 0.85   |
 | Protectli | 960GB mSATA        | 960 GB | 4       | 295   | 0     | 0.81   |
 | Protectli | 64GB mSATA         | 64 GB  | 18      | 264   | 0     | 0.73   |

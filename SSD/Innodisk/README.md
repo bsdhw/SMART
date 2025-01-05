@@ -23,7 +23,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Innodisk  | DEMSR- 08GB mSA... | 8 GB   | 10      | 912   | 0     | 2.50   |
+| Innodisk  | DEMSR- 08GB mSA... | 8 GB   | 10      | 915   | 0     | 2.51   |
 | Innodisk  | mSATA 3TE7         | 32 GB  | 2       | 610   | 0     | 1.67   |
 | Innodisk  | DEMSR- 32GB mSA... | 32 GB  | 3       | 557   | 0     | 1.53   |
 | Innodisk  | DEM24-32GM41BC1... | 32 GB  | 3       | 521   | 0     | 1.43   |

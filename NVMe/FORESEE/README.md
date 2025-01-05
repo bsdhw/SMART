@@ -17,7 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| FORESEE   | P900F128GBH        | 128 GB | 2       | 224   | 0     | 0.61   |
+| FORESEE   | P900F128GBH        | 128 GB | 2       | 225   | 0     | 0.62   |
 | FORESEE   | P900F128GH         | 128 GB | 2       | 20    | 0     | 0.06   |
 | FORESEE   | XP1000F001T        | 1 TB   | 4       | 15    | 0     | 0.04   |
 | FORESEE   | XP1000F128G        | 128 GB | 3       | 12    | 0     | 0.03   |

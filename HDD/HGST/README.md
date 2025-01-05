@@ -44,7 +44,7 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | HUS726040ALE610    | 4 TB   | 3       | 1030  | 464   | 1.68   |
 | HGST      | HTE545032A7E380    | 320 GB | 4       | 628   | 4     | 1.34   |
 | HGST      | HMS5C4040BLE640    | 4 TB   | 10      | 455   | 0     | 1.25   |
-| HGST      | HTS721010A9E630    | 1 TB   | 38      | 594   | 223   | 1.24   |
+| HGST      | HTS721010A9E630    | 1 TB   | 38      | 595   | 223   | 1.24   |
 | HGST      | HUS728T8TALE6L4    | 8 TB   | 12      | 440   | 0     | 1.21   |
 | HGST      | HUS726060ALE614    | 6 TB   | 4       | 430   | 0     | 1.18   |
 | HGST      | HUS722T2TALA604    | 2 TB   | 6       | 505   | 3     | 1.13   |
@@ -83,7 +83,7 @@ MTBF - avg. MTBF in years per sample.
 | HGST      | Ultrastar DC HC520 ... | 1      | 14      | 1405  | 1     | 3.63   |
 | HGST      | Ultrastar DC HC310     | 3      | 14      | 1173  | 0     | 3.22   |
 | HGST      | Ultrastar 7K6000       | 7      | 19      | 656   | 74    | 1.62   |
-| HGST      | Travelstar 7K1000      | 2      | 41      | 686   | 207   | 1.52   |
+| HGST      | Travelstar 7K1000      | 2      | 41      | 687   | 207   | 1.52   |
 | HGST      | Travelstar Z7K500      | 4      | 55      | 818   | 329   | 1.30   |
 | HGST      | Ultrastar HC310/320    | 1      | 12      | 440   | 0     | 1.21   |
 | HGST      | Ultrastar 7K2          | 3      | 14      | 391   | 2     | 0.96   |

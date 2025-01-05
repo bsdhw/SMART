@@ -17,7 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| SanDisk   | WD Blue SN570      | 250 GB | 10      | 170   | 0     | 0.47   |
+| SanDisk   | WD Blue SN570      | 250 GB | 10      | 203   | 0     | 0.56   |
 | SanDisk   | WD_BLACK SN770     | 250 GB | 4       | 142   | 0     | 0.39   |
 | SanDisk   | WD Red SN700       | 250 GB | 5       | 121   | 0     | 0.33   |
 | SanDisk   | WD_BLACK SN770     | 500 GB | 12      | 104   | 0     | 0.29   |

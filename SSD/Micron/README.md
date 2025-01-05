@@ -44,8 +44,8 @@ MTBF - avg. MTBF in years per sample.
 | Micron    | MTFDDAV256MBF-1... | 256 GB | 2       | 406   | 0     | 1.11   |
 | Micron    | 1100 SATA          | 512 GB | 3       | 373   | 0     | 1.02   |
 | Micron    | 1100_MTFDDAK256TBN | 256 GB | 11      | 344   | 0     | 0.94   |
-| Micron    | MTFDDAK256MAM-1K1  | 256 GB | 3       | 325   | 0     | 0.89   |
-| Micron    | 5300_MTFDDAK240TDS | 240 GB | 2       | 312   | 0     | 0.86   |
+| Micron    | MTFDDAK256MAM-1K1  | 256 GB | 3       | 328   | 0     | 0.90   |
+| Micron    | 5300_MTFDDAK240TDS | 240 GB | 2       | 322   | 0     | 0.88   |
 | Micron    | MTFDDAT064MAM-1J2  | 64 GB  | 2       | 277   | 0     | 0.76   |
 | Micron    | MTFDDAK256TBN-1... | 256 GB | 4       | 266   | 26    | 0.69   |
 | Micron    | M600_MTFDDAV256MBF | 256 GB | 2       | 216   | 0     | 0.59   |
@@ -77,6 +77,6 @@ MTBF - avg. MTBF in years per sample.
 | Micron    | 5100 / 52x0 / 5300 ... | 2      | 4       | 768   | 0     | 2.10   |
 | Micron    | Client SSDs            | 18     | 96      | 744   | 32    | 1.77   |
 | Micron    | RealSSD C300/P300      | 2      | 4       | 1113  | 816   | 1.15   |
-| Micron    | 5100 Pro / 52x0 / 5... | 4      | 8       | 373   | 0     | 1.02   |
-| Micron    | RealSSD m4/C400/P400   | 5      | 20      | 655   | 204   | 0.97   |
+| Micron    | 5100 Pro / 52x0 / 5... | 4      | 8       | 375   | 0     | 1.03   |
+| Micron    | RealSSD m4/C400/P400   | 5      | 20      | 656   | 204   | 0.97   |
 | Micron    | BX/MX1/2/3/500, M5/... | 1      | 4       | 1695  | 270   | 0.19   |

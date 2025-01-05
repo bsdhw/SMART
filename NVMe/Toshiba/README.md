@@ -19,7 +19,7 @@ MTBF - avg. MTBF in years per sample.
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Toshiba   | THNSN5256GPUK NVMe | 256 GB | 2       | 1246  | 0     | 3.42   |
 | Toshiba   | KXG50ZNV512G       | 512 GB | 3       | 1053  | 0     | 2.89   |
-| Toshiba   | KXG60ZNV256G NVMe  | 256 GB | 4       | 701   | 0     | 1.92   |
+| Toshiba   | KXG60ZNV256G NVMe  | 256 GB | 4       | 715   | 0     | 1.96   |
 | Toshiba   | KXG50ZNV256G NVMe  | 256 GB | 5       | 649   | 0     | 1.78   |
 | Toshiba   | THNSN51T02DUK NVMe | 1 TB   | 2       | 646   | 0     | 1.77   |
 | Toshiba   | KBG30ZMS256G NVMe  | 256 GB | 2       | 578   | 0     | 1.59   |
@@ -30,7 +30,7 @@ MTBF - avg. MTBF in years per sample.
 | Toshiba   | THNSF5256GPUK      | 256 GB | 6       | 309   | 0     | 0.85   |
 | Toshiba   | KXG60ZNV1T02       | 1 TB   | 3       | 208   | 0     | 0.57   |
 | Toshiba   | KXG6AZNV256G       | 256 GB | 2       | 204   | 0     | 0.56   |
+| Toshiba   | KBG30ZMT128G       | 128 GB | 3       | 159   | 0     | 0.44   |
 | Toshiba   | KBG30ZMV256G       | 256 GB | 7       | 155   | 0     | 0.43   |
-| Toshiba   | KBG30ZMT128G       | 128 GB | 3       | 150   | 0     | 0.41   |
 | Toshiba   | KBG40ZNT512G ME... | 512 GB | 4       | 98    | 0     | 0.27   |
 | Toshiba   | KBG40ZMT128G ME... |        | 3       | 77    | 0     | 0.21   |

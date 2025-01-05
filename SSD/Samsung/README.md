@@ -21,8 +21,8 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | MZ7PC128HAFU-000H1 | 128 GB | 2       | 2013  | 0     | 5.52   |
 | Samsung   | MZMTE512HMHP-000MV | 512 GB | 2       | 1756  | 0     | 4.81   |
 | Samsung   | SSD 830 Series     | 256 GB | 7       | 1674  | 0     | 4.59   |
-| Samsung   | SSD 850 PRO        | 128 GB | 22      | 1623  | 0     | 4.45   |
-| Samsung   | MZ7PD256HCGM-000H7 | 256 GB | 6       | 1579  | 0     | 4.33   |
+| Samsung   | SSD 850 PRO        | 128 GB | 22      | 1626  | 0     | 4.46   |
+| Samsung   | MZ7PD256HCGM-000H7 | 256 GB | 6       | 1587  | 0     | 4.35   |
 | Samsung   | SSD 840 EVO        | 120 GB | 48      | 1703  | 12    | 4.11   |
 | Samsung   | MZ-5EA2000-0D3     | 200 GB | 4       | 1481  | 0     | 4.06   |
 | Samsung   | SSD 840 EVO        | 500 GB | 8       | 1549  | 105   | 4.05   |
@@ -42,9 +42,9 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | SSD PM830 2.5" 7mm | 256 GB | 3       | 1090  | 0     | 2.99   |
 | Samsung   | MZMPC128HBFU-000H1 | 128 GB | 4       | 1087  | 0     | 2.98   |
 | Samsung   | MZ7TE256HMHP-000H1 | 256 GB | 3       | 1077  | 0     | 2.95   |
-| Samsung   | SSD 850 EVO        | 120 GB | 41      | 1069  | 0     | 2.93   |
+| Samsung   | SSD 850 EVO        | 120 GB | 41      | 1070  | 0     | 2.93   |
 | Samsung   | SSD 840 Series     | 120 GB | 27      | 1195  | 41    | 2.92   |
-| Samsung   | SSD 840 EVO        | 250 GB | 57      | 1106  | 8     | 2.87   |
+| Samsung   | SSD 840 EVO        | 250 GB | 57      | 1107  | 8     | 2.87   |
 | Samsung   | MZ7LN512HMJP-000L1 | 512 GB | 2       | 1041  | 0     | 2.85   |
 | Samsung   | SSD 850 PRO        | 512 GB | 31      | 1031  | 0     | 2.83   |
 | Samsung   | SSD 850 PRO        | 1 TB   | 10      | 1196  | 4     | 2.76   |
@@ -60,12 +60,12 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | MZ7LN128HCHP-000L1 | 128 GB | 9       | 914   | 0     | 2.50   |
 | Samsung   | MZMTD128HAFV-000L1 | 128 GB | 2       | 911   | 0     | 2.50   |
 | Samsung   | SSD 850 EVO        | 1 TB   | 24      | 1108  | 1     | 2.49   |
-| Samsung   | SSD 850 PRO        | 256 GB | 43      | 932   | 1     | 2.48   |
+| Samsung   | SSD 850 PRO        | 256 GB | 43      | 938   | 1     | 2.49   |
 | Samsung   | SSD 850 EVO        | 250 GB | 161     | 935   | 1     | 2.47   |
 | Samsung   | SSD PM871b 2.5 7mm | 512 GB | 2       | 901   | 0     | 2.47   |
 | Samsung   | SSD PM830 2.5" 7mm | 128 GB | 10      | 898   | 0     | 2.46   |
 | Samsung   | SSD 750 EVO        | 120 GB | 15      | 896   | 0     | 2.46   |
-| Samsung   | SSD 850 EVO        | 500 GB | 84      | 918   | 1     | 2.45   |
+| Samsung   | SSD 850 EVO        | 500 GB | 84      | 919   | 1     | 2.45   |
 | Samsung   | SSD 840 EVO 500... | 500 GB | 2       | 849   | 0     | 2.33   |
 | Samsung   | MZMPC032HBCD-000L1 | 32 GB  | 3       | 847   | 0     | 2.32   |
 | Samsung   | SSD 860 EVO M.2    | 2 TB   | 3       | 839   | 0     | 2.30   |
@@ -77,13 +77,13 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | SSD 850 EVO        | 2 TB   | 2       | 759   | 0     | 2.08   |
 | Samsung   | SSD 850 EVO mSATA  | 120 GB | 7       | 1197  | 9     | 2.08   |
 | Samsung   | MZYLN256HCHP-000L2 | 256 GB | 2       | 758   | 0     | 2.08   |
+| Samsung   | MZ7PD128HCFV-000H1 | 128 GB | 4       | 744   | 0     | 2.04   |
 | Samsung   | SSD 840 EVO        | 1 TB   | 7       | 739   | 0     | 2.03   |
 | Samsung   | SSD RBX Series ... | 64 GB  | 2       | 739   | 0     | 2.03   |
-| Samsung   | MZ7PD128HCFV-000H1 | 128 GB | 4       | 738   | 0     | 2.02   |
 | Samsung   | MZ7LN256HMJP-00000 | 256 GB | 4       | 736   | 0     | 2.02   |
+| Samsung   | SSD 850 EVO mSATA  | 500 GB | 5       | 728   | 0     | 2.00   |
 | Samsung   | MZ7LN256HMJP-000H1 | 256 GB | 9       | 723   | 0     | 1.98   |
 | Samsung   | Portable SSD T5    | 1 TB   | 2       | 707   | 0     | 1.94   |
-| Samsung   | SSD 850 EVO mSATA  | 500 GB | 5       | 705   | 0     | 1.93   |
 | Samsung   | SSD PM871b 2.5 7mm | 128 GB | 2       | 700   | 0     | 1.92   |
 | Samsung   | MZ7TY128HDHP-000L1 | 128 GB | 8       | 700   | 0     | 1.92   |
 | Samsung   | SSD SM871 2.5 7mm  | 256 GB | 2       | 680   | 0     | 1.87   |
@@ -120,10 +120,10 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | SSD 850            | 120 GB | 3       | 432   | 0     | 1.19   |
 | Samsung   | 470 Series SSD     | 64 GB  | 3       | 431   | 1     | 1.18   |
 | Samsung   | MZ7LH480HAHQ-00005 | 480 GB | 2       | 417   | 0     | 1.14   |
+| Samsung   | SSD 860 EVO mSATA  | 500 GB | 12      | 413   | 0     | 1.13   |
 | Samsung   | SSD 870 QVO        | 2 TB   | 20      | 412   | 0     | 1.13   |
 | Samsung   | SSD PM810 2.5" 7mm | 128 GB | 2       | 885   | 8     | 1.13   |
 | Samsung   | SSD PM830 mSATA    | 128 GB | 3       | 411   | 0     | 1.13   |
-| Samsung   | SSD 860 EVO mSATA  | 500 GB | 12      | 408   | 0     | 1.12   |
 | Samsung   | MZNTY256HDHP-000L7 | 256 GB | 3       | 391   | 0     | 1.07   |
 | Samsung   | MZNLN256HAJQ-00000 | 256 GB | 2       | 387   | 0     | 1.06   |
 | Samsung   | MZ7LM240HMHQ-00005 | 240 GB | 2       | 385   | 0     | 1.05   |
@@ -142,7 +142,7 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | MZMPC032HBCD-00000 | 32 GB  | 3       | 314   | 0     | 0.86   |
 | Samsung   | MZNLN128HAHQ-000H1 | 128 GB | 4       | 289   | 0     | 0.79   |
 | Samsung   | MZ7LN512HMJP-000L7 | 512 GB | 2       | 256   | 0     | 0.70   |
-| Samsung   | SSD 870 QVO        | 1 TB   | 23      | 231   | 0     | 0.63   |
+| Samsung   | SSD 870 QVO        | 1 TB   | 23      | 240   | 0     | 0.66   |
 | Samsung   | MZ7L3240HCHQ-00A07 | 240 GB | 6       | 229   | 0     | 0.63   |
 | Samsung   | MZNLN256HMHQ-000H1 | 256 GB | 2       | 221   | 0     | 0.61   |
 | Samsung   | MZ7TD256HAFV-000L9 | 256 GB | 3       | 218   | 0     | 0.60   |
@@ -158,15 +158,15 @@ MTBF - avg. MTBF in years per sample.
 | Samsung   | SSD 870 EVO        | 2 TB   | 17      | 170   | 69    | 0.38   |
 | Samsung   | MZHPV512HDGL-00000 | 512 GB | 2       | 270   | 1     | 0.37   |
 | Samsung   | MZNTE128HMGR-000SO | 128 GB | 2       | 287   | 3     | 0.37   |
+| Samsung   | MZ7LH240HAHQ-00005 | 240 GB | 6       | 133   | 0     | 0.37   |
 | Samsung   | PM881 SATA         | 256 GB | 2       | 130   | 0     | 0.36   |
 | Samsung   | MZ7L3480HBLT-00A07 | 480 GB | 2       | 121   | 0     | 0.33   |
 | Samsung   | MZNLN256HAJQ-000L7 | 256 GB | 3       | 94    | 0     | 0.26   |
 | Samsung   | SSD PM810 2.5"     | 256 GB | 2       | 776   | 7     | 0.24   |
 | Samsung   | SSD PM871b M.2 ... | 128 GB | 3       | 85    | 0     | 0.23   |
 | Samsung   | MZRPC256HADR-000SO | 128 GB | 2       | 85    | 0     | 0.23   |
+| Samsung   | SSD 870 EVO        | 500 GB | 78      | 104   | 16    | 0.22   |
 | Samsung   | SSD 870 QVO        | 8 TB   | 2       | 79    | 0     | 0.22   |
-| Samsung   | SSD 870 EVO        | 500 GB | 78      | 102   | 16    | 0.21   |
-| Samsung   | MZ7LH240HAHQ-00005 | 240 GB | 6       | 75    | 0     | 0.21   |
 | Samsung   | SSD 870 EVO        | 1 TB   | 53      | 155   | 70    | 0.20   |
 | Samsung   | MZYTE256HMHP-000L2 | 256 GB | 2       | 59    | 0     | 0.16   |
 | Samsung   | MZ7L3960HCJR-00A07 | 960 GB | 8       | 30    | 0     | 0.08   |
