@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Oct 20 22:22:39 2024 MSK
+Local Time is:    Mon Oct 21 07:38:31 2024 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -67,27 +67,27 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   5 Retired_Block_Count     PO--C-   100   100   050    -    0
   7 Not_In_Use              PO-R--   100   100   050    -    0
   8 Not_In_Use              P-S---   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    63291
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    504
+  9 Power_On_Hours          -O--C-   100   100   000    -    63300
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    505
 168 SATA_Phy_Error_Count    -O--C-   100   100   000    -    0
 170 Bad_Blk_Ct_Lat/Erl      PO----   100   100   010    -    0/120
 173 MaxAvgErase_Ct          -O--C-   100   100   000    -    586 (Average 518)
 175 Not_In_Use              PO--C-   100   100   050    -    0
 187 Reported_Uncorrect      -O--C-   100   100   000    -    0
 192 Unsafe_Shutdown_Count   -O--C-   100   100   000    -    127
-194 Temperature_Celsius     PO---K   071   054   030    -    29 (Min/Max 15/46)
+194 Temperature_Celsius     PO---K   073   054   030    -    27 (Min/Max 15/46)
 196 Reallocated_Event_Count -O----   100   100   010    -    0
 197 Not_In_Use              -O--CK   100   100   000    -    0
 199 SATA_CRC_Error_Count    PO-R--   100   100   050    -    0
 218 CRC_Error_Count         PO-R--   100   100   050    -    0
 231 SSD_Life_Left           PO--C-   100   100   000    -    14
-233 Flash_Writes_GiB        PO-R--   100   100   000    -    61348
+233 Flash_Writes_GiB        PO-R--   100   100   000    -    61352
 240 Not_In_Use              PO--C-   100   100   000    -    0
-241 Lifetime_Writes_GiB     -O--C-   100   100   000    -    105373
-242 Lifetime_Reads_GiB      -O--C-   100   100   000    -    84115
+241 Lifetime_Writes_GiB     -O--C-   100   100   000    -    105379
+242 Lifetime_Reads_GiB      -O--C-   100   100   000    -    84116
 244 Average_Erase_Count     -O----   100   100   000    -    518
 245 Max_Erase_Count         -O----   100   100   000    -    586
-246 Total_Erase_Count       -O--C-   100   100   000    -    11986592
+246 Total_Erase_Count       -O--C-   100   100   000    -    11987296
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -135,13 +135,13 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
-0x01  0x008  4             504  ---  Lifetime Power-On Resets
-0x01  0x010  4           63291  ---  Power-on Hours
-0x01  0x018  6    220983283463  ---  Logical Sectors Written
-0x01  0x020  6      3613382882  ---  Number of Write Commands
-0x01  0x028  6    176403286089  ---  Logical Sectors Read
-0x01  0x030  6      2336204536  ---  Number of Read Commands
-0x01  0x038  6    227847688890  ---  Date and Time TimeStamp
+0x01  0x008  4             505  ---  Lifetime Power-On Resets
+0x01  0x010  4           63300  ---  Power-on Hours
+0x01  0x018  6    220995906871  ---  Logical Sectors Written
+0x01  0x020  6      3613581162  ---  Number of Write Commands
+0x01  0x028  6    176405913959  ---  Logical Sectors Read
+0x01  0x030  6      2336310980  ---  Number of Read Commands
+0x01  0x038  6    227880984710  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               2  ---  Resets Between Cmd Acceptance and Completion
@@ -160,7 +160,7 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               5  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4          124744  ---  Number of Hardware Resets
+0x06  0x008  4          125069  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1              97  ---  Percentage Used Endurance Indicator
@@ -178,8 +178,8 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0008  2            0  Device-to-host non-data FIS retries
-0x0009  4           16  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  4           17  Device-to-host register FISes sent due to a COMRESET
+0x0009  4            3  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            4  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
 0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC

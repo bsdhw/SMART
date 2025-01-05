@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jan  9 00:20:59 2024 EET
+Local Time is:    Tue Jul 23 11:37:18 2024 EEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -61,30 +61,30 @@ recommended polling time: 	 (   1) minutes.
 SMART Attributes Data Structure revision number: 0
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  5 Reallocated_Sector_Ct   -O--CK   100   100   010    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    416
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    78
-165 Unknown_Attribute       -O--CK   100   100   000    -    2585674843681
-166 Unknown_Attribute       -O--CK   100   100   000    -    14
-167 Unknown_Attribute       -O--CK   100   100   000    -    22
-168 Unknown_Attribute       -O--CK   100   100   000    -    50
-169 Unknown_Attribute       -O--CK   100   100   000    -    76
-170 Unknown_Attribute       -O--CK   100   100   000    -    0
+  5 Reallocated_Sector_Ct   -O--CK   100   100   010    -    21
+  9 Power_On_Hours          -O--CK   100   100   000    -    727
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    91
+165 Unknown_Attribute       -O--CK   100   100   000    -    19808692998683
+166 Unknown_Attribute       -O--CK   100   100   000    -    85
+167 Unknown_Attribute       -O--CK   100   100   000    -    24
+168 Unknown_Attribute       -O--CK   100   100   000    -    202
+169 Unknown_Attribute       -O--CK   100   100   000    -    97
+170 Unknown_Attribute       -O--CK   100   100   000    -    21
 171 Unknown_Attribute       -O--CK   100   100   000    -    0
 172 Unknown_Attribute       -O--CK   100   100   000    -    0
-173 Unknown_Attribute       -O--CK   100   100   005    -    29
-174 Unknown_Attribute       -O--CK   100   100   000    -    9
+173 Unknown_Attribute       -O--CK   100   100   005    -    115
+174 Unknown_Attribute       -O--CK   100   100   000    -    11
 184 End-to-End_Error        -O--CK   100   100   097    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   100   100   014    -    18 (Min/Max 12/57)
+194 Temperature_Celsius     -O---K   100   100   014    -    46 (Min/Max 4/57)
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
-230 Unknown_SSD_Attribute   -O--CK   100   100   000    -    2237700833801
-232 Available_Reservd_Space PO--CK   100   100   004    -    92
-233 Media_Wearout_Indicator -O--CK   100   100   000    -    7468
-234 Unknown_Attribute       -O--CK   100   100   000    -    9528
-241 Total_LBAs_Written      ----CK   253   253   000    -    5304
-242 Total_LBAs_Read         ----CK   253   253   000    -    750
+230 Unknown_SSD_Attribute   -O--CK   100   100   000    -    6674500945426
+232 Available_Reservd_Space PO--CK   100   100   004    -    93
+233 Media_Wearout_Indicator -O--CK   100   100   000    -    28940
+234 Unknown_Attribute       -O--CK   100   100   000    -    28136
+241 Total_LBAs_Written      ----CK   253   253   000    -    14493
+242 Total_LBAs_Read         ----CK   253   253   000    -    1069
 244 Unknown_Attribute       -O--CK   100   100   000    -    0
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -151,7 +151,7 @@ ID      Size     Value  Description
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
 0x0009  2            0  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2           20  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           88  Device-to-host register FISes sent due to a COMRESET
 0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
 0x0013  2            0  R_ERR response for host-to-device non-data FIS, non-CRC
 

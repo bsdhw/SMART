@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
 SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Jul 14 08:45:58 2024 PDT
+Local Time is:    Sun Jul 14 09:18:15 2024 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -76,7 +76,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 184 End-to-End_Error        -O--CK   100   100   ---    -    0
 187 Reported_Uncorrect      -O--CK   100   100   ---    -    0
 188 Command_Timeout         -O--CK   100   100   ---    -    0
-194 Temperature_Celsius     -O---K   070   043   ---    -    30 (Min/Max 15/43)
+194 Temperature_Celsius     -O---K   068   043   ---    -    32 (Min/Max 15/43)
 199 UDMA_CRC_Error_Count    -O--CK   100   100   ---    -    0
 230 Media_Wearout_Indicator -O--CK   100   100   ---    -    0x001b000a001b
 232 Available_Reservd_Space PO--CK   100   100   004    -    100
@@ -126,8 +126,8 @@ Page  Offset Size        Value Flags Description
 0x01  0x010  4               0  ---  Power-on Hours
 0x01  0x018  6      2879247444  ---  Logical Sectors Written
 0x01  0x020  6        46700042  ---  Number of Write Commands
-0x01  0x028  6      1583539378  ---  Logical Sectors Read
-0x01  0x030  6        40171497  ---  Number of Read Commands
+0x01  0x028  6      1583546232  ---  Logical Sectors Read
+0x01  0x030  6        40171715  ---  Number of Read Commands
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               0  N--  Percentage Used Endurance Indicator
                                 |||_ C monitored condition met
@@ -141,7 +141,7 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4            9  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           14  Device-to-host register FISes sent due to a COMRESET
 
 
 

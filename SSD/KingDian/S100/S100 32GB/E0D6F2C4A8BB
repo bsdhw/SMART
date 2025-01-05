@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS (minor revision not indicated)
 SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Jan 30 13:19:35 2024 CET
+Local Time is:    Tue Jan 30 17:21:47 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -49,19 +49,19 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
  12 Power_Cycle_Count       ------   100   100   050    -    383
 160 Uncorrectable_Error_Cnt ------   100   100   050    -    128
 161 Valid_Spare_Block_Cnt   ------   100   100   050    -    191
-162 Cache_Block_Count       ------   100   100   050    -    171
+162 Cache_Block_Count       ------   100   100   050    -    167
 163 Initial_Bad_Block_Count ------   100   100   050    -    7
-164 Total_Erase_Count       ------   100   100   050    -    5063770
+164 Total_Erase_Count       ------   100   100   050    -    5063982
 165 Max_Erase_Count         ------   100   100   050    -    2459
 166 Min_Erase_Count         ------   100   100   050    -    2394
 167 Average_Erase_Count     ------   100   100   050    -    2422
 192 Power-Off_Retract_Count ------   100   100   050    -    0
 194 Temperature_Celsius     ------   100   100   000    -    40 (Min/Max 40/40)
-195 Hardware_ECC_Recovered  ------   100   100   050    -    100453749
+195 Hardware_ECC_Recovered  ------   100   100   050    -    100460344
 196 Reallocated_Event_Count ------   100   100   050    -    158
 198 Offline_Uncorrectable   ------   000   000   000    -    0
 199 UDMA_CRC_Error_Count    ------   100   100   050    -    1
-241 Host_Writes_32MiB       ------   100   100   050    -    196347
+241 Host_Writes_32MiB       ------   100   100   050    -    196366
 242 Host_Reads_32MiB        ------   100   100   050    -    19815
                             ||||||_ K auto-keep
                             |||||__ C event count

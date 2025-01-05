@@ -14,11 +14,11 @@ Form Factor:      3.5 inches
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun May 12 20:52:52 2024 -04
+Local Time is:    Wed Jul 17 20:41:06 2024 -04
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
-APM level is:     192 (intermediate level without standby)
+APM level is:     254 (maximum performance)
 Rd look-ahead is: Enabled
 Write cache is:   Enabled
 DSN feature is:   Unavailable
@@ -29,20 +29,20 @@ Wt Cache Reorder: Enabled
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x00)	Offline data collection activity
-					was never started.
-					Auto Offline Data Collection: Disabled.
+Offline data collection status:  (0x82)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Enabled.
 Self-test execution status:      (   0)	The previous self-test routine completed
 					without error or no self-test has ever 
 					been run.
 Total time to complete Offline 
 data collection: 		(    0) seconds.
 Offline data collection
-capabilities: 			 (0x73) SMART execute Offline immediate.
+capabilities: 			 (0x7b) SMART execute Offline immediate.
 					Auto Offline data collection on/off support.
 					Suspend Offline collection upon new
 					command.
-					No Offline surface scan supported.
+					Offline surface scan supported.
 					Self-test supported.
 					Conveyance Self-test supported.
 					Selective Self-test supported.
@@ -65,22 +65,22 @@ SCT capabilities: 	       (0x10bb)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     POSR--   078   063   006    -    75426044
+  1 Raw_Read_Error_Rate     POSR--   076   063   006    -    47552848
   3 Spin_Up_Time            PO----   097   097   000    -    0
-  4 Start_Stop_Count        -O--CK   099   099   020    -    1453
+  4 Start_Stop_Count        -O--CK   099   099   020    -    1622
   5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
-  7 Seek_Error_Rate         POSR--   087   060   045    -    471715253
-  9 Power_On_Hours          -O--CK   084   084   000    -    14252
+  7 Seek_Error_Rate         POSR--   087   060   045    -    474058923
+  9 Power_On_Hours          -O--CK   084   084   000    -    14650
  10 Spin_Retry_Count        PO--C-   100   100   097    -    0
- 12 Power_Cycle_Count       -O--CK   099   099   020    -    1214
+ 12 Power_Cycle_Count       -O--CK   099   099   020    -    1305
 184 End-to-End_Error        -O--CK   100   100   099    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   099   000    -    327688
 189 High_Fly_Writes         -O-RCK   100   100   000    -    0
-190 Airflow_Temperature_Cel -O---K   073   052   040    -    27 (Min/Max 20/27)
-193 Load_Cycle_Count        -O--CK   100   100   000    -    1928
-194 Temperature_Celsius     -O---K   027   012   000    -    27 (0 12 0 0 0)
-195 Hardware_ECC_Recovered  -O-RC-   003   001   000    -    75426044
+190 Airflow_Temperature_Cel -O---K   076   052   040    -    24 (Min/Max 14/24)
+193 Load_Cycle_Count        -O--CK   099   099   000    -    2097
+194 Temperature_Celsius     -O---K   024   008   000    -    24 (0 8 0 0 0)
+195 Hardware_ECC_Recovered  -O-RC-   001   001   000    -    47552848
 197 Current_Pending_Sector  -O--C-   100   100   000    -    0
 198 Offline_Uncorrectable   ----C-   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   200   200   000    -    0
@@ -125,25 +125,25 @@ No Errors Logged
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Selective offline   Completed without error       00%     11417         -
-# 2  Selective offline   Aborted by host               90%     11416         -
-# 3  Selective offline   Aborted by host               90%     11415         -
-# 4  Selective offline   Aborted by host               90%     11414         -
-# 5  Selective offline   Aborted by host               90%     11411         -
-# 6  Selective offline   Aborted by host               90%     11410         -
-# 7  Selective offline   Aborted by host               90%     11409         -
-# 8  Selective offline   Aborted by host               90%     11408         -
-# 9  Selective offline   Aborted by host               90%     11407         -
-#10  Selective offline   Aborted by host               90%     11406         -
-#11  Selective offline   Aborted by host               90%     11405         -
-#12  Selective offline   Aborted by host               90%     11404         -
-#13  Selective offline   Aborted by host               90%     11403         -
-#14  Selective offline   Aborted by host               90%     11401         -
-#15  Selective offline   Aborted by host               90%     11400         -
-#16  Selective offline   Aborted by host               90%     11399         -
-#17  Selective offline   Aborted by host               90%     11398         -
-#18  Selective offline   Completed without error       00%     10677         -
-#19  Selective offline   Aborted by host               90%     10673         -
+# 1  Short offline       Completed without error       00%     14452         -
+# 2  Selective offline   Completed without error       00%     11417         -
+# 3  Selective offline   Aborted by host               90%     11416         -
+# 4  Selective offline   Aborted by host               90%     11415         -
+# 5  Selective offline   Aborted by host               90%     11414         -
+# 6  Selective offline   Aborted by host               90%     11411         -
+# 7  Selective offline   Aborted by host               90%     11410         -
+# 8  Selective offline   Aborted by host               90%     11409         -
+# 9  Selective offline   Aborted by host               90%     11408         -
+#10  Selective offline   Aborted by host               90%     11407         -
+#11  Selective offline   Aborted by host               90%     11406         -
+#12  Selective offline   Aborted by host               90%     11405         -
+#13  Selective offline   Aborted by host               90%     11404         -
+#14  Selective offline   Aborted by host               90%     11403         -
+#15  Selective offline   Aborted by host               90%     11401         -
+#16  Selective offline   Aborted by host               90%     11400         -
+#17  Selective offline   Aborted by host               90%     11399         -
+#18  Selective offline   Aborted by host               90%     11398         -
+#19  Selective offline   Completed without error       00%     10677         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN     MIN_LBA     MAX_LBA  CURRENT_TEST_STATUS
@@ -159,9 +159,9 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       522 (0x020a)
 Device State:                        Active (0)
-Current Temperature:                    27 Celsius
-Power Cycle Min/Max Temperature:     20/27 Celsius
-Lifetime    Min/Max Temperature:     12/48 Celsius
+Current Temperature:                    24 Celsius
+Power Cycle Min/Max Temperature:     14/24 Celsius
+Lifetime    Min/Max Temperature:      9/48 Celsius
 Under/Over Temperature Limit Count:   0/0
 
 SCT Temperature History Version:     2
@@ -169,7 +169,7 @@ Temperature Sampling Period:         3 minutes
 Temperature Logging Interval:        94 minutes
 Min/Max recommended Temperature:      1/61 Celsius
 Min/Max Temperature Limit:            2/60 Celsius
-Temperature History Size (Index):    128 (96)
+Temperature History Size (Index):    128 (22)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -178,17 +178,17 @@ SCT Error Recovery Control:
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4            1214  ---  Lifetime Power-On Resets
-0x01  0x010  4           14252  ---  Power-on Hours
-0x01  0x018  6     68540221595  ---  Logical Sectors Written
-0x01  0x020  6       869479051  ---  Number of Write Commands
-0x01  0x028  6      8433662274  ---  Logical Sectors Read
-0x01  0x030  6       150657763  ---  Number of Read Commands
-0x01  0x038  6   1715280772088  ---  Date and Time TimeStamp
+0x01  0x008  4            1305  ---  Lifetime Power-On Resets
+0x01  0x010  4           14650  ---  Power-on Hours
+0x01  0x018  6     70494093369  ---  Logical Sectors Written
+0x01  0x020  6       875301382  ---  Number of Write Commands
+0x01  0x028  6     12308987815  ---  Logical Sectors Read
+0x01  0x030  6       168097848  ---  Number of Read Commands
+0x01  0x038  6               -  ---  Date and Time TimeStamp
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
-0x03  0x008  4             763  ---  Spindle Motor Power-on Hours
-0x03  0x010  4             759  ---  Head Flying Hours
-0x03  0x018  4            1928  ---  Head Load Events
+0x03  0x008  4            1124  ---  Spindle Motor Power-on Hours
+0x03  0x010  4            1120  ---  Head Flying Hours
+0x03  0x018  4            2097  ---  Head Load Events
 0x03  0x020  4               0  ---  Number of Reallocated Logical Sectors
 0x03  0x028  4               0  ---  Read Recovery Attempts
 0x03  0x030  4               0  ---  Number of Mechanical Start Failures
@@ -197,15 +197,15 @@ Page  Offset Size        Value Flags Description
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               8  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              27  ---  Current Temperature
-0x05  0x010  1              36  ---  Average Short Term Temperature
-0x05  0x018  1              36  ---  Average Long Term Temperature
+0x05  0x008  1              24  ---  Current Temperature
+0x05  0x010  1              21  ---  Average Short Term Temperature
+0x05  0x018  1              24  ---  Average Long Term Temperature
 0x05  0x020  1              48  ---  Highest Temperature
-0x05  0x028  1              16  ---  Lowest Temperature
+0x05  0x028  1              11  ---  Lowest Temperature
 0x05  0x030  1              44  ---  Highest Average Short Term Temperature
-0x05  0x038  1              30  ---  Lowest Average Short Term Temperature
+0x05  0x038  1              17  ---  Lowest Average Short Term Temperature
 0x05  0x040  1              41  ---  Highest Average Long Term Temperature
-0x05  0x048  1              32  ---  Lowest Average Long Term Temperature
+0x05  0x048  1              24  ---  Lowest Average Long Term Temperature
 0x05  0x050  4               0  ---  Time in Over-Temperature
 0x05  0x058  1              55  ---  Specified Maximum Operating Temperature
 0x05  0x060  4               0  ---  Time in Under-Temperature
@@ -218,7 +218,7 @@ Pending Defects log (GP Log 0x0c) not supported
 
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
-0x000a  2           50  Device-to-host register FISes sent due to a COMRESET
+0x000a  2           28  Device-to-host register FISes sent due to a COMRESET
 0x0001  2            0  Command failed due to ICRC error
 0x0003  2            0  R_ERR response for device-to-host data FIS
 0x0004  2            0  R_ERR response for host-to-device data FIS

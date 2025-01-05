@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p3 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,10 +13,10 @@ Controller ID:                      5
 NVMe Version:                       1.4
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          250,059,350,016 [250 GB]
-Namespace 1 Utilization:            12,921,524,224 [12.9 GB]
+Namespace 1 Utilization:            6,942,392,320 [6.94 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            002538 ...
-Local Time is:                      Tue Oct 31 12:58:15 2023 CDT
+Local Time is:                      Sat Nov 25 05:21:41 2023 CST
 Firmware Updates (0x16):            3 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x0055):     Comp DS_Mngmt Sav/Sel_Feat Timestmp
@@ -39,24 +39,24 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        31 Celsius
+Temperature:                        22 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    2%
-Data Units Read:                    49,938,651 [25.5 TB]
-Data Units Written:                 7,413,547 [3.79 TB]
-Host Read Commands:                 278,879,304
-Host Write Commands:                173,245,050
-Controller Busy Time:               817
-Power Cycles:                       505
-Power On Hours:                     2,682
-Unsafe Shutdowns:                   407
+Data Units Read:                    49,971,780 [25.5 TB]
+Data Units Written:                 7,912,192 [4.05 TB]
+Host Read Commands:                 279,480,339
+Host Write Commands:                201,516,654
+Controller Busy Time:               824
+Power Cycles:                       568
+Power On Hours:                     3,270
+Unsafe Shutdowns:                   454
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               31 Celsius
-Temperature Sensor 2:               34 Celsius
+Temperature Sensor 1:               22 Celsius
+Temperature Sensor 2:               33 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged
@@ -64,24 +64,24 @@ No Errors Logged
 Self-test Log (NVMe Log 0x06)
 Self-test status: No self-test in progress
 Num  Test_Description  Status                       Power_on_Hours  Failing_LBA  NSID Seg SCT Code
- 0   Extended          Completed without error                2627            -     -   -   -    -
- 1   Short             Completed without error                2627            -     -   -   -    -
- 2   Extended          Completed without error                2431            -     -   -   -    -
- 3   Short             Completed without error                2430            -     -   -   -    -
- 4   Extended          Completed without error                2295            -     -   -   -    -
- 5   Short             Completed without error                2295            -     -   -   -    -
- 6   Extended          Completed without error                2278            -     -   -   -    -
- 7   Extended          Completed without error                2250            -     -   -   -    -
- 8   Short             Aborted: Self-test command             2249            -     -   -   -    -
- 9   Short             Aborted: Controller Reset              2244            -     -   -   -    -
-10   Short             Completed without error                2244            -     -   -   -    -
-11   Extended          Completed without error                 897            -     -   -   -    -
-12   Short             Aborted: Self-test command              896            -     -   -   -    -
-13   Extended          Aborted: Self-test command              776            -     -   -   -    -
-14   Extended          Completed without error                 775            -     -   -   -    -
-15   Short             Aborted: Self-test command              775            -     -   -   -    -
-16   Extended          Completed without error                 472            -     -   -   -    -
-17   Short             Completed without error                 472            -     -   -   -    -
-18   Short             Completed without error                 178            -     -   -   -    -
-19   Short             Completed without error                  39            -     -   -   -    -
+ 0   Short             Aborted: Self-test command             3099            -     -   -   -    -
+ 1   Extended          Aborted: Self-test command             3099            -     -   -   -    -
+ 2   Short             Completed without error                3099            -     -   -   -    -
+ 3   Short             Completed without error                2683            -     -   -   -    -
+ 4   Extended          Completed without error                2627            -     -   -   -    -
+ 5   Short             Completed without error                2627            -     -   -   -    -
+ 6   Extended          Completed without error                2431            -     -   -   -    -
+ 7   Short             Completed without error                2430            -     -   -   -    -
+ 8   Extended          Completed without error                2295            -     -   -   -    -
+ 9   Short             Completed without error                2295            -     -   -   -    -
+10   Extended          Completed without error                2278            -     -   -   -    -
+11   Extended          Completed without error                2250            -     -   -   -    -
+12   Short             Aborted: Self-test command             2249            -     -   -   -    -
+13   Short             Aborted: Controller Reset              2244            -     -   -   -    -
+14   Short             Completed without error                2244            -     -   -   -    -
+15   Extended          Completed without error                 897            -     -   -   -    -
+16   Short             Aborted: Self-test command              896            -     -   -   -    -
+17   Extended          Aborted: Self-test command              776            -     -   -   -    -
+18   Extended          Completed without error                 775            -     -   -   -    -
+19   Short             Aborted: Self-test command              775            -     -   -   -    -
 

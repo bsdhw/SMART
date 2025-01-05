@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Jul 16 21:11:53 2023 CST
+Local Time is:    Mon Jul 24 12:19:13 2023 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -40,15 +40,15 @@ Error logging capability:        (0x01)	Error logging supported.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       4674
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       619
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       4814
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       667
 167 Unknown_Attribute       0x0022   100   100   000    Old_age   Always       -       0
 168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
 169 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       0
 173 Unknown_Attribute       0x0012   191   191   000    Old_age   Always       -       0
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       105
-194 Temperature_Celsius     0x0023   063   058   020    Pre-fail  Always       -       37 (Min/Max 13/42)
-241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       253529
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       113
+194 Temperature_Celsius     0x0023   066   058   020    Pre-fail  Always       -       34 (Min/Max 13/42)
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       254811
 
 SMART Error Log Version: 1
 No Errors Logged
@@ -57,6 +57,4 @@ SMART Self-test log structure revision number 1
 No self-tests have been logged.  [To run self-tests, use: smartctl -t]
 
 Selective Self-tests/Logging not supported
-
-
 

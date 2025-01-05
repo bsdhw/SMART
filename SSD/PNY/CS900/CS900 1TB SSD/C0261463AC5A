@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.4 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.5 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Jan 24 23:26:12 2024 CST
+Local Time is:    Thu Feb 29 23:35:41 2024 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -56,16 +56,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       898
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       563
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       1139
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       708
 168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
 170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       287
-173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       458789
-192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       340
+173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       655401
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       467
 194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
 218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
 231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       99
-241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       6894
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       9123
 
 SMART Error Log Version: 1
 No Errors Logged
@@ -87,4 +87,6 @@ Selective self-test flags (0x0):
 If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 The above only provides legacy SMART information - try 'smartctl -x' for more
+
+
 

@@ -1,4 +1,4 @@
-smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.1-RELEASE-p8 amd64] (local build)
+smartctl 7.3 2022-02-28 r5338 [FreeBSD 13.2-RELEASE-p1 amd64] (local build)
 Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -13,7 +13,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5319
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Aug  4 23:55:39 2023 CEST
+Local Time is:    Sun Aug  6 01:42:59 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -60,10 +60,10 @@ recommended polling time: 	 (   2) minutes.
 SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  9 Power_On_Hours          -O--C-   100   100   000    -    34946
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    142
-163 Unknown_Attribute       ------   100   100   000    -    4170
-164 Unknown_Attribute       ------   100   100   000    -    1507
+  9 Power_On_Hours          -O--C-   100   100   000    -    34972
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    145
+163 Unknown_Attribute       ------   100   100   000    -    4172
+164 Unknown_Attribute       ------   100   100   000    -    1509
 166 Unknown_Attribute       ------   100   100   000    -    0
 167 Unknown_Attribute       -O---K   100   100   000    -    0
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
@@ -71,7 +71,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 192 Power-Off_Retract_Count -O--C-   100   100   000    -    28
 194 Temperature_Celsius     PO---K   070   070   000    -    30
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    55
-241 Total_LBAs_Written      -O--C-   100   100   000    -    44490406562
+241 Total_LBAs_Written      -O--C-   100   100   000    -    44560907458
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate

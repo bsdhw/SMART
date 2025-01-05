@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 2.6, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Sep 21 17:06:32 2023 CEST
+Local Time is:    Thu Sep 21 17:08:53 2023 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -73,7 +73,7 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
 174 Unsafe_Shutdown_Count   -O--CK   100   100   000    -    63
-175 Power_Loss_Cap_Test     PO--CK   100   100   010    -    632 (215 2672)
+175 Power_Loss_Cap_Test     PO--CK   100   100   010    -    632 (215 2674)
 183 SATA_Downshift_Count    -O--CK   100   100   000    -    0
 184 End-to-End_Error        PO--CK   100   100   090    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
@@ -82,14 +82,14 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 194 Temperature_Internal    -O---K   100   100   000    -    41
 197 Current_Pending_Sector  -O--CK   100   100   000    -    0
 199 CRC_Error_Count         -OSRCK   100   100   000    -    0
-225 Host_Writes_32MiB       -O--CK   100   100   000    -    558610
+225 Host_Writes_32MiB       -O--CK   100   100   000    -    558614
 226 Workld_Media_Wear_Indic -O--CK   100   100   000    -    5396
 227 Workld_Host_Reads_Perc  -O--CK   100   100   000    -    0
-228 Workload_Minutes        -O--CK   100   100   000    -    165050
+228 Workload_Minutes        -O--CK   100   100   000    -    165052
 232 Available_Reservd_Space PO--CK   099   099   010    -    0
 233 Media_Wearout_Indicator -O--CK   085   085   000    -    0
 234 Thermal_Throttle        -O--CK   100   100   000    -    0/0
-241 Host_Writes_32MiB       -O--CK   100   100   000    -    558610
+241 Host_Writes_32MiB       -O--CK   100   100   000    -    558614
 242 Host_Reads_32MiB        -O--CK   100   100   000    -    326117
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -168,7 +168,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/70 Celsius
-Temperature History Size (Index):    478 (94)
+Temperature History Size (Index):    478 (97)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -178,10 +178,10 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4             116  ---  Lifetime Power-On Resets
-0x01  0x018  6     36609100408  ---  Logical Sectors Written
-0x01  0x020  6       156662238  ---  Number of Write Commands
-0x01  0x028  6     21372443160  ---  Logical Sectors Read
-0x01  0x030  6         1797399  ---  Number of Read Commands
+0x01  0x018  6     36609381792  ---  Logical Sectors Written
+0x01  0x020  6       156667334  ---  Number of Write Commands
+0x01  0x028  6     21372443776  ---  Logical Sectors Read
+0x01  0x030  6         1797412  ---  Number of Read Commands
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

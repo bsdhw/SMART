@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.1-RELEASE-p6 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Mon Oct 21 12:18:27 2024 MST
+Local Time is:    Fri Dec 27 14:06:16 2024 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -62,16 +62,16 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
-  9 Power_On_Hours          -O--C-   100   100   000    -    12871
- 12 Power_Cycle_Count       -O--C-   100   100   000    -    64
+  9 Power_On_Hours          -O--C-   100   100   000    -    14477
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    216
 168 Unknown_Attribute       -O--C-   100   100   000    -    0
 170 Unknown_Attribute       PO----   080   080   010    -    31
-173 Unknown_Attribute       -O--C-   100   100   000    -    234294800
-192 Power-Off_Retract_Count -O--C-   100   100   000    -    49
+173 Unknown_Attribute       -O--C-   100   100   000    -    277156002
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    201
 194 Temperature_Celsius     PO---K   067   067   000    -    33 (Min/Max 33/33)
 218 Unknown_Attribute       PO-R--   100   100   050    -    0
 231 Unknown_SSD_Attribute   PO--C-   100   100   000    -    0
-241 Total_LBAs_Written      -O--C-   100   100   000    -    30038
+241 Total_LBAs_Written      -O--C-   100   100   000    -    35912
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -118,10 +118,10 @@ SCT Commands not supported
 Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
-0x01  0x008  4              64  ---  Lifetime Power-On Resets
-0x01  0x010  4           12871  ---  Power-on Hours
-0x01  0x018  6     62996071180  ---  Logical Sectors Written
-0x01  0x028  6      4492358319  ---  Logical Sectors Read
+0x01  0x008  4             216  ---  Lifetime Power-On Resets
+0x01  0x010  4           14477  ---  Power-on Hours
+0x01  0x018  6     75314675188  ---  Logical Sectors Written
+0x01  0x028  6      5320293729  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==

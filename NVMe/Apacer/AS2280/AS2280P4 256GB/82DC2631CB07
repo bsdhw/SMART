@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p9 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          256,060,514,304 [256 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            3a5a27 ...
-Local Time is:                      Sat Feb 10 17:49:23 2024 +05
+Local Time is:                      Tue Jun 18 05:53:17 2024 +05
 Firmware Updates (0x02):            1 Slot
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x004c):     DS_Mngmt Wr_Zero Timestmp
@@ -37,18 +37,18 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        49 Celsius
+Temperature:                        48 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    61%
-Data Units Read:                    29,860,160 [15.2 TB]
-Data Units Written:                 161,880,092 [82.8 TB]
-Host Read Commands:                 181,955,065
-Host Write Commands:                1,402,043,700
-Controller Busy Time:               2,553
-Power Cycles:                       127
-Power On Hours:                     13,217
-Unsafe Shutdowns:                   18
+Percentage Used:                    84%
+Data Units Read:                    34,037,939 [17.4 TB]
+Data Units Written:                 244,565,623 [125 TB]
+Host Read Commands:                 212,488,395
+Host Write Commands:                2,397,868,405
+Controller Busy Time:               3,622
+Power Cycles:                       137
+Power On Hours:                     16,300
+Unsafe Shutdowns:                   25
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0

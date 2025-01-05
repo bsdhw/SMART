@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p11 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -14,7 +14,7 @@ NVMe Version:                       1.3
 Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,024,209,543,168 [1.02 TB]
 Namespace 1 Formatted LBA Size:     512
-Local Time is:                      Fri Dec 15 09:11:16 2023 EST
+Local Time is:                      Sat Jul 13 02:59:02 2024 EDT
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0007):   Security Format Frmw_DL
 Optional NVM Commands (0x0014):     DS_Mngmt Sav/Sel_Feat
@@ -39,19 +39,21 @@ Critical Warning:                   0x00
 Temperature:                        48 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
-Percentage Used:                    0%
-Data Units Read:                    50,682 [25.9 GB]
-Data Units Written:                 31,164,113 [15.9 TB]
-Host Read Commands:                 976,483
-Host Write Commands:                351,220,625
-Controller Busy Time:               7,388
-Power Cycles:                       14
-Power On Hours:                     1,600
-Unsafe Shutdowns:                   8
+Percentage Used:                    1%
+Data Units Read:                    91,436 [46.8 GB]
+Data Units Written:                 50,396,811 [25.8 TB]
+Host Read Commands:                 1,900,263
+Host Write Commands:                565,502,973
+Controller Busy Time:               20,020
+Power Cycles:                       18
+Power On Hours:                     6,671
+Unsafe Shutdowns:                   12
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
+Thermal Temp. 1 Transition Count:   93
+Thermal Temp. 1 Total Time:         817
 
 Error Information (NVMe Log 0x01, 16 of 64 entries)
 No Errors Logged

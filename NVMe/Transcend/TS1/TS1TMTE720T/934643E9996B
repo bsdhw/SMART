@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          1,024,209,543,168 [1.02 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            7c3548 ...
-Local Time is:                      Sat Jul 13 14:11:19 2024 PDT
+Local Time is:                      Fri Sep 20 12:28:53 2024 PDT
 Firmware Updates (0x14):            2 Slots, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005e):     Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -37,23 +37,23 @@ SMART overall-health self-assessment test result: PASSED
 
 SMART/Health Information (NVMe Log 0x02)
 Critical Warning:                   0x00
-Temperature:                        54 Celsius
+Temperature:                        56 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          10%
 Percentage Used:                    0%
-Data Units Read:                    636,981 [326 GB]
-Data Units Written:                 29,497,083 [15.1 TB]
-Host Read Commands:                 6,649,607
-Host Write Commands:                288,636,086
-Controller Busy Time:               3,339
+Data Units Read:                    773,779 [396 GB]
+Data Units Written:                 97,958,935 [50.1 TB]
+Host Read Commands:                 8,139,656
+Host Write Commands:                711,936,983
+Controller Busy Time:               7,827
 Power Cycles:                       29
-Power On Hours:                     5,123
+Power On Hours:                     6,776
 Unsafe Shutdowns:                   24
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      0
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Thermal Temp. 1 Transition Count:   1
+Thermal Temp. 1 Transition Count:   7
 
 Error Information (NVMe Log 0x01, 8 of 8 entries)
 No Errors Logged

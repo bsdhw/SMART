@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.6 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Wed Apr 24 15:41:18 2024 EDT
+Local Time is:    Thu Oct 24 00:08:00 2024 EDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -61,28 +61,28 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       10622
   5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0032   100   100   ---    Old_age   Always       -       18125
- 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       934
+  9 Power_On_Hours          0x0032   100   100   ---    Old_age   Always       -       18139
+ 12 Power_Cycle_Count       0x0032   100   100   ---    Old_age   Always       -       955
 171 Program_Fail_Count      0x0032   100   100   ---    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   ---    Old_age   Always       -       0
-173 Avg_Write/Erase_Count   0x0032   094   094   005    Old_age   Always       -       44
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   ---    Old_age   Always       -       197
+173 Avg_Write/Erase_Count   0x0032   094   094   005    Old_age   Always       -       45
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   ---    Old_age   Always       -       198
 176 Erase_Fail_Count_Chip   0x0022   100   100   ---    Old_age   Always       -       2176
 181 Program_Fail_Cnt_Total  0x0022   100   100   ---    Old_age   Always       -       0
 183 Runtime_Bad_Block       0x0032   100   100   ---    Old_age   Always       -       0
 184 End-to-End_Error        0x003b   100   100   097    Pre-fail  Always       -       0
 187 Reported_Uncorrect      0x0032   100   100   ---    Old_age   Always       -       0
-188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       1676
-194 Temperature_Celsius     0x0022   049   064   ---    Old_age   Always       -       49 (Min/Max 16/64)
+188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       1909
+194 Temperature_Celsius     0x0022   047   064   ---    Old_age   Always       -       47 (Min/Max 16/64)
 198 Offline_Uncorrectable   0x0030   100   100   ---    Old_age   Offline      -       0
 199 SATA_CRC_Error          0x0032   100   100   ---    Old_age   Always       -       0
-201 Lifetime_Remaining%     0x0023   094   094   005    Pre-fail  Always       -       25769803820
-230 Perc_Write/Erase_Count  0x0032   100   100   ---    Old_age   Always       -       4450 4450 1564
-241 Total_Writes_GiB        0x0032   100   100   ---    Old_age   Always       -       1591248
-242 Total_Reads_GiB         0x0032   100   100   ---    Old_age   Always       -       1438597
-243 Unknown_Marvell_Attr    0x0032   100   100   ---    Old_age   Always       -       2513278
+201 Lifetime_Remaining%     0x0023   094   094   005    Pre-fail  Always       -       25769803821
+230 Perc_Write/Erase_Count  0x0032   100   100   ---    Old_age   Always       -       4630 4630 1578
+241 Total_Writes_GiB        0x0032   100   100   ---    Old_age   Always       -       1615049
+242 Total_Reads_GiB         0x0032   100   100   ---    Old_age   Always       -       1458211
+243 Unknown_Marvell_Attr    0x0032   100   100   ---    Old_age   Always       -       2558063
 244 Thermal_Throttle        0x0032   000   100   ---    Old_age   Always       -       0
-249 TLC_NAND_GB_Writes      0x0032   100   100   ---    Old_age   Always       -       10734
+249 TLC_NAND_GB_Writes      0x0032   100   100   ---    Old_age   Always       -       11050
 
 SMART Error Log Version: 1
 No Errors Logged

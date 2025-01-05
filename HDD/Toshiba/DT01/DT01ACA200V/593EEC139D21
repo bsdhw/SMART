@@ -13,7 +13,7 @@ Form Factor:      3.5 inches
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 4
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sun Jul 14 08:45:53 2024 PDT
+Local Time is:    Sun Jul 14 09:18:10 2024 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -236,7 +236,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        1 minute
 Min/Max recommended Temperature:      0/60 Celsius
 Min/Max Temperature Limit:           -40/70 Celsius
-Temperature History Size (Index):    128 (92)
+Temperature History Size (Index):    128 (124)
 
 SCT Error Recovery Control:
            Read: Disabled
@@ -249,8 +249,8 @@ Page  Offset Size        Value Flags Description
 0x01  0x010  4           12973  ---  Power-on Hours
 0x01  0x018  6      3907502470  ---  Logical Sectors Written
 0x01  0x020  6         7634639  ---  Number of Write Commands
-0x01  0x028  6      3912679419  ---  Logical Sectors Read
-0x01  0x030  6         7701579  ---  Number of Read Commands
+0x01  0x028  6      3912681709  ---  Logical Sectors Read
+0x01  0x030  6         7701656  ---  Number of Read Commands
 0x03  =====  =               =  ===  == Rotating Media Statistics (rev 1) ==
 0x03  0x008  4           12954  ---  Spindle Motor Power-on Hours
 0x03  0x010  4           12954  ---  Head Flying Hours
@@ -276,8 +276,8 @@ Page  Offset Size        Value Flags Description
 0x05  0x060  4               0  ---  Time in Under-Temperature
 0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4            2364  ---  Number of Hardware Resets
-0x06  0x010  4            1247  ---  Number of ASR Events
+0x06  0x008  4            2371  ---  Number of Hardware Resets
+0x06  0x010  4            1251  ---  Number of ASR Events
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
                                 |||_ C monitored condition met
                                 ||__ D supports DSN
@@ -294,8 +294,8 @@ ID      Size     Value  Description
 0x0005  2            0  R_ERR response for non-data FIS
 0x0006  2            0  R_ERR response for device-to-host non-data FIS
 0x0007  2            0  R_ERR response for host-to-device non-data FIS
-0x0009  2            7  Transition from drive PhyRdy to drive PhyNRdy
-0x000a  2            8  Device-to-host register FISes sent due to a COMRESET
+0x0009  2           11  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           12  Device-to-host register FISes sent due to a COMRESET
 0x000b  2            0  CRC errors within host-to-device FIS
 0x000d  2            0  Non-CRC errors within host-to-device FIS
 

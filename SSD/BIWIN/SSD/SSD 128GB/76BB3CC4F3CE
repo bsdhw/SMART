@@ -12,7 +12,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Tue Jul  2 16:52:05 2024 BST
+Local Time is:    Tue Jul  9 11:15:35 2024 BST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,8 +60,8 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate     0x0000   100   100   000    Old_age   Offline      -       0
   5 Reallocated_Sector_Ct   0x0000   100   100   000    Old_age   Offline      -       0
-  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       1498
- 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       2024
+  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       1502
+ 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       2032
 171 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
 172 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
 174 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       165
@@ -70,13 +70,13 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
 182 Erase_Fail_Count_Total  0x0000   100   100   000    Old_age   Offline      -       0
 187 Reported_Uncorrect      0x0000   100   100   000    Old_age   Offline      -       0
 194 Temperature_Celsius     0x0000   035   035   000    Old_age   Offline      -       35
-195 Hardware_ECC_Recovered  0x0000   100   100   000    Old_age   Offline      -       3735
+195 Hardware_ECC_Recovered  0x0000   100   100   000    Old_age   Offline      -       3749
 196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       0
 231 Unknown_SSD_Attribute   0x0000   100   100   000    Old_age   Offline      -       0
-234 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       15804
-235 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       8984
-241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       9200508
-242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       16183810
+234 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       15814
+235 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       9010
+241 Total_LBAs_Written      0x0003   100   100   000    Pre-fail  Always       -       9226874
+242 Total_LBAs_Read         0x0003   100   100   000    Pre-fail  Always       -       16194555
 
 SMART Error Log Version: 1
 No Errors Logged

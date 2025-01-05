@@ -13,15 +13,13 @@ Rotation Rate:    Solid State Device
 TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5319
 ATA Version is:   ACS-3 (minor revision not indicated)
-SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Fri Aug 25 23:22:47 2023 MSK
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 1.5 Gb/s)
+Local Time is:    Wed Aug 30 20:10:35 2023 MSK
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
 === START OF READ SMART DATA SECTION ===
-SMART Status not supported: Incomplete response, ATA output registers missing
 SMART overall-health self-assessment test result: PASSED
-Warning: This result is based on an Attribute check.
 
 General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
@@ -60,26 +58,26 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       4
   9 Power_On_Hours_and_Msec 0x0032   100   100   000    Old_age   Always       -       5272h+00m+00.000s
- 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       759
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       764
 170 Available_Reservd_Space 0x0033   094   100   010    Pre-fail  Always       -       0
 171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
 172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
-174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       25
-183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       2
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       27
+183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       36
 184 End-to-End_Error        0x0033   100   100   090    Pre-fail  Always       -       0
 187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
-190 Airflow_Temperature_Cel 0x0032   027   100   000    Old_age   Always       -       27 (Min/Max 12/51)
-192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       25
+190 Airflow_Temperature_Cel 0x0032   030   100   000    Old_age   Always       -       30 (Min/Max 12/51)
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       27
 199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       4
-225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215484
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215507
 226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       65535
 227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       20
 228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       65535
 232 Available_Reservd_Space 0x0033   094   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   068   100   000    Old_age   Always       -       0
-241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215484
-242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       307612
-249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       239488
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       1215507
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       307653
+249 NAND_Writes_1GiB        0x0032   100   100   000    Old_age   Always       -       239492
 
 SMART Error Log not supported
 
@@ -100,6 +98,4 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
-
-
 

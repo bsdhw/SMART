@@ -14,7 +14,7 @@ TRIM Command:     Available
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS, ACS-2 T13/2015-D revision 3
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Tue Jan 30 18:31:53 2024 CET
+Local Time is:    Wed Feb  7 12:27:36 2024 CET
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -63,9 +63,9 @@ SCT capabilities: 	       (0x0025)	SCT Status supported.
 SMART Attributes Data Structure revision number: 10
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
-  1 Raw_Read_Error_Rate     -O--CK   095   095   050    -    0/15364649
+  1 Raw_Read_Error_Rate     -O--CK   095   095   050    -    0/15377400
   5 Retired_Block_Count     PO--CK   099   099   003    -    0
-  9 Power_On_Hours_and_Msec -O--CK   072   072   000    -    24726h+01m+28.880s
+  9 Power_On_Hours_and_Msec -O--CK   072   072   000    -    24911h+50m+28.390s
  12 Power_Cycle_Count       -O--CK   100   100   000    -    82
 171 Program_Fail_Count      -O-R--   100   100   000    -    0
 172 Erase_Fail_Count        -O--CK   100   100   000    -    0
@@ -75,15 +75,15 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 182 Erase_Fail_Count        -O--CK   100   100   000    -    0
 187 Reported_Uncorrect      -O--C-   100   100   000    -    0
 194 Temperature_Celsius     -O---K   047   064   000    -    47 (Min/Max 15/64)
-195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/15364649
+195 ECC_Uncorr_Error_Count  --SRC-   120   120   000    -    0/15377400
 196 Reallocated_Event_Count PO--CK   100   100   003    -    0
-201 Unc_Soft_Read_Err_Rate  --SRC-   120   120   000    -    0/15364649
-204 Soft_ECC_Correct_Rate   --SRC-   120   120   000    -    0/15364649
+201 Unc_Soft_Read_Err_Rate  --SRC-   120   120   000    -    0/15377400
+204 Soft_ECC_Correct_Rate   --SRC-   120   120   000    -    0/15377400
 230 Life_Curve_Status       PO--C-   100   100   000    -    100
 231 SSD_Life_Left           PO--C-   100   100   010    -    0
-233 SandForce_Internal      -O--CK   000   000   000    -    8753
-234 SandForce_Internal      -O--CK   000   000   000    -    8075
-241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    8075
+233 SandForce_Internal      -O--CK   000   000   000    -    8842
+234 SandForce_Internal      -O--CK   000   000   000    -    8186
+241 Lifetime_Writes_GiB     -O--CK   000   000   000    -    8186
 242 Lifetime_Reads_GiB      -O--CK   000   000   000    -    33
                             ||||||_ K auto-keep
                             |||||__ C event count
@@ -113,25 +113,25 @@ SMART Error Log not supported
 
 SMART Extended Self-test Log Version: 1 (1 sectors)
 Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
-# 1  Short offline       Completed without error       00%     24709         -
-# 2  Short offline       Completed without error       00%     24685         -
-# 3  Short offline       Completed without error       00%     24661         -
-# 4  Extended offline    Completed without error       00%     24639         -
-# 5  Short offline       Completed without error       00%     24637         -
-# 6  Short offline       Completed without error       00%     24613         -
-# 7  Short offline       Completed without error       00%     24589         -
-# 8  Short offline       Completed without error       00%     24565         -
-# 9  Short offline       Completed without error       00%     24541         -
-#10  Short offline       Completed without error       00%     24517         -
-#11  Short offline       Completed without error       00%     24493         -
-#12  Extended offline    Completed without error       00%     24471         -
-#13  Short offline       Completed without error       00%     24469         -
-#14  Short offline       Completed without error       00%     24445         -
-#15  Short offline       Completed without error       00%     24421         -
-#16  Short offline       Completed without error       00%     24397         -
-#17  Short offline       Completed without error       00%     24373         -
-#18  Short offline       Completed without error       00%     24349         -
-#19  Short offline       Completed without error       00%     24325         -
+# 1  Short offline       Completed without error       00%     24901         -
+# 2  Short offline       Completed without error       00%     24877         -
+# 3  Short offline       Completed without error       00%     24853         -
+# 4  Short offline       Completed without error       00%     24829         -
+# 5  Extended offline    Completed without error       00%     24806         -
+# 6  Short offline       Completed without error       00%     24805         -
+# 7  Short offline       Completed without error       00%     24781         -
+# 8  Short offline       Completed without error       00%     24757         -
+# 9  Short offline       Completed without error       00%     24733         -
+#10  Short offline       Completed without error       00%     24709         -
+#11  Short offline       Completed without error       00%     24685         -
+#12  Short offline       Completed without error       00%     24661         -
+#13  Extended offline    Completed without error       00%     24639         -
+#14  Short offline       Completed without error       00%     24637         -
+#15  Short offline       Completed without error       00%     24613         -
+#16  Short offline       Completed without error       00%     24589         -
+#17  Short offline       Completed without error       00%     24565         -
+#18  Short offline       Completed without error       00%     24541         -
+#19  Short offline       Completed without error       00%     24517         -
 
 SMART Selective self-test log data structure revision number 1
  SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
@@ -147,7 +147,7 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
 SCT Status Version:                  3
 SCT Version (vendor specific):       0 (0x0000)
 Device State:                        Active (0)
-Current Temperature:                    47 Celsius
+Current Temperature:                    46 Celsius
 Power Cycle Min/Max Temperature:     15/64 Celsius
 Lifetime    Min/Max Temperature:     15/64 Celsius
 Under/Over Temperature Limit Count:   0/0
@@ -157,7 +157,7 @@ Temperature Sampling Period:         1 minute
 Temperature Logging Interval:        10 minutes
 Min/Max recommended Temperature:      0/70 Celsius
 Min/Max Temperature Limit:            0/80 Celsius
-Temperature History Size (Index):    478 (321)
+Temperature History Size (Index):    478 (2)
 
 SCT Error Recovery Control command not supported
 
@@ -165,9 +165,9 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 2) ==
 0x01  0x008  4              82  ---  Lifetime Power-On Resets
-0x01  0x010  4           24726  ---  Power-on Hours
-0x01  0x018  6     16936023403  ---  Logical Sectors Written
-0x01  0x028  6        69753582  ---  Logical Sectors Read
+0x01  0x010  4           24911  ---  Power-on Hours
+0x01  0x018  6     17168052619  ---  Logical Sectors Written
+0x01  0x028  6        69766333  ---  Logical Sectors Read
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion

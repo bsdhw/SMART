@@ -1,4 +1,4 @@
-smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p5 amd64] (local build)
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 13.2-RELEASE-p7 amd64] (local build)
 Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -15,7 +15,7 @@ Number of Namespaces:               1
 Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            6479a7 ...
-Local Time is:                      Wed Nov 22 18:45:49 2023 CET
+Local Time is:                      Thu Dec 14 21:59:59 2023 CET
 Firmware Updates (0x12):            1 Slot, no Reset required
 Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
 Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
@@ -46,19 +46,19 @@ Temperature:                        39 Celsius
 Available Spare:                    100%
 Available Spare Threshold:          50%
 Percentage Used:                    0%
-Data Units Read:                    1,754,756 [898 GB]
-Data Units Written:                 3,008,827 [1.54 TB]
-Host Read Commands:                 8,717,778
-Host Write Commands:                63,132,964
-Controller Busy Time:               251
-Power Cycles:                       119
-Power On Hours:                     764
-Unsafe Shutdowns:                   80
+Data Units Read:                    1,823,076 [933 GB]
+Data Units Written:                 3,801,828 [1.94 TB]
+Host Read Commands:                 10,262,874
+Host Write Commands:                106,311,947
+Controller Busy Time:               400
+Power Cycles:                       143
+Power On Hours:                     1,302
+Unsafe Shutdowns:                   98
 Media and Data Integrity Errors:    0
 Error Information Log Entries:      135
 Warning  Comp. Temperature Time:    0
 Critical Comp. Temperature Time:    0
-Temperature Sensor 1:               57 Celsius
+Temperature Sensor 1:               56 Celsius
 
 Error Information (NVMe Log 0x01, 16 of 63 entries)
 No Errors Logged

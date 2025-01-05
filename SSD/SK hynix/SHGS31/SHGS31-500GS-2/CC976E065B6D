@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ACS-3 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Sun Oct 27 01:29:54 2024 MDT
+Local Time is:    Tue Nov  5 23:07:47 2024 MST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -29,14 +29,13 @@ Wt Cache Reorder: Unavailable
 SMART overall-health self-assessment test result: PASSED
 
 General SMART Values:
-Offline data collection status:  (0x02)	Offline data collection activity
-					was completed without error.
+Offline data collection status:  (0x03)	Offline data collection activity
+					is in progress.
 					Auto Offline Data Collection: Disabled.
-Self-test execution status:      (   0)	The previous self-test routine completed
-					without error or no self-test has ever 
-					been run.
+Self-test execution status:      ( 241)	Self-test routine in progress...
+					10% of test remaining.
 Total time to complete Offline 
-data collection: 		(  110) seconds.
+data collection: 		(    0) seconds.
 Offline data collection
 capabilities: 			 (0x51) SMART execute Offline immediate.
 					No Auto Offline data collection support.
@@ -61,9 +60,9 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     -OSR--   166   166   006    -    0
   5 Retired_Block_Count     -O--CK   100   100   036    -    0
-  9 Power_On_Hours          -O--CK   064   064   000    -    32274
+  9 Power_On_Hours          -O--CK   064   064   000    -    32512
  12 Power_Cycle_Count       -O--CK   100   100   020    -    16
-100 Total_Erase_Count       -O--CK   100   100   000    -    1206848
+100 Total_Erase_Count       -O--CK   100   100   000    -    1217980
 168 Min_Erase_Count         -O--CK   100   100   000    -    5
 169 Max_Erase_Count         -O--CK   098   098   000    -    64
 171 Program_Fail_Count      -O--CK   100   100   000    -    0
@@ -78,17 +77,17 @@ ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
 184 End-to-End_Error        -O--CK   100   100   000    -    0
 187 Reported_Uncorrect      -O--CK   100   100   000    -    0
 188 Command_Timeout         -O--CK   100   100   000    -    0
-194 Temperature_Celsius     -O---K   033   049   000    -    33 (Min/Max 25/49)
+194 Temperature_Celsius     -O---K   037   049   000    -    37 (Min/Max 25/49)
 195 Hardware_ECC_Recovered  -OSR--   100   100   000    -    0
 196 Reallocated_Event_Count -O--CK   100   100   036    -    0
 198 Offline_Uncorrectable   ----CK   100   100   000    -    0
 199 UDMA_CRC_Error_Count    -O--CK   100   100   000    -    0
-204 Soft_ECC_Correction     -OSR--   100   001   000    -    1090
-212 Phy_Error_Count         -O--CK   100   100   000    -    246
+204 Soft_ECC_Correction     -OSR--   001   001   000    -    9460
+212 Phy_Error_Count         -O--CK   100   100   000    -    248
 233 Media_Wearout_Indicator PO---K   099   099   001    -    99
-234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    17079
-241 Total_Writes_GB         -O--CK   100   100   000    -    38936
-242 Total_Reads_GB          -O--CK   100   100   000    -    3294
+234 Unknown_SK_hynix_Attrib -O--CK   100   100   000    -    17237
+241 Total_Writes_GB         -O--CK   100   100   000    -    39537
+242 Total_Reads_GB          -O--CK   100   100   000    -    3297
                             ||||||_ K auto-keep
                             |||||__ C event count
                             ||||___ R error rate
@@ -138,19 +137,19 @@ Device Statistics (GP Log 0x04)
 Page  Offset Size        Value Flags Description
 0x01  =====  =               =  ===  == General Statistics (rev 1) ==
 0x01  0x008  4              16  ---  Lifetime Power-On Resets
-0x01  0x010  4           32274  ---  Power-on Hours
-0x01  0x018  6     76048182995  ---  Logical Sectors Written
-0x01  0x020  6       880354460  ---  Number of Write Commands
-0x01  0x028  6      6435295752  ---  Logical Sectors Read
-0x01  0x030  6        65374285  ---  Number of Read Commands
-0x01  0x038  6       222283008  ---  Date and Time TimeStamp
+0x01  0x010  4           32512  ---  Power-on Hours
+0x01  0x018  6     77221638635  ---  Logical Sectors Written
+0x01  0x020  6       895731250  ---  Number of Write Commands
+0x01  0x028  6      6440671780  ---  Logical Sectors Read
+0x01  0x030  6        65503651  ---  Number of Read Commands
+0x01  0x038  6      1079083008  ---  Date and Time TimeStamp
 0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
 0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
 0x04  0x010  4               0  ---  Resets Between Cmd Acceptance and Completion
 0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
-0x05  0x008  1              33  ---  Current Temperature
-0x05  0x010  1              34  ---  Average Short Term Temperature
-0x05  0x018  1               -  ---  Average Long Term Temperature
+0x05  0x008  1              37  ---  Current Temperature
+0x05  0x010  1              32  ---  Average Short Term Temperature
+0x05  0x018  1              34  ---  Average Long Term Temperature
 0x05  0x020  1              49  ---  Highest Temperature
 0x05  0x028  1              21  ---  Lowest Temperature
 0x05  0x030  1               -  ---  Highest Average Short Term Temperature
@@ -159,10 +158,10 @@ Page  Offset Size        Value Flags Description
 0x05  0x048  1              29  ---  Lowest Average Long Term Temperature
 0x05  0x050  4               0  ---  Time in Over-Temperature
 0x05  0x058  1              80  ---  Specified Maximum Operating Temperature
-0x05  0x060  4         1882740  ---  Time in Under-Temperature
+0x05  0x060  4         1896970  ---  Time in Under-Temperature
 0x05  0x068  1             -20  ---  Specified Minimum Operating Temperature
 0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
-0x06  0x008  4             438  ---  Number of Hardware Resets
+0x06  0x008  4             441  ---  Number of Hardware Resets
 0x06  0x018  4               0  ---  Number of Interface CRC Errors
 0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
 0x07  0x008  1               1  ---  Percentage Used Endurance Indicator
@@ -175,5 +174,5 @@ Pending Defects log (GP Log 0x0c) not supported
 SATA Phy Event Counters (GP Log 0x11)
 ID      Size     Value  Description
 0x0001  2            0  Command failed due to ICRC error
-0x000a  2            3  Device-to-host register FISes sent due to a COMRESET
+0x000a  2            6  Device-to-host register FISes sent due to a COMRESET
 

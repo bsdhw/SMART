@@ -14,7 +14,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        Not in smartctl database 7.3/5528
 ATA Version is:   ACS-4 (minor revision not indicated)
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Nov  9 08:17:39 2024 -03
+Local Time is:    Sun Dec  1 13:08:24 2024 -03
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -60,16 +60,16 @@ SMART Attributes Data Structure revision number: 20
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   5 Reallocated_Sector_Ct   0x0013   100   100   010    Pre-fail  Always       -       0
-  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       1240
- 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       268
-164 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       38659424283
-165 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       72
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       1392
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       296
+164 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       38660407325
+165 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       87
 166 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       9
-167 Unknown_Attribute       0x0022   100   100   000    Old_age   Always       -       27
-194 Temperature_Celsius     0x0022   030   030   000    Old_age   Always       -       30 (Min/Max 12/39)
+167 Unknown_Attribute       0x0022   100   100   000    Old_age   Always       -       29
+194 Temperature_Celsius     0x0022   036   036   000    Old_age   Always       -       36 (Min/Max 12/40)
 199 UDMA_CRC_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
-241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       2609
-242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       1369
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       2782
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       1395
 
 SMART Error Log Version: 1
 No Errors Logged

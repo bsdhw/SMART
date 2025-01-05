@@ -15,7 +15,7 @@ TRIM Command:     Available, deterministic, zeroed
 Device is:        In smartctl database 7.3/5528
 ATA Version is:   ATA8-ACS T13/1699-D revision 6
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Thu Apr 25 23:57:07 2024 CEST
+Local Time is:    Sun Apr 28 03:06:36 2024 CEST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 AAM feature is:   Unavailable
@@ -48,14 +48,14 @@ Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
   1 Raw_Read_Error_Rate     POSR--   100   100   000    -    0
   5 Reallocated_Sector_Ct   POSR--   100   100   000    -    0
-  9 Power_On_Hours          -O--CK   100   100   000    -    1471
- 12 Power_Cycle_Count       -O--CK   100   100   000    -    22582
+  9 Power_On_Hours          -O--CK   100   100   000    -    1482
+ 12 Power_Cycle_Count       -O--CK   100   100   000    -    22584
 169 Unknown_Apple_Attrib    -O---K   100   100   010    -    794743015136
 173 Wear_Leveling_Count     -O---K   188   188   100    -    734463459583
-174 Host_Reads_MiB          ----CK   100   100   000    -    28361462
-175 Host_Writes_MiB         ----CK   100   100   000    -    18393942
+174 Host_Reads_MiB          ----CK   100   100   000    -    28370327
+175 Host_Writes_MiB         ----CK   100   100   000    -    18403516
 192 Power-Off_Retract_Count -O--CK   100   100   000    -    300
-194 Temperature_Celsius     -O---K   041   041   000    -    59 (Min/Max 21/85)
+194 Temperature_Celsius     -O---K   035   035   000    -    65 (Min/Max 21/85)
 197 Current_Pending_Sector  -O--CK   000   000   000    -    0
 199 UDMA_CRC_Error_Count    -OSRCK   100   100   000    -    0
 244 Unknown_Attribute       -O----   000   000   000    -    0
@@ -97,5 +97,5 @@ ID      Size     Value  Description
 0x0001  4            0  Command failed due to ICRC error
 0x0002  4            0  R_ERR response for data FIS
 0x0005  4            0  R_ERR response for non-data FIS
-0x000a  4           16  Device-to-host register FISes sent due to a COMRESET
+0x000a  4           64  Device-to-host register FISes sent due to a COMRESET
 
