@@ -1,0 +1,78 @@
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.7 macppc] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     IBM Travelstar 32GH, 30GT, and 20GN
+Device Model:     IBM-DJSA-210
+Serial Number:    --
+Firmware Version: JS2AAB0A
+User Capacity:    10,056,130,560 bytes [10.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.3/5528
+ATA Version is:   ATA/ATAPI-5 T13/1321D revision 1
+Local Time is:    Mon Aug 11 21:16:17 2025 CEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  650) seconds.
+Offline data collection
+capabilities: 			 (0x1b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  16) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   062    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   040    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0007   121   121   033    Pre-fail  Always       -       1
+  4 Start_Stop_Count        0x0012   088   088   000    Old_age   Always       -       20227
+  5 Reallocated_Sector_Ct   0x0033   088   088   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   040    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0012   001   001   000    Old_age   Always       -       96191
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   090   090   000    Old_age   Always       -       17086
+191 G-Sense_Error_Rate      0x000a   092   092   000    Old_age   Always       -       1048600
+192 Power-Off_Retract_Count 0x0032   098   098   000    Old_age   Always       -       545
+193 Load_Cycle_Count        0x0012   001   001   000    Old_age   Always       -       2819875
+196 Reallocated_Event_Count 0x0032   087   087   000    Old_age   Always       -       136
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+

@@ -1,0 +1,122 @@
+smartctl 7.5 2025-04-30 r5714 [OpenBSD 7.8 i386] (local build)
+Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Fujitsu MHT
+Device Model:     FUJITSU MHT2030AT
+Serial Number:    --
+Firmware Version: 009A
+User Capacity:    30,005,821,440 bytes [30.0 GB]
+Sector Size:      512 bytes logical/physical
+Device is:        In smartctl database 7.5/5706
+ATA Version is:   ATA/ATAPI-6 T13/1410D revision 3a
+Local Time is:    Sat Dec 13 19:47:32 2025 CET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  220) seconds.
+Offline data collection
+capabilities: 			 (0x7b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					No General Purpose Logging support.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  30) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   2) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   100   100   046    Pre-fail  Always       -       61966
+  2 Throughput_Performance  0x0005   100   100   030    Pre-fail  Offline      -       12386304
+  3 Spin_Up_Time            0x0003   100   100   025    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   000    Old_age   Always       -       1474
+  5 Reallocated_Sector_Ct   0x0033   100   100   024    Pre-fail  Always       -       0 (2000 0)
+  7 Seek_Error_Rate         0x000f   100   100   047    Pre-fail  Always       -       1633
+  8 Seek_Time_Performance   0x0005   100   100   019    Pre-fail  Offline      -       0
+  9 Power_On_Seconds        0x0032   076   076   000    Old_age   Always       -       12015h+30m+32s
+ 10 Spin_Retry_Count        0x0013   100   100   020    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1296
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       167
+193 Load_Cycle_Count        0x0032   093   093   000    Old_age   Always       -       70135
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       32 (Min/Max 13/49)
+195 Hardware_ECC_Recovered  0x001a   100   100   000    Old_age   Always       -       1132
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0 (0 4384)
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       1
+200 Multi_Zone_Error_Rate   0x000f   100   100   060    Pre-fail  Always       -       5336
+203 Run_Out_Cancel          0x0002   100   100   000    Old_age   Always       -       429565675189
+
+SMART Error Log Version: 1
+ATA Error Count: 1
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 1 occurred at disk power-on lifetime: 11995 hours (499 days + 19 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  84 51 00 3f dd 07 e1  Error: ICRC, ABRT at LBA = 0x0107dd3f = 17292607
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  ca 00 20 20 dd 07 e1 00      13:17:01.019  WRITE DMA
+  ca 00 20 20 fd 12 e0 00      13:17:01.019  WRITE DMA
+  ca 00 20 c0 3d d5 e0 00      13:17:01.018  WRITE DMA
+  ca 00 20 60 3d d5 e0 00      13:17:01.018  WRITE DMA
+  ca 00 04 c0 c2 2e e1 00      13:17:01.017  WRITE DMA
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+
