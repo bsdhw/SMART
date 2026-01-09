@@ -23,17 +23,19 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| SPCC      | SSD                | 240 GB | 4       | 854   | 2     | 2.17   |
 | SPCC      | SSD                | 64 GB  | 7       | 726   | 0     | 1.99   |
-| SPCC      | SSD                | 1 TB   | 22      | 524   | 0     | 1.44   |
-| SPCC      | SSD                | 120 GB | 15      | 417   | 1     | 1.12   |
-| SPCC      | SSD                | 240 GB | 3       | 370   | 2     | 0.78   |
-| SPCC      | M.2 SSD            | 128 GB | 5       | 221   | 0     | 0.61   |
+| SPCC      | SSD                | 55 GB  | 2       | 520   | 0     | 1.43   |
+| SPCC      | SSD                | 120 GB | 17      | 514   | 1     | 1.39   |
+| SPCC      | SSD                | 1 TB   | 24      | 482   | 0     | 1.32   |
+| SPCC      | M.2 SSD            | 128 GB | 6       | 225   | 0     | 0.62   |
 | SPCC      | SPCCSolidStateDisk | 256 GB | 4       | 217   | 0     | 0.59   |
-| SPCC      | SSD                | 256 GB | 31      | 161   | 1     | 0.44   |
-| SPCC      | SSD                | 128 GB | 49      | 139   | 1     | 0.36   |
-| SPCC      | M.2 SSD            | 256 GB | 4       | 132   | 1     | 0.28   |
-| SPCC      | SSD                | 512 GB | 23      | 136   | 8     | 0.25   |
+| SPCC      | SSD                | 256 GB | 38      | 193   | 1     | 0.53   |
+| SPCC      | SSD                | 128 GB | 58      | 175   | 1     | 0.46   |
+| SPCC      | SSD                | 512 GB | 31      | 197   | 6     | 0.45   |
+| SPCC      | M.2 SSD            | 256 GB | 6       | 178   | 1     | 0.43   |
 | SPCC      | M.2 SSD            | 512 GB | 5       | 88    | 0     | 0.24   |
+| SPCC      | SSD                | 4 TB   | 2       | 47    | 0     | 0.13   |
 | SPCC      | SSD                | 2 TB   | 7       | 1     | 0     | 0.00   |
 
 SSD by Family
@@ -49,5 +51,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
-| SPCC      | Phison Driven OEM SSDs | 7      | 150     | 259   | 2     | 0.68   |
-| SPCC      | Silicon Motion base... | 1      | 5       | 221   | 0     | 0.61   |
+| SPCC      | Phison Driven OEM SSDs | 7      | 179     | 293   | 2     | 0.77   |
+| SPCC      | Silicon Motion base... | 1      | 6       | 225   | 0     | 0.62   |

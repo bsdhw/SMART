@@ -26,13 +26,15 @@ MTBF - avg. MTBF in years per sample.
 | Seagate   | XF1230-1A0240      | 240 GB | 2       | 1752  | 0     | 4.80   |
 | Seagate   | ST240HM000-1G5152  | 240 GB | 2       | 1356  | 0     | 3.72   |
 | Seagate   | XF1230-1A0480      | 480 GB | 2       | 1266  | 0     | 3.47   |
+| Seagate   | SSD                | 500 GB | 2       | 690   | 0     | 1.89   |
 | Seagate   | IronWolf ZA1000... | 1 TB   | 2       | 687   | 0     | 1.88   |
 | Seagate   | XA960LE10063       | 960 GB | 2       | 601   | 0     | 1.65   |
 | Seagate   | BarraCuda SSD Z... | 250 GB | 3       | 516   | 0     | 1.42   |
 | Seagate   | IronWolf ZA250N... | 250 GB | 2       | 393   | 0     | 1.08   |
+| Seagate   | IronWolf ZA500N... | 500 GB | 3       | 387   | 0     | 1.06   |
+| Seagate   | BarraCuda 120 S... | 1 TB   | 2       | 326   | 0     | 0.89   |
 | Seagate   | BarraCuda 120 S... | 500 GB | 3       | 237   | 0     | 0.65   |
 | Seagate   | FireCuda 120 SS... | 1 TB   | 2       | 204   | 0     | 0.56   |
-| Seagate   | IronWolf ZA500N... | 500 GB | 2       | 0     | 0     | 0.00   |
 
 SSD by Family
 -------------
@@ -49,4 +51,4 @@ MTBF - avg. MTBF in years per sample.
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Seagate   | Nytro XF1230 SATA SSD  | 2      | 4       | 1509  | 0     | 4.14   |
 | Seagate   | Nytro SATA SSD         | 1      | 2       | 601   | 0     | 1.65   |
-| Seagate   | IronWolf (Pro) 125 ... | 3      | 6       | 360   | 0     | 0.99   |
+| Seagate   | IronWolf (Pro) 125 ... | 3      | 7       | 474   | 0     | 1.30   |

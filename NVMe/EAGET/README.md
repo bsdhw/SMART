@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| EAGET     | S900L SSD          | 128 GB | 1       | 493   | 0     | 1.35   |
+| EAGET     | SSD                | 256 GB | 2       | 5     | 0     | 0.01   |

@@ -17,6 +17,8 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| GOFATOO   | SSD                | 64 GB  | 2       | 339   | 0     | 0.93   |
 | GOFATOO   | SSD                | 128 GB | 2       | 224   | 0     | 0.62   |
-| GOFATOO   | 128GB SSD          | 128 GB | 9       | 88    | 0     | 0.24   |
-| GOFATOO   | 256GB SSD          | 256 GB | 7       | 73    | 0     | 0.20   |
+| GOFATOO   | 256GB SSD          | 256 GB | 8       | 104   | 0     | 0.29   |
+| GOFATOO   | 128GB SSD          | 128 GB | 11      | 74    | 0     | 0.20   |
+| GOFATOO   | 64GB SSD           | 64 GB  | 2       | 12    | 0     | 0.04   |

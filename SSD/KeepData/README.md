@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| KeepData  | GIM128             | 128 GB | 18      | 150   | 1     | 0.39   |
+| KeepData  | GIM128             | 128 GB | 21      | 211   | 1     | 0.56   |

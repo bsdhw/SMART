@@ -17,6 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| OWC       | Mercury Electra... | 240 GB | 6       | 562   | 0     | 1.54   |
-| OWC       | Mercury Electra... | 1 TB   | 7       | 224   | 0     | 0.62   |
+| OWC       | Mercury Electra... | 240 GB | 7       | 482   | 0     | 1.32   |
+| OWC       | Mercury Extreme... | 480 GB | 2       | 444   | 0     | 1.22   |
+| OWC       | Mercury Electra... | 1 TB   | 8       | 235   | 0     | 0.65   |
 | OWC       | Mercury EXTREME... | 960 GB | 2       | 65    | 0     | 0.18   |

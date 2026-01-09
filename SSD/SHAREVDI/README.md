@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| SHAREVDI  | 128GB SSD          | 128 GB | 22      | 235   | 0     | 0.65   |
+| SHAREVDI  | 128GB SSD          | 128 GB | 26      | 371   | 0     | 1.02   |

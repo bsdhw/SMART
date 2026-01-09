@@ -22,5 +22,5 @@ MTBF - avg. MTBF in years per sample.
 | Phison    | SATA SSD           | 128 GB | 5       | 438   | 0     | 1.20   |
 | Phison    | SATA SSD           | 256 GB | 2       | 516   | 1     | 0.84   |
 | Phison    | SATA SSD           | 32 GB  | 7       | 301   | 0     | 0.83   |
+| Phison    | YSO128GTLCW-SBC-1  | 128 GB | 6       | 136   | 0     | 0.37   |
 | Phison    | SATA SSD           | 64 GB  | 3       | 95    | 0     | 0.26   |
-| Phison    | YSO128GTLCW-SBC-1  | 128 GB | 4       | 33    | 0     | 0.09   |

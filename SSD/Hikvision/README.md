@@ -17,6 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| Hikvision | HS-SSD-E100 128G   | 128 GB | 2       | 331   | 0     | 0.91   |
 | Hikvision | HS-SSD-C100 240G   | 240 GB | 2       | 26    | 0     | 0.07   |
 | Hikvision | HS-SSD-E100 512G   | 512 GB | 2       | 22    | 0     | 0.06   |
 | Hikvision | HS-SSD-C100 120G   | 120 GB | 2       | 15    | 0     | 0.04   |

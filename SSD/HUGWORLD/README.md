@@ -17,5 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| HUGWORLD  | SSD                | 512 GB | 2       | 79    | 0     | 0.22   |
-| HUGWORLD  | SSD                | 256 GB | 2       | 0     | 0     | 0.00   |
+| HUGWORLD  | SSD                | 512 GB | 4       | 125   | 0     | 0.34   |
+| HUGWORLD  | SSD                | 256 GB | 6       | 0     | 0     | 0.00   |

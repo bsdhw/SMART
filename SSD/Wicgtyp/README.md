@@ -17,6 +17,6 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Wicgtyp   | M900-128           | 128 GB | 3       | 626   | 0     | 1.72   |
-| Wicgtyp   | N900-512           | 512 GB | 6       | 126   | 0     | 0.35   |
-| Wicgtyp   | N900-256           | 256 GB | 7       | 124   | 0     | 0.34   |
+| Wicgtyp   | M900-128           | 128 GB | 4       | 565   | 0     | 1.55   |
+| Wicgtyp   | N900-256           | 256 GB | 10      | 172   | 0     | 0.47   |
+| Wicgtyp   | N900-512           | 512 GB | 7       | 140   | 0     | 0.39   |

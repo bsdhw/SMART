@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Colorful  | CN600              | 512 GB | 2       | 38    | 0     | 0.10   |
+| Colorful  | CN600              | 512 GB | 3       | 85    | 0     | 0.23   |

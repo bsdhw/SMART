@@ -18,8 +18,8 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | SPCC      | M.2 PCIE SSD       | 512 GB | 2       | 723   | 0     | 1.98   |
+| SPCC      | M.2 PCIe SSD       |        | 3       | 352   | 0     | 0.96   |
 | SPCC      | M.2 PCIe SSD       | 512 GB | 4       | 256   | 0     | 0.70   |
 | SPCC      | M.2 PCIe SSD       | 128 GB | 9       | 124   | 0     | 0.34   |
 | SPCC      | M.2 PCIe SSD       | 256 GB | 17      | 131   | 60    | 0.31   |
-| SPCC      | M.2 PCIe SSD       | 2 TB   | 2       | 102   | 0     | 0.28   |
 | SPCC      | M.2 PCIe SSD       | 1 TB   | 8       | 62    | 0     | 0.17   |

@@ -17,4 +17,5 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| Lumino... | SSD                | 128 GB | 2       | 343   | 0     | 0.94   |
 | Lumino... | SSD                | 256 GB | 2       | 64    | 0     | 0.18   |

@@ -17,7 +17,7 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
+| VICKTER   | SSD                | 256 GB | 4       | 324   | 0     | 0.89   |
+| VICKTER   | SSD                | 128 GB | 4       | 306   | 0     | 0.84   |
 | VICKTER   | SSD                | 512 GB | 3       | 226   | 0     | 0.62   |
-| VICKTER   | SSD                | 128 GB | 3       | 207   | 0     | 0.57   |
-| VICKTER   | SSD                | 64 GB  | 7       | 68    | 0     | 0.19   |
-| VICKTER   | SSD                | 256 GB | 2       | 7     | 0     | 0.02   |
+| VICKTER   | SSD                | 64 GB  | 8       | 110   | 0     | 0.30   |

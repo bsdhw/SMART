@@ -17,4 +17,4 @@ MTBF - avg. MTBF in years per sample.
 
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
-| Kimtigo   | SSD                | 256 GB | 4       | 72    | 0     | 0.20   |
+| Kimtigo   | SSD                | 256 GB | 5       | 112   | 10    | 0.16   |

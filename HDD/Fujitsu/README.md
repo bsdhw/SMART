@@ -27,10 +27,10 @@ MTBF - avg. MTBF in years per sample.
 | Fujitsu   | MHY2120BH          | 120 GB | 3       | 807   | 0     | 2.21   |
 | Fujitsu   | MHW2120BH          | 120 GB | 4       | 658   | 5     | 1.61   |
 | Fujitsu   | MJA2160BH G2       | 160 GB | 2       | 537   | 0     | 1.47   |
+| Fujitsu   | MHY2200BH          | 200 GB | 3       | 464   | 0     | 1.27   |
 | Fujitsu   | MJA2320BH G2       | 320 GB | 2       | 424   | 0     | 1.16   |
-| Fujitsu   | MHY2200BH          | 200 GB | 2       | 412   | 0     | 1.13   |
 | Fujitsu   | MHZ2160BH FFS G1   | 160 GB | 2       | 309   | 100   | 0.33   |
-| Fujitsu   | MHZ2160BH G2       | 160 GB | 2       | 417   | 522   | 0.07   |
+| Fujitsu   | MHZ2160BH G2       | 160 GB | 4       | 298   | 517   | 0.11   |
 
 HDD by Family
 -------------
@@ -46,6 +46,6 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Family                 | Models | Samples | Days  | Err   | MTBF |
 |-----------|------------------------|--------|---------|-------|-------|------|
 | Fujitsu   | MHW BH                 | 2      | 6       | 821   | 3     | 2.12   |
-| Fujitsu   | MHY BH                 | 2      | 5       | 649   | 0     | 1.78   |
+| Fujitsu   | MHY BH                 | 2      | 6       | 635   | 0     | 1.74   |
 | Fujitsu   | MJA BH                 | 2      | 4       | 480   | 0     | 1.32   |
-| Fujitsu   | MHZ BH                 | 2      | 4       | 363   | 311   | 0.20   |
+| Fujitsu   | MHZ BH                 | 2      | 6       | 301   | 378   | 0.18   |

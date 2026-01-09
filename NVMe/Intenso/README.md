@@ -18,4 +18,4 @@ MTBF - avg. MTBF in years per sample.
 | MFG       | Model              | Size   | Samples | Days  | Err   | MTBF |
 |-----------|--------------------|--------|---------|-------|-------|------|
 | Intenso   | Premium            | 250 GB | 2       | 72    | 0     | 0.20   |
-| Intenso   | SSD                | 250 GB | 5       | 27    | 0     | 0.08   |
+| Intenso   | SSD                | 250 GB | 7       | 21    | 0     | 0.06   |
