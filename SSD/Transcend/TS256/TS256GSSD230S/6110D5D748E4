@@ -1,0 +1,136 @@
+smartctl 7.3 2022-02-28 r5338 [NetBSD 10.1 amd64] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Silicon Motion based SSDs
+Device Model:     TS256GSSD230S
+Serial Number:    --
+Firmware Version: P1025F8
+User Capacity:    256,060,514,304 bytes [256 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+TRIM Command:     Available, deterministic, zeroed
+Device is:        In smartctl database 7.3/5319
+ATA Version is:   ACS-3 (minor revision not indicated)
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)
+Local Time is:    Tue Mar 11 20:17:32 2025 UTC
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x71) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   2) minutes.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0000   100   100   000    Old_age   Offline      -       0
+  5 Reallocated_Sector_Ct   0x0000   100   100   000    Old_age   Offline      -       0
+  9 Power_On_Hours          0x0000   100   100   000    Old_age   Offline      -       6664
+ 12 Power_Cycle_Count       0x0000   100   100   000    Old_age   Offline      -       3074
+160 Uncorrectable_Error_Cnt 0x0000   100   100   000    Old_age   Offline      -       0
+161 Valid_Spare_Block_Cnt   0x0000   100   100   000    Old_age   Offline      -       52
+163 Initial_Bad_Block_Count 0x0000   100   100   000    Old_age   Offline      -       11
+164 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       22752
+165 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       100
+166 Min_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       3
+167 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       45
+148 Total_SLC_Erase_Ct      0x0000   100   100   000    Old_age   Offline      -       34233
+149 Max_SLC_Erase_Ct        0x0000   100   100   000    Old_age   Offline      -       1028
+150 Min_SLC_Erase_Ct        0x0000   100   100   000    Old_age   Offline      -       863
+151 Average_SLC_Erase_Ct    0x0000   100   100   000    Old_age   Offline      -       1006
+169 Remaining_Lifetime_Perc 0x0000   100   100   000    Old_age   Offline      -       100
+177 Wear_Leveling_Count     0x0000   100   100   050    Old_age   Offline      -       49
+181 Program_Fail_Cnt_Total  0x0000   100   100   000    Old_age   Offline      -       0
+182 Erase_Fail_Count_Total  0x0000   100   100   000    Old_age   Offline      -       0
+192 Power-Off_Retract_Count 0x0000   100   100   000    Old_age   Offline      -       113
+194 Temperature_Celsius     0x0000   100   100   000    Old_age   Offline      -       46
+196 Reallocated_Event_Count 0x0000   100   100   016    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0000   100   100   050    Old_age   Offline      -       0
+232 Available_Reservd_Space 0x0000   100   100   000    Old_age   Offline      -       100
+241 Host_Writes_32MiB       0x0000   100   100   000    Old_age   Offline      -       141435
+242 Host_Reads_32MiB        0x0000   100   100   000    Old_age   Offline      -       372623
+245 TLC_Writes_32MiB        0x0000   100   100   000    Old_age   Offline      -       364032
+
+SMART Error Log Version: 1
+Warning: ATA error count 0 inconsistent with error log pointer 4
+
+ATA Error Count: 0
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error -3 occurred at disk power-on lifetime: 0 hours (0 days + 0 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  00 ec 00 00 00 00 00
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  ec 00 00 00 00 00 00 00      00:00:00.000  IDENTIFY DEVICE
+  c8 00 00 00 00 00 00 00      00:00:00.000  READ DMA
+
+Warning! SMART Self-Test Log Structure error: invalid SMART checksum.
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Offline             Completed without error       00%         8         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+    6        0    65535  Read_scanning was never started
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

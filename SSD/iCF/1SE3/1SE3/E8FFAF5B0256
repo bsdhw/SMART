@@ -1,0 +1,59 @@
+smartctl 7.3 2022-02-28 r5338 [NetBSD 10.0_STABLE i386] (local build)
+Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     iCF 1SE3
+Serial Number:    --
+Firmware Version: 181019
+User Capacity:    8,012,390,400 bytes [8.01 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+TRIM Command:     Available, deterministic
+Device is:        Not in smartctl database 7.3/5319
+ATA Version is:   ATA8-ACS (minor revision not indicated)
+Local Time is:    Sat Jan 18 02:41:39 2025 CET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x00) 	Offline data collection not supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x00)	Error logging supported.
+					General Purpose Logging supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+196 Reallocated_Event_Count 0x0003   100   100   010    Pre-fail  Always       -       244 (0 62464)
+213 Unknown_Attribute       0x0002   100   100   010    Old_age   Always       -       1644167266
+229 Unknown_Attribute       0x0002   100   100   010    Old_age   Always       -       314454
+203 Run_Out_Cancel          0x0002   100   100   000    Old_age   Always       -       1413104
+204 Soft_ECC_Correction     0x0002   100   100   000    Old_age   Always       -       1413104
+199 UDMA_CRC_Error_Count    0x0002   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0002   100   100   000    Old_age   Always       -       3700007594
+ 12 Power_Cycle_Count       0x0002   100   100   000    Old_age   Always       -       44
+241 Total_LBAs_Written      0x0002   100   100   000    Old_age   Always       -       12514
+242 Total_LBAs_Read         0x0002   100   100   000    Old_age   Always       -       37661
+214 Unknown_Attribute       0x0002   100   100   000    Old_age   Always       -       1
+215 Unknown_Attribute       0x0002   000   000   ---    Old_age   Always       -       0
+194 Temperature_Celsius     0x0002   026   034   000    Old_age   Always       -       26 (Min/Max 20/34)
+
+Read SMART Error Log failed: request failed, error code 0x02
+
+SMART Self-test Log not supported
+
+Selective Self-tests/Logging not supported
+
+
+
