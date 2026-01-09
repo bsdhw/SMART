@@ -1,0 +1,176 @@
+smartctl 7.5 2025-04-30 r5714 [FreeBSD 14.3-RELEASE-p7 amd64] (local build)
+Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     CS900 SSD
+Serial Number:    --
+LU WWN Device Id: 5 000000 ...
+Firmware Version: 0200S311
+User Capacity:    120,034,123,776 bytes [120 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+TRIM Command:     Available
+Device is:        Not in smartctl database 7.5/5706
+ATA Version is:   ACS-4 (minor revision not indicated)
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sat Dec 27 08:13:47 2025 +07
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM feature is:   Unavailable
+APM feature is:   Disabled
+Rd look-ahead is: Enabled
+Write cache is:   Enabled
+DSN feature is:   Unavailable
+ATA Security is:  Disabled, frozen [SEC2]
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status command failed: Input/output error
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+See vendor-specific Attribute list for marginal Attributes.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(65535) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  30) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   6) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+220 Unknown_SSD_Attribute   PO-R--+  255   255   123    -    281474976710655
+196 Reallocated_Event_Count PO-R-K+  255   255   243    -    65535 (65535 65535)
+251 Unknown_Attribute       P-SRCK+  255   255   053    -    281474976710655
+224 Unknown_SSD_Attribute   POS---+  255   255   077    -    281474976710655
+229 Unknown_Attribute       POS--K+  255   255   081    -    281474976710655
+188 Command_Timeout         -O--CK+  255   255   050    -    281474976710655
+208 Unknown_SSD_Attribute   -O-RC-+  255   255   041    -    281474976710655
+111 Unknown_Attribute       POSR--+  255   255   020    -    281474976710655
+147 Unknown_Attribute       PO---K+  255   255   057    -    281474976710655
+101 Unknown_Attribute       PO-R-K+  255   255   247    -    281474976710655
+ 91 Unknown_Attribute       PO---K+  255   255   193    -    281474976710655
+239 Unknown_Attribute       PO-R-K+  255   255   005    -    281474976710655
+131 Unknown_Attribute       P---C-+  255   255   197    -    281474976710655
+ 24 Unknown_SSD_Attribute   --S-C-+  255   255   148    -    281474976710655
+110 Unknown_Attribute       PO-RC-+  255   255   193    -    281474976710655
+162 Unknown_Attribute       -OS-C-+  255   255   067    -    281474976710655
+118 Unknown_Attribute       --SRCK+  255   255   021    -    281474976710655
+180 Unused_Rsvd_Blk_Cnt_Tot ---R-K+  255   255   028    -    281474976710655
+ 79 Unknown_Attribute       --S--K+  255   255   129    -    281474976710655
+ 77 Unknown_Attribute       P-SR--+  255   255   015    -    281474976710655
+ 24 Unknown_SSD_Attribute   P-SRCK+  255   255   254    -    281474976710655
+130 Unknown_Attribute       -OS--K+  255   255   124    -    281474976710655
+ 41 Unknown_Attribute       P-S-C-+  255   255   002    -    281474976710655
+219 Unknown_Attribute       PO--C-+  255   255   229    -    281474976710655
+ 60 Unknown_Attribute       -O---K+  255   255   086    -    281474976710655
+150 Unknown_Attribute       -O-R-K+  255   255   005    -    281474976710655
+104 Unknown_Attribute       -OS-C-+  255   255   026    -    281474976710655
+163 Unknown_Attribute       P-SRC-+  255   255   078    -    281474976710655
+207 Unknown_SSD_Attribute   -O-RC-+  255   255   255    NOW  281474976710655
+135 Unknown_Attribute       P--R-K+  255   255   142    -    281474976710655
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+General Purpose Log Directory Version 1
+SMART           Log Directory Version 1 [multi-sector log support]
+Address    Access  R/W   Size  Description
+0x00       GPL,SL  R/O      1  Log Directory
+0x01           SL  R/O      1  Summary SMART error log
+0x02           SL  R/O     51  Comprehensive SMART error log
+0x03       GPL     R/O     64  Ext. Comprehensive SMART error log
+0x04       GPL,SL  R/O      8  Device Statistics log
+0x06           SL  R/O      1  SMART self-test log
+0x07       GPL     R/O      1  Extended self-test log
+0x09           SL  R/W      1  Selective self-test log
+0x10       GPL     R/O      1  NCQ Command Error log
+0x11       GPL     R/O      1  SATA Phy Event Counters log
+0x30       GPL,SL  R/O      9  IDENTIFY DEVICE data log
+0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
+
+SMART Extended Comprehensive Error Log Version: 1 (64 sectors)
+No Errors Logged
+
+SMART Extended Self-test Log Version: 1 (1 sectors)
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 0
+Note: revision number not 1 implies that no selective self-test has ever been run
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+SCT Commands not supported
+
+Device Statistics (GP Log 0x04)
+Page  Offset Size        Value Flags Description
+0x01  =====  =               =  ===  == General Statistics (rev 1) ==
+0x01  0x008  4             882  ---  Lifetime Power-On Resets
+0x01  0x010  4            3327  ---  Power-on Hours
+0x01  0x018  6     12799087320  ---  Logical Sectors Written
+0x01  0x028  6     13391102409  ---  Logical Sectors Read
+0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
+0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
+0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
+0x05  0x008  1              43  ---  Current Temperature
+0x05  0x020  1              43  ---  Highest Temperature
+0x05  0x028  1              26  ---  Lowest Temperature
+0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
+0x06  0x018  4               0  ---  Number of Interface CRC Errors
+0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
+0x07  0x008  1              10  ---  Percentage Used Endurance Indicator
+                                |||_ C monitored condition met
+                                ||__ D supports DSN
+                                |___ N normalized value
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11)
+ID      Size     Value  Description
+0x0001  2            0  Command failed due to ICRC error
+0x0003  2            0  R_ERR response for device-to-host data FIS
+0x0004  2            0  R_ERR response for host-to-device data FIS
+0x0006  2            0  R_ERR response for device-to-host non-data FIS
+0x0007  2            0  R_ERR response for host-to-device non-data FIS
+0x0008  2            0  Device-to-host non-data FIS retries
+0x0009  4            2  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  4            3  Device-to-host register FISes sent due to a COMRESET
+0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
+0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
+0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
+0x0013  2            0  R_ERR response for host-to-device non-data FIS, non-CRC
+
