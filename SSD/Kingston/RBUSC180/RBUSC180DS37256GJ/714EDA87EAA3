@@ -1,0 +1,71 @@
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.7 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     KINGSTON RBUSC180DS37256GJ
+Serial Number:    --
+LU WWN Device Id: 5 0026b7 ...
+Firmware Version: SBFK61E1
+User Capacity:    256,060,514,304 bytes [256 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+TRIM Command:     Available
+Device is:        Not in smartctl database 7.3/5528
+ATA Version is:   ACS-3 T13/2161-D revision 4
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sat May 17 13:44:58 2025 MSK
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Total time to complete Offline 
+data collection: 		(65535) seconds.
+Offline data collection
+capabilities: 			 (0x00) 	Offline data collection not supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       4381
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       3322
+167 Unknown_Attribute       0x0022   100   100   000    Old_age   Always       -       0
+168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
+172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+173 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       4784245
+181 Program_Fail_Cnt_Total  0x0012   100   100   000    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       268
+194 Temperature_Celsius     0x0023   071   059   000    Pre-fail  Always       -       29 (Min/Max 13/41)
+196 Reallocated_Event_Count 0x0000   100   100   000    Old_age   Offline      -       0
+218 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       94
+233 Media_Wearout_Indicator 0x0013   100   100   000    Pre-fail  Always       -       14695
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       13936
+242 Total_LBAs_Read         0x0012   100   100   000    Old_age   Always       -       16360
+244 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       73
+245 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       117
+246 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       1607504
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Selective Self-tests/Logging not supported
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+

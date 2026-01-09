@@ -1,0 +1,195 @@
+smartctl 7.4 2023-08-01 r5530 [OpenBSD 7.6 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     APPLE SSD SM256C
+Serial Number:    --
+LU WWN Device Id: 5 0000f0 ...
+Firmware Version: AXM09A1Q
+User Capacity:    251,000,193,024 bytes [251 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+TRIM Command:     Available
+Device is:        Not in smartctl database 7.3/5528
+ATA Version is:   ATA8-ACS, ATA/ATAPI-7 T13/1532D revision 1
+SATA Version is:  SATA 2.6, 3.0 Gb/s (current: 3.0 Gb/s)
+Local Time is:    Sat Apr 19 13:12:38 2025 CEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: FAILED!
+Drive failure expected in less than 24 hours. SAVE ALL DATA.
+See vendor-specific Attribute list for failed Attributes.
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		( 1680) seconds.
+Offline data collection
+capabilities: 			 (0x53) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  28) minutes.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   199   199   000    Pre-fail  Always       -       18
+  5 Reallocated_Sector_Ct   0x0033   098   098   000    Pre-fail  Always       -       74
+  9 Power_On_Hours          0x0032   087   087   000    Old_age   Always       -       64523
+ 12 Power_Cycle_Count       0x0032   090   090   000    Old_age   Always       -       9999
+169 Unknown_Attribute       0x0013   253   253   010    Pre-fail  Always       -       8590479857920
+173 Unknown_Attribute       0x0032   059   059   100    Old_age   Always   FAILING_NOW 17029824450556
+175 Program_Fail_Count_Chip 0x0032   099   099   010    Old_age   Always       -       39
+176 Erase_Fail_Count_Chip   0x0032   100   100   010    Old_age   Always       -       0
+177 Wear_Leveling_Count     0x0013   001   001   017    Pre-fail  Always   FAILING_NOW 3965
+178 Used_Rsvd_Blk_Cnt_Chip  0x0013   075   075   010    Pre-fail  Always       -       1030
+179 Used_Rsvd_Blk_Cnt_Tot   0x0013   076   076   010    Pre-fail  Always       -       2000
+180 Unused_Rsvd_Blk_Cnt_Tot 0x0013   076   076   010    Pre-fail  Always       -       6320
+181 Program_Fail_Cnt_Total  0x0032   099   099   010    Old_age   Always       -       74
+182 Erase_Fail_Count_Total  0x0032   100   100   010    Old_age   Always       -       0
+183 Runtime_Bad_Block       0x0013   099   099   010    Pre-fail  Always       -       74
+187 Reported_Uncorrect      0x0032   099   099   000    Old_age   Always       -       18
+192 Power-Off_Retract_Count 0x0032   098   098   000    Old_age   Always       -       9870
+194 Temperature_Celsius     0x0022   053   053   000    Old_age   Always       -       47 (Min/Max 18/66)
+195 Hardware_ECC_Recovered  0x001a   099   099   000    Old_age   Always       -       18
+197 Current_Pending_Sector  0x0013   100   100   000    Pre-fail  Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   253   253   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+ATA Error Count: 126 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 126 occurred at disk power-on lifetime: 59597 hours (2483 days + 5 hours)
+  When the command that caused the error occurred, the device was sleeping.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 01 e0 15 48 e3  Error: UNC at LBA = 0x034815e0 = 55055840
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  20 00 01 df 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 de 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 dd 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 dc 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 db 15 48 03 00      00:01:48.000  READ SECTOR(S)
+
+Error 125 occurred at disk power-on lifetime: 59597 hours (2483 days + 5 hours)
+  When the command that caused the error occurred, the device was sleeping.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 01 e0 15 48 e3  Error: UNC at LBA = 0x034815e0 = 55055840
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  20 00 01 df 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 de 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 dd 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 dc 15 48 03 00      00:01:48.000  READ SECTOR(S)
+  20 00 01 db 15 48 03 00      00:01:48.000  READ SECTOR(S)
+
+Error 124 occurred at disk power-on lifetime: 59597 hours (2483 days + 5 hours)
+  When the command that caused the error occurred, the device was sleeping.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 70 e0 15 48 e3  Error: 
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c6 00 10 00 00 00 00 00      00:01:47.000  SET MULTIPLE MODE
+  ef 03 46 00 00 00 00 00      00:01:47.000  SET FEATURES [Set transfer mode]
+  ef 03 0c 00 00 00 00 00      00:01:47.000  SET FEATURES [Set transfer mode]
+  10 00 01 01 00 00 00 00      00:01:47.000  RECALIBRATE [OBS-4]
+  c8 00 80 d0 15 48 03 00      00:01:46.000  READ DMA
+
+Error 123 occurred at disk power-on lifetime: 59597 hours (2483 days + 5 hours)
+  When the command that caused the error occurred, the device was sleeping.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 70 e0 15 48 e3  Error: 
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c6 00 10 00 00 00 00 00      00:01:46.000  SET MULTIPLE MODE
+  ef 03 46 00 00 00 00 00      00:01:46.000  SET FEATURES [Set transfer mode]
+  ef 03 0c 00 00 00 00 00      00:01:46.000  SET FEATURES [Set transfer mode]
+  10 00 01 01 00 00 00 00      00:01:46.000  RECALIBRATE [OBS-4]
+  c8 00 80 d0 15 48 03 00      00:01:46.000  READ DMA
+
+Error 122 occurred at disk power-on lifetime: 59597 hours (2483 days + 5 hours)
+  When the command that caused the error occurred, the device was sleeping.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 70 e0 15 48 e3  Error: 
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  c6 00 10 00 00 00 00 00      00:01:46.000  SET MULTIPLE MODE
+  ef 03 46 00 00 00 00 00      00:01:46.000  SET FEATURES [Set transfer mode]
+  ef 03 0c 00 00 00 00 00      00:01:46.000  SET FEATURES [Set transfer mode]
+  10 00 01 01 00 00 00 00      00:01:46.000  RECALIBRATE [OBS-4]
+  c8 00 80 d0 15 48 03 00      00:01:45.000  READ DMA
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+

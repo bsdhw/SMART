@@ -1,0 +1,113 @@
+smartctl 7.5 2025-04-30 r5714 [OpenBSD 7.8 amd64] (local build)
+Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Dell Certified Intel S4x00/D3-S4x10 Series SSDs
+Device Model:     SSDSCKKB240G8R
+Serial Number:    --
+LU WWN Device Id: 5 5cd2e4 ...
+Add. Product Id:  DELL(tm)
+Firmware Version: XC31DL6R
+User Capacity:    240,057,409,536 bytes [240 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      M.2
+TRIM Command:     Available, deterministic, zeroed
+Device is:        In smartctl database 7.5/5706
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Thu Dec 25 12:19:36 2025 CET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Status not supported: Incomplete response, ATA output registers missing
+SMART overall-health self-assessment test result: PASSED
+Warning: This result is based on an Attribute check.
+
+General SMART Values:
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(   36) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  60) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (  60) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000e   130   130   039    Old_age   Always       -       149374643
+  5 Reallocated_Sector_Ct   0x0033   100   100   001    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26453
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       340
+ 13 Read_Soft_Error_Rate    0x001e   086   086   000    Old_age   Always       -       14469894194867
+170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
+173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       71
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       91
+175 Program_Fail_Count_Chip 0x0012   100   100   010    Old_age   Always       -       69
+179 Used_Rsvd_Blk_Cnt_Tot   0x0033   100   100   010    Pre-fail  Always       -       0
+180 Unused_Rsvd_Blk_Cnt_Tot 0x0032   100   100   000    Old_age   Always       -       2558
+181 Program_Fail_Cnt_Total  0x003a   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x003a   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       26
+195 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
+201 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2229 (344 65535)
+202 End_of_Life             0x0027   100   100   000    Pre-fail  Always       -       0
+233 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       131074
+234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
+235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       131074
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       131074
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       107747
+245 Percent_Life_Remaining  0x0032   100   100   000    Old_age   Always       -       100
+
+SMART Error Log not supported
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Extended offline    Completed without error       00%        38         -
+# 2  Short offline       Completed without error       00%        37         -
+
+SMART Selective self-test log data structure revision number 0
+Note: revision number not 1 implies that no selective self-test has ever been run
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+The above only provides legacy SMART information - try 'smartctl -x' for more
+

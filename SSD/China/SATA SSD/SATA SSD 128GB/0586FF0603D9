@@ -1,0 +1,305 @@
+smartctl 7.5 2025-04-30 r5714 [FreeBSD 14.2-RELEASE-p3 amd64] (local build)
+Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     SATA SSD
+Serial Number:    --
+LU WWN Device Id: 0 000000 ...
+Firmware Version: HDFED3.2
+User Capacity:    128,035,676,160 bytes [128 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+TRIM Command:     Available
+Device is:        Not in smartctl database 7.5/5706
+ATA Version is:   ACS-4 (minor revision not indicated)
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sat Jul 12 21:51:20 2025 -03
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM feature is:   Unavailable
+APM feature is:   Unavailable
+Rd look-ahead is: Enabled
+Write cache is:   Enabled
+DSN feature is:   Unavailable
+ATA Security is:  Disabled, frozen [SEC2]
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  720) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   3) minutes.
+Extended self-test routine
+recommended polling time: 	 (  30) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (  10) minutes.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  1 Raw_Read_Error_Rate     PO-R--   100   100   050    -    0
+  5 Reallocated_Sector_Ct   PO--C-   100   100   050    -    0
+  9 Power_On_Hours          -O--C-   100   100   000    -    2
+ 12 Power_Cycle_Count       -O--C-   100   100   000    -    13
+160 Unknown_Attribute       ------   100   100   000    -    0
+161 Unknown_Attribute       -O--C-   100   100   000    -    72
+163 Unknown_Attribute       PO----   100   100   050    -    5
+164 Unknown_Attribute       ------   100   100   000    -    15053
+165 Unknown_Attribute       ------   100   100   000    -    8
+166 Unknown_Attribute       ------   100   100   000    -    7
+167 Unknown_Attribute       ------   100   100   000    -    7
+172 Unknown_Attribute       -O--C-   100   100   000    -    0
+173 Unknown_Attribute       -O---K   100   100   000    -    0
+192 Power-Off_Retract_Count -O--C-   100   100   000    -    10
+194 Temperature_Celsius     PO---K   100   100   000    -    40
+196 Reallocated_Event_Count ------   100   100   000    -    0
+199 UDMA_CRC_Error_Count    PO-R--   100   100   050    -    0
+241 Total_LBAs_Written      -O--C-   100   100   000    -    72
+242 Total_LBAs_Read         -O--C-   100   100   000    -    23
+249 Unknown_Attribute       -O--C-   100   100   000    -    2
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+General Purpose Log Directory Version 1
+SMART           Log Directory Version 1 [multi-sector log support]
+Address    Access  R/W   Size  Description
+0x00       GPL,SL  R/O      1  Log Directory
+0x01           SL  R/O      1  Summary SMART error log
+0x02           SL  R/O     51  Comprehensive SMART error log
+0x03       GPL     R/O     64  Ext. Comprehensive SMART error log
+0x04       GPL,SL  R/O      8  Device Statistics log
+0x06           SL  R/O      1  SMART self-test log
+0x07       GPL     R/O      1  Extended self-test log
+0x09           SL  R/W      1  Selective self-test log
+0x10       GPL     R/O      1  NCQ Command Error log
+0x11       GPL     R/O      1  SATA Phy Event Counters log
+0x30       GPL,SL  R/O      9  IDENTIFY DEVICE data log
+0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
+
+Warning! SMART Extended Comprehensive Error Log Structure error: invalid SMART checksum.
+SMART Extended Comprehensive Error Log Version: 131 (64 sectors)
+Device Error Count: 33295 (device log contains only the most recent 256 errors)
+	CR     = Command Register
+	FEATR  = Features Register
+	COUNT  = Count (was: Sector Count) Register
+	LBA_48 = Upper bytes of LBA High/Mid/Low Registers ]  ATA-8
+	LH     = LBA High (was: Cylinder High) Register    ]   LBA
+	LM     = LBA Mid (was: Cylinder Low) Register      ] Register
+	LL     = LBA Low (was: Sector Number) Register     ]
+	DV     = Device (was: Device/Head) Register
+	DC     = Device Control Register
+	ER     = Error register
+	ST     = Status register
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Warning! SMART Extended Comprehensive Error Log Structure error: invalid SMART checksum.
+Error 33295 [7] occurred at disk power-on lifetime: 34063 hours (1419 days + 7 hours)
+  When the command that caused the error occurred, the device was in a reserved state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  00 -- 11 6b bf 01 e9 21 01 00 40 ff 00
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  98 e0 83 83 18 3d 17 08 80 75 f8 d9 c0     05:07:45.024  CHECK POWER MODE [RET-4]
+  44 74 c9 45 68 0f 69 c1 46 eb 20 b6 84 35d+08:27:33.168  [RESERVED]
+  f1 b4 1d 7a 80 be 84 00 e1 0f 03 1a 4c 13d+10:49:16.620  SECURITY SET PASSWORD
+  01 b0 4d c6 42 b9 06 0b 49 03 44 00 8d 26d+15:50:59.794  [RESERVED]
+  46 93 0f 41 c0 c8 41 e0 80 02 c0 10 41 14d+21:23:30.244  [RESERVED]
+
+Error 33294 [6] occurred at disk power-on lifetime: 828 hours (34 days + 12 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  80 -- 85 b2 65 b0 74 0f 1d b6 ef 45 c1
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  ff 44 16 ce 89 ff e9 89 57 c2 44 ff f0 49d+15:35:44.310  [VENDOR SPECIFIC]
+  73 02 f9 0d 77 03 99 3d e4 73 80 10 83     07:43:07.267  SEEK [RET-4]
+  65 17 00 c4 37 02 83 f1 c1 04 11 80 a5 12d+15:45:28.559  RECEIVE FPDMA QUEUED
+  29 e0 5d 29 0f c0 29 d0 4d 0f 55 0f 29 46d+21:38:24.304  READ MULTIPLE EXT
+  20 0f 05 01 10 10 10 10 0f 49 0f 51 4a  2d+22:47:06.768  READ SECTOR(S)
+
+Error 33293 [5] occurred at disk power-on lifetime: 36168 hours (1507 days + 0 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  4a -- 8d 41 05 08 b6 c1 4a 0f ff 44 b6
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  48 51 02 0f f0 f0 7f f6 48 02 85 05 f5  2d+23:09:24.701  [RESERVED]
+  00 89 44 31 ca ff 10 e8 fc 67 c0 55 c6 30d+01:05:49.963  NOP [Reserved subcommand] [OBS-ACS-2]
+  45 c8 b7 8d 44 3e 83 08 f8 41 41 72 0f 26d+15:43:08.801  WRITE UNCORRECTABLE EXT
+  0f b7 0f 49 42 c9 0f 40 b7 44 01 3f 44 12d+19:01:10.133  [RESERVED]
+  91 74 00 44 4a 3a 04 b6 41 52 0f 1a 01  1d+00:39:42.607  INITIALIZE DEVICE PARAMETERS [OBS-6]
+
+Error 33292 [4] occurred at disk power-on lifetime: 31360 hours (1306 days + 16 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  00 -- 2c 10 00 02 0b 5e 50 0d ac 00 91
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  01 0f 42 44 b6 83 e8 05 04 c1 07 e0 0e 30d+00:10:16.192  [RESERVED]
+  1f 00 90 77 11 00 71 00 90 1f 90 1c ad 41d+08:57:41.264  RECALIBRATE [RET-4]
+  1a 19 3d 02 9b c3 02 00 5d 75 00 80 80  4d+06:58:58.160  RECALIBRATE [RET-4]
+  94 0d 73 c0 31 08 07 f6 05 44 42 0f d0  2d+06:47:49.759  STANDBY IMMEDIATE [RET-4]
+  49 71 8d 83 04 89 de 3e 41 73 fe f0 08 11d+02:49:21.856  [RESERVED]
+
+Error 33291 [3] occurred at disk power-on lifetime: 28921 hours (1205 days + 1 hours)
+  When the command that caused the error occurred, the device was in an unknown state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  80 -- 11 7f e1 72 f9 0b 72 80 88 24 09
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  01 07 04 00 f1 04 4d 0f 8a 85 30 f2 65 35d+08:27:26.670  [RESERVED]
+  89 3c 79 20 09 07 00 2f 45 f1 aa 4c 40 18d+11:01:24.411  [VENDOR SPECIFIC]
+  bf f1 0b 01 01 b6 44 b6 0f c9 0f c6 4b 36d+21:27:59.822  [RESERVED]
+  61 31 45 0f e4 01 00 bb 02 0e 1f 10 e7  5d+17:15:49.645  WRITE FPDMA QUEUED
+  fa b4 74 81 41 ab 0e a0 e0 12 ff 80 12 26d+15:52:47.477  [VENDOR SPECIFIC]
+
+Error 33290 [2] occurred at disk power-on lifetime: 65411 hours (2725 days + 11 hours)
+  When the command that caused the error occurred, the device was sleeping.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  0e -- b9 82 0f 02 00 71 5c 21 25 11 40
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  46 05 cc 3c 43 12 46 72 00 25 70 02 08 24d+13:35:33.248  [RESERVED]
+  40 0b 02 e7 00 03 88 06 73 40 34 eb 4b 38d+03:48:58.176  READ VERIFY SECTOR(S)
+  76 80 01 0f e2 49 0d 53 30 36 88 8b 50 26d+10:03:55.789  SEEK [RET-4]
+  72 75 02 49 7a 03 0d 46 52 35 8b 3c 48 23d+02:34:52.610  SEEK [RET-4]
+  0d ee 89 00 5e 00 94 18 20 e2 20 0c 44 24d+13:32:14.464  [RESERVED]
+
+Error 33289 [1] occurred at disk power-on lifetime: 13312 hours (554 days + 16 hours)
+  When the command that caused the error occurred, the device was in a vendor specific state.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  01 -- 2a 32 75 d2 4c 8b 85 56 41 78 08
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  f6 3d 80 31 63 40 2d 10 00 41 00 85 31 47d+04:28:27.321  SECURITY DISABLE PASSWORD
+  10 a0 3c 24 04 f6 4c 89 89 e7 4c ff 5a     19:24:21.408  RECALIBRATE [OBS-4]
+  03 72 04 49 14 76 41 7e 8b 18 8b 20 00 43d+23:24:03.504  CFA REQUEST EXTENDED ERROR
+  1d 84 45 49 e4 d0 8b dc 5d 48 89 74 ff     12:43:02.077  RECALIBRATE [RET-4]
+  31 a7 bf 22 aa 89 18 01 4d f3 db e8 20 48d+23:17:53.768  WRITE SECTOR(S) (w/o retry) [OBS-5]
+
+Error 33288 [0] occurred at disk power-on lifetime: 20107 hours (837 days + 19 hours)
+  When the command that caused the error occurred, the device was sleeping.
+
+  After command completion occurred, registers were:
+  ER -- ST COUNT  LBA_48  LH LM LL DV DC
+  -- -- -- == -- == == == -- -- -- -- --
+  f1 -- 00 ff ff f3 be 85 e3 c0 48 21 71   at LBA = 0xf3be85e3c048 = 267999615631432
+
+  Commands leading to the command that caused the error were:
+  CR FEATR COUNT  LBA_48  LH LM LL DV DC  Powered_Up_Time  Command/Feature_Name
+  -- == -- == -- == == == -- -- -- -- --  ---------------  --------------------
+  31 e8 44 09 eb 00 b1 bd 22 06 41 45 0f 45d+02:20:13.001  WRITE SECTOR(S) (w/o retry) [OBS-5]
+  bd 41 1f 94 0f 00 de b8 20 3d c4 41 f0 14d+18:11:16.996  [RESERVED]
+  20 48 e1 5d 89 83 e3 4c 49 89 d0 7e 01  7d+03:41:16.788  READ SECTOR(S)
+  14 00 a7 44 00 3d 00 50 80 00 2d 18 e9     11:41:17.984  RECALIBRATE [RET-4]
+  bb 49 15 06 8b 3d 38 0f 80 b6 44 2c 74  4d+17:56:30.592  [RESERVED FOR COMPACTFLASH ASSOCIATION]
+
+Warning! SMART Extended Self-test Log Structure error: invalid SMART checksum.
+SMART Extended Self-test Log Version: 131 (1 sectors)
+Invalid Self-test Log index = 0x77fc (reserved = 0xfa)
+SMART Selective self-test log data structure revision number 0
+Note: revision number not 1 implies that no selective self-test has ever been run
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+SCT Commands not supported
+
+Device Statistics (GP Log 0x04)
+Page  Offset Size        Value Flags Description
+0x01  =====  =               =  ===  == General Statistics (rev 3) ==
+0x01  0x008  4              13  ---  Lifetime Power-On Resets
+0x01  0x010  4               2  ---  Power-on Hours
+0x01  0x018  6         4718595  ---  Logical Sectors Written
+0x01  0x028  6         1564566  ---  Logical Sectors Read
+0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
+0x04  0x008  4               0  ---  Number of Reported Uncorrectable Errors
+0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
+0x05  0x008  1             -89  ---  Current Temperature
+0x05  0x020  1               0  ---  Highest Temperature
+0x05  0x028  1               0  ---  Lowest Temperature
+0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
+0x06  0x018  4               0  ---  Number of Interface CRC Errors
+0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
+0x07  0x008  1              87  ---  Percentage Used Endurance Indicator
+                                |||_ C monitored condition met
+                                ||__ D supports DSN
+                                |___ N normalized value
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11)
+ID      Size     Value  Description
+0x0001  2            0  Command failed due to ICRC error
+0x000a  2            7  Device-to-host register FISes sent due to a COMRESET
+

@@ -1,0 +1,183 @@
+smartctl 7.4 2023-08-01 r5530 [FreeBSD 14.2-RELEASE-p2 amd64] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Silicon Motion based OEM SSDs
+Device Model:     KingFast
+Serial Number:    --
+LU WWN Device Id: 0 000000 ...
+Firmware Version: P0725A
+User Capacity:    16,013,942,784 bytes [16.0 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Form Factor:      mSATA
+TRIM Command:     Available
+Device is:        In smartctl database 7.3/5528
+ATA Version is:   ACS-2 (minor revision not indicated)
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Tue Apr 15 10:13:58 2025 CEST
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+AAM feature is:   Unavailable
+APM feature is:   Disabled
+Rd look-ahead is: Enabled
+Write cache is:   Enabled
+DSN feature is:   Unavailable
+ATA Security is:  Disabled, NOT FROZEN [SEC1]
+Wt Cache Reorder: Unavailable
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+See vendor-specific Attribute list for marginal Attributes.
+
+General SMART Values:
+Offline data collection status:  (0xd3)	Offline data collection activity
+					is in a Vendor Specific state.
+					Auto Offline Data Collection: Enabled.
+Self-test execution status:      (  30)	The self-test routine was aborted by
+					the host.
+Total time to complete Offline 
+data collection: 		(58373) seconds.
+Offline data collection
+capabilities: 			 (0x11) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					No Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					No Selective Self-test supported.
+SMART capabilities:            (0x0002)	Does not save SMART data before
+					entering power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  10) minutes.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  1 Raw_Read_Error_Rate     -O--CK+  100   100   050    -    259493334089728
+  5 Reallocated_Sector_Ct   -O----+  100   100   050    -    0 (769 0)
+  9 Power_On_Hours          P-----+  100   100   050    -    4576 (2 0 1)
+ 12 Power_Cycle_Count       ------+  100   100   050    -    8796193686795
+160 Uncorrectable_Error_Cnt -O----+  100   100   050    -    436341762
+161 Valid_Spare_Block_Cnt   ------+  100   100   050    -    34359738394
+162 Unknown_Attribute       POSRCK+  100   100   050    -    6068788789249
+163 Initial_Bad_Block_Count ---RCK+  100   100   050    -    194411694653452
+164 Total_Erase_Count       P-----+  100   100   050    -    4311481360
+165 Max_Erase_Count         ------+  100   100   050    -    32766
+166 Min_Erase_Count         ------   100   100   050    -    137438986238
+167 Average_Erase_Count     ------+  100   100   050    -    34359770622
+168 Max_Erase_Count_of_Spec ------   100   100   050    -    3000
+169 Remaining_Lifetime_Perc ------   049   049   050    NOW  4294966321
+192 Power-Off_Retract_Count ------   100   100   050    -    209078398445064
+194 Temperature_Celsius     POSRC-+  100   100   050    -    40 (43 104 0 0 0)
+195 Hardware_ECC_Recovered  -OSRCK+  100   100   050    -    92093199005491
+196 Reallocated_Event_Count ---R-K+  100   100   050    -    0 (35972 0)
+199 UDMA_CRC_Error_Count    -O---K+  100   100   050    -    138650134249472
+ 33 Unknown_Attribute       P-SR--+  100   100   ---    -    76471892705280
+241 Host_Writes_32MiB       P-SRC-+  100   100   050    -    58113977622861
+242 Host_Reads_32MiB        -OSR--+  100   100   050    -    72078723169629
+245 TLC_Writes_32MiB        -OS---+  100   100   050    -    196182121712103
+ 45 Unknown_Attribute       -OS---+  149   139   ---    -    112397040563104
+ 12 Power_Cycle_Count       POSR-K+  202   127   050    -    156825023186975
+118 Unknown_Attribute       PO-RC-+  173   127   ---    -    278971999905183
+253 Unknown_Attribute       P-SRCK+  152   237   ---    -    215859834000569
+116 Unknown_Attribute       -OS--K+  127   118   ---    -    146985117963203
+ 72 Unknown_Attribute       PO----+  190   156   ---    -    203161155319204
+ 43 Unknown_Attribute       --SRCK+  000   153   ---    -    152882712835548
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning
+
+General Purpose Log Directory Version 1
+SMART           Log Directory Version 1 [multi-sector log support]
+Address    Access  R/W   Size  Description
+0x00       GPL,SL  R/O      1  Log Directory
+0x01           SL  R/O      1  Summary SMART error log
+0x02           SL  R/O      1  Comprehensive SMART error log
+0x03       GPL     R/O      1  Ext. Comprehensive SMART error log
+0x04       GPL,SL  R/O      8  Device Statistics log
+0x06           SL  R/O      1  SMART self-test log
+0x07       GPL     R/O      1  Extended self-test log
+0x09           SL  R/W      1  Selective self-test log
+0x10       GPL     R/O      1  NCQ Command Error log
+0x11       GPL     R/O      1  SATA Phy Event Counters log
+0x30       GPL,SL  R/O      9  IDENTIFY DEVICE data log
+0x80-0x9f  GPL,SL  R/W     16  Host vendor specific log
+
+Warning! SMART Extended Comprehensive Error Log Structure error: invalid SMART checksum.
+SMART Extended Comprehensive Error Log Version: 1 (1 sectors)
+Invalid Error Log index = 0xccca (reserved = 0x9b)
+Device Error Count: 4664 (possibly also invalid)
+
+Warning! SMART Extended Self-test Log Structure error: invalid SMART checksum.
+SMART Extended Self-test Log Version: 1 (1 sectors)
+Invalid Self-test Log index = 0x0162 (reserved = 0x00)
+Selective Self-tests/Logging not supported
+
+SCT Commands not supported
+
+Device Statistics (GP Log 0x04)
+Page  Offset Size        Value Flags Description
+0x01  =====  =               =  ===  == General Statistics (rev 1) ==
+0x01  0x008  4       100664587  ---  Lifetime Power-On Resets
+0x01  0x010  4        16781792  ---  Power-on Hours
+0x01  0x018  6       558715301  ---  Logical Sectors Written
+0x01  0x020  6      3765113067  ---  Number of Write Commands
+0x01  0x028  6      3177030340  ---  Logical Sectors Read
+0x01  0x030  6      3098365573  ---  Number of Read Commands
+0x04  =====  =               =  ===  == General Errors Statistics (rev 1) ==
+0x04  0x008  4       436341762  ---  Number of Reported Uncorrectable Errors
+0x04  0x010  4      3916156721  ---  Resets Between Cmd Acceptance and Completion
+0x05  =====  =               =  ===  == Temperature Statistics (rev 1) ==
+0x05  0x008  1              40  ---  Current Temperature
+0x05  0x010  1              33  ---  Average Short Term Temperature
+0x05  0x018  1            -110  ---  Average Long Term Temperature
+0x05  0x020  1             -59  ---  Highest Temperature
+0x05  0x028  1              40  ---  Lowest Temperature
+0x05  0x030  1              -1  ---  Highest Average Short Term Temperature
+0x05  0x038  1               0  ---  Lowest Average Short Term Temperature
+0x05  0x040  1              -1  ---  Highest Average Long Term Temperature
+0x05  0x048  1               0  ---  Lowest Average Long Term Temperature
+0x05  0x050  4              64  ---  Time in Over-Temperature
+0x05  0x058  1             100  ---  Specified Maximum Operating Temperature
+0x05  0x060  4              16  ---  Time in Under-Temperature
+0x05  0x068  1               0  ---  Specified Minimum Operating Temperature
+0x06  =====  =               =  ===  == Transport Statistics (rev 1) ==
+0x06  0x008  4      1722464667  ---  Number of Hardware Resets
+0x06  0x018  4               0  ---  Number of Interface CRC Errors
+0x07  =====  =               =  ===  == Solid State Device Statistics (rev 1) ==
+0x07  0x008  1              51  ---  Percentage Used Endurance Indicator
+                                |||_ C monitored condition met
+                                ||__ D supports DSN
+                                |___ N normalized value
+
+Pending Defects log (GP Log 0x0c) not supported
+
+SATA Phy Event Counters (GP Log 0x11)
+ID      Size     Value  Description
+0x0001  2            0  Command failed due to ICRC error
+0x0002  2            0  R_ERR response for data FIS
+0x0003  2            0  R_ERR response for device-to-host data FIS
+0x0004  2            0  R_ERR response for host-to-device data FIS
+0x0005  2            0  R_ERR response for non-data FIS
+0x0006  2            0  R_ERR response for device-to-host non-data FIS
+0x0007  2            0  R_ERR response for host-to-device non-data FIS
+0x0008  2            0  Device-to-host non-data FIS retries
+0x0009  2            0  Transition from drive PhyRdy to drive PhyNRdy
+0x000a  2           32  Device-to-host register FISes sent due to a COMRESET
+0x000b  2            0  CRC errors within host-to-device FIS
+0x000d  2            0  Non-CRC errors within host-to-device FIS
+0x000f  2            0  R_ERR response for host-to-device data FIS, CRC
+0x0010  2            0  R_ERR response for host-to-device data FIS, non-CRC
+0x0012  2            0  R_ERR response for host-to-device non-data FIS, CRC
+0x0013  2            0  R_ERR response for host-to-device non-data FIS, non-CRC
+
